@@ -9,13 +9,13 @@
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/css.css" rel="stylesheet">
 
-        <script src="js/pkdb.js"></script>
-        <!-- <script src="js/jquery.js"></script>
+        <script src="js/db_pokedata.js"></script>
+        <script src="js/db_charge.js"></script>
+        <script src="js/db_quick.js"></script>
+
+        <script src="js/jquery.js"></script>
         <script src="js/misc.js"></script>
-        <script src="js/pve.js"></script>
-        <script src="js/pvp_team_manager.js"></script> -->
-		
-		
+        <script src="js/pvp_team_manager.js"></script>
 		
         <script>
             var colors = {
@@ -39,11 +39,14 @@
                 "Fighting": "#E04452",
             }
 			
-			for (var key in pokeDB) {
-			  console.log(key);
-			}
-
             $(document).ready( function () {
+
+                for (var key in pokeDB) {
+                    $("#pokemonList_slot1").append("<option>" + key + "</option>");
+                    $("#pokemonList_slot2").append("<option>" + key + "</option>");
+                    $("#pokemonList_slot3").append("<option>" + key + "</option>");
+                }
+
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
                 pokemonSelectSlot1.on('change', function(){
@@ -61,23 +64,6 @@
                 pokemonSelectSlot3.on('change', function(){
                     getPokemonData(this.value, this.id);
                 });
-
-                //PvE
-
-                var pkmPve = $('#pkmpve');
-                pkmPve.select2({
-                    width: 'resolve'
-                });
-                pkmPve.on('change', function(){
-                    $('#quick_move-pkmpve').html("<option>Quick</option>");
-                    $('#charge1_move-pkmpve').html("<option>Charge 1</option>");
-                    $('#charge2_move-pkmpve').html("<option>Charge 2</option>");
-                    getPokemonMoves(this.value);
-                });
-
-                $('#modalPkmPveAdd').on('hidden.bs.modal', function () {
-                    $(this).find('form').trigger('reset');
-                })
             });
         
         </script>
@@ -104,7 +90,6 @@
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
                             <select id="pokemonList_slot1" name="pokemonList_slot1">
                                 <option>-- Selecione um pokemon --</option>
-                                {LISTA}
                             </select>
                             <img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
@@ -195,7 +180,6 @@
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 2 -->
                             <select id="pokemonList_slot2" name="pokemonList_slot2">
                                 <option>-- Selecione um pokemon --</option>
-                                {LISTA}
                             </select>
                             <img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
@@ -286,7 +270,6 @@
                         <div class="card" style="width: 33%; "> <!-- Slot 3-->
                             <select id="pokemonList_slot3" name="pokemonList_slot3">
                                 <option>-- Selecione um pokemon --</option>
-                                {LISTA}
                             </select>
                             <img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
@@ -387,144 +370,3 @@
         <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
     </body>
 </html>
-	
-
-<div class="modal fade" id="modalPkmPveAdd" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveAdd" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalPkmPveAddLabel">Inserir Pokemon (PVE)</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="" method="post" role="form" class="form form-group " id="idpkmpve-form">
-                    <input type="hidden" name="idpkmpve" id="idpkmpve" >
-                    <div class="form-group row justify-content-center ">
-                        <select name="pkmpve" id="pkmpve"  style="width: 60%;">
-                            <option value="">Selecione um Pokemon</option>
-                            {LISTA}
-                        </select>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <select id="quick_move-pkmpve" name="quick_move-pkmpve">
-                            <option value="">Quick</option>
-                        </select>
-                        <select id="charge1_move-pkmpve" name="charge1_move-pkmpve">
-                            <option value="">Charge 1</option>
-                        </select>
-                        <select id="charge2_move-pkmpve" name="charge2_move-pkmpve">
-                            <option value="">Charge 2</option>
-                        </select>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-5">
-                            <input type="text" name="role" id="role" class="form-control form-control-sm"  placeholder="Role">
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-3">
-                            <input type="text" name="cp" id="cp" class="form-control form-control-sm"  placeholder="CP">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" name="lv" id="lv" class="form-control form-control-sm"  placeholder="Lv">
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-2">
-                            <input type="text" name="sta_iv" id="sta_iv" class="form-control form-control-sm" placeholder="StaIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="atk_iv" id="atk_iv" class="form-control form-control-sm" placeholder="AtkIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="def_iv" id="def_iv" class="form-control form-control-sm" placeholder="DefIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="percentage_iv" id="percentage_iv" class="form-control form-control-sm" placeholder="%IV" >
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success btn-sm save-btn">Salvar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="modalPkmPveDel" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveDel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalPkmPveDelLabel">Excluir Pokemon (PVE)</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                Tem certeza que quer excluir esse Pokemon PVE?
-                <form action="" method="post" role="form" class="form form-group " >
-                    <input type="hidden" name="idpkmpvedel" id="idpkmpvedel" >
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm del-btn">Excluir</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade" id="modalPkmPveEdt" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveEdt" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalPkmPveEdtLabel">Alterar Pokemon (PVE)</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="" method="post" role="form" class="form form-group " id ="idpkmpveedt-form">
-                    <input type="hidden" name="idpkmpveedt" id="idpkmpveedt" >
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-6">
-                            <input type="text" name="name_edt" id="name_edt" class="form-control form-control-sm"  placeholder="Name" disabled>
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-5">
-                            <input type="text" name="role_edt" id="role_edt" class="form-control form-control-sm"  placeholder="Role">
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-3">
-                            <input type="text" name="cp_edt" id="cp_edt" class="form-control form-control-sm"  placeholder="CP">
-                        </div>
-                        <div class="col-md-3">
-                            <input type="text" name="lv_edt" id="lv_edt" class="form-control form-control-sm"  placeholder="Lv">
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center ">
-                        <div class="col-md-2">
-                            <input type="text" name="sta_iv_edt" id="sta_iv_edt" class="form-control form-control-sm" placeholder="StaIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="atk_iv_edt" id="atk_iv_edt" class="form-control form-control-sm" placeholder="AtkIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="def_iv_edt" id="def_iv_edt" class="form-control form-control-sm" placeholder="DefIV" >
-                        </div>
-                        <div class="col-md-2">
-                            <input type="text" name="percentage_iv_edt" id="percentage_iv_edt" class="form-control form-control-sm" placeholder="%IV" >
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger btn-sm edt-btn">Editar</button>
-            </div>
-        </div>
-    </div>
-</div>
