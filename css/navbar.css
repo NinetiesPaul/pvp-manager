@@ -1,0 +1,14 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.selected{
+	border-bottom: 2px solid white;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+	margin-bottom: -2px;
+}

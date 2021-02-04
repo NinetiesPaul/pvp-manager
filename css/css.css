@@ -1,0 +1,92 @@
+/* General settings */
+
+strong{
+	font-size: 16px;
+}
+
+.mobile{
+    display: none;
+}
+
+/* separator styling */
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid lightgray;
+  margin-top: 4px;
+}
+
+.separator::before {
+  margin-right: .25em;
+}
+
+.separator::after {
+  margin-left: .25em;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* others */
+
+.full-pill {
+  width: 100%;
+}
+
+.defense_one_type_style-slot1, .defense_one_type_style-slot2, .defense_one_type_style-slot3{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.defense_typeA_style-slot1, .defense_typeA_style-slot2, .defense_typeA_style-slot3{
+  border-radius: 5px 0px 0px 5px;
+  text-align: right;
+  padding-right: 1em;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+}
+
+.defense_typeB_style-slot1, .defense_typeB_style-slot2, .defense_typeB_style-slot3{
+  border-radius: 0px 5px 5px 0px;
+  text-align: left;
+  padding-left: 1em;
+  color: white;
+  font-weight: bold;
+  width: 50%;
+}
+
+#quick_goodAgainst-slot1, #charge1_goodAgainst-slot1, #charge2_goodAgainst-slot1,
+#quick_weakAgainst-slot1, #charge1_weakAgainst-slot1, #charge2_weakAgainst-slot1,
+#quick_goodAgainst-slot2, #charge1_goodAgainst-slot2, #charge2_goodAgainst-slot2,
+#quick_weakAgainst-slot2, #charge1_weakAgainst-slot2, #charge2_weakAgainst-slot2,
+#quick_goodAgainst-slot3, #charge1_goodAgainst-slot3, #charge2_goodAgainst-slot3,
+#quick_weakAgainst-slot3, #charge1_weakAgainst-slot3, #charge2_weakAgainst-slot3{
+  display: none;
+}
+
+.goodAgainst{
+  color: white;
+  background-color: #63bd71;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.weakAgainst{
+  color: white;
+  background-color: #bd6363;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.move_type_image_icon{
+  width: 20%;
+}

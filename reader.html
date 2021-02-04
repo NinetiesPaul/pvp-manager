@@ -1,0 +1,530 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+        <link href="css/glyphicons.css" rel="stylesheet">
+        <link href="css/navbar.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
+
+        <script src="js/pkdb.js"></script>
+        <!-- <script src="js/jquery.js"></script>
+        <script src="js/misc.js"></script>
+        <script src="js/pve.js"></script>
+        <script src="js/pvp_team_manager.js"></script> -->
+		
+		
+		
+        <script>
+            var colors = {
+                "Normal": "#9BA0A0",
+                "Grass": "#5DBC66",
+                "Water": "#5FA9DC",
+                "Dark": "#6C7180",
+                "Rock": "#D3C891",
+                "Poison": "#B762CE",
+                "Ground": "#D68858",
+                "Fairy": "#EF9AE2",
+                "Psychic": "#FA8281",
+                "Steel": "#559DA5",
+                "Ghost": "#6A6EC4",
+                "Bug": "#A5C731",
+                "Fire": "#FFA74E",
+                "Flying": "#9AB4E4",
+                "Dragon": "#0780BD",
+                "Ice": "#84D6CC",
+                "Electric": "#F8DD64",
+                "Fighting": "#E04452",
+            }
+			
+			for (var key in pokeDB) {
+			  console.log(key);
+			}
+
+            $(document).ready( function () {
+                var pokemonSelectSlot1 = $('#pokemonList_slot1');
+                pokemonSelectSlot1.select2();
+                pokemonSelectSlot1.on('change', function(){
+                    getPokemonData(this.value, this.id);
+                });
+
+                var pokemonSelectSlot2 = $('#pokemonList_slot2');
+                pokemonSelectSlot2.select2();
+                pokemonSelectSlot2.on('change', function(){
+                    getPokemonData(this.value, this.id);
+                });
+
+                var pokemonSelectSlot3 = $('#pokemonList_slot3');
+                pokemonSelectSlot3.select2();
+                pokemonSelectSlot3.on('change', function(){
+                    getPokemonData(this.value, this.id);
+                });
+
+                //PvE
+
+                var pkmPve = $('#pkmpve');
+                pkmPve.select2({
+                    width: 'resolve'
+                });
+                pkmPve.on('change', function(){
+                    $('#quick_move-pkmpve').html("<option>Quick</option>");
+                    $('#charge1_move-pkmpve').html("<option>Charge 1</option>");
+                    $('#charge2_move-pkmpve').html("<option>Charge 2</option>");
+                    getPokemonMoves(this.value);
+                });
+
+                $('#modalPkmPveAdd').on('hidden.bs.modal', function () {
+                    $(this).find('form').trigger('reset');
+                })
+            });
+        
+        </script>
+
+        <title>PGO Manager</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">PGO Manager</a>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron text-center" style="min-height: 40em;">
+
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
+
+                        <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
+                            <select id="pokemonList_slot1" name="pokemonList_slot1">
+                                <option>-- Selecione um pokemon --</option>
+                                {LISTA}
+                            </select>
+                            <img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="(pokemon image)">
+                            <div class="card-body">
+                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                    <tr>
+                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge badge-pill full-pill" id="atk-slot1">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="def-slot1">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="sta-slot1">&nbsp;</span></td>
+                                    </tr>
+                                </table>
+                                <p class="separator">Attack</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <select id="quick_move-slot1" name="quick_move-slot1" class="custom-select">
+                                                    <option>-- Quick  --</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td rowspan="2" id="quick_move_type-slot1" class="move_type_image_icon">
+
+                                            </td>
+                                            <td id="quick_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td id="quick_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select">
+                                                    <option>-- Charge I  --</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td rowspan="2" id="charge1_move_type-slot1" class="move_type_image_icon">
+
+                                            </td>
+                                            <td id="charge1_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td id="charge1_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select">
+                                                    <option>-- Charge II  --</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td rowspan="2" id="charge2_move_type-slot1" class="move_type_image_icon">
+
+                                            </td>
+                                            <td id="charge2_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        </tr>
+                                        <tr style="font-size: 0.7em;" >
+                                            <td id="charge2_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p class="separator">Defense</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                        <tr class="defense_type_row-slot1">
+                                            <td class="defense_typeA-slot1">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td><small><b>Resistant To</b></small></td>
+                                            <td><small><b>Vulnerable To</b></small></td>
+                                        </tr>
+                                        <tr valign="top" style="font-size: 0.7em;">
+                                            <td class="resistant_to-slot1"></td>
+                                            <td class="vulnerable_to-slot1"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 33%; float: left"> <!-- Slot 2 -->
+                            <select id="pokemonList_slot2" name="pokemonList_slot2">
+                                <option>-- Selecione um pokemon --</option>
+                                {LISTA}
+                            </select>
+                            <img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="(pokemon image)">
+                            <div class="card-body">
+                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                    <tr>
+                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge badge-pill full-pill" id="atk-slot2">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="def-slot2">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="sta-slot2">&nbsp;</span></td>
+                                    </tr>
+                                </table>
+                                <p class="separator">Attack</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select">
+                                                <option>-- Quick  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="quick_move_type-slot2" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="quick_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="quick_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select">
+                                                <option>-- Charge I  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="charge1_move_type-slot2" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="charge1_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge1_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select">
+                                                <option>-- Charge II  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="charge2_move_type-slot2" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="charge2_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge2_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <p class="separator">Defense</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                    <tr class="defense_type_row-slot2">
+                                        <td class="defense_typeA-slot2">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><small><b>Resistant To</b></small></td>
+                                        <td><small><b>Vulnerable To</b></small></td>
+                                    </tr>
+                                    <tr valign="top" style="font-size: 0.7em;">
+                                        <td class="resistant_to-slot2"></td>
+                                        <td class="vulnerable_to-slot2"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 33%; "> <!-- Slot 3-->
+                            <select id="pokemonList_slot3" name="pokemonList_slot3">
+                                <option>-- Selecione um pokemon --</option>
+                                {LISTA}
+                            </select>
+                            <img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="(pokemon image)">
+                            <div class="card-body">
+                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                    <tr>
+                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="badge badge-pill full-pill" id="atk-slot3">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="def-slot3">&nbsp;</span></td>
+                                        <td><span class="badge badge-pill full-pill" id="sta-slot3">&nbsp;</span></td>
+                                    </tr>
+                                </table>
+                                <p class="separator">Attack</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select">
+                                                <option>-- Quick  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="quick_move_type-slot3" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="quick_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="quick_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select">
+                                                <option>-- Charge I  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="charge1_move_type-slot3" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="charge1_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge1_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select">
+                                                <option>-- Charge II  --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="charge2_move_type-slot3" class="move_type_image_icon">
+
+                                        </td>
+                                        <td id="charge2_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge2_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <p class="separator">Defense</p>
+                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                    <tbody>
+                                    <tr class="defense_type_row-slot3">
+                                        <td class="defense_typeA-slot3">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><small><b>Resistant To</b></small></td>
+                                        <td><small><b>Vulnerable To</b></small></td>
+                                    </tr>
+                                    <tr valign="top" style="font-size: 0.7em;">
+                                        <td class="resistant_to-slot3"></td>
+                                        <td class="vulnerable_to-slot3"></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>		
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    </body>
+</html>
+	
+
+<div class="modal fade" id="modalPkmPveAdd" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveAdd" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalPkmPveAddLabel">Inserir Pokemon (PVE)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post" role="form" class="form form-group " id="idpkmpve-form">
+                    <input type="hidden" name="idpkmpve" id="idpkmpve" >
+                    <div class="form-group row justify-content-center ">
+                        <select name="pkmpve" id="pkmpve"  style="width: 60%;">
+                            <option value="">Selecione um Pokemon</option>
+                            {LISTA}
+                        </select>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <select id="quick_move-pkmpve" name="quick_move-pkmpve">
+                            <option value="">Quick</option>
+                        </select>
+                        <select id="charge1_move-pkmpve" name="charge1_move-pkmpve">
+                            <option value="">Charge 1</option>
+                        </select>
+                        <select id="charge2_move-pkmpve" name="charge2_move-pkmpve">
+                            <option value="">Charge 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-5">
+                            <input type="text" name="role" id="role" class="form-control form-control-sm"  placeholder="Role">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-3">
+                            <input type="text" name="cp" id="cp" class="form-control form-control-sm"  placeholder="CP">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="lv" id="lv" class="form-control form-control-sm"  placeholder="Lv">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-2">
+                            <input type="text" name="sta_iv" id="sta_iv" class="form-control form-control-sm" placeholder="StaIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="atk_iv" id="atk_iv" class="form-control form-control-sm" placeholder="AtkIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="def_iv" id="def_iv" class="form-control form-control-sm" placeholder="DefIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="percentage_iv" id="percentage_iv" class="form-control form-control-sm" placeholder="%IV" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success btn-sm save-btn">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPkmPveDel" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveDel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalPkmPveDelLabel">Excluir Pokemon (PVE)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Tem certeza que quer excluir esse Pokemon PVE?
+                <form action="" method="post" role="form" class="form form-group " >
+                    <input type="hidden" name="idpkmpvedel" id="idpkmpvedel" >
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sm del-btn">Excluir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalPkmPveEdt" tabindex="-1" role="dialog" aria-labelledby="modalPkmPveEdt" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalPkmPveEdtLabel">Alterar Pokemon (PVE)</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" method="post" role="form" class="form form-group " id ="idpkmpveedt-form">
+                    <input type="hidden" name="idpkmpveedt" id="idpkmpveedt" >
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-6">
+                            <input type="text" name="name_edt" id="name_edt" class="form-control form-control-sm"  placeholder="Name" disabled>
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-5">
+                            <input type="text" name="role_edt" id="role_edt" class="form-control form-control-sm"  placeholder="Role">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-3">
+                            <input type="text" name="cp_edt" id="cp_edt" class="form-control form-control-sm"  placeholder="CP">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="lv_edt" id="lv_edt" class="form-control form-control-sm"  placeholder="Lv">
+                        </div>
+                    </div>
+                    <div class="form-group row justify-content-center ">
+                        <div class="col-md-2">
+                            <input type="text" name="sta_iv_edt" id="sta_iv_edt" class="form-control form-control-sm" placeholder="StaIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="atk_iv_edt" id="atk_iv_edt" class="form-control form-control-sm" placeholder="AtkIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="def_iv_edt" id="def_iv_edt" class="form-control form-control-sm" placeholder="DefIV" >
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" name="percentage_iv_edt" id="percentage_iv_edt" class="form-control form-control-sm" placeholder="%IV" >
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sm edt-btn">Editar</button>
+            </div>
+        </div>
+    </div>
+</div>
