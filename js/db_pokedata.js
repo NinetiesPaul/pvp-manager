@@ -22,6 +22,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 1,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -61,6 +62,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 1,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -100,6 +102,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 2,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -139,6 +142,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 2,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -179,6 +183,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 3,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -219,6 +224,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 3,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -257,6 +263,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 4,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -295,6 +302,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 4,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -334,6 +342,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 5,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -373,6 +382,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 5,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -417,6 +427,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 6,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -462,6 +473,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 6,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -501,6 +513,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 7,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -536,6 +549,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 7,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -571,6 +585,7 @@ var pokeDB = {
                 "Hydro Pump"
             ]
         },
+        "imgurl": 8,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -606,6 +621,7 @@ var pokeDB = {
                 "Hydro Pump"
             ]
         },
+        "imgurl": 8,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -643,6 +659,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 9,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -680,6 +697,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 9,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -713,6 +731,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 10,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -746,6 +765,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 11,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -783,6 +803,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 12,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -820,6 +841,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 13,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -857,6 +879,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 13,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -894,6 +917,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 14,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -931,6 +955,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 14,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -973,6 +998,7 @@ var pokeDB = {
                 "Drill Run"
             ]
         },
+        "imgurl": 15,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -1015,6 +1041,7 @@ var pokeDB = {
                 "Drill Run"
             ]
         },
+        "imgurl": 15,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -1054,6 +1081,7 @@ var pokeDB = {
                 "Air Cutter"
             ]
         },
+        "imgurl": 16,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -1091,6 +1119,7 @@ var pokeDB = {
                 "Air Cutter"
             ]
         },
+        "imgurl": 17,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -1131,6 +1160,7 @@ var pokeDB = {
                 "Air Cutter"
             ]
         },
+        "imgurl": 18,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -1168,6 +1198,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 10091,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -1203,6 +1234,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 19,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -1234,6 +1266,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 19,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -1266,6 +1299,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 10092,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -1301,6 +1335,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 20,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -1332,6 +1367,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 20,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -1365,6 +1401,7 @@ var pokeDB = {
                 "Twister"
             ]
         },
+        "imgurl": 21,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -1403,6 +1440,7 @@ var pokeDB = {
                 "Twister"
             ]
         },
+        "imgurl": 22,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -1440,6 +1478,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 23,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -1477,6 +1516,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 23,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -1515,6 +1555,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 24,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -1553,6 +1594,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 24,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -1592,6 +1634,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 25,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -1628,6 +1671,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 10100,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -1670,6 +1714,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 26,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -1704,6 +1749,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 10101,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -1746,6 +1792,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 27,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -1782,6 +1829,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 27,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -1819,6 +1867,7 @@ var pokeDB = {
                 "Ice Punch"
             ]
         },
+        "imgurl": 10102,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -1860,6 +1909,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 28,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -1895,6 +1945,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 28,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -1930,6 +1981,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 29,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -1966,6 +2018,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 29,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2002,6 +2055,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 30,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2038,6 +2092,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 30,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2076,6 +2131,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 31,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2117,6 +2173,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 31,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2156,6 +2213,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 32,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2192,6 +2250,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 32,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2228,6 +2287,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 33,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2264,6 +2324,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 33,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2303,6 +2364,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 34,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2345,6 +2407,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 34,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2384,6 +2447,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 35,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -2422,6 +2486,7 @@ var pokeDB = {
                 "Meteor Mash"
             ]
         },
+        "imgurl": 36,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -2458,6 +2523,7 @@ var pokeDB = {
                 "Weather Ball Ice"
             ]
         },
+        "imgurl": 10103,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -2493,6 +2559,7 @@ var pokeDB = {
                 "Weather Ball Fire"
             ]
         },
+        "imgurl": 37,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2532,6 +2599,7 @@ var pokeDB = {
                 "Weather Ball Fire"
             ]
         },
+        "imgurl": 37,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2574,6 +2642,7 @@ var pokeDB = {
                 "Weather Ball Ice"
             ]
         },
+        "imgurl": 10104,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -2616,6 +2685,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 38,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2659,6 +2729,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 38,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -2700,6 +2771,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 39,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -2738,6 +2810,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 40,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -2775,6 +2848,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 41,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -2816,6 +2890,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 41,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -2857,6 +2932,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 42,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -2898,6 +2974,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 42,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -2938,6 +3015,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 43,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -2977,6 +3055,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 43,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3016,6 +3095,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 44,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3055,6 +3135,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 44,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3095,6 +3176,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 45,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3135,6 +3217,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 45,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3174,6 +3257,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 46,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -3216,6 +3300,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 47,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -3257,6 +3342,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 48,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3296,6 +3382,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 48,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3337,6 +3424,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 49,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3378,6 +3466,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 49,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -3417,6 +3506,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 10105,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -3460,6 +3550,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 50,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -3495,6 +3586,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 50,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -3531,6 +3623,7 @@ var pokeDB = {
                 "Iron Head"
             ]
         },
+        "imgurl": 10106,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -3574,6 +3667,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 51,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -3609,6 +3703,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 51,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -3644,6 +3739,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 10107,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -3679,6 +3775,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 10158,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -3723,6 +3820,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 52,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -3755,6 +3853,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 52,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -3786,6 +3885,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 10108,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -3822,6 +3922,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 53,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -3854,6 +3955,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 53,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -3885,6 +3987,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 54,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -3920,6 +4023,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 54,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -3958,6 +4062,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 55,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -3996,6 +4101,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 55,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4031,6 +4137,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 56,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4069,6 +4176,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 57,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4104,6 +4212,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 58,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -4142,6 +4251,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 58,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -4184,6 +4294,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 59,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -4226,6 +4337,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 59,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -4264,6 +4376,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 60,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4299,6 +4412,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 60,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4335,6 +4449,7 @@ var pokeDB = {
                 "Scald"
             ]
         },
+        "imgurl": 61,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4371,6 +4486,7 @@ var pokeDB = {
                 "Scald"
             ]
         },
+        "imgurl": 61,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4410,6 +4526,7 @@ var pokeDB = {
                 "Submission"
             ]
         },
+        "imgurl": 62,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4455,6 +4572,7 @@ var pokeDB = {
                 "Submission"
             ]
         },
+        "imgurl": 62,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -4496,6 +4614,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 63,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4530,6 +4649,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 63,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4564,6 +4684,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 64,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4598,6 +4719,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 64,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4636,6 +4758,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 65,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4674,6 +4797,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 65,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -4709,6 +4833,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 66,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4745,6 +4870,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 66,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4781,6 +4907,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 67,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4817,6 +4944,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 67,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4858,6 +4986,7 @@ var pokeDB = {
                 "Payback"
             ]
         },
+        "imgurl": 68,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4899,6 +5028,7 @@ var pokeDB = {
                 "Payback"
             ]
         },
+        "imgurl": 68,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -4935,6 +5065,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 69,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -4974,6 +5105,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 69,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -5014,6 +5146,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 70,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -5054,6 +5187,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 70,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -5095,6 +5229,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 71,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -5136,6 +5271,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 71,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -5175,6 +5311,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 72,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -5217,6 +5354,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 73,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -5258,6 +5396,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 10109,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5297,6 +5436,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 74,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5339,6 +5479,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 74,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5381,6 +5522,7 @@ var pokeDB = {
                 "Rock Blast"
             ]
         },
+        "imgurl": 10110,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5421,6 +5563,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 75,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5464,6 +5607,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 75,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5506,6 +5650,7 @@ var pokeDB = {
                 "Wild Charge"
             ]
         },
+        "imgurl": 10111,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5546,6 +5691,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 76,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5589,6 +5735,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 76,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -5630,6 +5777,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 10159,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -5665,6 +5813,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 77,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -5704,6 +5853,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 77,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -5744,6 +5894,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 10160,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -5782,6 +5933,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 78,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -5823,6 +5975,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 78,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -5862,6 +6015,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 79,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -5903,6 +6057,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 79,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -5944,6 +6099,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 80,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -5985,6 +6141,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 80,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -6026,6 +6183,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 81,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -6071,6 +6229,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 81,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -6118,6 +6277,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 82,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -6165,6 +6325,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 82,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -6187,7 +6348,7 @@ var pokeDB = {
             }
         }
     },
-    "Galarian Farfetch’d": {
+    "Galarian Farfetch'd": {
         "id": "083",
         "stats": {
             "atk": 174,
@@ -6197,7 +6358,7 @@ var pokeDB = {
         "type": [
             "Fighting"
         ],
-        "name": "Galarian Farfetch\u2019d",
+        "name": "Galarian Farfetch'd",
         "moveset": {
             "quick": [
                 "Rock Smash",
@@ -6209,6 +6370,7 @@ var pokeDB = {
                 "Leaf Blade"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -6222,7 +6384,7 @@ var pokeDB = {
             }
         }
     },
-    "Farfetch’d": {
+    "Farfetch'd": {
         "id": "083",
         "stats": {
             "atk": 124,
@@ -6233,7 +6395,7 @@ var pokeDB = {
             "Normal",
             "Flying"
         ],
-        "name": "Farfetch\u2019d",
+        "name": "Farfetch'd",
         "moveset": {
             "quick": [
                 "Air Slash",
@@ -6246,6 +6408,7 @@ var pokeDB = {
                 "Leaf Blade"
             ]
         },
+        "imgurl": 83,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6260,7 +6423,7 @@ var pokeDB = {
             }
         }
     },
-    "Shadow Farfetch’d": {
+    "Shadow Farfetch'd": {
         "id": "083",
         "stats": {
             "atk": 124,
@@ -6271,7 +6434,7 @@ var pokeDB = {
             "Normal",
             "Flying"
         ],
-        "name": "Shadow Farfetch\u2019d",
+        "name": "Shadow Farfetch'd",
         "moveset": {
             "quick": [
                 "Air Slash",
@@ -6284,6 +6447,7 @@ var pokeDB = {
                 "Leaf Blade"
             ]
         },
+        "imgurl": 83,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6322,6 +6486,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 84,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6360,6 +6525,7 @@ var pokeDB = {
                 "Air Cutter"
             ]
         },
+        "imgurl": 85,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6398,6 +6564,7 @@ var pokeDB = {
                 "Aqua Jet"
             ]
         },
+        "imgurl": 86,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6437,6 +6604,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 87,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6473,6 +6641,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 10112,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -6508,6 +6677,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 88,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -6544,6 +6714,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 88,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -6583,6 +6754,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 10113,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -6621,6 +6793,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 89,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -6660,6 +6833,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 89,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -6696,6 +6870,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 90,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6731,6 +6906,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 90,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6769,6 +6945,7 @@ var pokeDB = {
                 "Blizzard"
             ]
         },
+        "imgurl": 91,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6807,6 +6984,7 @@ var pokeDB = {
                 "Blizzard"
             ]
         },
+        "imgurl": 91,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -6845,6 +7023,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 92,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -6887,6 +7066,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 93,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -6933,6 +7113,7 @@ var pokeDB = {
                 "Shadow Punch"
             ]
         },
+        "imgurl": 94,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -6975,6 +7156,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 95,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -7019,6 +7201,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 95,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -7060,6 +7243,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 96,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -7094,6 +7278,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 96,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -7133,6 +7318,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 97,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -7172,6 +7358,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 97,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -7206,6 +7393,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 98,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -7241,6 +7429,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 98,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -7278,6 +7467,7 @@ var pokeDB = {
                 "Crabhammer"
             ]
         },
+        "imgurl": 99,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -7315,6 +7505,7 @@ var pokeDB = {
                 "Crabhammer"
             ]
         },
+        "imgurl": 99,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -7351,6 +7542,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 100,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -7386,6 +7578,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 101,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -7420,6 +7613,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 102,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -7463,6 +7657,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 102,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -7506,6 +7701,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 10114,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -7548,6 +7744,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 103,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -7593,6 +7790,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 103,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -7635,6 +7833,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 104,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -7670,6 +7869,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 104,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -7709,6 +7909,7 @@ var pokeDB = {
                 "Shadow Bone"
             ]
         },
+        "imgurl": 10115,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -7752,6 +7953,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 105,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -7787,6 +7989,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 105,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -7824,6 +8027,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 106,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -7861,6 +8065,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 106,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -7900,6 +8105,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 107,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -7939,6 +8145,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 107,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -7975,6 +8182,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 108,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -8006,6 +8214,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 109,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -8042,6 +8251,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 109,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -8080,6 +8290,7 @@ var pokeDB = {
                 "Overheat"
             ]
         },
+        "imgurl": 10164,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -8119,6 +8330,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 110,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -8156,6 +8368,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 110,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -8193,6 +8406,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 111,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -8235,6 +8449,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 111,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -8278,6 +8493,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 112,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -8321,6 +8537,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 112,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -8362,6 +8579,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 113,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -8394,6 +8612,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 114,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -8435,6 +8654,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 115,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -8469,6 +8689,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 115,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -8500,6 +8721,7 @@ var pokeDB = {
                 "Flash Cannon"
             ]
         },
+        "imgurl": 116,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8536,6 +8758,7 @@ var pokeDB = {
                 "Blizzard"
             ]
         },
+        "imgurl": 117,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8571,6 +8794,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 118,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8609,6 +8833,7 @@ var pokeDB = {
                 "Drill Run"
             ]
         },
+        "imgurl": 119,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8644,6 +8869,7 @@ var pokeDB = {
                 "Power Gem"
             ]
         },
+        "imgurl": 120,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8683,6 +8909,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 121,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -8724,6 +8951,7 @@ var pokeDB = {
                 "Ice Punch"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -8762,6 +8990,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 122,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -8798,6 +9027,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 122,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -8836,6 +9066,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 123,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8877,6 +9108,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 123,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -8919,6 +9151,7 @@ var pokeDB = {
                 "Ice Punch"
             ]
         },
+        "imgurl": 124,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -8956,6 +9189,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 125,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -8989,6 +9223,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 125,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -9022,6 +9257,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 126,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -9060,6 +9296,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 126,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -9101,6 +9338,7 @@ var pokeDB = {
                 "Submission"
             ]
         },
+        "imgurl": 127,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -9139,6 +9377,7 @@ var pokeDB = {
                 "Submission"
             ]
         },
+        "imgurl": 127,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -9174,6 +9413,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 128,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -9202,6 +9442,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 129,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9234,6 +9475,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 129,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9275,6 +9517,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 130,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -9318,6 +9561,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 130,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -9360,6 +9604,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 131,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9400,6 +9645,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 131,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9432,6 +9678,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 132,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -9464,6 +9711,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 133,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -9495,6 +9743,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 134,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9531,6 +9780,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 135,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -9566,6 +9816,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 136,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -9609,6 +9860,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 137,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -9645,6 +9897,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 137,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -9679,6 +9932,7 @@ var pokeDB = {
                 "Brine"
             ]
         },
+        "imgurl": 138,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9720,6 +9974,7 @@ var pokeDB = {
                 "Brine"
             ]
         },
+        "imgurl": 138,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9761,6 +10016,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 139,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9802,6 +10058,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 139,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9841,6 +10098,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 140,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9880,6 +10138,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 140,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9921,6 +10180,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 141,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -9962,6 +10222,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 141,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10004,6 +10265,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 142,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10048,6 +10310,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 142,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10093,6 +10356,7 @@ var pokeDB = {
                 "Super Power"
             ]
         },
+        "imgurl": 143,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -10129,6 +10393,7 @@ var pokeDB = {
                 "Super Power"
             ]
         },
+        "imgurl": 143,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -10163,6 +10428,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 144,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10202,6 +10468,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 144,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10241,6 +10508,7 @@ var pokeDB = {
                 "Drill Peck"
             ]
         },
+        "imgurl": 145,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "160%",
@@ -10281,6 +10549,7 @@ var pokeDB = {
                 "Drill Peck"
             ]
         },
+        "imgurl": 145,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "160%",
@@ -10321,6 +10590,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 146,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10363,6 +10633,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 146,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -10402,6 +10673,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 147,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10438,6 +10710,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 147,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10474,6 +10747,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 148,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10510,6 +10784,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 148,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10551,6 +10826,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 149,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10595,6 +10871,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 149,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -10636,6 +10913,7 @@ var pokeDB = {
                 "Psystrike"
             ]
         },
+        "imgurl": 150,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10675,6 +10953,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 150,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10714,6 +10993,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 150,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10782,6 +11062,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 151,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10816,6 +11097,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 152,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10854,6 +11136,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 153,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10893,6 +11176,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 154,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -10931,6 +11215,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 155,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -10969,6 +11254,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 156,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -11009,6 +11295,7 @@ var pokeDB = {
                 "Blast Burn"
             ]
         },
+        "imgurl": 157,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -11047,6 +11334,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 158,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11082,6 +11370,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 159,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11120,6 +11409,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 160,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11155,6 +11445,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 161,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -11186,6 +11477,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 162,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -11218,6 +11510,7 @@ var pokeDB = {
                 "Night Shade"
             ]
         },
+        "imgurl": 163,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11255,6 +11548,7 @@ var pokeDB = {
                 "Night Shade"
             ]
         },
+        "imgurl": 164,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11292,6 +11586,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 165,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11331,6 +11626,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 166,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11370,6 +11666,7 @@ var pokeDB = {
                 "Cross Poison"
             ]
         },
+        "imgurl": 167,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -11409,6 +11706,7 @@ var pokeDB = {
                 "Cross Poison"
             ]
         },
+        "imgurl": 168,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -11448,6 +11746,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 169,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11488,6 +11787,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 169,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11528,6 +11828,7 @@ var pokeDB = {
                 "Bubble Beam"
             ]
         },
+        "imgurl": 170,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -11566,6 +11867,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 171,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -11601,6 +11903,7 @@ var pokeDB = {
                 "Thunder Punch"
             ]
         },
+        "imgurl": 172,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -11636,6 +11939,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 173,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -11673,6 +11977,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 174,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -11709,6 +12014,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 175,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -11747,6 +12053,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 176,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -11788,6 +12095,7 @@ var pokeDB = {
                 "Drill Peck"
             ]
         },
+        "imgurl": 177,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -11827,6 +12135,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 178,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -11865,6 +12174,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 179,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -11898,6 +12208,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 179,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -11931,6 +12242,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 180,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -11964,6 +12276,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 180,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -12000,6 +12313,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 181,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -12036,6 +12350,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 181,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -12070,6 +12385,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 182,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12109,6 +12425,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 182,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12148,6 +12465,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 183,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -12188,6 +12506,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 184,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -12227,6 +12546,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 185,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -12267,6 +12587,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 186,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -12304,6 +12625,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 186,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -12340,6 +12662,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 187,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12379,6 +12702,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 187,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12418,6 +12742,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 188,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12457,6 +12782,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 188,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12497,6 +12823,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 189,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12537,6 +12864,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 189,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -12575,6 +12903,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 190,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -12606,6 +12935,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 190,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -12637,6 +12967,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 191,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12675,6 +13006,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 192,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12714,6 +13046,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 193,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -12753,6 +13086,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 194,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -12789,6 +13123,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 194,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -12826,6 +13161,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 195,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -12863,6 +13199,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 195,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -12899,6 +13236,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 196,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12933,6 +13271,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 197,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -12969,6 +13308,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 198,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -13008,6 +13348,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 198,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -13047,6 +13388,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 199,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13088,6 +13430,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 199,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13128,6 +13471,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 200,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -13163,6 +13507,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 200,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -13195,6 +13540,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 201,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13228,6 +13574,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 202,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13261,6 +13608,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 202,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13296,6 +13644,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 203,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -13329,6 +13678,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 204,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -13364,6 +13714,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 204,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -13402,6 +13753,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 205,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -13444,6 +13796,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 205,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -13483,6 +13836,7 @@ var pokeDB = {
                 "Drill Run"
             ]
         },
+        "imgurl": 206,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -13515,6 +13869,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 207,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "256%",
@@ -13552,6 +13907,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 207,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "256%",
@@ -13590,6 +13946,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 208,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -13635,6 +13992,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 208,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -13678,6 +14036,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 209,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -13714,6 +14073,7 @@ var pokeDB = {
                 "Close Combat"
             ]
         },
+        "imgurl": 210,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -13752,6 +14112,7 @@ var pokeDB = {
                 "Fell Stinger"
             ]
         },
+        "imgurl": 211,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -13793,6 +14154,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 212,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -13833,6 +14195,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 212,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -13873,6 +14236,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 213,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -13908,6 +14272,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 213,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -13943,6 +14308,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 214,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -13982,6 +14348,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 215,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -14022,6 +14389,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 215,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -14061,6 +14429,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 216,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14092,6 +14461,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 216,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14124,6 +14494,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 217,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14156,6 +14527,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 217,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14187,6 +14559,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 218,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -14226,6 +14599,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 219,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14267,6 +14641,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 220,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14304,6 +14679,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 221,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14341,6 +14717,7 @@ var pokeDB = {
                 "Bubble Beam"
             ]
         },
+        "imgurl": 222,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14379,6 +14756,7 @@ var pokeDB = {
                 "Rock Blast"
             ]
         },
+        "imgurl": 223,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14416,6 +14794,7 @@ var pokeDB = {
                 "Octazooka"
             ]
         },
+        "imgurl": 224,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14451,6 +14830,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 225,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14487,6 +14867,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 225,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14526,6 +14907,7 @@ var pokeDB = {
                 "Bubble Beam"
             ]
         },
+        "imgurl": 226,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -14564,6 +14946,7 @@ var pokeDB = {
                 "Flash Cannon"
             ]
         },
+        "imgurl": 227,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14606,6 +14989,7 @@ var pokeDB = {
                 "Flash Cannon"
             ]
         },
+        "imgurl": 227,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -14648,6 +15032,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 228,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14689,6 +15074,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 228,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14731,6 +15117,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 229,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14773,6 +15160,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 229,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -14816,6 +15204,7 @@ var pokeDB = {
                 "Octazooka"
             ]
         },
+        "imgurl": 230,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -14850,6 +15239,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 231,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -14887,6 +15277,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 232,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -14924,6 +15315,7 @@ var pokeDB = {
                 "Tri Attack"
             ]
         },
+        "imgurl": 233,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14957,6 +15349,7 @@ var pokeDB = {
                 "Tri Attack"
             ]
         },
+        "imgurl": 233,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -14988,6 +15381,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 234,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -15019,6 +15413,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 234,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -15043,6 +15438,7 @@ var pokeDB = {
             "quick": [],
             "charge": []
         },
+        "imgurl": 235,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -15074,6 +15470,7 @@ var pokeDB = {
                 "Low Sweep"
             ]
         },
+        "imgurl": 236,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -15109,6 +15506,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 237,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -15146,6 +15544,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 238,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -15184,6 +15583,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 239,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -15218,6 +15618,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 240,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -15258,6 +15659,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 241,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -15289,6 +15691,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 242,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -15321,6 +15724,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 243,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -15355,6 +15759,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 243,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -15390,6 +15795,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 244,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -15430,6 +15836,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 244,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -15471,6 +15878,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 245,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -15509,6 +15917,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 245,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -15545,6 +15954,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 246,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -15587,6 +15997,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 246,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -15629,6 +16040,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 247,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -15671,6 +16083,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 247,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -15714,6 +16127,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 248,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -15759,6 +16173,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 248,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -15804,6 +16219,7 @@ var pokeDB = {
                 "Aeroblast"
             ]
         },
+        "imgurl": 249,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -15846,6 +16262,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 250,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -15887,6 +16304,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 251,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -15929,6 +16347,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 252,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -15967,6 +16386,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 253,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16007,6 +16427,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 254,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16045,6 +16466,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 255,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -16084,6 +16506,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 256,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -16127,6 +16550,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 257,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -16166,6 +16590,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 258,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -16201,6 +16626,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 258,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -16237,6 +16663,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 259,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -16273,6 +16700,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 259,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -16311,6 +16739,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 260,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -16349,6 +16778,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 260,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -16384,6 +16814,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 261,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16421,6 +16852,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 262,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16457,6 +16889,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 10171,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16492,6 +16925,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 263,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -16523,6 +16957,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 263,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -16555,6 +16990,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 10172,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16590,6 +17026,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 264,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -16621,6 +17058,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 264,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -16650,6 +17088,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 265,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -16683,6 +17122,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 266,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -16719,6 +17159,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 267,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -16755,6 +17196,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 268,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -16791,6 +17233,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 269,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -16829,6 +17272,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 270,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16865,6 +17309,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 271,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16903,6 +17348,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 272,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16938,6 +17384,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 273,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -16976,6 +17423,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 273,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -17015,6 +17463,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 274,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -17059,6 +17508,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 274,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -17106,6 +17556,7 @@ var pokeDB = {
                 "Leaf Tornado"
             ]
         },
+        "imgurl": 275,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -17153,6 +17604,7 @@ var pokeDB = {
                 "Leaf Tornado"
             ]
         },
+        "imgurl": 275,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -17195,6 +17647,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 276,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -17232,6 +17685,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 277,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -17269,6 +17723,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 278,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -17308,6 +17763,7 @@ var pokeDB = {
                 "Weather Ball Water"
             ]
         },
+        "imgurl": 279,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -17346,6 +17802,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 280,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17382,6 +17839,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 280,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17418,6 +17876,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 281,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17454,6 +17913,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 281,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17492,6 +17952,7 @@ var pokeDB = {
                 "Synchronoise"
             ]
         },
+        "imgurl": 282,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17530,6 +17991,7 @@ var pokeDB = {
                 "Synchronoise"
             ]
         },
+        "imgurl": 282,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -17566,6 +18028,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 283,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -17606,6 +18069,7 @@ var pokeDB = {
                 "Lunge"
             ]
         },
+        "imgurl": 284,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -17644,6 +18108,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 285,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -17684,6 +18149,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 286,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -17724,6 +18190,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 287,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -17755,6 +18222,7 @@ var pokeDB = {
                 "Brick Break"
             ]
         },
+        "imgurl": 288,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -17786,6 +18254,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 289,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -17818,6 +18287,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 290,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -17856,6 +18326,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 291,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -17896,6 +18367,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 292,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -17936,6 +18408,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 293,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -17967,6 +18440,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 294,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -17998,6 +18472,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 295,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -18029,6 +18504,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 296,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -18065,6 +18541,7 @@ var pokeDB = {
                 "Super Power"
             ]
         },
+        "imgurl": 297,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -18101,6 +18578,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 298,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -18136,6 +18614,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 299,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -18174,6 +18653,7 @@ var pokeDB = {
                 "Wild Charge"
             ]
         },
+        "imgurl": 300,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -18206,6 +18686,7 @@ var pokeDB = {
                 "Wild Charge"
             ]
         },
+        "imgurl": 301,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -18238,6 +18719,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 302,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%"
@@ -18273,6 +18755,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 302,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%"
@@ -18311,6 +18794,7 @@ var pokeDB = {
                 "Power Up Punch"
             ]
         },
+        "imgurl": 303,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -18357,6 +18841,7 @@ var pokeDB = {
                 "Power Up Punch"
             ]
         },
+        "imgurl": 303,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -18400,6 +18885,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 304,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -18442,6 +18928,7 @@ var pokeDB = {
                 "Heavy Slam"
             ]
         },
+        "imgurl": 305,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -18485,6 +18972,7 @@ var pokeDB = {
                 "Heavy Slam"
             ]
         },
+        "imgurl": 306,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -18527,6 +19015,7 @@ var pokeDB = {
                 "Low Sweep"
             ]
         },
+        "imgurl": 307,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -18563,6 +19052,7 @@ var pokeDB = {
                 "Power Up Punch"
             ]
         },
+        "imgurl": 308,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -18597,6 +19087,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 309,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -18630,6 +19121,7 @@ var pokeDB = {
                 "Flame Burst"
             ]
         },
+        "imgurl": 310,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -18664,6 +19156,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 311,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -18698,6 +19191,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 312,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -18731,6 +19225,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 313,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -18766,6 +19261,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 314,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -18802,6 +19298,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 315,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -18840,6 +19337,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 316,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -18877,6 +19375,7 @@ var pokeDB = {
                 "Acid Spray"
             ]
         },
+        "imgurl": 317,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -18914,6 +19413,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 318,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -18956,6 +19456,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 318,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -18998,6 +19499,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 319,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19040,6 +19542,7 @@ var pokeDB = {
                 "Poison Fang"
             ]
         },
+        "imgurl": 319,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19081,6 +19584,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 320,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -19116,6 +19620,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 321,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -19152,6 +19657,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 322,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -19191,6 +19697,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 323,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -19228,6 +19735,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 324,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -19266,6 +19774,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 325,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19300,6 +19809,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 326,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19334,6 +19844,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 327,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -19365,6 +19876,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 328,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -19400,6 +19912,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 328,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -19436,6 +19949,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 329,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -19473,6 +19987,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 329,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -19511,6 +20026,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 330,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -19549,6 +20065,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 330,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -19585,6 +20102,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 331,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19623,6 +20141,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 331,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19662,6 +20181,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 332,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -19706,6 +20226,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 332,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -19750,6 +20271,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 333,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -19787,6 +20309,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 334,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -19826,6 +20349,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 335,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -19857,6 +20381,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 336,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -19894,6 +20419,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 337,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19936,6 +20462,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 338,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -19978,6 +20505,7 @@ var pokeDB = {
                 "Mud Bomb"
             ]
         },
+        "imgurl": 339,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -20014,6 +20542,7 @@ var pokeDB = {
                 "Mud Bomb"
             ]
         },
+        "imgurl": 340,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -20049,6 +20578,7 @@ var pokeDB = {
                 "Aqua Jet"
             ]
         },
+        "imgurl": 341,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -20086,6 +20616,7 @@ var pokeDB = {
                 "Crabhammer"
             ]
         },
+        "imgurl": 342,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20128,6 +20659,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 343,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20173,6 +20705,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 344,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20214,6 +20747,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 345,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20251,6 +20785,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 346,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20287,6 +20822,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 347,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -20322,6 +20858,7 @@ var pokeDB = {
                 "Rock Blast"
             ]
         },
+        "imgurl": 348,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -20354,6 +20891,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 349,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -20389,6 +20927,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 350,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -20424,6 +20963,7 @@ var pokeDB = {
                 "Weather Ball Fire"
             ]
         },
+        "imgurl": 351,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -20465,6 +21005,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 352,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -20496,6 +21037,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 353,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20531,6 +21073,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 353,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20566,6 +21109,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 354,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20601,6 +21145,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 354,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20636,6 +21181,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 355,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20671,6 +21217,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": 355,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20706,6 +21253,7 @@ var pokeDB = {
                 "Fire Punch"
             ]
         },
+        "imgurl": 356,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20741,6 +21289,7 @@ var pokeDB = {
                 "Fire Punch"
             ]
         },
+        "imgurl": 356,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -20777,6 +21326,7 @@ var pokeDB = {
                 "Leaf Blade"
             ]
         },
+        "imgurl": 357,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -20816,6 +21366,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 358,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20850,6 +21401,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 359,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20885,6 +21437,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 359,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20918,6 +21471,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 360,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -20952,6 +21506,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 361,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -20986,6 +21541,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 362,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -21021,6 +21577,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 363,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21057,6 +21614,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 364,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21093,6 +21651,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 365,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21127,6 +21686,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 366,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21162,6 +21722,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 367,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21197,6 +21758,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 368,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21233,6 +21795,7 @@ var pokeDB = {
                 "Hydro Pump"
             ]
         },
+        "imgurl": 369,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21271,6 +21834,7 @@ var pokeDB = {
                 "Aqua Jet"
             ]
         },
+        "imgurl": 370,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -21306,6 +21870,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 371,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21342,6 +21907,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 371,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21378,6 +21944,7 @@ var pokeDB = {
                 "Twister"
             ]
         },
+        "imgurl": 372,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21414,6 +21981,7 @@ var pokeDB = {
                 "Twister"
             ]
         },
+        "imgurl": 372,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21453,6 +22021,7 @@ var pokeDB = {
                 "Outrage"
             ]
         },
+        "imgurl": 373,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21495,6 +22064,7 @@ var pokeDB = {
                 "Outrage"
             ]
         },
+        "imgurl": 373,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -21532,6 +22102,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 374,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21573,6 +22144,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 374,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21617,6 +22189,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 375,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21661,6 +22234,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 375,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21706,6 +22280,7 @@ var pokeDB = {
                 "Meteor Mash"
             ]
         },
+        "imgurl": 376,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21751,6 +22326,7 @@ var pokeDB = {
                 "Meteor Mash"
             ]
         },
+        "imgurl": 376,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -21795,6 +22371,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 377,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -21834,6 +22411,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 378,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -21869,6 +22447,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 379,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -21914,6 +22493,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 380,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -21956,6 +22536,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 381,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -21997,6 +22578,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 382,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22033,6 +22615,7 @@ var pokeDB = {
                 "Fire Punch"
             ]
         },
+        "imgurl": 383,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -22069,6 +22652,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 384,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -22109,6 +22693,7 @@ var pokeDB = {
                 "Doom Desire"
             ]
         },
+        "imgurl": 385,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -22152,6 +22737,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": "386-attack",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22186,6 +22772,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": "386-defense",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22220,6 +22807,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 386,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22254,6 +22842,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": "386-speed",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22288,6 +22877,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 387,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22326,6 +22916,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 387,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22364,6 +22955,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 388,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22402,6 +22994,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 388,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22443,6 +23036,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 389,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22482,6 +23076,7 @@ var pokeDB = {
                 "Frenzy Plant"
             ]
         },
+        "imgurl": 389,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -22518,6 +23113,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 390,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -22556,6 +23152,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 390,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -22595,6 +23192,7 @@ var pokeDB = {
                 "Low Sweep"
             ]
         },
+        "imgurl": 391,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -22635,6 +23233,7 @@ var pokeDB = {
                 "Low Sweep"
             ]
         },
+        "imgurl": 391,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -22676,6 +23275,7 @@ var pokeDB = {
                 "Blast Burn"
             ]
         },
+        "imgurl": 392,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -22717,6 +23317,7 @@ var pokeDB = {
                 "Blast Burn"
             ]
         },
+        "imgurl": 392,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -22756,6 +23357,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 393,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22791,6 +23393,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 394,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22829,6 +23432,7 @@ var pokeDB = {
                 "Hydro Cannon"
             ]
         },
+        "imgurl": 395,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22872,6 +23476,7 @@ var pokeDB = {
                 "Brave Bird"
             ]
         },
+        "imgurl": 396,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22909,6 +23514,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 397,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22946,6 +23552,7 @@ var pokeDB = {
                 "Close Combat"
             ]
         },
+        "imgurl": 398,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -22982,6 +23589,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 399,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -23014,6 +23622,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 400,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23049,6 +23658,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 401,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -23084,6 +23694,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 402,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -23119,6 +23730,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 403,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -23152,6 +23764,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 404,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -23186,6 +23799,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 405,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -23219,6 +23833,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 406,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -23259,6 +23874,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 407,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -23297,6 +23913,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 408,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -23335,6 +23952,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 409,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -23374,6 +23992,7 @@ var pokeDB = {
                 "Heavy Slam"
             ]
         },
+        "imgurl": 410,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -23416,6 +24035,7 @@ var pokeDB = {
                 "Flash Cannon"
             ]
         },
+        "imgurl": 411,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -23455,6 +24075,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 412,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -23491,6 +24112,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 413,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -23531,6 +24153,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 414,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23567,6 +24190,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 415,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23610,6 +24234,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 416,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23648,6 +24273,7 @@ var pokeDB = {
                 "Thunder Punch"
             ]
         },
+        "imgurl": 417,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -23681,6 +24307,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 418,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23716,6 +24343,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 419,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23751,6 +24379,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 420,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -23790,6 +24419,7 @@ var pokeDB = {
                 "Weather Ball Fire"
             ]
         },
+        "imgurl": 421,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -23828,6 +24458,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 422,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -23864,6 +24495,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 423,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -23899,6 +24531,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 424,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -23930,6 +24563,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 424,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -23962,6 +24596,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 425,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24003,6 +24638,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 426,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24042,6 +24678,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 427,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -24073,6 +24710,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 428,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -24104,6 +24742,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 429,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24139,6 +24778,7 @@ var pokeDB = {
                 "Dazzling Gleam"
             ]
         },
+        "imgurl": 429,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24176,6 +24816,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 430,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -24216,6 +24857,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 430,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -24254,6 +24896,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 431,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -24285,6 +24928,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 432,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -24316,6 +24960,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 433,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -24351,6 +24996,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 434,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -24387,6 +25033,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 434,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -24423,6 +25070,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 435,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -24459,6 +25107,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 435,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -24495,6 +25144,7 @@ var pokeDB = {
                 "Heavy Slam"
             ]
         },
+        "imgurl": 436,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24541,6 +25191,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 437,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -24584,6 +25235,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 438,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -24623,6 +25275,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 439,
         "defense_data": {
             "vulnerable_to": {
                 "Ghost": "160%",
@@ -24656,6 +25309,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 440,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -24688,6 +25342,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 441,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -24725,6 +25380,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 442,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%"
@@ -24760,6 +25416,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 443,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24797,6 +25454,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 443,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24834,6 +25492,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 444,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24871,6 +25530,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 444,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24909,6 +25569,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 445,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24947,6 +25608,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 445,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -24983,6 +25645,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 446,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -25014,6 +25677,7 @@ var pokeDB = {
                 "Cross Chop"
             ]
         },
+        "imgurl": 447,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -25052,6 +25716,7 @@ var pokeDB = {
                 "Aura Sphere"
             ]
         },
+        "imgurl": 448,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -25093,6 +25758,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 449,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -25128,6 +25794,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 449,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -25166,6 +25833,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 450,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -25204,6 +25872,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 450,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -25240,6 +25909,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 451,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -25282,6 +25952,7 @@ var pokeDB = {
                 "Fell Stinger"
             ]
         },
+        "imgurl": 452,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -25318,6 +25989,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 453,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -25357,6 +26029,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 454,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -25395,6 +26068,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 455,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25433,6 +26107,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 456,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -25468,6 +26143,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 457,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -25504,6 +26180,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 458,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -25542,6 +26219,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 459,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25583,6 +26261,7 @@ var pokeDB = {
                 "Stomp"
             ]
         },
+        "imgurl": 459,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25625,6 +26304,7 @@ var pokeDB = {
                 "Weather Ball Ice"
             ]
         },
+        "imgurl": 460,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25667,6 +26347,7 @@ var pokeDB = {
                 "Weather Ball Ice"
             ]
         },
+        "imgurl": 460,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25709,6 +26390,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 461,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25750,6 +26432,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 461,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -25791,6 +26474,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 462,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -25837,6 +26521,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 462,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -25883,6 +26568,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 463,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -25918,6 +26604,7 @@ var pokeDB = {
                 "Rock Wrecker"
             ]
         },
+        "imgurl": 464,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -25963,6 +26650,7 @@ var pokeDB = {
                 "Rock Wrecker"
             ]
         },
+        "imgurl": 464,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -26006,6 +26694,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 465,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -26046,6 +26735,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 466,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -26081,6 +26771,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 466,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -26116,6 +26807,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 467,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -26156,6 +26848,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 467,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -26197,6 +26890,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 468,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -26238,6 +26932,7 @@ var pokeDB = {
                 "Bug Buzz"
             ]
         },
+        "imgurl": 469,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -26277,6 +26972,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 470,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -26316,6 +27012,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 471,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -26352,6 +27049,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 472,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "256%",
@@ -26390,6 +27088,7 @@ var pokeDB = {
                 "Sand Tomb"
             ]
         },
+        "imgurl": 472,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "256%",
@@ -26428,6 +27127,7 @@ var pokeDB = {
                 "Ancient Power"
             ]
         },
+        "imgurl": 473,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -26467,6 +27167,7 @@ var pokeDB = {
                 "Tri Attack"
             ]
         },
+        "imgurl": 474,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -26501,6 +27202,7 @@ var pokeDB = {
                 "Tri Attack"
             ]
         },
+        "imgurl": 474,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -26535,6 +27237,7 @@ var pokeDB = {
                 "Synchronoise"
             ]
         },
+        "imgurl": 475,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -26572,6 +27275,7 @@ var pokeDB = {
                 "Synchronoise"
             ]
         },
+        "imgurl": 475,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -26607,6 +27311,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 476,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -26648,6 +27353,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 477,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -26683,6 +27389,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 477,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -26719,6 +27426,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 478,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -26759,6 +27467,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 479,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -26795,6 +27504,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 480,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -26829,6 +27539,7 @@ var pokeDB = {
                 "Blizzard"
             ]
         },
+        "imgurl": 481,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -26863,6 +27574,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 482,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -26898,6 +27610,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 483,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -26941,6 +27654,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 484,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -26977,6 +27691,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 485,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -27019,6 +27734,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 486,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27051,6 +27767,7 @@ var pokeDB = {
                 "Shadow Sneak"
             ]
         },
+        "imgurl": "487-altered",
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -27094,6 +27811,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": "487-origin",
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -27137,6 +27855,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 488,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27171,6 +27890,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 489,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27206,6 +27926,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 490,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27241,6 +27962,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 491,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27277,6 +27999,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 492,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -27315,6 +28038,7 @@ var pokeDB = {
                 "Outrage"
             ]
         },
+        "imgurl": 493,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27352,6 +28076,7 @@ var pokeDB = {
                 "V Create"
             ]
         },
+        "imgurl": 494,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -27393,6 +28118,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 495,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27431,6 +28157,7 @@ var pokeDB = {
                 "Wrap"
             ]
         },
+        "imgurl": 496,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27469,6 +28196,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 497,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27507,6 +28235,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 498,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -27546,6 +28275,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 499,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -27587,6 +28317,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 500,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -27626,6 +28357,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 501,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27661,6 +28393,7 @@ var pokeDB = {
                 "X Scissor"
             ]
         },
+        "imgurl": 502,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27696,6 +28429,7 @@ var pokeDB = {
                 "Megahorn"
             ]
         },
+        "imgurl": 503,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -27731,6 +28465,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 504,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27762,6 +28497,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 505,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27793,6 +28529,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 506,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27824,6 +28561,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 507,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27856,6 +28594,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 508,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -27887,6 +28626,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 509,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27922,6 +28662,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 510,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27957,6 +28698,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 511,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -27995,6 +28737,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 512,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -28033,6 +28776,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 513,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -28071,6 +28815,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 514,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -28109,6 +28854,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 515,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28144,6 +28890,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 516,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28179,6 +28926,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 517,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -28213,6 +28961,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 518,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -28248,6 +28997,7 @@ var pokeDB = {
                 "Air Cutter"
             ]
         },
+        "imgurl": 519,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28285,6 +29035,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 520,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28322,6 +29073,7 @@ var pokeDB = {
                 "Sky Attack"
             ]
         },
+        "imgurl": 521,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28358,6 +29110,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 522,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -28391,6 +29144,7 @@ var pokeDB = {
                 "Wild Charge"
             ]
         },
+        "imgurl": 523,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -28424,6 +29178,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 524,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -28462,6 +29217,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 525,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -28501,6 +29257,7 @@ var pokeDB = {
                 "Heavy Slam"
             ]
         },
+        "imgurl": 526,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -28540,6 +29297,7 @@ var pokeDB = {
                 "Psyshock"
             ]
         },
+        "imgurl": 527,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -28579,6 +29337,7 @@ var pokeDB = {
                 "Futuresight"
             ]
         },
+        "imgurl": 528,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -28617,6 +29376,7 @@ var pokeDB = {
                 "Drill Run"
             ]
         },
+        "imgurl": 529,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -28655,6 +29415,7 @@ var pokeDB = {
                 "Iron Head"
             ]
         },
+        "imgurl": 530,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -28698,6 +29459,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 531,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -28729,6 +29491,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 532,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -28764,6 +29527,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 533,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -28799,6 +29563,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 534,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -28834,6 +29599,7 @@ var pokeDB = {
                 "Sludge Wave"
             ]
         },
+        "imgurl": 535,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -28870,6 +29636,7 @@ var pokeDB = {
                 "Sludge Wave"
             ]
         },
+        "imgurl": 536,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -28906,6 +29673,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 537,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "256%"
@@ -28941,6 +29709,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 538,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -28976,6 +29745,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 539,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -29012,6 +29782,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 540,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29053,6 +29824,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 541,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29094,6 +29866,7 @@ var pokeDB = {
                 "Silver Wind"
             ]
         },
+        "imgurl": 542,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29135,6 +29908,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 543,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -29174,6 +29948,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 544,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -29214,6 +29989,7 @@ var pokeDB = {
                 "X Scissor"
             ]
         },
+        "imgurl": 545,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -29253,6 +30029,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 546,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -29295,6 +30072,7 @@ var pokeDB = {
                 "Moonblast"
             ]
         },
+        "imgurl": 547,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -29335,6 +30113,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 548,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29373,6 +30152,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 549,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29411,6 +30191,7 @@ var pokeDB = {
                 "Muddy Water"
             ]
         },
+        "imgurl": 550,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -29447,6 +30228,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 551,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29489,6 +30271,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 552,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29531,6 +30314,7 @@ var pokeDB = {
                 "Outrage"
             ]
         },
+        "imgurl": 553,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29571,6 +30355,7 @@ var pokeDB = {
                 "Ice Beam"
             ]
         },
+        "imgurl": 10173,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -29604,6 +30389,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 554,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -29641,6 +30427,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 554,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -29682,6 +30469,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 555,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -29723,6 +30511,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 556,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -29762,6 +30551,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 557,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -29797,6 +30587,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 558,
         "defense_data": {
             "vulnerable_to": {
                 "Rock": "160%",
@@ -29832,6 +30623,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 559,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "256%",
@@ -29869,6 +30661,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 560,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "256%",
@@ -29907,6 +30700,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 561,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -29944,6 +30738,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 10176,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -29984,6 +30779,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 562,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -30019,6 +30815,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 562,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -30054,6 +30851,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 563,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -30089,6 +30887,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 563,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -30125,6 +30924,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 564,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -30164,6 +30964,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 565,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -30203,6 +31004,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 566,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -30244,6 +31046,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 567,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -30284,6 +31087,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 568,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -30321,6 +31125,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 569,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -30357,6 +31162,7 @@ var pokeDB = {
                 "Dark Pulse"
             ]
         },
+        "imgurl": 570,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30392,6 +31198,7 @@ var pokeDB = {
                 "Flamethrower"
             ]
         },
+        "imgurl": 571,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30427,6 +31234,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 572,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -30458,6 +31266,7 @@ var pokeDB = {
                 "Aqua Tail"
             ]
         },
+        "imgurl": 573,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -30489,6 +31298,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 574,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30523,6 +31333,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 575,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30557,6 +31368,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 576,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30591,6 +31403,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 577,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30625,6 +31438,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 578,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30659,6 +31473,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 579,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30694,6 +31509,7 @@ var pokeDB = {
                 "Brave Bird"
             ]
         },
+        "imgurl": 580,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -30732,6 +31548,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 581,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "256%",
@@ -30769,6 +31586,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 582,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -30803,6 +31621,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 583,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -30837,6 +31656,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 584,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -30872,6 +31692,7 @@ var pokeDB = {
                 "Wild Charge"
             ]
         },
+        "imgurl": 585,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30914,6 +31735,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 586,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -30955,6 +31777,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 587,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "160%",
@@ -30993,6 +31816,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 588,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -31030,6 +31854,7 @@ var pokeDB = {
                 "Aerial Ace"
             ]
         },
+        "imgurl": 589,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -31070,6 +31895,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 590,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -31109,6 +31935,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 591,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -31148,6 +31975,7 @@ var pokeDB = {
                 "Ominous Wind"
             ]
         },
+        "imgurl": 592,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -31190,6 +32018,7 @@ var pokeDB = {
                 "Bubble Beam"
             ]
         },
+        "imgurl": 593,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -31231,6 +32060,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 594,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -31267,6 +32097,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 595,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -31305,6 +32136,7 @@ var pokeDB = {
                 "Lunge"
             ]
         },
+        "imgurl": 596,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -31341,6 +32173,7 @@ var pokeDB = {
                 "Iron Head"
             ]
         },
+        "imgurl": 597,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31385,6 +32218,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 598,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31426,6 +32260,7 @@ var pokeDB = {
                 "Zap Cannon"
             ]
         },
+        "imgurl": 599,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31469,6 +32304,7 @@ var pokeDB = {
                 "Zap Cannon"
             ]
         },
+        "imgurl": 600,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31513,6 +32349,7 @@ var pokeDB = {
                 "Mirror Shot"
             ]
         },
+        "imgurl": 601,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31554,6 +32391,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 602,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -31587,6 +32425,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 603,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -31621,6 +32460,7 @@ var pokeDB = {
                 "Dragon Claw"
             ]
         },
+        "imgurl": 604,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%"
@@ -31654,6 +32494,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 605,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -31688,6 +32529,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 606,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -31723,6 +32565,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 607,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -31767,6 +32610,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 608,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -31813,6 +32657,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 609,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -31856,6 +32701,7 @@ var pokeDB = {
                 "Dragon Pulse"
             ]
         },
+        "imgurl": 610,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -31892,6 +32738,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 611,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -31929,6 +32776,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 612,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -31965,6 +32813,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 613,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -31999,6 +32848,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 614,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -32034,6 +32884,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 615,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -32068,6 +32919,7 @@ var pokeDB = {
                 "Signal Beam"
             ]
         },
+        "imgurl": 616,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -32104,6 +32956,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 617,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -32141,6 +32994,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 10177,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -32185,6 +33039,7 @@ var pokeDB = {
                 "Muddy Water"
             ]
         },
+        "imgurl": 618,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -32224,6 +33079,7 @@ var pokeDB = {
                 "Muddy Water"
             ]
         },
+        "imgurl": 618,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -32262,6 +33118,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 619,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -32297,6 +33154,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 620,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -32332,6 +33190,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 621,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -32369,6 +33228,7 @@ var pokeDB = {
                 "Night Shade"
             ]
         },
+        "imgurl": 622,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -32410,6 +33270,7 @@ var pokeDB = {
                 "Earth Power"
             ]
         },
+        "imgurl": 623,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -32451,6 +33312,7 @@ var pokeDB = {
                 "X Scissor"
             ]
         },
+        "imgurl": 624,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -32496,6 +33358,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 625,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -32540,6 +33403,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 626,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -32572,6 +33436,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 627,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -32610,6 +33475,7 @@ var pokeDB = {
                 "Close Combat"
             ]
         },
+        "imgurl": 628,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -32647,6 +33513,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 629,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -32687,6 +33554,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 630,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -32725,6 +33593,7 @@ var pokeDB = {
                 "Power Up Punch"
             ]
         },
+        "imgurl": 631,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -32764,6 +33633,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 632,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -32804,6 +33674,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 633,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -32846,6 +33717,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 634,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -32888,6 +33760,7 @@ var pokeDB = {
                 "Flash Cannon"
             ]
         },
+        "imgurl": 635,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -32930,6 +33803,7 @@ var pokeDB = {
                 "Flame Wheel"
             ]
         },
+        "imgurl": 636,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -32970,6 +33844,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 637,
         "defense_data": {
             "vulnerable_to": {
                 "Flying": "160%",
@@ -33010,6 +33885,7 @@ var pokeDB = {
                 "Sacred Sword"
             ]
         },
+        "imgurl": 638,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -33052,6 +33928,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 639,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -33095,6 +33972,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 640,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -33137,6 +34015,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 641,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33175,6 +34054,7 @@ var pokeDB = {
                 "Thunder Punch"
             ]
         },
+        "imgurl": 642,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "160%",
@@ -33214,6 +34094,7 @@ var pokeDB = {
                 "Stone Edge"
             ]
         },
+        "imgurl": 643,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -33253,6 +34134,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 644,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -33294,6 +34176,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 645,
         "defense_data": {
             "vulnerable_to": {
                 "Ice": "256%",
@@ -33332,6 +34215,7 @@ var pokeDB = {
                 "Focus Blast"
             ]
         },
+        "imgurl": 646,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -33371,6 +34255,7 @@ var pokeDB = {
                 "X Scissor"
             ]
         },
+        "imgurl": 647,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33414,6 +34299,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 648,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -33452,6 +34338,7 @@ var pokeDB = {
                 "Zap Cannon"
             ]
         },
+        "imgurl": 649,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "256%"
@@ -33491,6 +34378,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 650,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -33529,6 +34417,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 651,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -33570,6 +34459,7 @@ var pokeDB = {
                 "Solar Beam"
             ]
         },
+        "imgurl": 652,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -33611,6 +34501,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 653,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -33649,6 +34540,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 654,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -33690,6 +34582,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 655,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -33731,6 +34624,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 656,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33766,6 +34660,7 @@ var pokeDB = {
                 "Surf"
             ]
         },
+        "imgurl": 657,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33803,6 +34698,7 @@ var pokeDB = {
                 "Hydro Pump"
             ]
         },
+        "imgurl": 658,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -33844,6 +34740,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 659,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -33877,6 +34774,7 @@ var pokeDB = {
                 "Fire Punch"
             ]
         },
+        "imgurl": 660,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -33915,6 +34813,7 @@ var pokeDB = {
                 "Swift"
             ]
         },
+        "imgurl": 661,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33953,6 +34852,7 @@ var pokeDB = {
                 "Flame Charge"
             ]
         },
+        "imgurl": 662,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -33995,6 +34895,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 663,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -34032,6 +34933,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 664,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -34065,6 +34967,7 @@ var pokeDB = {
                 "Struggle"
             ]
         },
+        "imgurl": 665,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -34103,6 +35006,7 @@ var pokeDB = {
                 "Hurricane"
             ]
         },
+        "imgurl": 666,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -34143,6 +35047,7 @@ var pokeDB = {
                 "Crunch"
             ]
         },
+        "imgurl": 667,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -34185,6 +35090,7 @@ var pokeDB = {
                 "Overheat"
             ]
         },
+        "imgurl": 668,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -34225,6 +35131,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 669,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34260,6 +35167,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 670,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34297,6 +35205,7 @@ var pokeDB = {
                 "Disarming Voice"
             ]
         },
+        "imgurl": 671,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34332,6 +35241,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 672,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -34372,6 +35282,7 @@ var pokeDB = {
                 "Seed Bomb"
             ]
         },
+        "imgurl": 673,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -34410,6 +35321,7 @@ var pokeDB = {
                 "Body Slam"
             ]
         },
+        "imgurl": 674,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -34448,6 +35360,7 @@ var pokeDB = {
                 "Rock Slide"
             ]
         },
+        "imgurl": 675,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "256%",
@@ -34485,6 +35398,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 676,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%"
@@ -34516,6 +35430,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 677,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -34550,6 +35465,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 678,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -34584,6 +35500,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 679,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -34629,6 +35546,7 @@ var pokeDB = {
                 "Gyro Ball"
             ]
         },
+        "imgurl": 680,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -34675,6 +35593,7 @@ var pokeDB = {
                 "Shadow Ball"
             ]
         },
+        "imgurl": 681,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -34719,6 +35638,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 682,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34755,6 +35675,7 @@ var pokeDB = {
                 "Draining Kiss"
             ]
         },
+        "imgurl": 683,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34788,6 +35709,7 @@ var pokeDB = {
                 "Energy Ball"
             ]
         },
+        "imgurl": 684,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34824,6 +35746,7 @@ var pokeDB = {
                 "Draining Kiss"
             ]
         },
+        "imgurl": 685,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -34859,6 +35782,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 686,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -34893,6 +35817,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 687,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "256%",
@@ -34926,6 +35851,7 @@ var pokeDB = {
                 "Dig"
             ]
         },
+        "imgurl": 688,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -34967,6 +35893,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 689,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -35007,6 +35934,7 @@ var pokeDB = {
                 "Sludge Bomb"
             ]
         },
+        "imgurl": 690,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -35050,6 +35978,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 691,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35090,6 +36019,7 @@ var pokeDB = {
                 "Aqua Jet"
             ]
         },
+        "imgurl": 692,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -35126,6 +36056,7 @@ var pokeDB = {
                 "Crabhammer"
             ]
         },
+        "imgurl": 693,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -35162,6 +36093,7 @@ var pokeDB = {
                 "Discharge"
             ]
         },
+        "imgurl": 694,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -35200,6 +36132,7 @@ var pokeDB = {
                 "Grass Knot"
             ]
         },
+        "imgurl": 695,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -35236,6 +36169,7 @@ var pokeDB = {
                 "Dragon Claw"
             ]
         },
+        "imgurl": 696,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35279,6 +36213,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 697,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35321,6 +36256,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 698,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -35364,6 +36300,7 @@ var pokeDB = {
                 "Hyper Beam"
             ]
         },
+        "imgurl": 699,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "256%",
@@ -35404,6 +36341,7 @@ var pokeDB = {
                 "Last Resort"
             ]
         },
+        "imgurl": 700,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -35442,6 +36380,7 @@ var pokeDB = {
                 "Power Up Punch"
             ]
         },
+        "imgurl": 701,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -35482,6 +36421,7 @@ var pokeDB = {
                 "Play Rough"
             ]
         },
+        "imgurl": 702,
         "defense_data": {
             "vulnerable_to": {
                 "Ground": "160%",
@@ -35520,6 +36460,7 @@ var pokeDB = {
                 "Power Gem"
             ]
         },
+        "imgurl": 703,
         "defense_data": {
             "vulnerable_to": {
                 "Grass": "160%",
@@ -35559,6 +36500,7 @@ var pokeDB = {
                 "Muddy Water"
             ]
         },
+        "imgurl": 704,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35596,6 +36538,7 @@ var pokeDB = {
                 "Water Pulse"
             ]
         },
+        "imgurl": 705,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35633,6 +36576,7 @@ var pokeDB = {
                 "Power Whip"
             ]
         },
+        "imgurl": 706,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35671,6 +36615,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 707,
         "defense_data": {
             "vulnerable_to": {
                 "Fire": "160%",
@@ -35714,6 +36659,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 708,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -35755,6 +36701,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 709,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -35797,6 +36744,7 @@ var pokeDB = {
                 "Earthquake"
             ]
         },
+        "imgurl": 710,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -35839,6 +36787,7 @@ var pokeDB = {
                 "Fire Blast"
             ]
         },
+        "imgurl": 711,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -35879,6 +36828,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 712,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -35915,6 +36865,7 @@ var pokeDB = {
                 "Mirror Coat"
             ]
         },
+        "imgurl": 713,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -35950,6 +36901,7 @@ var pokeDB = {
                 "Heat Wave"
             ]
         },
+        "imgurl": 714,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -35991,6 +36943,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 715,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -36032,6 +36985,7 @@ var pokeDB = {
                 "Thunder"
             ]
         },
+        "imgurl": 716,
         "defense_data": {
             "vulnerable_to": {
                 "Poison": "160%",
@@ -36071,6 +37025,7 @@ var pokeDB = {
                 "Psychic"
             ]
         },
+        "imgurl": 717,
         "defense_data": {
             "vulnerable_to": {
                 "Electric": "160%",
@@ -36113,6 +37068,7 @@ var pokeDB = {
                 "Bulldoze"
             ]
         },
+        "imgurl": 718,
         "defense_data": {
             "vulnerable_to": {
                 "Dragon": "160%",
@@ -36147,6 +37103,7 @@ var pokeDB = {
                 "Thunderbolt"
             ]
         },
+        "imgurl": 808,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -36191,6 +37148,7 @@ var pokeDB = {
                 "Super Power"
             ]
         },
+        "imgurl": 809,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -36236,6 +37194,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36273,6 +37232,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 862,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36310,6 +37270,7 @@ var pokeDB = {
                 "Gunk Shot"
             ]
         },
+        "imgurl": 862,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36346,6 +37307,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -36390,6 +37352,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 863,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -36434,6 +37397,7 @@ var pokeDB = {
                 "Foul Play"
             ]
         },
+        "imgurl": 863,
         "defense_data": {
             "vulnerable_to": {
                 "Fighting": "160%",
@@ -36455,7 +37419,7 @@ var pokeDB = {
             }
         }
     },
-    "Galarian Sirfetch’d": {
+    "Galarian Sirfetch'd": {
         "id": "865",
         "stats": {
             "atk": 248,
@@ -36465,7 +37429,7 @@ var pokeDB = {
         "type": [
             "Fighting"
         ],
-        "name": "Galarian Sirfetch\u2019d",
+        "name": "Galarian Sirfetch'd",
         "moveset": {
             "quick": [
                 "Counter",
@@ -36478,6 +37442,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -36491,7 +37456,7 @@ var pokeDB = {
             }
         }
     },
-    "Sirfetch’d": {
+    "Sirfetch'd": {
         "id": "865",
         "stats": {
             "atk": 248,
@@ -36501,7 +37466,7 @@ var pokeDB = {
         "type": [
             "Fighting"
         ],
-        "name": "Sirfetch\u2019d",
+        "name": "Sirfetch'd",
         "moveset": {
             "quick": [
                 "Counter",
@@ -36514,6 +37479,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 865,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -36527,7 +37493,7 @@ var pokeDB = {
             }
         }
     },
-    "Shadow Sirfetch’d": {
+    "Shadow Sirfetch'd": {
         "id": "865",
         "stats": {
             "atk": 248,
@@ -36537,7 +37503,7 @@ var pokeDB = {
         "type": [
             "Fighting"
         ],
-        "name": "Shadow Sirfetch\u2019d",
+        "name": "Shadow Sirfetch'd",
         "moveset": {
             "quick": [
                 "Counter",
@@ -36550,6 +37516,7 @@ var pokeDB = {
                 "Night Slash"
             ]
         },
+        "imgurl": 865,
         "defense_data": {
             "vulnerable_to": {
                 "Fairy": "160%",
@@ -36588,6 +37555,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36628,6 +37596,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 866,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36668,6 +37637,7 @@ var pokeDB = {
                 "Icy Wind"
             ]
         },
+        "imgurl": 866,
         "defense_data": {
             "vulnerable_to": {
                 "Bug": "160%",
@@ -36705,6 +37675,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": "",
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -36745,6 +37716,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 867,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
@@ -36785,6 +37757,7 @@ var pokeDB = {
                 "Rock Tomb"
             ]
         },
+        "imgurl": 867,
         "defense_data": {
             "vulnerable_to": {
                 "Dark": "160%",
