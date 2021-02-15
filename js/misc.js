@@ -63,47 +63,7 @@ function getPokemonData(pokemon, slot) {
     $('#def-' + slot).html(data.stats.def)
     $('#sta-' + slot).html(data.stats.sta)
 
-    id = data.id;
-    if (data.id.slice(0,1) == 0) {
-        id = data.id.slice(1,3);
-    }
-    if (data.id.slice(0,2) == 00) {
-        id = data.id.slice(2,3);
-    }
-
-    form = '';
-    if (data.name.includes('Alola')) {
-        form = '-alola';
-    }
-    if (data.name.includes('Galarian')) {
-        form = '-galar'
-    }
-    if (data.name.includes('Altered')) {
-        form = '-altered';
-    }
-    if (data.name.includes('Origin')) {
-        form = '-origin'
-    }
-    if (data.name.includes('Attack')) {
-        form = '-attack'
-    }
-    if (data.name.includes('Defense')) {
-        form = '-defense'
-    }
-    if (data.name.includes('Speed')) {
-        form = '-speed'
-    }
-    if (data.name.includes('Mega')) {
-        form = '-mega'
-        if (data.name.includes('X')) {
-            form += '-x'
-        }
-        if (data.name.includes('Y')) {
-            form += '-y'
-        }
-    }
-
-    imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + id + form + ".png";
+    imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + data.imgurl + ".png";
     $('#pokemon_img-' + slot).attr('src', imageSrc)
 
     $.each(data.defense_data.resistant_to, function (index,value){
