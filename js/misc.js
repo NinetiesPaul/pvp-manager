@@ -59,8 +59,8 @@ function getPokemonData(pokemon, slot) {
             .css('background-color', colors[data.type[1]])
             .html(data.type[1]);
     }
-    $('#atk-' + slot).html(data.stats.atk)
-    $('#def-' + slot).html(data.stats.def)
+    $('#atk-' + slot).html(data.name.indexOf('Shadow') >= 0 ? Math.round(data.stats.atk * 1.2) : data.stats.atk)
+    $('#def-' + slot).html(data.name.indexOf('Shadow') >= 0 ? Math.round(data.stats.def * 0.833) : data.stats.def)
     $('#sta-' + slot).html(data.stats.sta)
 
     imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + data.imgurl + ".png";
