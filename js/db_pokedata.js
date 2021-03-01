@@ -34580,18 +34580,18 @@ var pokeDB = {
         }
     }
 },
-"Tornadus": {
+"Incarnate Tornadus": {
     "id": "641",
-    "imgurl": 641,
+    "imgurl": "641-incarnate",
     "stats": {
-        "atk": 238,
-        "def": 189,
+        "atk": 266,
+        "def": 164,
         "sta": 188
     },
     "type": [
         "Flying"
     ],
-    "name": "Tornadus",
+    "name": "Incarnate Tornadus",
     "moveset": {
         "quick": [
             "Bite",
@@ -34618,9 +34618,87 @@ var pokeDB = {
         }
     }
 },
-"Thundurus": {
+"Therian Tornadus": {
+    "id": "641",
+    "imgurl": "641-therian",
+    "stats": {
+        "atk": 238,
+        "def": 189,
+        "sta": 188
+    },
+    "type": [
+        "Flying"
+    ],
+    "name": "Therian Tornadus",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Air Slash"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Dark Pulse",
+            "Hyper Beam",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Incarnate Thundurus": {
     "id": "642",
-    "imgurl": 642,
+    "imgurl": "642-incarnate",
+    "stats": {
+        "atk": 266,
+        "def": 164,
+        "sta": 188
+    },
+    "type": [
+        "Electric",
+        "Flying"
+    ],
+    "name": "Incarnate Thundurus",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Crunch",
+            "Thunder",
+            "Brick Break",
+            "Thunder Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Therian Thundurus": {
+    "id": "642",
+    "imgurl": "642-therian",
     "stats": {
         "atk": 295,
         "def": 161,
@@ -34630,7 +34708,7 @@ var pokeDB = {
         "Electric",
         "Flying"
     ],
-    "name": "Thundurus",
+    "name": "Therian Thundurus",
     "moveset": {
         "quick": [
             "Astonish",
@@ -34740,9 +34818,48 @@ var pokeDB = {
         }
     }
 },
-"Landorus": {
+"Incarnate Landorus": {
     "id": "645",
-    "imgurl": 645,
+    "imgurl": "645-incarnate",
+    "stats": {
+        "atk": 261,
+        "def": 182,
+        "sta": 205
+    },
+    "type": [
+        "Ground",
+        "Flying"
+    ],
+    "name": "Incarnate Landorus",
+    "moveset": {
+        "quick": [
+            "Mud Shot",
+            "Rock Throw"
+        ],
+        "charge": [
+            "Earth Power",
+            "Outrage",
+            "Rock Slide",
+            "Focus Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ice": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Ground": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Therian Landorus": {
+    "id": "645",
+    "imgurl": "645-therian",
     "stats": {
         "atk": 289,
         "def": 179,
@@ -34752,7 +34869,7 @@ var pokeDB = {
         "Ground",
         "Flying"
     ],
-    "name": "Landorus",
+    "name": "Therian Landorus",
     "moveset": {
         "quick": [
             "Mud Shot",
