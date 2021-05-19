@@ -2322,6 +2322,23 @@ var chargeMoveDB = {
         "Steel"
     ]
 },
+"Leaf Storm": {
+    "type": "GRASS",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ]
+},
 "Tri Attack": {
     "type": "NORMAL",
     "weakAgainst": [
