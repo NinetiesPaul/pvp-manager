@@ -43,47 +43,4 @@ function getMoveData(move, type, target) {
             $('#' + type + '_weakAgainst-' + target).append(" | ");
         }
     });
-
 }
-
-$(document).on('change', '#quick_move-slot1', function() {
-    getMoveData(this.value, 'quick', 'slot1');
-});
-
-$(document).on('change', '#charge1_move-slot1', function() {
-    disableMove(this.value, 'charge2_move-slot1');
-    getMoveData(this.value, 'charge1', 'slot1');
-});
-
-$(document).on('change', '#charge2_move-slot1', function() {
-    disableMove(this.value, 'charge1_move-slot1');
-    getMoveData(this.value, 'charge2', 'slot1');
-});
-
-$(document).on('change', '#quick_move-slot2', function() {
-    getMoveData(this.value, 'quick', 'slot2');
-});
-
-$(document).on('change', '#charge1_move-slot2', function() {
-    disableMove(this.value, 'charge2_move-slot2');
-    getMoveData(this.value, 'charge1', 'slot2');
-});
-
-$(document).on('change', '#charge2_move-slot2', function() {
-    disableMove(this.value, 'charge1_move-slot2');
-    getMoveData(this.value, 'charge2', 'slot2');
-});
-
-$(document).on('change', '#quick_move-slot3', function() {
-    getMoveData(this.value, 'quick', 'slot3');
-});
-
-$(document).on('change', '#charge1_move-slot3', function() {
-    disableMove(this.value, 'charge2_move-slot3');
-    getMoveData(this.value, 'charge1', 'slot3');
-});
-
-$(document).on('change', '#charge2_move-slot3', function() {
-    disableMove(this.value, 'charge1_move-slot3');
-    getMoveData(this.value, 'charge2', 'slot3');
-});

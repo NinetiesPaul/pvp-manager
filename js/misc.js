@@ -37,7 +37,15 @@ function getPokemonData(pokemon, slot) {
     slot = slot[1];
     clearLayout(slot);
 
-    data = pokeDB[pokemon]
+	data = pokeDB[pokemon]
+	if ($.isNumeric(pokemon)) {
+    	for (pokemonDb in pokeDB){
+    		if (pokeDB[pokemonDb].id == pokemon) {
+    			data = pokeDB[pokeDB[pokemonDb].name]
+    			break
+    		}
+    	}
+    }
 
     pokemonTypeA =  data.type[0];
 
@@ -79,4 +87,6 @@ function getPokemonData(pokemon, slot) {
         $('#charge1_move-' + slot).append("<option>" + value + "</option>")
         $('#charge2_move-' + slot).append("<option>" + value + "</option>")
     });
+    
+    return data;
 }

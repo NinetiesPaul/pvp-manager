@@ -14,8 +14,8 @@
         <script src="js/db_quick.js"></script>
 
         <script src="js/jquery.js"></script>
+        <script src="js/load.js"></script>
         <script src="js/misc.js"></script>
-        <script src="js/pvp_team_manager.js"></script>
 		
         <script>
             var colors = {
@@ -38,7 +38,7 @@
                 "Electric": "#F8DD64",
                 "Fighting": "#E04452",
             }
-			
+            
             $(document).ready( function () {
 
                 for (var key in pokeDB) {
@@ -49,7 +49,7 @@
 
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
-                pokemonSelectSlot1.on('change', function(){
+                pokemonSelectSlot1.on('change.select2', function(){
                     getPokemonData(this.value, this.id);
                 });
 
@@ -64,9 +64,58 @@
                 pokemonSelectSlot3.on('change', function(){
                     getPokemonData(this.value, this.id);
                 });
+                
+                $("#loadData").change(function() {
+                	forceChange(this.value)
+                });
+                
+                $("#quick_move-slot1").change(function() {
+                	getMoveData(this.value, 'quick', 'slot1');
+                });
+                
+                $('#charge1_move-slot1').change(function() {
+					disableMove(this.value, 'charge2_move-slot1');
+					getMoveData(this.value, 'charge1', 'slot1');
+				});
+
+				$('#charge2_move-slot1').change(function() {
+					disableMove(this.value, 'charge1_move-slot1');
+					getMoveData(this.value, 'charge2', 'slot1');
+				});
+				
+				$('#quick_move-slot2').change(function() {
+					getMoveData(this.value, 'quick', 'slot2');
+				});
+
+				$('#charge1_move-slot2').change(function() {
+					disableMove(this.value, 'charge2_move-slot2');
+					getMoveData(this.value, 'charge1', 'slot2');
+				});
+
+				$('#charge2_move-slot2').change(function() {
+					disableMove(this.value, 'charge1_move-slot2');
+					getMoveData(this.value, 'charge2', 'slot2');
+				});
+
+				$('#quick_move-slot3').change(function() {
+					getMoveData(this.value, 'quick', 'slot3');
+				});
+
+				$('#charge1_move-slot3').change(function() {
+					disableMove(this.value, 'charge2_move-slot3');
+					getMoveData(this.value, 'charge1', 'slot3');
+				});
+
+				$('#charge2_move-slot3').change(function() {
+					disableMove(this.value, 'charge1_move-slot3');
+					getMoveData(this.value, 'charge2', 'slot3');
+				});
             });
         
         </script>
+        
+        
+        <script src="js/pvp_team_manager.js"></script>
 
         <title>PVP Manager</title>
     </head>
@@ -83,6 +132,8 @@
 
         <div class="container">
             <div class="jumbotron text-center" style="min-height: 40em;">
+
+				<input type="text" id="loadData"></input><br><br>
 
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
