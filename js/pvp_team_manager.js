@@ -18,6 +18,10 @@ function getMoveData(move, type, target) {
     if (type === 'charge1' || type === 'charge2') {
         data = chargeMoveDB[move];
     }
+    
+    if (data == undefined) {
+    	return;
+    }
 
     imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + data.type + '.png';
     $('#' + type + '_move_type-' + target).html("<img src='" + imgSrc + "' height='25px' width='25px'/>");

@@ -1,4 +1,4 @@
-function forceChange(input){
+function forceChange(input) {
 
 	loadDataInput = input.split("&")
 	
@@ -15,12 +15,15 @@ function forceChange(input){
 		quick = dataToLoad[data][2]
 		charge1 = dataToLoad[data][3]
 		charge2 = dataToLoad[data][4]
+		
+		if (pkm == undefined) {
+			return
+		}
+		
 		pkmData = getPokemonData(pkm.padStart(3, '0'), "pokemonList_slot" + slot)
 		
-		console.log("#select2-pokemonList_slot" + slot + '-container')
-		console.log(pkmData.name)
-		$("#select2-pokemonList_slot" + slot + '-container').val(pkmData.name)
-		
+		$("#pokemonList_slot" + slot).val(pkmData.id.padStart(3, '0') + " - " + pkmData.name)
+			
 		if (quick != undefined && quick.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.quick) {						
 				if (move[0].toLowerCase() === quick.toLowerCase()) {

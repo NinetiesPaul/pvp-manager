@@ -2,9 +2,9 @@ function clearLayout(slot) {
     $('.resistant_to-' + slot).html('');
     $('.vulnerable_to-' + slot).html('');
     $('.defense_type_row-' + slot).html("<td class='defense_typeA-" + slot + "'>&nbsp;</td>");
-    $('#quick_move-' + slot).html("<option>-- Quick  --</option>");
-    $('#charge1_move-' + slot).html("<option>-- Charge I  --</option>");
-    $('#charge2_move-' + slot).html("<option>-- Charge II  --</option>");
+    $('#quick_move-' + slot).html("<option>-- Quick --</option>");
+    $('#charge1_move-' + slot).html("<option>-- Charge I --</option>");
+    $('#charge2_move-' + slot).html("<option>-- Charge II --</option>");
     $('#quick_goodAgainst-' + slot)
         .html("")
         .css('display', 'none');
@@ -32,6 +32,11 @@ function clearLayout(slot) {
 }
 
 function getPokemonData(pokemon, slot) {
+
+	if (pokemon.indexOf(" - ") > -1) {
+		pokemon = pokemon.split(" - ");
+		pokemon = pokemon[1]
+	}
 
     slot = slot.split("_");
     slot = slot[1];
