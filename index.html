@@ -14,7 +14,9 @@
         <script src="js/db_quick.js"></script>
 
         <script src="js/jquery.js"></script>
+        <script src="js/clipboard.js"></script>
         <script src="js/load.js"></script>
+        <script src="js/save.js"></script>
         <script src="js/misc.js"></script>
 		
         <script>
@@ -42,9 +44,9 @@
             $(document).ready( function () {
 
                 for (var key in pokeDB) {
-                    $("#pokemonList_slot1").append("<option>" + key + "</option>");
-                    $("#pokemonList_slot2").append("<option>" + key + "</option>");
-                    $("#pokemonList_slot3").append("<option>" + key + "</option>");
+                    $("#pokemonList_slot1").append("<option>" + pokeDB[key].id.padStart(3, '0') + " - " + key + "</option>");          
+                    $("#pokemonList_slot2").append("<option>" + pokeDB[key].id.padStart(3, '0') + " - " + key + "</option>");
+                    $("#pokemonList_slot3").append("<option>" + pokeDB[key].id.padStart(3, '0') + " - " + key + "</option>");
                 }
 
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
@@ -67,6 +69,10 @@
                 
                 $("#loadData").change(function() {
                 	forceChange(this.value)
+                });
+                
+                $("#saveBtn").click(function() {
+                	saveTeam()
                 });
                 
                 $("#quick_move-slot1").change(function() {
@@ -133,7 +139,9 @@
         <div class="container">
             <div class="jumbotron text-center" style="min-height: 40em;">
 
-				<input type="text" id="loadData"></input><br><br>
+				<input type="text" id="loadData" class="loadData small" placeholder="Place backup here"></input><br>
+				<input type="text" id="saveData" class="saveData small" placeholder="Click save to backup" value="" readonly></input><br><br>
+				<input type="button" id="saveBtn" class="saveBtn small" data-clipboard-target="#saveData" value="Copy to clipboard"></input><br><br>
 
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
@@ -162,7 +170,7 @@
                                         <tr>
                                             <td colspan="2">
                                                 <select id="quick_move-slot1" name="quick_move-slot1" class="custom-select">
-                                                    <option>-- Quick  --</option>
+                                                    <option>-- Quick --</option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -178,7 +186,7 @@
                                         <tr>
                                             <td colspan="2">
                                                 <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select">
-                                                    <option>-- Charge I  --</option>
+                                                    <option>-- Charge I --</option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -194,7 +202,7 @@
                                         <tr>
                                             <td colspan="2">
                                                 <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select">
-                                                    <option>-- Charge II  --</option>
+                                                    <option>-- Charge II --</option>
                                                 </select>
                                             </td>
                                         </tr>
@@ -252,7 +260,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select">
-                                                <option>-- Quick  --</option>
+                                                <option>-- Quick --</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -268,7 +276,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select">
-                                                <option>-- Charge I  --</option>
+                                                <option>-- Charge I --</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -284,7 +292,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select">
-                                                <option>-- Charge II  --</option>
+                                                <option>-- Charge II --</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -342,7 +350,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select">
-                                                <option>-- Quick  --</option>
+                                                <option>-- Quick --</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -358,7 +366,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select">
-                                                <option>-- Charge I  --</option>
+                                                <option>-- Charge I --</option>
                                             </select>
                                         </td>
                                     </tr>
@@ -374,7 +382,7 @@
                                     <tr>
                                         <td colspan="2">
                                             <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select">
-                                                <option>-- Charge II  --</option>
+                                                <option>-- Charge II --</option>
                                             </select>
                                         </td>
                                     </tr>
