@@ -3,6 +3,8 @@ function saveTeam() {
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
 	pkmSlot3 = $("#pokemonList_slot3").find(":selected").text()
 	
+	dataToSave = ''
+
 	if (pkmSlot1 !== "-- Selecione um pokemon --") {
 		pkmSlot1 = pkmSlot1.split(" - ")
 		pkmSlot1 = [1, pokeDB[pkmSlot1[1]].imgurl]
@@ -23,11 +25,65 @@ function saveTeam() {
 		}		
 		
 		pkmSlot1 = pkmSlot1.join(",")
+
+		dataToSave = (dataToSave == '') ? dataToSave += pkmSlot1 : dataToSave += "&" + pkmSlot1
+	} else {
+		pkmSlot1 = ''
+	}
+
+	if (pkmSlot2 !== "-- Selecione um pokemon --") {
+		pkmSlot2 = pkmSlot2.split(" - ")
+		pkmSlot2 = [2, pokeDB[pkmSlot2[1]].imgurl]
+		
+		quick = $("#quick_move-slot2").find(":selected").text()
+		if (quick !== "-- Quick --") {
+			pkmSlot2.push(quick.toLowerCase()[0])
+		}
+		
+		charge1 = $("#charge1_move-slot2").find(":selected").text()
+		if (charge1 !== "-- Charge I --") {
+			pkmSlot2.push(charge1.toLowerCase()[0])
+		}		
+		
+		charge2 = $("#charge2_move-slot2").find(":selected").text()
+		if (charge2 !== "-- Charge II --") {
+			pkmSlot2.push(charge2.toLowerCase()[0])
+		}		
+		
+		pkmSlot2 = pkmSlot2.join(",")
+
+		dataToSave = (dataToSave == '') ? dataToSave += pkmSlot2 : dataToSave += "&" + pkmSlot2
+	} else {
+		pkmSlot2 = ''
+	}
+
+	if (pkmSlot3 !== "-- Selecione um pokemon --") {
+		pkmSlot3 = pkmSlot3.split(" - ")
+		pkmSlot3 = [3, pokeDB[pkmSlot3[1]].imgurl]
+		
+		quick = $("#quick_move-slot3").find(":selected").text()
+		if (quick !== "-- Quick --") {
+			pkmSlot3.push(quick.toLowerCase()[0])
+		}
+		
+		charge1 = $("#charge1_move-slot3").find(":selected").text()
+		if (charge1 !== "-- Charge I --") {
+			pkmSlot3.push(charge1.toLowerCase()[0])
+		}		
+		
+		charge2 = $("#charge2_move-slot3").find(":selected").text()
+		if (charge2 !== "-- Charge II --") {
+			pkmSlot3.push(charge2.toLowerCase()[0])
+		}		
+		
+		pkmSlot3 = pkmSlot3.join(",")
+
+		dataToSave = (dataToSave == '') ? dataToSave += pkmSlot3 : dataToSave += "&" + pkmSlot3
+	} else {
+		pkmSlot3 = ''
 	}
 	
-	//format pokemons escolhidos e salvar
-	
-	$("#saveData").val(pkmSlot1)
+	$("#saveData").val(dataToSave)
 	
 	new ClipboardJS('.saveBtn');
 }
