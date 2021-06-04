@@ -9,15 +9,18 @@
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/css.css" rel="stylesheet">
 
+		<script src="js/aux/jquery.js"></script>
+        <script src="js/aux/clipboard.js"></script>
+
         <script src="js/db_pokedata.js"></script>
         <script src="js/db_charge.js"></script>
         <script src="js/db_quick.js"></script>
 
-        <script src="js/jquery.js"></script>
-        <script src="js/clipboard.js"></script>
+        <script src="js/misc.js"></script>
         <script src="js/load.js"></script>
         <script src="js/save.js"></script>
-        <script src="js/misc.js"></script>
+        <script src="js/movedata.js"></script>
+        <script src="js/pokedata.js"></script>
 		
         <script>
             var colors = {
@@ -119,9 +122,6 @@
             });
         
         </script>
-        
-        
-        <script src="js/pvp_team_manager.js"></script>
 
         <title>PVP Manager</title>
     </head>
@@ -175,12 +175,8 @@
                                             </td>
                                         </tr>
                                         <tr style="font-size: 0.7em;" >
-                                            <td rowspan="2" id="quick_move_type-slot1" class="move_type_image_icon">
-
-                                            </td>
+                                            <td id="quick_move_type-slot1" class="move_type_image_icon"></td>
                                             <td id="quick_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
                                             <td id="quick_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
                                         </tr>
                                         <tr>
@@ -191,12 +187,8 @@
                                             </td>
                                         </tr>
                                         <tr style="font-size: 0.7em;" >
-                                            <td rowspan="2" id="charge1_move_type-slot1" class="move_type_image_icon">
-
-                                            </td>
+                                            <td id="charge1_move_type-slot1" class="move_type_image_icon"></td>
                                             <td id="charge1_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
                                             <td id="charge1_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
                                         </tr>
                                         <tr>
@@ -207,12 +199,8 @@
                                             </td>
                                         </tr>
                                         <tr style="font-size: 0.7em;" >
-                                            <td rowspan="2" id="charge2_move_type-slot1" class="move_type_image_icon">
-
-                                            </td>
+                                            <td id="charge2_move_type-slot1" class="move_type_image_icon"></td>
                                             <td id="charge2_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
                                             <td id="charge2_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
                                         </tr>
                                     </tbody>
@@ -265,12 +253,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="quick_move_type-slot2" class="move_type_image_icon">
-
-                                        </td>
+                                        <td id="quick_move_type-slot2" class="move_type_image_icon"></td>
                                         <td id="quick_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="quick_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
@@ -281,12 +265,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="charge1_move_type-slot2" class="move_type_image_icon">
-
-                                        </td>
+                                        <td id="charge1_move_type-slot2" class="move_type_image_icon"></td>
                                         <td id="charge1_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="charge1_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
@@ -297,12 +277,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="charge2_move_type-slot2" class="move_type_image_icon">
-
-                                        </td>
+                                        <td id="charge2_move_type-slot2" class="move_type_image_icon"></td>
                                         <td id="charge2_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="charge2_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     </tbody>
@@ -355,12 +331,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="quick_move_type-slot3" class="move_type_image_icon">
-
-                                        </td>
+                                        <td id="quick_move_type-slot3" class="move_type_image_icon"></td>
                                         <td id="quick_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="quick_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
@@ -371,12 +343,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="charge1_move_type-slot3" class="move_type_image_icon">
-
-                                        </td>
+                                        <td id="charge1_move_type-slot3" class="move_type_image_icon"></td>
                                         <td id="charge1_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="charge1_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
@@ -387,12 +355,8 @@
                                         </td>
                                     </tr>
                                     <tr style="font-size: 0.7em;" >
-                                        <td rowspan="2" id="charge2_move_type-slot3" class="move_type_image_icon">
-
-                                        </td>
+                                        <td rowspan="2" id="charge2_move_type-slot3" class="move_type_image_icon"></td>
                                         <td id="charge2_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
                                         <td id="charge2_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     </tbody>

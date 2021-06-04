@@ -66,10 +66,13 @@ p {
   width: 50%;
 }
 
+#quick_move_type-slot1, #charge1_move_type-slot1, #charge2_move_type-slot1,
 #quick_goodAgainst-slot1, #charge1_goodAgainst-slot1, #charge2_goodAgainst-slot1,
 #quick_weakAgainst-slot1, #charge1_weakAgainst-slot1, #charge2_weakAgainst-slot1,
+#quick_move_type-slot2, #charge1_move_type-slot2, #charge2_move_type-slot2,
 #quick_goodAgainst-slot2, #charge1_goodAgainst-slot2, #charge2_goodAgainst-slot2,
 #quick_weakAgainst-slot2, #charge1_weakAgainst-slot2, #charge2_weakAgainst-slot2,
+#quick_move_type-slot3, #charge1_move_type-slot3, #charge2_move_type-slot3,
 #quick_goodAgainst-slot3, #charge1_goodAgainst-slot3, #charge2_goodAgainst-slot3,
 #quick_weakAgainst-slot3, #charge1_weakAgainst-slot3, #charge2_weakAgainst-slot3{
   display: none;
@@ -79,14 +82,17 @@ p {
   color: white;
   background-color: #63bd71;
   border-radius: 5px 5px 0px 0px;
+  display: block;
 }
 
 .weakAgainst{
   color: white;
   background-color: #bd6363;
   border-radius: 0px 0px 5px 5px;
+  display: block;
 }
 
 .move_type_image_icon{
-  width: 20%;
+  width: 3em;
+  height: 3em;
 }

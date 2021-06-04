@@ -1,8 +1,3 @@
-function getMoveInitials(name) {
-	name = name.toLowerCase().split(" ")
-	return (name.length > 1) ? name[0].substring(0,2) + name[1].substring(0,2) : name[0][0]
-}
-
 function saveTeam() {
 	pkmSlot1 = $("#pokemonList_slot1").find(":selected").text()
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
