@@ -51,6 +51,10 @@ function getPokemonData(pokemon, slot) {
     		}
     	}
     }
+    
+    if (data == undefined) {
+    	return
+    }
 
     pokemonTypeA =  data.type[0];
 

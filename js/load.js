@@ -22,11 +22,18 @@ function forceChange(input) {
 		
 		pkmData = getPokemonData(pkm.padStart(3, '0'), "pokemonList_slot" + slot)
 		
+		if (pkmData == undefined) {
+			return
+		}
+		
 		$("#pokemonList_slot" + slot).val(pkmData.id.padStart(3, '0') + " - " + pkmData.name)
 			
 		if (quick != undefined && quick.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.quick) {						
-				if (move[0].toLowerCase() === quick.toLowerCase()) {
+			for (move of pkmData.moveset.quick) {
+				formattedMove = move.toLowerCase().split(" ")
+				formattedMove = (formattedMove.length > 1) ? formattedMove[0].substring(0,2) + formattedMove[1].substring(0,2) : formattedMove[0][0]
+				
+				if (formattedMove === quick) {
 					$("#quick_move-slot" + slot).val(move)
 					$("#quick_move-slot" + slot).trigger("change")
 					break
@@ -35,8 +42,11 @@ function forceChange(input) {
 		}
 		
 		if (charge1 != undefined && charge1.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.charge) {						
-				if (move[0].toLowerCase() === charge1.toLowerCase()) {
+			for (move of pkmData.moveset.charge) {
+				formattedMove = move.toLowerCase().split(" ")
+				formattedMove = (formattedMove.length > 1) ? formattedMove[0].substring(0,2) + formattedMove[1].substring(0,2) : formattedMove[0][0]
+				
+				if (formattedMove === charge1) {
 					$("#charge1_move-slot" + slot).val(move)
 					$("#charge1_move-slot" + slot).trigger("change")
 					break
@@ -45,8 +55,11 @@ function forceChange(input) {
 		}
 		
 		if (charge2 != undefined && charge2.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.charge) {						
-				if (move[0].toLowerCase() === charge2.toLowerCase()) {
+			for (move of pkmData.moveset.charge) {
+				formattedMove = move.toLowerCase().split(" ")
+				formattedMove = (formattedMove.length > 1) ? formattedMove[0].substring(0,2) + formattedMove[1].substring(0,2) : formattedMove[0][0]
+				
+				if (formattedMove === charge2) {
 					$("#charge2_move-slot" + slot).val(move)
 					$("#charge2_move-slot" + slot).trigger("change")
 					break

@@ -1,3 +1,8 @@
+function getMoveInitials(name) {
+	name = name.toLowerCase().split(" ")
+	return (name.length > 1) ? name[0].substring(0,2) + name[1].substring(0,2) : name[0][0]
+}
+
 function saveTeam() {
 	pkmSlot1 = $("#pokemonList_slot1").find(":selected").text()
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
@@ -11,17 +16,17 @@ function saveTeam() {
 		
 		quick = $("#quick_move-slot1").find(":selected").text()
 		if (quick !== "-- Quick --") {
-			pkmSlot1.push(quick.toLowerCase()[0])
+			pkmSlot1.push(getMoveInitials(quick))
 		}
 		
 		charge1 = $("#charge1_move-slot1").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
-			pkmSlot1.push(charge1.toLowerCase()[0])
+			pkmSlot1.push(getMoveInitials(charge1))
 		}		
 		
 		charge2 = $("#charge2_move-slot1").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
-			pkmSlot1.push(charge2.toLowerCase()[0])
+			pkmSlot1.push(getMoveInitials(charge2))
 		}		
 		
 		pkmSlot1 = pkmSlot1.join(",")
@@ -37,17 +42,17 @@ function saveTeam() {
 		
 		quick = $("#quick_move-slot2").find(":selected").text()
 		if (quick !== "-- Quick --") {
-			pkmSlot2.push(quick.toLowerCase()[0])
+			pkmSlot2.push(getMoveInitials(quick))
 		}
 		
 		charge1 = $("#charge1_move-slot2").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
-			pkmSlot2.push(charge1.toLowerCase()[0])
+			pkmSlot2.push(getMoveInitials(charge1))
 		}		
 		
 		charge2 = $("#charge2_move-slot2").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
-			pkmSlot2.push(charge2.toLowerCase()[0])
+			pkmSlot2.push(getMoveInitials(charge2))
 		}		
 		
 		pkmSlot2 = pkmSlot2.join(",")
@@ -63,17 +68,17 @@ function saveTeam() {
 		
 		quick = $("#quick_move-slot3").find(":selected").text()
 		if (quick !== "-- Quick --") {
-			pkmSlot3.push(quick.toLowerCase()[0])
+			pkmSlot3.push(getMoveInitials(quick))
 		}
 		
 		charge1 = $("#charge1_move-slot3").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
-			pkmSlot3.push(charge1.toLowerCase()[0])
+			pkmSlot3.push(getMoveInitials(charge1))
 		}		
 		
 		charge2 = $("#charge2_move-slot3").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
-			pkmSlot3.push(charge2.toLowerCase()[0])
+			pkmSlot3.push(getMoveInitials(charge2))
 		}		
 		
 		pkmSlot3 = pkmSlot3.join(",")
