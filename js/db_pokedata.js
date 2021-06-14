@@ -1158,6 +1158,7 @@ var pokeDB = {
             "Hurricane",
             "Aerial Ace",
             "Brave Bird",
+            "Feather Dance",
             "Air Cutter*"
         ]
     },
@@ -2129,7 +2130,8 @@ var pokeDB = {
             "Earthquake",
             "Sludge Wave",
             "Stone Edge",
-            "Earth Power"
+            "Earth Power",
+            "Poison Fang"
         ]
     },
     "defense_data": {
@@ -2171,7 +2173,8 @@ var pokeDB = {
             "Earthquake",
             "Sludge Wave",
             "Stone Edge",
-            "Earth Power"
+            "Earth Power",
+            "Poison Fang"
         ]
     },
     "defense_data": {
@@ -6037,6 +6040,41 @@ var pokeDB = {
         }
     }
 },
+"Galarian Slowpoke": {
+    "id": "079",
+    "imgurl": 10161,
+    "stats": {
+        "atk": 109,
+        "def": 98,
+        "sta": 207
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Galarian Slowpoke",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Iron Tail"
+        ],
+        "charge": [
+            "Surf",
+            "Psyshock",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
 "Shadow Slowpoke": {
     "id": "079",
     "imgurl": 79,
@@ -6118,6 +6156,44 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%",
             "Water": "62.5%"
+        }
+    }
+},
+"Galarian Slowbro": {
+    "id": "080",
+    "imgurl": 10162,
+    "stats": {
+        "atk": 182,
+        "def": 156,
+        "sta": 216
+    },
+    "type": [
+        "Poison",
+        "Psychic"
+    ],
+    "name": "Galarian Slowbro",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Focus Blast",
+            "Psychic",
+            "Sludge Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -10939,7 +11015,6 @@ var pokeDB = {
             "Hyper Beam",
             "Outrage",
             "Dragon Claw",
-            "Draco Meteor",
             "Draco Meteor*",
             "Dragon Pulse*"
         ]
@@ -10985,7 +11060,6 @@ var pokeDB = {
             "Hyper Beam",
             "Outrage",
             "Dragon Claw",
-            "Draco Meteor",
             "Draco Meteor*",
             "Dragon Pulse*"
         ]
@@ -11822,7 +11896,8 @@ var pokeDB = {
         "charge": [
             "Shadow Sneak",
             "Megahorn",
-            "Cross Poison"
+            "Cross Poison",
+            "Lunge"
         ]
     },
     "defense_data": {
@@ -11862,7 +11937,9 @@ var pokeDB = {
         "charge": [
             "Shadow Ball",
             "Air Cutter",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Poison Fang",
+            "Cross Poison"
         ]
     },
     "defense_data": {
@@ -11903,7 +11980,9 @@ var pokeDB = {
         "charge": [
             "Shadow Ball",
             "Air Cutter",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Poison Fang",
+            "Cross Poison"
         ]
     },
     "defense_data": {
@@ -13481,6 +13560,45 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%",
             "Psychic": "39.1%"
+        }
+    }
+},
+"Galarian Slowking": {
+    "id": "199",
+    "imgurl": 10169,
+    "stats": {
+        "atk": 190,
+        "def": 180,
+        "sta": 216
+    },
+    "type": [
+        "Poison",
+        "Psychic"
+    ],
+    "name": "Galarian Slowking",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Confusion",
+            "Acid"
+        ],
+        "charge": [
+            "Futuresight",
+            "Shadow Ball",
+            "Sludge Wave"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -21127,7 +21245,8 @@ var pokeDB = {
         "charge": [
             "Sky Attack",
             "Dazzling Gleam",
-            "Dragon Pulse"
+            "Dragon Pulse",
+            "Moonblast*"
         ]
     },
     "defense_data": {
@@ -23099,7 +23218,6 @@ var pokeDB = {
             "Fire Blast",
             "Hydro Pump",
             "Draco Meteor",
-            "Outrage",
             "Outrage*"
         ]
     },
@@ -23143,7 +23261,6 @@ var pokeDB = {
             "Fire Blast",
             "Hydro Pump",
             "Draco Meteor",
-            "Outrage",
             "Outrage*"
         ]
     },
@@ -26839,7 +26956,8 @@ var pokeDB = {
             "Outrage",
             "Earthquake",
             "Fire Blast",
-            "Sand Tomb"
+            "Sand Tomb",
+            "Earth Power*"
         ]
     },
     "defense_data": {
@@ -26878,7 +26996,8 @@ var pokeDB = {
             "Outrage",
             "Earthquake",
             "Fire Blast",
-            "Sand Tomb"
+            "Sand Tomb",
+            "Earth Power*"
         ]
     },
     "defense_data": {
@@ -27103,7 +27222,8 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Body Slam",
-            "Earth Power"
+            "Earth Power",
+            "Weather Ball Rock"
         ]
     },
     "defense_data": {
@@ -27142,7 +27262,8 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Body Slam",
-            "Earth Power"
+            "Earth Power",
+            "Weather Ball Rock"
         ]
     },
     "defense_data": {

@@ -1723,13 +1723,18 @@ var chargeMoveDB = {
     ]
 },
 "Weather Ball Rock": {
-    "type": "NORMAL",
+    "type": "ROCK",
     "weakAgainst": [
-        "Ghost",
-        "Rock",
+        "Fighting",
+        "Ground",
         "Steel"
     ],
-    "goodAgainst": []
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ]
 },
 "Weather Ball Water": {
     "type": "WATER",
@@ -2347,5 +2352,18 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": []
+},
+"Feather Dance": {
+    "type": "FLYING",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ]
 },
 }
