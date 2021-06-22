@@ -16704,6 +16704,50 @@ var pokeDB = {
         }
     }
 },
+"Shadow Ho-Oh": {
+    "id": "250",
+    "imgurl": 250,
+    "stats": {
+        "atk": 239,
+        "def": 244,
+        "sta": 214
+    },
+    "type": [
+        "Fire",
+        "Flying"
+    ],
+    "name": "Shadow Ho-Oh",
+    "moveset": {
+        "quick": [
+            "Extrasensory",
+            "Steel Wing",
+            "Hidden Power",
+            "Incinerate"
+        ],
+        "charge": [
+            "Brave Bird",
+            "Fire Blast",
+            "Solar Beam",
+            "Earthquake*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Rock": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Celebi": {
     "id": "251",
     "imgurl": 251,
