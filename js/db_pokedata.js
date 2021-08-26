@@ -9933,7 +9933,8 @@ var pokeDB = {
             "Water Pulse",
             "Hydro Pump",
             "Aqua Tail",
-            "Last Resort*"
+            "Last Resort*",
+            "Scald*"
         ]
     },
     "defense_data": {
@@ -9970,7 +9971,8 @@ var pokeDB = {
             "Discharge",
             "Thunderbolt",
             "Thunder",
-            "Last Resort*"
+            "Last Resort*",
+            "Zap Cannon*"
         ]
     },
     "defense_data": {
@@ -10006,7 +10008,8 @@ var pokeDB = {
             "Flamethrower",
             "Overheat",
             "Last Resort*",
-            "Heat Wave*"
+            "Heat Wave*",
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -13432,7 +13435,8 @@ var pokeDB = {
             "Psybeam",
             "Psychic",
             "Futuresight",
-            "Last Resort*"
+            "Last Resort*",
+            "Shadow Ball*"
         ]
     },
     "defense_data": {
@@ -13467,7 +13471,8 @@ var pokeDB = {
         "charge": [
             "Dark Pulse",
             "Foul Play",
-            "Last Resort*"
+            "Last Resort*",
+            "Psychic*"
         ]
     },
     "defense_data": {
@@ -24944,7 +24949,11 @@ var pokeDB = {
         "charge": [
             "Hyper Fang",
             "Crunch",
-            "Grass Knot"
+            "Grass Knot",
+            "Shadow Ball*",
+            "Thunderbolt*",
+            "Ice Beam*",
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -24976,7 +24985,11 @@ var pokeDB = {
         "charge": [
             "Hyper Fang",
             "Crunch",
-            "Grass Knot"
+            "Grass Knot",
+            "Shadow Ball*",
+            "Thunderbolt*",
+            "Ice Beam*",
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -28522,7 +28535,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Razor Leaf",
-            "Quick Attack"
+            "Quick Attack",
+            "Bullet Seed*"
         ],
         "charge": [
             "Solar Beam",
@@ -28568,7 +28582,8 @@ var pokeDB = {
             "Avalanche",
             "Icy Wind",
             "Ice Beam",
-            "Last Resort*"
+            "Last Resort*",
+            "Water Pulse*"
         ]
     },
     "defense_data": {
@@ -29956,7 +29971,8 @@ var pokeDB = {
             "Heat Wave",
             "Rock Slide",
             "Focus Blast",
-            "Flame Charge"
+            "Flame Charge",
+            "Blast Burn*"
         ]
     },
     "defense_data": {
@@ -38100,7 +38116,8 @@ var pokeDB = {
             "Moonblast",
             "Dazzling Gleam",
             "Draining Kiss",
-            "Last Resort*"
+            "Last Resort*",
+            "Psyshock*"
         ]
     },
     "defense_data": {
@@ -38844,6 +38861,122 @@ var pokeDB = {
         }
     }
 },
+"Diancie": {
+    "id": "719",
+    "imgurl": 719,
+    "stats": {
+        "atk": 190,
+        "def": 285,
+        "sta": 137
+    },
+    "type": [
+        "Rock",
+        "Fairy"
+    ],
+    "name": "Diancie",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Rock Throw"
+        ],
+        "charge": [
+            "Rock Slide",
+            "Moonblast",
+            "Power Gem"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%"
+        }
+    }
+},
+"Hoopa": {
+    "id": "720",
+    "imgurl": 720,
+    "stats": {
+        "atk": 311,
+        "def": 191,
+        "sta": 173
+    },
+    "type": [
+        "Psychic",
+        "Dark"
+    ],
+    "name": "Hoopa",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Astonish"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "256%",
+            "Fairy": "160%"
+        },
+        "resistant_to": {
+            "Psychic": "24.4%"
+        }
+    }
+},
+"Volcanion": {
+    "id": "721",
+    "imgurl": 721,
+    "stats": {
+        "atk": 252,
+        "def": 216,
+        "sta": 190
+    },
+    "type": [
+        "Fire",
+        "Water"
+    ],
+    "name": "Volcanion",
+    "moveset": {
+        "quick": [
+            "Incinerate",
+            "Water Gun",
+            "Take Down"
+        ],
+        "charge": [
+            "Hydro Pump",
+            "Overheat",
+            "Earth Power",
+            "Sludge Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ground": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "39.1%",
+            "Ice": "39.1%",
+            "Steel": "39.1%"
+        }
+    }
+},
 "Meltan": {
     "id": "808",
     "imgurl": 808,
@@ -38928,6 +39061,1946 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%",
             "Steel": "62.5%"
+        }
+    }
+},
+"Grookey": {
+    "id": "810",
+    "imgurl": 810,
+    "stats": {
+        "atk": 122,
+        "def": 91,
+        "sta": 137
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Grookey",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Thwackey": {
+    "id": "811",
+    "imgurl": 811,
+    "stats": {
+        "atk": 165,
+        "def": 134,
+        "sta": 172
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Thwackey",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Rillaboom": {
+    "id": "812",
+    "imgurl": 812,
+    "stats": {
+        "atk": 239,
+        "def": 168,
+        "sta": 225
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Rillaboom",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot",
+            "Earth Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Scorbunny": {
+    "id": "813",
+    "imgurl": 813,
+    "stats": {
+        "atk": 132,
+        "def": 79,
+        "sta": 137
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Scorbunny",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Ember"
+        ],
+        "charge": [
+            "Flame Charge",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Raboot": {
+    "id": "814",
+    "imgurl": 814,
+    "stats": {
+        "atk": 170,
+        "def": 125,
+        "sta": 163
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Raboot",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Ember"
+        ],
+        "charge": [
+            "Flame Charge",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Cinderace": {
+    "id": "815",
+    "imgurl": 815,
+    "stats": {
+        "atk": 238,
+        "def": 163,
+        "sta": 190
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Cinderace",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Ember"
+        ],
+        "charge": [
+            "Flame Charge",
+            "Flamethrower",
+            "Focus Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Sobble": {
+    "id": "816",
+    "imgurl": 816,
+    "stats": {
+        "atk": 132,
+        "def": 79,
+        "sta": 137
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Sobble",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Water Gun"
+        ],
+        "charge": [
+            "Water Pulse",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Drizzile": {
+    "id": "817",
+    "imgurl": 817,
+    "stats": {
+        "atk": 186,
+        "def": 113,
+        "sta": 163
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Drizzile",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Water Gun"
+        ],
+        "charge": [
+            "Water Pulse",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Inteleon": {
+    "id": "818",
+    "imgurl": 818,
+    "stats": {
+        "atk": 262,
+        "def": 142,
+        "sta": 172
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Inteleon",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Water Gun"
+        ],
+        "charge": [
+            "Water Pulse",
+            "Surf",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Skwovet": {
+    "id": "819",
+    "imgurl": 819,
+    "stats": {
+        "atk": 95,
+        "def": 86,
+        "sta": 172
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Skwovet",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bite",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Body Slam",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Greedent": {
+    "id": "820",
+    "imgurl": 820,
+    "stats": {
+        "atk": 160,
+        "def": 156,
+        "sta": 260
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Greedent",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bite",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Body Slam",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Rookidee": {
+    "id": "821",
+    "imgurl": 821,
+    "stats": {
+        "atk": 88,
+        "def": 67,
+        "sta": 116
+    },
+    "type": [
+        "Flying"
+    ],
+    "name": "Rookidee",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Air Slash"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Corvisquire": {
+    "id": "822",
+    "imgurl": 822,
+    "stats": {
+        "atk": 129,
+        "def": 110,
+        "sta": 169
+    },
+    "type": [
+        "Flying"
+    ],
+    "name": "Corvisquire",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Air Slash"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Corviknight": {
+    "id": "823",
+    "imgurl": 823,
+    "stats": {
+        "atk": 163,
+        "def": 192,
+        "sta": 221
+    },
+    "type": [
+        "Flying",
+        "Steel"
+    ],
+    "name": "Corviknight",
+    "moveset": {
+        "quick": [
+            "Steel Wing",
+            "Air Slash"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Brave Bird",
+            "Iron Head"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Blipbug": {
+    "id": "824",
+    "imgurl": 824,
+    "stats": {
+        "atk": 46,
+        "def": 67,
+        "sta": 93
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Blipbug",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Dottler": {
+    "id": "825",
+    "imgurl": 825,
+    "stats": {
+        "atk": 87,
+        "def": 157,
+        "sta": 137
+    },
+    "type": [
+        "Bug",
+        "Psychic"
+    ],
+    "name": "Dottler",
+    "moveset": {
+        "quick": [
+            "Struggle Bug",
+            "Confusion"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Orbeetle": {
+    "id": "826",
+    "imgurl": 826,
+    "stats": {
+        "atk": 156,
+        "def": 240,
+        "sta": 155
+    },
+    "type": [
+        "Bug",
+        "Psychic"
+    ],
+    "name": "Orbeetle",
+    "moveset": {
+        "quick": [
+            "Struggle Bug",
+            "Confusion"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Nickit": {
+    "id": "827",
+    "imgurl": 827,
+    "stats": {
+        "atk": 85,
+        "def": 82,
+        "sta": 120
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Nickit",
+    "moveset": {
+        "quick": [
+            "Quick Attack",
+            "Snarl"
+        ],
+        "charge": [
+            "Night Slash",
+            "Play Rough"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Thievul": {
+    "id": "828",
+    "imgurl": 828,
+    "stats": {
+        "atk": 172,
+        "def": 164,
+        "sta": 172
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Thievul",
+    "moveset": {
+        "quick": [
+            "Quick Attack",
+            "Snarl"
+        ],
+        "charge": [
+            "Night Slash",
+            "Play Rough"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Gossifleur": {
+    "id": "829",
+    "imgurl": 829,
+    "stats": {
+        "atk": 70,
+        "def": 104,
+        "sta": 120
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Gossifleur",
+    "moveset": {
+        "quick": [
+            "Razor Leaf",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Eldegoss": {
+    "id": "830",
+    "imgurl": 830,
+    "stats": {
+        "atk": 148,
+        "def": 211,
+        "sta": 155
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Eldegoss",
+    "moveset": {
+        "quick": [
+            "Razor Leaf",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Wooloo": {
+    "id": "831",
+    "imgurl": 831,
+    "stats": {
+        "atk": 76,
+        "def": 97,
+        "sta": 123
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Wooloo",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Wild Charge",
+            "Payback",
+            "Stomp"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Dubwool": {
+    "id": "832",
+    "imgurl": 832,
+    "stats": {
+        "atk": 159,
+        "def": 198,
+        "sta": 176
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Dubwool",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Wild Charge",
+            "Payback",
+            "Body Slam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Chewtle": {
+    "id": "833",
+    "imgurl": 833,
+    "stats": {
+        "atk": 114,
+        "def": 85,
+        "sta": 137
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Chewtle",
+    "moveset": {
+        "quick": [
+            "Water Gun",
+            "Bite"
+        ],
+        "charge": [
+            "Body Slam",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Drednaw": {
+    "id": "834",
+    "imgurl": 834,
+    "stats": {
+        "atk": 213,
+        "def": 164,
+        "sta": 207
+    },
+    "type": [
+        "Water",
+        "Rock"
+    ],
+    "name": "Drednaw",
+    "moveset": {
+        "quick": [
+            "Waterfall",
+            "Bite"
+        ],
+        "charge": [
+            "Body Slam",
+            "Surf",
+            "Rock Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fighting": "160%",
+            "Grass": "256%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Fire": "39.1%",
+            "Flying": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Yamper": {
+    "id": "835",
+    "imgurl": 835,
+    "stats": {
+        "atk": 80,
+        "def": 90,
+        "sta": 153
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Yamper",
+    "moveset": {
+        "quick": [
+            "Spark",
+            "Bite"
+        ],
+        "charge": [
+            "Crunch",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Boltund": {
+    "id": "836",
+    "imgurl": 836,
+    "stats": {
+        "atk": 197,
+        "def": 131,
+        "sta": 170
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Boltund",
+    "moveset": {
+        "quick": [
+            "Spark",
+            "Bite"
+        ],
+        "charge": [
+            "Crunch",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Rolycoly": {
+    "id": "837",
+    "imgurl": 837,
+    "stats": {
+        "atk": 73,
+        "def": 91,
+        "sta": 102
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Rolycoly",
+    "moveset": {
+        "quick": [
+            "Smack Down",
+            "Tackle"
+        ],
+        "charge": [
+            "Rock Blast",
+            "Rock Slide"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Carkol": {
+    "id": "838",
+    "imgurl": 838,
+    "stats": {
+        "atk": 114,
+        "def": 157,
+        "sta": 190
+    },
+    "type": [
+        "Rock",
+        "Fire"
+    ],
+    "name": "Carkol",
+    "moveset": {
+        "quick": [
+            "Smack Down",
+            "Incinerate"
+        ],
+        "charge": [
+            "Rock Blast",
+            "Rock Slide",
+            "Flame Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "256%",
+            "Rock": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "39.1%",
+            "Flying": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Coalossal": {
+    "id": "839",
+    "imgurl": 839,
+    "stats": {
+        "atk": 146,
+        "def": 198,
+        "sta": 242
+    },
+    "type": [
+        "Rock",
+        "Fire"
+    ],
+    "name": "Coalossal",
+    "moveset": {
+        "quick": [
+            "Smack Down",
+            "Incinerate"
+        ],
+        "charge": [
+            "Rock Blast",
+            "Rock Slide",
+            "Flame Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "256%",
+            "Rock": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "39.1%",
+            "Flying": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Applin": {
+    "id": "840",
+    "imgurl": 840,
+    "stats": {
+        "atk": 71,
+        "def": 116,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "name": "Applin",
+    "moveset": {
+        "quick": [
+            "Astonish"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Water": "39.1%"
+        }
+    }
+},
+"Flapple": {
+    "id": "841",
+    "imgurl": 841,
+    "stats": {
+        "atk": 214,
+        "def": 144,
+        "sta": 172
+    },
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "name": "Flapple",
+    "moveset": {
+        "quick": [
+            "Bullet Seed",
+            "Dragon Breath"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Fly",
+            "Outrage",
+            "Seed Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Water": "39.1%"
+        }
+    }
+},
+"Appletun": {
+    "id": "842",
+    "imgurl": 842,
+    "stats": {
+        "atk": 178,
+        "def": 146,
+        "sta": 242
+    },
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "name": "Appletun",
+    "moveset": {
+        "quick": [
+            "Bullet Seed",
+            "Astonish"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Energy Ball",
+            "Outrage",
+            "Seed Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Water": "39.1%"
+        }
+    }
+},
+"Silicobra": {
+    "id": "843",
+    "imgurl": 843,
+    "stats": {
+        "atk": 103,
+        "def": 123,
+        "sta": 141
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Silicobra",
+    "moveset": {
+        "quick": [
+            "Mud Slap",
+            "Mud Shot"
+        ],
+        "charge": [
+            "Dig",
+            "Bulldoze",
+            "Earth Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Sandaconda": {
+    "id": "844",
+    "imgurl": 844,
+    "stats": {
+        "atk": 202,
+        "def": 207,
+        "sta": 176
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Sandaconda",
+    "moveset": {
+        "quick": [
+            "Mud Slap",
+            "Mud Shot"
+        ],
+        "charge": [
+            "Dig",
+            "Bulldoze",
+            "Earth Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Cramorant": {
+    "id": "845",
+    "imgurl": 845,
+    "stats": {
+        "atk": 173,
+        "def": 163,
+        "sta": 172
+    },
+    "type": [
+        "Flying",
+        "Water"
+    ],
+    "name": "Cramorant",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Water Gun"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Fly",
+            "Hydro Pump"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "256%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ground": "39.1%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Arrokuda": {
+    "id": "846",
+    "imgurl": 846,
+    "stats": {
+        "atk": 118,
+        "def": 72,
+        "sta": 121
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Arrokuda",
+    "moveset": {
+        "quick": [
+            "Waterfall",
+            "Bite",
+            "Peck"
+        ],
+        "charge": [
+            "Crunch",
+            "Aqua Jet",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Barraskewda": {
+    "id": "847",
+    "imgurl": 847,
+    "stats": {
+        "atk": 258,
+        "def": 127,
+        "sta": 156
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Barraskewda",
+    "moveset": {
+        "quick": [
+            "Waterfall",
+            "Bite",
+            "Peck"
+        ],
+        "charge": [
+            "Crunch",
+            "Aqua Jet",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Toxel": {
+    "id": "848",
+    "imgurl": 848,
+    "stats": {
+        "atk": 97,
+        "def": 65,
+        "sta": 120
+    },
+    "type": [
+        "Electric",
+        "Poison"
+    ],
+    "name": "Toxel",
+    "moveset": {
+        "quick": [
+            "Acid"
+        ],
+        "charge": [
+            "Power Up Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Toxtricity": {
+    "id": "849",
+    "imgurl": 849,
+    "stats": {
+        "atk": 224,
+        "def": 140,
+        "sta": 181
+    },
+    "type": [
+        "Electric",
+        "Poison"
+    ],
+    "name": "Toxtricity",
+    "moveset": {
+        "quick": [
+            "Acid",
+            "Spark",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Acid Spray",
+            "Discharge",
+            "Wild Charge",
+            "Power Up Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Sizzlipede": {
+    "id": "850",
+    "imgurl": 850,
+    "stats": {
+        "atk": 118,
+        "def": 90,
+        "sta": 137
+    },
+    "type": [
+        "Fire",
+        "Bug"
+    ],
+    "name": "Sizzlipede",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Ember"
+        ],
+        "charge": [
+            "Heat Wave",
+            "Bug Buzz",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Rock": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Centiskorch": {
+    "id": "851",
+    "imgurl": 851,
+    "stats": {
+        "atk": 220,
+        "def": 158,
+        "sta": 225
+    },
+    "type": [
+        "Fire",
+        "Bug"
+    ],
+    "name": "Centiskorch",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Ember"
+        ],
+        "charge": [
+            "Heat Wave",
+            "Bug Buzz",
+            "Crunch",
+            "Lunge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Rock": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Clobbopus": {
+    "id": "852",
+    "imgurl": 852,
+    "stats": {
+        "atk": 121,
+        "def": 103,
+        "sta": 137
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Clobbopus",
+    "moveset": {
+        "quick": [
+            "Rock Smash"
+        ],
+        "charge": [
+            "Brick Break",
+            "Super Power",
+            "Ice Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Grapploct": {
+    "id": "853",
+    "imgurl": 853,
+    "stats": {
+        "atk": 209,
+        "def": 162,
+        "sta": 190
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Grapploct",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Waterfall"
+        ],
+        "charge": [
+            "Brick Break",
+            "Super Power",
+            "Ice Punch",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Sinistea": {
+    "id": "854",
+    "imgurl": 854,
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Sinistea",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Polteageist": {
+    "id": "855",
+    "imgurl": 855,
+    "stats": {
+        "atk": 248,
+        "def": 189,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Polteageist",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Sucker Punch",
+            "Hex"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Hatenna": {
+    "id": "856",
+    "imgurl": 856,
+    "stats": {
+        "atk": 98,
+        "def": 93,
+        "sta": 123
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Hatenna",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Charm"
+        ],
+        "charge": [
+            "Psybeam",
+            "Psychic",
+            "Dazzling Gleam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Hattrem": {
+    "id": "857",
+    "imgurl": 857,
+    "stats": {
+        "atk": 153,
+        "def": 133,
+        "sta": 149
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Hattrem",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Charm"
+        ],
+        "charge": [
+            "Psybeam",
+            "Psychic",
+            "Dazzling Gleam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Hatterene": {
+    "id": "858",
+    "imgurl": 858,
+    "stats": {
+        "atk": 237,
+        "def": 182,
+        "sta": 149
+    },
+    "type": [
+        "Psychic",
+        "Fairy"
+    ],
+    "name": "Hatterene",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Charm",
+            "Psycho Cut"
+        ],
+        "charge": [
+            "Psybeam",
+            "Psychic",
+            "Dazzling Gleam",
+            "Power Whip"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ghost": "160%",
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dragon": "39.1%",
+            "Fighting": "39.1%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Impidimp": {
+    "id": "859",
+    "imgurl": 859,
+    "stats": {
+        "atk": 103,
+        "def": 69,
+        "sta": 128
+    },
+    "type": [
+        "Dark",
+        "Fairy"
+    ],
+    "name": "Impidimp",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Foul Play",
+            "Dark Pulse",
+            "Play Rough"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "39.1%",
+            "Dragon": "39.1%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Morgrem": {
+    "id": "860",
+    "imgurl": 860,
+    "stats": {
+        "atk": 145,
+        "def": 102,
+        "sta": 163
+    },
+    "type": [
+        "Dark",
+        "Fairy"
+    ],
+    "name": "Morgrem",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Foul Play",
+            "Dark Pulse",
+            "Play Rough"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "39.1%",
+            "Dragon": "39.1%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Grimmsnarl": {
+    "id": "861",
+    "imgurl": 861,
+    "stats": {
+        "atk": 227,
+        "def": 139,
+        "sta": 216
+    },
+    "type": [
+        "Dark",
+        "Fairy"
+    ],
+    "name": "Grimmsnarl",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Sucker Punch",
+            "Low Kick"
+        ],
+        "charge": [
+            "Foul Play",
+            "Dark Pulse",
+            "Play Rough",
+            "Power Up Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "39.1%",
+            "Dragon": "39.1%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
         }
     }
 },
@@ -39177,6 +41250,80 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%",
             "Steel": "62.5%"
+        }
+    }
+},
+"Cursola": {
+    "id": "864",
+    "imgurl": 864,
+    "stats": {
+        "atk": 253,
+        "def": 182,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Cursola",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Hex"
+        ],
+        "charge": [
+            "Rock Blast",
+            "Brine",
+            "Night Shade",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Shadow Cursola": {
+    "id": "864",
+    "imgurl": 864,
+    "stats": {
+        "atk": 253,
+        "def": 182,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Shadow Cursola",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Hex"
+        ],
+        "charge": [
+            "Rock Blast",
+            "Brine",
+            "Night Shade",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -39534,6 +41681,1205 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "39.1%",
             "Rock": "62.5%"
+        }
+    }
+},
+"Milcery": {
+    "id": "868",
+    "imgurl": 868,
+    "stats": {
+        "atk": 90,
+        "def": 97,
+        "sta": 128
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Milcery",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Charm"
+        ],
+        "charge": [
+            "Dazzling Gleam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Alcremie": {
+    "id": "869",
+    "imgurl": 869,
+    "stats": {
+        "atk": 203,
+        "def": 203,
+        "sta": 163
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Alcremie",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Charm"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Psyshock",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Falinks": {
+    "id": "870",
+    "imgurl": 870,
+    "stats": {
+        "atk": 193,
+        "def": 170,
+        "sta": 163
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Falinks",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Counter"
+        ],
+        "charge": [
+            "Super Power",
+            "Brick Break",
+            "Megahorn"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Pincurchin": {
+    "id": "871",
+    "imgurl": 871,
+    "stats": {
+        "atk": 176,
+        "def": 161,
+        "sta": 134
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Pincurchin",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Water Gun",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Discharge",
+            "Thunderbolt",
+            "Bubble Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Snom": {
+    "id": "872",
+    "imgurl": 872,
+    "stats": {
+        "atk": 76,
+        "def": 59,
+        "sta": 102
+    },
+    "type": [
+        "Ice",
+        "Bug"
+    ],
+    "name": "Snom",
+    "moveset": {
+        "quick": [
+            "Powder Snow",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Icy Wind",
+            "Bug Buzz"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%",
+            "Flying": "160%",
+            "Rock": "256%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%"
+        }
+    }
+},
+"Frosmoth": {
+    "id": "873",
+    "imgurl": 873,
+    "stats": {
+        "atk": 230,
+        "def": 155,
+        "sta": 172
+    },
+    "type": [
+        "Ice",
+        "Bug"
+    ],
+    "name": "Frosmoth",
+    "moveset": {
+        "quick": [
+            "Powder Snow",
+            "Bug Bite"
+        ],
+        "charge": [
+            "Icy Wind",
+            "Bug Buzz",
+            "Ice Beam",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%",
+            "Flying": "160%",
+            "Rock": "256%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%"
+        }
+    }
+},
+"Stonjourner": {
+    "id": "874",
+    "imgurl": 874,
+    "stats": {
+        "atk": 222,
+        "def": 182,
+        "sta": 225
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Stonjourner",
+    "moveset": {
+        "quick": [
+            "Rock Throw"
+        ],
+        "charge": [
+            "Stone Edge",
+            "Rock Slide",
+            "Stomp"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Eiscue": {
+    "id": "875",
+    "imgurl": 875,
+    "stats": {
+        "atk": 173,
+        "def": 139,
+        "sta": 181
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Eiscue",
+    "moveset": {
+        "quick": [
+            "Powder Snow"
+        ],
+        "charge": [
+            "Icy Wind",
+            "Weather Ball Ice",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
+"Indeedee": {
+    "id": "876",
+    "imgurl": 876,
+    "stats": {
+        "atk": 208,
+        "def": 166,
+        "sta": 155
+    },
+    "type": [
+        "Psychic",
+        "Normal"
+    ],
+    "name": "Indeedee",
+    "moveset": {
+        "quick": [
+            "Extrasensory"
+        ],
+        "charge": [
+            "Psybeam",
+            "Psychic",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Morpeko": {
+    "id": "877",
+    "imgurl": 877,
+    "stats": {
+        "atk": 192,
+        "def": 121,
+        "sta": 151
+    },
+    "type": [
+        "Electric",
+        "Dark"
+    ],
+    "name": "Morpeko",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Bite"
+        ],
+        "charge": [
+            "Crunch",
+            "Payback",
+            "Thunderbolt",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Cufant": {
+    "id": "878",
+    "imgurl": 878,
+    "stats": {
+        "atk": 140,
+        "def": 91,
+        "sta": 176
+    },
+    "type": [
+        "Steel"
+    ],
+    "name": "Cufant",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Iron Head",
+            "Dig",
+            "Play Rough"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Copperajah": {
+    "id": "879",
+    "imgurl": 879,
+    "stats": {
+        "atk": 226,
+        "def": 126,
+        "sta": 263
+    },
+    "type": [
+        "Steel"
+    ],
+    "name": "Copperajah",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Iron Head",
+            "Dig",
+            "Play Rough",
+            "Heavy Slam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Dracozolt": {
+    "id": "880",
+    "imgurl": 880,
+    "stats": {
+        "atk": 195,
+        "def": 165,
+        "sta": 207
+    },
+    "type": [
+        "Electric",
+        "Dragon"
+    ],
+    "name": "Dracozolt",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Discharge",
+            "Dragon Pulse",
+            "Ancient Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ground": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Arctozolt": {
+    "id": "881",
+    "imgurl": 881,
+    "stats": {
+        "atk": 190,
+        "def": 166,
+        "sta": 207
+    },
+    "type": [
+        "Electric",
+        "Ice"
+    ],
+    "name": "Arctozolt",
+    "moveset": {
+        "quick": [
+            "Powder Snow",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Discharge",
+            "Avalanche",
+            "Ancient Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Ice": "62.5%"
+        }
+    }
+},
+"Dracovish": {
+    "id": "882",
+    "imgurl": 882,
+    "stats": {
+        "atk": 175,
+        "def": 185,
+        "sta": 207
+    },
+    "type": [
+        "Water",
+        "Dragon"
+    ],
+    "name": "Dracovish",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Water Gun"
+        ],
+        "charge": [
+            "Brine",
+            "Dragon Pulse",
+            "Ancient Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%"
+        },
+        "resistant_to": {
+            "Fire": "39.1%",
+            "Steel": "62.5%",
+            "Water": "39.1%"
+        }
+    }
+},
+"Arctovish": {
+    "id": "883",
+    "imgurl": 883,
+    "stats": {
+        "atk": 171,
+        "def": 185,
+        "sta": 207
+    },
+    "type": [
+        "Water",
+        "Ice"
+    ],
+    "name": "Arctovish",
+    "moveset": {
+        "quick": [
+            "Powder Snow",
+            "Water Gun"
+        ],
+        "charge": [
+            "Brine",
+            "Avalanche",
+            "Ancient Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Ice": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Duraludon": {
+    "id": "884",
+    "imgurl": 884,
+    "stats": {
+        "atk": 239,
+        "def": 185,
+        "sta": 172
+    },
+    "type": [
+        "Steel",
+        "Dragon"
+    ],
+    "name": "Duraludon",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Metal Claw"
+        ],
+        "charge": [
+            "Flash Cannon",
+            "Dragon Claw",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "39.1%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Dreepy": {
+    "id": "885",
+    "imgurl": 885,
+    "stats": {
+        "atk": 117,
+        "def": 61,
+        "sta": 99
+    },
+    "type": [
+        "Dragon",
+        "Ghost"
+    ],
+    "name": "Dreepy",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Quick Attack"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Drakloak": {
+    "id": "886",
+    "imgurl": 886,
+    "stats": {
+        "atk": 163,
+        "def": 105,
+        "sta": 169
+    },
+    "type": [
+        "Dragon",
+        "Ghost"
+    ],
+    "name": "Drakloak",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Shadow Ball",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Dragapult": {
+    "id": "887",
+    "imgurl": 887,
+    "stats": {
+        "atk": 266,
+        "def": 170,
+        "sta": 204
+    },
+    "type": [
+        "Dragon",
+        "Ghost"
+    ],
+    "name": "Dragapult",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Shadow Ball",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Zacian": {
+    "id": "888",
+    "imgurl": 888,
+    "stats": {
+        "atk": 254,
+        "def": 236,
+        "sta": 192
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Zacian",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Snarl",
+            "Quick Attack",
+            "Fire Fang"
+        ],
+        "charge": [
+            "Play Rough",
+            "Iron Head",
+            "Wild Charge",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Zamazenta": {
+    "id": "889",
+    "imgurl": 889,
+    "stats": {
+        "atk": 254,
+        "def": 236,
+        "sta": 192
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Zamazenta",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Snarl",
+            "Quick Attack",
+            "Ice Fang"
+        ],
+        "charge": [
+            "Moonblast",
+            "Iron Head",
+            "Crunch",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Eternatus": {
+    "id": "890",
+    "imgurl": 890,
+    "stats": {
+        "atk": 278,
+        "def": 192,
+        "sta": 268
+    },
+    "type": [
+        "Poison",
+        "Dragon"
+    ],
+    "name": "Eternatus",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Cross Poison",
+            "Dragon Pulse",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Kubfu": {
+    "id": "891",
+    "imgurl": 891,
+    "stats": {
+        "atk": 170,
+        "def": 112,
+        "sta": 155
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Kubfu",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Counter"
+        ],
+        "charge": [
+            "Brick Break",
+            "Dynamic Punch",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Urshifu": {
+    "id": "892",
+    "imgurl": 892,
+    "stats": {
+        "atk": 254,
+        "def": 177,
+        "sta": 225
+    },
+    "type": [
+        "Fighting",
+        "Dark"
+    ],
+    "name": "Urshifu",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Counter",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Brick Break",
+            "Dynamic Punch",
+            "Close Combat",
+            "Payback"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "256%",
+            "Fighting": "160%",
+            "Flying": "160%"
+        },
+        "resistant_to": {
+            "Dark": "39.1%",
+            "Ghost": "62.5%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Zarude": {
+    "id": "893",
+    "imgurl": 893,
+    "stats": {
+        "atk": 242,
+        "def": 215,
+        "sta": 233
+    },
+    "type": [
+        "Dark",
+        "Grass"
+    ],
+    "name": "Zarude",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Bite"
+        ],
+        "charge": [
+            "Power Whip",
+            "Energy Ball",
+            "Dark Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "256%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Psychic": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Regieleki": {
+    "id": "894",
+    "imgurl": 894,
+    "stats": {
+        "atk": 250,
+        "def": 125,
+        "sta": 190
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Regieleki",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Lock On"
+        ],
+        "charge": [
+            "Hyper Beam",
+            "Thunder",
+            "Zap Cannon"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Regidrago": {
+    "id": "895",
+    "imgurl": 895,
+    "stats": {
+        "atk": 202,
+        "def": 101,
+        "sta": 400
+    },
+    "type": [
+        "Dragon"
+    ],
+    "name": "Regidrago",
+    "moveset": {
+        "quick": [
+            "Bite"
+        ],
+        "charge": [
+            "Hyper Beam",
+            "Outrage",
+            "Dragon Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Glastrier": {
+    "id": "896",
+    "imgurl": 896,
+    "stats": {
+        "atk": 246,
+        "def": 223,
+        "sta": 225
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Glastrier",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Avalanche",
+            "Icy Wind",
+            "Bulldoze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
+"Spectrier": {
+    "id": "897",
+    "imgurl": 897,
+    "stats": {
+        "atk": 273,
+        "def": 146,
+        "sta": 205
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Spectrier",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Foul Play",
+            "Bulldoze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Calyrex": {
+    "id": "898",
+    "imgurl": 898,
+    "stats": {
+        "atk": 324,
+        "def": 194,
+        "sta": 205
+    },
+    "type": [
+        "Psychic",
+        "Ghost"
+    ],
+    "name": "Calyrex",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Take Down"
+        ],
+        "charge": [
+            "Psyshock",
+            "Psychic",
+            "Energy Ball",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "256%",
+            "Ghost": "256%"
+        },
+        "resistant_to": {
+            "Fighting": "24.4%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
         }
     }
 },
