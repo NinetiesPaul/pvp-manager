@@ -95,7 +95,7 @@ var chargeMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "power": "100",
+    "power": "110",
     "energy": "-55"
 },
 "Flamethrower": {
@@ -1130,7 +1130,7 @@ var chargeMoveDB = {
         "Rock"
     ],
     "power": "80",
-    "energy": "-60"
+    "energy": "-50"
 },
 "Hydro Pump": {
     "type": "WATER",
@@ -2712,6 +2712,17 @@ var chargeMoveDB = {
         "Grass"
     ],
     "power": "35",
-    "energy": "-45"
+    "energy": "-50"
+},
+"Weather Ball Normal": {
+    "type": "NORMAL",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "power": null,
+    "energy": null
 },
 }

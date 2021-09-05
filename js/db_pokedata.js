@@ -2365,7 +2365,8 @@ var pokeDB = {
             "Earthquake",
             "Sludge Wave",
             "Megahorn",
-            "Earth Power"
+            "Earth Power",
+            "Sand Tomb"
         ]
     },
     "defense_data": {
@@ -2408,7 +2409,8 @@ var pokeDB = {
             "Earthquake",
             "Sludge Wave",
             "Megahorn",
-            "Earth Power"
+            "Earth Power",
+            "Sand Tomb"
         ]
     },
     "defense_data": {
@@ -4530,6 +4532,7 @@ var pokeDB = {
             "Dynamic Punch",
             "Ice Punch",
             "Power Up Punch",
+            "Scald",
             "Submission*"
         ]
     },
@@ -4576,6 +4579,7 @@ var pokeDB = {
             "Dynamic Punch",
             "Ice Punch",
             "Power Up Punch",
+            "Scald",
             "Submission*"
         ]
     },
@@ -14621,7 +14625,8 @@ var pokeDB = {
         "charge": [
             "Megahorn",
             "Close Combat",
-            "Earthquake"
+            "Earthquake",
+            "Rock Blast"
         ]
     },
     "defense_data": {
@@ -20063,12 +20068,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Snarl",
-            "Charge Beam"
+            "Charge Beam",
+            "Thunder Fang"
         ],
         "charge": [
             "Thunder",
             "Wild Charge",
-            "Flame Burst"
+            "Flame Burst",
+            "Overheat"
         ]
     },
     "defense_data": {
@@ -20097,12 +20104,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Snarl",
-            "Charge Beam"
+            "Charge Beam",
+            "Thunder Fang"
         ],
         "charge": [
             "Thunder",
             "Wild Charge",
-            "Flame Burst"
+            "Flame Burst",
+            "Overheat"
         ]
     },
     "defense_data": {
@@ -32503,7 +32512,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Shadow Claw"
         ],
         "charge": [
             "Shadow Ball",
@@ -32539,7 +32549,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Shadow Claw"
         ],
         "charge": [
             "Shadow Ball",
@@ -38902,7 +38913,44 @@ var pokeDB = {
         }
     }
 },
-"Hoopa": {
+"Confined Hoopa": {
+    "id": "720",
+    "imgurl": 720,
+    "stats": {
+        "atk": 261,
+        "def": 187,
+        "sta": 173
+    },
+    "type": [
+        "Psychic",
+        "Ghost"
+    ],
+    "name": "Confined Hoopa",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Astonish"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Psybeam",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "256%",
+            "Ghost": "256%"
+        },
+        "resistant_to": {
+            "Fighting": "24.4%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Unbound Hoopa": {
     "id": "720",
     "imgurl": 720,
     "stats": {
@@ -38914,7 +38962,7 @@ var pokeDB = {
         "Psychic",
         "Dark"
     ],
-    "name": "Hoopa",
+    "name": "Unbound Hoopa",
     "moveset": {
         "quick": [
             "Confusion",
