@@ -1647,6 +1647,40 @@ var pokeDB = {
         }
     }
 },
+"Kariyushi Pikachu": {
+    "id": "025",
+    "imgurl": "25-kariyushi",
+    "stats": {
+        "atk": 112,
+        "def": 96,
+        "sta": 111
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Kariyushi Pikachu",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Quick Attack"
+        ],
+        "charge": [
+            "Discharge",
+            "Thunderbolt",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Alola Raichu": {
     "id": "026",
     "imgurl": 10100,
@@ -9165,7 +9199,7 @@ var pokeDB = {
 },
 "Mr. Mime": {
     "id": "122",
-    "imgurl": 122,
+    "imgurl": "122-mr.",
     "stats": {
         "atk": 192,
         "def": 205,
@@ -11090,7 +11124,7 @@ var pokeDB = {
 },
 "A Mewtwo": {
     "id": "150",
-    "imgurl": 150,
+    "imgurl": "150-a",
     "stats": {
         "atk": 182,
         "def": 278,
@@ -22094,9 +22128,113 @@ var pokeDB = {
         "sta": 172
     },
     "type": [
-        "Fire"
+        "Normal"
     ],
     "name": "Castform",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Hex"
+        ],
+        "charge": [
+            "Hurricane",
+            "Energy Ball",
+            "Weather Ball Rock",
+            "Weather Ball Normal"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Rainy Castform": {
+    "id": "351",
+    "imgurl": "351-rainy",
+    "stats": {
+        "atk": 139,
+        "def": 139,
+        "sta": 172
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Rainy Castform",
+    "moveset": {
+        "quick": [
+            "Water Gun",
+            "Tackle"
+        ],
+        "charge": [
+            "Hydro Pump",
+            "Thunder",
+            "Weather Ball Water"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Snowy Castform": {
+    "id": "351",
+    "imgurl": "351-snowy",
+    "stats": {
+        "atk": 139,
+        "def": 139,
+        "sta": 172
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Snowy Castform",
+    "moveset": {
+        "quick": [
+            "Powder Snow",
+            "Tackle"
+        ],
+        "charge": [
+            "Blizzard",
+            "Ice Beam",
+            "Weather Ball Ice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
+"Sunny Castform": {
+    "id": "351",
+    "imgurl": "351-sunny",
+    "stats": {
+        "atk": 139,
+        "def": 139,
+        "sta": 172
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Sunny Castform",
     "moveset": {
         "quick": [
             "Ember",
@@ -25508,9 +25646,9 @@ var pokeDB = {
         }
     }
 },
-"Burmy": {
+"Plant Burmy": {
     "id": "412",
-    "imgurl": 412,
+    "imgurl": "412-plant",
     "stats": {
         "atk": 53,
         "def": 83,
@@ -25519,7 +25657,7 @@ var pokeDB = {
     "type": [
         "Bug"
     ],
-    "name": "Burmy",
+    "name": "Plant Burmy",
     "moveset": {
         "quick": [
             "Tackle",
@@ -25542,9 +25680,158 @@ var pokeDB = {
         }
     }
 },
-"Wormadam": {
+"Sandy Burmy": {
+    "id": "412",
+    "imgurl": "412-sandy",
+    "stats": {
+        "atk": 53,
+        "def": 83,
+        "sta": 120
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Sandy Burmy",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bug Bite"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Trash Burmy": {
+    "id": "412",
+    "imgurl": "412-trash",
+    "stats": {
+        "atk": 53,
+        "def": 83,
+        "sta": 120
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Trash Burmy",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bug Bite"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Plant Wormadam": {
     "id": "413",
-    "imgurl": 413,
+    "imgurl": "413-plant",
+    "stats": {
+        "atk": 141,
+        "def": 180,
+        "sta": 155
+    },
+    "type": [
+        "Bug",
+        "Grass"
+    ],
+    "name": "Plant Wormadam",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Bug Bite"
+        ],
+        "charge": [
+            "Psybeam",
+            "Energy Ball",
+            "Bug Buzz"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "256%",
+            "Flying": "256%",
+            "Ice": "160%",
+            "Poison": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Sandy Wormadam": {
+    "id": "413",
+    "imgurl": "413-sandy",
+    "stats": {
+        "atk": 141,
+        "def": 180,
+        "sta": 155
+    },
+    "type": [
+        "Bug",
+        "Ground"
+    ],
+    "name": "Sandy Wormadam",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Bug Bite"
+        ],
+        "charge": [
+            "Psybeam",
+            "Bulldoze",
+            "Bug Buzz"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fighting": "62.5%",
+            "Ground": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Trash Wormadam": {
+    "id": "413",
+    "imgurl": "413-trash",
     "stats": {
         "atk": 127,
         "def": 175,
@@ -25554,7 +25841,7 @@ var pokeDB = {
         "Bug",
         "Steel"
     ],
-    "name": "Wormadam",
+    "name": "Trash Wormadam",
     "moveset": {
         "quick": [
             "Confusion",
@@ -25849,9 +26136,9 @@ var pokeDB = {
         }
     }
 },
-"Cherrim": {
+"Overcast Cherrim": {
     "id": "421",
-    "imgurl": 421,
+    "imgurl": "421-overcast",
     "stats": {
         "atk": 170,
         "def": 153,
@@ -25860,7 +26147,46 @@ var pokeDB = {
     "type": [
         "Grass"
     ],
-    "name": "Cherrim",
+    "name": "Overcast Cherrim",
+    "moveset": {
+        "quick": [
+            "Razor Leaf",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Hyper Beam",
+            "Solar Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Sunny Cherrim": {
+    "id": "421",
+    "imgurl": "421-sunny",
+    "stats": {
+        "atk": 170,
+        "def": 153,
+        "sta": 172
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Sunny Cherrim",
     "moveset": {
         "quick": [
             "Razor Leaf",
@@ -26709,7 +27035,7 @@ var pokeDB = {
 },
 "Mime Jr.": {
     "id": "439",
-    "imgurl": 439,
+    "imgurl": "439-mime",
     "stats": {
         "atk": 125,
         "def": 142,
@@ -29108,9 +29434,208 @@ var pokeDB = {
         }
     }
 },
+"Fan Rotom": {
+    "id": "479",
+    "imgurl": "479-fan",
+    "stats": {
+        "atk": 204,
+        "def": 219,
+        "sta": 137
+    },
+    "type": [
+        "Electric",
+        "Flying"
+    ],
+    "name": "Fan Rotom",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Air Slash"
+        ],
+        "charge": [
+            "Ominous Wind",
+            "Thunderbolt",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Frost Rotom": {
+    "id": "479",
+    "imgurl": "479-frost",
+    "stats": {
+        "atk": 204,
+        "def": 219,
+        "sta": 137
+    },
+    "type": [
+        "Electric",
+        "Ice"
+    ],
+    "name": "Frost Rotom",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Blizzard",
+            "Thunderbolt",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Ice": "62.5%"
+        }
+    }
+},
+"Heat Rotom": {
+    "id": "479",
+    "imgurl": "479-heat",
+    "stats": {
+        "atk": 204,
+        "def": 219,
+        "sta": 137
+    },
+    "type": [
+        "Electric",
+        "Fire"
+    ],
+    "name": "Heat Rotom",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Overheat",
+            "Thunderbolt",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "39.1%"
+        }
+    }
+},
+"Mow Rotom": {
+    "id": "479",
+    "imgurl": "479-mow",
+    "stats": {
+        "atk": 204,
+        "def": 219,
+        "sta": 137
+    },
+    "type": [
+        "Electric",
+        "Grass"
+    ],
+    "name": "Mow Rotom",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Ominous Wind",
+            "Thunderbolt",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Rotom": {
     "id": "479",
     "imgurl": 479,
+    "stats": {
+        "atk": 185,
+        "def": 159,
+        "sta": 137
+    },
+    "type": [
+        "Electric",
+        "Ghost"
+    ],
+    "name": "Rotom",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Thunder Shock"
+        ],
+        "charge": [
+            "Ominous Wind",
+            "Thunderbolt",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Flying": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Wash Rotom": {
+    "id": "479",
+    "imgurl": "479-wash",
     "stats": {
         "atk": 204,
         "def": 219,
@@ -29120,7 +29645,7 @@ var pokeDB = {
         "Electric",
         "Water"
     ],
-    "name": "Rotom",
+    "name": "Wash Rotom",
     "moveset": {
         "quick": [
             "Astonish",
@@ -29640,9 +30165,48 @@ var pokeDB = {
         }
     }
 },
-"Shaymin": {
+"Land Shaymin": {
     "id": "492",
-    "imgurl": 492,
+    "imgurl": "492-land",
+    "stats": {
+        "atk": 210,
+        "def": 210,
+        "sta": 225
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Land Shaymin",
+    "moveset": {
+        "quick": [
+            "Hidden Power",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Grass Knot",
+            "Solar Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Sky Shaymin": {
+    "id": "492",
+    "imgurl": "492-sky",
     "stats": {
         "atk": 261,
         "def": 166,
@@ -29652,7 +30216,7 @@ var pokeDB = {
         "Grass",
         "Flying"
     ],
-    "name": "Shaymin",
+    "name": "Sky Shaymin",
     "moveset": {
         "quick": [
             "Hidden Power",
@@ -29680,6 +30244,443 @@ var pokeDB = {
         }
     }
 },
+"Bug Arceus": {
+    "id": "493",
+    "imgurl": "493-bug",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Bug Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Dark Arceus": {
+    "id": "493",
+    "imgurl": "493-dark",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Dark Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Dragon Arceus": {
+    "id": "493",
+    "imgurl": "493-dragon",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Dragon"
+    ],
+    "name": "Dragon Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Electric Arceus": {
+    "id": "493",
+    "imgurl": "493-electric",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Electric Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Fairy Arceus": {
+    "id": "493",
+    "imgurl": "493-fairy",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Fairy Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Fighting Arceus": {
+    "id": "493",
+    "imgurl": "493-fighting",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Fighting Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Fire Arceus": {
+    "id": "493",
+    "imgurl": "493-fire",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Fire Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Flying Arceus": {
+    "id": "493",
+    "imgurl": "493-flying",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Flying"
+    ],
+    "name": "Flying Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Ghost Arceus": {
+    "id": "493",
+    "imgurl": "493-ghost",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Ghost Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Grass Arceus": {
+    "id": "493",
+    "imgurl": "493-grass",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Grass Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Ground Arceus": {
+    "id": "493",
+    "imgurl": "493-ground",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Ground Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Ice Arceus": {
+    "id": "493",
+    "imgurl": "493-ice",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Ice Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
 "Arceus": {
     "id": "493",
     "imgurl": 493,
@@ -29689,9 +30690,196 @@ var pokeDB = {
         "sta": 237
     },
     "type": [
-        "Water"
+        "Normal"
     ],
     "name": "Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Poison Arceus": {
+    "id": "493",
+    "imgurl": "493-poison",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Poison"
+    ],
+    "name": "Poison Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Psychic Arceus": {
+    "id": "493",
+    "imgurl": "493-psychic",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Psychic Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Rock Arceus": {
+    "id": "493",
+    "imgurl": "493-rock",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Rock Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Steel Arceus": {
+    "id": "493",
+    "imgurl": "493-steel",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Steel"
+    ],
+    "name": "Steel Arceus",
+    "moveset": {
+        "quick": [
+            "Iron Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Futuresight",
+            "Hyper Beam",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Water Arceus": {
+    "id": "493",
+    "imgurl": "493-water",
+    "stats": {
+        "atk": 238,
+        "def": 238,
+        "sta": 237
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Water Arceus",
     "moveset": {
         "quick": [
             "Iron Tail",
@@ -32116,6 +33304,87 @@ var pokeDB = {
     "id": "555",
     "imgurl": 555,
     "stats": {
+        "atk": 323,
+        "def": 123,
+        "sta": 233
+    },
+    "type": [
+        "Ice",
+        "Fire"
+    ],
+    "name": "Darmanitan",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Ice Fang"
+        ],
+        "charge": [
+            "Overheat",
+            "Avalanche",
+            "Super Power",
+            "Ice Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%",
+            "Rock": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "39.1%"
+        }
+    }
+},
+"Standard Darmanitan": {
+    "id": "555",
+    "imgurl": "555-standard",
+    "stats": {
+        "atk": 263,
+        "def": 114,
+        "sta": 233
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Standard Darmanitan",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Fire Fang",
+            "Incinerate"
+        ],
+        "charge": [
+            "Overheat",
+            "Focus Blast",
+            "Psychic",
+            "Rock Slide"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Zen Darmanitan": {
+    "id": "555",
+    "imgurl": "555-zen",
+    "stats": {
         "atk": 243,
         "def": 202,
         "sta": 233
@@ -32124,7 +33393,7 @@ var pokeDB = {
         "Fire",
         "Psychic"
     ],
-    "name": "Darmanitan",
+    "name": "Zen Darmanitan",
     "moveset": {
         "quick": [
             "Tackle",
@@ -33339,9 +34608,9 @@ var pokeDB = {
         }
     }
 },
-"Deerling": {
+"Autumn Deerling": {
     "id": "585",
-    "imgurl": 585,
+    "imgurl": "585-autumn",
     "stats": {
         "atk": 115,
         "def": 100,
@@ -33351,7 +34620,7 @@ var pokeDB = {
         "Normal",
         "Grass"
     ],
-    "name": "Deerling",
+    "name": "Autumn Deerling",
     "moveset": {
         "quick": [
             "Tackle",
@@ -33381,9 +34650,135 @@ var pokeDB = {
         }
     }
 },
-"Sawsbuck": {
+"Spring Deerling": {
+    "id": "585",
+    "imgurl": "585-spring",
+    "stats": {
+        "atk": 115,
+        "def": 100,
+        "sta": 155
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Spring Deerling",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Seed Bomb",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Summer Deerling": {
+    "id": "585",
+    "imgurl": "585-summer",
+    "stats": {
+        "atk": 115,
+        "def": 100,
+        "sta": 155
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Summer Deerling",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Seed Bomb",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Winter Deerling": {
+    "id": "585",
+    "imgurl": "585-winter",
+    "stats": {
+        "atk": 115,
+        "def": 100,
+        "sta": 155
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Winter Deerling",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Take Down"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Seed Bomb",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Autumn Sawsbuck": {
     "id": "586",
-    "imgurl": 586,
+    "imgurl": "586-autumn",
     "stats": {
         "atk": 198,
         "def": 146,
@@ -33393,7 +34788,136 @@ var pokeDB = {
         "Normal",
         "Grass"
     ],
-    "name": "Sawsbuck",
+    "name": "Autumn Sawsbuck",
+    "moveset": {
+        "quick": [
+            "Feint Attack",
+            "Take Down"
+        ],
+        "charge": [
+            "Megahorn",
+            "Solar Beam",
+            "Wild Charge",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Spring Sawsbuck": {
+    "id": "586",
+    "imgurl": "586-spring",
+    "stats": {
+        "atk": 198,
+        "def": 146,
+        "sta": 190
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Spring Sawsbuck",
+    "moveset": {
+        "quick": [
+            "Feint Attack",
+            "Take Down"
+        ],
+        "charge": [
+            "Megahorn",
+            "Solar Beam",
+            "Wild Charge",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Summer Sawsbuck": {
+    "id": "586",
+    "imgurl": "586-summer",
+    "stats": {
+        "atk": 198,
+        "def": 146,
+        "sta": 190
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Summer Sawsbuck",
+    "moveset": {
+        "quick": [
+            "Feint Attack",
+            "Take Down"
+        ],
+        "charge": [
+            "Megahorn",
+            "Solar Beam",
+            "Wild Charge",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Winter Sawsbuck": {
+    "id": "586",
+    "imgurl": "586-winter",
+    "stats": {
+        "atk": 198,
+        "def": 146,
+        "sta": 190
+    },
+    "type": [
+        "Normal",
+        "Grass"
+    ],
+    "name": "Winter Sawsbuck",
     "moveset": {
         "quick": [
             "Feint Attack",
@@ -33622,6 +35146,49 @@ var pokeDB = {
         }
     }
 },
+"Female Frillish": {
+    "id": "592",
+    "imgurl": "592-female",
+    "stats": {
+        "atk": 115,
+        "def": 134,
+        "sta": 146
+    },
+    "type": [
+        "Water",
+        "Ghost"
+    ],
+    "name": "Female Frillish",
+    "moveset": {
+        "quick": [
+            "Bubble",
+            "Hex"
+        ],
+        "charge": [
+            "Night Shade",
+            "Ice Beam",
+            "Ominous Wind"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Frillish": {
     "id": "592",
     "imgurl": 592,
@@ -33644,6 +35211,49 @@ var pokeDB = {
             "Night Shade",
             "Ice Beam",
             "Ominous Wind"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Female Jellicent": {
+    "id": "593",
+    "imgurl": "593-female",
+    "stats": {
+        "atk": 159,
+        "def": 178,
+        "sta": 225
+    },
+    "type": [
+        "Water",
+        "Ghost"
+    ],
+    "name": "Female Jellicent",
+    "moveset": {
+        "quick": [
+            "Bubble",
+            "Hex"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Ice Beam",
+            "Bubble Beam"
         ]
     },
     "defense_data": {
@@ -35978,9 +37588,9 @@ var pokeDB = {
         }
     }
 },
-"Kyurem": {
+"Black Kyurem": {
     "id": "646",
-    "imgurl": 646,
+    "imgurl": "646-black",
     "stats": {
         "atk": 310,
         "def": 183,
@@ -35990,7 +37600,86 @@ var pokeDB = {
         "Dragon",
         "Ice"
     ],
+    "name": "Black Kyurem",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Iron Head",
+            "Blizzard",
+            "Stone Edge",
+            "Outrage"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Kyurem": {
+    "id": "646",
+    "imgurl": 646,
+    "stats": {
+        "atk": 246,
+        "def": 170,
+        "sta": 245
+    },
+    "type": [
+        "Dragon",
+        "Ice"
+    ],
     "name": "Kyurem",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Steel Wing"
+        ],
+        "charge": [
+            "Dragon Claw",
+            "Blizzard",
+            "Draco Meteor"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"White Kyurem": {
+    "id": "646",
+    "imgurl": "646-white",
+    "stats": {
+        "atk": 310,
+        "def": 183,
+        "sta": 245
+    },
+    "type": [
+        "Dragon",
+        "Ice"
+    ],
+    "name": "White Kyurem",
     "moveset": {
         "quick": [
             "Dragon Breath",
@@ -36018,9 +37707,9 @@ var pokeDB = {
         }
     }
 },
-"Keldeo": {
+"Ordinary Keldeo": {
     "id": "647",
-    "imgurl": 647,
+    "imgurl": "647-ordinary",
     "stats": {
         "atk": 260,
         "def": 192,
@@ -36030,7 +37719,7 @@ var pokeDB = {
         "Water",
         "Fighting"
     ],
-    "name": "Keldeo",
+    "name": "Ordinary Keldeo",
     "moveset": {
         "quick": [
             "Poison Jab",
@@ -36062,9 +37751,89 @@ var pokeDB = {
         }
     }
 },
-"Meloetta": {
+"Resolute Keldeo": {
+    "id": "647",
+    "imgurl": "647-resolute",
+    "stats": {
+        "atk": 260,
+        "def": 192,
+        "sta": 209
+    },
+    "type": [
+        "Water",
+        "Fighting"
+    ],
+    "name": "Resolute Keldeo",
+    "moveset": {
+        "quick": [
+            "Poison Jab",
+            "Low Kick"
+        ],
+        "charge": [
+            "Aqua Jet",
+            "Close Combat",
+            "Hydro Pump",
+            "X Scissor"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Grass": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Aria Meloetta": {
     "id": "648",
-    "imgurl": 648,
+    "imgurl": "648-aria",
+    "stats": {
+        "atk": 250,
+        "def": 225,
+        "sta": 225
+    },
+    "type": [
+        "Normal",
+        "Psychic"
+    ],
+    "name": "Aria Meloetta",
+    "moveset": {
+        "quick": [
+            "Quick Attack",
+            "Confusion"
+        ],
+        "charge": [
+            "Psyshock",
+            "Thunderbolt",
+            "Dazzling Gleam",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Pirouette Meloetta": {
+    "id": "648",
+    "imgurl": "648-pirouette",
     "stats": {
         "atk": 269,
         "def": 188,
@@ -36074,7 +37843,7 @@ var pokeDB = {
         "Normal",
         "Fighting"
     ],
-    "name": "Meloetta",
+    "name": "Pirouette Meloetta",
     "moveset": {
         "quick": [
             "Quick Attack",
@@ -36102,6 +37871,129 @@ var pokeDB = {
         }
     }
 },
+"Burn Genesect": {
+    "id": "649",
+    "imgurl": "649-burn",
+    "stats": {
+        "atk": 252,
+        "def": 199,
+        "sta": 174
+    },
+    "type": [
+        "Bug",
+        "Steel"
+    ],
+    "name": "Burn Genesect",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Fury Cutter"
+        ],
+        "charge": [
+            "X Scissor",
+            "Magnet Bomb",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Chill Genesect": {
+    "id": "649",
+    "imgurl": "649-chill",
+    "stats": {
+        "atk": 252,
+        "def": 199,
+        "sta": 174
+    },
+    "type": [
+        "Bug",
+        "Steel"
+    ],
+    "name": "Chill Genesect",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Fury Cutter"
+        ],
+        "charge": [
+            "X Scissor",
+            "Magnet Bomb",
+            "Ice Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Douse Genesect": {
+    "id": "649",
+    "imgurl": "649-douse",
+    "stats": {
+        "atk": 252,
+        "def": 199,
+        "sta": 174
+    },
+    "type": [
+        "Bug",
+        "Steel"
+    ],
+    "name": "Douse Genesect",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Fury Cutter"
+        ],
+        "charge": [
+            "X Scissor",
+            "Magnet Bomb",
+            "Gunk Shot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Genesect": {
     "id": "649",
     "imgurl": 649,
@@ -36115,6 +38007,47 @@ var pokeDB = {
         "Steel"
     ],
     "name": "Genesect",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Fury Cutter"
+        ],
+        "charge": [
+            "X Scissor",
+            "Magnet Bomb",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Shock Genesect": {
+    "id": "649",
+    "imgurl": "649-shock",
+    "stats": {
+        "atk": 252,
+        "def": 199,
+        "sta": 174
+    },
+    "type": [
+        "Bug",
+        "Steel"
+    ],
+    "name": "Shock Genesect",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -36854,6 +38787,49 @@ var pokeDB = {
         }
     }
 },
+"Female Pyroar": {
+    "id": "668",
+    "imgurl": "668-female",
+    "stats": {
+        "atk": 221,
+        "def": 149,
+        "sta": 200
+    },
+    "type": [
+        "Fire",
+        "Normal"
+    ],
+    "name": "Female Pyroar",
+    "moveset": {
+        "quick": [
+            "Fire Fang",
+            "Take Down"
+        ],
+        "charge": [
+            "Flame Charge",
+            "Solar Beam",
+            "Dark Pulse",
+            "Overheat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Pyroar": {
     "id": "668",
     "imgurl": 668,
@@ -37163,6 +39139,171 @@ var pokeDB = {
         }
     }
 },
+"Dandy Furfrou": {
+    "id": "676",
+    "imgurl": "676-dandy",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Dandy Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Debutante Furfrou": {
+    "id": "676",
+    "imgurl": "676-debutante",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Debutante Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Diamond Furfrou": {
+    "id": "676",
+    "imgurl": "676-diamond",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Diamond Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Heart Furfrou": {
+    "id": "676",
+    "imgurl": "676-heart",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Heart Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Kabuki Furfrou": {
+    "id": "676",
+    "imgurl": "676-kabuki",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Kabuki Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
 "Furfrou": {
     "id": "676",
     "imgurl": 676,
@@ -37175,6 +39316,138 @@ var pokeDB = {
         "Normal"
     ],
     "name": "Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Matron Furfrou": {
+    "id": "676",
+    "imgurl": "676-matron",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Matron Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Natural Furfrou": {
+    "id": "676",
+    "imgurl": "676-natural",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Natural Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Pharaoh Furfrou": {
+    "id": "676",
+    "imgurl": "676-pharaoh",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Pharaoh Furfrou",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Surf",
+            "Dark Pulse",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Star Furfrou": {
+    "id": "676",
+    "imgurl": "676-star",
+    "stats": {
+        "atk": 164,
+        "def": 167,
+        "sta": 181
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Star Furfrou",
     "moveset": {
         "quick": [
             "Take Down",
@@ -37217,6 +39490,41 @@ var pokeDB = {
             "Psyshock",
             "Energy Ball",
             "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Female Meowstic": {
+    "id": "678",
+    "imgurl": "678-female",
+    "stats": {
+        "atk": 166,
+        "def": 167,
+        "sta": 179
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Female Meowstic",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Charm"
+        ],
+        "charge": [
+            "Psychic",
+            "Energy Ball",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -38915,7 +41223,7 @@ var pokeDB = {
 },
 "Confined Hoopa": {
     "id": "720",
-    "imgurl": 720,
+    "imgurl": "720-confined",
     "stats": {
         "atk": 261,
         "def": 187,
@@ -38952,7 +41260,7 @@ var pokeDB = {
 },
 "Unbound Hoopa": {
     "id": "720",
-    "imgurl": 720,
+    "imgurl": "720-unbound",
     "stats": {
         "atk": 311,
         "def": 191,
@@ -40558,6 +42866,49 @@ var pokeDB = {
         }
     }
 },
+"Amped Toxtricity": {
+    "id": "849",
+    "imgurl": "849-amped",
+    "stats": {
+        "atk": 224,
+        "def": 140,
+        "sta": 181
+    },
+    "type": [
+        "Electric",
+        "Poison"
+    ],
+    "name": "Amped Toxtricity",
+    "moveset": {
+        "quick": [
+            "Acid",
+            "Spark",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Acid Spray",
+            "Discharge",
+            "Wild Charge",
+            "Power Up Punch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Toxtricity": {
     "id": "849",
     "imgurl": 849,
@@ -40754,9 +43105,9 @@ var pokeDB = {
         }
     }
 },
-"Sinistea": {
+"Antique Sinistea": {
     "id": "854",
-    "imgurl": 854,
+    "imgurl": "854-antique",
     "stats": {
         "atk": 134,
         "def": 96,
@@ -40765,7 +43116,7 @@ var pokeDB = {
     "type": [
         "Ghost"
     ],
-    "name": "Sinistea",
+    "name": "Antique Sinistea",
     "moveset": {
         "quick": [
             "Astonish",
@@ -40790,9 +43141,45 @@ var pokeDB = {
         }
     }
 },
-"Polteageist": {
+"Phony Sinistea": {
+    "id": "854",
+    "imgurl": "854-phony",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Phony Sinistea",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Antique Polteageist": {
     "id": "855",
-    "imgurl": 855,
+    "imgurl": "855-antique",
     "stats": {
         "atk": 248,
         "def": 189,
@@ -40801,7 +43188,44 @@ var pokeDB = {
     "type": [
         "Ghost"
     ],
-    "name": "Polteageist",
+    "name": "Antique Polteageist",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Sucker Punch",
+            "Hex"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dark Pulse",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Phony Polteageist": {
+    "id": "855",
+    "imgurl": "855-phony",
+    "stats": {
+        "atk": 248,
+        "def": 189,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Phony Polteageist",
     "moveset": {
         "quick": [
             "Astonish",
@@ -41529,7 +43953,7 @@ var pokeDB = {
 },
 "Mr. Rime": {
     "id": "866",
-    "imgurl": 866,
+    "imgurl": "866-mr.",
     "stats": {
         "atk": 212,
         "def": 179,
@@ -41987,18 +44411,18 @@ var pokeDB = {
         }
     }
 },
-"Eiscue": {
+"Ice Eiscue": {
     "id": "875",
-    "imgurl": 875,
+    "imgurl": "875-ice",
     "stats": {
-        "atk": 173,
-        "def": 139,
+        "atk": 148,
+        "def": 195,
         "sta": 181
     },
     "type": [
         "Ice"
     ],
-    "name": "Eiscue",
+    "name": "Ice Eiscue",
     "moveset": {
         "quick": [
             "Powder Snow"
@@ -42021,9 +44445,77 @@ var pokeDB = {
         }
     }
 },
-"Indeedee": {
+"Noice Eiscue": {
+    "id": "875",
+    "imgurl": "875-noice",
+    "stats": {
+        "atk": 173,
+        "def": 139,
+        "sta": 181
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Noice Eiscue",
+    "moveset": {
+        "quick": [
+            "Powder Snow"
+        ],
+        "charge": [
+            "Icy Wind",
+            "Weather Ball Ice",
+            "Surf"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
+"Female Indeedee": {
     "id": "876",
-    "imgurl": 876,
+    "imgurl": "876-female",
+    "stats": {
+        "atk": 184,
+        "def": 184,
+        "sta": 172
+    },
+    "type": [
+        "Psychic",
+        "Normal"
+    ],
+    "name": "Female Indeedee",
+    "moveset": {
+        "quick": [
+            "Extrasensory"
+        ],
+        "charge": [
+            "Psybeam",
+            "Psychic",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Male Indeedee": {
+    "id": "876",
+    "imgurl": "876-male",
     "stats": {
         "atk": 208,
         "def": 166,
@@ -42033,7 +44525,7 @@ var pokeDB = {
         "Psychic",
         "Normal"
     ],
-    "name": "Indeedee",
+    "name": "Male Indeedee",
     "moveset": {
         "quick": [
             "Extrasensory"
@@ -42068,6 +44560,48 @@ var pokeDB = {
         "Dark"
     ],
     "name": "Morpeko",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Bite"
+        ],
+        "charge": [
+            "Crunch",
+            "Payback",
+            "Thunderbolt",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Hangry Morpeko": {
+    "id": "877",
+    "imgurl": "877-hangry",
+    "stats": {
+        "atk": 192,
+        "def": 121,
+        "sta": 151
+    },
+    "type": [
+        "Electric",
+        "Dark"
+    ],
+    "name": "Hangry Morpeko",
     "moveset": {
         "quick": [
             "Thunder Shock",
@@ -42515,6 +45049,53 @@ var pokeDB = {
     "id": "888",
     "imgurl": 888,
     "stats": {
+        "atk": 332,
+        "def": 240,
+        "sta": 192
+    },
+    "type": [
+        "Fairy",
+        "Steel"
+    ],
+    "name": "Zacian",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Snarl",
+            "Quick Attack",
+            "Fire Fang"
+        ],
+        "charge": [
+            "Play Rough",
+            "Iron Head",
+            "Wild Charge",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Dragon": "24.4%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Hero Zacian": {
+    "id": "888",
+    "imgurl": "888-hero",
+    "stats": {
         "atk": 254,
         "def": 236,
         "sta": 192
@@ -42522,7 +45103,7 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Zacian",
+    "name": "Hero Zacian",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -42554,6 +45135,52 @@ var pokeDB = {
     "id": "889",
     "imgurl": 889,
     "stats": {
+        "atk": 250,
+        "def": 292,
+        "sta": 192
+    },
+    "type": [
+        "Fighting",
+        "Steel"
+    ],
+    "name": "Zamazenta",
+    "moveset": {
+        "quick": [
+            "Metal Claw",
+            "Snarl",
+            "Quick Attack",
+            "Ice Fang"
+        ],
+        "charge": [
+            "Moonblast",
+            "Iron Head",
+            "Crunch",
+            "Close Combat"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Dragon": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Rock": "39.1%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Hero Zamazenta": {
+    "id": "889",
+    "imgurl": "889-hero",
+    "stats": {
         "atk": 254,
         "def": 236,
         "sta": 192
@@ -42561,7 +45188,7 @@ var pokeDB = {
     "type": [
         "Fighting"
     ],
-    "name": "Zamazenta",
+    "name": "Hero Zamazenta",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -42586,6 +45213,49 @@ var pokeDB = {
             "Bug": "62.5%",
             "Dark": "62.5%",
             "Rock": "62.5%"
+        }
+    }
+},
+"Eternamax Eternatus": {
+    "id": "890",
+    "imgurl": "890-eternamax",
+    "stats": {
+        "atk": 251,
+        "def": 505,
+        "sta": 452
+    },
+    "type": [
+        "Poison",
+        "Dragon"
+    ],
+    "name": "Eternamax Eternatus",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Cross Poison",
+            "Dragon Pulse",
+            "Flamethrower",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
         }
     }
 },
