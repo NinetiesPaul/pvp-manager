@@ -5,12 +5,15 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+
         <link href="css/glyphicons.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
         <link href="css/css.css" rel="stylesheet">
 
 		<script src="js/lib/jquery.js"></script>
         <script src="js/lib/clipboard.js"></script>
+        <script src="js/lib/tablesort.js"></script>
+        <script src="js/lib/tablesort.number.js"></script>
 
         <script src="js/db_pokedata.js"></script>
         <script src="js/db_charge.js"></script>
@@ -21,6 +24,7 @@
         <script src="js/save.js"></script>
         <script src="js/movedata.js"></script>
         <script src="js/pokedata.js"></script>
+        <script src="js/pvp_assembler.js"></script>
 		
         <script>
             var colors = {
@@ -45,6 +49,8 @@
             }
             
             $(document).ready( function () {
+
+                new Tablesort(document.getElementById('teamassembler-table'));
 
                 for (var key in pokeDB) {
                     $("#pokemonList_slot1").append("<option>" + pokeDB[key].id.padStart(3, '0') + " - " + key + "</option>");          
@@ -139,12 +145,24 @@
         <div class="container">
             <div class="jumbotron text-center" style="min-height: 40em;">
 
-				<input type="text" id="loadData" class="loadData small" placeholder="Place backup here"></input><br>
-				<input type="text" id="saveData" class="saveData small" placeholder="Click save to backup" value="" readonly></input><br><br>
-				<input type="button" id="saveBtn" class="saveBtn small" data-clipboard-target="#saveData" value="Copy to clipboard"></input><br><br>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pvp-teambuilder-tab" data-toggle="tab" href="#pvp-teambuilder" role="tab" aria-controls="home"
+                           aria-selected="true">PVP Team Builder</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pvp-teamassembler-tab" data-toggle="tab" href="#pvp-teamassembler" role="tab" aria-controls="home"
+                           aria-selected="false">PVP Team Assembler</a>
+                    </li>
+                </ul>
+                <br><br>
 
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
+
+                        <input type="text" id="loadData" class="loadData small" placeholder="Place backup here"></input><br>
+                        <input type="text" id="saveData" class="saveData small" placeholder="Click save to backup" value="" readonly></input><br><br>
+                        <input type="button" id="saveBtn" class="saveBtn small" data-clipboard-target="#saveData" value="Copy to clipboard"></input><br><br>
 
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
                             <select id="pokemonList_slot1" name="pokemonList_slot1">
@@ -380,6 +398,31 @@
                             </div>
                         </div>
 
+                    </div>
+
+                    <div class="tab-pane fade show" id="pvp-teamassembler" role="tabpanel" >
+
+                        <textarea class="pkm-list" style="height: 252px; width:50em;"></textarea>
+
+                        <p><br><button type="button" class="btn btn-sm btn-primary pkm-list-btn">Create Teams</button></p><br>
+
+                        <!-- <p><input type="text" id="filter-pvp-team"/></p><br>
+
+                         <p><button type="button" class="btn btn-sm btn-primary filter-pkm-list-btn">Filter</button></p><br> -->
+
+                        <table id="teamassembler-table" class='teamassembler-table table table-sm table-striped'>
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Slot 1</th>
+                                    <th>Slot 2</th>
+                                    <th>Slot 3</th>
+                                    <th>Resistances</th>
+                                    <th>Vulnerabilities</th>
+                                </tr>
+                            </thead>
+                            <tbody id="assembler-tbody">
+                            </tbody>
+                        </table>
                     </div>
                 </div>
 
