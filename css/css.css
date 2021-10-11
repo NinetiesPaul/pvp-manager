@@ -96,3 +96,12 @@ p {
   width: 3em;
   height: 3em;
 }
+
+.teamassembler-table th, .teamassembler-table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
