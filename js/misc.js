@@ -31,11 +31,6 @@ function clearLayout(slot) {
         .html("").css('display', 'none');
 }
 
-function getMoveInitials(name) {
-	name = name.toLowerCase().split(" ")
-	return (name.length > 1) ? name[0].substring(0,2) + name[1].substring(0,2) : name[0][0]
-}
-
 function disableMove(value, target) {
     $('#' + target + " option").each(function(){
         if ($(this).val() == value) {
