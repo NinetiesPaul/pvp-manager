@@ -47,7 +47,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		if ($("#hide_ctv").is(":checked")) {
 			if (ctVulnerability) {
-				console.log("adding row")
 				textToAppend += row
 			}
 		} else {
