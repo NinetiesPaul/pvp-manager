@@ -39,13 +39,30 @@ $(document).on('click', '.pkm-list-btn', function() {
 			})
 		});
 
-		ctVulnerability = ((new Set(combinedVulnerabilites).size) !== combinedVulnerabilites.length) ? "glyphicon glyphicon-thumbs-down" : "glyphicon glyphicon-thumbs-up";
-		//console.log(itVulnerability)
+		var ctVulnerability = ((new Set(combinedVulnerabilites).size) == combinedVulnerabilites.length);
 
-		textToAppend += "<tr><td><b>"+slot1+"</b><br><small>"+pokeDB[slot1].type.join("/")+"</small></td><td><b>"+slot2+"</b><br><small>"+pokeDB[slot2].type.join("/")+"</small></td><td><b>"+slot3+"</b><br><small>"+pokeDB[slot3].type.join("/")+"</small></td><td>"+resistances+"</td><td>"+vulnerabilities+"</td><td><span class=\""+ctVulnerability+"\" aria-hidden=\"true\"></span></tr>";
+		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
+
+		var row = "<tr><th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th><td id=\"slot1\"><b>"+slot1+"</b><br><small>"+pokeDB[slot1].type.join("/")+"</small></td><td id=\"slot2\"><b>"+slot2+"</b><br><small>"+pokeDB[slot2].type.join("/")+"</small></td><td id=\"slot3\"><b>"+slot3+"</b><br><small>"+pokeDB[slot3].type.join("/")+"</small></td><td>"+resistances+"</td><td>"+vulnerabilities+"</td><td><span class=\""+ctVulnerabilityIcon+"\" aria-hidden=\"true\"></span></tr>";
+
+		if ($("#hide_ctv").is(":checked")) {
+			if (ctVulnerability) {
+				console.log("adding row")
+				textToAppend += row
+			}
+		} else {
+			textToAppend += row
+		}
+
+		
 	});
 
 	$("#assembler-tbody").append(textToAppend);
 	$(".pkm-list-btn").attr("disabled", false);
 
+});
+
+$(document).on('click', '#paste_pkms', function() {
+	//var pkm = $("#paste_pkms").parent().parent().find("td#slot1").text()
+	//console.log(pkm)
 });
