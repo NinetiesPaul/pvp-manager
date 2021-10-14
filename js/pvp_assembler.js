@@ -64,11 +64,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> " + teams.length + "<br><b>Teams with no CTV:</b> " + ctVulnerabilityCounter;
 
-	console.log(totalPkms)
-	console.log(teams.length)
-	console.log(ctVulnerabilityCounter)
-	console.log(description)
-
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
 	$(".pkm-list-btn").attr("disabled", false);
