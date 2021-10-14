@@ -25,7 +25,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 	teams = [...new Set(teams)];
 
 	var textToAppend = '',
-		ctVulnerabilityCounter = 0;
+		teamCounter = 0;
 
 	$.each(teams, function(mk,v) {
 		pkms = v.split(",");
@@ -34,35 +34,49 @@ $(document).on('click', '.pkm-list-btn', function() {
 			slot3 = pkms[2],
 			resistances = 0,
 			vulnerabilities = 0,
-			combinedVulnerabilites = [];
+			combinedVulnerabilites = [],
+			skip = false;
+
 		$.each(pkms, function(k,v) {
+			doubleVulnerability = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
+				return element;
+			});
+
+			if ((doubleVulnerability.indexOf("256%") > -1) && $("#hide_dv").is(":checked")) {
+				skip = true;
+				return false;
+			}
+
 			resistances += Object.keys(pokeDB[v].defense_data.resistant_to).length;
 			vulnerabilities += Object.keys(pokeDB[v].defense_data.vulnerable_to).length;
-			vulnerableToTypes = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {return index});
+			vulnerableToTypes = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
+				return index;
+			});
+
 			$.each(vulnerableToTypes, function(k,v) {
 				combinedVulnerabilites.push(v);
 			})
 		});
 
+		if (skip) {
+			return true;
+		}
+
 		var ctVulnerability = ((new Set(combinedVulnerabilites).size) == combinedVulnerabilites.length);
+
+		if ($("#hide_ctv").is(":checked") && !ctVulnerability) {
+			return true;
+		}
+
+		teamCounter++;
 
 		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
 
-		var row = "<tr><th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th><td id=\"slot1\"><b>"+slot1+"</b><br><small>"+pokeDB[slot1].type.join("/")+"</small></td><td id=\"slot2\"><b>"+slot2+"</b><br><small>"+pokeDB[slot2].type.join("/")+"</small></td><td id=\"slot3\"><b>"+slot3+"</b><br><small>"+pokeDB[slot3].type.join("/")+"</small></td><td>"+resistances+"</td><td>"+vulnerabilities+"</td><td><span class=\""+ctVulnerabilityIcon+"\" aria-hidden=\"true\"></span></tr>";
-
-		ctVulnerabilityCounter = (ctVulnerability) ? ctVulnerabilityCounter + 1 : ctVulnerabilityCounter + 0;
-
-		if ($("#hide_ctv").is(":checked")) {
-			if (!ctVulnerability) {
-				row = "";
-			}
-		}
-
-		textToAppend += row;
+		textToAppend += "<tr><th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th><td id=\"slot1\"><b>"+slot1+"</b><br><small>"+pokeDB[slot1].type.join("/")+"</small></td><td id=\"slot2\"><b>"+slot2+"</b><br><small>"+pokeDB[slot2].type.join("/")+"</small></td><td id=\"slot3\"><b>"+slot3+"</b><br><small>"+pokeDB[slot3].type.join("/")+"</small></td><td>"+resistances+"</td><td>"+vulnerabilities+"</td><td><span class=\""+ctVulnerabilityIcon+"\" aria-hidden=\"true\"></span></tr>";
 		
 	});
 
-	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> " + teams.length + "<br><b>Teams with no CTV:</b> " + ctVulnerabilityCounter;
+	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> " + teamCounter + "<br>";
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
