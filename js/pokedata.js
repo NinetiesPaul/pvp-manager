@@ -61,14 +61,17 @@ function getPokemonData(pokemon, slot) {
 
     $.each(data.moveset.quick, function (index,value){
         cleanName = value.replaceAll('*', '');
-        var data = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + quickMoveDB[cleanName].dpt;
+        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + quickMoveDB[cleanName].dpt;
 
-        $('#quick_move-' + slot).append("<option>" + value + " (" + data + ")</option>")
+        $('#quick_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
     });
 
     $.each(data.moveset.charge, function (index,value){
-        $('#charge1_move-' + slot).append("<option>" + value + "</option>")
-        $('#charge2_move-' + slot).append("<option>" + value + "</option>")
+        cleanName = value.replaceAll('*', '');
+        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + chargeMoveDB[cleanName].dpe;
+
+        $('#charge1_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
+        $('#charge2_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
     });
     
     return data;

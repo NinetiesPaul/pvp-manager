@@ -31,7 +31,7 @@ function forceChange(input) {
 		if (quick != undefined && quick.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.quick) {
 				if (move === quick) {
-					var formattedMoveName = move + " (EPT " + quickMoveDB[move].ept + "/DPT " + quickMoveDB[move].dpt + ")";
+					var formattedMoveName = move + " (EPT " + quickMoveDB[move.replace('*', '')].ept + "/DPT " + quickMoveDB[move.replace('*', '')].dpt + ")";
 
 					$("#quick_move-slot" + slot).val(formattedMoveName)
 					$("#quick_move-slot" + slot).trigger("change")
@@ -42,7 +42,9 @@ function forceChange(input) {
 		if (charge1 != undefined && charge1.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.charge) {
 				if (move === charge1) {
-					$("#charge1_move-slot" + slot).val(move)
+					var formattedMoveName = move + " (ENG " + chargeMoveDB[move.replace('*', '')].energy + "/DPE " + chargeMoveDB[move.replace('*', '')].dpe + ")";
+
+					$("#charge1_move-slot" + slot).val(formattedMoveName)
 					$("#charge1_move-slot" + slot).trigger("change")
 				}
 			}
@@ -51,7 +53,9 @@ function forceChange(input) {
 		if (charge2 != undefined && charge2.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.charge) {
 				if (move === charge2) {
-					$("#charge2_move-slot" + slot).val(move)
+					var formattedMoveName = move + " (ENG " + chargeMoveDB[move.replace('*', '')].energy + "/DPE " + chargeMoveDB[move.replace('*', '')].dpe + ")";
+
+					$("#charge2_move-slot" + slot).val(formattedMoveName)
 					$("#charge2_move-slot" + slot).trigger("change")
 				}
 			}

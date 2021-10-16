@@ -7,6 +7,7 @@ function getMoveData(move, type, target) {
     }
 
     if (type === 'charge1' || type === 'charge2') {
+        move = move.split(" (")[0];
         data = chargeMoveDB[move];
     }
     

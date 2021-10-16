@@ -17,11 +17,13 @@ function saveTeam() {
 
 		charge1 = $("#charge1_move-slot1").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
+			charge1 = charge1.split(" (")[0];
 			pkmSlot1.push(charge1)
 		}
 
 		charge2 = $("#charge2_move-slot1").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
+			charge2 = charge2.split(" (")[0];
 			pkmSlot1.push(charge2)
 		}
 
@@ -42,11 +44,13 @@ function saveTeam() {
 
 		charge1 = $("#charge1_move-slot2").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
+			charge1 = charge1.split(" (")[0];
 			pkmSlot2.push(charge1)
 		}
 
 		charge2 = $("#charge2_move-slot2").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
+			charge2 = charge2.split(" (")[0];
 			pkmSlot2.push(charge2)
 		}
 
@@ -67,11 +71,13 @@ function saveTeam() {
 
 		charge1 = $("#charge1_move-slot3").find(":selected").text()
 		if (charge1 !== "-- Charge I --") {
+			charge1 = charge1.split(" (")[0];
 			pkmSlot3.push(charge1)
 		}
 
 		charge2 = $("#charge2_move-slot3").find(":selected").text()
 		if (charge2 !== "-- Charge II --") {
+			charge2 = charge2.split(" (")[0];
 			pkmSlot3.push(charge2)
 		}
 
