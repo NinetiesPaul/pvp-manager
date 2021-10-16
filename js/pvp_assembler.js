@@ -1,6 +1,6 @@
 $(document).on('click', '.pkm-list-btn', function() {
 	$(".teamassembler-table tbody").html("");
-	$(".pkm-list-btn").attr("disabled", true)
+	//$(".pkm-list-btn").attr("disabled", true)
 
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
@@ -65,6 +65,11 @@ $(document).on('click', '.pkm-list-btn', function() {
 				return false;
 			}
 
+			/*if (Object.keys(pokeDB[v].defense_data.resistant_to).length < 5) {
+				skip = true;
+				return false;
+			}*/
+
 			resistances += Object.keys(pokeDB[v].defense_data.resistant_to).length;
 			vulnerabilities += Object.keys(pokeDB[v].defense_data.vulnerable_to).length;
 			vulnerableToTypes = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
@@ -98,8 +103,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
-	$(".pkm-list-btn").attr("disabled", false);
-
+	//$(".pkm-list-btn").attr("disabled", false);
 });
 
 $(document).on('click', '#paste_pkms', function() {
