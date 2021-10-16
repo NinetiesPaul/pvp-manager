@@ -11,6 +11,7 @@ function saveTeam() {
 
 		quick = $("#quick_move-slot1").find(":selected").text()
 		if (quick !== "-- Quick --") {
+			quick = quick.split(" (")[0];
 			pkmSlot1.push(quick)
 		}
 
@@ -35,6 +36,7 @@ function saveTeam() {
 
 		quick = $("#quick_move-slot2").find(":selected").text()
 		if (quick !== "-- Quick --") {
+			quick = quick.split(" (")[0];
 			pkmSlot2.push(quick)
 		}
 
@@ -59,6 +61,7 @@ function saveTeam() {
 		
 		quick = $("#quick_move-slot3").find(":selected").text()
 		if (quick !== "-- Quick --") {
+			quick = quick.split(" (")[0];
 			pkmSlot3.push(quick)
 		}
 

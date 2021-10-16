@@ -29,16 +29,18 @@ function forceChange(input) {
 		$("#pokemonList_slot" + slot).val(pkmData.id.padStart(3, '0') + " - " + pkmData.name)
 
 		if (quick != undefined && quick.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.quick) {				
+			for (move of pkmData.moveset.quick) {
 				if (move === quick) {
-					$("#quick_move-slot" + slot).val(move)
+					var formattedMoveName = move + " (EPT " + quickMoveDB[move].ept + "/DPT " + quickMoveDB[move].dpt + ")";
+
+					$("#quick_move-slot" + slot).val(formattedMoveName)
 					$("#quick_move-slot" + slot).trigger("change")
 				}
 			}
 		}
 
 		if (charge1 != undefined && charge1.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.charge) {				
+			for (move of pkmData.moveset.charge) {
 				if (move === charge1) {
 					$("#charge1_move-slot" + slot).val(move)
 					$("#charge1_move-slot" + slot).trigger("change")
@@ -47,7 +49,7 @@ function forceChange(input) {
 		}
 
 		if (charge2 != undefined && charge2.match(/[a-z]/i)) {
-			for (move of pkmData.moveset.charge) {				
+			for (move of pkmData.moveset.charge) {
 				if (move === charge2) {
 					$("#charge2_move-slot" + slot).val(move)
 					$("#charge2_move-slot" + slot).trigger("change")
