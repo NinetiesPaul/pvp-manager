@@ -38,6 +38,24 @@ $(document).on('click', '.pkm-list-btn', function() {
 			skip = false;
 
 		$.each(pkms, function(k,v) {
+			var ept = $("#ept_limit option:selected").val();
+
+			if (ept != "-") {
+				var hasFastMoves = false;
+				$.map(pokeDB[v].moveset.quick, function(element,index) {
+					moveEpt = quickMoveDB[element.replace('*', '')].ept;
+					if (!hasFastMoves && moveEpt > ept) {
+						hasFastMoves = true
+					}
+				});
+
+				if (!hasFastMoves) {
+					skip = true;
+					return false;
+				}
+
+			}
+
 			doubleVulnerability = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
 				return element;
 			});

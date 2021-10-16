@@ -1,6 +1,6 @@
 var quickMoveDB = {
 "Fury Cutter": {
-    "type": "BUG",
+    "type": "Bug",
     "weakAgainst": [
         "Fairy",
         "Fighting",
@@ -15,11 +15,11 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "power": "2",
-    "energy": "4"
+    "ept": "4",
+    "dpt": "2"
 },
 "Bug Bite": {
-    "type": "BUG",
+    "type": "Bug",
     "weakAgainst": [
         "Fairy",
         "Fighting",
@@ -34,11 +34,11 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "power": "3",
-    "energy": "3"
+    "ept": "3",
+    "dpt": "3"
 },
 "Bite": {
-    "type": "DARK",
+    "type": "Dark",
     "weakAgainst": [
         "Dark",
         "Fairy",
@@ -48,11 +48,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "4",
-    "energy": "2"
+    "ept": "2",
+    "dpt": "4"
 },
 "Sucker Punch": {
-    "type": "DARK",
+    "type": "Dark",
     "weakAgainst": [
         "Dark",
         "Fairy",
@@ -62,11 +62,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "5",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "2.5"
 },
 "Dragon Breath": {
-    "type": "DRAGON",
+    "type": "Dragon",
     "weakAgainst": [
         "Fairy",
         "Steel"
@@ -74,11 +74,11 @@ var quickMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "power": "4",
-    "energy": "3"
+    "ept": "3",
+    "dpt": "4"
 },
 "Thunder Shock": {
-    "type": "ELECTRIC",
+    "type": "Electric",
     "weakAgainst": [
         "Dragon",
         "Electric",
@@ -89,11 +89,11 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "power": "3",
-    "energy": "9"
+    "ept": "4.5",
+    "dpt": "1.5"
 },
 "Spark": {
-    "type": "ELECTRIC",
+    "type": "Electric",
     "weakAgainst": [
         "Dragon",
         "Electric",
@@ -104,11 +104,11 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "power": "4",
-    "energy": "8"
+    "ept": "4",
+    "dpt": "2"
 },
 "Low Kick": {
-    "type": "FIGHTING",
+    "type": "Fighting",
     "weakAgainst": [
         "Bug",
         "Fairy",
@@ -124,11 +124,11 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "4",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "2"
 },
 "Karate Chop": {
-    "type": "FIGHTING",
+    "type": "Fighting",
     "weakAgainst": [
         "Bug",
         "Fairy",
@@ -144,11 +144,11 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "5",
-    "energy": "8"
+    "ept": "4",
+    "dpt": "2.5"
 },
 "Ember": {
-    "type": "FIRE",
+    "type": "Fire",
     "weakAgainst": [
         "Dragon",
         "Fire",
@@ -161,11 +161,11 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "power": "7",
-    "energy": "6"
+    "ept": "3",
+    "dpt": "3.5"
 },
 "Wing Attack": {
-    "type": "FLYING",
+    "type": "Flying",
     "weakAgainst": [
         "Electric",
         "Rock",
@@ -176,11 +176,11 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "power": "5",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "2.5"
 },
 "Peck": {
-    "type": "FLYING",
+    "type": "Flying",
     "weakAgainst": [
         "Electric",
         "Rock",
@@ -191,11 +191,11 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "power": "6",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "3"
 },
 "Lick": {
-    "type": "GHOST",
+    "type": "Ghost",
     "weakAgainst": [
         "Dark",
         "Normal"
@@ -204,11 +204,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "3",
-    "energy": "3"
+    "ept": "3",
+    "dpt": "3"
 },
 "Shadow Claw": {
-    "type": "GHOST",
+    "type": "Ghost",
     "weakAgainst": [
         "Dark",
         "Normal"
@@ -217,11 +217,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "6",
-    "energy": "8"
+    "ept": "4",
+    "dpt": "3"
 },
 "Vine Whip": {
-    "type": "GRASS",
+    "type": "Grass",
     "weakAgainst": [
         "Bug",
         "Dragon",
@@ -236,11 +236,11 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
-    "power": "5",
-    "energy": "8"
+    "ept": "4",
+    "dpt": "2.5"
 },
 "Razor Leaf": {
-    "type": "GRASS",
+    "type": "Grass",
     "weakAgainst": [
         "Bug",
         "Dragon",
@@ -255,11 +255,11 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
-    "power": "10",
-    "energy": "4"
+    "ept": "2",
+    "dpt": "5"
 },
 "Mud Shot": {
-    "type": "GROUND",
+    "type": "Ground",
     "weakAgainst": [
         "Bug",
         "Flying",
@@ -272,11 +272,11 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "3",
-    "energy": "9"
+    "ept": "4.5",
+    "dpt": "1.5"
 },
 "Ice Shard": {
-    "type": "ICE",
+    "type": "Ice",
     "weakAgainst": [
         "Fire",
         "Ice",
@@ -289,11 +289,11 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
-    "power": "9",
-    "energy": "10"
+    "ept": "3.33",
+    "dpt": "3"
 },
 "Frost Breath": {
-    "type": "ICE",
+    "type": "Ice",
     "weakAgainst": [
         "Fire",
         "Ice",
@@ -306,66 +306,66 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
-    "power": "7",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "3.5"
 },
 "Quick Attack": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "5",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "2.5"
 },
 "Scratch": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "4",
-    "energy": "2"
+    "ept": "2",
+    "dpt": "4"
 },
 "Tackle": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "3",
-    "energy": "2"
+    "ept": "2",
+    "dpt": "3"
 },
 "Pound": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "5",
-    "energy": "4"
+    "ept": "2",
+    "dpt": "2.5"
 },
 "Cut": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "3",
-    "energy": "2"
+    "ept": "2",
+    "dpt": "3"
 },
 "Poison Jab": {
-    "type": "POISON",
+    "type": "Poison",
     "weakAgainst": [
         "Ghost",
         "Ground",
@@ -377,11 +377,11 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "power": "7",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "3.5"
 },
 "Acid": {
-    "type": "POISON",
+    "type": "Poison",
     "weakAgainst": [
         "Ghost",
         "Ground",
@@ -393,11 +393,11 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "power": "6",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "3"
 },
 "Psycho Cut": {
-    "type": "PSYCHIC",
+    "type": "Psychic",
     "weakAgainst": [
         "Dark",
         "Psychic",
@@ -407,11 +407,11 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "power": "3",
-    "energy": "9"
+    "ept": "4.5",
+    "dpt": "1.5"
 },
 "Rock Throw": {
-    "type": "ROCK",
+    "type": "Rock",
     "weakAgainst": [
         "Fighting",
         "Ground",
@@ -423,11 +423,11 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
-    "power": "8",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "4"
 },
 "Metal Claw": {
-    "type": "STEEL",
+    "type": "Steel",
     "weakAgainst": [
         "Electric",
         "Fire",
@@ -439,11 +439,11 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "power": "5",
-    "energy": "6"
+    "ept": "3",
+    "dpt": "2.5"
 },
 "Bullet Punch": {
-    "type": "STEEL",
+    "type": "Steel",
     "weakAgainst": [
         "Electric",
         "Fire",
@@ -455,11 +455,11 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "power": "6",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "3"
 },
 "Water Gun": {
-    "type": "WATER",
+    "type": "Water",
     "weakAgainst": [
         "Dragon",
         "Grass",
@@ -470,11 +470,11 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
-    "power": "3",
-    "energy": "3"
+    "ept": "3",
+    "dpt": "3"
 },
 "Splash": {
-    "type": "WATER",
+    "type": "Water",
     "weakAgainst": [
         "Dragon",
         "Grass",
@@ -485,11 +485,11 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
-    "power": "4",
-    "energy": null
+    "ept": "3",
+    "dpt": "0"
 },
 "Mud Slap": {
-    "type": "GROUND",
+    "type": "Ground",
     "weakAgainst": [
         "Bug",
         "Flying",
@@ -502,11 +502,11 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "11",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "3.67"
 },
 "Zen Headbutt": {
-    "type": "PSYCHIC",
+    "type": "Psychic",
     "weakAgainst": [
         "Dark",
         "Psychic",
@@ -516,11 +516,11 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "power": "8",
-    "energy": "6"
+    "ept": "2",
+    "dpt": "2.67"
 },
 "Confusion": {
-    "type": "PSYCHIC",
+    "type": "Psychic",
     "weakAgainst": [
         "Dark",
         "Psychic",
@@ -530,11 +530,11 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "power": "16",
-    "energy": "12"
+    "ept": "3",
+    "dpt": "4"
 },
 "Poison Sting": {
-    "type": "POISON",
+    "type": "Poison",
     "weakAgainst": [
         "Ghost",
         "Ground",
@@ -546,11 +546,11 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "power": "3",
-    "energy": "9"
+    "ept": "4.5",
+    "dpt": "1.5"
 },
 "Bubble": {
-    "type": "WATER",
+    "type": "Water",
     "weakAgainst": [
         "Dragon",
         "Grass",
@@ -561,11 +561,11 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
-    "power": "7",
-    "energy": "11"
+    "ept": "3.67",
+    "dpt": "2.33"
 },
 "Feint Attack": {
-    "type": "DARK",
+    "type": "Dark",
     "weakAgainst": [
         "Dark",
         "Fairy",
@@ -575,11 +575,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "6",
-    "energy": "6"
+    "ept": "3",
+    "dpt": "3"
 },
 "Steel Wing": {
-    "type": "STEEL",
+    "type": "Steel",
     "weakAgainst": [
         "Electric",
         "Fire",
@@ -591,11 +591,11 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "power": "7",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "3.5"
 },
 "Fire Fang": {
-    "type": "FIRE",
+    "type": "Fire",
     "weakAgainst": [
         "Dragon",
         "Fire",
@@ -608,11 +608,11 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "power": "8",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "4"
 },
 "Rock Smash": {
-    "type": "FIGHTING",
+    "type": "Fighting",
     "weakAgainst": [
         "Bug",
         "Fairy",
@@ -628,22 +628,22 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "9",
-    "energy": "7"
+    "ept": "2.33",
+    "dpt": "3"
 },
 "Transform": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": null,
-    "energy": null
+    "ept": "0",
+    "dpt": "0"
 },
 "Counter": {
-    "type": "FIGHTING",
+    "type": "Fighting",
     "weakAgainst": [
         "Bug",
         "Fairy",
@@ -659,11 +659,11 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "power": "8",
-    "energy": "7"
+    "ept": "3.5",
+    "dpt": "4"
 },
 "Powder Snow": {
-    "type": "ICE",
+    "type": "Ice",
     "weakAgainst": [
         "Fire",
         "Ice",
@@ -676,11 +676,11 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
-    "power": "5",
-    "energy": "8"
+    "ept": "4",
+    "dpt": "2.5"
 },
 "Charge Beam": {
-    "type": "ELECTRIC",
+    "type": "Electric",
     "weakAgainst": [
         "Dragon",
         "Electric",
@@ -691,11 +691,11 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "power": "5",
-    "energy": "11"
+    "ept": "3.67",
+    "dpt": "1.67"
 },
 "Volt Switch": {
-    "type": "ELECTRIC",
+    "type": "Electric",
     "weakAgainst": [
         "Dragon",
         "Electric",
@@ -706,11 +706,11 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "power": "12",
-    "energy": "16"
+    "ept": "4",
+    "dpt": "3"
 },
 "Dragon Tail": {
-    "type": "DRAGON",
+    "type": "Dragon",
     "weakAgainst": [
         "Fairy",
         "Steel"
@@ -718,11 +718,11 @@ var quickMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "power": "13",
-    "energy": "9"
+    "ept": "3",
+    "dpt": "4.33"
 },
 "Air Slash": {
-    "type": "FLYING",
+    "type": "Flying",
     "weakAgainst": [
         "Electric",
         "Rock",
@@ -733,11 +733,11 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "power": "9",
-    "energy": "9"
+    "ept": "3",
+    "dpt": "3"
 },
 "Infestation": {
-    "type": "BUG",
+    "type": "Bug",
     "weakAgainst": [
         "Fairy",
         "Fighting",
@@ -752,11 +752,11 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "power": "6",
-    "energy": "12"
+    "ept": "4",
+    "dpt": "2"
 },
 "Struggle Bug": {
-    "type": "BUG",
+    "type": "Bug",
     "weakAgainst": [
         "Fairy",
         "Fighting",
@@ -771,11 +771,11 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "power": "9",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "3"
 },
 "Astonish": {
-    "type": "GHOST",
+    "type": "Ghost",
     "weakAgainst": [
         "Dark",
         "Normal"
@@ -784,11 +784,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "5",
-    "energy": "9"
+    "ept": "3",
+    "dpt": "1.67"
 },
 "Hex": {
-    "type": "GHOST",
+    "type": "Ghost",
     "weakAgainst": [
         "Dark",
         "Normal"
@@ -797,11 +797,11 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "6",
-    "energy": "12"
+    "ept": "4",
+    "dpt": "2"
 },
 "Iron Tail": {
-    "type": "STEEL",
+    "type": "Steel",
     "weakAgainst": [
         "Electric",
         "Fire",
@@ -813,11 +813,11 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "power": "9",
-    "energy": "6"
+    "ept": "2",
+    "dpt": "3"
 },
 "Fire Spin": {
-    "type": "FIRE",
+    "type": "Fire",
     "weakAgainst": [
         "Dragon",
         "Fire",
@@ -830,11 +830,11 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "power": "9",
-    "energy": "10"
+    "ept": "3.33",
+    "dpt": "3"
 },
 "Bullet Seed": {
-    "type": "GRASS",
+    "type": "Grass",
     "weakAgainst": [
         "Bug",
         "Dragon",
@@ -849,11 +849,11 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
-    "power": "5",
-    "energy": "13"
+    "ept": "4.33",
+    "dpt": "1.67"
 },
 "Extrasensory": {
-    "type": "PSYCHIC",
+    "type": "Psychic",
     "weakAgainst": [
         "Dark",
         "Psychic",
@@ -863,11 +863,11 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "power": "8",
-    "energy": "10"
+    "ept": "3.33",
+    "dpt": "2.67"
 },
 "Snarl": {
-    "type": "DARK",
+    "type": "Dark",
     "weakAgainst": [
         "Dark",
         "Fairy",
@@ -877,33 +877,33 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "power": "5",
-    "energy": "13"
+    "ept": "4.33",
+    "dpt": "1.67"
 },
 "Hidden Power": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "9",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "3"
 },
 "Take Down": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "5",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "1.67"
 },
 "Waterfall": {
-    "type": "WATER",
+    "type": "Water",
     "weakAgainst": [
         "Dragon",
         "Grass",
@@ -914,33 +914,33 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
-    "power": "12",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "4"
 },
 "Yawn": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "4",
-    "energy": null
+    "ept": "3",
+    "dpt": "0"
 },
 "Present": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": "3",
-    "energy": "12"
+    "ept": "4",
+    "dpt": "1"
 },
 "Smack Down": {
-    "type": "ROCK",
+    "type": "Rock",
     "weakAgainst": [
         "Fighting",
         "Ground",
@@ -952,11 +952,11 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
-    "power": "12",
-    "energy": "8"
+    "ept": "2.67",
+    "dpt": "4"
 },
 "Charm": {
-    "type": "FAIRY",
+    "type": "Fairy",
     "weakAgainst": [
         "Fire",
         "Poison",
@@ -967,22 +967,22 @@ var quickMoveDB = {
         "Dragon",
         "Fighting"
     ],
-    "power": "16",
-    "energy": "6"
+    "ept": "2",
+    "dpt": "5.33"
 },
 "Lock On": {
-    "type": "NORMAL",
+    "type": "Normal",
     "weakAgainst": [
         "Ghost",
         "Rock",
         "Steel"
     ],
     "goodAgainst": [],
-    "power": null,
-    "energy": null
+    "ept": 5,
+    "dpt": 1
 },
 "Thunder Fang": {
-    "type": "ELECTRIC",
+    "type": "Electric",
     "weakAgainst": [
         "Dragon",
         "Electric",
@@ -993,11 +993,11 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "power": "8",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "4"
 },
 "Ice Fang": {
-    "type": "ICE",
+    "type": "Ice",
     "weakAgainst": [
         "Fire",
         "Ice",
@@ -1010,11 +1010,11 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
-    "power": "8",
-    "energy": "5"
+    "ept": "2.5",
+    "dpt": "4"
 },
 "Gust": {
-    "type": "FLYING",
+    "type": "Flying",
     "weakAgainst": [
         "Electric",
         "Rock",
@@ -1025,11 +1025,11 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "power": "16",
-    "energy": "12"
+    "ept": "3",
+    "dpt": "4"
 },
 "Incinerate": {
-    "type": "FIRE",
+    "type": "Fire",
     "weakAgainst": [
         "Dragon",
         "Fire",
@@ -1042,7 +1042,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "power": "15",
-    "energy": "20"
+    "ept": "4",
+    "dpt": "3"
 },
 }

@@ -43,6 +43,7 @@ function getPokemonData(pokemon, slot) {
             .css('background-color', colors[data.type[1]])
             .html(data.type[1]);
     }
+
     $('#atk-' + slot).html(data.name.indexOf('Shadow') >= 0 ? Math.round(data.stats.atk * 1.2) : data.stats.atk)
     $('#def-' + slot).html(data.name.indexOf('Shadow') >= 0 ? Math.round(data.stats.def * 0.833) : data.stats.def)
     $('#sta-' + slot).html(data.stats.sta)
@@ -53,12 +54,18 @@ function getPokemonData(pokemon, slot) {
     $.each(data.defense_data.resistant_to, function (index,value){
         $('.resistant_to-' + slot).append(index + " | " + value + "<br>")
     });
+
     $.each(data.defense_data.vulnerable_to, function (index,value){
         $('.vulnerable_to-' + slot).append(index + " | " + value + "<br>")
     });
+
     $.each(data.moveset.quick, function (index,value){
-        $('#quick_move-' + slot).append("<option>" + value + "</option>")
+        cleanName = value.replaceAll('*', '');
+        var data = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + quickMoveDB[cleanName].dpt;
+
+        $('#quick_move-' + slot).append("<option>" + value + " (" + data + ")</option>")
     });
+
     $.each(data.moveset.charge, function (index,value){
         $('#charge1_move-' + slot).append("<option>" + value + "</option>")
         $('#charge2_move-' + slot).append("<option>" + value + "</option>")

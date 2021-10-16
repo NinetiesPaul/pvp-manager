@@ -2,6 +2,7 @@ function getMoveData(move, type, target) {
     move = move.replaceAll('*', '');
 
     if (type === 'quick') {
+        move = move.split(" (")[0];
         data = quickMoveDB[move];
     }
 
@@ -13,7 +14,8 @@ function getMoveData(move, type, target) {
     	return;
     }
 
-    imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + data.type + '.png';
+    imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + data.type.toUpperCase() + '.png';
+
     $('#' + type + '_move_type-' + target).html("<img src='" + imgSrc + "' height='25px' width='25px'/>");
     $('#' + type + '_move_type-' + target).css('display', 'revert');
 
@@ -24,7 +26,7 @@ function getMoveData(move, type, target) {
 
 
 	$('#' + type + '_goodAgainst-' + target).append('&nbsp;');
-    $.each(data.goodAgainst, function (index,value){    
+    $.each(data.goodAgainst, function (index,value){
         $('#' + type + '_goodAgainst-' + target).append(value);
 
         if (index != data.goodAgainst.length - 1) {
