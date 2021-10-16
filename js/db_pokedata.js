@@ -9565,7 +9565,7 @@ var pokeDB = {
             "Vice Grip",
             "X Scissor",
             "Close Combat",
-            "Super Power",
+            "Superpower",
             "Submission*"
         ]
     },
@@ -9604,7 +9604,7 @@ var pokeDB = {
             "Vice Grip",
             "X Scissor",
             "Close Combat",
-            "Super Power",
+            "Superpower",
             "Submission*"
         ]
     },
@@ -10047,7 +10047,7 @@ var pokeDB = {
             "Overheat",
             "Last Resort*",
             "Heat Wave*",
-            "Super Power*"
+            "Superpower*"
         ]
     },
     "defense_data": {
@@ -10587,7 +10587,7 @@ var pokeDB = {
             "Outrage",
             "Skull Bash",
             "Body Slam",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -10624,7 +10624,7 @@ var pokeDB = {
             "Outrage",
             "Skull Bash",
             "Body Slam",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -19287,7 +19287,7 @@ var pokeDB = {
             "Heavy Slam",
             "Close Combat",
             "Dynamic Punch",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -19324,7 +19324,7 @@ var pokeDB = {
             "Heavy Slam",
             "Close Combat",
             "Dynamic Punch",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -25100,7 +25100,7 @@ var pokeDB = {
             "Shadow Ball*",
             "Thunderbolt*",
             "Ice Beam*",
-            "Super Power*"
+            "Superpower*"
         ]
     },
     "defense_data": {
@@ -25136,7 +25136,7 @@ var pokeDB = {
             "Shadow Ball*",
             "Thunderbolt*",
             "Ice Beam*",
-            "Super Power*"
+            "Superpower*"
         ]
     },
     "defense_data": {
@@ -28466,7 +28466,7 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Skull Bash",
-            "Super Power",
+            "Superpower",
             "Rock Wrecker*"
         ]
     },
@@ -28512,7 +28512,7 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Skull Bash",
-            "Super Power",
+            "Superpower",
             "Rock Wrecker*"
         ]
     },
@@ -32109,7 +32109,7 @@ var pokeDB = {
         "charge": [
             "Rock Slide",
             "Solar Beam",
-            "Super Power",
+            "Superpower",
             "Heavy Slam"
         ]
     },
@@ -33321,7 +33321,7 @@ var pokeDB = {
         "charge": [
             "Overheat",
             "Avalanche",
-            "Super Power",
+            "Superpower",
             "Ice Punch"
         ]
     },
@@ -37571,7 +37571,7 @@ var pokeDB = {
             "Earthquake",
             "Bulldoze",
             "Stone Edge",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -38176,7 +38176,7 @@ var pokeDB = {
         "charge": [
             "Gyro Ball",
             "Energy Ball",
-            "Super Power",
+            "Superpower",
             "Solar Beam"
         ]
     },
@@ -39910,7 +39910,7 @@ var pokeDB = {
         "charge": [
             "Psybeam",
             "Foul Play",
-            "Super Power",
+            "Superpower",
             "Hyper Beam"
         ]
     },
@@ -41396,7 +41396,7 @@ var pokeDB = {
             "Thunderbolt",
             "Hyper Beam",
             "Rock Slide",
-            "Super Power"
+            "Superpower"
         ]
     },
     "defense_data": {
@@ -43051,7 +43051,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Super Power",
+            "Superpower",
             "Ice Punch"
         ]
     },
@@ -43087,7 +43087,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Super Power",
+            "Superpower",
             "Ice Punch",
             "Surf"
         ]
@@ -44244,7 +44244,7 @@ var pokeDB = {
             "Counter"
         ],
         "charge": [
-            "Super Power",
+            "Superpower",
             "Brick Break",
             "Megahorn"
         ]

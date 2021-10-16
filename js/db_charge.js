@@ -1899,7 +1899,7 @@ var chargeMoveDB = {
     "power": "90",
     "dpe": "1.64"
 },
-"Futuresight": {
+"Future Sight": {
     "type": "Psychic",
     "weakAgainst": [
         "Dark",
@@ -1910,9 +1910,9 @@ var chargeMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "65",
+    "power": "120",
+    "dpe": "1.85"
 },
 "Mirror Coat": {
     "type": "Psychic",
@@ -2347,7 +2347,7 @@ var chargeMoveDB = {
     "power": "35",
     "dpe": "1.00"
 },
-"Super Power": {
+"Superpower": {
     "type": "Fighting",
     "weakAgainst": [
         "Bug",
@@ -2364,9 +2364,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "-40",
+    "power": "85",
+    "dpe": "2.13"
 },
 "Fell Stinger": {
     "type": "Bug",
