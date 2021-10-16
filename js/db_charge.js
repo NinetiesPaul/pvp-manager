@@ -1098,9 +1098,9 @@ var chargeMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "-35",
+    "power": "45",
+    "dpe": "1.29"
 },
 "Flame Charge": {
     "type": "Fire",
