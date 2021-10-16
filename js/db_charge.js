@@ -2530,9 +2530,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "-35",
+    "power": "20",
+    "dpe": "0.57"
 },
 "Giga Impact": {
     "type": "Normal",
