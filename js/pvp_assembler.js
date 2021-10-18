@@ -95,7 +95,15 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
 
-		textToAppend += "<tr><th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th><td id=\"slot1\"><b>"+slot1+"</b><br><small>"+pokeDB[slot1].type.join("/")+"</small></td><td id=\"slot2\"><b>"+slot2+"</b><br><small>"+pokeDB[slot2].type.join("/")+"</small></td><td id=\"slot3\"><b>"+slot3+"</b><br><small>"+pokeDB[slot3].type.join("/")+"</small></td><td>"+resistances+"</td><td>"+vulnerabilities+"</td><td><span class=\""+ctVulnerabilityIcon+"\" aria-hidden=\"true\"></span></tr>";
+		textToAppend += 
+		"<tr>"+
+			"<th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th>"+
+			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "</small></td>"+
+			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "</small></td>"+
+			"<td><span id=\"slot3\"><b>"+slot3+"</b></span><br><small>" + pokeDB[slot3].type.join("/") + "</small></td>"+
+			"<td>" + resistances + "</td><td>" + vulnerabilities + "</td>"+
+			"<td><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>"+
+		"</tr>";
 		
 	});
 
@@ -107,6 +115,20 @@ $(document).on('click', '.pkm-list-btn', function() {
 });
 
 $(document).on('click', '#paste_pkms', function() {
-	//var pkm = $("#paste_pkms").parent().parent().find("td#slot1").text()
-	//console.log(pkm)
+	var pkmSlot1 = $("#paste_pkms").parent().parent().find("#slot1").text()
+	pkmSlot1 = pokeDB[pkmSlot1].id + " - " + pokeDB[pkmSlot1].name
+	$("#pokemonList_slot1").val(pkmSlot1)
+	$("#pokemonList_slot1").trigger("change")
+
+	var pkmSlot2 = $("#paste_pkms").parent().parent().find("#slot2").text()
+	pkmSlot2 = pokeDB[pkmSlot2].id + " - " + pokeDB[pkmSlot2].name
+	$("#pokemonList_slot2").val(pkmSlot2)
+	$("#pokemonList_slot2").trigger("change")
+
+	var pkmSlot3 = $("#paste_pkms").parent().parent().find("#slot3").text()
+	pkmSlot3 = pokeDB[pkmSlot3].id + " - " + pokeDB[pkmSlot3].name
+	$("#pokemonList_slot3").val(pkmSlot3)
+	$("#pokemonList_slot3").trigger("change")
+
+	$("#pvp-teambuilder-tab").trigger("click")
 });
