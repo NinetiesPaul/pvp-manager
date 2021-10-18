@@ -105,3 +105,7 @@ p {
 .hide{
   display: none;
 }
+
+.loadData, .saveData {
+  margin: 0 auto;
+}

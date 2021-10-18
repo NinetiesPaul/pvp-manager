@@ -160,16 +160,17 @@
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
 
-                        <input type="text" id="loadData" class="loadData small" placeholder="Place backup here"></input><br>
-                        <input type="text" id="saveData" class="saveData small" placeholder="Click save to backup" value="" readonly></input><br><br>
-                        <input type="button" id="saveBtn" class="saveBtn small" data-clipboard-target="#saveData" value="Copy to clipboard"></input><br><br>
+                        <input type="text" id="loadData" class="loadData loadData form-control form-control-sm col-sm-3" placeholder="Place backup here"></input><br>
+                        <input type="text" id="saveData" class="saveData saveData form-control form-control-sm col-sm-3" placeholder="Click save to backup" value="" readonly></input><br><br>
+                        <input type="button" id="saveBtn" class="saveBtn btn btn-sm btn-primary" data-clipboard-target="#saveData" value="Save"></input><br><br>
 
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
-                            <select id="pokemonList_slot1" name="pokemonList_slot1">
-                                <option>-- Pick an option --</option>
-                            </select>
-                            <img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
+                                <select id="pokemonList_slot1" name="pokemonList_slot1">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
+
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                     <tr>
                                         <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
@@ -243,11 +244,12 @@
                         </div>
 
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 2 -->
-                            <select id="pokemonList_slot2" name="pokemonList_slot2">
-                                <option>-- Pick an option --</option>
-                            </select>
-                            <img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
+                                <select id="pokemonList_slot2" name="pokemonList_slot2">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
+
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                     <tr>
                                         <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
@@ -321,11 +323,12 @@
                         </div>
 
                         <div class="card" style="width: 33%; "> <!-- Slot 3-->
-                            <select id="pokemonList_slot3" name="pokemonList_slot3">
-                                <option>-- Pick an option --</option>
-                            </select>
-                            <img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="(pokemon image)">
                             <div class="card-body">
+                                <select id="pokemonList_slot3" name="pokemonList_slot3">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
+
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                     <tr>
                                         <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
