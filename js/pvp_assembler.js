@@ -32,9 +32,9 @@ $(document).on('click', '.pkm-list-btn', function() {
 		var slot1 = pkms[0],
 			slot2 = pkms[1],
 			slot3 = pkms[2],
-			resistances = 0,
-			vulnerabilities = 0,
 			combinedVulnerabilites = [],
+			combinedResistances = [],
+			ctVulnerability = true,
 			skip = false;
 
 		$.each(pkms, function(k,v) {
@@ -65,27 +65,24 @@ $(document).on('click', '.pkm-list-btn', function() {
 				return false;
 			}
 
-			/*if (Object.keys(pokeDB[v].defense_data.resistant_to).length < 5) {
-				skip = true;
-				return false;
-			}*/
+			$.each(pokeDB[v].defense_data.vulnerable_to, function(k,v) {
+				if (jQuery.inArray(k, combinedVulnerabilites) == -1){
+					combinedVulnerabilites.push(k);
+				} else {
+					ctVulnerability = false;
+				}
+			})
 
-			resistances += Object.keys(pokeDB[v].defense_data.resistant_to).length;
-			vulnerabilities += Object.keys(pokeDB[v].defense_data.vulnerable_to).length;
-			vulnerableToTypes = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
-				return index;
-			});
-
-			$.each(vulnerableToTypes, function(k,v) {
-				combinedVulnerabilites.push(v);
+			$.each(pokeDB[v].defense_data.resistant_to, function(k,v) {
+				if (jQuery.inArray(k, combinedResistances) == -1){
+					combinedResistances.push(k);
+				}
 			})
 		});
 
 		if (skip) {
 			return true;
 		}
-
-		var ctVulnerability = ((new Set(combinedVulnerabilites).size) == combinedVulnerabilites.length);
 
 		if ($("#hide_ctv").is(":checked") && !ctVulnerability) {
 			return true;
@@ -101,7 +98,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "</small></td>"+
 			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "</small></td>"+
 			"<td><span id=\"slot3\"><b>"+slot3+"</b></span><br><small>" + pokeDB[slot3].type.join("/") + "</small></td>"+
-			"<td>" + resistances + "</td><td>" + vulnerabilities + "</td>"+
+			"<td>" + (new Set(combinedResistances).size) + "</td><td>" + (new Set(combinedVulnerabilites).size) + "</td>"+
 			"<td><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>"+
 		"</tr>";
 		
