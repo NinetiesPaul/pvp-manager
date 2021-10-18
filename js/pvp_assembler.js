@@ -115,17 +115,18 @@ $(document).on('click', '.pkm-list-btn', function() {
 });
 
 $(document).on('click', '#paste_pkms', function() {
-	var pkmSlot1 = $("#paste_pkms").parent().parent().find("#slot1").text()
+
+	var pkmSlot1 = $(this).parent().parent().find("#slot1").text()
 	pkmSlot1 = pokeDB[pkmSlot1].id + " - " + pokeDB[pkmSlot1].name
 	$("#pokemonList_slot1").val(pkmSlot1)
 	$("#pokemonList_slot1").trigger("change")
 
-	var pkmSlot2 = $("#paste_pkms").parent().parent().find("#slot2").text()
+	var pkmSlot2 = $(this).parent().parent().find("#slot2").text()
 	pkmSlot2 = pokeDB[pkmSlot2].id + " - " + pokeDB[pkmSlot2].name
 	$("#pokemonList_slot2").val(pkmSlot2)
 	$("#pokemonList_slot2").trigger("change")
 
-	var pkmSlot3 = $("#paste_pkms").parent().parent().find("#slot3").text()
+	var pkmSlot3 = $(this).parent().parent().find("#slot3").text()
 	pkmSlot3 = pokeDB[pkmSlot3].id + " - " + pokeDB[pkmSlot3].name
 	$("#pokemonList_slot3").val(pkmSlot3)
 	$("#pokemonList_slot3").trigger("change")
