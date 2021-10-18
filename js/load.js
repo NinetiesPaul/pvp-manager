@@ -20,13 +20,14 @@ function forceChange(input) {
 			return
 		}
 
-		pkmData = getPokemonData(pkm, "pokemonList_slot" + slot)
+		pkmData = pokeDB[pkm]
 		
 		if (pkmData == undefined) {
 			return
 		}
 
-		$("#pokemonList_slot" + slot).val(pkmData.id.padStart(3, '0') + " - " + pkmData.name)
+		$("#pokemonList_slot" + slot).val(pkmData.id + " - " + pkmData.name)
+		$("#pokemonList_slot" + slot).trigger("change")
 
 		if (quick != undefined && quick.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.quick) {
