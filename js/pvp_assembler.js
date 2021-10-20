@@ -5,7 +5,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
 
-	totalPkms = pkms.length
+	var totalPkms = pkms.length;
 
 	var teams = [];
 
@@ -35,7 +35,9 @@ $(document).on('click', '.pkm-list-btn', function() {
 			combinedVulnerabilites = [],
 			combinedResistances = [],
 			ctVulnerability = true,
-			skip = false;
+			skip = false,
+			teamCounter = 0,
+			textToAppend = "";
 
 		$.each(pkms, function(k,v) {
 			var ept = $("#ept_limit option:selected").val();
@@ -63,7 +65,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 				if (!hasFastMoves) {
 					skip = true;
 				}
-
 			}
 
 			if ($("#hide_dv").is(":checked")) {
