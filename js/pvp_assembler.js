@@ -44,24 +44,35 @@ $(document).on('click', '.pkm-list-btn', function() {
 				var hasFastMoves = false;
 				$.map(pokeDB[v].moveset.quick, function(element,index) {
 					moveEpt = quickMoveDB[element.replace('*', '')].ept;
-					if (!hasFastMoves && moveEpt > ept) {
-						hasFastMoves = true
+					if (!hasFastMoves) {
+						switch ($("#ept_comparison option:selected").val()) {
+							case ">=":
+								if (moveEpt >= ept) {
+									hasFastMoves = true
+								}
+								break;
+							case ">":
+								if (moveEpt > ept) {
+									hasFastMoves = true
+								}
+								break;
+						}
 					}
 				});
 
 				if (!hasFastMoves) {
 					skip = true;
-					return false;
 				}
 
 			}
 
-			doubleVulnerability = $.map(pokeDB[v].defense_data.vulnerable_to, function(element,index) {
-				return element;
-			});
+			if ($("#hide_dv").is(":checked")) {
+				if (jQuery.inArray("256%", Object.values(pokeDB[v].defense_data.vulnerable_to)) > -1) {
+					skip = true;
+				}
+			}
 
-			if ((doubleVulnerability.indexOf("256%") > -1) && $("#hide_dv").is(":checked")) {
-				skip = true;
+			if (skip) {
 				return false;
 			}
 

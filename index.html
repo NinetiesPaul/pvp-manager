@@ -411,7 +411,11 @@
                             <br><button type="button" class="btn btn-sm btn-primary pkm-list-btn">Create Teams</button>
                             <br>Hide Cross-team vulnerability <input type="checkbox" id="hide_ctv"/>
                             <br>Hide double vulnerabilities <input type="checkbox" id="hide_dv"/>
-                            <br>Quick Moves with EPT greater than
+                            <br>Quick Moves with EPT 
+                            <select id="ept_comparison">
+                                <option value=">">greater than</option>
+                                <option value=">=">greather than or equal to</option>
+                            </select>
                             <select id="ept_limit">
                                 <option value="-">-</option>
                                 <option value="3">3</option>
