@@ -24,7 +24,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	teams = [...new Set(teams)];
 
-	var textToAppend = '',
+	var textToAppend = "",
 		teamCounter = 0;
 
 	$.each(teams, function(mk,v) {
@@ -36,8 +36,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 			combinedResistances = [],
 			ctVulnerability = true,
 			skip = false,
-			teamCounter = 0,
-			textToAppend = "";
+			teamCounter = 0;
 
 		$.each(pkms, function(k,v) {
 			var ept = $("#ept_limit option:selected").val();
@@ -45,7 +44,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 			if (ept != "-") {
 				var hasFastMoves = false;
 				$.map(pokeDB[v].moveset.quick, function(element,index) {
-					moveEpt = quickMoveDB[element.replace('*', '')].ept;
+					moveEpt = quickMoveDB[element.replace('*', "")].ept;
 					if (!hasFastMoves) {
 						switch ($("#ept_comparison option:selected").val()) {
 							case ">=":
