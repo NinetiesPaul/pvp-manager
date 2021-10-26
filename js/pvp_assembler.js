@@ -35,8 +35,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 			combinedVulnerabilites = [],
 			combinedResistances = [],
 			ctVulnerability = true,
-			skip = false,
-			teamCounter = 0;
+			skip = false;
 
 		$.each(pkms, function(k,v) {
 			var ept = $("#ept_limit option:selected").val();
