@@ -2900,4 +2900,19 @@ var chargeMoveDB = {
     "power": null,
     "dpe": null
 },
+"Psychic Fangs": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "35",
+    "power": "40",
+    "dpe": "1.14"
+},
 }

@@ -1213,7 +1213,7 @@ var pokeDB = {
         }
     }
 },
-"Rattata": {
+"Shadow Rattata": {
     "id": "019",
     "imgurl": 19,
     "stats": {
@@ -1224,7 +1224,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Rattata",
+    "name": "Shadow Rattata",
     "moveset": {
         "quick": [
             "Tackle",
@@ -1245,7 +1245,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Rattata": {
+"Rattata": {
     "id": "019",
     "imgurl": 19,
     "stats": {
@@ -1256,7 +1256,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Shadow Rattata",
+    "name": "Rattata",
     "moveset": {
         "quick": [
             "Tackle",
@@ -1314,7 +1314,7 @@ var pokeDB = {
         }
     }
 },
-"Raticate": {
+"Shadow Raticate": {
     "id": "020",
     "imgurl": 20,
     "stats": {
@@ -1325,7 +1325,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Raticate",
+    "name": "Shadow Raticate",
     "moveset": {
         "quick": [
             "Bite",
@@ -1346,7 +1346,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Raticate": {
+"Raticate": {
     "id": "020",
     "imgurl": 20,
     "stats": {
@@ -1357,7 +1357,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Shadow Raticate",
+    "name": "Raticate",
     "moveset": {
         "quick": [
             "Bite",
@@ -1804,7 +1804,7 @@ var pokeDB = {
         }
     }
 },
-"Sandshrew": {
+"Shadow Sandshrew": {
     "id": "027",
     "imgurl": 27,
     "stats": {
@@ -1815,7 +1815,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Sandshrew",
+    "name": "Shadow Sandshrew",
     "moveset": {
         "quick": [
             "Scratch",
@@ -1841,7 +1841,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Sandshrew": {
+"Sandshrew": {
     "id": "027",
     "imgurl": 27,
     "stats": {
@@ -1852,7 +1852,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Shadow Sandshrew",
+    "name": "Sandshrew",
     "moveset": {
         "quick": [
             "Scratch",
@@ -1922,7 +1922,7 @@ var pokeDB = {
         }
     }
 },
-"Sandslash": {
+"Shadow Sandslash": {
     "id": "028",
     "imgurl": 28,
     "stats": {
@@ -1933,7 +1933,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Sandslash",
+    "name": "Shadow Sandslash",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -1958,7 +1958,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Sandslash": {
+"Sandslash": {
     "id": "028",
     "imgurl": 28,
     "stats": {
@@ -1969,7 +1969,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Shadow Sandslash",
+    "name": "Sandslash",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -2575,7 +2575,7 @@ var pokeDB = {
         }
     }
 },
-"Vulpix": {
+"Shadow Vulpix": {
     "id": "037",
     "imgurl": 37,
     "stats": {
@@ -2586,7 +2586,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Vulpix",
+    "name": "Shadow Vulpix",
     "moveset": {
         "quick": [
             "Quick Attack",
@@ -2615,7 +2615,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Vulpix": {
+"Vulpix": {
     "id": "037",
     "imgurl": 37,
     "stats": {
@@ -2626,7 +2626,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Shadow Vulpix",
+    "name": "Vulpix",
     "moveset": {
         "quick": [
             "Quick Attack",
@@ -2697,7 +2697,7 @@ var pokeDB = {
         }
     }
 },
-"Ninetales": {
+"Shadow Ninetales": {
     "id": "038",
     "imgurl": 38,
     "stats": {
@@ -2708,7 +2708,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Ninetales",
+    "name": "Shadow Ninetales",
     "moveset": {
         "quick": [
             "Feint Attack",
@@ -2741,7 +2741,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Ninetales": {
+"Ninetales": {
     "id": "038",
     "imgurl": 38,
     "stats": {
@@ -2752,7 +2752,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Shadow Ninetales",
+    "name": "Ninetales",
     "moveset": {
         "quick": [
             "Feint Attack",
@@ -3567,7 +3567,7 @@ var pokeDB = {
         }
     }
 },
-"Diglett": {
+"Shadow Diglett": {
     "id": "050",
     "imgurl": 50,
     "stats": {
@@ -3578,7 +3578,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Diglett",
+    "name": "Shadow Diglett",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -3603,7 +3603,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Diglett": {
+"Diglett": {
     "id": "050",
     "imgurl": 50,
     "stats": {
@@ -3614,7 +3614,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Shadow Diglett",
+    "name": "Diglett",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -3684,18 +3684,18 @@ var pokeDB = {
         }
     }
 },
-"Dugtrio": {
+"Shadow Dugtrio": {
     "id": "051",
     "imgurl": 51,
     "stats": {
         "atk": 167,
-        "def": 134,
+        "def": 136,
         "sta": 111
     },
     "type": [
         "Ground"
     ],
-    "name": "Dugtrio",
+    "name": "Shadow Dugtrio",
     "moveset": {
         "quick": [
             "Sucker Punch",
@@ -3720,18 +3720,18 @@ var pokeDB = {
         }
     }
 },
-"Shadow Dugtrio": {
+"Dugtrio": {
     "id": "051",
     "imgurl": 51,
     "stats": {
         "atk": 167,
-        "def": 134,
+        "def": 136,
         "sta": 111
     },
     "type": [
         "Ground"
     ],
-    "name": "Shadow Dugtrio",
+    "name": "Dugtrio",
     "moveset": {
         "quick": [
             "Sucker Punch",
@@ -3789,6 +3789,39 @@ var pokeDB = {
             "Dark": "62.5%",
             "Ghost": "62.5%",
             "Psychic": "39.1%"
+        }
+    }
+},
+"Shadow Meowth": {
+    "id": "052",
+    "imgurl": 52,
+    "stats": {
+        "atk": 92,
+        "def": 78,
+        "sta": 120
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Shadow Meowth",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Bite"
+        ],
+        "charge": [
+            "Night Slash",
+            "Dark Pulse",
+            "Foul Play",
+            "Body Slam*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
         }
     }
 },
@@ -3869,39 +3902,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Meowth": {
-    "id": "052",
-    "imgurl": 52,
-    "stats": {
-        "atk": 92,
-        "def": 78,
-        "sta": 120
-    },
-    "type": [
-        "Normal"
-    ],
-    "name": "Shadow Meowth",
-    "moveset": {
-        "quick": [
-            "Scratch",
-            "Bite"
-        ],
-        "charge": [
-            "Night Slash",
-            "Dark Pulse",
-            "Foul Play",
-            "Body Slam*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    }
-},
 "Alola Persian": {
     "id": "053",
     "imgurl": 10108,
@@ -3939,7 +3939,7 @@ var pokeDB = {
         }
     }
 },
-"Persian": {
+"Shadow Persian": {
     "id": "053",
     "imgurl": 53,
     "stats": {
@@ -3950,7 +3950,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Persian",
+    "name": "Shadow Persian",
     "moveset": {
         "quick": [
             "Scratch",
@@ -3973,7 +3973,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Persian": {
+"Persian": {
     "id": "053",
     "imgurl": 53,
     "stats": {
@@ -3984,7 +3984,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "name": "Shadow Persian",
+    "name": "Persian",
     "moveset": {
         "quick": [
             "Scratch",
@@ -4795,7 +4795,7 @@ var pokeDB = {
             "Counter*"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Focus Blast",
             "Shadow Ball",
             "Fire Punch",
@@ -4834,7 +4834,7 @@ var pokeDB = {
             "Counter*"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Focus Blast",
             "Shadow Ball",
             "Fire Punch",
@@ -5500,49 +5500,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Geodude": {
-    "id": "074",
-    "imgurl": 74,
-    "stats": {
-        "atk": 132,
-        "def": 132,
-        "sta": 120
-    },
-    "type": [
-        "Rock",
-        "Ground"
-    ],
-    "name": "Shadow Geodude",
-    "moveset": {
-        "quick": [
-            "Rock Throw",
-            "Tackle"
-        ],
-        "charge": [
-            "Rock Slide",
-            "Rock Tomb",
-            "Dig"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Alola Graveler": {
     "id": "075",
     "imgurl": 10110,
@@ -5596,50 +5553,6 @@ var pokeDB = {
         "Ground"
     ],
     "name": "Graveler",
-    "moveset": {
-        "quick": [
-            "Rock Throw",
-            "Mud Slap"
-        ],
-        "charge": [
-            "Dig",
-            "Stone Edge",
-            "Rock Blast",
-            "Rock Slide*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Graveler": {
-    "id": "075",
-    "imgurl": 75,
-    "stats": {
-        "atk": 164,
-        "def": 164,
-        "sta": 146
-    },
-    "type": [
-        "Rock",
-        "Ground"
-    ],
-    "name": "Shadow Graveler",
     "moveset": {
         "quick": [
             "Rock Throw",
@@ -5755,50 +5668,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Golem": {
-    "id": "076",
-    "imgurl": 76,
-    "stats": {
-        "atk": 211,
-        "def": 198,
-        "sta": 190
-    },
-    "type": [
-        "Rock",
-        "Ground"
-    ],
-    "name": "Shadow Golem",
-    "moveset": {
-        "quick": [
-            "Rock Throw",
-            "Mud Slap"
-        ],
-        "charge": [
-            "Stone Edge",
-            "Rock Blast",
-            "Earthquake",
-            "Ancient Power"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Galarian Ponyta": {
     "id": "077",
     "imgurl": 10159,
@@ -5846,46 +5715,6 @@ var pokeDB = {
         "Fire"
     ],
     "name": "Ponyta",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Ember"
-        ],
-        "charge": [
-            "Flame Charge",
-            "Flame Wheel",
-            "Stomp",
-            "Fire Blast*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Shadow Ponyta": {
-    "id": "077",
-    "imgurl": 77,
-    "stats": {
-        "atk": 170,
-        "def": 127,
-        "sta": 137
-    },
-    "type": [
-        "Fire"
-    ],
-    "name": "Shadow Ponyta",
     "moveset": {
         "quick": [
             "Tackle",
@@ -5994,48 +5823,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Rapidash": {
-    "id": "078",
-    "imgurl": 78,
-    "stats": {
-        "atk": 207,
-        "def": 162,
-        "sta": 163
-    },
-    "type": [
-        "Fire"
-    ],
-    "name": "Shadow Rapidash",
-    "moveset": {
-        "quick": [
-            "Low Kick",
-            "Fire Spin",
-            "Incinerate",
-            "Ember*"
-        ],
-        "charge": [
-            "Fire Blast",
-            "Drill Run",
-            "Heat Wave",
-            "Flame Charge"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Slowpoke": {
     "id": "079",
     "imgurl": 79,
@@ -6049,6 +5836,48 @@ var pokeDB = {
         "Psychic"
     ],
     "name": "Slowpoke",
+    "moveset": {
+        "quick": [
+            "Water Gun",
+            "Confusion"
+        ],
+        "charge": [
+            "Water Pulse",
+            "Psyshock",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Shadow Slowpoke": {
+    "id": "079",
+    "imgurl": 79,
+    "stats": {
+        "atk": 109,
+        "def": 98,
+        "sta": 207
+    },
+    "type": [
+        "Water",
+        "Psychic"
+    ],
+    "name": "Shadow Slowpoke",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -6113,19 +5942,19 @@ var pokeDB = {
         }
     }
 },
-"Shadow Slowpoke": {
-    "id": "079",
-    "imgurl": 79,
+"Slowbro": {
+    "id": "080",
+    "imgurl": 80,
     "stats": {
-        "atk": 109,
-        "def": 98,
-        "sta": 207
+        "atk": 177,
+        "def": 180,
+        "sta": 216
     },
     "type": [
         "Water",
         "Psychic"
     ],
-    "name": "Shadow Slowpoke",
+    "name": "Slowbro",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -6133,8 +5962,8 @@ var pokeDB = {
         ],
         "charge": [
             "Water Pulse",
-            "Psyshock",
-            "Psychic"
+            "Psychic",
+            "Ice Beam"
         ]
     },
     "defense_data": {
@@ -6155,7 +5984,7 @@ var pokeDB = {
         }
     }
 },
-"Slowbro": {
+"Shadow Slowbro": {
     "id": "080",
     "imgurl": 80,
     "stats": {
@@ -6167,7 +5996,7 @@ var pokeDB = {
         "Water",
         "Psychic"
     ],
-    "name": "Slowbro",
+    "name": "Shadow Slowbro",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -6232,48 +6061,6 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Grass": "62.5%",
             "Poison": "62.5%"
-        }
-    }
-},
-"Shadow Slowbro": {
-    "id": "080",
-    "imgurl": 80,
-    "stats": {
-        "atk": 177,
-        "def": 180,
-        "sta": 216
-    },
-    "type": [
-        "Water",
-        "Psychic"
-    ],
-    "name": "Shadow Slowbro",
-    "moveset": {
-        "quick": [
-            "Water Gun",
-            "Confusion"
-        ],
-        "charge": [
-            "Water Pulse",
-            "Psychic",
-            "Ice Beam"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Electric": "160%",
-            "Ghost": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Psychic": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
         }
     }
 },
@@ -6540,45 +6327,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Farfetch’d": {
-    "id": "083",
-    "imgurl": 83,
-    "stats": {
-        "atk": 124,
-        "def": 115,
-        "sta": 141
-    },
-    "type": [
-        "Normal",
-        "Flying"
-    ],
-    "name": "Shadow Farfetch\u2019d",
-    "moveset": {
-        "quick": [
-            "Air Slash",
-            "Fury Cutter",
-            "Cut*"
-        ],
-        "charge": [
-            "Aerial Ace",
-            "Air Cutter",
-            "Leaf Blade"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Ice": "160%",
-            "Rock": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "39.1%"
-        }
-    }
-},
 "Doduo": {
     "id": "084",
     "imgurl": 84,
@@ -6772,7 +6520,7 @@ var pokeDB = {
         }
     }
 },
-"Grimer": {
+"Shadow Grimer": {
     "id": "088",
     "imgurl": 88,
     "stats": {
@@ -6783,7 +6531,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Grimer",
+    "name": "Shadow Grimer",
     "moveset": {
         "quick": [
             "Poison Jab",
@@ -6809,7 +6557,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Grimer": {
+"Grimer": {
     "id": "088",
     "imgurl": 88,
     "stats": {
@@ -6820,7 +6568,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Shadow Grimer",
+    "name": "Grimer",
     "moveset": {
         "quick": [
             "Poison Jab",
@@ -6885,7 +6633,7 @@ var pokeDB = {
         }
     }
 },
-"Muk": {
+"Shadow Muk": {
     "id": "089",
     "imgurl": 89,
     "stats": {
@@ -6896,7 +6644,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Muk",
+    "name": "Shadow Muk",
     "moveset": {
         "quick": [
             "Infestation",
@@ -6925,7 +6673,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Muk": {
+"Muk": {
     "id": "089",
     "imgurl": 89,
     "stats": {
@@ -6936,7 +6684,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Shadow Muk",
+    "name": "Muk",
     "moveset": {
         "quick": [
             "Infestation",
@@ -7293,51 +7041,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Onix": {
-    "id": "095",
-    "imgurl": 95,
-    "stats": {
-        "atk": 85,
-        "def": 232,
-        "sta": 111
-    },
-    "type": [
-        "Rock",
-        "Ground"
-    ],
-    "name": "Shadow Onix",
-    "moveset": {
-        "quick": [
-            "Rock Throw",
-            "Tackle"
-        ],
-        "charge": [
-            "Sand Tomb",
-            "Stone Edge",
-            "Heavy Slam",
-            "Iron Head*",
-            "Rock Slide*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Drowzee": {
     "id": "096",
     "imgurl": 96,
@@ -7426,7 +7129,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Psychic",
             "Focus Blast",
             "Fire Punch",
@@ -7466,7 +7169,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Psychic",
             "Focus Blast",
             "Fire Punch",
@@ -7524,42 +7227,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Krabby": {
-    "id": "098",
-    "imgurl": 98,
-    "stats": {
-        "atk": 181,
-        "def": 124,
-        "sta": 102
-    },
-    "type": [
-        "Water"
-    ],
-    "name": "Shadow Krabby",
-    "moveset": {
-        "quick": [
-            "Bubble",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Vice Grip",
-            "Bubble Beam",
-            "Water Pulse"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    }
-},
 "Kingler": {
     "id": "099",
     "imgurl": 99,
@@ -7572,44 +7239,6 @@ var pokeDB = {
         "Water"
     ],
     "name": "Kingler",
-    "moveset": {
-        "quick": [
-            "Bubble",
-            "Metal Claw",
-            "Mud Shot*"
-        ],
-        "charge": [
-            "Vice Grip",
-            "X Scissor",
-            "Water Pulse",
-            "Crabhammer"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    }
-},
-"Shadow Kingler": {
-    "id": "099",
-    "imgurl": 99,
-    "stats": {
-        "atk": 240,
-        "def": 181,
-        "sta": 146
-    },
-    "type": [
-        "Water"
-    ],
-    "name": "Shadow Kingler",
     "moveset": {
         "quick": [
             "Bubble",
@@ -7836,7 +7465,7 @@ var pokeDB = {
         }
     }
 },
-"Exeggutor": {
+"Shadow Exeggutor": {
     "id": "103",
     "imgurl": 103,
     "stats": {
@@ -7848,7 +7477,7 @@ var pokeDB = {
         "Grass",
         "Psychic"
     ],
-    "name": "Exeggutor",
+    "name": "Shadow Exeggutor",
     "moveset": {
         "quick": [
             "Bullet Seed",
@@ -7882,7 +7511,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Exeggutor": {
+"Exeggutor": {
     "id": "103",
     "imgurl": 103,
     "stats": {
@@ -7894,7 +7523,7 @@ var pokeDB = {
         "Grass",
         "Psychic"
     ],
-    "name": "Shadow Exeggutor",
+    "name": "Exeggutor",
     "moveset": {
         "quick": [
             "Bullet Seed",
@@ -8048,7 +7677,7 @@ var pokeDB = {
         }
     }
 },
-"Marowak": {
+"Shadow Marowak": {
     "id": "105",
     "imgurl": 105,
     "stats": {
@@ -8059,7 +7688,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Marowak",
+    "name": "Shadow Marowak",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -8084,7 +7713,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Marowak": {
+"Marowak": {
     "id": "105",
     "imgurl": 105,
     "stats": {
@@ -8095,7 +7724,7 @@ var pokeDB = {
     "type": [
         "Ground"
     ],
-    "name": "Shadow Marowak",
+    "name": "Marowak",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -8424,7 +8053,7 @@ var pokeDB = {
         }
     }
 },
-"Weezing": {
+"Shadow Weezing": {
     "id": "110",
     "imgurl": 110,
     "stats": {
@@ -8435,7 +8064,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Weezing",
+    "name": "Shadow Weezing",
     "moveset": {
         "quick": [
             "Tackle",
@@ -8462,7 +8091,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Weezing": {
+"Weezing": {
     "id": "110",
     "imgurl": 110,
     "stats": {
@@ -8473,7 +8102,7 @@ var pokeDB = {
     "type": [
         "Poison"
     ],
-    "name": "Shadow Weezing",
+    "name": "Weezing",
     "moveset": {
         "quick": [
             "Tackle",
@@ -8543,49 +8172,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Rhyhorn": {
-    "id": "111",
-    "imgurl": 111,
-    "stats": {
-        "atk": 140,
-        "def": 127,
-        "sta": 190
-    },
-    "type": [
-        "Ground",
-        "Rock"
-    ],
-    "name": "Shadow Rhyhorn",
-    "moveset": {
-        "quick": [
-            "Mud Slap",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Bulldoze",
-            "Horn Attack",
-            "Stomp"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Rhydon": {
     "id": "112",
     "imgurl": 112,
@@ -8599,50 +8185,6 @@ var pokeDB = {
         "Rock"
     ],
     "name": "Rhydon",
-    "moveset": {
-        "quick": [
-            "Mud Slap",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Surf",
-            "Earthquake",
-            "Stone Edge",
-            "Megahorn*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Rhydon": {
-    "id": "112",
-    "imgurl": 112,
-    "stats": {
-        "atk": 222,
-        "def": 171,
-        "sta": 233
-    },
-    "type": [
-        "Ground",
-        "Rock"
-    ],
-    "name": "Shadow Rhydon",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -8798,41 +8340,6 @@ var pokeDB = {
         "Normal"
     ],
     "name": "Kangaskhan",
-    "moveset": {
-        "quick": [
-            "Mud Slap",
-            "Low Kick"
-        ],
-        "charge": [
-            "Crunch",
-            "Earthquake",
-            "Outrage",
-            "Power Up Punch",
-            "Brick Break*",
-            "Stomp*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    }
-},
-"Shadow Kangaskhan": {
-    "id": "115",
-    "imgurl": 115,
-    "stats": {
-        "atk": 181,
-        "def": 165,
-        "sta": 233
-    },
-    "type": [
-        "Normal"
-    ],
-    "name": "Shadow Kangaskhan",
     "moveset": {
         "quick": [
             "Mud Slap",
@@ -9234,43 +8741,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Mr. Mime": {
-    "id": "122",
-    "imgurl": 122,
-    "stats": {
-        "atk": 192,
-        "def": 205,
-        "sta": 120
-    },
-    "type": [
-        "Psychic",
-        "Fairy"
-    ],
-    "name": "Shadow Mr. Mime",
-    "moveset": {
-        "quick": [
-            "Confusion",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Psybeam",
-            "Psychic",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ghost": "160%",
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Dragon": "39.1%",
-            "Fighting": "39.1%",
-            "Psychic": "62.5%"
-        }
-    }
-},
 "Scyther": {
     "id": "123",
     "imgurl": 123,
@@ -9565,7 +9035,7 @@ var pokeDB = {
             "Vice Grip",
             "X Scissor",
             "Close Combat",
-            "Superpower",
+            "Super Power",
             "Submission*"
         ]
     },
@@ -9604,7 +9074,7 @@ var pokeDB = {
             "Vice Grip",
             "X Scissor",
             "Close Combat",
-            "Superpower",
+            "Super Power",
             "Submission*"
         ]
     },
@@ -10047,7 +9517,7 @@ var pokeDB = {
             "Overheat",
             "Last Resort*",
             "Heat Wave*",
-            "Superpower*"
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -10348,46 +9818,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Kabuto": {
-    "id": "140",
-    "imgurl": 140,
-    "stats": {
-        "atk": 148,
-        "def": 140,
-        "sta": 102
-    },
-    "type": [
-        "Rock",
-        "Water"
-    ],
-    "name": "Shadow Kabuto",
-    "moveset": {
-        "quick": [
-            "Scratch",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Ancient Power",
-            "Aqua Jet",
-            "Rock Tomb"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Fire": "39.1%",
-            "Flying": "62.5%",
-            "Ice": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "62.5%"
-        }
-    }
-},
 "Kabutops": {
     "id": "141",
     "imgurl": 141,
@@ -10401,48 +9831,6 @@ var pokeDB = {
         "Water"
     ],
     "name": "Kabutops",
-    "moveset": {
-        "quick": [
-            "Mud Shot",
-            "Rock Smash",
-            "Waterfall",
-            "Fury Cutter*"
-        ],
-        "charge": [
-            "Ancient Power",
-            "Water Pulse",
-            "Stone Edge"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Fire": "39.1%",
-            "Flying": "62.5%",
-            "Ice": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "62.5%"
-        }
-    }
-},
-"Shadow Kabutops": {
-    "id": "141",
-    "imgurl": 141,
-    "stats": {
-        "atk": 220,
-        "def": 186,
-        "sta": 155
-    },
-    "type": [
-        "Rock",
-        "Water"
-    ],
-    "name": "Shadow Kabutops",
     "moveset": {
         "quick": [
             "Mud Shot",
@@ -10587,7 +9975,7 @@ var pokeDB = {
             "Outrage",
             "Skull Bash",
             "Body Slam",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -10624,7 +10012,7 @@ var pokeDB = {
             "Outrage",
             "Skull Bash",
             "Body Slam",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -11143,7 +10531,7 @@ var pokeDB = {
             "Rock Slide",
             "Dynamic Punch",
             "Earthquake",
-            "Future Sight",
+            "Futuresight",
             "Psystrike*"
         ]
     },
@@ -11159,7 +10547,7 @@ var pokeDB = {
         }
     }
 },
-"Mewtwo": {
+"Shadow Mewtwo": {
     "id": "150",
     "imgurl": 150,
     "stats": {
@@ -11170,7 +10558,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "name": "Mewtwo",
+    "name": "Shadow Mewtwo",
     "moveset": {
         "quick": [
             "Psycho Cut",
@@ -11199,7 +10587,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Mewtwo": {
+"Mewtwo": {
     "id": "150",
     "imgurl": 150,
     "stats": {
@@ -11210,7 +10598,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "name": "Shadow Mewtwo",
+    "name": "Mewtwo",
     "moveset": {
         "quick": [
             "Psycho Cut",
@@ -11779,7 +11167,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Sky Attack",
-            "Night Shade"
+            "Night Shade",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -12370,7 +11759,7 @@ var pokeDB = {
         ],
         "charge": [
             "Ominous Wind",
-            "Future Sight",
+            "Futuresight",
             "Aerial Ace"
         ]
     },
@@ -12782,7 +12171,8 @@ var pokeDB = {
         "charge": [
             "Stone Edge",
             "Earthquake",
-            "Rock Slide"
+            "Rock Slide",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -13472,7 +12862,7 @@ var pokeDB = {
         "charge": [
             "Psybeam",
             "Psychic",
-            "Future Sight",
+            "Futuresight",
             "Last Resort*",
             "Shadow Ball*"
         ]
@@ -13626,7 +13016,7 @@ var pokeDB = {
             "Acid"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Shadow Ball",
             "Sludge Wave"
         ]
@@ -13645,7 +13035,7 @@ var pokeDB = {
         }
     }
 },
-"Slowking": {
+"Shadow Slowking": {
     "id": "199",
     "imgurl": 199,
     "stats": {
@@ -13657,7 +13047,7 @@ var pokeDB = {
         "Water",
         "Psychic"
     ],
-    "name": "Slowking",
+    "name": "Shadow Slowking",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -13687,7 +13077,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Slowking": {
+"Slowking": {
     "id": "199",
     "imgurl": 199,
     "stats": {
@@ -13699,7 +13089,7 @@ var pokeDB = {
         "Water",
         "Psychic"
     ],
-    "name": "Shadow Slowking",
+    "name": "Slowking",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -14215,52 +13605,6 @@ var pokeDB = {
         "Ground"
     ],
     "name": "Steelix",
-    "moveset": {
-        "quick": [
-            "Iron Tail",
-            "Dragon Tail",
-            "Thunder Fang"
-        ],
-        "charge": [
-            "Earthquake",
-            "Heavy Slam",
-            "Crunch"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Ground": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dragon": "62.5%",
-            "Electric": "39.1%",
-            "Fairy": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "24.4%",
-            "Psychic": "62.5%",
-            "Rock": "39.1%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Shadow Steelix": {
-    "id": "208",
-    "imgurl": 208,
-    "stats": {
-        "atk": 148,
-        "def": 272,
-        "sta": 181
-    },
-    "type": [
-        "Steel",
-        "Ground"
-    ],
-    "name": "Shadow Steelix",
     "moveset": {
         "quick": [
             "Iron Tail",
@@ -14946,12 +14290,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ember",
-            "Rock Throw"
+            "Rock Throw",
+            "Incinerate"
         ],
         "charge": [
             "Heat Wave",
             "Overheat",
-            "Stone Edge"
+            "Stone Edge",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -15215,7 +14561,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Water Gun",
-            "Mud Shot"
+            "Mud Shot",
+            "Lock On"
         ],
         "charge": [
             "Gunk Shot",
@@ -15743,7 +15090,8 @@ var pokeDB = {
         "charge": [
             "Earthquake",
             "Heavy Slam",
-            "Play Rough"
+            "Play Rough",
+            "Body Slam"
         ]
     },
     "defense_data": {
@@ -16684,7 +16032,7 @@ var pokeDB = {
         "charge": [
             "Sky Attack",
             "Hydro Pump",
-            "Future Sight",
+            "Futuresight",
             "Aeroblast*"
         ]
     },
@@ -16996,45 +16344,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Torchic": {
-    "id": "255",
-    "imgurl": 255,
-    "stats": {
-        "atk": 130,
-        "def": 87,
-        "sta": 128
-    },
-    "type": [
-        "Fire"
-    ],
-    "name": "Shadow Torchic",
-    "moveset": {
-        "quick": [
-            "Scratch",
-            "Ember"
-        ],
-        "charge": [
-            "Flame Charge",
-            "Flamethrower",
-            "Rock Tomb"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Combusken": {
     "id": "256",
     "imgurl": 256,
@@ -17076,47 +16385,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Combusken": {
-    "id": "256",
-    "imgurl": 256,
-    "stats": {
-        "atk": 163,
-        "def": 115,
-        "sta": 155
-    },
-    "type": [
-        "Fire",
-        "Fighting"
-    ],
-    "name": "Shadow Combusken",
-    "moveset": {
-        "quick": [
-            "Peck",
-            "Ember"
-        ],
-        "charge": [
-            "Flame Charge",
-            "Flamethrower",
-            "Rock Slide"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Flying": "160%",
-            "Ground": "160%",
-            "Psychic": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Dark": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Blaziken": {
     "id": "257",
     "imgurl": 257,
@@ -17130,50 +16398,6 @@ var pokeDB = {
         "Fighting"
     ],
     "name": "Blaziken",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Fire Spin"
-        ],
-        "charge": [
-            "Focus Blast",
-            "Overheat",
-            "Brave Bird",
-            "Blaze Kick",
-            "Blast Burn*",
-            "Stone Edge*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Flying": "160%",
-            "Ground": "160%",
-            "Psychic": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Dark": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Shadow Blaziken": {
-    "id": "257",
-    "imgurl": 257,
-    "stats": {
-        "atk": 240,
-        "def": 141,
-        "sta": 190
-    },
-    "type": [
-        "Fire",
-        "Fighting"
-    ],
-    "name": "Shadow Blaziken",
     "moveset": {
         "quick": [
             "Counter",
@@ -17646,38 +16870,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Zigzagoon": {
-    "id": "263",
-    "imgurl": 263,
-    "stats": {
-        "atk": 58,
-        "def": 80,
-        "sta": 116
-    },
-    "type": [
-        "Normal"
-    ],
-    "name": "Shadow Zigzagoon",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Dig",
-            "Grass Knot",
-            "Thunderbolt"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    }
-},
 "Galarian Linoone": {
     "id": "264",
     "imgurl": 10172,
@@ -17727,38 +16919,6 @@ var pokeDB = {
         "Normal"
     ],
     "name": "Linoone",
-    "moveset": {
-        "quick": [
-            "Shadow Claw",
-            "Tackle"
-        ],
-        "charge": [
-            "Dig",
-            "Grass Knot",
-            "Thunder"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    }
-},
-"Shadow Linoone": {
-    "id": "264",
-    "imgurl": 264,
-    "stats": {
-        "atk": 142,
-        "def": 128,
-        "sta": 186
-    },
-    "type": [
-        "Normal"
-    ],
-    "name": "Shadow Linoone",
     "moveset": {
         "quick": [
             "Shadow Claw",
@@ -19287,7 +18447,7 @@ var pokeDB = {
             "Heavy Slam",
             "Close Combat",
             "Dynamic Punch",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -19324,7 +18484,7 @@ var pokeDB = {
             "Heavy Slam",
             "Close Combat",
             "Dynamic Punch",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -19793,7 +18953,8 @@ var pokeDB = {
         "charge": [
             "Body Slam",
             "Rock Slide",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -19836,7 +18997,8 @@ var pokeDB = {
         "charge": [
             "Body Slam",
             "Rock Slide",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -19880,7 +19042,8 @@ var pokeDB = {
         "charge": [
             "Thunder",
             "Stone Edge",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -19924,7 +19087,8 @@ var pokeDB = {
         "charge": [
             "Thunder",
             "Stone Edge",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -21734,7 +20898,8 @@ var pokeDB = {
             "Earthquake",
             "Earth Power",
             "Ice Beam",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -24526,45 +23691,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Chimchar": {
-    "id": "390",
-    "imgurl": 390,
-    "stats": {
-        "atk": 113,
-        "def": 86,
-        "sta": 127
-    },
-    "type": [
-        "Fire"
-    ],
-    "name": "Shadow Chimchar",
-    "moveset": {
-        "quick": [
-            "Ember",
-            "Scratch"
-        ],
-        "charge": [
-            "Flame Wheel",
-            "Flamethrower",
-            "Flame Charge"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Monferno": {
     "id": "391",
     "imgurl": 391,
@@ -24606,47 +23732,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Monferno": {
-    "id": "391",
-    "imgurl": 391,
-    "stats": {
-        "atk": 158,
-        "def": 105,
-        "sta": 162
-    },
-    "type": [
-        "Fire",
-        "Fighting"
-    ],
-    "name": "Shadow Monferno",
-    "moveset": {
-        "quick": [
-            "Ember",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Flame Wheel",
-            "Flamethrower",
-            "Low Sweep"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Flying": "160%",
-            "Ground": "160%",
-            "Psychic": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Dark": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Infernape": {
     "id": "392",
     "imgurl": 392,
@@ -24660,48 +23745,6 @@ var pokeDB = {
         "Fighting"
     ],
     "name": "Infernape",
-    "moveset": {
-        "quick": [
-            "Fire Spin",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Solar Beam",
-            "Flamethrower",
-            "Close Combat",
-            "Blast Burn*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Flying": "160%",
-            "Ground": "160%",
-            "Psychic": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Dark": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Shadow Infernape": {
-    "id": "392",
-    "imgurl": 392,
-    "stats": {
-        "atk": 222,
-        "def": 151,
-        "sta": 183
-    },
-    "type": [
-        "Fire",
-        "Fighting"
-    ],
-    "name": "Shadow Infernape",
     "moveset": {
         "quick": [
             "Fire Spin",
@@ -25100,7 +24143,7 @@ var pokeDB = {
             "Shadow Ball*",
             "Thunderbolt*",
             "Ice Beam*",
-            "Superpower*"
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -25136,7 +24179,7 @@ var pokeDB = {
             "Shadow Ball*",
             "Thunderbolt*",
             "Ice Beam*",
-            "Superpower*"
+            "Super Power*"
         ]
     },
     "defense_data": {
@@ -25385,7 +24428,8 @@ var pokeDB = {
         "charge": [
             "Hyper Beam",
             "Wild Charge",
-            "Crunch"
+            "Crunch",
+            "Psychic Fangs*"
         ]
     },
     "defense_data": {
@@ -27212,44 +26256,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Gible": {
-    "id": "443",
-    "imgurl": 443,
-    "stats": {
-        "atk": 124,
-        "def": 84,
-        "sta": 151
-    },
-    "type": [
-        "Dragon",
-        "Ground"
-    ],
-    "name": "Shadow Gible",
-    "moveset": {
-        "quick": [
-            "Take Down",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Dig",
-            "Twister",
-            "Body Slam"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ice": "256%"
-        },
-        "resistant_to": {
-            "Electric": "24.4%",
-            "Fire": "62.5%",
-            "Poison": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Gabite": {
     "id": "444",
     "imgurl": 444,
@@ -27288,44 +26294,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Gabite": {
-    "id": "444",
-    "imgurl": 444,
-    "stats": {
-        "atk": 172,
-        "def": 125,
-        "sta": 169
-    },
-    "type": [
-        "Dragon",
-        "Ground"
-    ],
-    "name": "Shadow Gabite",
-    "moveset": {
-        "quick": [
-            "Take Down",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Dig",
-            "Twister",
-            "Flamethrower"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ice": "256%"
-        },
-        "resistant_to": {
-            "Electric": "24.4%",
-            "Fire": "62.5%",
-            "Poison": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Garchomp": {
     "id": "445",
     "imgurl": 445,
@@ -27339,46 +26307,6 @@ var pokeDB = {
         "Ground"
     ],
     "name": "Garchomp",
-    "moveset": {
-        "quick": [
-            "Dragon Tail",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Outrage",
-            "Earthquake",
-            "Fire Blast",
-            "Sand Tomb",
-            "Earth Power*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ice": "256%"
-        },
-        "resistant_to": {
-            "Electric": "24.4%",
-            "Fire": "62.5%",
-            "Poison": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Garchomp": {
-    "id": "445",
-    "imgurl": 445,
-    "stats": {
-        "atk": 261,
-        "def": 193,
-        "sta": 239
-    },
-    "type": [
-        "Dragon",
-        "Ground"
-    ],
-    "name": "Shadow Garchomp",
     "moveset": {
         "quick": [
             "Dragon Tail",
@@ -27555,42 +26483,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Hippopotas": {
-    "id": "449",
-    "imgurl": 449,
-    "stats": {
-        "atk": 124,
-        "def": 118,
-        "sta": 169
-    },
-    "type": [
-        "Ground"
-    ],
-    "name": "Shadow Hippopotas",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Bite"
-        ],
-        "charge": [
-            "Dig",
-            "Rock Tomb",
-            "Body Slam"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Grass": "160%",
-            "Ice": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Poison": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
 "Hippowdon": {
     "id": "450",
     "imgurl": 450,
@@ -27603,46 +26495,6 @@ var pokeDB = {
         "Ground"
     ],
     "name": "Hippowdon",
-    "moveset": {
-        "quick": [
-            "Fire Fang",
-            "Bite",
-            "Thunder Fang",
-            "Ice Fang"
-        ],
-        "charge": [
-            "Earthquake",
-            "Stone Edge",
-            "Body Slam",
-            "Earth Power",
-            "Weather Ball Rock"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Grass": "160%",
-            "Ice": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Poison": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Hippowdon": {
-    "id": "450",
-    "imgurl": 450,
-    "stats": {
-        "atk": 201,
-        "def": 191,
-        "sta": 239
-    },
-    "type": [
-        "Ground"
-    ],
-    "name": "Shadow Hippowdon",
     "moveset": {
         "quick": [
             "Fire Fang",
@@ -28466,53 +27318,7 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Skull Bash",
-            "Superpower",
-            "Rock Wrecker*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "256%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Steel": "160%",
-            "Water": "256%"
-        },
-        "resistant_to": {
-            "Electric": "39.1%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Rhyperior": {
-    "id": "464",
-    "imgurl": 464,
-    "stats": {
-        "atk": 241,
-        "def": 190,
-        "sta": 251
-    },
-    "type": [
-        "Ground",
-        "Rock"
-    ],
-    "name": "Shadow Rhyperior",
-    "moveset": {
-        "quick": [
-            "Mud Slap",
-            "Smack Down"
-        ],
-        "charge": [
-            "Surf",
-            "Earthquake",
-            "Stone Edge",
-            "Skull Bash",
-            "Superpower",
+            "Super Power",
             "Rock Wrecker*"
         ]
     },
@@ -29341,7 +28147,8 @@ var pokeDB = {
         "charge": [
             "Ominous Wind",
             "Psychic",
-            "Dark Pulse"
+            "Dark Pulse",
+            "Shadow Ball*"
         ]
     },
     "defense_data": {
@@ -29377,7 +28184,8 @@ var pokeDB = {
         "charge": [
             "Ominous Wind",
             "Psychic",
-            "Dark Pulse"
+            "Dark Pulse",
+            "Shadow Ball*"
         ]
     },
     "defense_data": {
@@ -29689,7 +28497,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Thunder"
         ]
@@ -29724,7 +28532,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Blizzard"
         ]
@@ -29759,7 +28567,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Fire Blast"
         ]
@@ -30041,7 +28849,7 @@ var pokeDB = {
         "charge": [
             "Aurora Beam",
             "Moonblast",
-            "Future Sight",
+            "Futuresight",
             "Grass Knot*"
         ]
     },
@@ -30262,7 +29070,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30298,7 +29106,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30334,7 +29142,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30371,7 +29179,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30405,7 +29213,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30441,7 +29249,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30477,7 +29285,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30516,7 +29324,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30553,7 +29361,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30589,7 +29397,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30628,7 +29436,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30664,7 +29472,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30699,7 +29507,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30731,7 +29539,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30768,7 +29576,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30803,7 +29611,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30842,7 +29650,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30886,7 +29694,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -31281,7 +30089,9 @@ var pokeDB = {
         "charge": [
             "Hydro Pump",
             "Blizzard",
-            "Megahorn"
+            "Megahorn",
+            "Razor Shell",
+            "Hydro Cannon*"
         ]
     },
     "defense_data": {
@@ -31812,7 +30622,7 @@ var pokeDB = {
             "Charge Beam"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Dazzling Gleam",
             "Psyshock"
         ]
@@ -32109,7 +30919,7 @@ var pokeDB = {
         "charge": [
             "Rock Slide",
             "Solar Beam",
-            "Superpower",
+            "Super Power",
             "Heavy Slam"
         ]
     },
@@ -32190,7 +31000,7 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Aerial Ace",
-            "Future Sight"
+            "Futuresight"
         ]
     },
     "defense_data": {
@@ -33262,44 +32072,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Darumaka": {
-    "id": "554",
-    "imgurl": 554,
-    "stats": {
-        "atk": 153,
-        "def": 86,
-        "sta": 172
-    },
-    "type": [
-        "Fire"
-    ],
-    "name": "Shadow Darumaka",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Fire Fang"
-        ],
-        "charge": [
-            "Fire Punch",
-            "Flame Charge"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Darmanitan": {
     "id": "555",
     "imgurl": 555,
@@ -33321,7 +32093,7 @@ var pokeDB = {
         "charge": [
             "Overheat",
             "Avalanche",
-            "Superpower",
+            "Super Power",
             "Ice Punch"
         ]
     },
@@ -33730,42 +32502,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Yamask": {
-    "id": "562",
-    "imgurl": 562,
-    "stats": {
-        "atk": 95,
-        "def": 141,
-        "sta": 116
-    },
-    "type": [
-        "Ghost"
-    ],
-    "name": "Shadow Yamask",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Shadow Ball",
-            "Dark Pulse",
-            "Ominous Wind"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "62.5%"
-        }
-    }
-},
 "Cofagrigus": {
     "id": "563",
     "imgurl": 563,
@@ -33778,43 +32514,6 @@ var pokeDB = {
         "Ghost"
     ],
     "name": "Cofagrigus",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Zen Headbutt",
-            "Shadow Claw"
-        ],
-        "charge": [
-            "Shadow Ball",
-            "Dark Pulse",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "62.5%"
-        }
-    }
-},
-"Shadow Cofagrigus": {
-    "id": "563",
-    "imgurl": 563,
-    "stats": {
-        "atk": 163,
-        "def": 237,
-        "sta": 151
-    },
-    "type": [
-        "Ghost"
-    ],
-    "name": "Shadow Cofagrigus",
     "moveset": {
         "quick": [
             "Astonish",
@@ -34269,7 +32968,7 @@ var pokeDB = {
         ],
         "charge": [
             "Psybeam",
-            "Future Sight",
+            "Futuresight",
             "Psychic"
         ]
     },
@@ -34304,7 +33003,7 @@ var pokeDB = {
         ],
         "charge": [
             "Rock Slide",
-            "Future Sight",
+            "Futuresight",
             "Psychic"
         ]
     },
@@ -34408,7 +33107,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Shadow Ball",
             "Thunder"
         ]
@@ -36336,46 +35035,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Stunfisk": {
-    "id": "618",
-    "imgurl": 618,
-    "stats": {
-        "atk": 144,
-        "def": 171,
-        "sta": 240
-    },
-    "type": [
-        "Ground",
-        "Electric"
-    ],
-    "name": "Shadow Stunfisk",
-    "moveset": {
-        "quick": [
-            "Thunder Shock",
-            "Mud Shot"
-        ],
-        "charge": [
-            "Mud Bomb",
-            "Discharge",
-            "Muddy Water"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Grass": "160%",
-            "Ground": "160%",
-            "Ice": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Electric": "24.4%",
-            "Flying": "62.5%",
-            "Poison": "62.5%",
-            "Rock": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
 "Mienfoo": {
     "id": "619",
     "imgurl": 619,
@@ -37206,7 +35865,8 @@ var pokeDB = {
         "charge": [
             "Close Combat",
             "Earthquake",
-            "Rock Slide"
+            "Rock Slide",
+            "Sacred Sword*"
         ]
     },
     "defense_data": {
@@ -37250,7 +35910,8 @@ var pokeDB = {
         "charge": [
             "Close Combat",
             "Leaf Blade",
-            "Stone Edge"
+            "Stone Edge",
+            "Sacred Sword*"
         ]
     },
     "defense_data": {
@@ -37571,7 +36232,7 @@ var pokeDB = {
             "Earthquake",
             "Bulldoze",
             "Stone Edge",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -38176,7 +36837,7 @@ var pokeDB = {
         "charge": [
             "Gyro Ball",
             "Energy Ball",
-            "Superpower",
+            "Super Power",
             "Solar Beam"
         ]
     },
@@ -39910,7 +38571,7 @@ var pokeDB = {
         "charge": [
             "Psybeam",
             "Foul Play",
-            "Superpower",
+            "Super Power",
             "Hyper Beam"
         ]
     },
@@ -40514,7 +39175,6 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "Parabolic Charge",
             "Discharge",
             "Play Rough"
         ]
@@ -40817,9 +39477,9 @@ var pokeDB = {
         }
     }
 },
-"Pumpkaboo": {
+"Average Pumpkaboo": {
     "id": "710",
-    "imgurl": 710,
+    "imgurl": "710-average",
     "stats": {
         "atk": 121,
         "def": 123,
@@ -40829,7 +39489,7 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "name": "Pumpkaboo",
+    "name": "Average Pumpkaboo",
     "moveset": {
         "quick": [
             "Astonish",
@@ -40838,8 +39498,7 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Shadow Sneak",
-            "Foul Play",
-            "Earthquake"
+            "Foul Play"
         ]
     },
     "defense_data": {
@@ -40860,9 +39519,135 @@ var pokeDB = {
         }
     }
 },
-"Gourgeist": {
+"Large Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-large",
+    "stats": {
+        "atk": 120,
+        "def": 122,
+        "sta": 144
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Large Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Small Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-small",
+    "stats": {
+        "atk": 122,
+        "def": 124,
+        "sta": 127
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Small Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Super Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-super",
+    "stats": {
+        "atk": 118,
+        "def": 120,
+        "sta": 153
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Super Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Average Gourgeist": {
     "id": "711",
-    "imgurl": 711,
+    "imgurl": "711-average",
     "stats": {
         "atk": 175,
         "def": 213,
@@ -40872,7 +39657,136 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "name": "Gourgeist",
+    "name": "Average Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Large Gourgeist": {
+    "id": "711",
+    "imgurl": "711-large",
+    "stats": {
+        "atk": 179,
+        "def": 206,
+        "sta": 181
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Large Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Small Gourgeist": {
+    "id": "711",
+    "imgurl": "711-small",
+    "stats": {
+        "atk": 171,
+        "def": 219,
+        "sta": 146
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Small Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Super Gourgeist": {
+    "id": "711",
+    "imgurl": "711-super",
+    "stats": {
+        "atk": 182,
+        "def": 200,
+        "sta": 198
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Super Gourgeist",
     "moveset": {
         "quick": [
             "Hex",
@@ -41396,7 +40310,7 @@ var pokeDB = {
             "Thunderbolt",
             "Hyper Beam",
             "Rock Slide",
-            "Superpower"
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -43051,7 +41965,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Superpower",
+            "Super Power",
             "Ice Punch"
         ]
     },
@@ -43087,7 +42001,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Superpower",
+            "Super Power",
             "Ice Punch",
             "Surf"
         ]
@@ -43514,82 +42428,6 @@ var pokeDB = {
         }
     }
 },
-"Obstagoon": {
-    "id": "862",
-    "imgurl": 862,
-    "stats": {
-        "atk": 180,
-        "def": 194,
-        "sta": 212
-    },
-    "type": [
-        "Dark",
-        "Normal"
-    ],
-    "name": "Obstagoon",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Lick"
-        ],
-        "charge": [
-            "Cross Chop",
-            "Night Slash",
-            "Hyper Beam",
-            "Gunk Shot"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fairy": "160%",
-            "Fighting": "256%"
-        },
-        "resistant_to": {
-            "Dark": "62.5%",
-            "Ghost": "24.4%",
-            "Psychic": "39.1%"
-        }
-    }
-},
-"Shadow Obstagoon": {
-    "id": "862",
-    "imgurl": 862,
-    "stats": {
-        "atk": 180,
-        "def": 194,
-        "sta": 212
-    },
-    "type": [
-        "Dark",
-        "Normal"
-    ],
-    "name": "Shadow Obstagoon",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Lick"
-        ],
-        "charge": [
-            "Cross Chop",
-            "Night Slash",
-            "Hyper Beam",
-            "Gunk Shot"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fairy": "160%",
-            "Fighting": "256%"
-        },
-        "resistant_to": {
-            "Dark": "62.5%",
-            "Ghost": "24.4%",
-            "Psychic": "39.1%"
-        }
-    }
-},
 "Galarian Perrserker": {
     "id": "863",
     "imgurl": "",
@@ -43602,96 +42440,6 @@ var pokeDB = {
         "Steel"
     ],
     "name": "Galarian Perrserker",
-    "moveset": {
-        "quick": [
-            "Metal Claw",
-            "Shadow Claw"
-        ],
-        "charge": [
-            "Iron Head",
-            "Close Combat",
-            "Play Rough",
-            "Foul Play"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dragon": "62.5%",
-            "Fairy": "62.5%",
-            "Flying": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Psychic": "62.5%",
-            "Rock": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Perrserker": {
-    "id": "863",
-    "imgurl": 863,
-    "stats": {
-        "atk": 195,
-        "def": 162,
-        "sta": 172
-    },
-    "type": [
-        "Steel"
-    ],
-    "name": "Perrserker",
-    "moveset": {
-        "quick": [
-            "Metal Claw",
-            "Shadow Claw"
-        ],
-        "charge": [
-            "Iron Head",
-            "Close Combat",
-            "Play Rough",
-            "Foul Play"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dragon": "62.5%",
-            "Fairy": "62.5%",
-            "Flying": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "39.1%",
-            "Psychic": "62.5%",
-            "Rock": "62.5%",
-            "Steel": "62.5%"
-        }
-    }
-},
-"Shadow Perrserker": {
-    "id": "863",
-    "imgurl": 863,
-    "stats": {
-        "atk": 195,
-        "def": 162,
-        "sta": 172
-    },
-    "type": [
-        "Steel"
-    ],
-    "name": "Shadow Perrserker",
     "moveset": {
         "quick": [
             "Metal Claw",
@@ -43762,43 +42510,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Cursola": {
-    "id": "864",
-    "imgurl": 864,
-    "stats": {
-        "atk": 253,
-        "def": 182,
-        "sta": 155
-    },
-    "type": [
-        "Ghost"
-    ],
-    "name": "Shadow Cursola",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Hex"
-        ],
-        "charge": [
-            "Rock Blast",
-            "Brine",
-            "Night Shade",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "62.5%"
-        }
-    }
-},
 "Galarian Sirfetch’d": {
     "id": "865",
     "imgurl": "",
@@ -43811,80 +42522,6 @@ var pokeDB = {
         "Fighting"
     ],
     "name": "Galarian Sirfetch\u2019d",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Fury Cutter"
-        ],
-        "charge": [
-            "Close Combat",
-            "Brave Bird",
-            "Leaf Blade",
-            "Night Slash"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fairy": "160%",
-            "Flying": "160%",
-            "Psychic": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Sirfetch’d": {
-    "id": "865",
-    "imgurl": 865,
-    "stats": {
-        "atk": 248,
-        "def": 176,
-        "sta": 158
-    },
-    "type": [
-        "Fighting"
-    ],
-    "name": "Sirfetch\u2019d",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Fury Cutter"
-        ],
-        "charge": [
-            "Close Combat",
-            "Brave Bird",
-            "Leaf Blade",
-            "Night Slash"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fairy": "160%",
-            "Flying": "160%",
-            "Psychic": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Sirfetch’d": {
-    "id": "865",
-    "imgurl": 865,
-    "stats": {
-        "atk": 248,
-        "def": 176,
-        "sta": 158
-    },
-    "type": [
-        "Fighting"
-    ],
-    "name": "Shadow Sirfetch\u2019d",
     "moveset": {
         "quick": [
             "Counter",
@@ -43951,88 +42588,6 @@ var pokeDB = {
         }
     }
 },
-"Mr. Rime": {
-    "id": "866",
-    "imgurl": "866-mr.",
-    "stats": {
-        "atk": 212,
-        "def": 179,
-        "sta": 190
-    },
-    "type": [
-        "Ice",
-        "Psychic"
-    ],
-    "name": "Mr. Rime",
-    "moveset": {
-        "quick": [
-            "Confusion",
-            "Zen Headbutt",
-            "Ice Shard"
-        ],
-        "charge": [
-            "Psybeam",
-            "Psychic",
-            "Ice Punch",
-            "Icy Wind"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Fire": "160%",
-            "Ghost": "160%",
-            "Rock": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Ice": "62.5%",
-            "Psychic": "62.5%"
-        }
-    }
-},
-"Shadow Mr. Rime": {
-    "id": "866",
-    "imgurl": 866,
-    "stats": {
-        "atk": 212,
-        "def": 179,
-        "sta": 190
-    },
-    "type": [
-        "Ice",
-        "Psychic"
-    ],
-    "name": "Shadow Mr. Rime",
-    "moveset": {
-        "quick": [
-            "Confusion",
-            "Zen Headbutt",
-            "Ice Shard"
-        ],
-        "charge": [
-            "Psybeam",
-            "Psychic",
-            "Ice Punch",
-            "Icy Wind"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Fire": "160%",
-            "Ghost": "160%",
-            "Rock": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Ice": "62.5%",
-            "Psychic": "62.5%"
-        }
-    }
-},
 "Galarian Runerigus": {
     "id": "867",
     "imgurl": "",
@@ -44046,88 +42601,6 @@ var pokeDB = {
         "Ghost"
     ],
     "name": "Galarian Runerigus",
-    "moveset": {
-        "quick": [
-            "Astonish"
-        ],
-        "charge": [
-            "Shadow Ball",
-            "Sand Tomb",
-            "Rock Tomb"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%",
-            "Grass": "160%",
-            "Ice": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Electric": "39.1%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Runerigus": {
-    "id": "867",
-    "imgurl": 867,
-    "stats": {
-        "atk": 163,
-        "def": 237,
-        "sta": 151
-    },
-    "type": [
-        "Ground",
-        "Ghost"
-    ],
-    "name": "Runerigus",
-    "moveset": {
-        "quick": [
-            "Astonish"
-        ],
-        "charge": [
-            "Shadow Ball",
-            "Sand Tomb",
-            "Rock Tomb"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%",
-            "Grass": "160%",
-            "Ice": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Electric": "39.1%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "39.1%",
-            "Rock": "62.5%"
-        }
-    }
-},
-"Shadow Runerigus": {
-    "id": "867",
-    "imgurl": 867,
-    "stats": {
-        "atk": 163,
-        "def": 237,
-        "sta": 151
-    },
-    "type": [
-        "Ground",
-        "Ghost"
-    ],
-    "name": "Shadow Runerigus",
     "moveset": {
         "quick": [
             "Astonish"
@@ -44244,7 +42717,7 @@ var pokeDB = {
             "Counter"
         ],
         "charge": [
-            "Superpower",
+            "Super Power",
             "Brick Break",
             "Megahorn"
         ]
