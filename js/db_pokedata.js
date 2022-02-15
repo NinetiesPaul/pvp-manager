@@ -12996,42 +12996,45 @@ var pokeDB = {
         }
     }
 },
-"Galarian Slowking": {
+"Slowking": {
     "id": "199",
-    "imgurl": 10169,
+    "imgurl": 199,
     "stats": {
-        "atk": 190,
+        "atk": 177,
         "def": 180,
         "sta": 216
     },
     "type": [
-        "Poison",
+        "Water",
         "Psychic"
     ],
-    "name": "Galarian Slowking",
+    "name": "Slowking",
     "moveset": {
         "quick": [
-            "Hex",
-            "Confusion",
-            "Acid"
+            "Water Gun",
+            "Confusion"
         ],
         "charge": [
-            "Futuresight",
-            "Shadow Ball",
-            "Sludge Wave"
+            "Blizzard",
+            "Psychic",
+            "Fire Blast"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
+            "Bug": "160%",
             "Dark": "160%",
+            "Electric": "160%",
             "Ghost": "160%",
-            "Ground": "160%"
+            "Grass": "160%"
         },
         "resistant_to": {
-            "Fairy": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Poison": "62.5%"
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
         }
     }
 },
@@ -13077,45 +13080,42 @@ var pokeDB = {
         }
     }
 },
-"Slowking": {
+"Galarian Slowking": {
     "id": "199",
-    "imgurl": 199,
+    "imgurl": 10169,
     "stats": {
-        "atk": 177,
+        "atk": 190,
         "def": 180,
         "sta": 216
     },
     "type": [
-        "Water",
+        "Poison",
         "Psychic"
     ],
-    "name": "Slowking",
+    "name": "Galarian Slowking",
     "moveset": {
         "quick": [
-            "Water Gun",
-            "Confusion"
+            "Hex",
+            "Confusion",
+            "Acid"
         ],
         "charge": [
-            "Blizzard",
-            "Psychic",
-            "Fire Blast"
+            "Futuresight",
+            "Shadow Ball",
+            "Sludge Wave"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
-            "Bug": "160%",
             "Dark": "160%",
-            "Electric": "160%",
             "Ghost": "160%",
-            "Grass": "160%"
+            "Ground": "160%"
         },
         "resistant_to": {
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Psychic": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -22167,12 +22167,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Waterfall",
-            "Frost Breath"
+            "Frost Breath",
+            "Powder Snow*"
         ],
         "charge": [
             "Blizzard",
             "Earthquake",
-            "Water Pulse"
+            "Water Pulse",
+            "Icicle Spear*"
         ]
     },
     "defense_data": {
@@ -22204,12 +22206,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Waterfall",
-            "Frost Breath"
+            "Frost Breath",
+            "Powder Snow*"
         ],
         "charge": [
             "Blizzard",
             "Earthquake",
-            "Water Pulse"
+            "Water Pulse",
+            "Icicle Spear*"
         ]
     },
     "defense_data": {
@@ -28957,7 +28961,8 @@ var pokeDB = {
         "charge": [
             "Focus Blast",
             "Shadow Ball",
-            "Dark Pulse"
+            "Dark Pulse",
+            "Sludge Bomb*"
         ]
     },
     "defense_data": {
@@ -37570,6 +37575,42 @@ var pokeDB = {
         }
     }
 },
+"White Flabebe": {
+    "id": "669",
+    "imgurl": "669-white",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "White Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
 "Floette": {
     "id": "670",
     "imgurl": 670,
@@ -37606,6 +37647,42 @@ var pokeDB = {
         }
     }
 },
+"White Floette": {
+    "id": "670",
+    "imgurl": "670-white",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "White Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
 "Florges": {
     "id": "671",
     "imgurl": 671,
@@ -37618,6 +37695,44 @@ var pokeDB = {
         "Fairy"
     ],
     "name": "Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"White Florges": {
+    "id": "671",
+    "imgurl": "671-white",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "White Florges",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -38848,7 +38963,7 @@ var pokeDB = {
         "charge": [
             "Parabolic Charge",
             "Bulldoze",
-            "Discharge"
+            "Thunderbolt"
         ]
     },
     "defense_data": {
