@@ -63,9 +63,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": "-40",
-    "power": "40",
-    "dpe": "1.00"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Flame Wheel": {
     "type": "Fire",
@@ -439,8 +439,8 @@ var chargeMoveDB = {
         "Psychic"
     ],
     "energy": "-60",
-    "power": "100",
-    "dpe": "1.67"
+    "power": "90",
+    "dpe": "1.50"
 },
 "Poison Fang": {
     "type": "Poison",
@@ -770,8 +770,8 @@ var chargeMoveDB = {
         "Water"
     ],
     "energy": "-55",
-    "power": "65",
-    "dpe": "1.18"
+    "power": "25",
+    "dpe": "0.45"
 },
 "Thunder Punch": {
     "type": "Electric",
@@ -1899,7 +1899,7 @@ var chargeMoveDB = {
     "power": "90",
     "dpe": "1.64"
 },
-"Futuresight": {
+"Future Sight": {
     "type": "Psychic",
     "weakAgainst": [
         "Dark",
@@ -1910,7 +1910,7 @@ var chargeMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "energy": "-65",
+    "energy": "65",
     "power": "120",
     "dpe": "1.85"
 },
@@ -2347,7 +2347,7 @@ var chargeMoveDB = {
     "power": "35",
     "dpe": "1.00"
 },
-"Super Power": {
+"Superpower": {
     "type": "Fighting",
     "weakAgainst": [
         "Bug",
@@ -2734,9 +2734,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": "-55",
-    "power": "120",
-    "dpe": "2.18"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Techno Blast Burn": {
     "type": "Fire",
@@ -2752,9 +2752,9 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": "-55",
-    "power": "120",
-    "dpe": "2.18"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Techno Blast Chill": {
     "type": "Ice",
@@ -2770,9 +2770,9 @@ var chargeMoveDB = {
         "Grass",
         "Ground"
     ],
-    "energy": "-55",
-    "power": "120",
-    "dpe": "2.18"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Techno Blast Water": {
     "type": "Water",
@@ -2802,9 +2802,9 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": "-55",
-    "power": "120",
-    "dpe": "2.18"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Fly": {
     "type": "Flying",
@@ -2836,9 +2836,9 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": "-40",
-    "power": "95",
-    "dpe": "2.38"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Leaf Storm": {
     "type": "Grass",
@@ -2868,9 +2868,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": "-50",
-    "power": "65",
-    "dpe": "1.30"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Feather Dance": {
     "type": "Flying",
@@ -2896,9 +2896,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": "-35",
-    "power": "55",
-    "dpe": "1.57"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Psychic Fangs": {
     "type": "Psychic",
@@ -2914,41 +2914,5 @@ var chargeMoveDB = {
     "energy": "35",
     "power": "40",
     "dpe": "1.14"
-},
-"Sacred Fire": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": "65",
-    "power": "130",
-    "dpe": "2.00"
-},
-"Icicle Spear": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": "-35",
-    "power": "60",
-    "dpe": "1.71"
 },
 }

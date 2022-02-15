@@ -351,7 +351,7 @@ var quickMoveDB = {
     ],
     "goodAgainst": [],
     "ept": "2",
-    "dpt": "2"
+    "dpt": "2.5"
 },
 "Cut": {
     "type": "Normal",
@@ -628,7 +628,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "2",
+    "ept": "2.33",
     "dpt": "3"
 },
 "Transform": {
@@ -978,8 +978,8 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "ept": "5",
-    "dpt": "1"
+    "ept": 5,
+    "dpt": 1
 },
 "Thunder Fang": {
     "type": "Electric",
@@ -1025,8 +1025,8 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "ept": "2.4",
-    "dpt": "3.2"
+    "ept": "3",
+    "dpt": "4"
 },
 "Incinerate": {
     "type": "Fire",
@@ -1044,24 +1044,5 @@ var quickMoveDB = {
     ],
     "ept": "4",
     "dpt": "3"
-},
-"Magical Leaf": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "ept": "3.33",
-    "dpt": "3.33"
 },
 }
