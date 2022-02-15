@@ -4795,7 +4795,7 @@ var pokeDB = {
             "Counter*"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Focus Blast",
             "Shadow Ball",
             "Fire Punch",
@@ -4834,7 +4834,7 @@ var pokeDB = {
             "Counter*"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Focus Blast",
             "Shadow Ball",
             "Fire Punch",
@@ -7129,7 +7129,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Psychic",
             "Focus Blast",
             "Fire Punch",
@@ -7169,7 +7169,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Psychic",
             "Focus Blast",
             "Fire Punch",
@@ -10531,7 +10531,7 @@ var pokeDB = {
             "Rock Slide",
             "Dynamic Punch",
             "Earthquake",
-            "Future Sight",
+            "Futuresight",
             "Psystrike*"
         ]
     },
@@ -11759,7 +11759,7 @@ var pokeDB = {
         ],
         "charge": [
             "Ominous Wind",
-            "Future Sight",
+            "Futuresight",
             "Aerial Ace"
         ]
     },
@@ -12862,7 +12862,7 @@ var pokeDB = {
         "charge": [
             "Psybeam",
             "Psychic",
-            "Future Sight",
+            "Futuresight",
             "Last Resort*",
             "Shadow Ball*"
         ]
@@ -13016,7 +13016,7 @@ var pokeDB = {
             "Acid"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Shadow Ball",
             "Sludge Wave"
         ]
@@ -16032,7 +16032,7 @@ var pokeDB = {
         "charge": [
             "Sky Attack",
             "Hydro Pump",
-            "Future Sight",
+            "Futuresight",
             "Aeroblast*"
         ]
     },
@@ -28497,7 +28497,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Thunder"
         ]
@@ -28532,7 +28532,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Blizzard"
         ]
@@ -28567,7 +28567,7 @@ var pokeDB = {
             "Extrasensory"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Swift",
             "Fire Blast"
         ]
@@ -28849,7 +28849,7 @@ var pokeDB = {
         "charge": [
             "Aurora Beam",
             "Moonblast",
-            "Future Sight",
+            "Futuresight",
             "Grass Knot*"
         ]
     },
@@ -29070,7 +29070,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29106,7 +29106,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29142,7 +29142,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29179,7 +29179,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29213,7 +29213,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29249,7 +29249,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29285,7 +29285,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29324,7 +29324,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29361,7 +29361,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29397,7 +29397,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29436,7 +29436,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29472,7 +29472,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29507,7 +29507,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29539,7 +29539,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29576,7 +29576,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29611,7 +29611,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29650,7 +29650,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -29694,7 +29694,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Hyper Beam",
             "Outrage"
         ]
@@ -30622,7 +30622,7 @@ var pokeDB = {
             "Charge Beam"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Dazzling Gleam",
             "Psyshock"
         ]
@@ -31000,7 +31000,7 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Aerial Ace",
-            "Future Sight"
+            "Futuresight"
         ]
     },
     "defense_data": {
@@ -32968,7 +32968,7 @@ var pokeDB = {
         ],
         "charge": [
             "Psybeam",
-            "Future Sight",
+            "Futuresight",
             "Psychic"
         ]
     },
@@ -33003,7 +33003,7 @@ var pokeDB = {
         ],
         "charge": [
             "Rock Slide",
-            "Future Sight",
+            "Futuresight",
             "Psychic"
         ]
     },
@@ -33107,7 +33107,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
-            "Future Sight",
+            "Futuresight",
             "Shadow Ball",
             "Thunder"
         ]
