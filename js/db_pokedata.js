@@ -3827,7 +3827,7 @@ var pokeDB = {
 },
 "Galarian Meowth": {
     "id": "052",
-    "imgurl": 10158,
+    "imgurl": 10161,
     "stats": {
         "atk": 115,
         "def": 92,
@@ -5670,7 +5670,7 @@ var pokeDB = {
 },
 "Galarian Ponyta": {
     "id": "077",
-    "imgurl": 10159,
+    "imgurl": 10162,
     "stats": {
         "atk": 170,
         "def": 127,
@@ -5745,7 +5745,7 @@ var pokeDB = {
 },
 "Galarian Rapidash": {
     "id": "078",
-    "imgurl": 10160,
+    "imgurl": 10163,
     "stats": {
         "atk": 207,
         "def": 162,
@@ -5909,7 +5909,7 @@ var pokeDB = {
 },
 "Galarian Slowpoke": {
     "id": "079",
-    "imgurl": 10161,
+    "imgurl": 10164,
     "stats": {
         "atk": 109,
         "def": 98,
@@ -6028,7 +6028,7 @@ var pokeDB = {
 },
 "Galarian Slowbro": {
     "id": "080",
-    "imgurl": 10162,
+    "imgurl": 10165,
     "stats": {
         "atk": 182,
         "def": 156,
@@ -7265,6 +7265,45 @@ var pokeDB = {
         }
     }
 },
+"Hisuian Voltorb": {
+    "id": "100",
+    "imgurl": "100-hisuian",
+    "stats": {
+        "atk": 109,
+        "def": 111,
+        "sta": 120
+    },
+    "type": [
+        "Electric",
+        "Grass"
+    ],
+    "name": "Hisuian Voltorb",
+    "moveset": {
+        "quick": [
+            "Charge Beam",
+            "Tackle"
+        ],
+        "charge": [
+            "Swift",
+            "Thunderbolt",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Voltorb": {
     "id": "100",
     "imgurl": 100,
@@ -8014,7 +8053,7 @@ var pokeDB = {
 },
 "Galarian Weezing": {
     "id": "110",
-    "imgurl": 10164,
+    "imgurl": 10167,
     "stats": {
         "atk": 174,
         "def": 197,
@@ -13082,7 +13121,7 @@ var pokeDB = {
 },
 "Galarian Slowking": {
     "id": "199",
-    "imgurl": 10169,
+    "imgurl": 10172,
     "stats": {
         "atk": 190,
         "def": 180,
@@ -16803,7 +16842,7 @@ var pokeDB = {
 },
 "Galarian Zigzagoon": {
     "id": "263",
-    "imgurl": 10171,
+    "imgurl": 10174,
     "stats": {
         "atk": 58,
         "def": 80,
@@ -16872,7 +16911,7 @@ var pokeDB = {
 },
 "Galarian Linoone": {
     "id": "264",
-    "imgurl": 10172,
+    "imgurl": 10175,
     "stats": {
         "atk": 142,
         "def": 128,
@@ -32007,7 +32046,7 @@ var pokeDB = {
 },
 "Galarian Darumaka": {
     "id": "554",
-    "imgurl": 10173,
+    "imgurl": 10176,
     "stats": {
         "atk": 153,
         "def": 86,
@@ -32433,7 +32472,7 @@ var pokeDB = {
 },
 "Galarian Yamask": {
     "id": "562",
-    "imgurl": 10176,
+    "imgurl": 10179,
     "stats": {
         "atk": 95,
         "def": 141,
@@ -34956,7 +34995,7 @@ var pokeDB = {
 },
 "Galarian Stunfisk": {
     "id": "618",
-    "imgurl": 10177,
+    "imgurl": 10180,
     "stats": {
         "atk": 144,
         "def": 171,
@@ -37539,9 +37578,9 @@ var pokeDB = {
         }
     }
 },
-"Flabebe": {
+"Blue Flabebe": {
     "id": "669",
-    "imgurl": 669,
+    "imgurl": "669-blue",
     "stats": {
         "atk": 108,
         "def": 120,
@@ -37550,7 +37589,79 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Flabebe",
+    "name": "Blue Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Flabebe": {
+    "id": "669",
+    "imgurl": "669-orange",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Flabebe": {
+    "id": "669",
+    "imgurl": "669-red",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Flabebe",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -37611,9 +37722,45 @@ var pokeDB = {
         }
     }
 },
-"Floette": {
+"Yellow Flabebe": {
+    "id": "669",
+    "imgurl": "669-yellow",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Blue Floette": {
     "id": "670",
-    "imgurl": 670,
+    "imgurl": "670-blue",
     "stats": {
         "atk": 136,
         "def": 151,
@@ -37622,7 +37769,79 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Floette",
+    "name": "Blue Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Floette": {
+    "id": "670",
+    "imgurl": "670-orange",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Floette": {
+    "id": "670",
+    "imgurl": "670-red",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Floette",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -37683,9 +37902,45 @@ var pokeDB = {
         }
     }
 },
-"Florges": {
+"Yellow Floette": {
+    "id": "670",
+    "imgurl": "670-yellow",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Blue Florges": {
     "id": "671",
-    "imgurl": 671,
+    "imgurl": "671-blue",
     "stats": {
         "atk": 212,
         "def": 244,
@@ -37694,7 +37949,83 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Florges",
+    "name": "Blue Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Florges": {
+    "id": "671",
+    "imgurl": "671-orange",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Florges": {
+    "id": "671",
+    "imgurl": "671-red",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Florges",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -37733,6 +38064,44 @@ var pokeDB = {
         "Fairy"
     ],
     "name": "White Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Yellow Florges": {
+    "id": "671",
+    "imgurl": "671-yellow",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Florges",
     "moveset": {
         "quick": [
             "Vine Whip",
