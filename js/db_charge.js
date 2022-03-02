@@ -2951,4 +2951,20 @@ var chargeMoveDB = {
     "power": "60",
     "dpe": "1.71"
 },
+"Acrobatics": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "60",
+    "power": "110",
+    "dpe": "1.83"
+},
 }

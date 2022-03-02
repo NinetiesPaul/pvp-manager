@@ -7339,6 +7339,45 @@ var pokeDB = {
         }
     }
 },
+"Hisuian Electrode": {
+    "id": "101",
+    "imgurl": "101-hisuian",
+    "stats": {
+        "atk": 176,
+        "def": 176,
+        "sta": 155
+    },
+    "type": [
+        "Electric",
+        "Grass"
+    ],
+    "name": "Hisuian Electrode",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Tackle"
+        ],
+        "charge": [
+            "Swift",
+            "Wild Charge",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Electrode": {
     "id": "101",
     "imgurl": 101,
@@ -12488,7 +12527,8 @@ var pokeDB = {
             "Energy Ball",
             "Dazzling Gleam",
             "Solar Beam",
-            "Aerial Ace"
+            "Aerial Ace",
+            "Acrobatics*"
         ]
     },
     "defense_data": {
@@ -12529,7 +12569,8 @@ var pokeDB = {
             "Energy Ball",
             "Dazzling Gleam",
             "Solar Beam",
-            "Aerial Ace"
+            "Aerial Ace",
+            "Acrobatics*"
         ]
     },
     "defense_data": {
@@ -16115,7 +16156,8 @@ var pokeDB = {
             "Brave Bird",
             "Fire Blast",
             "Solar Beam",
-            "Earthquake*"
+            "Earthquake*",
+            "Sacred Fire*"
         ]
     },
     "defense_data": {
@@ -16159,7 +16201,8 @@ var pokeDB = {
             "Brave Bird",
             "Fire Blast",
             "Solar Beam",
-            "Earthquake*"
+            "Earthquake*",
+            "Sacred Fire*"
         ]
     },
     "defense_data": {
@@ -16195,7 +16238,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Confusion",
-            "Charge Beam"
+            "Charge Beam",
+            "Magical Leaf*"
         ],
         "charge": [
             "Hyper Beam",
@@ -22972,7 +23016,8 @@ var pokeDB = {
         "charge": [
             "Stone Edge",
             "Zap Cannon",
-            "Focus Blast"
+            "Focus Blast",
+            "Earthquake*"
         ]
     },
     "defense_data": {
@@ -23012,7 +23057,8 @@ var pokeDB = {
         "charge": [
             "Blizzard",
             "Earthquake",
-            "Focus Blast"
+            "Focus Blast",
+            "Thunder*"
         ]
     },
     "defense_data": {
@@ -23048,7 +23094,8 @@ var pokeDB = {
         "charge": [
             "Flash Cannon",
             "Hyper Beam",
-            "Focus Blast"
+            "Focus Blast",
+            "Zap Cannon*"
         ]
     },
     "defense_data": {
@@ -40728,6 +40775,3873 @@ var pokeDB = {
             "Fire": "39.1%",
             "Ice": "39.1%",
             "Steel": "39.1%"
+        }
+    }
+},
+"Rowlet": {
+    "id": "722",
+    "imgurl": 722,
+    "stats": {
+        "atk": 102,
+        "def": 99,
+        "sta": 169
+    },
+    "type": [
+        "Grass",
+        "Flying"
+    ],
+    "name": "Rowlet",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "24.4%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Dartrix": {
+    "id": "723",
+    "imgurl": 723,
+    "stats": {
+        "atk": 142,
+        "def": 139,
+        "sta": 186
+    },
+    "type": [
+        "Grass",
+        "Flying"
+    ],
+    "name": "Dartrix",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Energy Ball",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "24.4%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Decidueye": {
+    "id": "724",
+    "imgurl": 724,
+    "stats": {
+        "atk": 210,
+        "def": 179,
+        "sta": 186
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "name": "Decidueye",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Shadow Sneak",
+            "Energy Ball",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Litten": {
+    "id": "725",
+    "imgurl": 725,
+    "stats": {
+        "atk": 128,
+        "def": 79,
+        "sta": 128
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Litten",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Ember"
+        ],
+        "charge": [
+            "Flamethrower",
+            "Flame Charge",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Torracat": {
+    "id": "726",
+    "imgurl": 726,
+    "stats": {
+        "atk": 174,
+        "def": 103,
+        "sta": 163
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Torracat",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Ember"
+        ],
+        "charge": [
+            "Flamethrower",
+            "Flame Charge",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Incineroar": {
+    "id": "727",
+    "imgurl": 727,
+    "stats": {
+        "atk": 214,
+        "def": 175,
+        "sta": 216
+    },
+    "type": [
+        "Fire",
+        "Dark"
+    ],
+    "name": "Incineroar",
+    "moveset": {
+        "quick": [
+            "Snarl",
+            "Fire Fang"
+        ],
+        "charge": [
+            "Fire Blast",
+            "Flame Charge",
+            "Dark Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Fire": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Psychic": "39.1%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Popplio": {
+    "id": "728",
+    "imgurl": 728,
+    "stats": {
+        "atk": 120,
+        "def": 103,
+        "sta": 137
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Popplio",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Water Gun"
+        ],
+        "charge": [
+            "Aqua Jet",
+            "Water Pulse",
+            "Aqua Tail"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Brionne": {
+    "id": "729",
+    "imgurl": 729,
+    "stats": {
+        "atk": 168,
+        "def": 145,
+        "sta": 155
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Brionne",
+    "moveset": {
+        "quick": [
+            "Charm",
+            "Water Gun"
+        ],
+        "charge": [
+            "Aqua Jet",
+            "Water Pulse",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Primarina": {
+    "id": "730",
+    "imgurl": 730,
+    "stats": {
+        "atk": 232,
+        "def": 195,
+        "sta": 190
+    },
+    "type": [
+        "Water",
+        "Fairy"
+    ],
+    "name": "Primarina",
+    "moveset": {
+        "quick": [
+            "Charm",
+            "Waterfall"
+        ],
+        "charge": [
+            "Psychic",
+            "Hydro Pump",
+            "Moonblast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Pikipek": {
+    "id": "731",
+    "imgurl": 731,
+    "stats": {
+        "atk": 136,
+        "def": 59,
+        "sta": 111
+    },
+    "type": [
+        "Normal",
+        "Flying"
+    ],
+    "name": "Pikipek",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Aerial Ace",
+            "Sky Attack"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Trumbeak": {
+    "id": "732",
+    "imgurl": 732,
+    "stats": {
+        "atk": 159,
+        "def": 100,
+        "sta": 146
+    },
+    "type": [
+        "Normal",
+        "Flying"
+    ],
+    "name": "Trumbeak",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Rock Blast",
+            "Sky Attack"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Toucannon": {
+    "id": "733",
+    "imgurl": 733,
+    "stats": {
+        "atk": 222,
+        "def": 146,
+        "sta": 190
+    },
+    "type": [
+        "Normal",
+        "Flying"
+    ],
+    "name": "Toucannon",
+    "moveset": {
+        "quick": [
+            "Peck",
+            "Rock Smash",
+            "Bullet Seed"
+        ],
+        "charge": [
+            "Drill Peck",
+            "Rock Blast",
+            "Flash Cannon"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Yungoos": {
+    "id": "734",
+    "imgurl": 734,
+    "stats": {
+        "atk": 122,
+        "def": 56,
+        "sta": 134
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Yungoos",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bite"
+        ],
+        "charge": [
+            "Hyper Fang",
+            "Crunch",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Gumshoos": {
+    "id": "735",
+    "imgurl": 735,
+    "stats": {
+        "atk": 194,
+        "def": 113,
+        "sta": 204
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Gumshoos",
+    "moveset": {
+        "quick": [
+            "Take Down",
+            "Bite"
+        ],
+        "charge": [
+            "Hyper Fang",
+            "Crunch",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Grubbin": {
+    "id": "736",
+    "imgurl": 736,
+    "stats": {
+        "atk": 115,
+        "def": 85,
+        "sta": 132
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Grubbin",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Charjabug": {
+    "id": "737",
+    "imgurl": 737,
+    "stats": {
+        "atk": 145,
+        "def": 161,
+        "sta": 149
+    },
+    "type": [
+        "Bug",
+        "Electric"
+    ],
+    "name": "Charjabug",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Vikavolt": {
+    "id": "738",
+    "imgurl": 738,
+    "stats": {
+        "atk": 254,
+        "def": 158,
+        "sta": 184
+    },
+    "type": [
+        "Bug",
+        "Electric"
+    ],
+    "name": "Vikavolt",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Crabrawler": {
+    "id": "739",
+    "imgurl": 739,
+    "stats": {
+        "atk": 150,
+        "def": 104,
+        "sta": 132
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Crabrawler",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Crabominable": {
+    "id": "740",
+    "imgurl": 740,
+    "stats": {
+        "atk": 231,
+        "def": 138,
+        "sta": 219
+    },
+    "type": [
+        "Fighting",
+        "Ice"
+    ],
+    "name": "Crabominable",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Psychic": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Ice": "62.5%"
+        }
+    }
+},
+"Cutiefly": {
+    "id": "742",
+    "imgurl": 742,
+    "stats": {
+        "atk": 110,
+        "def": 81,
+        "sta": 120
+    },
+    "type": [
+        "Bug",
+        "Fairy"
+    ],
+    "name": "Cutiefly",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Poison": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Ribombee": {
+    "id": "743",
+    "imgurl": 743,
+    "stats": {
+        "atk": 198,
+        "def": 146,
+        "sta": 155
+    },
+    "type": [
+        "Bug",
+        "Fairy"
+    ],
+    "name": "Ribombee",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Poison": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Rockruff": {
+    "id": "744",
+    "imgurl": 744,
+    "stats": {
+        "atk": 117,
+        "def": 78,
+        "sta": 128
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Rockruff",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Rock Throw"
+        ],
+        "charge": [
+            "Stone Edge",
+            "Rock Tomb",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Lycanroc": {
+    "id": "745",
+    "imgurl": 745,
+    "stats": {
+        "atk": 218,
+        "def": 152,
+        "sta": 198
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Lycanroc",
+    "moveset": {
+        "quick": [
+            "Counter",
+            "Rock Throw"
+        ],
+        "charge": [
+            "Stone Edge",
+            "Psychic Fangs",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Wishiwashi": {
+    "id": "746",
+    "imgurl": 746,
+    "stats": {
+        "atk": 46,
+        "def": 43,
+        "sta": 128
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Wishiwashi",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Mareanie": {
+    "id": "747",
+    "imgurl": 747,
+    "stats": {
+        "atk": 98,
+        "def": 110,
+        "sta": 137
+    },
+    "type": [
+        "Poison",
+        "Water"
+    ],
+    "name": "Mareanie",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Toxapex": {
+    "id": "748",
+    "imgurl": 748,
+    "stats": {
+        "atk": 114,
+        "def": 273,
+        "sta": 137
+    },
+    "type": [
+        "Poison",
+        "Water"
+    ],
+    "name": "Toxapex",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Mudbray": {
+    "id": "749",
+    "imgurl": 749,
+    "stats": {
+        "atk": 175,
+        "def": 121,
+        "sta": 172
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Mudbray",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Mudsdale": {
+    "id": "750",
+    "imgurl": 750,
+    "stats": {
+        "atk": 214,
+        "def": 174,
+        "sta": 225
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Mudsdale",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Dewpider": {
+    "id": "751",
+    "imgurl": 751,
+    "stats": {
+        "atk": 72,
+        "def": 117,
+        "sta": 116
+    },
+    "type": [
+        "Water",
+        "Bug"
+    ],
+    "name": "Dewpider",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Araquanid": {
+    "id": "752",
+    "imgurl": 752,
+    "stats": {
+        "atk": 126,
+        "def": 219,
+        "sta": 169
+    },
+    "type": [
+        "Water",
+        "Bug"
+    ],
+    "name": "Araquanid",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Fomantis": {
+    "id": "753",
+    "imgurl": 753,
+    "stats": {
+        "atk": 100,
+        "def": 64,
+        "sta": 120
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Fomantis",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Lurantis": {
+    "id": "754",
+    "imgurl": 754,
+    "stats": {
+        "atk": 192,
+        "def": 169,
+        "sta": 172
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Lurantis",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Morelull": {
+    "id": "755",
+    "imgurl": 755,
+    "stats": {
+        "atk": 108,
+        "def": 119,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Fairy"
+    ],
+    "name": "Morelull",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "256%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Shiinotic": {
+    "id": "756",
+    "imgurl": 756,
+    "stats": {
+        "atk": 154,
+        "def": 168,
+        "sta": 155
+    },
+    "type": [
+        "Grass",
+        "Fairy"
+    ],
+    "name": "Shiinotic",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "256%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Salandit": {
+    "id": "757",
+    "imgurl": 757,
+    "stats": {
+        "atk": 136,
+        "def": 80,
+        "sta": 134
+    },
+    "type": [
+        "Poison",
+        "Fire"
+    ],
+    "name": "Salandit",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fairy": "39.1%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Salazzle": {
+    "id": "758",
+    "imgurl": 758,
+    "stats": {
+        "atk": 228,
+        "def": 130,
+        "sta": 169
+    },
+    "type": [
+        "Poison",
+        "Fire"
+    ],
+    "name": "Salazzle",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fairy": "39.1%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Ice": "62.5%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Stufful": {
+    "id": "759",
+    "imgurl": 759,
+    "stats": {
+        "atk": 136,
+        "def": 95,
+        "sta": 172
+    },
+    "type": [
+        "Normal",
+        "Fighting"
+    ],
+    "name": "Stufful",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Ghost": "39.1%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Bewear": {
+    "id": "760",
+    "imgurl": 760,
+    "stats": {
+        "atk": 226,
+        "def": 141,
+        "sta": 260
+    },
+    "type": [
+        "Normal",
+        "Fighting"
+    ],
+    "name": "Bewear",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Ghost": "39.1%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Bounsweet": {
+    "id": "761",
+    "imgurl": 761,
+    "stats": {
+        "atk": 55,
+        "def": 69,
+        "sta": 123
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Bounsweet",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Steenee": {
+    "id": "762",
+    "imgurl": 762,
+    "stats": {
+        "atk": 78,
+        "def": 94,
+        "sta": 141
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Steenee",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Tsareena": {
+    "id": "763",
+    "imgurl": 763,
+    "stats": {
+        "atk": 222,
+        "def": 195,
+        "sta": 176
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Tsareena",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Comfey": {
+    "id": "764",
+    "imgurl": 764,
+    "stats": {
+        "atk": 165,
+        "def": 215,
+        "sta": 139
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Comfey",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Hidden Power"
+        ],
+        "charge": [
+            "Petal Blizzard",
+            "Grass Knot",
+            "Draining Kiss"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Oranguru": {
+    "id": "765",
+    "imgurl": 765,
+    "stats": {
+        "atk": 168,
+        "def": 192,
+        "sta": 207
+    },
+    "type": [
+        "Normal",
+        "Psychic"
+    ],
+    "name": "Oranguru",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Passimian": {
+    "id": "766",
+    "imgurl": 766,
+    "stats": {
+        "atk": 222,
+        "def": 160,
+        "sta": 225
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Passimian",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Wimpod": {
+    "id": "767",
+    "imgurl": 767,
+    "stats": {
+        "atk": 67,
+        "def": 74,
+        "sta": 93
+    },
+    "type": [
+        "Bug",
+        "Water"
+    ],
+    "name": "Wimpod",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Golisopod": {
+    "id": "768",
+    "imgurl": 768,
+    "stats": {
+        "atk": 218,
+        "def": 226,
+        "sta": 181
+    },
+    "type": [
+        "Bug",
+        "Water"
+    ],
+    "name": "Golisopod",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Ground": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Sandygast": {
+    "id": "769",
+    "imgurl": 769,
+    "stats": {
+        "atk": 120,
+        "def": 118,
+        "sta": 146
+    },
+    "type": [
+        "Ghost",
+        "Ground"
+    ],
+    "name": "Sandygast",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "39.1%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Palossand": {
+    "id": "770",
+    "imgurl": 770,
+    "stats": {
+        "atk": 178,
+        "def": 178,
+        "sta": 198
+    },
+    "type": [
+        "Ghost",
+        "Ground"
+    ],
+    "name": "Palossand",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "39.1%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Pyukumuku": {
+    "id": "771",
+    "imgurl": 771,
+    "stats": {
+        "atk": 97,
+        "def": 224,
+        "sta": 146
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Pyukumuku",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Type: Null": {
+    "id": "772",
+    "imgurl": "772-type:",
+    "stats": {
+        "atk": 184,
+        "def": 184,
+        "sta": 216
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Type: Null",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Bug Silvally": {
+    "id": "773",
+    "imgurl": "773-bug",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Bug Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Dark Silvally": {
+    "id": "773",
+    "imgurl": "773-dark",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Dark Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Dragon Silvally": {
+    "id": "773",
+    "imgurl": "773-dragon",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Dragon"
+    ],
+    "name": "Dragon Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Electric Silvally": {
+    "id": "773",
+    "imgurl": "773-electric",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Electric Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Fairy Silvally": {
+    "id": "773",
+    "imgurl": "773-fairy",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Fairy Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Fighting Silvally": {
+    "id": "773",
+    "imgurl": "773-fighting",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Fighting"
+    ],
+    "name": "Fighting Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Fire Silvally": {
+    "id": "773",
+    "imgurl": "773-fire",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Fire Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Flying Silvally": {
+    "id": "773",
+    "imgurl": "773-flying",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Flying"
+    ],
+    "name": "Flying Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
+        }
+    }
+},
+"Ghost Silvally": {
+    "id": "773",
+    "imgurl": "773-ghost",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Ghost Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Grass Silvally": {
+    "id": "773",
+    "imgurl": "773-grass",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Grass"
+    ],
+    "name": "Grass Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Ground Silvally": {
+    "id": "773",
+    "imgurl": "773-ground",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Ground"
+    ],
+    "name": "Ground Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Ice Silvally": {
+    "id": "773",
+    "imgurl": "773-ice",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Ice"
+    ],
+    "name": "Ice Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Rock": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Ice": "62.5%"
+        }
+    }
+},
+"Silvally": {
+    "id": "773",
+    "imgurl": 773,
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Poison Silvally": {
+    "id": "773",
+    "imgurl": "773-poison",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Poison"
+    ],
+    "name": "Poison Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Psychic Silvally": {
+    "id": "773",
+    "imgurl": "773-psychic",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Psychic Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Rock Silvally": {
+    "id": "773",
+    "imgurl": "773-rock",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Rock"
+    ],
+    "name": "Rock Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Steel Silvally": {
+    "id": "773",
+    "imgurl": "773-steel",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Steel"
+    ],
+    "name": "Steel Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Water Silvally": {
+    "id": "773",
+    "imgurl": "773-water",
+    "stats": {
+        "atk": 198,
+        "def": 198,
+        "sta": 216
+    },
+    "type": [
+        "Water"
+    ],
+    "name": "Water Silvally",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Blue Minior": {
+    "id": "774",
+    "imgurl": "774-blue",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Blue Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Minior": {
+    "id": "774",
+    "imgurl": 774,
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Orange Minior": {
+    "id": "774",
+    "imgurl": "774-orange",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Orange Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Red Minior": {
+    "id": "774",
+    "imgurl": "774-red",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Red Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Yellow Minior": {
+    "id": "774",
+    "imgurl": "774-yellow",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Yellow Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Komala": {
+    "id": "775",
+    "imgurl": 775,
+    "stats": {
+        "atk": 216,
+        "def": 165,
+        "sta": 163
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Komala",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Turtonator": {
+    "id": "776",
+    "imgurl": 776,
+    "stats": {
+        "atk": 165,
+        "def": 215,
+        "sta": 155
+    },
+    "type": [
+        "Fire",
+        "Dragon"
+    ],
+    "name": "Turtonator",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Ground": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fire": "39.1%",
+            "Grass": "39.1%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Togedemaru": {
+    "id": "777",
+    "imgurl": 777,
+    "stats": {
+        "atk": 190,
+        "def": 145,
+        "sta": 163
+    },
+    "type": [
+        "Electric",
+        "Steel"
+    ],
+    "name": "Togedemaru",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "160%",
+            "Ground": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "39.1%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "39.1%"
+        }
+    }
+},
+"Mimikyu": {
+    "id": "778",
+    "imgurl": 778,
+    "stats": {
+        "atk": 177,
+        "def": 199,
+        "sta": 146
+    },
+    "type": [
+        "Ghost",
+        "Fairy"
+    ],
+    "name": "Mimikyu",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ghost": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "39.1%",
+            "Fighting": "24.4%",
+            "Normal": "39.1%"
+        }
+    }
+},
+"Bruxish": {
+    "id": "779",
+    "imgurl": 779,
+    "stats": {
+        "atk": 208,
+        "def": 145,
+        "sta": 169
+    },
+    "type": [
+        "Water",
+        "Psychic"
+    ],
+    "name": "Bruxish",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Drampa": {
+    "id": "780",
+    "imgurl": 780,
+    "stats": {
+        "atk": 231,
+        "def": 164,
+        "sta": 186
+    },
+    "type": [
+        "Normal",
+        "Dragon"
+    ],
+    "name": "Drampa",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Ghost": "39.1%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Dhelmise": {
+    "id": "781",
+    "imgurl": 781,
+    "stats": {
+        "atk": 233,
+        "def": 179,
+        "sta": 172
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Dhelmise",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Jangmo-o": {
+    "id": "782",
+    "imgurl": 782,
+    "stats": {
+        "atk": 102,
+        "def": 108,
+        "sta": 128
+    },
+    "type": [
+        "Dragon"
+    ],
+    "name": "Jangmo-o",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Dragon Claw",
+            "Brick Break",
+            "Dragon Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Hakamo-o": {
+    "id": "783",
+    "imgurl": 783,
+    "stats": {
+        "atk": 145,
+        "def": 162,
+        "sta": 146
+    },
+    "type": [
+        "Dragon",
+        "Fighting"
+    ],
+    "name": "Hakamo-o",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Dragon Claw",
+            "Brick Break",
+            "Dragon Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "256%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Rock": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Kommo-o": {
+    "id": "784",
+    "imgurl": 784,
+    "stats": {
+        "atk": 222,
+        "def": 240,
+        "sta": 181
+    },
+    "type": [
+        "Dragon",
+        "Fighting"
+    ],
+    "name": "Kommo-o",
+    "moveset": {
+        "quick": [
+            "Poison Jab",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Dragon Claw",
+            "Close Combat",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "256%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Rock": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Tapu Koko": {
+    "id": "785",
+    "imgurl": "785-tapu",
+    "stats": {
+        "atk": 250,
+        "def": 181,
+        "sta": 172
+    },
+    "type": [
+        "Electric",
+        "Fairy"
+    ],
+    "name": "Tapu Koko",
+    "moveset": {
+        "quick": [
+            "Volt Switch",
+            "Quick Attack"
+        ],
+        "charge": [
+            "Thunderbolt",
+            "Dazzling Gleam",
+            "Brave Bird",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%"
+        }
+    }
+},
+"Tapu Lele": {
+    "id": "786",
+    "imgurl": "786-tapu",
+    "stats": {
+        "atk": 259,
+        "def": 208,
+        "sta": 172
+    },
+    "type": [
+        "Psychic",
+        "Fairy"
+    ],
+    "name": "Tapu Lele",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ghost": "160%",
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dragon": "39.1%",
+            "Fighting": "39.1%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Tapu Bulu": {
+    "id": "787",
+    "imgurl": "787-tapu",
+    "stats": {
+        "atk": 249,
+        "def": 215,
+        "sta": 172
+    },
+    "type": [
+        "Grass",
+        "Fairy"
+    ],
+    "name": "Tapu Bulu",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "256%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Tapu Fini": {
+    "id": "788",
+    "imgurl": "788-tapu",
+    "stats": {
+        "atk": 189,
+        "def": 254,
+        "sta": 172
+    },
+    "type": [
+        "Water",
+        "Fairy"
+    ],
+    "name": "Tapu Fini",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Cosmog": {
+    "id": "789",
+    "imgurl": 789,
+    "stats": {
+        "atk": 54,
+        "def": 57,
+        "sta": 125
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Cosmog",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Cosmoem": {
+    "id": "790",
+    "imgurl": 790,
+    "stats": {
+        "atk": 54,
+        "def": 242,
+        "sta": 125
+    },
+    "type": [
+        "Psychic"
+    ],
+    "name": "Cosmoem",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Solgaleo": {
+    "id": "791",
+    "imgurl": 791,
+    "stats": {
+        "atk": 255,
+        "def": 191,
+        "sta": 264
+    },
+    "type": [
+        "Psychic",
+        "Steel"
+    ],
+    "name": "Solgaleo",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "39.1%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Lunala": {
+    "id": "792",
+    "imgurl": 792,
+    "stats": {
+        "atk": 255,
+        "def": 191,
+        "sta": 264
+    },
+    "type": [
+        "Psychic",
+        "Ghost"
+    ],
+    "name": "Lunala",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "256%",
+            "Ghost": "256%"
+        },
+        "resistant_to": {
+            "Fighting": "24.4%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Nihilego": {
+    "id": "793",
+    "imgurl": 793,
+    "stats": {
+        "atk": 249,
+        "def": 210,
+        "sta": 240
+    },
+    "type": [
+        "Rock",
+        "Poison"
+    ],
+    "name": "Nihilego",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "256%",
+            "Psychic": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%"
+        }
+    }
+},
+"Buzzwole": {
+    "id": "794",
+    "imgurl": 794,
+    "stats": {
+        "atk": 236,
+        "def": 196,
+        "sta": 216
+    },
+    "type": [
+        "Bug",
+        "Fighting"
+    ],
+    "name": "Buzzwole",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fire": "160%",
+            "Flying": "256%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Pheromosa": {
+    "id": "795",
+    "imgurl": 795,
+    "stats": {
+        "atk": 316,
+        "def": 85,
+        "sta": 174
+    },
+    "type": [
+        "Bug",
+        "Fighting"
+    ],
+    "name": "Pheromosa",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fire": "160%",
+            "Flying": "256%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Xurkitree": {
+    "id": "796",
+    "imgurl": 796,
+    "stats": {
+        "atk": 330,
+        "def": 144,
+        "sta": 195
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Xurkitree",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Celesteela": {
+    "id": "797",
+    "imgurl": 797,
+    "stats": {
+        "atk": 207,
+        "def": 199,
+        "sta": 219
+    },
+    "type": [
+        "Steel",
+        "Flying"
+    ],
+    "name": "Celesteela",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Kartana": {
+    "id": "798",
+    "imgurl": 798,
+    "stats": {
+        "atk": 323,
+        "def": 182,
+        "sta": 139
+    },
+    "type": [
+        "Grass",
+        "Steel"
+    ],
+    "name": "Kartana",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Fire": "256%"
+        },
+        "resistant_to": {
+            "Dragon": "62.5%",
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Grass": "39.1%",
+            "Normal": "62.5%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Guzzlord": {
+    "id": "799",
+    "imgurl": 799,
+    "stats": {
+        "atk": 188,
+        "def": 99,
+        "sta": 440
+    },
+    "type": [
+        "Dark",
+        "Ghost"
+    ],
+    "name": "Guzzlord",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Necrozma": {
+    "id": "800",
+    "imgurl": 800,
+    "stats": {
+        "atk": 337,
+        "def": 196,
+        "sta": 200
+    },
+    "type": [
+        "Psychic",
+        "Dragon"
+    ],
+    "name": "Necrozma",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Psychic": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Magearna": {
+    "id": "801",
+    "imgurl": 801,
+    "stats": {
+        "atk": 246,
+        "def": 225,
+        "sta": 190
+    },
+    "type": [
+        "Steel",
+        "Fairy"
+    ],
+    "name": "Magearna",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Dragon": "24.4%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Marshadow": {
+    "id": "802",
+    "imgurl": 802,
+    "stats": {
+        "atk": 265,
+        "def": 190,
+        "sta": 207
+    },
+    "type": [
+        "Fighting",
+        "Ghost"
+    ],
+    "name": "Marshadow",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Poipole": {
+    "id": "803",
+    "imgurl": 803,
+    "stats": {
+        "atk": 145,
+        "def": 133,
+        "sta": 167
+    },
+    "type": [
+        "Poison"
+    ],
+    "name": "Poipole",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Naganadel": {
+    "id": "804",
+    "imgurl": 804,
+    "stats": {
+        "atk": 263,
+        "def": 159,
+        "sta": 177
+    },
+    "type": [
+        "Poison",
+        "Dragon"
+    ],
+    "name": "Naganadel",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "39.1%",
+            "Poison": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Stakataka": {
+    "id": "805",
+    "imgurl": 805,
+    "stats": {
+        "atk": 213,
+        "def": 298,
+        "sta": 156
+    },
+    "type": [
+        "Rock",
+        "Steel"
+    ],
+    "name": "Stakataka",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "256%",
+            "Ground": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "39.1%",
+            "Ice": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Blacephalon": {
+    "id": "806",
+    "imgurl": 806,
+    "stats": {
+        "atk": 315,
+        "def": 148,
+        "sta": 142
+    },
+    "type": [
+        "Fire",
+        "Ghost"
+    ],
+    "name": "Blacephalon",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Zeraora": {
+    "id": "807",
+    "imgurl": 807,
+    "stats": {
+        "atk": 252,
+        "def": 177,
+        "sta": 204
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Zeraora",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
         }
     }
 },
