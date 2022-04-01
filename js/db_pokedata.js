@@ -46788,9 +46788,9 @@ var pokeDB = {
         }
     }
 },
-"Galarian Obstagoon": {
+"Obstagoon": {
     "id": "862",
-    "imgurl": "",
+    "imgurl": 862,
     "stats": {
         "atk": 180,
         "def": 194,
@@ -46800,7 +46800,7 @@ var pokeDB = {
         "Dark",
         "Normal"
     ],
-    "name": "Galarian Obstagoon",
+    "name": "Obstagoon",
     "moveset": {
         "quick": [
             "Counter",
@@ -46826,9 +46826,9 @@ var pokeDB = {
         }
     }
 },
-"Galarian Perrserker": {
+"Perrserker": {
     "id": "863",
-    "imgurl": "",
+    "imgurl": 863,
     "stats": {
         "atk": 195,
         "def": 162,
@@ -46837,7 +46837,7 @@ var pokeDB = {
     "type": [
         "Steel"
     ],
-    "name": "Galarian Perrserker",
+    "name": "Perrserker",
     "moveset": {
         "quick": [
             "Metal Claw",
