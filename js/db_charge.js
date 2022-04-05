@@ -2445,9 +2445,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "40",
+    "power": "20",
+    "dpe": "0.50"
 },
 "Shadow Bone": {
     "type": "Ghost",

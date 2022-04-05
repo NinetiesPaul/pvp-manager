@@ -1894,7 +1894,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
-            "Powder Snow"
+            "Powder Snow",
+            "Shadow Claw*"
         ],
         "charge": [
             "Blizzard",
@@ -1942,7 +1943,8 @@ var pokeDB = {
         "charge": [
             "Earthquake",
             "Rock Tomb",
-            "Bulldoze"
+            "Bulldoze",
+            "Night Slash*"
         ]
     },
     "defense_data": {
@@ -1978,7 +1980,8 @@ var pokeDB = {
         "charge": [
             "Earthquake",
             "Rock Tomb",
-            "Bulldoze"
+            "Bulldoze",
+            "Night Slash*"
         ]
     },
     "defense_data": {
@@ -41482,6 +41485,48 @@ var pokeDB = {
         }
     }
 },
+"Oricorio": {
+    "id": "741",
+    "imgurl": 741,
+    "stats": {
+        "atk": 196,
+        "def": 145,
+        "sta": 181
+    },
+    "type": [
+        "Ghost",
+        "Flying"
+    ],
+    "name": "Oricorio",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Air Slash"
+        ],
+        "charge": [
+            "Aerial Ace",
+            "Air Cutter",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fighting": "24.4%",
+            "Grass": "62.5%",
+            "Ground": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
 "Cutiefly": {
     "id": "742",
     "imgurl": 742,
@@ -41830,10 +41875,13 @@ var pokeDB = {
     "name": "Dewpider",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Infestation",
+            "Bug Bite"
         ],
         "charge": [
-            "Struggle"
+            "Water Pulse",
+            "Bubble Beam",
+            "Mirror Coat"
         ]
     },
     "defense_data": {
@@ -41866,10 +41914,13 @@ var pokeDB = {
     "name": "Araquanid",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Infestation",
+            "Bug Bite"
         ],
         "charge": [
-            "Struggle"
+            "Bug Buzz",
+            "Bubble Beam",
+            "Mirror Coat"
         ]
     },
     "defense_data": {
@@ -41901,10 +41952,13 @@ var pokeDB = {
     "name": "Fomantis",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Razor Leaf",
+            "Fury Cutter"
         ],
         "charge": [
-            "Struggle"
+            "Leaf Blade",
+            "Energy Ball",
+            "Grass Knot"
         ]
     },
     "defense_data": {
@@ -41937,10 +41991,14 @@ var pokeDB = {
     "name": "Lurantis",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Razor Leaf",
+            "Fury Cutter"
         ],
         "charge": [
-            "Struggle"
+            "Leaf Blade",
+            "Leaf Storm",
+            "Super Power",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -42054,10 +42112,13 @@ var pokeDB = {
     "name": "Salandit",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Ember",
+            "Poison Jab"
         ],
         "charge": [
-            "Struggle"
+            "Poison Fang",
+            "Flamethrower",
+            "Dragon Pulse"
         ]
     },
     "defense_data": {
@@ -42094,10 +42155,14 @@ var pokeDB = {
     "name": "Salazzle",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Incinerate",
+            "Poison Jab"
         ],
         "charge": [
-            "Struggle"
+            "Poison Fang",
+            "Fire Blast",
+            "Dragon Pulse",
+            "Sludge Wave"
         ]
     },
     "defense_data": {
@@ -42134,10 +42199,13 @@ var pokeDB = {
     "name": "Stufful",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Super Power",
+            "Brick Break",
+            "Stomp"
         ]
     },
     "defense_data": {
@@ -42170,10 +42238,14 @@ var pokeDB = {
     "name": "Bewear",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Low Kick",
+            "Shadow Claw"
         ],
         "charge": [
-            "Struggle"
+            "Super Power",
+            "Payback",
+            "Stomp"
         ]
     },
     "defense_data": {
@@ -42350,10 +42422,14 @@ var pokeDB = {
     "name": "Oranguru",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Confusion",
+            "Zen Headbutt",
+            "Yawn"
         ],
         "charge": [
-            "Struggle"
+            "Psychic",
+            "Foul Play",
+            "Futuresight"
         ]
     },
     "defense_data": {
@@ -43848,10 +43924,14 @@ var pokeDB = {
     "name": "Tapu Lele",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Confusion",
+            "Astonish"
         ],
         "charge": [
-            "Struggle"
+            "Psyshock",
+            "Moonblast",
+            "Focus Blast",
+            "Futuresight"
         ]
     },
     "defense_data": {
@@ -43882,10 +43962,14 @@ var pokeDB = {
     "name": "Tapu Bulu",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Bullet Seed",
+            "Rock Smash"
         ],
         "charge": [
-            "Struggle"
+            "Grass Knot",
+            "Dazzling Gleam",
+            "Megahorn",
+            "Solar Beam"
         ]
     },
     "defense_data": {
@@ -43922,10 +44006,14 @@ var pokeDB = {
     "name": "Tapu Fini",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Water Gun",
+            "Hidden Power"
         ],
         "charge": [
-            "Struggle"
+            "Surf",
+            "Moonblast",
+            "Ice Beam",
+            "Hydro Pump"
         ]
     },
     "defense_data": {
@@ -46790,7 +46878,7 @@ var pokeDB = {
 },
 "Obstagoon": {
     "id": "862",
-    "imgurl": 862,
+    "imgurl":862,
     "stats": {
         "atk": 180,
         "def": 194,
