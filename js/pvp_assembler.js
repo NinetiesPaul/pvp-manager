@@ -38,6 +38,11 @@ $(document).on('click', '.pkm-list-btn', function() {
 			skip = false;
 
 		$.each(pkms, function(k,v) {
+			if ($("#hide_dv").is(":checked") && jQuery.inArray("256%", Object.values(pokeDB[v].defense_data.vulnerable_to)) > -1) {
+				skip = true;
+				return false;
+			}
+
 			var ept = $("#ept_limit option:selected").val();
 
 			if (ept != "-") {
@@ -62,23 +67,18 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 				if (!hasFastMoves) {
 					skip = true;
+					return false;
 				}
-			}
-
-			if ($("#hide_dv").is(":checked")) {
-				if (jQuery.inArray("256%", Object.values(pokeDB[v].defense_data.vulnerable_to)) > -1) {
-					skip = true;
-				}
-			}
-
-			if (skip) {
-				return false;
 			}
 
 			$.each(pokeDB[v].defense_data.vulnerable_to, function(k,v) {
 				if (jQuery.inArray(k, combinedVulnerabilites) == -1){
 					combinedVulnerabilites.push(k);
 				} else {
+					if ($("#hide_ctv").is(":checked")) {
+						skip = true;
+						return false;
+					}
 					ctVulnerability = false;
 				}
 			})
@@ -91,10 +91,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 		});
 
 		if (skip) {
-			return true;
-		}
-
-		if ($("#hide_ctv").is(":checked") && !ctVulnerability) {
 			return true;
 		}
 
