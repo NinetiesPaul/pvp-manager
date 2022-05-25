@@ -2967,4 +2967,34 @@ var chargeMoveDB = {
     "power": "110",
     "dpe": "1.83"
 },
+"Luster Purge": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "60",
+    "power": "120",
+    "dpe": "2.00"
+},
+"Mist Ball": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "60",
+    "power": "120",
+    "dpe": "2.00"
+},
 }

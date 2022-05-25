@@ -1064,4 +1064,20 @@ var quickMoveDB = {
     "ept": "3.33",
     "dpt": "3.33"
 },
+"Rollout": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "ept": "3.5",
+    "dpt": "1"
+},
 }

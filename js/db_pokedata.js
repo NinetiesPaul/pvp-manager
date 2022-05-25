@@ -7268,38 +7268,42 @@ var pokeDB = {
         }
     }
 },
-"Voltorb": {
+"Hisuian Voltorb": {
     "id": "100",
-    "imgurl": 100,
+    "imgurl": "100-hisuian",
     "stats": {
         "atk": 109,
         "def": 111,
         "sta": 120
     },
     "type": [
-        "Electric"
+        "Electric",
+        "Grass"
     ],
-    "name": "Voltorb",
+    "name": "Hisuian Voltorb",
     "moveset": {
         "quick": [
-            "Spark",
+            "Charge Beam",
             "Tackle"
         ],
         "charge": [
-            "Discharge",
+            "Swift",
             "Thunderbolt",
-            "Gyro Ball",
-            "Signal Beam*"
+            "Energy Ball"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
-            "Ground": "160%"
+            "Bug": "160%",
+            "Fire": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
         },
         "resistant_to": {
-            "Electric": "62.5%",
-            "Flying": "62.5%",
-            "Steel": "62.5%"
+            "Electric": "39.1%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
         }
     }
 },
@@ -7338,7 +7342,81 @@ var pokeDB = {
         }
     }
 },
-"Electrode": {
+"Voltorb": {
+    "id": "100",
+    "imgurl": 100,
+    "stats": {
+        "atk": 109,
+        "def": 111,
+        "sta": 120
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Voltorb",
+    "moveset": {
+        "quick": [
+            "Spark",
+            "Tackle"
+        ],
+        "charge": [
+            "Discharge",
+            "Thunderbolt",
+            "Gyro Ball",
+            "Signal Beam*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Hisuian Electrode": {
+    "id": "101",
+    "imgurl": "101-hisuian",
+    "stats": {
+        "atk": 176,
+        "def": 176,
+        "sta": 155
+    },
+    "type": [
+        "Electric",
+        "Grass"
+    ],
+    "name": "Hisuian Electrode",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Tackle"
+        ],
+        "charge": [
+            "Swift",
+            "Wild Charge",
+            "Energy Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Shadow Electrode": {
     "id": "101",
     "imgurl": 101,
     "stats": {
@@ -7349,7 +7427,7 @@ var pokeDB = {
     "type": [
         "Electric"
     ],
-    "name": "Electrode",
+    "name": "Shadow Electrode",
     "moveset": {
         "quick": [
             "Spark",
@@ -7374,7 +7452,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Electrode": {
+"Electrode": {
     "id": "101",
     "imgurl": 101,
     "stats": {
@@ -7385,7 +7463,7 @@ var pokeDB = {
     "type": [
         "Electric"
     ],
-    "name": "Shadow Electrode",
+    "name": "Electrode",
     "moveset": {
         "quick": [
             "Spark",
@@ -7519,7 +7597,8 @@ var pokeDB = {
         "charge": [
             "Seed Bomb",
             "Dragon Pulse",
-            "Solar Beam"
+            "Solar Beam",
+            "Draco Meteor*"
         ]
     },
     "defense_data": {
@@ -23744,7 +23823,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Outrage",
-            "Thunder"
+            "Thunder",
+            "Mist Ball*"
         ]
     },
     "defense_data": {
@@ -23788,7 +23868,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Outrage",
-            "Thunder"
+            "Thunder",
+            "Mist Ball*"
         ]
     },
     "defense_data": {
@@ -23831,7 +23912,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Dragon Claw",
-            "Solar Beam"
+            "Solar Beam",
+            "Luster Purge*"
         ]
     },
     "defense_data": {
@@ -38348,9 +38430,9 @@ var pokeDB = {
         }
     }
 },
-"Flabebe": {
+"Blue Flabebe": {
     "id": "669",
-    "imgurl": 669,
+    "imgurl": "669-blue",
     "stats": {
         "atk": 108,
         "def": 120,
@@ -38359,7 +38441,79 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Flabebe",
+    "name": "Blue Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Flabebe": {
+    "id": "669",
+    "imgurl": "669-orange",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Flabebe": {
+    "id": "669",
+    "imgurl": "669-red",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Flabebe",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -38420,9 +38574,45 @@ var pokeDB = {
         }
     }
 },
-"Floette": {
+"Yellow Flabebe": {
+    "id": "669",
+    "imgurl": "669-yellow",
+    "stats": {
+        "atk": 108,
+        "def": 120,
+        "sta": 127
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Flabebe",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Blue Floette": {
     "id": "670",
-    "imgurl": 670,
+    "imgurl": "670-blue",
     "stats": {
         "atk": 136,
         "def": 151,
@@ -38431,7 +38621,79 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Floette",
+    "name": "Blue Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Floette": {
+    "id": "670",
+    "imgurl": "670-orange",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Floette": {
+    "id": "670",
+    "imgurl": "670-red",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Floette",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -38492,9 +38754,45 @@ var pokeDB = {
         }
     }
 },
-"Florges": {
+"Yellow Floette": {
+    "id": "670",
+    "imgurl": "670-yellow",
+    "stats": {
+        "atk": 136,
+        "def": 151,
+        "sta": 144
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Floette",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Petal Blizzard",
+            "Psychic"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Blue Florges": {
     "id": "671",
-    "imgurl": 671,
+    "imgurl": "671-blue",
     "stats": {
         "atk": 212,
         "def": 244,
@@ -38503,7 +38801,83 @@ var pokeDB = {
     "type": [
         "Fairy"
     ],
-    "name": "Florges",
+    "name": "Blue Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Orange Florges": {
+    "id": "671",
+    "imgurl": "671-orange",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Orange Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Red Florges": {
+    "id": "671",
+    "imgurl": "671-red",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Red Florges",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -38542,6 +38916,44 @@ var pokeDB = {
         "Fairy"
     ],
     "name": "White Florges",
+    "moveset": {
+        "quick": [
+            "Vine Whip",
+            "Tackle",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Moonblast",
+            "Petal Blizzard",
+            "Psychic",
+            "Disarming Voice"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Poison": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fighting": "62.5%"
+        }
+    }
+},
+"Yellow Florges": {
+    "id": "671",
+    "imgurl": "671-yellow",
+    "stats": {
+        "atk": 212,
+        "def": 244,
+        "sta": 186
+    },
+    "type": [
+        "Fairy"
+    ],
+    "name": "Yellow Florges",
     "moveset": {
         "quick": [
             "Vine Whip",
@@ -40401,19 +40813,19 @@ var pokeDB = {
         }
     }
 },
-"Pumpkaboo": {
+"Average Pumpkaboo": {
     "id": "710",
-    "imgurl": 710,
+    "imgurl": "710-average",
     "stats": {
-        "atk": 118,
-        "def": 120,
-        "sta": 153
+        "atk": 121,
+        "def": 123,
+        "sta": 135
     },
     "type": [
         "Ghost",
         "Grass"
     ],
-    "name": "Pumpkaboo",
+    "name": "Average Pumpkaboo",
     "moveset": {
         "quick": [
             "Astonish",
@@ -40443,9 +40855,264 @@ var pokeDB = {
         }
     }
 },
-"Gourgeist": {
+"Large Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-large",
+    "stats": {
+        "atk": 120,
+        "def": 122,
+        "sta": 144
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Large Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Small Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-small",
+    "stats": {
+        "atk": 122,
+        "def": 124,
+        "sta": 127
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Small Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Super Pumpkaboo": {
+    "id": "710",
+    "imgurl": "710-super",
+    "stats": {
+        "atk": 118,
+        "def": 120,
+        "sta": 153
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Super Pumpkaboo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Shadow Sneak",
+            "Foul Play"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Average Gourgeist": {
     "id": "711",
-    "imgurl": 711,
+    "imgurl": "711-average",
+    "stats": {
+        "atk": 175,
+        "def": 213,
+        "sta": 163
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Average Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Large Gourgeist": {
+    "id": "711",
+    "imgurl": "711-large",
+    "stats": {
+        "atk": 179,
+        "def": 206,
+        "sta": 181
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Large Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Small Gourgeist": {
+    "id": "711",
+    "imgurl": "711-small",
+    "stats": {
+        "atk": 171,
+        "def": 219,
+        "sta": 146
+    },
+    "type": [
+        "Ghost",
+        "Grass"
+    ],
+    "name": "Small Gourgeist",
+    "moveset": {
+        "quick": [
+            "Hex",
+            "Razor Leaf"
+        ],
+        "charge": [
+            "Seed Bomb",
+            "Shadow Ball",
+            "Foul Play",
+            "Fire Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Super Gourgeist": {
+    "id": "711",
+    "imgurl": "711-super",
     "stats": {
         "atk": 182,
         "def": 200,
@@ -40455,7 +41122,7 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "name": "Gourgeist",
+    "name": "Super Gourgeist",
     "moveset": {
         "quick": [
             "Hex",
@@ -42380,7 +43047,8 @@ var pokeDB = {
         "charge": [
             "Super Power",
             "Payback",
-            "Stomp"
+            "Stomp",
+            "Drain Punch*"
         ]
     },
     "defense_data": {
@@ -43429,6 +44097,45 @@ var pokeDB = {
         }
     }
 },
+"Blue Minior": {
+    "id": "774",
+    "imgurl": "774-blue",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Blue Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
 "Minior": {
     "id": "774",
     "imgurl": 774,
@@ -43442,6 +44149,123 @@ var pokeDB = {
         "Flying"
     ],
     "name": "Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Orange Minior": {
+    "id": "774",
+    "imgurl": "774-orange",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Orange Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Red Minior": {
+    "id": "774",
+    "imgurl": "774-red",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Red Minior",
+    "moveset": {
+        "quick": [
+            "Struggle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Ice": "160%",
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Yellow Minior": {
+    "id": "774",
+    "imgurl": "774-yellow",
+    "stats": {
+        "atk": 218,
+        "def": 131,
+        "sta": 155
+    },
+    "type": [
+        "Rock",
+        "Flying"
+    ],
+    "name": "Yellow Minior",
     "moveset": {
         "quick": [
             "Struggle"
