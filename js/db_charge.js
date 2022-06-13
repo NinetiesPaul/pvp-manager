@@ -2997,4 +2997,24 @@ var chargeMoveDB = {
     "power": "120",
     "dpe": "2.00"
 },
+"Seed Flare": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "75",
+    "power": "130",
+    "dpe": "1.73"
+},
 }
