@@ -47,6 +47,8 @@
                 "Electric": "#F8DD64",
                 "Fighting": "#E04452",
             }
+
+            var hideTypes = [];
             
             $(document).ready( function () {
 
@@ -125,6 +127,47 @@
 					disableMove(this.value, 'charge1_move-slot3');
 					getMoveData(this.value, 'charge2', 'slot3');
 				});
+
+                $('.hideType').on('click', function (){
+                    var rowsHidden = 0;
+                    var rowsShown = 0;
+                    var hideType = this.textContent;
+
+                    if (jQuery.inArray(hideType, hideTypes) == -1){
+                        hideTypes.push(hideType);
+                    } else {
+                        hideTypes = hideTypes.filter(function(item) {
+                            return item !== hideType
+                        })
+                    }
+
+                    if (this.classList.contains('disabled')) {
+                        this.classList.remove('disabled')
+
+                    } else {
+                        this.classList.add('disabled')
+                    }
+
+                    $("#teamassembler-table tbody tr").each(function(k, v) {
+                        rowTypes = v.getAttribute("rowTypes").split(",");
+
+                        $.each(rowTypes, function (idx,type){
+
+                            if (jQuery.inArray(type, hideTypes) != -1) {
+                                v.classList.add("hide")
+                                rowsHidden += 1;
+                                return false;
+                            } else {
+                                if (v.classList.contains("hide")) {
+                                    v.classList.remove("hide")
+                                    rowsShown += 1;
+                                }
+                            }
+                        });
+                    });
+
+                    //$(".teamCounter").html($("#teamassembler-table tbody tr").length)
+                });
             });
         
         </script>
@@ -423,6 +466,33 @@
                                 <option value="4">4</option>
                             </select>
                         </p><br>
+
+                        <table style="width: 100%">
+                            <tbody>
+                                <tr>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #9BA0A0;">Normal</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #F8DD64;">Electric</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #5FA9DC;">Water</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #FFA74E;">Fire</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #E04452;">Fighting</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #D3C891;">Rock</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #D68858;">Ground</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #6A6EC4;">Ghost</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #EF9AE2;">Fairy</button></td>
+                                </tr>
+                                <tr>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #9AB4E4;">Flying</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #5DBC66;">Grass</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #FA8281;">Psychic</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #6C7180;">Dark</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #559DA5;">Steel</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #A5C731;">Bug</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #B762CE;">Poison</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #84D6CC;">Ice</button></td>
+                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #0780BD;">Dragon</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
 
                         <p id="assembler_result">
                             

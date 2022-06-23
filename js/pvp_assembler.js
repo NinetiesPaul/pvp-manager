@@ -98,8 +98,10 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
 
+		rowTypes = [ pokeDB[slot1].type.join(","), pokeDB[slot2].type.join(","), pokeDB[slot3].type.join(",") ].join(",")
+
 		textToAppend += 
-		"<tr>"+
+		"<tr rowTypes='" + rowTypes +  "'>"+
 			"<th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th>"+
 			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "</small></td>"+
 			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "</small></td>"+
@@ -110,7 +112,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 		
 	});
 
-	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> " + teamCounter + "<br>";
+	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> <span class='teamCounter'>" + teamCounter + "</span><br>";
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
