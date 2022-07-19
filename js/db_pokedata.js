@@ -5460,6 +5460,49 @@ var pokeDB = {
         }
     }
 },
+"Shadow Geodude": {
+    "id": "074",
+    "imgurl": 74,
+    "stats": {
+        "atk": 132,
+        "def": 132,
+        "sta": 120
+    },
+    "type": [
+        "Rock",
+        "Ground"
+    ],
+    "name": "Shadow Geodude",
+    "moveset": {
+        "quick": [
+            "Rock Throw",
+            "Tackle"
+        ],
+        "charge": [
+            "Rock Slide",
+            "Rock Tomb",
+            "Dig"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "256%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Steel": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
+        }
+    }
+},
 "Geodude": {
     "id": "074",
     "imgurl": 74,
@@ -5540,6 +5583,50 @@ var pokeDB = {
             "Flying": "39.1%",
             "Normal": "62.5%",
             "Poison": "62.5%"
+        }
+    }
+},
+"Shadow Graveler": {
+    "id": "075",
+    "imgurl": 75,
+    "stats": {
+        "atk": 164,
+        "def": 164,
+        "sta": 146
+    },
+    "type": [
+        "Rock",
+        "Ground"
+    ],
+    "name": "Shadow Graveler",
+    "moveset": {
+        "quick": [
+            "Rock Throw",
+            "Mud Slap"
+        ],
+        "charge": [
+            "Dig",
+            "Stone Edge",
+            "Rock Blast",
+            "Rock Slide*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "256%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Steel": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
         }
     }
 },
@@ -5625,6 +5712,50 @@ var pokeDB = {
             "Flying": "39.1%",
             "Normal": "62.5%",
             "Poison": "62.5%"
+        }
+    }
+},
+"Shadow Golem": {
+    "id": "076",
+    "imgurl": 76,
+    "stats": {
+        "atk": 211,
+        "def": 198,
+        "sta": 190
+    },
+    "type": [
+        "Rock",
+        "Ground"
+    ],
+    "name": "Shadow Golem",
+    "moveset": {
+        "quick": [
+            "Rock Throw",
+            "Mud Slap"
+        ],
+        "charge": [
+            "Stone Edge",
+            "Rock Blast",
+            "Earthquake",
+            "Ancient Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "256%",
+            "Ground": "160%",
+            "Ice": "160%",
+            "Steel": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
         }
     }
 },
@@ -6258,7 +6389,7 @@ var pokeDB = {
 },
 "Galarian Farfetch’d": {
     "id": "083",
-    "imgurl": 10166,
+    "imgurl": "",
     "stats": {
         "atk": 174,
         "def": 114,
@@ -19114,6 +19245,38 @@ var pokeDB = {
         }
     }
 },
+"Shadow Whismur": {
+    "id": "293",
+    "imgurl": 293,
+    "stats": {
+        "atk": 92,
+        "def": 42,
+        "sta": 162
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Shadow Whismur",
+    "moveset": {
+        "quick": [
+            "Pound",
+            "Astonish"
+        ],
+        "charge": [
+            "Stomp",
+            "Disarming Voice",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
 "Loudred": {
     "id": "294",
     "imgurl": 294,
@@ -24048,30 +24211,29 @@ var pokeDB = {
         }
     }
 },
-"Shadow Latias": {
-    "id": "380",
-    "imgurl": 380,
+"Latios": {
+    "id": "381",
+    "imgurl": 381,
     "stats": {
-        "atk": 228,
-        "def": 246,
+        "atk": 268,
+        "def": 212,
         "sta": 190
     },
     "type": [
         "Dragon",
         "Psychic"
     ],
-    "name": "Shadow Latias",
+    "name": "Latios",
     "moveset": {
         "quick": [
             "Dragon Breath",
-            "Zen Headbutt",
-            "Charm"
+            "Zen Headbutt"
         ],
         "charge": [
             "Psychic",
-            "Outrage",
-            "Thunder",
-            "Mist Ball*"
+            "Dragon Claw",
+            "Solar Beam",
+            "Luster Purge*"
         ]
     },
     "defense_data": {
@@ -24093,7 +24255,7 @@ var pokeDB = {
         }
     }
 },
-"Latios": {
+"Shadow Latios": {
     "id": "381",
     "imgurl": 381,
     "stats": {
@@ -24105,7 +24267,7 @@ var pokeDB = {
         "Dragon",
         "Psychic"
     ],
-    "name": "Latios",
+    "name": "Shadow Latios",
     "moveset": {
         "quick": [
             "Dragon Breath",
@@ -25394,6 +25556,40 @@ var pokeDB = {
         }
     }
 },
+"Shadow Shinx": {
+    "id": "403",
+    "imgurl": 403,
+    "stats": {
+        "atk": 117,
+        "def": 64,
+        "sta": 128
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Shadow Shinx",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Spark"
+        ],
+        "charge": [
+            "Discharge",
+            "Thunderbolt",
+            "Swift"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Luxio": {
     "id": "404",
     "imgurl": 404,
@@ -25428,6 +25624,40 @@ var pokeDB = {
         }
     }
 },
+"Shadow Luxio": {
+    "id": "404",
+    "imgurl": 404,
+    "stats": {
+        "atk": 159,
+        "def": 95,
+        "sta": 155
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Shadow Luxio",
+    "moveset": {
+        "quick": [
+            "Spark",
+            "Bite"
+        ],
+        "charge": [
+            "Thunderbolt",
+            "Wild Charge",
+            "Crunch"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Luxray": {
     "id": "405",
     "imgurl": 405,
@@ -25440,6 +25670,42 @@ var pokeDB = {
         "Electric"
     ],
     "name": "Luxray",
+    "moveset": {
+        "quick": [
+            "Spark",
+            "Snarl",
+            "Hidden Power"
+        ],
+        "charge": [
+            "Hyper Beam",
+            "Wild Charge",
+            "Crunch",
+            "Psychic Fangs*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Shadow Luxray": {
+    "id": "405",
+    "imgurl": 405,
+    "stats": {
+        "atk": 232,
+        "def": 156,
+        "sta": 190
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Shadow Luxray",
     "moveset": {
         "quick": [
             "Spark",
@@ -31239,6 +31505,38 @@ var pokeDB = {
         }
     }
 },
+"Shadow Patrat": {
+    "id": "504",
+    "imgurl": 504,
+    "stats": {
+        "atk": 98,
+        "def": 73,
+        "sta": 128
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Shadow Patrat",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Bite"
+        ],
+        "charge": [
+            "Dig",
+            "Hyper Fang",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
 "Watchog": {
     "id": "505",
     "imgurl": 505,
@@ -31251,6 +31549,38 @@ var pokeDB = {
         "Normal"
     ],
     "name": "Watchog",
+    "moveset": {
+        "quick": [
+            "Low Kick",
+            "Bite"
+        ],
+        "charge": [
+            "Crunch",
+            "Hyper Fang",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    }
+},
+"Shadow Watchog": {
+    "id": "505",
+    "imgurl": 505,
+    "stats": {
+        "atk": 165,
+        "def": 139,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "name": "Shadow Watchog",
     "moveset": {
         "quick": [
             "Low Kick",
@@ -31404,6 +31734,42 @@ var pokeDB = {
         }
     }
 },
+"Shadow Purrloin": {
+    "id": "509",
+    "imgurl": 509,
+    "stats": {
+        "atk": 98,
+        "def": 73,
+        "sta": 121
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Shadow Purrloin",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Night Slash",
+            "Play Rough",
+            "Dark Pulse"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
 "Liepard": {
     "id": "510",
     "imgurl": 510,
@@ -31416,6 +31782,43 @@ var pokeDB = {
         "Dark"
     ],
     "name": "Liepard",
+    "moveset": {
+        "quick": [
+            "Charm",
+            "Snarl"
+        ],
+        "charge": [
+            "Gunk Shot",
+            "Play Rough",
+            "Dark Pulse",
+            "Payback"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fairy": "160%",
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Shadow Liepard": {
+    "id": "510",
+    "imgurl": 510,
+    "stats": {
+        "atk": 187,
+        "def": 106,
+        "sta": 162
+    },
+    "type": [
+        "Dark"
+    ],
+    "name": "Shadow Liepard",
     "moveset": {
         "quick": [
             "Charm",
@@ -34263,6 +34666,45 @@ var pokeDB = {
         }
     }
 },
+"Shadow Ducklett": {
+    "id": "580",
+    "imgurl": 580,
+    "stats": {
+        "atk": 84,
+        "def": 96,
+        "sta": 158
+    },
+    "type": [
+        "Water",
+        "Flying"
+    ],
+    "name": "Shadow Ducklett",
+    "moveset": {
+        "quick": [
+            "Water Gun",
+            "Wing Attack"
+        ],
+        "charge": [
+            "Aerial Ace",
+            "Bubble Beam",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "256%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ground": "39.1%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Swanna": {
     "id": "581",
     "imgurl": 581,
@@ -34276,6 +34718,45 @@ var pokeDB = {
         "Flying"
     ],
     "name": "Swanna",
+    "moveset": {
+        "quick": [
+            "Water Gun",
+            "Air Slash"
+        ],
+        "charge": [
+            "Ice Beam",
+            "Bubble Beam",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "256%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Ground": "39.1%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Shadow Swanna": {
+    "id": "581",
+    "imgurl": 581,
+    "stats": {
+        "atk": 182,
+        "def": 132,
+        "sta": 181
+    },
+    "type": [
+        "Water",
+        "Flying"
+    ],
+    "name": "Shadow Swanna",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -34905,6 +35386,46 @@ var pokeDB = {
         }
     }
 },
+"Shadow Foongus": {
+    "id": "590",
+    "imgurl": 590,
+    "stats": {
+        "atk": 97,
+        "def": 91,
+        "sta": 170
+    },
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "name": "Shadow Foongus",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Feint Attack"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Body Slam",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Amoonguss": {
     "id": "591",
     "imgurl": 591,
@@ -34918,6 +35439,46 @@ var pokeDB = {
         "Poison"
     ],
     "name": "Amoonguss",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Feint Attack"
+        ],
+        "charge": [
+            "Foul Play",
+            "Sludge Bomb",
+            "Grass Knot"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "39.1%",
+            "Water": "62.5%"
+        }
+    }
+},
+"Shadow Amoonguss": {
+    "id": "591",
+    "imgurl": 591,
+    "stats": {
+        "atk": 155,
+        "def": 139,
+        "sta": 249
+    },
+    "type": [
+        "Grass",
+        "Poison"
+    ],
+    "name": "Shadow Amoonguss",
     "moveset": {
         "quick": [
             "Astonish",
@@ -36797,7 +37358,8 @@ var pokeDB = {
         "charge": [
             "Dragon Pulse",
             "Dark Pulse",
-            "Flash Cannon"
+            "Flash Cannon",
+            "Brutal Swing*"
         ]
     },
     "defense_data": {
@@ -42334,10 +42896,13 @@ var pokeDB = {
     "name": "Grubbin",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Bug Bite",
+            "Spark"
         ],
         "charge": [
-            "Struggle"
+            "X Scissor",
+            "Vice Grip",
+            "Crunch"
         ]
     },
     "defense_data": {
@@ -42368,10 +42933,13 @@ var pokeDB = {
     "name": "Charjabug",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Bug Bite",
+            "Spark"
         ],
         "charge": [
-            "Struggle"
+            "X Scissor",
+            "Discharge",
+            "Crunch"
         ]
     },
     "defense_data": {
@@ -42402,10 +42970,14 @@ var pokeDB = {
     "name": "Vikavolt",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Bug Bite",
+            "Spark",
+            "Mud Slap"
         ],
         "charge": [
-            "Struggle"
+            "X Scissor",
+            "Discharge",
+            "Crunch"
         ]
     },
     "defense_data": {
@@ -42435,10 +43007,13 @@ var pokeDB = {
     "name": "Crabrawler",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rock Smash",
+            "Bubble"
         ],
         "charge": [
-            "Struggle"
+            "Power Up Punch",
+            "Crabhammer",
+            "Payback"
         ]
     },
     "defense_data": {
@@ -42469,10 +43044,14 @@ var pokeDB = {
     "name": "Crabominable",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rock Smash",
+            "Bubble"
         ],
         "charge": [
-            "Struggle"
+            "Power Up Punch",
+            "Crabhammer",
+            "Payback",
+            "Ice Punch"
         ]
     },
     "defense_data": {
@@ -42668,10 +43247,12 @@ var pokeDB = {
     "name": "Cutiefly",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Fairy Wind",
+            "Struggle Bug"
         ],
         "charge": [
-            "Struggle"
+            "Dazzling Gleam",
+            "Bug Buzz"
         ]
     },
     "defense_data": {
@@ -42707,10 +43288,12 @@ var pokeDB = {
     "name": "Ribombee",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Fairy Wind",
+            "Struggle Bug"
         ],
         "charge": [
-            "Struggle"
+            "Dazzling Gleam",
+            "Bug Buzz"
         ]
     },
     "defense_data": {
@@ -42784,10 +43367,14 @@ var pokeDB = {
     "name": "Dusk Lycanroc",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Sucker Punch",
+            "Counter",
+            "Rock Throw"
         ],
         "charge": [
-            "Struggle"
+            "Stone Edge",
+            "Iron Head",
+            "Crunch"
         ]
     },
     "defense_data": {
@@ -42808,7 +43395,7 @@ var pokeDB = {
 },
 "Midday Lycanroc": {
     "id": "745",
-    "imgurl": "745",
+    "imgurl": 745,
     "stats": {
         "atk": 231,
         "def": 140,
@@ -42898,10 +43485,14 @@ var pokeDB = {
     "name": "School Wishiwashi",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Water Gun",
+            "Waterfall",
+            "Iron Tail"
         ],
         "charge": [
-            "Struggle"
+            "Brine",
+            "Surf",
+            "Aqua Tail"
         ]
     },
     "defense_data": {
@@ -42931,10 +43522,14 @@ var pokeDB = {
     "name": "Solo Wishiwashi",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Water Gun",
+            "Waterfall",
+            "Iron Tail"
         ],
         "charge": [
-            "Struggle"
+            "Brine",
+            "Surf",
+            "Aqua Tail"
         ]
     },
     "defense_data": {
@@ -42965,10 +43560,13 @@ var pokeDB = {
     "name": "Mareanie",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Poison Sting",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Muddy Water",
+            "Gunk Shot",
+            "Sludge Wave"
         ]
     },
     "defense_data": {
@@ -43004,10 +43602,13 @@ var pokeDB = {
     "name": "Toxapex",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Poison Jab",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Muddy Water",
+            "Gunk Shot",
+            "Sludge Wave"
         ]
     },
     "defense_data": {
@@ -43042,10 +43643,13 @@ var pokeDB = {
     "name": "Mudbray",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Mud Slap",
+            "Rock Smash"
         ],
         "charge": [
-            "Struggle"
+            "Bulldoze",
+            "Body Slam",
+            "Earthquake"
         ]
     },
     "defense_data": {
@@ -43075,10 +43679,14 @@ var pokeDB = {
     "name": "Mudsdale",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Mud Slap",
+            "Rock Smash"
         ],
         "charge": [
-            "Struggle"
+            "Bulldoze",
+            "Body Slam",
+            "Earthquake",
+            "Heavy Slam"
         ]
     },
     "defense_data": {
@@ -43266,10 +43874,12 @@ var pokeDB = {
     "name": "Morelull",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish"
         ],
         "charge": [
-            "Struggle"
+            "Giga Drain",
+            "Dazzling Gleam",
+            "Seed Bomb"
         ]
     },
     "defense_data": {
@@ -43306,10 +43916,13 @@ var pokeDB = {
     "name": "Shiinotic",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish"
         ],
         "charge": [
-            "Struggle"
+            "Giga Drain",
+            "Moonblast",
+            "Seed Bomb",
+            "Sludge Bomb"
         ]
     },
     "defense_data": {
@@ -43512,10 +44125,12 @@ var pokeDB = {
     "name": "Bounsweet",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Razor Leaf",
+            "Charm"
         ],
         "charge": [
-            "Struggle"
+            "Energy Ball",
+            "Draining Kiss"
         ]
     },
     "defense_data": {
@@ -43548,10 +44163,13 @@ var pokeDB = {
     "name": "Steenee",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Razor Leaf",
+            "Charm"
         ],
         "charge": [
-            "Struggle"
+            "Energy Ball",
+            "Draining Kiss",
+            "Grass Knot"
         ]
     },
     "defense_data": {
@@ -43584,10 +44202,15 @@ var pokeDB = {
     "name": "Tsareena",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Razor Leaf",
+            "Charm",
+            "Magical Leaf"
         ],
         "charge": [
-            "Struggle"
+            "Energy Ball",
+            "Draining Kiss",
+            "Grass Knot",
+            "Stomp"
         ]
     },
     "defense_data": {
@@ -43692,10 +44315,14 @@ var pokeDB = {
     "name": "Passimian",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Counter",
+            "Rock Smash",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Brick Break",
+            "Close Combat",
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -43726,10 +44353,10 @@ var pokeDB = {
     "name": "Wimpod",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Struggle Bug"
         ],
         "charge": [
-            "Struggle"
+            "Bug Buzz"
         ]
     },
     "defense_data": {
@@ -43762,10 +44389,14 @@ var pokeDB = {
     "name": "Golisopod",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Fury Cutter",
+            "Metal Claw",
+            "Waterfall"
         ],
         "charge": [
-            "Struggle"
+            "X Scissor",
+            "Aqua Jet",
+            "Aerial Ace"
         ]
     },
     "defense_data": {
@@ -43798,10 +44429,13 @@ var pokeDB = {
     "name": "Sandygast",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish",
+            "Mud Shot"
         ],
         "charge": [
-            "Struggle"
+            "Sand Tomb",
+            "Shadow Ball",
+            "Earth Power"
         ]
     },
     "defense_data": {
@@ -43837,10 +44471,13 @@ var pokeDB = {
     "name": "Palossand",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish",
+            "Mud Shot"
         ],
         "charge": [
-            "Struggle"
+            "Sand Tomb",
+            "Shadow Ball",
+            "Earth Power"
         ]
     },
     "defense_data": {
@@ -43875,10 +44512,10 @@ var pokeDB = {
     "name": "Pyukumuku",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Counter"
         ],
         "charge": [
-            "Struggle"
+            "Mirror Coat"
         ]
     },
     "defense_data": {
@@ -43908,10 +44545,13 @@ var pokeDB = {
     "name": "Type: Null",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace"
         ]
     },
     "defense_data": {
@@ -43937,10 +44577,15 @@ var pokeDB = {
     "name": "Bug Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -43970,10 +44615,15 @@ var pokeDB = {
     "name": "Dark Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44003,10 +44653,15 @@ var pokeDB = {
     "name": "Dragon Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44037,10 +44692,15 @@ var pokeDB = {
     "name": "Electric Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44068,10 +44728,15 @@ var pokeDB = {
     "name": "Fairy Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44101,10 +44766,15 @@ var pokeDB = {
     "name": "Fighting Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44134,10 +44804,15 @@ var pokeDB = {
     "name": "Fire Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44170,10 +44845,15 @@ var pokeDB = {
     "name": "Flying Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44204,10 +44884,15 @@ var pokeDB = {
     "name": "Ghost Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44237,10 +44922,15 @@ var pokeDB = {
     "name": "Grass Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44273,10 +44963,15 @@ var pokeDB = {
     "name": "Ground Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44306,10 +45001,15 @@ var pokeDB = {
     "name": "Ice Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44338,10 +45038,15 @@ var pokeDB = {
     "name": "Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44367,10 +45072,15 @@ var pokeDB = {
     "name": "Poison Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44401,10 +45111,15 @@ var pokeDB = {
     "name": "Psychic Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44433,10 +45148,15 @@ var pokeDB = {
     "name": "Rock Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44469,10 +45189,15 @@ var pokeDB = {
     "name": "Steel Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44510,10 +45235,15 @@ var pokeDB = {
     "name": "Water Silvally",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Tackle",
+            "Take Down",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Tri Attack",
+            "Iron Head",
+            "Aerial Ace",
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -44544,10 +45274,13 @@ var pokeDB = {
     "name": "Blue Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44583,10 +45316,13 @@ var pokeDB = {
     "name": "Green Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44622,10 +45358,13 @@ var pokeDB = {
     "name": "Indigo Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44661,10 +45400,13 @@ var pokeDB = {
     "name": "Orange Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44700,10 +45442,13 @@ var pokeDB = {
     "name": "Red Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44739,10 +45484,13 @@ var pokeDB = {
     "name": "Violet Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44778,10 +45526,13 @@ var pokeDB = {
     "name": "Yellow Minior",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Power Gem",
+            "Ancient Power",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -44816,10 +45567,13 @@ var pokeDB = {
     "name": "Komala",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rollout",
+            "Yawn"
         ],
         "charge": [
-            "Struggle"
+            "Play Rough",
+            "Bulldoze",
+            "Payback"
         ]
     },
     "defense_data": {
@@ -44846,10 +45600,13 @@ var pokeDB = {
     "name": "Turtonator",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Ember",
+            "Fire Spin"
         ],
         "charge": [
-            "Struggle"
+            "Overheat",
+            "Flamethrower",
+            "Dragon Pulse"
         ]
     },
     "defense_data": {
@@ -44882,10 +45639,13 @@ var pokeDB = {
     "name": "Togedemaru",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Thunder Shock",
+            "Spark"
         ],
         "charge": [
-            "Struggle"
+            "Fell Stinger",
+            "Wild Charge",
+            "Gyro Ball"
         ]
     },
     "defense_data": {
@@ -44925,10 +45685,13 @@ var pokeDB = {
     "name": "Busted Mimikyu",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Shadow Claw",
+            "Charm"
         ],
         "charge": [
-            "Struggle"
+            "Shadow Sneak",
+            "Play Rough",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -44959,10 +45722,13 @@ var pokeDB = {
     "name": "Disguised Mimikyu",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Shadow Claw",
+            "Charm"
         ],
         "charge": [
-            "Struggle"
+            "Shadow Sneak",
+            "Play Rough",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -44993,10 +45759,14 @@ var pokeDB = {
     "name": "Bruxish",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Water Gun",
+            "Confusion",
+            "Bite"
         ],
         "charge": [
-            "Struggle"
+            "Psychic Fangs",
+            "Aqua Tail",
+            "Crunch"
         ]
     },
     "defense_data": {
@@ -45032,10 +45802,13 @@ var pokeDB = {
     "name": "Drampa",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Dragon Breath",
+            "Extrasensory"
         ],
         "charge": [
-            "Struggle"
+            "Outrage",
+            "Dragon Pulse",
+            "Fly"
         ]
     },
     "defense_data": {
@@ -45069,10 +45842,13 @@ var pokeDB = {
     "name": "Dhelmise",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish",
+            "Shadow Claw"
         ],
         "charge": [
-            "Struggle"
+            "Power Whip",
+            "Shadow Ball",
+            "Heavy Slam"
         ]
     },
     "defense_data": {
@@ -45577,10 +46353,14 @@ var pokeDB = {
     "name": "Buzzwole",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Counter",
+            "Poison Jab"
         ],
         "charge": [
-            "Struggle"
+            "Power Up Punch",
+            "Fell Stinger",
+            "Lunge",
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -45614,10 +46394,14 @@ var pokeDB = {
     "name": "Pheromosa",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Bug Bite",
+            "Low Kick"
         ],
         "charge": [
-            "Struggle"
+            "Focus Blast",
+            "Bug Buzz",
+            "Lunge",
+            "Close Combat"
         ]
     },
     "defense_data": {
@@ -45650,10 +46434,14 @@ var pokeDB = {
     "name": "Xurkitree",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Thunder Shock",
+            "Spark"
         ],
         "charge": [
-            "Struggle"
+            "Discharge",
+            "Thunder",
+            "Power Whip",
+            "Dazzling Gleam"
         ]
     },
     "defense_data": {
@@ -48416,9 +49204,9 @@ var pokeDB = {
         }
     }
 },
-"Galarian Mr. Rime": {
+"Mr. Rime": {
     "id": "866",
-    "imgurl": "",
+    "imgurl": 866,
     "stats": {
         "atk": 212,
         "def": 179,
@@ -48428,7 +49216,7 @@ var pokeDB = {
         "Ice",
         "Psychic"
     ],
-    "name": "Galarian Mr. Rime",
+    "name": "Mr. Rime",
     "moveset": {
         "quick": [
             "Confusion",
