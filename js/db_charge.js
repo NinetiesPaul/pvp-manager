@@ -1284,9 +1284,9 @@ var chargeMoveDB = {
         "Rock",
         "Water"
     ],
-    "energy": "-80",
-    "power": "50",
-    "dpe": "0.63"
+    "energy": null,
+    "power": null,
+    "dpe": null
 },
 "Fire Punch": {
     "type": "Fire",
@@ -2997,6 +2997,21 @@ var chargeMoveDB = {
     "power": "120",
     "dpe": "2.00"
 },
+"Brutal Swing": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
+},
 "Seed Flare": {
     "type": "Grass",
     "weakAgainst": [
@@ -3016,5 +3031,20 @@ var chargeMoveDB = {
     "energy": "75",
     "power": "130",
     "dpe": "1.73"
+},
+"Obstruct": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-40",
+    "power": "15",
+    "dpe": "0.38"
 },
 }
