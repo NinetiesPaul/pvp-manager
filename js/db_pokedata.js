@@ -4235,42 +4235,45 @@ var pokeDB = {
         }
     }
 },
-"Growlithe": {
+"Hisuian Growlithe": {
     "id": "058",
-    "imgurl": 58,
+    "imgurl": "58-hisuian",
     "stats": {
-        "atk": 136,
-        "def": 93,
-        "sta": 146
+        "atk": 142,
+        "def": 92,
+        "sta": 155
     },
     "type": [
-        "Fire"
+        "Fire",
+        "Rock"
     ],
-    "name": "Growlithe",
+    "name": "Hisuian Growlithe",
     "moveset": {
         "quick": [
             "Ember",
             "Bite"
         ],
         "charge": [
-            "Flame Wheel",
-            "Body Slam",
+            "Rock Slide",
+            "Crunch",
             "Flamethrower"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
-            "Ground": "160%",
+            "Fighting": "160%",
+            "Ground": "256%",
             "Rock": "160%",
-            "Water": "160%"
+            "Water": "256%"
         },
         "resistant_to": {
             "Bug": "62.5%",
             "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
+            "Fire": "39.1%",
+            "Flying": "62.5%",
             "Ice": "62.5%",
-            "Steel": "62.5%"
+            "Normal": "62.5%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -4313,7 +4316,90 @@ var pokeDB = {
         }
     }
 },
-"Arcanine": {
+"Growlithe": {
+    "id": "058",
+    "imgurl": 58,
+    "stats": {
+        "atk": 136,
+        "def": 93,
+        "sta": 146
+    },
+    "type": [
+        "Fire"
+    ],
+    "name": "Growlithe",
+    "moveset": {
+        "quick": [
+            "Ember",
+            "Bite"
+        ],
+        "charge": [
+            "Flame Wheel",
+            "Body Slam",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Rock": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Hisuian Arcanine": {
+    "id": "059",
+    "imgurl": "59-hisuian",
+    "stats": {
+        "atk": 232,
+        "def": 165,
+        "sta": 216
+    },
+    "type": [
+        "Fire",
+        "Rock"
+    ],
+    "name": "Hisuian Arcanine",
+    "moveset": {
+        "quick": [
+            "Fire Fang",
+            "Snarl",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Rock Slide",
+            "Wild Charge",
+            "Crunch",
+            "Flamethrower"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "256%",
+            "Rock": "160%",
+            "Water": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fairy": "62.5%",
+            "Fire": "39.1%",
+            "Flying": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Shadow Arcanine": {
     "id": "059",
     "imgurl": 59,
     "stats": {
@@ -4324,7 +4410,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Arcanine",
+    "name": "Shadow Arcanine",
     "moveset": {
         "quick": [
             "Fire Fang",
@@ -4356,7 +4442,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Arcanine": {
+"Arcanine": {
     "id": "059",
     "imgurl": 59,
     "stats": {
@@ -4367,7 +4453,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "name": "Shadow Arcanine",
+    "name": "Arcanine",
     "moveset": {
         "quick": [
             "Fire Fang",
@@ -10309,43 +10395,43 @@ var pokeDB = {
         }
     }
 },
-"Articuno": {
+"Galarian Articuno": {
     "id": "144",
-    "imgurl": 144,
+    "imgurl": 10169,
     "stats": {
-        "atk": 192,
-        "def": 236,
+        "atk": 250,
+        "def": 197,
         "sta": 207
     },
     "type": [
-        "Ice",
+        "Psychic",
         "Flying"
     ],
-    "name": "Articuno",
+    "name": "Galarian Articuno",
     "moveset": {
         "quick": [
-            "Frost Breath",
-            "Ice Shard"
+            "Confusion",
+            "Psycho Cut"
         ],
         "charge": [
-            "Ice Beam",
-            "Icy Wind",
-            "Blizzard",
+            "Futuresight",
             "Ancient Power",
-            "Hurricane*"
+            "Brave Bird"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
+            "Dark": "160%",
             "Electric": "160%",
-            "Fire": "160%",
-            "Rock": "256%",
-            "Steel": "160%"
+            "Ghost": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
         },
         "resistant_to": {
-            "Bug": "62.5%",
+            "Fighting": "39.1%",
             "Grass": "62.5%",
-            "Ground": "39.1%"
+            "Ground": "39.1%",
+            "Psychic": "62.5%"
         }
     }
 },
@@ -10389,44 +10475,83 @@ var pokeDB = {
         }
     }
 },
-"Zapdos": {
-    "id": "145",
-    "imgurl": 145,
+"Articuno": {
+    "id": "144",
+    "imgurl": 144,
     "stats": {
-        "atk": 253,
-        "def": 185,
+        "atk": 192,
+        "def": 236,
         "sta": 207
     },
     "type": [
-        "Electric",
+        "Ice",
         "Flying"
     ],
-    "name": "Zapdos",
+    "name": "Articuno",
     "moveset": {
         "quick": [
-            "Charge Beam",
-            "Thunder Shock*"
+            "Frost Breath",
+            "Ice Shard"
         ],
         "charge": [
-            "Zap Cannon",
-            "Thunderbolt",
-            "Thunder",
+            "Ice Beam",
+            "Icy Wind",
+            "Blizzard",
             "Ancient Power",
-            "Drill Peck"
+            "Hurricane*"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
-            "Ice": "160%",
-            "Rock": "160%"
+            "Electric": "160%",
+            "Fire": "160%",
+            "Rock": "256%",
+            "Steel": "160%"
         },
         "resistant_to": {
             "Bug": "62.5%",
-            "Fighting": "62.5%",
-            "Flying": "62.5%",
             "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Steel": "62.5%"
+            "Ground": "39.1%"
+        }
+    }
+},
+"Galarian Zapdos": {
+    "id": "145",
+    "imgurl": 10170,
+    "stats": {
+        "atk": 252,
+        "def": 189,
+        "sta": 207
+    },
+    "type": [
+        "Fighting",
+        "Flying"
+    ],
+    "name": "Galarian Zapdos",
+    "moveset": {
+        "quick": [
+            "Counter"
+        ],
+        "charge": [
+            "Close Combat",
+            "Ancient Power",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%"
         }
     }
 },
@@ -10471,7 +10596,88 @@ var pokeDB = {
         }
     }
 },
-"Moltres": {
+"Zapdos": {
+    "id": "145",
+    "imgurl": 145,
+    "stats": {
+        "atk": 253,
+        "def": 185,
+        "sta": 207
+    },
+    "type": [
+        "Electric",
+        "Flying"
+    ],
+    "name": "Zapdos",
+    "moveset": {
+        "quick": [
+            "Charge Beam",
+            "Thunder Shock*"
+        ],
+        "charge": [
+            "Zap Cannon",
+            "Thunderbolt",
+            "Thunder",
+            "Ancient Power",
+            "Drill Peck"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
+"Galarian Moltres": {
+    "id": "146",
+    "imgurl": 10171,
+    "stats": {
+        "atk": 202,
+        "def": 231,
+        "sta": 207
+    },
+    "type": [
+        "Dark",
+        "Flying"
+    ],
+    "name": "Galarian Moltres",
+    "moveset": {
+        "quick": [
+            "Sucker Punch",
+            "Wing Attack"
+        ],
+        "charge": [
+            "Payback",
+            "Ancient Power",
+            "Brave Bird"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fairy": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "39.1%",
+            "Psychic": "39.1%"
+        }
+    }
+},
+"Shadow Moltres": {
     "id": "146",
     "imgurl": 146,
     "stats": {
@@ -10483,7 +10689,7 @@ var pokeDB = {
         "Fire",
         "Flying"
     ],
-    "name": "Moltres",
+    "name": "Shadow Moltres",
     "moveset": {
         "quick": [
             "Fire Spin",
@@ -10514,7 +10720,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Moltres": {
+"Moltres": {
     "id": "146",
     "imgurl": 146,
     "stats": {
@@ -10526,7 +10732,7 @@ var pokeDB = {
         "Fire",
         "Flying"
     ],
-    "name": "Shadow Moltres",
+    "name": "Moltres",
     "moveset": {
         "quick": [
             "Fire Spin",
@@ -14494,6 +14700,45 @@ var pokeDB = {
         }
     }
 },
+"Hisuian Qwilfish": {
+    "id": "211",
+    "imgurl": "211-hisuian",
+    "stats": {
+        "atk": 184,
+        "def": 151,
+        "sta": 163
+    },
+    "type": [
+        "Dark",
+        "Poison"
+    ],
+    "name": "Hisuian Qwilfish",
+    "moveset": {
+        "quick": [
+            "Poison Sting",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Aqua Tail",
+            "Ice Beam",
+            "Sludge Bomb",
+            "Dark Pulse",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
 "Qwilfish": {
     "id": "211",
     "imgurl": 211,
@@ -14733,7 +14978,47 @@ var pokeDB = {
         }
     }
 },
-"Sneasel": {
+"Hisuian Sneasel": {
+    "id": "215",
+    "imgurl": "215-hisuian",
+    "stats": {
+        "atk": 189,
+        "def": 146,
+        "sta": 146
+    },
+    "type": [
+        "Fighting",
+        "Poison"
+    ],
+    "name": "Hisuian Sneasel",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Aerial Ace",
+            "Close Combat",
+            "X Scissor"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Ground": "160%",
+            "Psychic": "256%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Shadow Sneasel": {
     "id": "215",
     "imgurl": 215,
     "stats": {
@@ -14745,7 +15030,7 @@ var pokeDB = {
         "Dark",
         "Ice"
     ],
-    "name": "Sneasel",
+    "name": "Shadow Sneasel",
     "moveset": {
         "quick": [
             "Ice Shard",
@@ -14774,7 +15059,7 @@ var pokeDB = {
         }
     }
 },
-"Shadow Sneasel": {
+"Sneasel": {
     "id": "215",
     "imgurl": 215,
     "stats": {
@@ -14786,7 +15071,7 @@ var pokeDB = {
         "Dark",
         "Ice"
     ],
-    "name": "Shadow Sneasel",
+    "name": "Sneasel",
     "moveset": {
         "quick": [
             "Ice Shard",
@@ -24211,6 +24496,51 @@ var pokeDB = {
         }
     }
 },
+"Shadow Latias": {
+    "id": "380",
+    "imgurl": 380,
+    "stats": {
+        "atk": 228,
+        "def": 246,
+        "sta": 190
+    },
+    "type": [
+        "Dragon",
+        "Psychic"
+    ],
+    "name": "Shadow Latias",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Zen Headbutt",
+            "Charm"
+        ],
+        "charge": [
+            "Psychic",
+            "Outrage",
+            "Thunder",
+            "Mist Ball*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Psychic": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Latios": {
     "id": "381",
     "imgurl": 381,
@@ -25242,7 +25572,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Wing Attack",
-            "Quick Attack"
+            "Quick Attack",
+            "Gust*"
         ],
         "charge": [
             "Brave Bird",
@@ -25280,7 +25611,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Wing Attack",
-            "Quick Attack"
+            "Quick Attack",
+            "Gust*"
         ],
         "charge": [
             "Brave Bird",
@@ -37048,6 +37380,47 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Grass": "62.5%",
             "Ground": "39.1%"
+        }
+    }
+},
+"Hisuian Braviary": {
+    "id": "628",
+    "imgurl": "628-hisuian",
+    "stats": {
+        "atk": 213,
+        "def": 137,
+        "sta": 242
+    },
+    "type": [
+        "Psychic",
+        "Flying"
+    ],
+    "name": "Hisuian Braviary",
+    "moveset": {
+        "quick": [
+            "Air Slash",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Dazzling Gleam",
+            "Brave Bird",
+            "Psychic",
+            "Ominous Wind"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Electric": "160%",
+            "Ghost": "160%",
+            "Ice": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "39.1%",
+            "Psychic": "62.5%"
         }
     }
 },
@@ -50726,6 +51099,86 @@ var pokeDB = {
         "resistant_to": {
             "Fighting": "24.4%",
             "Normal": "39.1%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
+        }
+    }
+},
+"Sneasler": {
+    "id": "903",
+    "imgurl": 903,
+    "stats": {
+        "atk": 259,
+        "def": 158,
+        "sta": 190
+    },
+    "type": [
+        "Fighting",
+        "Poison"
+    ],
+    "name": "Sneasler",
+    "moveset": {
+        "quick": [
+            "Rock Smash",
+            "Poison Jab",
+            "Shadow Claw"
+        ],
+        "charge": [
+            "Aerial Ace",
+            "Close Combat",
+            "X Scissor"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Ground": "160%",
+            "Psychic": "256%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
+"Overqwil": {
+    "id": "904",
+    "imgurl": 904,
+    "stats": {
+        "atk": 222,
+        "def": 171,
+        "sta": 198
+    },
+    "type": [
+        "Dark",
+        "Poison"
+    ],
+    "name": "Overqwil",
+    "moveset": {
+        "quick": [
+            "Poison Sting",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Aqua Tail",
+            "Ice Beam",
+            "Sludge Bomb",
+            "Dark Pulse",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
