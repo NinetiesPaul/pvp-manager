@@ -1,4 +1,5 @@
-function forceChange(input) {
+function forceChange(input)
+{
 
 	loadDataInput = input.split("&")
 

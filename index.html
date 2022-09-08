@@ -129,8 +129,8 @@
 				});
 
                 $('.hideType').on('click', function (){
-                    var rowsHidden = 0;
-                    var rowsShown = 0;
+                    //var rowsHidden = 0;
+                    //var rowsShown = 0;
                     var hideType = this.textContent;
 
                     if (jQuery.inArray(hideType, hideTypes) == -1){
@@ -148,28 +148,30 @@
                         this.classList.add('disabled')
                     }
 
-                    $("#teamassembler-table tbody tr").each(function(k, v) {
-                        rowTypes = v.getAttribute("rowTypes").split(",");
-
-                        $.each(rowTypes, function (idx,type){
-
-                            if (jQuery.inArray(type, hideTypes) != -1) {
-                                v.classList.add("hide")
-                                rowsHidden += 1;
-                                return false;
-                            } else {
-                                if (v.classList.contains("hide")) {
-                                    v.classList.remove("hide")
-                                    rowsShown += 1;
-                                }
-                            }
-                        });
-                    });
-
-                    //$(".teamCounter").html($("#teamassembler-table tbody tr").length)
+                    filterByType();
                 });
             });
         
+            function filterByType ()
+            {
+                $("#teamassembler-table tbody tr").each(function(k, v) {
+                    rowTypes = v.getAttribute("rowTypes").split(",");
+
+                    $.each(rowTypes, function (idx,type){
+
+                        if (jQuery.inArray(type, hideTypes) != -1) {
+                            v.classList.add("hide")
+                            //rowsHidden += 1;
+                            return false;
+                        } else {
+                            if (v.classList.contains("hide")) {
+                                v.classList.remove("hide")
+                                //rowsShown += 1;
+                            }
+                        }
+                    });
+                });
+            }
         </script>
 
         <title>PVP Manager</title>
@@ -467,7 +469,7 @@
                             </select>
                         </p><br>
 
-                        <table style="width: 100%">
+                        <table id="filterByType" style="width: 100%">
                             <tbody>
                                 <tr>
                                     <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #9BA0A0;">Normal</button></td>

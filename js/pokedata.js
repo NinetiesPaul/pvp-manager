@@ -1,4 +1,5 @@
-function getPokemonData(pokemon, slot) {
+function getPokemonData(pokemon, slot)
+{
 
 	if (pokemon.indexOf(" - ") > -1) {
 		pokemon = pokemon.split(" - ");

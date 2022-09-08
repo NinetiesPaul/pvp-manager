@@ -1,4 +1,5 @@
-function saveTeam() {
+function saveTeam()
+{
 	pkmSlot1 = $("#pokemonList_slot1").find(":selected").text()
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
 	pkmSlot3 = $("#pokemonList_slot3").find(":selected").text()

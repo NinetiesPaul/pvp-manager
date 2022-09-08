@@ -1,4 +1,5 @@
-function getMoveData(move, type, target) {
+function getMoveData(move, type, target)
+{
     move = move.replaceAll('*', '');
 
     if (type === 'quick') {

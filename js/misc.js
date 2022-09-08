@@ -1,4 +1,5 @@
-function clearLayout(slot) {
+function clearLayout(slot)
+{
     $('.resistant_to-' + slot).html('');
     $('.vulnerable_to-' + slot).html('');
     $('.defense_type_row-' + slot).html("<td class='defense_typeA-" + slot + "'>&nbsp;</td>");
@@ -31,7 +32,8 @@ function clearLayout(slot) {
         .html("").css('display', 'none');
 }
 
-function disableMove(value, target) {
+function disableMove(value, target)
+{
     $('#' + target + " option").each(function(){
         if ($(this).val() == value) {
             $(this).attr('disabled', 'disabled')

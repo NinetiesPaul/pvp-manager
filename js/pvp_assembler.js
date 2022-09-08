@@ -1,6 +1,5 @@
 $(document).on('click', '.pkm-list-btn', function() {
 	$(".teamassembler-table tbody").html("");
-	//$(".pkm-list-btn").attr("disabled", true)
 
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
@@ -116,7 +115,14 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
-	//$(".pkm-list-btn").attr("disabled", false);
+
+	$("#filterByType tbody tr td button").each(function(k,v) {
+		if (v.classList.contains('disabled')) {
+			//v.classList.remove('disabled')
+			console.log(v.textContent)
+			filterByType();
+		}
+	})
 });
 
 $(document).on('click', '#paste_pkms', function() {
