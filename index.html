@@ -129,16 +129,12 @@
 				});
 
                 $('.hideType').on('click', function (){
-                    //var rowsHidden = 0;
-                    //var rowsShown = 0;
                     var hideType = this.textContent;
 
                     if (jQuery.inArray(hideType, hideTypes) == -1){
                         hideTypes.push(hideType);
                     } else {
-                        hideTypes = hideTypes.filter(function(item) {
-                            return item !== hideType
-                        })
+                        hideTypes.splice(hideTypes.findIndex(x => x == hideType), 1)
                     }
 
                     if (this.classList.contains('disabled')) {
@@ -147,31 +143,24 @@
                     } else {
                         this.classList.add('disabled')
                     }
+                });
+                
+                $("#filter_opt").change(function() {
+                    hideTypes = [];
+                    if ($("#filter_opt").val() == "filterIn") {
+                        $("#filterByType tbody tr td button").each(function(k,v) {
+                            if (v.classList.contains('disabled') == false) {
+                                v.classList.add('disabled')
+                            }
+                        });
+                    } else {
+                        $("#filterByType tbody tr td button").each(function(k,v) {
+                            v.classList.remove('disabled')
+                        });
 
-                    filterByType();
+                    }
                 });
             });
-        
-            function filterByType ()
-            {
-                $("#teamassembler-table tbody tr").each(function(k, v) {
-                    rowTypes = v.getAttribute("rowTypes").split(",");
-
-                    $.each(rowTypes, function (idx,type){
-
-                        if (jQuery.inArray(type, hideTypes) != -1) {
-                            v.classList.add("hide")
-                            //rowsHidden += 1;
-                            return false;
-                        } else {
-                            if (v.classList.contains("hide")) {
-                                v.classList.remove("hide")
-                                //rowsShown += 1;
-                            }
-                        }
-                    });
-                });
-            }
         </script>
 
         <title>PVP Manager</title>
@@ -495,6 +484,12 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <p>
+                            <select id="filter_opt">
+                                <option value="filterOut">Filter Out</option>
+                                <option value="filterIn">Filter In</option>
+                            </select>
+                        </p>
 
                         <p id="assembler_result">
                             

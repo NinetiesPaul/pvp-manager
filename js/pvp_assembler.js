@@ -4,6 +4,39 @@ $(document).on('click', '.pkm-list-btn', function() {
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
 
+	if (hideTypes.length > 0) {
+		if ($("#filter_opt").val() == "filterOut") {
+			toRemove = []
+
+			$.each(hideTypes, function(idt,type) {
+				$.each(pkms, function(id,pkm) {
+					if (pokeDB[pkm].type.join(",").includes(type)) {
+						toRemove.push(pkm)
+						//pkms.splice(pkms.findIndex(x => x == pkm), 1)
+					}
+				});
+			});
+
+
+			$.each(toRemove, function(id,removePkm) {
+				pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+			});
+		} else {
+			toKeep = []
+
+			$.each(hideTypes, function(idt,type) {
+				$.each(pkms, function(id,pkm) {
+					if (pokeDB[pkm].type.join(",").includes(type)) {
+						toKeep.push(pkm)
+						//pkms.splice(pkms.findIndex(x => x == pkm), 1)
+					}
+				});
+			});
+
+			pkms = [...new Set(toKeep)];
+		}
+	}
+
 	var totalPkms = pkms.length;
 
 	var teams = [];
@@ -115,14 +148,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
-
-	$("#filterByType tbody tr td button").each(function(k,v) {
-		if (v.classList.contains('disabled')) {
-			//v.classList.remove('disabled')
-			console.log(v.textContent)
-			filterByType();
-		}
-	})
 });
 
 $(document).on('click', '#paste_pkms', function() {
