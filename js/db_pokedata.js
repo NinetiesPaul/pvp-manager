@@ -2091,7 +2091,8 @@ var pokeDB = {
         "charge": [
             "Poison Fang",
             "Dig",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Thunderbolt"
         ]
     },
     "defense_data": {
@@ -2128,7 +2129,8 @@ var pokeDB = {
         "charge": [
             "Poison Fang",
             "Dig",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Thunderbolt"
         ]
     },
     "defense_data": {
@@ -2325,7 +2327,8 @@ var pokeDB = {
         "charge": [
             "Horn Attack",
             "Dig",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Ice Beam"
         ]
     },
     "defense_data": {
@@ -2362,7 +2365,8 @@ var pokeDB = {
         "charge": [
             "Horn Attack",
             "Dig",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Ice Beam"
         ]
     },
     "defense_data": {
@@ -2396,6 +2400,7 @@ var pokeDB = {
         "quick": [
             "Poison Jab",
             "Iron Tail",
+            "Double Kick",
             "Fury Cutter*"
         ],
         "charge": [
@@ -2440,6 +2445,7 @@ var pokeDB = {
         "quick": [
             "Poison Jab",
             "Iron Tail",
+            "Double Kick",
             "Fury Cutter*"
         ],
         "charge": [
@@ -4423,6 +4429,7 @@ var pokeDB = {
             "Wild Charge",
             "Crunch",
             "Flamethrower",
+            "Psychic Fangs",
             "Bulldoze*"
         ]
     },
@@ -4466,6 +4473,7 @@ var pokeDB = {
             "Wild Charge",
             "Crunch",
             "Flamethrower",
+            "Psychic Fangs",
             "Bulldoze*"
         ]
     },
@@ -5485,7 +5493,8 @@ var pokeDB = {
             "Hydro Pump",
             "Sludge Wave",
             "Blizzard",
-            "Acid Spray"
+            "Acid Spray",
+            "Scald"
         ]
     },
     "defense_data": {
@@ -5980,7 +5989,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Low Kick",
-            "Psycho Cut"
+            "Psycho Cut",
+            "Fairy Wind"
         ],
         "charge": [
             "Play Rough",
@@ -7150,7 +7160,8 @@ var pokeDB = {
             "Shadow Punch",
             "Dark Pulse",
             "Sludge Bomb",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Ice Punch"
         ]
     },
     "defense_data": {
@@ -8068,7 +8079,8 @@ var pokeDB = {
         "charge": [
             "Bone Club",
             "Dig",
-            "Earthquake"
+            "Earthquake",
+            "Rock Slide"
         ]
     },
     "defense_data": {
@@ -8104,7 +8116,8 @@ var pokeDB = {
         "charge": [
             "Bone Club",
             "Dig",
-            "Earthquake"
+            "Earthquake",
+            "Rock Slide"
         ]
     },
     "defense_data": {
@@ -8135,7 +8148,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Low Kick",
-            "Rock Smash"
+            "Rock Smash",
+            "Double Kick"
         ],
         "charge": [
             "Close Combat",
@@ -8173,7 +8187,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Low Kick",
-            "Rock Smash"
+            "Rock Smash",
+            "Double Kick"
         ],
         "charge": [
             "Close Combat",
@@ -8398,7 +8413,8 @@ var pokeDB = {
     "name": "Galarian Weezing",
     "moveset": {
         "quick": [
-            "Tackle"
+            "Tackle",
+            "Fairy Wind"
         ],
         "charge": [
             "Sludge",
@@ -10857,7 +10873,8 @@ var pokeDB = {
         "charge": [
             "Wrap",
             "Aqua Tail",
-            "Dragon Pulse"
+            "Dragon Pulse",
+            "Body Slam"
         ]
     },
     "defense_data": {
@@ -10894,7 +10911,8 @@ var pokeDB = {
         "charge": [
             "Wrap",
             "Aqua Tail",
-            "Dragon Pulse"
+            "Dragon Pulse",
+            "Body Slam"
         ]
     },
     "defense_data": {
@@ -10935,6 +10953,7 @@ var pokeDB = {
             "Hyper Beam",
             "Outrage",
             "Dragon Claw",
+            "Super Power",
             "Draco Meteor*",
             "Dragon Pulse*"
         ]
@@ -10980,6 +10999,7 @@ var pokeDB = {
             "Hyper Beam",
             "Outrage",
             "Dragon Claw",
+            "Super Power",
             "Draco Meteor*",
             "Dragon Pulse*"
         ]
@@ -12085,7 +12105,8 @@ var pokeDB = {
         "charge": [
             "Bug Buzz",
             "Silver Wind",
-            "Aerial Ace"
+            "Aerial Ace",
+            "Dynamic Punch"
         ]
     },
     "defense_data": {
@@ -12331,7 +12352,8 @@ var pokeDB = {
         "charge": [
             "Hydro Pump",
             "Thunderbolt",
-            "Thunder"
+            "Thunder",
+            "Surf"
         ]
     },
     "defense_data": {
@@ -13322,7 +13344,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Infestation",
-            "Bullet Seed"
+            "Bullet Seed",
+            "Fairy Wind"
         ],
         "charge": [
             "Energy Ball",
@@ -13364,7 +13387,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Infestation",
-            "Bullet Seed"
+            "Bullet Seed",
+            "Fairy Wind"
         ],
         "charge": [
             "Energy Ball",
@@ -13744,6 +13768,7 @@ var pokeDB = {
             "Psybeam",
             "Psychic",
             "Futuresight",
+            "Psychic Fangs",
             "Last Resort*",
             "Shadow Ball*"
         ]
@@ -14188,12 +14213,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Confusion"
+            "Confusion",
+            "Double Kick"
         ],
         "charge": [
             "Psychic",
             "Thunderbolt",
-            "Mirror Coat"
+            "Mirror Coat",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -14223,12 +14250,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Confusion"
+            "Confusion",
+            "Double Kick"
         ],
         "charge": [
             "Psychic",
             "Thunderbolt",
-            "Mirror Coat"
+            "Mirror Coat",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -14415,7 +14444,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
-            "Astonish"
+            "Astonish",
+            "Rollout"
         ],
         "charge": [
             "Dig",
@@ -14530,7 +14560,8 @@ var pokeDB = {
         "charge": [
             "Earthquake",
             "Heavy Slam",
-            "Crunch"
+            "Crunch",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -16461,7 +16492,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Rollout"
         ],
         "charge": [
             "Stomp",
@@ -20106,7 +20138,8 @@ var pokeDB = {
             "Bite",
             "Astonish",
             "Ice Fang",
-            "Fire Fang"
+            "Fire Fang",
+            "Fairy Wind"
         ],
         "charge": [
             "Play Rough",
@@ -20153,7 +20186,8 @@ var pokeDB = {
             "Bite",
             "Astonish",
             "Ice Fang",
-            "Fire Fang"
+            "Fire Fang",
+            "Fairy Wind"
         ],
         "charge": [
             "Play Rough",
@@ -20609,7 +20643,8 @@ var pokeDB = {
             "Thunder",
             "Wild Charge",
             "Flame Burst",
-            "Overheat"
+            "Overheat",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -20645,7 +20680,8 @@ var pokeDB = {
             "Thunder",
             "Wild Charge",
             "Flame Burst",
-            "Overheat"
+            "Overheat",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -21254,7 +21290,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ember",
-            "Rock Smash"
+            "Rock Smash",
+            "Incinerate"
         ],
         "charge": [
             "Earthquake",
@@ -21294,7 +21331,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ember",
-            "Rock Smash"
+            "Rock Smash",
+            "Incinerate"
         ],
         "charge": [
             "Earthquake",
@@ -27145,7 +27183,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Pound",
-            "Low Kick"
+            "Low Kick",
+            "Double Kick"
         ],
         "charge": [
             "Fire Punch",
@@ -32835,7 +32874,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Aerial Ace",
-            "Futuresight"
+            "Futuresight",
+            "Psychic Fangs"
         ]
     },
     "defense_data": {
@@ -37851,7 +37891,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Double Kick"
         ],
         "charge": [
             "Close Combat",
@@ -37895,7 +37936,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Smack Down",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Double Kick"
         ],
         "charge": [
             "Close Combat",
@@ -37940,7 +37982,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Quick Attack",
-            "Zen Headbutt"
+            "Zen Headbutt",
+            "Double Kick"
         ],
         "charge": [
             "Close Combat",
@@ -38588,7 +38631,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Magnet Bomb",
-            "Flamethrower"
+            "Flamethrower",
+            "Techno Blast Burn*"
         ]
     },
     "defense_data": {
@@ -38629,7 +38673,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Magnet Bomb",
-            "Ice Beam"
+            "Ice Beam",
+            "Techno Blast Chill*"
         ]
     },
     "defense_data": {
@@ -38670,7 +38715,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Magnet Bomb",
-            "Gunk Shot"
+            "Gunk Shot",
+            "Techno Blast Water*"
         ]
     },
     "defense_data": {
@@ -38711,7 +38757,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Magnet Bomb",
-            "Hyper Beam"
+            "Hyper Beam",
+            "Techno Blast Normal*"
         ]
     },
     "defense_data": {
@@ -38752,7 +38799,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Magnet Bomb",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Techno Blast Shock*"
         ]
     },
     "defense_data": {
@@ -39945,7 +39993,8 @@ var pokeDB = {
         "quick": [
             "Vine Whip",
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Moonblast",
@@ -39983,7 +40032,8 @@ var pokeDB = {
         "quick": [
             "Vine Whip",
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Moonblast",
@@ -40021,7 +40071,8 @@ var pokeDB = {
         "quick": [
             "Vine Whip",
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Moonblast",
@@ -40059,7 +40110,8 @@ var pokeDB = {
         "quick": [
             "Vine Whip",
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Moonblast",
@@ -40097,7 +40149,8 @@ var pokeDB = {
         "quick": [
             "Vine Whip",
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Moonblast",
@@ -40970,7 +41023,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Charm"
+            "Charm",
+            "Fairy Wind"
         ],
         "charge": [
             "Play Rough",
@@ -42937,7 +42991,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Snarl",
-            "Fire Fang"
+            "Fire Fang",
+            "Double Kick"
         ],
         "charge": [
             "Fire Blast",
@@ -44764,7 +44819,8 @@ var pokeDB = {
         "quick": [
             "Fury Cutter",
             "Metal Claw",
-            "Waterfall"
+            "Waterfall",
+            "Shadow Claw"
         ],
         "charge": [
             "X Scissor",
@@ -46543,7 +46599,7 @@ var pokeDB = {
     "name": "Cosmog",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Splash"
         ],
         "charge": [
             "Struggle"
@@ -46575,7 +46631,7 @@ var pokeDB = {
     "name": "Cosmoem",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Splash"
         ],
         "charge": [
             "Struggle"
@@ -46608,10 +46664,14 @@ var pokeDB = {
     "name": "Solgaleo",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Zen Headbutt",
+            "Fire Spin"
         ],
         "charge": [
-            "Struggle"
+            "Iron Head",
+            "Psychic Fangs",
+            "Solar Beam",
+            "Flamethrower"
         ]
     },
     "defense_data": {
@@ -46650,10 +46710,14 @@ var pokeDB = {
     "name": "Lunala",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Confusion",
+            "Air Slash"
         ],
         "charge": [
-            "Struggle"
+            "Shadow Ball",
+            "Psychic",
+            "Moonblast",
+            "Futuresight"
         ]
     },
     "defense_data": {
@@ -46685,7 +46749,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Acid",
-            "Pound"
+            "Pound",
+            "Poison Jab"
         ],
         "charge": [
             "Power Gem",
@@ -48185,7 +48250,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Take Down"
+            "Take Down",
+            "Double Kick"
         ],
         "charge": [
             "Wild Charge",
@@ -49442,7 +49508,8 @@ var pokeDB = {
             "Cross Chop",
             "Night Slash",
             "Hyper Beam",
-            "Gunk Shot"
+            "Gunk Shot",
+            "Obstruct*"
         ]
     },
     "defense_data": {
@@ -49633,7 +49700,8 @@ var pokeDB = {
     "name": "Runerigus",
     "moveset": {
         "quick": [
-            "Astonish"
+            "Astonish",
+            "Shadow Claw"
         ],
         "charge": [
             "Shadow Ball",

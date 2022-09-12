@@ -317,7 +317,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "ept": "3.5",
+    "ept": "4",
     "dpt": "2.5"
 },
 "Scratch": {
@@ -339,7 +339,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "ept": "2",
+    "ept": "3",
     "dpt": "3"
 },
 "Pound": {
@@ -1045,6 +1045,41 @@ var quickMoveDB = {
     "ept": "4",
     "dpt": "3"
 },
+"Fairy Wind": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "ept": "3",
+    "dpt": "1"
+},
+"Double Kick": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "ept": "3",
+    "dpt": "2"
+},
 "Magical Leaf": {
     "type": "Grass",
     "weakAgainst": [
@@ -1077,7 +1112,7 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
-    "ept": "3.5",
+    "ept": "3.25",
     "dpt": "1"
 },
 }

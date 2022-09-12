@@ -613,8 +613,8 @@ var chargeMoveDB = {
         "Ice"
     ],
     "energy": "-45",
-    "power": "45",
-    "dpe": "1.00"
+    "power": "60",
+    "dpe": "1.33"
 },
 "Rock Tomb": {
     "type": "Rock",
@@ -1790,8 +1790,8 @@ var chargeMoveDB = {
         "Psychic"
     ],
     "energy": "-45",
-    "power": "45",
-    "dpe": "1.00"
+    "power": "60",
+    "dpe": "1.33"
 },
 "Night Shade": {
     "type": "Ghost",
@@ -2947,9 +2947,9 @@ var chargeMoveDB = {
         "Grass",
         "Ground"
     ],
-    "energy": "-35",
+    "energy": "-40",
     "power": "60",
-    "dpe": "1.71"
+    "dpe": "1.50"
 },
 "Acrobatics": {
     "type": "Flying",
