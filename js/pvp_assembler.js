@@ -3,6 +3,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
+	var totalPkms = pkms.length;
 
 	if (hideTypes.length > 0) {
 		if ($("#filter_opt").val() == "filterOut") {
@@ -16,7 +17,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 					}
 				});
 			});
-
 
 			$.each(toRemove, function(id,removePkm) {
 				pkms.splice(pkms.findIndex(x => x == removePkm), 1)
@@ -37,7 +37,48 @@ $(document).on('click', '.pkm-list-btn', function() {
 		}
 	}
 
-	var totalPkms = pkms.length;
+	if ($("#hide_dv").is(":checked")) {
+		toRemove = [];
+
+		$.each(pkms, function(id,pkm) {
+			if (jQuery.inArray("256%", Object.values(pokeDB[pkm].defense_data.vulnerable_to)) > -1) {
+				toRemove.push(pkm);
+			}
+		});
+
+		$.each(toRemove, function(id,removePkm) {
+			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+		});
+	}
+
+	var ept = $("#ept_limit option:selected").val();
+
+	if (ept != "-") {
+		toKeep = [];
+
+		$.each(pkms, function(id,pkm) {
+			$.map(pokeDB[pkm].moveset.quick, function(element,index) {
+				moveEpt = quickMoveDB[element.replace('*', "")].ept;
+
+				switch ($("#ept_comparison option:selected").val()) {
+					case ">=":
+						if (moveEpt >= ept) {
+							toKeep.push(pkm)
+						}
+						break;
+					case ">":
+						if (moveEpt > ept) {
+							toKeep.push(pkm)
+						}
+						break;
+				}
+			});
+		});
+
+		pkms = [...new Set(toKeep)];
+	}
+
+	var filteredPkms = pkms.length;
 
 	var teams = [];
 
@@ -70,38 +111,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 			skip = false;
 
 		$.each(pkms, function(k,v) {
-			if ($("#hide_dv").is(":checked") && jQuery.inArray("256%", Object.values(pokeDB[v].defense_data.vulnerable_to)) > -1) {
-				skip = true;
-				return false;
-			}
-
-			var ept = $("#ept_limit option:selected").val();
-
-			if (ept != "-") {
-				var hasFastMoves = false;
-				$.map(pokeDB[v].moveset.quick, function(element,index) {
-					moveEpt = quickMoveDB[element.replace('*', "")].ept;
-					if (!hasFastMoves) {
-						switch ($("#ept_comparison option:selected").val()) {
-							case ">=":
-								if (moveEpt >= ept) {
-									hasFastMoves = true
-								}
-								break;
-							case ">":
-								if (moveEpt > ept) {
-									hasFastMoves = true
-								}
-								break;
-						}
-					}
-				});
-
-				if (!hasFastMoves) {
-					skip = true;
-					return false;
-				}
-			}
 
 			$.each(pokeDB[v].defense_data.vulnerable_to, function(k,v) {
 				if (jQuery.inArray(k, combinedVulnerabilites) == -1){
@@ -130,10 +139,8 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
 
-		rowTypes = [ pokeDB[slot1].type.join(","), pokeDB[slot2].type.join(","), pokeDB[slot3].type.join(",") ].join(",")
-
 		textToAppend += 
-		"<tr rowTypes='" + rowTypes +  "'>"+
+		"<tr>"+
 			"<th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th>"+
 			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "</small></td>"+
 			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "</small></td>"+
@@ -141,17 +148,15 @@ $(document).on('click', '.pkm-list-btn', function() {
 			"<td>" + (new Set(combinedResistances).size) + "</td><td>" + (new Set(combinedVulnerabilites).size) + "</td>"+
 			"<td><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>"+
 		"</tr>";
-		
 	});
 
-	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Possible teams:</b> <span class='teamCounter'>" + teamCounter + "</span><br>";
+	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Filtered pokemons:</b> " + filteredPkms + "<br><b>Possible teams:</b> <span class='teamCounter'>" + teamCounter + "</span><br>";
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
 });
 
 $(document).on('click', '#paste_pkms', function() {
-
 	var pkmSlot1 = $(this).parent().parent().find("#slot1").text()
 	pkmSlot1 = pokeDB[pkmSlot1].id + " - " + pokeDB[pkmSlot1].name
 	$("#pokemonList_slot1").val(pkmSlot1)
