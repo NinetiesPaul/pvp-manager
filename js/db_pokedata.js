@@ -24534,51 +24534,6 @@ var pokeDB = {
         }
     }
 },
-"Shadow Latias": {
-    "id": "380",
-    "imgurl": 380,
-    "stats": {
-        "atk": 228,
-        "def": 246,
-        "sta": 190
-    },
-    "type": [
-        "Dragon",
-        "Psychic"
-    ],
-    "name": "Shadow Latias",
-    "moveset": {
-        "quick": [
-            "Dragon Breath",
-            "Zen Headbutt",
-            "Charm"
-        ],
-        "charge": [
-            "Psychic",
-            "Outrage",
-            "Thunder",
-            "Mist Ball*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Psychic": "62.5%",
-            "Water": "62.5%"
-        }
-    }
-},
 "Latios": {
     "id": "381",
     "imgurl": 381,
@@ -32794,7 +32749,8 @@ var pokeDB = {
             "Rock Slide",
             "Solar Beam",
             "Super Power",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Meteor Beam*"
         ]
     },
     "defense_data": {
@@ -43992,7 +43948,7 @@ var pokeDB = {
             "Bite"
         ],
         "charge": [
-            "Muddy Water",
+            "Brine",
             "Gunk Shot",
             "Sludge Wave"
         ]
@@ -44034,7 +43990,7 @@ var pokeDB = {
             "Bite"
         ],
         "charge": [
-            "Muddy Water",
+            "Brine",
             "Gunk Shot",
             "Sludge Wave"
         ]
@@ -46908,10 +46864,14 @@ var pokeDB = {
     "name": "Celesteela",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Air Slash",
+            "Smack Down"
         ],
         "charge": [
-            "Struggle"
+            "Iron Head",
+            "Body Slam",
+            "Heavy Slam",
+            "Bulldoze"
         ]
     },
     "defense_data": {
@@ -46948,10 +46908,14 @@ var pokeDB = {
     "name": "Kartana",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Air Slash",
+            "Razor Leaf"
         ],
         "charge": [
-            "Struggle"
+            "Leaf Blade",
+            "X Scissor",
+            "Night Slash",
+            "Aerial Ace"
         ]
     },
     "defense_data": {

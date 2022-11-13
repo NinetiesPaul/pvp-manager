@@ -3047,4 +3047,21 @@ var chargeMoveDB = {
     "power": "15",
     "dpe": "0.38"
 },
+"Meteor Beam": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-60",
+    "power": "120",
+    "dpe": "2.00"
+},
 }
