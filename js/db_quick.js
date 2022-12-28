@@ -176,7 +176,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "ept": "3.5",
+    "ept": "4",
     "dpt": "2.5"
 },
 "Peck": {
@@ -968,7 +968,7 @@ var quickMoveDB = {
         "Fighting"
     ],
     "ept": "2",
-    "dpt": "5.33"
+    "dpt": "5"
 },
 "Lock On": {
     "type": "Normal",

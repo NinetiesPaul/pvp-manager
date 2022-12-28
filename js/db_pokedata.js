@@ -5996,7 +5996,8 @@ var pokeDB = {
             "Play Rough",
             "Psychic",
             "Body Slam",
-            "Megahorn"
+            "Megahorn",
+            "High Horsepower"
         ]
     },
     "defense_data": {
@@ -8421,7 +8422,8 @@ var pokeDB = {
             "Hyper Beam",
             "Play Rough",
             "Hyper Beam",
-            "Overheat"
+            "Overheat",
+            "Brutal Swing"
         ]
     },
     "defense_data": {
@@ -12799,6 +12801,7 @@ var pokeDB = {
             "Thunder",
             "Power Gem",
             "Thunder Punch",
+            "Brutal Swing",
             "Dragon Pulse*"
         ]
     },
@@ -12836,6 +12839,7 @@ var pokeDB = {
             "Thunder",
             "Power Gem",
             "Thunder Punch",
+            "Brutal Swing",
             "Dragon Pulse*"
         ]
     },
@@ -13033,7 +13037,8 @@ var pokeDB = {
             "Stone Edge",
             "Earthquake",
             "Rock Slide",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -13073,7 +13078,8 @@ var pokeDB = {
             "Stone Edge",
             "Earthquake",
             "Rock Slide",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -15441,7 +15447,8 @@ var pokeDB = {
         "charge": [
             "Avalanche",
             "Bulldoze",
-            "Stone Edge"
+            "Stone Edge",
+            "High Horsepower"
         ]
     },
     "defense_data": {
@@ -15479,7 +15486,8 @@ var pokeDB = {
         "charge": [
             "Avalanche",
             "Bulldoze",
-            "Stone Edge"
+            "Stone Edge",
+            "High Horsepower"
         ]
     },
     "defense_data": {
@@ -20413,7 +20421,8 @@ var pokeDB = {
             "Thunder",
             "Stone Edge",
             "Heavy Slam",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -20458,7 +20467,8 @@ var pokeDB = {
             "Thunder",
             "Stone Edge",
             "Heavy Slam",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -23151,7 +23161,8 @@ var pokeDB = {
         "charge": [
             "Shadow Punch",
             "Ice Punch",
-            "Fire Punch"
+            "Fire Punch",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -23187,7 +23198,8 @@ var pokeDB = {
         "charge": [
             "Shadow Punch",
             "Ice Punch",
-            "Fire Punch"
+            "Fire Punch",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -29528,6 +29540,7 @@ var pokeDB = {
             "Avalanche",
             "Bulldoze",
             "Stone Edge",
+            "High Horsepower",
             "Ancient Power*"
         ]
     },
@@ -29567,6 +29580,7 @@ var pokeDB = {
             "Avalanche",
             "Bulldoze",
             "Stone Edge",
+            "High Horsepower",
             "Ancient Power*"
         ]
     },
@@ -29837,6 +29851,7 @@ var pokeDB = {
             "Ominous Wind",
             "Psychic",
             "Dark Pulse",
+            "Poltergeist",
             "Shadow Ball*"
         ]
     },
@@ -29874,6 +29889,7 @@ var pokeDB = {
             "Ominous Wind",
             "Psychic",
             "Dark Pulse",
+            "Poltergeist",
             "Shadow Ball*"
         ]
     },
@@ -36623,7 +36639,8 @@ var pokeDB = {
             "Energy Ball",
             "Shadow Ball",
             "Overheat",
-            "Flame Charge"
+            "Flame Charge",
+            "Poltergeist*"
         ]
     },
     "defense_data": {
@@ -37196,7 +37213,8 @@ var pokeDB = {
         "charge": [
             "Shadow Punch",
             "Dynamic Punch",
-            "Earth Power"
+            "Earth Power",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -38424,7 +38442,8 @@ var pokeDB = {
             "Aqua Jet",
             "Close Combat",
             "Hydro Pump",
-            "X Scissor"
+            "X Scissor",
+            "Sacred Sword"
         ]
     },
     "defense_data": {
@@ -38468,7 +38487,8 @@ var pokeDB = {
             "Aqua Jet",
             "Close Combat",
             "Hydro Pump",
-            "X Scissor"
+            "X Scissor",
+            "Sacred Sword"
         ]
     },
     "defense_data": {
@@ -39334,6 +39354,176 @@ var pokeDB = {
         }
     }
 },
+"Archipelago Scatterbug": {
+    "id": "664",
+    "imgurl": "664-archipelago",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Archipelago Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Continental Scatterbug": {
+    "id": "664",
+    "imgurl": "664-continental",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Continental Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Elegant Scatterbug": {
+    "id": "664",
+    "imgurl": "664-elegant",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Elegant Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Fancy Scatterbug": {
+    "id": "664",
+    "imgurl": "664-fancy",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Fancy Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Garden Scatterbug": {
+    "id": "664",
+    "imgurl": "664-garden",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Garden Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
 "Scatterbug": {
     "id": "664",
     "imgurl": 664,
@@ -39368,18 +39558,18 @@ var pokeDB = {
         }
     }
 },
-"Spewpa": {
-    "id": "665",
-    "imgurl": 665,
+"Jungle Scatterbug": {
+    "id": "664",
+    "imgurl": "664-jungle",
     "stats": {
-        "atk": 48,
-        "def": 89,
-        "sta": 128
+        "atk": 63,
+        "def": 63,
+        "sta": 116
     },
     "type": [
         "Bug"
     ],
-    "name": "Spewpa",
+    "name": "Jungle Scatterbug",
     "moveset": {
         "quick": [
             "Bug Bite",
@@ -39402,6 +39592,1246 @@ var pokeDB = {
         }
     }
 },
+"Marine Scatterbug": {
+    "id": "664",
+    "imgurl": "664-marine",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Marine Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Meadow Scatterbug": {
+    "id": "664",
+    "imgurl": "664-meadow",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Meadow Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Modern Scatterbug": {
+    "id": "664",
+    "imgurl": "664-modern",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Modern Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Monsoon Scatterbug": {
+    "id": "664",
+    "imgurl": "664-monsoon",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Monsoon Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Ocean Scatterbug": {
+    "id": "664",
+    "imgurl": "664-ocean",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Ocean Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Pokeball Scatterbug": {
+    "id": "664",
+    "imgurl": "664-pokeball",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Pokeball Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Polar Scatterbug": {
+    "id": "664",
+    "imgurl": "664-polar",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Polar Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"River Scatterbug": {
+    "id": "664",
+    "imgurl": "664-river",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "River Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Sandstorm Scatterbug": {
+    "id": "664",
+    "imgurl": "664-sandstorm",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Sandstorm Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Savanna Scatterbug": {
+    "id": "664",
+    "imgurl": "664-savanna",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Savanna Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Sun Scatterbug": {
+    "id": "664",
+    "imgurl": "664-sun",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Sun Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Tundra Scatterbug": {
+    "id": "664",
+    "imgurl": "664-tundra",
+    "stats": {
+        "atk": 63,
+        "def": 63,
+        "sta": 116
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Tundra Scatterbug",
+    "moveset": {
+        "quick": [
+            "Bug Bite",
+            "Tackle"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Archipelago Spewpa": {
+    "id": "665",
+    "imgurl": "665-archipelago",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Archipelago Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Continental Spewpa": {
+    "id": "665",
+    "imgurl": "665-continental",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Continental Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Elegant Spewpa": {
+    "id": "665",
+    "imgurl": "665-elegant",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Elegant Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Fancy Spewpa": {
+    "id": "665",
+    "imgurl": "665-fancy",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Fancy Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Garden Spewpa": {
+    "id": "665",
+    "imgurl": "665-garden",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Garden Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Spewpa": {
+    "id": "665",
+    "imgurl": 665,
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Jungle Spewpa": {
+    "id": "665",
+    "imgurl": "665-jungle",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Jungle Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Marine Spewpa": {
+    "id": "665",
+    "imgurl": "665-marine",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Marine Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Meadow Spewpa": {
+    "id": "665",
+    "imgurl": "665-meadow",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Meadow Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Modern Spewpa": {
+    "id": "665",
+    "imgurl": "665-modern",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Modern Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Monsoon Spewpa": {
+    "id": "665",
+    "imgurl": "665-monsoon",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Monsoon Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Ocean Spewpa": {
+    "id": "665",
+    "imgurl": "665-ocean",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Ocean Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Pokeball Spewpa": {
+    "id": "665",
+    "imgurl": "665-pokeball",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Pokeball Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Polar Spewpa": {
+    "id": "665",
+    "imgurl": "665-polar",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Polar Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"River Spewpa": {
+    "id": "665",
+    "imgurl": "665-river",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "River Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Sandstorm Spewpa": {
+    "id": "665",
+    "imgurl": "665-sandstorm",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Sandstorm Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Savanna Spewpa": {
+    "id": "665",
+    "imgurl": "665-savanna",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Savanna Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Sun Spewpa": {
+    "id": "665",
+    "imgurl": "665-sun",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Sun Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Tundra Spewpa": {
+    "id": "665",
+    "imgurl": "665-tundra",
+    "stats": {
+        "atk": 48,
+        "def": 89,
+        "sta": 128
+    },
+    "type": [
+        "Bug"
+    ],
+    "name": "Tundra Spewpa",
+    "moveset": {
+        "quick": [
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fire": "160%",
+            "Flying": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%"
+        }
+    }
+},
+"Archipelago Vivillon": {
+    "id": "666",
+    "imgurl": "666-archipelago",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Archipelago Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Continental Vivillon": {
+    "id": "666",
+    "imgurl": "666-continental",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Continental Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Elegant Vivillon": {
+    "id": "666",
+    "imgurl": "666-elegant",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Elegant Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Fancy Vivillon": {
+    "id": "666",
+    "imgurl": "666-fancy",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Fancy Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Garden Vivillon": {
+    "id": "666",
+    "imgurl": "666-garden",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Garden Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
 "Vivillon": {
     "id": "666",
     "imgurl": 666,
@@ -39417,7 +40847,539 @@ var pokeDB = {
     "name": "Vivillon",
     "moveset": {
         "quick": [
-            "Bug Bite",
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Jungle Vivillon": {
+    "id": "666",
+    "imgurl": "666-jungle",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Jungle Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Marine Vivillon": {
+    "id": "666",
+    "imgurl": "666-marine",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Marine Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Meadow Vivillon": {
+    "id": "666",
+    "imgurl": "666-meadow",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Meadow Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Modern Vivillon": {
+    "id": "666",
+    "imgurl": "666-modern",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Modern Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Monsoon Vivillon": {
+    "id": "666",
+    "imgurl": "666-monsoon",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Monsoon Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Ocean Vivillon": {
+    "id": "666",
+    "imgurl": "666-ocean",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Ocean Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Pokeball Vivillon": {
+    "id": "666",
+    "imgurl": "666-pokeball",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Pokeball Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Polar Vivillon": {
+    "id": "666",
+    "imgurl": "666-polar",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Polar Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"River Vivillon": {
+    "id": "666",
+    "imgurl": "666-river",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "River Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Sandstorm Vivillon": {
+    "id": "666",
+    "imgurl": "666-sandstorm",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Sandstorm Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Savanna Vivillon": {
+    "id": "666",
+    "imgurl": "666-savanna",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Savanna Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Sun Vivillon": {
+    "id": "666",
+    "imgurl": "666-sun",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Sun Vivillon",
+    "moveset": {
+        "quick": [
+            "Gust",
+            "Struggle Bug"
+        ],
+        "charge": [
+            "Bug Buzz",
+            "Aerial Ace",
+            "Energy Ball",
+            "Hurricane"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Rock": "256%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "24.4%"
+        }
+    }
+},
+"Tundra Vivillon": {
+    "id": "666",
+    "imgurl": "666-tundra",
+    "stats": {
+        "atk": 176,
+        "def": 103,
+        "sta": 190
+    },
+    "type": [
+        "Bug",
+        "Flying"
+    ],
+    "name": "Tundra Vivillon",
+    "moveset": {
+        "quick": [
             "Gust",
             "Struggle Bug"
         ],
@@ -39461,7 +41423,8 @@ var pokeDB = {
         "quick": [
             "Fire Fang",
             "Tackle",
-            "Ember"
+            "Ember",
+            "Incinerate"
         ],
         "charge": [
             "Flame Charge",
@@ -39503,7 +41466,9 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Fire Fang",
-            "Take Down"
+            "Take Down",
+            "Ember",
+            "Incinerate"
         ],
         "charge": [
             "Flame Charge",
@@ -39546,7 +41511,9 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Fire Fang",
-            "Take Down"
+            "Take Down",
+            "Ember",
+            "Incinerate"
         ],
         "charge": [
             "Flame Charge",
@@ -41453,7 +43420,8 @@ var pokeDB = {
             "Crunch",
             "Stone Edge",
             "Outrage",
-            "Earthquake"
+            "Earthquake",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -41540,7 +43508,8 @@ var pokeDB = {
             "Ancient Power",
             "Blizzard",
             "Thunderbolt",
-            "Hyper Beam"
+            "Hyper Beam",
+            "Meteor Beam"
         ]
     },
     "defense_data": {
@@ -42152,7 +44121,8 @@ var pokeDB = {
             "Seed Bomb",
             "Shadow Ball",
             "Foul Play",
-            "Fire Blast"
+            "Fire Blast",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -42195,7 +44165,8 @@ var pokeDB = {
             "Seed Bomb",
             "Shadow Ball",
             "Foul Play",
-            "Fire Blast"
+            "Fire Blast",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -42238,7 +44209,8 @@ var pokeDB = {
             "Seed Bomb",
             "Shadow Ball",
             "Foul Play",
-            "Fire Blast"
+            "Fire Blast",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -42281,7 +44253,8 @@ var pokeDB = {
             "Seed Bomb",
             "Shadow Ball",
             "Foul Play",
-            "Fire Blast"
+            "Fire Blast",
+            "Poltergeist"
         ]
     },
     "defense_data": {
@@ -42334,6 +44307,48 @@ var pokeDB = {
         },
         "resistant_to": {
             "Ice": "62.5%"
+        }
+    }
+},
+"Hisuian Avalugg": {
+    "id": "713",
+    "imgurl": "713-hisuian",
+    "stats": {
+        "atk": 214,
+        "def": 238,
+        "sta": 216
+    },
+    "type": [
+        "Ice",
+        "Rock"
+    ],
+    "name": "Hisuian Avalugg",
+    "moveset": {
+        "quick": [
+            "Bite",
+            "Tackle",
+            "Powder Snow"
+        ],
+        "charge": [
+            "Crunch",
+            "Rock Slide",
+            "Blizzard"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "256%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Rock": "160%",
+            "Steel": "256%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Flying": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
         }
     }
 },
@@ -44261,7 +46276,6 @@ var pokeDB = {
             "Astonish"
         ],
         "charge": [
-            "Giga Drain",
             "Dazzling Gleam",
             "Seed Bomb"
         ]
@@ -44303,7 +46317,6 @@ var pokeDB = {
             "Astonish"
         ],
         "charge": [
-            "Giga Drain",
             "Moonblast",
             "Seed Bomb",
             "Sludge Bomb"
@@ -46947,26 +48960,37 @@ var pokeDB = {
     },
     "type": [
         "Dark",
-        "Ghost"
+        "Dragon"
     ],
     "name": "Guzzlord",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Snarl",
+            "Dragon Tail"
         ],
         "charge": [
-            "Struggle"
+            "Brutal Swing",
+            "Dragon Claw",
+            "Crunch",
+            "Sludge Bomb"
         ]
     },
     "defense_data": {
         "vulnerable_to": {
-            "Fairy": "160%"
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "256%",
+            "Fighting": "160%",
+            "Ice": "160%"
         },
         "resistant_to": {
-            "Fighting": "62.5%",
-            "Normal": "39.1%",
-            "Poison": "62.5%",
-            "Psychic": "39.1%"
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Fire": "62.5%",
+            "Ghost": "62.5%",
+            "Grass": "62.5%",
+            "Psychic": "39.1%",
+            "Water": "62.5%"
         }
     }
 },
@@ -51133,6 +53157,46 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%",
             "Psychic": "62.5%"
+        }
+    }
+},
+"Ursaluna": {
+    "id": "901",
+    "imgurl": 901,
+    "stats": {
+        "atk": 243,
+        "def": 181,
+        "sta": 277
+    },
+    "type": [
+        "Ground",
+        "Normal"
+    ],
+    "name": "Ursaluna",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Rock Smash"
+        ],
+        "charge": [
+            "Fire Punch",
+            "Thunder Punch",
+            "Aerial Ace",
+            "High Horsepower*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ice": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Ghost": "39.1%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
         }
     }
 },

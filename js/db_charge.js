@@ -455,9 +455,9 @@ var chargeMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "energy": "-35",
+    "energy": "-40",
     "power": "40",
-    "dpe": "1.14"
+    "dpe": "1.00"
 },
 "Night Slash": {
     "type": "Dark",
@@ -3047,6 +3047,20 @@ var chargeMoveDB = {
     "power": "15",
     "dpe": "0.38"
 },
+"Shadow Force": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "90",
+    "power": "120",
+    "dpe": "1.33"
+},
 "Meteor Beam": {
     "type": "Rock",
     "weakAgainst": [
@@ -3063,5 +3077,55 @@ var chargeMoveDB = {
     "energy": "-60",
     "power": "120",
     "dpe": "2.00"
+},
+"Poltergeist": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-80",
+    "power": "140",
+    "dpe": "1.75"
+},
+"High Horsepower": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-60",
+    "power": "100",
+    "dpe": "1.67"
+},
+"Glaciate": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-40",
+    "power": "60",
+    "dpe": "1.50"
 },
 }
