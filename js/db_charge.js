@@ -1284,9 +1284,9 @@ var chargeMoveDB = {
         "Rock",
         "Water"
     ],
-    "energy": null,
-    "power": null,
-    "dpe": null
+    "energy": "80",
+    "power": "50",
+    "dpe": "0.63"
 },
 "Fire Punch": {
     "type": "Fire",
@@ -3078,6 +3078,40 @@ var chargeMoveDB = {
     "power": "120",
     "dpe": "2.00"
 },
+"Fusion Bolt": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
+"Fusion Flare": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
 "Poltergeist": {
     "type": "Ghost",
     "weakAgainst": [
@@ -3127,5 +3161,47 @@ var chargeMoveDB = {
     "energy": "-40",
     "power": "60",
     "dpe": "1.50"
+},
+"Breaking Swipe": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Boomburst": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-75",
+    "power": "150",
+    "dpe": "2.00"
+},
+"Double Iron Bash": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
 },
 }

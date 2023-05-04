@@ -6195,7 +6195,8 @@ var pokeDB = {
         "charge": [
             "Water Pulse",
             "Psychic",
-            "Ice Beam"
+            "Ice Beam",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -6237,7 +6238,8 @@ var pokeDB = {
         "charge": [
             "Water Pulse",
             "Psychic",
-            "Ice Beam"
+            "Ice Beam",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -6279,7 +6281,8 @@ var pokeDB = {
         "charge": [
             "Focus Blast",
             "Psychic",
-            "Sludge Bomb"
+            "Sludge Bomb",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -13929,7 +13932,8 @@ var pokeDB = {
         "charge": [
             "Blizzard",
             "Psychic",
-            "Fire Blast"
+            "Fire Blast",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -13971,7 +13975,8 @@ var pokeDB = {
         "charge": [
             "Blizzard",
             "Psychic",
-            "Fire Blast"
+            "Fire Blast",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -14014,7 +14019,8 @@ var pokeDB = {
         "charge": [
             "Futuresight",
             "Shadow Ball",
-            "Sludge Wave"
+            "Sludge Wave",
+            "Surf*"
         ]
     },
     "defense_data": {
@@ -19686,7 +19692,8 @@ var pokeDB = {
         "charge": [
             "Crunch",
             "Disarming Voice",
-            "Fire Blast"
+            "Fire Blast",
+            "Boomburst"
         ]
     },
     "defense_data": {
@@ -19718,7 +19725,8 @@ var pokeDB = {
         "charge": [
             "Crunch",
             "Disarming Voice",
-            "Fire Blast"
+            "Fire Blast",
+            "Boomburst"
         ]
     },
     "defense_data": {
@@ -21677,6 +21685,7 @@ var pokeDB = {
             "Earthquake",
             "Dragon Claw",
             "Stone Edge",
+            "Boomburst",
             "Earth Power*"
         ]
     },
@@ -21716,6 +21725,7 @@ var pokeDB = {
             "Earthquake",
             "Dragon Claw",
             "Stone Edge",
+            "Boomburst",
             "Earth Power*"
         ]
     },
@@ -24546,6 +24556,51 @@ var pokeDB = {
         }
     }
 },
+"S Latias": {
+    "id": "380",
+    "imgurl": "380-s",
+    "stats": {
+        "atk": 228,
+        "def": 246,
+        "sta": 190
+    },
+    "type": [
+        "Dragon",
+        "Psychic"
+    ],
+    "name": "S Latias",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Zen Headbutt",
+            "Charm"
+        ],
+        "charge": [
+            "Psychic",
+            "Outrage",
+            "Thunder",
+            "Mist Ball*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Psychic": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Latios": {
     "id": "381",
     "imgurl": 381,
@@ -24634,6 +24689,50 @@ var pokeDB = {
         }
     }
 },
+"S Latios": {
+    "id": "381",
+    "imgurl": "381-s",
+    "stats": {
+        "atk": 268,
+        "def": 212,
+        "sta": 190
+    },
+    "type": [
+        "Dragon",
+        "Psychic"
+    ],
+    "name": "S Latios",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Psychic",
+            "Dragon Claw",
+            "Solar Beam",
+            "Luster Purge*"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Psychic": "62.5%",
+            "Water": "62.5%"
+        }
+    }
+},
 "Kyogre": {
     "id": "382",
     "imgurl": 382,
@@ -24654,7 +24753,8 @@ var pokeDB = {
             "Hydro Pump",
             "Blizzard",
             "Thunder",
-            "Surf"
+            "Surf",
+            "Origin Pulse*"
         ]
     },
     "defense_data": {
@@ -24691,7 +24791,8 @@ var pokeDB = {
             "Earthquake",
             "Fire Blast",
             "Solar Beam",
-            "Fire Punch*"
+            "Fire Punch*",
+            "Precipice Blades*"
         ]
     },
     "defense_data": {
@@ -24729,7 +24830,8 @@ var pokeDB = {
             "Outrage",
             "Aerial Ace",
             "Ancient Power",
-            "Hurricane*"
+            "Hurricane*",
+            "Breaking Swipe*"
         ]
     },
     "defense_data": {
@@ -29301,7 +29403,8 @@ var pokeDB = {
             "Ancient Power",
             "Dazzling Gleam",
             "Aerial Ace",
-            "Flamethrower"
+            "Flamethrower",
+            "Aura Sphere*"
         ]
     },
     "defense_data": {
@@ -30467,7 +30570,8 @@ var pokeDB = {
         "charge": [
             "Dragon Claw",
             "Ancient Power",
-            "Shadow Sneak"
+            "Shadow Sneak",
+            "Shadow Force*"
         ]
     },
     "defense_data": {
@@ -30511,7 +30615,8 @@ var pokeDB = {
         "charge": [
             "Dragon Pulse",
             "Ominous Wind",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Shadow Force*"
         ]
     },
     "defense_data": {
@@ -33578,7 +33683,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Charm",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Fairy Wind"
         ],
         "charge": [
             "Grass Knot",
@@ -35957,7 +36063,8 @@ var pokeDB = {
         "charge": [
             "Shadow Ball",
             "Ice Beam",
-            "Bubble Beam"
+            "Bubble Beam",
+            "Surf"
         ]
     },
     "defense_data": {
@@ -36000,7 +36107,8 @@ var pokeDB = {
         "charge": [
             "Shadow Ball",
             "Ice Beam",
-            "Bubble Beam"
+            "Bubble Beam",
+            "Surf"
         ]
     },
     "defense_data": {
@@ -38163,7 +38271,8 @@ var pokeDB = {
             "Crunch",
             "Overheat",
             "Draco Meteor",
-            "Stone Edge"
+            "Stone Edge",
+            "Fusion Flare*"
         ]
     },
     "defense_data": {
@@ -38203,7 +38312,8 @@ var pokeDB = {
             "Outrage",
             "Wild Charge",
             "Flash Cannon",
-            "Crunch"
+            "Crunch",
+            "Fusion Bolt*"
         ]
     },
     "defense_data": {
@@ -38362,7 +38472,8 @@ var pokeDB = {
         "charge": [
             "Dragon Claw",
             "Blizzard",
-            "Draco Meteor"
+            "Draco Meteor",
+            "Glaciate*"
         ]
     },
     "defense_data": {
@@ -38897,7 +39008,8 @@ var pokeDB = {
             "Gyro Ball",
             "Energy Ball",
             "Super Power",
-            "Solar Beam"
+            "Solar Beam",
+            "Frenzy Plant*"
         ]
     },
     "defense_data": {
@@ -43582,13 +43694,12 @@ var pokeDB = {
     "name": "Hawlucha",
     "moveset": {
         "quick": [
-            "Wing Attack",
             "Low Kick",
             "Poison Jab"
         ],
         "charge": [
             "Flying Press",
-            "Sky Attack",
+            "Aerial Ace",
             "X Scissor",
             "Power Up Punch"
         ]
@@ -44452,7 +44563,8 @@ var pokeDB = {
             "Draco Meteor",
             "Hurricane",
             "Heat Wave",
-            "Psychic"
+            "Psychic",
+            "Boomburst*"
         ]
     },
     "defense_data": {
@@ -48368,7 +48480,8 @@ var pokeDB = {
         "charge": [
             "Dragon Claw",
             "Close Combat",
-            "Flamethrower"
+            "Flamethrower",
+            "Boomburst"
         ]
     },
     "defense_data": {
@@ -53277,6 +53390,86 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%",
             "Psychic": "62.5%"
+        }
+    }
+},
+"Gimmighoul": {
+    "id": "999",
+    "imgurl": 999,
+    "stats": {
+        "atk": 140,
+        "def": 76,
+        "sta": 128
+    },
+    "type": [
+        "Ghost"
+    ],
+    "name": "Gimmighoul",
+    "moveset": {
+        "quick": [
+            "Astonish"
+        ],
+        "charge": [
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    }
+},
+"Gholdengo": {
+    "id": "1000",
+    "imgurl": 1000,
+    "stats": {
+        "atk": 252,
+        "def": 190,
+        "sta": 202
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "name": "Gholdengo",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Hex"
+        ],
+        "charge": [
+            "Shadow Ball",
+            "Dazzling Gleam",
+            "Focus Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
         }
     }
 },
