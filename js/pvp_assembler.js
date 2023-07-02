@@ -51,6 +51,20 @@ $(document).on('click', '.pkm-list-btn', function() {
 		});
 	}
 
+	if ($("#hide_dt").is(":checked")) {
+		toRemove = [];
+
+		$.each(pkms, function(id,pkm) {
+			if (pokeDB[pkm].type.length > 1) {
+				toRemove.push(pkm)
+			}
+		});
+
+		$.each(toRemove, function(id,removePkm) {
+			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+		});
+	}
+
 	var ept = $("#ept_limit option:selected").val();
 
 	if (ept != "-") {
