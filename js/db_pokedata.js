@@ -1178,7 +1178,7 @@ var pokeDB = {
 },
 "Alola Rattata": {
     "id": "019",
-    "imgurl": 10091,
+    "imgurl": "10091",
     "stats": {
         "atk": 103,
         "def": 70,
@@ -1279,7 +1279,7 @@ var pokeDB = {
 },
 "Alola Raticate": {
     "id": "020",
-    "imgurl": 10092,
+    "imgurl": "10092",
     "stats": {
         "atk": 135,
         "def": 154,
@@ -1647,6 +1647,40 @@ var pokeDB = {
         }
     }
 },
+"Jeju Pikachu": {
+    "id": "025",
+    "imgurl": "25-jeju",
+    "stats": {
+        "atk": 112,
+        "def": 96,
+        "sta": 111
+    },
+    "type": [
+        "Electric"
+    ],
+    "name": "Jeju Pikachu",
+    "moveset": {
+        "quick": [
+            "Thunder Shock",
+            "Quick Attack"
+        ],
+        "charge": [
+            "Discharge",
+            "Thunderbolt",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Steel": "62.5%"
+        }
+    }
+},
 "Kariyushi Pikachu": {
     "id": "025",
     "imgurl": "25-kariyushi",
@@ -1683,7 +1717,7 @@ var pokeDB = {
 },
 "Alola Raichu": {
     "id": "026",
-    "imgurl": 10100,
+    "imgurl": "10100",
     "stats": {
         "atk": 201,
         "def": 154,
@@ -1763,7 +1797,7 @@ var pokeDB = {
 },
 "Alola Sandshrew": {
     "id": "027",
-    "imgurl": 10101,
+    "imgurl": "10101",
     "stats": {
         "atk": 125,
         "def": 129,
@@ -1880,7 +1914,7 @@ var pokeDB = {
 },
 "Alola Sandslash": {
     "id": "028",
-    "imgurl": 10102,
+    "imgurl": "10102",
     "stats": {
         "atk": 177,
         "def": 195,
@@ -1901,7 +1935,8 @@ var pokeDB = {
             "Blizzard",
             "Gyro Ball",
             "Bulldoze",
-            "Ice Punch"
+            "Ice Punch",
+            "Drill Run"
         ]
     },
     "defense_data": {
@@ -2526,6 +2561,7 @@ var pokeDB = {
             "Charge Beam",
             "Zen Headbutt",
             "Charm",
+            "Fairy Wind",
             "Pound*"
         ],
         "charge": [
@@ -2550,7 +2586,7 @@ var pokeDB = {
 },
 "Alola Vulpix": {
     "id": "037",
-    "imgurl": 10103,
+    "imgurl": "10103",
     "stats": {
         "atk": 96,
         "def": 109,
@@ -2666,7 +2702,7 @@ var pokeDB = {
 },
 "Alola Ninetales": {
     "id": "038",
-    "imgurl": 10104,
+    "imgurl": "10104",
     "stats": {
         "atk": 170,
         "def": 193,
@@ -2856,7 +2892,8 @@ var pokeDB = {
             "Dazzling Gleam",
             "Hyper Beam",
             "Play Rough",
-            "Ice Beam"
+            "Ice Beam",
+            "Disarming Voice"
         ]
     },
     "defense_data": {
@@ -3533,7 +3570,7 @@ var pokeDB = {
 },
 "Alola Diglett": {
     "id": "050",
-    "imgurl": 10105,
+    "imgurl": "10105",
     "stats": {
         "atk": 108,
         "def": 81,
@@ -3650,7 +3687,7 @@ var pokeDB = {
 },
 "Alola Dugtrio": {
     "id": "051",
-    "imgurl": 10106,
+    "imgurl": "10106",
     "stats": {
         "atk": 201,
         "def": 142,
@@ -3767,7 +3804,7 @@ var pokeDB = {
 },
 "Alola Meowth": {
     "id": "052",
-    "imgurl": 10107,
+    "imgurl": "10107",
     "stats": {
         "atk": 99,
         "def": 78,
@@ -3836,7 +3873,7 @@ var pokeDB = {
 },
 "Galarian Meowth": {
     "id": "052",
-    "imgurl": 10161,
+    "imgurl": "10161",
     "stats": {
         "atk": 115,
         "def": 92,
@@ -3913,7 +3950,7 @@ var pokeDB = {
 },
 "Alola Persian": {
     "id": "053",
-    "imgurl": 10108,
+    "imgurl": "10108",
     "stats": {
         "atk": 158,
         "def": 136,
@@ -4111,7 +4148,8 @@ var pokeDB = {
             "Ice Beam",
             "Bubble Beam",
             "Synchronoise",
-            "Cross Chop"
+            "Cross Chop",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -4150,7 +4188,8 @@ var pokeDB = {
             "Ice Beam",
             "Bubble Beam",
             "Synchronoise",
-            "Cross Chop"
+            "Cross Chop",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -4243,7 +4282,7 @@ var pokeDB = {
 },
 "Hisuian Growlithe": {
     "id": "058",
-    "imgurl": "58-hisuian",
+    "imgurl": "10229",
     "stats": {
         "atk": 142,
         "def": 92,
@@ -4363,7 +4402,7 @@ var pokeDB = {
 },
 "Hisuian Arcanine": {
     "id": "059",
-    "imgurl": 10230,
+    "imgurl": "10230",
     "stats": {
         "atk": 232,
         "def": 165,
@@ -5517,7 +5556,7 @@ var pokeDB = {
 },
 "Alola Geodude": {
     "id": "074",
-    "imgurl": 10109,
+    "imgurl": "10109",
     "stats": {
         "atk": 132,
         "def": 132,
@@ -5643,7 +5682,7 @@ var pokeDB = {
 },
 "Alola Graveler": {
     "id": "075",
-    "imgurl": 10110,
+    "imgurl": "10110",
     "stats": {
         "atk": 164,
         "def": 164,
@@ -5771,7 +5810,7 @@ var pokeDB = {
 },
 "Alola Golem": {
     "id": "076",
-    "imgurl": 10111,
+    "imgurl": "10111",
     "stats": {
         "atk": 211,
         "def": 198,
@@ -5900,7 +5939,7 @@ var pokeDB = {
 },
 "Galarian Ponyta": {
     "id": "077",
-    "imgurl": 10162,
+    "imgurl": "10162",
     "stats": {
         "atk": 170,
         "def": 127,
@@ -5975,7 +6014,7 @@ var pokeDB = {
 },
 "Galarian Rapidash": {
     "id": "078",
-    "imgurl": 10163,
+    "imgurl": "10163",
     "stats": {
         "atk": 207,
         "def": 162,
@@ -6141,7 +6180,7 @@ var pokeDB = {
 },
 "Galarian Slowpoke": {
     "id": "079",
-    "imgurl": 10164,
+    "imgurl": "10164",
     "stats": {
         "atk": 109,
         "def": 98,
@@ -6262,7 +6301,7 @@ var pokeDB = {
 },
 "Galarian Slowbro": {
     "id": "080",
-    "imgurl": 10165,
+    "imgurl": "10165",
     "stats": {
         "atk": 182,
         "def": 156,
@@ -6489,7 +6528,7 @@ var pokeDB = {
 },
 "Galarian Farfetch’d": {
     "id": "083",
-    "imgurl": "",
+    "imgurl": null,
     "stats": {
         "atk": 174,
         "def": 114,
@@ -6701,6 +6740,8 @@ var pokeDB = {
             "Aurora Beam",
             "Water Pulse",
             "Blizzard",
+            "Drill Run",
+            "Liquidation",
             "Aqua Jet*",
             "Icy Wind*"
         ]
@@ -6720,7 +6761,7 @@ var pokeDB = {
 },
 "Alola Grimer": {
     "id": "088",
-    "imgurl": 10112,
+    "imgurl": "10112",
     "stats": {
         "atk": 135,
         "def": 90,
@@ -6831,7 +6872,7 @@ var pokeDB = {
 },
 "Alola Muk": {
     "id": "089",
-    "imgurl": 10113,
+    "imgurl": "10113",
     "stats": {
         "atk": 190,
         "def": 172,
@@ -7043,6 +7084,7 @@ var pokeDB = {
             "Hydro Pump",
             "Avalanche",
             "Icy Wind",
+            "Liquidation",
             "Blizzard*"
         ]
     },
@@ -7082,6 +7124,7 @@ var pokeDB = {
             "Hydro Pump",
             "Avalanche",
             "Icy Wind",
+            "Liquidation",
             "Blizzard*"
         ]
     },
@@ -7503,7 +7546,7 @@ var pokeDB = {
 },
 "Hisuian Voltorb": {
     "id": "100",
-    "imgurl": "100-hisuian",
+    "imgurl": "10231",
     "stats": {
         "atk": 109,
         "def": 111,
@@ -7612,7 +7655,7 @@ var pokeDB = {
 },
 "Hisuian Electrode": {
     "id": "101",
-    "imgurl": 10232,
+    "imgurl": "10232",
     "stats": {
         "atk": 176,
         "def": 176,
@@ -7811,7 +7854,7 @@ var pokeDB = {
 },
 "Alola Exeggutor": {
     "id": "103",
-    "imgurl": 10114,
+    "imgurl": "10114",
     "stats": {
         "atk": 230,
         "def": 153,
@@ -8017,7 +8060,7 @@ var pokeDB = {
 },
 "Alola Marowak": {
     "id": "105",
-    "imgurl": 10115,
+    "imgurl": "10115",
     "stats": {
         "atk": 144,
         "def": 186,
@@ -8404,7 +8447,7 @@ var pokeDB = {
 },
 "Galarian Weezing": {
     "id": "110",
-    "imgurl": 10167,
+    "imgurl": "10167",
     "stats": {
         "atk": 174,
         "def": 197,
@@ -9059,7 +9102,7 @@ var pokeDB = {
 },
 "Galarian Mr. Mime": {
     "id": "122",
-    "imgurl": "",
+    "imgurl": null,
     "stats": {
         "atk": 183,
         "def": 169,
@@ -9833,6 +9876,7 @@ var pokeDB = {
             "Water Pulse",
             "Hydro Pump",
             "Aqua Tail",
+            "Liquidation",
             "Last Resort*",
             "Scald*"
         ]
@@ -10418,7 +10462,7 @@ var pokeDB = {
 },
 "Galarian Articuno": {
     "id": "144",
-    "imgurl": 10169,
+    "imgurl": "10169",
     "stats": {
         "atk": 250,
         "def": 197,
@@ -10538,7 +10582,7 @@ var pokeDB = {
 },
 "Galarian Zapdos": {
     "id": "145",
-    "imgurl": 10170,
+    "imgurl": "10170",
     "stats": {
         "atk": 252,
         "def": 189,
@@ -10660,7 +10704,7 @@ var pokeDB = {
 },
 "Galarian Moltres": {
     "id": "146",
-    "imgurl": 10171,
+    "imgurl": "10171",
     "stats": {
         "atk": 202,
         "def": 231,
@@ -12538,6 +12582,7 @@ var pokeDB = {
         "quick": [
             "Extrasensory",
             "Hidden Power",
+            "Fairy Wind",
             "Steel Wing*",
             "Zen Headbutt*"
         ],
@@ -13702,7 +13747,8 @@ var pokeDB = {
             "Sludge Bomb",
             "Earthquake",
             "Stone Edge",
-            "Acid Spray"
+            "Acid Spray",
+            "Mud Bomb"
         ]
     },
     "defense_data": {
@@ -13740,7 +13786,8 @@ var pokeDB = {
             "Sludge Bomb",
             "Earthquake",
             "Stone Edge",
-            "Acid Spray"
+            "Acid Spray",
+            "Mud Bomb"
         ]
     },
     "defense_data": {
@@ -13999,7 +14046,7 @@ var pokeDB = {
 },
 "Galarian Slowking": {
     "id": "199",
-    "imgurl": 10172,
+    "imgurl": "10172",
     "stats": {
         "atk": 190,
         "def": 180,
@@ -14745,7 +14792,7 @@ var pokeDB = {
 },
 "Hisuian Qwilfish": {
     "id": "211",
-    "imgurl": 10234,
+    "imgurl": "10234",
     "stats": {
         "atk": 184,
         "def": 151,
@@ -15023,7 +15070,7 @@ var pokeDB = {
 },
 "Hisuian Sneasel": {
     "id": "215",
-    "imgurl": 10235,
+    "imgurl": "10235",
     "stats": {
         "atk": 189,
         "def": 146,
@@ -17097,7 +17144,8 @@ var pokeDB = {
         "charge": [
             "Fire Blast",
             "Crunch",
-            "Stone Edge"
+            "Stone Edge",
+            "Brutal Swing"
         ]
     },
     "defense_data": {
@@ -17143,7 +17191,8 @@ var pokeDB = {
         "charge": [
             "Fire Blast",
             "Crunch",
-            "Stone Edge"
+            "Stone Edge",
+            "Brutal Swing"
         ]
     },
     "defense_data": {
@@ -18089,7 +18138,7 @@ var pokeDB = {
 },
 "Galarian Zigzagoon": {
     "id": "263",
-    "imgurl": 10174,
+    "imgurl": "10174",
     "stats": {
         "atk": 58,
         "def": 80,
@@ -18158,7 +18207,7 @@ var pokeDB = {
 },
 "Galarian Linoone": {
     "id": "264",
-    "imgurl": 10175,
+    "imgurl": "10175",
     "stats": {
         "atk": 142,
         "def": 128,
@@ -22489,7 +22538,8 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Bulldoze",
-            "Stone Edge"
+            "Stone Edge",
+            "Rock Slide"
         ]
     },
     "defense_data": {
@@ -22527,7 +22577,8 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Bulldoze",
-            "Stone Edge"
+            "Stone Edge",
+            "Rock Slide"
         ]
     },
     "defense_data": {
@@ -22636,7 +22687,8 @@ var pokeDB = {
         "charge": [
             "Cross Poison",
             "Water Pulse",
-            "Rock Blast"
+            "Rock Blast",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -22672,7 +22724,8 @@ var pokeDB = {
         "charge": [
             "Cross Poison",
             "Water Pulse",
-            "Rock Blast"
+            "Rock Blast",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -26851,7 +26904,8 @@ var pokeDB = {
         "charge": [
             "Aqua Jet",
             "Hydro Pump",
-            "Swift"
+            "Swift",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -27185,7 +27239,8 @@ var pokeDB = {
         "charge": [
             "Ominous Wind",
             "Icy Wind",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Myst Fire"
         ]
     },
     "defense_data": {
@@ -28732,7 +28787,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Powder Snow",
-            "Ice Shard"
+            "Ice Shard",
+            "Leafage"
         ],
         "charge": [
             "Ice Beam",
@@ -28774,7 +28830,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Powder Snow",
-            "Ice Shard"
+            "Ice Shard",
+            "Leafage"
         ],
         "charge": [
             "Ice Beam",
@@ -28816,7 +28873,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Powder Snow",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Leafage"
         ],
         "charge": [
             "Blizzard",
@@ -28859,7 +28917,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Powder Snow",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Leafage"
         ],
         "charge": [
             "Blizzard",
@@ -29868,7 +29927,8 @@ var pokeDB = {
         "charge": [
             "Magnet Bomb",
             "Rock Slide",
-            "Thunderbolt"
+            "Thunderbolt",
+            "Zap Cannon"
         ]
     },
     "defense_data": {
@@ -29911,7 +29971,8 @@ var pokeDB = {
         "charge": [
             "Magnet Bomb",
             "Rock Slide",
-            "Thunderbolt"
+            "Thunderbolt",
+            "Zap Cannon"
         ]
     },
     "defense_data": {
@@ -30494,7 +30555,9 @@ var pokeDB = {
             "Fire Blast",
             "Iron Head",
             "Stone Edge",
-            "Flamethrower"
+            "Flamethrower",
+            "Earth Power",
+            "Magma Storm*"
         ]
     },
     "defense_data": {
@@ -31904,6 +31967,7 @@ var pokeDB = {
             "Blizzard",
             "Megahorn",
             "Razor Shell",
+            "Liquidation",
             "Hydro Cannon*"
         ]
     },
@@ -33689,7 +33753,8 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Hurricane",
-            "Moonblast"
+            "Moonblast",
+            "Seed Bomb"
         ]
     },
     "defense_data": {
@@ -33955,7 +34020,7 @@ var pokeDB = {
 },
 "Galarian Darumaka": {
     "id": "554",
-    "imgurl": 10176,
+    "imgurl": "10176",
     "stats": {
         "atk": 153,
         "def": 86,
@@ -34381,7 +34446,7 @@ var pokeDB = {
 },
 "Galarian Yamask": {
     "id": "562",
-    "imgurl": 10179,
+    "imgurl": "10179",
     "stats": {
         "atk": 95,
         "def": 141,
@@ -34553,7 +34618,8 @@ var pokeDB = {
         "charge": [
             "Surf",
             "Ancient Power",
-            "Body Slam"
+            "Body Slam",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -35699,7 +35765,8 @@ var pokeDB = {
         "charge": [
             "Discharge",
             "Aerial Ace",
-            "Thunderbolt"
+            "Thunderbolt",
+            "Acrobatics"
         ]
     },
     "defense_data": {
@@ -36550,7 +36617,8 @@ var pokeDB = {
             "Crunch",
             "Thunderbolt",
             "Acid Spray",
-            "Dragon Claw"
+            "Dragon Claw",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -36655,7 +36723,8 @@ var pokeDB = {
         "charge": [
             "Flame Charge",
             "Flame Burst",
-            "Heat Wave"
+            "Heat Wave",
+            "Myst Fire"
         ]
     },
     "defense_data": {
@@ -36867,7 +36936,8 @@ var pokeDB = {
             "Dragon Claw",
             "Surf",
             "Night Slash",
-            "Earthquake"
+            "Earthquake",
+            "Breaking Swipe*"
         ]
     },
     "defense_data": {
@@ -36939,7 +37009,8 @@ var pokeDB = {
         "charge": [
             "Ice Punch",
             "Surf",
-            "Play Rough"
+            "Play Rough",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -37065,7 +37136,7 @@ var pokeDB = {
 },
 "Galarian Stunfisk": {
     "id": "618",
-    "imgurl": 10180,
+    "imgurl": "10180",
     "stats": {
         "atk": 144,
         "def": 171,
@@ -37507,7 +37578,7 @@ var pokeDB = {
 },
 "Hisuian Braviary": {
     "id": "628",
-    "imgurl": 10240,
+    "imgurl": "10240",
     "stats": {
         "atk": 213,
         "def": 137,
@@ -39132,7 +39203,9 @@ var pokeDB = {
             "Psychic",
             "Flamethrower",
             "Flame Charge",
-            "Fire Blast"
+            "Fire Blast",
+            "Myst Fire",
+            "Blast Burn*"
         ]
     },
     "defense_data": {
@@ -44423,7 +44496,7 @@ var pokeDB = {
 },
 "Hisuian Avalugg": {
     "id": "713",
-    "imgurl": "713-hisuian",
+    "imgurl": "10243",
     "stats": {
         "atk": 214,
         "def": 238,
@@ -44665,13 +44738,54 @@ var pokeDB = {
         }
     }
 },
+"Complete Zygarde": {
+    "id": "718",
+    "imgurl": "718-complete",
+    "stats": {
+        "atk": 184,
+        "def": 207,
+        "sta": 389
+    },
+    "type": [
+        "Dragon",
+        "Ground"
+    ],
+    "name": "Complete Zygarde",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Bite",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Outrage",
+            "Earthquake",
+            "Crunch",
+            "Hyper Beam",
+            "Bulldoze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ice": "256%"
+        },
+        "resistant_to": {
+            "Electric": "24.4%",
+            "Fire": "62.5%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    }
+},
 "Zygarde": {
     "id": "718",
     "imgurl": 718,
     "stats": {
-        "atk": 0,
-        "def": 0,
-        "sta": 0
+        "atk": 205,
+        "def": 173,
+        "sta": 144
     },
     "type": [
         "Dragon",
@@ -44875,7 +44989,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Tackle",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Leafage"
         ],
         "charge": [
             "Seed Bomb",
@@ -44914,7 +45029,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Peck",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Leafage"
         ],
         "charge": [
             "Seed Bomb",
@@ -44954,7 +45070,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Leafage"
         ],
         "charge": [
             "Shadow Sneak",
@@ -45194,7 +45311,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Hydro Pump",
-            "Moonblast"
+            "Moonblast",
+            "Disarming Voice"
         ]
     },
     "defense_data": {
@@ -46306,7 +46424,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Razor Leaf",
-            "Fury Cutter"
+            "Fury Cutter",
+            "Leafage"
         ],
         "charge": [
             "Leaf Blade",
@@ -46345,7 +46464,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Razor Leaf",
-            "Fury Cutter"
+            "Fury Cutter",
+            "Leafage"
         ],
         "charge": [
             "Leaf Blade",
@@ -46906,7 +47026,8 @@ var pokeDB = {
         "charge": [
             "X Scissor",
             "Aqua Jet",
-            "Aerial Ace"
+            "Aerial Ace",
+            "Liquidation"
         ]
     },
     "defense_data": {
@@ -48111,12 +48232,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ember",
-            "Fire Spin"
+            "Fire Spin",
+            "Incinerate"
         ],
         "charge": [
             "Overheat",
             "Flamethrower",
-            "Dragon Pulse"
+            "Dragon Pulse",
+            "Flash Cannon"
         ]
     },
     "defense_data": {
@@ -49506,7 +49629,8 @@ var pokeDB = {
             "Thunderbolt",
             "Hyper Beam",
             "Rock Slide",
-            "Super Power"
+            "Super Power",
+            "Double Iron Bash*"
         ]
     },
     "defense_data": {
@@ -53273,6 +53397,42 @@ var pokeDB = {
         }
     }
 },
+"Kleavor": {
+    "id": "900",
+    "imgurl": 900,
+    "stats": {
+        "atk": 253,
+        "def": 174,
+        "sta": 172
+    },
+    "type": [
+        "Bug",
+        "Rock"
+    ],
+    "name": "Kleavor",
+    "moveset": {
+        "quick": [
+            "Quick Attack",
+            "Air Slash"
+        ],
+        "charge": [
+            "X Scissor",
+            "Rock Slide",
+            "Stone Edge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Rock": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    }
+},
 "Ursaluna": {
     "id": "901",
     "imgurl": 901,
@@ -53295,6 +53455,7 @@ var pokeDB = {
             "Fire Punch",
             "Thunder Punch",
             "Aerial Ace",
+            "Ice Punch",
             "High Horsepower*"
         ]
     },
