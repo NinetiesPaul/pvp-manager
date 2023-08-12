@@ -3,6 +3,11 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
+
+	$.each(pkms, function(id, pkm) {
+		pkms[id] = pkm.charAt(0).toUpperCase() + pkm.slice(1).toLowerCase()
+	})
+
 	var totalPkms = pkms.length;
 
 	if (hideTypes.length > 0) {
