@@ -90,7 +90,9 @@
                 var moveList = $('#moveList');
                 moveList.select2();
                 moveList.on('change', function(){
-                    filterPokemonByMove(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
+                    if (this.value !== "-- Pick an option --") {
+                        filterPokemonByMove(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
+                    }
                 });
                 
                 $("#loadData").change(function() {
@@ -555,7 +557,7 @@
                         <p>
                             <br>Can learn:<br/>
                             <select id="moveList" name="moveList" class="custom-select" style="width: 15em;">
-                                <option>-- Pick an option --</option>
+                                <option value="-- Pick an option --">-- Pick an option --</option>
                             </select>
                         </p><br>
 
