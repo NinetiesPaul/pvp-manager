@@ -1,5 +1,12 @@
-function filterPokemonByMove(move, pokemons, type)
+function filterPokemonByMove(move, pokemons)
 {
+    if (move in quickMoveDB) {
+        type = "quick"
+    }
+    if (move in chargeMoveDB) {
+        type = "charge"
+    }
+
 	$(".pokemondb-table tbody").html("");
 
 	var pokemons = pokemons.split(",");

@@ -62,11 +62,11 @@
                 }
 
                 for (var key in quickMoveDB) {
-                    $("#quickMoveList").append("<option>" + key + "</option>");
+                    $("#moveList").append("<option>" + key + "</option>");
                 }
 
                 for (var key in chargeMoveDB) {
-                    $("#chargeMoveList").append("<option>" + key + "</option>");
+                    $("#moveList").append("<option>" + key + "</option>");
                 }
 
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
@@ -87,16 +87,10 @@
                     getPokemonData(this.value, this.id);
                 });
                 
-                var quickMoveList = $('#quickMoveList');
-                quickMoveList.select2();
-                quickMoveList.on('change', function(){
-                    filterPokemonByMove(this.value, $(".pkm-list-db").val(), "quick");
-                });
-                
-                var chargeMoveList = $('#chargeMoveList');
-                chargeMoveList.select2();
-                chargeMoveList.on('change', function(){
-                    filterPokemonByMove(this.value, $(".pkm-list-db").val(), "charge");
+                var moveList = $('#moveList');
+                moveList.select2();
+                moveList.on('change', function(){
+                    filterPokemonByMove(this.value, $(".pkm-list-db").val());
                 });
                 
                 $("#loadData").change(function() {
@@ -547,12 +541,8 @@
                         <textarea class="pkm-list-db" style="height: 252px; width:50em;"></textarea>
 
                         <p>
-                            <br>Can Learn (Quick Moves)<br/>
-                            <select id="quickMoveList" name="quickMoveList" style="width: 20%;">
-                                <option>-- Pick an option --</option>
-                            </select>
-                            <br>Can Learn (Charge Moves)<br/>
-                            <select id="chargeMoveList" name="chargeMoveList" style="width: 20%;">
+                            <br>Can learn:<br/>
+                            <select id="moveList" name="moveList" style="width: 20%;">
                                 <option>-- Pick an option --</option>
                             </select>
                         </p><br>
