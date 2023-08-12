@@ -90,7 +90,7 @@
                 var moveList = $('#moveList');
                 moveList.select2();
                 moveList.on('change', function(){
-                    filterPokemonByMove(this.value, $(".pkm-list-db").val());
+                    filterPokemonByMove(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
                 });
                 
                 $("#loadData").change(function() {
@@ -173,6 +173,15 @@
                             v.classList.remove('disabled')
                         });
 
+                    }
+                });
+
+                $("#whole_database").on('click', function () {
+                    $('#moveList').val("-- Pick an option --").trigger('change');
+                    if ($(".pkm-list-db").is(":disabled")) {
+                        $(".pkm-list-db").attr("disabled", false)
+                    } else {
+                        $(".pkm-list-db").attr("disabled", true)
                     }
                 });
             });
@@ -466,11 +475,12 @@
                             <br>Hide double vulnerabilities <input type="checkbox" id="hide_dv"/>
                             <br>Single type only <input type="checkbox" id="hide_dt"/>
                             <br>Quick Moves with EPT 
-                            <select id="ept_comparison">
+                            <select id="ept_comparison" class="custom-select" style="width: 8em;">
+                                <option value="=">equal to</option>
                                 <option value=">">greater than</option>
                                 <option value=">=">greather than or equal to</option>
                             </select>
-                            <select id="ept_limit">
+                            <select id="ept_limit" class="custom-select" style="width: 5em;">
                                 <option value="-">-</option>
                                 <option value="3">3</option>
                                 <option value="3.5">3.5</option>
@@ -538,11 +548,13 @@
 
                     <div class="tab-pane fade show" id="pvp-pokemondb" role="tabpanel" >
 
-                        <textarea class="pkm-list-db" style="height: 252px; width:50em;"></textarea>
+                        Use whole database <input type="checkbox" id="whole_database"/>
+
+                        <br/><textarea class="pkm-list-db" style="height: 252px; width:50em;"></textarea>
 
                         <p>
                             <br>Can learn:<br/>
-                            <select id="moveList" name="moveList" style="width: 20%;">
+                            <select id="moveList" name="moveList" class="custom-select" style="width: 15em;">
                                 <option>-- Pick an option --</option>
                             </select>
                         </p><br>

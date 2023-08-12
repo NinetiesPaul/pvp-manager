@@ -1,4 +1,4 @@
-function filterPokemonByMove(move, pokemons)
+function filterPokemonByMove(move, pokemons, wholeDatabase)
 {
     if (move in quickMoveDB) {
         type = "quick"
@@ -9,10 +9,9 @@ function filterPokemonByMove(move, pokemons)
 
 	$(".pokemondb-table tbody").html("");
 
-	var pokemons = pokemons.split(",");
+    var pokemons = (wholeDatabase) ? Object.keys(pokeDB) : pokemons.split(",")
 
-    var filteredList = []
-    textToAppend = "";
+    var textToAppend = "";
 
     $.each(pokemons, function (id, pkm) {
         if (jQuery.inArray(move, pokeDB[pkm].moveset[type]) > -1)

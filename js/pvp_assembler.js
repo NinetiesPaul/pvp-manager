@@ -75,6 +75,11 @@ $(document).on('click', '.pkm-list-btn', function() {
 				moveEpt = quickMoveDB[element.replace('*', "")].ept;
 
 				switch ($("#ept_comparison option:selected").val()) {
+					case "=":
+						if (moveEpt == ept) {
+							toKeep.push(pkm)
+						}
+						break;
 					case ">=":
 						if (moveEpt >= ept) {
 							toKeep.push(pkm)
