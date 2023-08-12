@@ -5,7 +5,17 @@ $(document).on('click', '.pkm-list-btn', function() {
 	pkms = pkms.split(',');
 
 	$.each(pkms, function(id, pkm) {
-		pkms[id] = pkm.charAt(0).toUpperCase() + pkm.slice(1).toLowerCase()
+		if (pkm.indexOf(" ") > -1) {
+			innerPkm = pkm.split(" ");
+
+			$.each(innerPkm, function(k, j) {
+				innerPkm[k] = j.charAt(0).toUpperCase() + j.slice(1).toLowerCase()
+			});
+
+			pkms[id] = innerPkm.join(" ")
+		} else {
+			pkms[id] = pkm.charAt(0).toUpperCase() + pkm.slice(1).toLowerCase()
+		}
 	})
 
 	var totalPkms = pkms.length;
