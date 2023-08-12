@@ -3204,4 +3204,72 @@ var chargeMoveDB = {
     "power": "50",
     "dpe": "1.43"
 },
+"Myst Fire": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Liquidation": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Dragon Ascent": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-70",
+    "power": "150",
+    "dpe": "2.14"
+},
+"Magma Storm": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
+},
 }

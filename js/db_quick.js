@@ -1115,4 +1115,23 @@ var quickMoveDB = {
     "ept": "3.25",
     "dpt": "1"
 },
+"Leafage": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "ept": "3",
+    "dpt": "6"
+},
 }
