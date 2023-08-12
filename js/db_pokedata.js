@@ -4363,7 +4363,7 @@ var pokeDB = {
 },
 "Hisuian Arcanine": {
     "id": "059",
-    "imgurl": "59-hisuian",
+    "imgurl": 10230,
     "stats": {
         "atk": 232,
         "def": 165,
@@ -7612,7 +7612,7 @@ var pokeDB = {
 },
 "Hisuian Electrode": {
     "id": "101",
-    "imgurl": "101-hisuian",
+    "imgurl": 10232,
     "stats": {
         "atk": 176,
         "def": 176,
@@ -14745,7 +14745,7 @@ var pokeDB = {
 },
 "Hisuian Qwilfish": {
     "id": "211",
-    "imgurl": "211-hisuian",
+    "imgurl": 10234,
     "stats": {
         "atk": 184,
         "def": 151,
@@ -15023,7 +15023,7 @@ var pokeDB = {
 },
 "Hisuian Sneasel": {
     "id": "215",
-    "imgurl": "215-hisuian",
+    "imgurl": 10235,
     "stats": {
         "atk": 189,
         "def": 146,
@@ -37507,7 +37507,7 @@ var pokeDB = {
 },
 "Hisuian Braviary": {
     "id": "628",
-    "imgurl": "628-hisuian",
+    "imgurl": 10240,
     "stats": {
         "atk": 213,
         "def": 137,
