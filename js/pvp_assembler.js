@@ -9,7 +9,13 @@ $(document).on('click', '.pkm-list-btn', function() {
 			innerPkm = pkm.split(" ");
 
 			$.each(innerPkm, function(k, j) {
-				innerPkm[k] = j.charAt(0).toUpperCase() + j.slice(1).toLowerCase()
+				namePart = j.charAt(0).toUpperCase() + j.slice(1).toLowerCase()
+
+				if (namePart == "Ho-oh") {
+					namePart = "Ho-Oh"
+				}
+
+				innerPkm[k] = namePart
 			});
 
 			pkms[id] = innerPkm.join(" ")
@@ -86,6 +92,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 		toKeep = [];
 
 		$.each(pkms, function(id,pkm) {
+			console.log(pkm)
 			$.map(pokeDB[pkm].moveset.quick, function(element,index) {
 				moveEpt = quickMoveDB[element.replace('*', "")].ept;
 
