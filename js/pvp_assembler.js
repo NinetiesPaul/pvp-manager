@@ -146,6 +146,12 @@ $(document).on('click', '.pkm-list-btn', function() {
 		var slot1 = pkms[0],
 			slot2 = pkms[1],
 			slot3 = pkms[2],
+			slot1VulnerableTo = Object.keys(pokeDB[slot1].defense_data.vulnerable_to),
+			slot2VulnerableTo = Object.keys(pokeDB[slot2].defense_data.vulnerable_to),
+			slot3VulnerableTo = Object.keys(pokeDB[slot3].defense_data.vulnerable_to),
+			slot1SharedVulnerability = slot1VulnerableTo.filter(value => slot2VulnerableTo.concat(slot3VulnerableTo).includes(value))
+			slot2SharedVulnerability = slot2VulnerableTo.filter(value => slot1VulnerableTo.concat(slot3VulnerableTo).includes(value))
+			slot3SharedVulnerability = slot3VulnerableTo.filter(value => slot1VulnerableTo.concat(slot2VulnerableTo).includes(value))
 			combinedVulnerabilites = [],
 			combinedResistances = [],
 			ctVulnerability = true,
@@ -180,12 +186,28 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		var ctVulnerabilityIcon = (ctVulnerability) ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down";
 
+		slot1SharedVulnerabilityIcons = '';
+		$.each(slot1SharedVulnerability, function(k,v) {
+			imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + v.toUpperCase() + '.png';
+			slot1SharedVulnerabilityIcons += "<img src='" + imgSrc + "' height='25px' width='25px' title='" + v + "'/>";
+		});
+		slot2SharedVulnerabilityIcons = '';
+		$.each(slot2SharedVulnerability, function(k,v) {
+			imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + v.toUpperCase() + '.png';
+			slot2SharedVulnerabilityIcons += "<img src='" + imgSrc + "' height='25px' width='25px' title='" + v + "'/>";
+		});
+		slot3SharedVulnerabilityIcons = '';
+		$.each(slot3SharedVulnerability, function(k,v) {
+			imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + v.toUpperCase() + '.png';
+			slot3SharedVulnerabilityIcons += "<img src='" + imgSrc + "' height='25px' width='25px' title='" + v + "'/>";
+		});
+
 		textToAppend += 
 		"<tr>"+
 			"<th><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button></th>"+
-			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "</small></td>"+
-			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "</small></td>"+
-			"<td><span id=\"slot3\"><b>"+slot3+"</b></span><br><small>" + pokeDB[slot3].type.join("/") + "</small></td>"+
+			"<td><span id=\"slot1\"><b>"+slot1+"</b></span><br><small>" + pokeDB[slot1].type.join("/") + "<br/>" + slot1SharedVulnerabilityIcons + "</small></td>"+
+			"<td><span id=\"slot2\"><b>"+slot2+"</b></span><br><small>" + pokeDB[slot2].type.join("/") + "<br/>" + slot2SharedVulnerabilityIcons + "</small></td>"+
+			"<td><span id=\"slot3\"><b>"+slot3+"</b></span><br><small>" + pokeDB[slot3].type.join("/") + "<br/>" + slot3SharedVulnerabilityIcons + "</small></td>"+
 			"<td>" + (new Set(combinedResistances).size) + "</td><td>" + (new Set(combinedVulnerabilites).size) + "</td>"+
 			"<td><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>"+
 		"</tr>";
