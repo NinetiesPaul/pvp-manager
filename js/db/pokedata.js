@@ -4695,7 +4695,8 @@ var pokeDB = {
         "quick": [
             "Bubble",
             "Rock Smash",
-            "Mud Shot"
+            "Mud Shot",
+            "*Counter"
         ],
         "charge": [
             "Hydro Pump",
@@ -13168,7 +13169,8 @@ var pokeDB = {
             "Blizzard",
             "Surf",
             "Weather Ball Water",
-            "Earthquake*"
+            "Earthquake*",
+            "*Ice Beam"
         ]
     },
     "defense_data": {
@@ -39321,7 +39323,8 @@ var pokeDB = {
             "Night Slash",
             "Aerial Ace",
             "Surf",
-            "Hydro Pump"
+            "Hydro Pump",
+            "*Hydro Cannon"
         ]
     },
     "defense_data": {
