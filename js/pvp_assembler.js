@@ -4,7 +4,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
 
-	$.each(pkms, function(id, pkm) {
+	/*$.each(pkms, function(id, pkm) {
 		if (pkm.indexOf(" ") > -1) {
 			innerPkm = pkm.split(" ");
 
@@ -22,7 +22,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 		} else {
 			pkms[id] = pkm.charAt(0).toUpperCase() + pkm.slice(1).toLowerCase()
 		}
-	})
+	})*/
 
 	var totalPkms = pkms.length;
 
