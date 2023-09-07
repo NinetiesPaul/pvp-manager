@@ -188,6 +188,42 @@
                         $(".pkm-list-db").attr("disabled", true)
                     }
                 });
+
+                $('.shadow_slot1 [type="checkbox"]').on('click', function (e) {
+                    if (e.currentTarget.checked) {
+                        $("#atk-slot1").html( Math.round($("#atk-slot1").html() * 1.2))
+                        $("#def-slot1").html( Math.round($("#def-slot1").html() * 0.833))
+                    } else {
+                        pokemon = $("#pokemonList_slot1").val().split(" - ");
+                        pokemon = pokemon[1]
+                        $("#atk-slot1").html( pokeDB[pokemon].stats.atk )
+                        $("#def-slot1").html( pokeDB[pokemon].stats.def )
+                    }
+                });
+
+                $('.shadow_slot2 [type="checkbox"]').on('click', function (e) {
+                    if (e.currentTarget.checked) {
+                        $("#atk-slot2").html( Math.round($("#atk-slot2").html() * 1.2))
+                        $("#def-slot2").html( Math.round($("#def-slot2").html() * 0.833))
+                    } else {
+                        pokemon = $("#pokemonList_slot2").val().split(" - ");
+                        pokemon = pokemon[1]
+                        $("#atk-slot2").html( pokeDB[pokemon].stats.atk )
+                        $("#def-slot2").html( pokeDB[pokemon].stats.def )
+                    }
+                });
+
+                $('.shadow_slot3 [type="checkbox"]').on('click', function (e) {
+                    if (e.currentTarget.checked) {
+                        $("#atk-slot3").html( Math.round($("#atk-slot3").html() * 1.2))
+                        $("#def-slot3").html( Math.round($("#def-slot3").html() * 0.833))
+                    } else {
+                        pokemon = $("#pokemonList_slot3").val().split(" - ");
+                        pokemon = pokemon[1]
+                        $("#atk-slot3").html( pokeDB[pokemon].stats.atk )
+                        $("#def-slot3").html( pokeDB[pokemon].stats.def )
+                    }
+                });
             });
         </script>
 
@@ -235,6 +271,7 @@
                                 <select id="pokemonList_slot1" name="pokemonList_slot1">
                                     <option>-- Pick an option --</option>
                                 </select>
+                                <span class="shadow_slot1" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -314,6 +351,7 @@
                                 <select id="pokemonList_slot2" name="pokemonList_slot2">
                                     <option>-- Pick an option --</option>
                                 </select>
+                                <span class="shadow_slot2" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -393,6 +431,7 @@
                                 <select id="pokemonList_slot3" name="pokemonList_slot3">
                                     <option>-- Pick an option --</option>
                                 </select>
+                                <span class="shadow_slot3" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">

@@ -37,7 +37,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ivysaur": {
     "id": "0002",
@@ -77,7 +78,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Venusaur": {
     "id": "0003",
@@ -118,7 +120,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Charmander": {
     "id": "0004",
@@ -157,7 +160,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Charmeleon": {
     "id": "0005",
@@ -197,7 +201,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Charizard": {
     "id": "0006",
@@ -243,7 +248,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Squirtle": {
     "id": "0007",
@@ -279,7 +285,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Wartortle": {
     "id": "0008",
@@ -315,7 +322,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Blastoise": {
     "id": "0009",
@@ -353,7 +361,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Caterpie": {
     "id": "0010",
@@ -387,7 +396,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Metapod": {
     "id": "0011",
@@ -421,7 +431,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Butterfree": {
     "id": "0012",
@@ -462,7 +473,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Weedle": {
     "id": "0013",
@@ -500,7 +512,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kakuna": {
     "id": "0014",
@@ -538,7 +551,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Beedrill": {
     "id": "0015",
@@ -581,7 +595,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pidgey": {
     "id": "0016",
@@ -619,7 +634,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pidgeotto": {
     "id": "0017",
@@ -657,7 +673,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pidgeot": {
     "id": "0018",
@@ -699,7 +716,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rattata": {
     "id": "0019",
@@ -731,7 +749,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Rattata": {
     "id": "0019",
@@ -768,7 +787,8 @@ var pokeDB = {
             "Ghost": "24.4%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Raticate": {
     "id": "0020",
@@ -800,7 +820,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Raticate": {
     "id": "0020",
@@ -837,7 +858,8 @@ var pokeDB = {
             "Ghost": "24.4%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Spearow": {
     "id": "0021",
@@ -876,7 +898,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fearow": {
     "id": "0022",
@@ -915,7 +938,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ekans": {
     "id": "0023",
@@ -953,7 +977,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Arbok": {
     "id": "0024",
@@ -992,7 +1017,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pikachu": {
     "id": "0025",
@@ -1029,7 +1055,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Adventure Hat 2020": {
     "id": "0025",
@@ -1066,7 +1093,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Costume 2020": {
     "id": "0025",
@@ -1101,7 +1129,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Flying 01": {
     "id": "0025",
@@ -1137,7 +1166,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Flying 02": {
     "id": "0025",
@@ -1173,7 +1203,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "3011": {
     "id": "0025",
@@ -1209,7 +1240,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Flying 5th Anniv": {
     "id": "0025",
@@ -1245,7 +1277,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Flying Okinawa": {
     "id": "0025",
@@ -1280,7 +1313,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Gofest 2022": {
     "id": "0025",
@@ -1317,7 +1351,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "3012": {
     "id": "0025",
@@ -1351,7 +1386,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Kariyushi": {
     "id": "0025",
@@ -1385,7 +1421,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Pop Star": {
     "id": "0025",
@@ -1419,7 +1456,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Rock Star": {
     "id": "0025",
@@ -1453,7 +1491,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Summer 2023 A": {
     "id": "0025",
@@ -1490,7 +1529,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Summer 2023 B": {
     "id": "0025",
@@ -1527,7 +1567,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Summer 2023 C": {
     "id": "0025",
@@ -1564,7 +1605,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Summer 2023 D": {
     "id": "0025",
@@ -1601,7 +1643,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Summer 2023 E": {
     "id": "0025",
@@ -1638,7 +1681,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Tshirt 01": {
     "id": "0025",
@@ -1672,7 +1716,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Tshirt 02": {
     "id": "0025",
@@ -1706,7 +1751,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Wcs 2022": {
     "id": "0025",
@@ -1743,7 +1789,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "3014": {
     "id": "0025",
@@ -1780,7 +1827,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikachu Winter 2020": {
     "id": "0025",
@@ -1817,7 +1865,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Raichu": {
     "id": "0026",
@@ -1855,7 +1904,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Alola Raichu": {
     "id": "0026",
@@ -1897,7 +1947,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sandshrew": {
     "id": "0027",
@@ -1934,7 +1985,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Sandshrew": {
     "id": "0027",
@@ -1977,7 +2029,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sandslash": {
     "id": "0028",
@@ -2015,7 +2068,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Sandslash": {
     "id": "0028",
@@ -2061,7 +2115,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidoran Female": {
     "id": "0029",
@@ -2098,7 +2153,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidorina": {
     "id": "0030",
@@ -2136,7 +2192,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidoqueen": {
     "id": "0031",
@@ -2179,7 +2236,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidoran Male": {
     "id": "0032",
@@ -2216,7 +2274,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidorino": {
     "id": "0033",
@@ -2254,7 +2313,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nidoking": {
     "id": "0034",
@@ -2299,7 +2359,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Clefairy": {
     "id": "0035",
@@ -2335,7 +2396,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Clefable": {
     "id": "0036",
@@ -2375,7 +2437,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vulpix": {
     "id": "0037",
@@ -2415,7 +2478,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Vulpix": {
     "id": "0037",
@@ -2451,7 +2515,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ninetales": {
     "id": "0038",
@@ -2496,7 +2561,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Ninetales": {
     "id": "0038",
@@ -2538,7 +2604,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Jigglypuff": {
     "id": "0039",
@@ -2577,7 +2644,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wigglytuff": {
     "id": "0040",
@@ -2617,7 +2685,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zubat": {
     "id": "0041",
@@ -2659,7 +2728,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Golbat": {
     "id": "0042",
@@ -2701,7 +2771,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Oddish": {
     "id": "0043",
@@ -2741,7 +2812,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gloom": {
     "id": "0044",
@@ -2781,7 +2853,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Vileplume": {
     "id": "0045",
@@ -2822,7 +2895,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Paras": {
     "id": "0046",
@@ -2864,7 +2938,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Parasect": {
     "id": "0047",
@@ -2907,7 +2982,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Venonat": {
     "id": "0048",
@@ -2947,7 +3023,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Venomoth": {
     "id": "0049",
@@ -2989,7 +3066,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Diglett": {
     "id": "0050",
@@ -3025,7 +3103,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Diglett": {
     "id": "0050",
@@ -3070,7 +3149,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dugtrio": {
     "id": "0051",
@@ -3106,7 +3186,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Dugtrio": {
     "id": "0051",
@@ -3151,7 +3232,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Meowth": {
     "id": "0052",
@@ -3184,7 +3266,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Meowth": {
     "id": "0052",
@@ -3220,7 +3303,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Meowth": {
     "id": "0052",
@@ -3265,7 +3349,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Persian": {
     "id": "0053",
@@ -3299,7 +3384,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Persian": {
     "id": "0053",
@@ -3336,7 +3422,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Psyduck": {
     "id": "0054",
@@ -3372,7 +3459,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Golduck": {
     "id": "0055",
@@ -3412,7 +3500,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mankey": {
     "id": "0056",
@@ -3448,7 +3537,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Primeape": {
     "id": "0057",
@@ -3487,7 +3577,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Growlithe": {
     "id": "0058",
@@ -3526,7 +3617,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hisuian Growlithe": {
     "id": "0058",
@@ -3568,7 +3660,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Arcanine": {
     "id": "0059",
@@ -3613,7 +3706,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hisuian Arcanine": {
     "id": "0059",
@@ -3657,7 +3751,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Poliwag": {
     "id": "0060",
@@ -3693,7 +3788,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Poliwhirl": {
     "id": "0061",
@@ -3730,7 +3826,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Poliwrath": {
     "id": "0062",
@@ -3778,7 +3875,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Abra": {
     "id": "0063",
@@ -3813,7 +3911,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kadabra": {
     "id": "0064",
@@ -3848,7 +3947,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alakazam": {
     "id": "0065",
@@ -3887,7 +3987,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Machop": {
     "id": "0066",
@@ -3924,7 +4025,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Machoke": {
     "id": "0067",
@@ -3961,7 +4063,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Machamp": {
     "id": "0068",
@@ -4003,7 +4106,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bellsprout": {
     "id": "0069",
@@ -4043,7 +4147,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Weepinbell": {
     "id": "0070",
@@ -4084,7 +4189,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Victreebel": {
     "id": "0071",
@@ -4126,7 +4232,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tentacool": {
     "id": "0072",
@@ -4168,7 +4275,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tentacruel": {
     "id": "0073",
@@ -4212,7 +4320,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Geodude": {
     "id": "0074",
@@ -4255,7 +4364,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Geodude": {
     "id": "0074",
@@ -4295,7 +4405,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Graveler": {
     "id": "0075",
@@ -4339,7 +4450,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Graveler": {
     "id": "0075",
@@ -4379,7 +4491,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Golem": {
     "id": "0076",
@@ -4423,7 +4536,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Golem": {
     "id": "0076",
@@ -4464,7 +4578,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ponyta": {
     "id": "0077",
@@ -4504,7 +4619,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Ponyta": {
     "id": "0077",
@@ -4539,7 +4655,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Rapidash": {
     "id": "0078",
@@ -4582,7 +4699,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Rapidash": {
     "id": "0078",
@@ -4622,7 +4740,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowpoke": {
     "id": "0079",
@@ -4664,7 +4783,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowpoke 2020": {
     "id": "0079",
@@ -4706,7 +4826,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Slowpoke": {
     "id": "0079",
@@ -4741,7 +4862,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowbro": {
     "id": "0080",
@@ -4784,7 +4906,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowbro 2021": {
     "id": "0080",
@@ -4827,7 +4950,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Slowbro": {
     "id": "0080",
@@ -4866,7 +4990,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Magnemite": {
     "id": "0081",
@@ -4913,7 +5038,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Magneton": {
     "id": "0082",
@@ -4962,7 +5088,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Farfetchd": {
     "id": "0083",
@@ -5001,7 +5128,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Farfetchd": {
     "id": "0083",
@@ -5037,7 +5165,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Doduo": {
     "id": "0084",
@@ -5076,7 +5205,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dodrio": {
     "id": "0085",
@@ -5115,7 +5245,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Seel": {
     "id": "0086",
@@ -5153,7 +5284,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dewgong": {
     "id": "0087",
@@ -5195,7 +5327,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grimer": {
     "id": "0088",
@@ -5232,7 +5365,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Grimer": {
     "id": "0088",
@@ -5269,7 +5403,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Muk": {
     "id": "0089",
@@ -5309,7 +5444,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Muk": {
     "id": "0089",
@@ -5348,7 +5484,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Shellder": {
     "id": "0090",
@@ -5385,7 +5522,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cloyster": {
     "id": "0091",
@@ -5426,7 +5564,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gastly": {
     "id": "0092",
@@ -5469,7 +5608,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Haunter": {
     "id": "0093",
@@ -5513,7 +5653,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gengar": {
     "id": "0094",
@@ -5560,7 +5701,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gengar Costume 2020": {
     "id": "0094",
@@ -5607,7 +5749,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Onix": {
     "id": "0095",
@@ -5653,7 +5796,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Drowzee": {
     "id": "0096",
@@ -5688,7 +5832,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hypno": {
     "id": "0097",
@@ -5728,7 +5873,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Krabby": {
     "id": "0098",
@@ -5765,7 +5911,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kingler": {
     "id": "0099",
@@ -5804,7 +5951,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Voltorb": {
     "id": "0100",
@@ -5839,7 +5987,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hisuian Voltorb": {
     "id": "0100",
@@ -5878,7 +6027,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Electrode": {
     "id": "0101",
@@ -5914,7 +6064,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hisuian Electrode": {
     "id": "0101",
@@ -5953,7 +6104,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Exeggcute": {
     "id": "0102",
@@ -5997,7 +6149,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Exeggutor": {
     "id": "0103",
@@ -6043,7 +6196,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Exeggutor": {
     "id": "0103",
@@ -6085,7 +6239,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cubone": {
     "id": "0104",
@@ -6121,7 +6276,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Marowak": {
     "id": "0105",
@@ -6158,7 +6314,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Alola Marowak": {
     "id": "0105",
@@ -6206,7 +6363,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hitmonlee": {
     "id": "0106",
@@ -6246,7 +6404,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hitmonchan": {
     "id": "0107",
@@ -6286,7 +6445,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lickitung": {
     "id": "0108",
@@ -6319,7 +6479,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Koffing": {
     "id": "0109",
@@ -6356,7 +6517,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Weezing": {
     "id": "0110",
@@ -6394,7 +6556,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Weezing": {
     "id": "0110",
@@ -6437,7 +6600,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Grass": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Rhyhorn": {
     "id": "0111",
@@ -6480,7 +6644,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Rhydon": {
     "id": "0112",
@@ -6525,7 +6690,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Chansey": {
     "id": "0113",
@@ -6557,7 +6723,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tangela": {
     "id": "0114",
@@ -6597,7 +6764,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kangaskhan": {
     "id": "0115",
@@ -6632,7 +6800,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Horsea": {
     "id": "0116",
@@ -6668,7 +6837,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Seadra": {
     "id": "0117",
@@ -6705,7 +6875,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Goldeen": {
     "id": "0118",
@@ -6741,7 +6912,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Seaking": {
     "id": "0119",
@@ -6780,7 +6952,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Staryu": {
     "id": "0120",
@@ -6816,7 +6989,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Starmie": {
     "id": "0121",
@@ -6861,7 +7035,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mr Mime": {
     "id": "0122",
@@ -6899,7 +7074,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Mime Mr": {
     "id": "0122",
@@ -6939,7 +7115,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Scyther": {
     "id": "0123",
@@ -6982,7 +7159,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Jynx": {
     "id": "0124",
@@ -7024,7 +7202,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Electabuzz": {
     "id": "0125",
@@ -7058,7 +7237,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Magmar": {
     "id": "0126",
@@ -7098,7 +7278,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pinsir": {
     "id": "0127",
@@ -7137,7 +7318,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tauros": {
     "id": "0128",
@@ -7170,7 +7352,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Magikarp": {
     "id": "0129",
@@ -7203,7 +7386,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gyarados": {
     "id": "0130",
@@ -7247,7 +7431,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lapras": {
     "id": "0131",
@@ -7288,7 +7473,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lapras Costume 2020": {
     "id": "0131",
@@ -7329,7 +7515,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ditto": {
     "id": "0132",
@@ -7358,7 +7545,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eevee": {
     "id": "0133",
@@ -7391,7 +7579,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vaporeon": {
     "id": "0134",
@@ -7429,7 +7618,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Jolteon": {
     "id": "0135",
@@ -7465,7 +7655,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flareon": {
     "id": "0136",
@@ -7507,7 +7698,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Porygon": {
     "id": "0137",
@@ -7544,7 +7736,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Omanyte": {
     "id": "0138",
@@ -7586,7 +7779,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Omastar": {
     "id": "0139",
@@ -7628,7 +7822,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kabuto": {
     "id": "0140",
@@ -7668,7 +7863,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kabutops": {
     "id": "0141",
@@ -7710,7 +7906,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Aerodactyl": {
     "id": "0142",
@@ -7755,7 +7952,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Aerodactyl Summer 2023": {
     "id": "0142",
@@ -7800,7 +7998,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Snorlax": {
     "id": "0143",
@@ -7837,7 +8036,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Articuno": {
     "id": "0144",
@@ -7877,7 +8077,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Articuno": {
     "id": "0144",
@@ -7917,7 +8118,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zapdos": {
     "id": "0145",
@@ -7958,7 +8160,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Zapdos": {
     "id": "0145",
@@ -7998,7 +8201,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Moltres": {
     "id": "0146",
@@ -8041,7 +8245,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Moltres": {
     "id": "0146",
@@ -8081,7 +8286,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dratini": {
     "id": "0147",
@@ -8118,7 +8324,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dragonair": {
     "id": "0148",
@@ -8156,7 +8363,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dragonite": {
     "id": "0149",
@@ -8202,7 +8410,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mewtwo": {
     "id": "0150",
@@ -8242,7 +8451,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mewtwo A": {
     "id": "0150",
@@ -8279,7 +8489,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mew": {
     "id": "0151",
@@ -8348,7 +8559,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chikorita": {
     "id": "0152",
@@ -8388,7 +8600,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bayleef": {
     "id": "0153",
@@ -8428,7 +8641,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Meganium": {
     "id": "0154",
@@ -8469,7 +8683,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cyndaquil": {
     "id": "0155",
@@ -8508,7 +8723,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Quilava": {
     "id": "0156",
@@ -8547,7 +8763,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Typhlosion": {
     "id": "0157",
@@ -8588,7 +8805,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Totodile": {
     "id": "0158",
@@ -8624,7 +8842,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Croconaw": {
     "id": "0159",
@@ -8660,7 +8879,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Feraligatr": {
     "id": "0160",
@@ -8699,7 +8919,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sentret": {
     "id": "0161",
@@ -8731,7 +8952,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furret": {
     "id": "0162",
@@ -8763,7 +8985,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hoothoot": {
     "id": "0163",
@@ -8801,7 +9024,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Noctowl": {
     "id": "0164",
@@ -8840,7 +9064,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ledyba": {
     "id": "0165",
@@ -8880,7 +9105,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ledian": {
     "id": "0166",
@@ -8921,7 +9147,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Spinarak": {
     "id": "0167",
@@ -8961,7 +9188,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ariados": {
     "id": "0168",
@@ -9002,7 +9230,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crobat": {
     "id": "0169",
@@ -9045,7 +9274,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Chinchou": {
     "id": "0170",
@@ -9083,7 +9313,8 @@ var pokeDB = {
             "Steel": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lanturn": {
     "id": "0171",
@@ -9123,7 +9354,8 @@ var pokeDB = {
             "Steel": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pichu": {
     "id": "0172",
@@ -9156,7 +9388,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cleffa": {
     "id": "0173",
@@ -9194,7 +9427,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Igglybuff": {
     "id": "0174",
@@ -9232,7 +9466,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Togepi": {
     "id": "0175",
@@ -9269,7 +9504,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Togetic": {
     "id": "0176",
@@ -9314,7 +9550,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Natu": {
     "id": "0177",
@@ -9354,7 +9591,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Xatu": {
     "id": "0178",
@@ -9394,7 +9632,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mareep": {
     "id": "0179",
@@ -9429,7 +9668,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Flaaffy": {
     "id": "0180",
@@ -9464,7 +9704,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ampharos": {
     "id": "0181",
@@ -9503,7 +9744,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bellossom": {
     "id": "0182",
@@ -9544,7 +9786,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Marill": {
     "id": "0183",
@@ -9585,7 +9828,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Azumarill": {
     "id": "0184",
@@ -9626,7 +9870,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sudowoodo": {
     "id": "0185",
@@ -9668,7 +9913,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Politoed": {
     "id": "0186",
@@ -9707,7 +9953,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hoppip": {
     "id": "0187",
@@ -9747,7 +9994,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Skiploom": {
     "id": "0188",
@@ -9787,7 +10035,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Jumpluff": {
     "id": "0189",
@@ -9830,7 +10079,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Aipom": {
     "id": "0190",
@@ -9862,7 +10112,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sunkern": {
     "id": "0191",
@@ -9901,7 +10152,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sunflora": {
     "id": "0192",
@@ -9941,7 +10193,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yanma": {
     "id": "0193",
@@ -9981,7 +10234,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wooper": {
     "id": "0194",
@@ -10018,7 +10272,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Quagsire": {
     "id": "0195",
@@ -10057,7 +10312,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Espeon": {
     "id": "0196",
@@ -10095,7 +10351,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Umbreon": {
     "id": "0197",
@@ -10132,7 +10389,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Murkrow": {
     "id": "0198",
@@ -10172,7 +10430,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowking": {
     "id": "0199",
@@ -10215,7 +10474,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slowking 2022": {
     "id": "0199",
@@ -10258,7 +10518,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Slowking": {
     "id": "0199",
@@ -10298,7 +10559,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Misdreavus": {
     "id": "0200",
@@ -10334,7 +10596,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Unown": {
     "id": "0201",
@@ -10366,7 +10629,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wobbuffet": {
     "id": "0202",
@@ -10400,7 +10664,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Girafarig": {
     "id": "0203",
@@ -10438,7 +10703,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pineco": {
     "id": "0204",
@@ -10474,7 +10740,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Forretress": {
     "id": "0205",
@@ -10517,7 +10784,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dunsparce": {
     "id": "0206",
@@ -10550,7 +10818,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gligar": {
     "id": "0207",
@@ -10588,7 +10857,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Steelix": {
     "id": "0208",
@@ -10636,7 +10906,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Snubbull": {
     "id": "0209",
@@ -10672,7 +10943,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Granbull": {
     "id": "0210",
@@ -10709,7 +10981,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Qwilfish": {
     "id": "0211",
@@ -10753,7 +11026,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hisuian Qwilfish": {
     "id": "0211",
@@ -10792,7 +11066,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scizor": {
     "id": "0212",
@@ -10834,7 +11109,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Shuckle": {
     "id": "0213",
@@ -10870,7 +11146,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Heracross": {
     "id": "0214",
@@ -10911,7 +11188,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sneasel": {
     "id": "0215",
@@ -10953,7 +11231,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hisuian Sneasel": {
     "id": "0215",
@@ -10993,7 +11272,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Teddiursa": {
     "id": "0216",
@@ -11026,7 +11306,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ursaring": {
     "id": "0217",
@@ -11060,7 +11341,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Slugma": {
     "id": "0218",
@@ -11099,7 +11381,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Magcargo": {
     "id": "0219",
@@ -11143,7 +11426,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swinub": {
     "id": "0220",
@@ -11181,7 +11465,8 @@ var pokeDB = {
             "Electric": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Piloswine": {
     "id": "0221",
@@ -11220,7 +11505,8 @@ var pokeDB = {
             "Electric": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Corsola": {
     "id": "0222",
@@ -11260,7 +11546,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Remoraid": {
     "id": "0223",
@@ -11296,7 +11583,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Octillery": {
     "id": "0224",
@@ -11335,7 +11623,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Delibird": {
     "id": "0225",
@@ -11372,7 +11661,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Delibird Winter 2020": {
     "id": "0225",
@@ -11409,7 +11699,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mantine": {
     "id": "0226",
@@ -11450,7 +11741,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Skarmory": {
     "id": "0227",
@@ -11493,7 +11785,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Houndour": {
     "id": "0228",
@@ -11535,7 +11828,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Houndoom": {
     "id": "0229",
@@ -11578,7 +11872,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kingdra": {
     "id": "0230",
@@ -11616,7 +11911,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Phanpy": {
     "id": "0231",
@@ -11653,7 +11949,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Donphan": {
     "id": "0232",
@@ -11693,7 +11990,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Porygon2": {
     "id": "0233",
@@ -11727,7 +12025,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Stantler": {
     "id": "0234",
@@ -11759,7 +12058,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tyrogue": {
     "id": "0236",
@@ -11795,7 +12095,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hitmontop": {
     "id": "0237",
@@ -11832,7 +12133,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Smoochum": {
     "id": "0238",
@@ -11872,7 +12174,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Elekid": {
     "id": "0239",
@@ -11907,7 +12210,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Magby": {
     "id": "0240",
@@ -11947,7 +12251,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Miltank": {
     "id": "0241",
@@ -11982,7 +12287,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Blissey": {
     "id": "0242",
@@ -12014,7 +12320,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Raikou": {
     "id": "0243",
@@ -12049,7 +12356,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Raikou S": {
     "id": "0243",
@@ -12084,7 +12392,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Entei": {
     "id": "0244",
@@ -12126,7 +12435,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Entei S": {
     "id": "0244",
@@ -12168,7 +12478,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Suicune": {
     "id": "0245",
@@ -12207,7 +12518,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Suicune S": {
     "id": "0245",
@@ -12246,7 +12558,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Larvitar": {
     "id": "0246",
@@ -12289,7 +12602,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pupitar": {
     "id": "0247",
@@ -12332,7 +12646,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tyranitar": {
     "id": "0248",
@@ -12379,7 +12694,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lugia": {
     "id": "0249",
@@ -12420,7 +12736,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lugia S": {
     "id": "0249",
@@ -12461,7 +12778,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ho-Oh": {
     "id": "0250",
@@ -12506,7 +12824,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ho Oh S": {
     "id": "0250",
@@ -12551,7 +12870,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Celebi": {
     "id": "0251",
@@ -12598,7 +12918,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Treecko": {
     "id": "0252",
@@ -12637,7 +12958,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Grovyle": {
     "id": "0253",
@@ -12676,7 +12998,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sceptile": {
     "id": "0254",
@@ -12718,7 +13041,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Torchic": {
     "id": "0255",
@@ -12757,7 +13081,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Combusken": {
     "id": "0256",
@@ -12798,7 +13123,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Blaziken": {
     "id": "0257",
@@ -12842,7 +13168,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mudkip": {
     "id": "0258",
@@ -12878,7 +13205,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Marshtomp": {
     "id": "0259",
@@ -12915,7 +13243,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Swampert": {
     "id": "0260",
@@ -12954,7 +13283,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Poochyena": {
     "id": "0261",
@@ -12990,7 +13320,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mightyena": {
     "id": "0262",
@@ -13028,7 +13359,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zigzagoon": {
     "id": "0263",
@@ -13060,7 +13392,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Zigzagoon": {
     "id": "0263",
@@ -13097,7 +13430,8 @@ var pokeDB = {
             "Ghost": "24.4%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Linoone": {
     "id": "0264",
@@ -13129,7 +13463,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Linoone": {
     "id": "0264",
@@ -13166,7 +13501,8 @@ var pokeDB = {
             "Ghost": "24.4%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Wurmple": {
     "id": "0265",
@@ -13200,7 +13536,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silcoon": {
     "id": "0266",
@@ -13234,7 +13571,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Beautifly": {
     "id": "0267",
@@ -13274,7 +13612,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cascoon": {
     "id": "0268",
@@ -13308,7 +13647,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dustox": {
     "id": "0269",
@@ -13348,7 +13688,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lotad": {
     "id": "0270",
@@ -13384,7 +13725,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lombre": {
     "id": "0271",
@@ -13421,7 +13763,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ludicolo": {
     "id": "0272",
@@ -13461,7 +13804,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Seedot": {
     "id": "0273",
@@ -13500,7 +13844,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Nuzleaf": {
     "id": "0274",
@@ -13545,7 +13890,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Shiftry": {
     "id": "0275",
@@ -13593,7 +13939,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Taillow": {
     "id": "0276",
@@ -13629,7 +13976,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swellow": {
     "id": "0277",
@@ -13667,7 +14015,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wingull": {
     "id": "0278",
@@ -13706,7 +14055,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pelipper": {
     "id": "0279",
@@ -13746,7 +14096,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ralts": {
     "id": "0280",
@@ -13783,7 +14134,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kirlia": {
     "id": "0281",
@@ -13822,7 +14174,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gardevoir": {
     "id": "0282",
@@ -13863,7 +14216,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Surskit": {
     "id": "0283",
@@ -13902,7 +14256,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Masquerain": {
     "id": "0284",
@@ -13944,7 +14299,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shroomish": {
     "id": "0285",
@@ -13983,7 +14339,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Breloom": {
     "id": "0286",
@@ -14027,7 +14384,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Slakoth": {
     "id": "0287",
@@ -14058,7 +14416,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vigoroth": {
     "id": "0288",
@@ -14090,7 +14449,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Slaking": {
     "id": "0289",
@@ -14122,7 +14482,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nincada": {
     "id": "0290",
@@ -14161,7 +14522,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ninjask": {
     "id": "0291",
@@ -14201,7 +14563,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shedinja": {
     "id": "0292",
@@ -14244,7 +14607,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Whismur": {
     "id": "0293",
@@ -14276,7 +14640,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Loudred": {
     "id": "0294",
@@ -14308,7 +14673,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Exploud": {
     "id": "0295",
@@ -14341,7 +14707,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Makuhita": {
     "id": "0296",
@@ -14377,7 +14744,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hariyama": {
     "id": "0297",
@@ -14414,7 +14782,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Azurill": {
     "id": "0298",
@@ -14451,7 +14820,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nosepass": {
     "id": "0299",
@@ -14490,7 +14860,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Skitty": {
     "id": "0300",
@@ -14522,7 +14893,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Delcatty": {
     "id": "0301",
@@ -14555,7 +14927,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sableye": {
     "id": "0302",
@@ -14591,7 +14964,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sableye Costume 2020": {
     "id": "0302",
@@ -14627,7 +15001,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mawile": {
     "id": "0303",
@@ -14675,7 +15050,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Aron": {
     "id": "0304",
@@ -14718,7 +15094,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lairon": {
     "id": "0305",
@@ -14762,7 +15139,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Aggron": {
     "id": "0306",
@@ -14808,7 +15186,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Meditite": {
     "id": "0307",
@@ -14844,7 +15223,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Medicham": {
     "id": "0308",
@@ -14881,7 +15261,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Electrike": {
     "id": "0309",
@@ -14915,7 +15296,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Manectric": {
     "id": "0310",
@@ -14952,7 +15334,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Plusle": {
     "id": "0311",
@@ -14987,7 +15370,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minun": {
     "id": "0312",
@@ -15022,7 +15406,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Volbeat": {
     "id": "0313",
@@ -15058,7 +15443,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Illumise": {
     "id": "0314",
@@ -15094,7 +15480,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Roselia": {
     "id": "0315",
@@ -15135,7 +15522,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gulpin": {
     "id": "0316",
@@ -15172,7 +15560,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swalot": {
     "id": "0317",
@@ -15211,7 +15600,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Carvanha": {
     "id": "0318",
@@ -15254,7 +15644,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sharpedo": {
     "id": "0319",
@@ -15297,7 +15688,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Wailmer": {
     "id": "0320",
@@ -15333,7 +15725,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Wailord": {
     "id": "0321",
@@ -15369,7 +15762,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Numel": {
     "id": "0322",
@@ -15408,7 +15802,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Camerupt": {
     "id": "0323",
@@ -15449,7 +15844,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Torkoal": {
     "id": "0324",
@@ -15488,7 +15884,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spoink": {
     "id": "0325",
@@ -15523,7 +15920,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Grumpig": {
     "id": "0326",
@@ -15558,7 +15956,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Spinda": {
     "id": "0327",
@@ -15590,7 +15989,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Trapinch": {
     "id": "0328",
@@ -15627,7 +16027,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Vibrava": {
     "id": "0329",
@@ -15666,7 +16067,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Flygon": {
     "id": "0330",
@@ -15707,7 +16109,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cacnea": {
     "id": "0331",
@@ -15747,7 +16150,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cacturne": {
     "id": "0332",
@@ -15793,7 +16197,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Swablu": {
     "id": "0333",
@@ -15831,7 +16236,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Altaria": {
     "id": "0334",
@@ -15873,7 +16279,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zangoose": {
     "id": "0335",
@@ -15905,7 +16312,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Seviper": {
     "id": "0336",
@@ -15942,7 +16350,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lunatone": {
     "id": "0337",
@@ -15985,7 +16394,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Solrock": {
     "id": "0338",
@@ -16028,7 +16438,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Barboach": {
     "id": "0339",
@@ -16065,7 +16476,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Whiscash": {
     "id": "0340",
@@ -16102,7 +16514,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Corphish": {
     "id": "0341",
@@ -16139,7 +16552,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crawdaunt": {
     "id": "0342",
@@ -16184,7 +16598,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Baltoy": {
     "id": "0343",
@@ -16226,7 +16641,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Claydol": {
     "id": "0344",
@@ -16274,7 +16690,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lileep": {
     "id": "0345",
@@ -16311,7 +16728,8 @@ var pokeDB = {
             "Electric": "62.5%",
             "Normal": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cradily": {
     "id": "0346",
@@ -16350,7 +16768,8 @@ var pokeDB = {
             "Electric": "62.5%",
             "Normal": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Anorith": {
     "id": "0347",
@@ -16386,7 +16805,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Armaldo": {
     "id": "0348",
@@ -16423,7 +16843,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Feebas": {
     "id": "0349",
@@ -16457,7 +16878,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Milotic": {
     "id": "0350",
@@ -16493,7 +16915,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Castform": {
     "id": "0351",
@@ -16524,7 +16947,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Castform Rainy": {
     "id": "0351",
@@ -16560,7 +16984,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Castform Snowy": {
     "id": "0351",
@@ -16595,7 +17020,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Castform Sunny": {
     "id": "0351",
@@ -16634,7 +17060,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kecleon": {
     "id": "0352",
@@ -16669,7 +17096,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shuppet": {
     "id": "0353",
@@ -16705,7 +17133,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Banette": {
     "id": "0354",
@@ -16741,7 +17170,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Duskull": {
     "id": "0355",
@@ -16777,7 +17207,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dusclops": {
     "id": "0356",
@@ -16814,7 +17245,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tropius": {
     "id": "0357",
@@ -16854,7 +17286,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chimecho": {
     "id": "0358",
@@ -16890,7 +17323,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Absol": {
     "id": "0359",
@@ -16927,7 +17361,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Wynaut": {
     "id": "0360",
@@ -16960,7 +17395,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Snorunt": {
     "id": "0361",
@@ -16995,7 +17431,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Glalie": {
     "id": "0362",
@@ -17030,7 +17467,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spheal": {
     "id": "0363",
@@ -17067,7 +17505,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sealeo": {
     "id": "0364",
@@ -17104,7 +17543,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Walrein": {
     "id": "0365",
@@ -17143,7 +17583,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Clamperl": {
     "id": "0366",
@@ -17178,7 +17619,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Huntail": {
     "id": "0367",
@@ -17214,7 +17656,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gorebyss": {
     "id": "0368",
@@ -17250,7 +17693,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Relicanth": {
     "id": "0369",
@@ -17290,7 +17734,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Luvdisc": {
     "id": "0370",
@@ -17326,7 +17771,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bagon": {
     "id": "0371",
@@ -17363,7 +17809,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Shelgon": {
     "id": "0372",
@@ -17400,7 +17847,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Salamence": {
     "id": "0373",
@@ -17443,7 +17891,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Beldum": {
     "id": "0374",
@@ -17485,7 +17934,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Metang": {
     "id": "0375",
@@ -17530,7 +17980,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Metagross": {
     "id": "0376",
@@ -17576,7 +18027,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Regirock": {
     "id": "0377",
@@ -17617,7 +18069,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Regice": {
     "id": "0378",
@@ -17654,7 +18107,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Registeel": {
     "id": "0379",
@@ -17700,7 +18154,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Latias": {
     "id": "0380",
@@ -17745,7 +18200,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Latias S": {
     "id": "0380",
@@ -17790,7 +18246,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Latios": {
     "id": "0381",
@@ -17834,7 +18291,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Latios S": {
     "id": "0381",
@@ -17878,7 +18336,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kyogre": {
     "id": "0382",
@@ -17915,7 +18374,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Groudon": {
     "id": "0383",
@@ -17953,7 +18413,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rayquaza": {
     "id": "0384",
@@ -17996,7 +18457,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Jirachi": {
     "id": "0385",
@@ -18041,7 +18503,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deoxys": {
     "id": "0386",
@@ -18076,7 +18539,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Attack Deoxys": {
     "id": "0386",
@@ -18111,7 +18575,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Defense Deoxys": {
     "id": "0386",
@@ -18146,7 +18611,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Speed Deoxys": {
     "id": "0386",
@@ -18181,7 +18647,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Turtwig": {
     "id": "0387",
@@ -18220,7 +18687,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Grotle": {
     "id": "0388",
@@ -18259,7 +18727,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Torterra": {
     "id": "0389",
@@ -18299,7 +18768,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Chimchar": {
     "id": "0390",
@@ -18338,7 +18808,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Monferno": {
     "id": "0391",
@@ -18379,7 +18850,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Infernape": {
     "id": "0392",
@@ -18421,7 +18893,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Piplup": {
     "id": "0393",
@@ -18457,7 +18930,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Prinplup": {
     "id": "0394",
@@ -18493,7 +18967,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Empoleon": {
     "id": "0395",
@@ -18540,7 +19015,8 @@ var pokeDB = {
             "Steel": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Starly": {
     "id": "0396",
@@ -18577,7 +19053,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Staravia": {
     "id": "0397",
@@ -18615,7 +19092,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Staraptor": {
     "id": "0398",
@@ -18654,7 +19132,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bidoof": {
     "id": "0399",
@@ -18690,7 +19169,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bibarel": {
     "id": "0400",
@@ -18729,7 +19209,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Kricketot": {
     "id": "0401",
@@ -18763,7 +19244,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kricketune": {
     "id": "0402",
@@ -18799,7 +19281,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shinx": {
     "id": "0403",
@@ -18833,7 +19316,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Luxio": {
     "id": "0404",
@@ -18867,7 +19351,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Luxray": {
     "id": "0405",
@@ -18903,7 +19388,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Budew": {
     "id": "0406",
@@ -18942,7 +19428,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Roserade": {
     "id": "0407",
@@ -18987,7 +19474,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cranidos": {
     "id": "0408",
@@ -19026,7 +19514,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rampardos": {
     "id": "0409",
@@ -19065,7 +19554,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shieldon": {
     "id": "0410",
@@ -19108,7 +19598,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bastiodon": {
     "id": "0411",
@@ -19151,7 +19642,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Burmy": {
     "id": "0412",
@@ -19185,7 +19677,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Burmy Plant": {
     "id": "0412",
@@ -19219,7 +19712,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Burmy Sandy": {
     "id": "0412",
@@ -19253,7 +19747,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Burmy Trash": {
     "id": "0412",
@@ -19287,7 +19782,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wormadam": {
     "id": "0413",
@@ -19327,7 +19823,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wormadam Plant": {
     "id": "0413",
@@ -19369,7 +19866,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wormadam Sandy": {
     "id": "0413",
@@ -19408,7 +19906,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wormadam Trash": {
     "id": "0413",
@@ -19449,7 +19948,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mothim": {
     "id": "0414",
@@ -19489,7 +19989,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Combee": {
     "id": "0415",
@@ -19526,7 +20027,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vespiquen": {
     "id": "0416",
@@ -19570,7 +20072,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pachirisu": {
     "id": "0417",
@@ -19604,7 +20107,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Buizel": {
     "id": "0418",
@@ -19640,7 +20144,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floatzel": {
     "id": "0419",
@@ -19677,7 +20182,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cherubi": {
     "id": "0420",
@@ -19716,7 +20222,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cherrim": {
     "id": "0421",
@@ -19755,7 +20262,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cherrim Overcast": {
     "id": "0421",
@@ -19794,7 +20302,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cherrim Sunny": {
     "id": "0421",
@@ -19834,7 +20343,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shellos": {
     "id": "0422",
@@ -19870,7 +20380,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shellos East Sea": {
     "id": "0422",
@@ -19906,7 +20417,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shellos West Sea": {
     "id": "0422",
@@ -19942,7 +20454,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gastrodon": {
     "id": "0423",
@@ -19979,7 +20492,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gastrodon East Sea": {
     "id": "0423",
@@ -20016,7 +20530,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gastrodon West Sea": {
     "id": "0423",
@@ -20053,7 +20568,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ambipom": {
     "id": "0424",
@@ -20085,7 +20601,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Drifloon": {
     "id": "0425",
@@ -20127,7 +20644,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Drifblim": {
     "id": "0426",
@@ -20170,7 +20688,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Buneary": {
     "id": "0427",
@@ -20201,7 +20720,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lopunny": {
     "id": "0428",
@@ -20235,7 +20755,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mismagius": {
     "id": "0429",
@@ -20272,7 +20793,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Honchkrow": {
     "id": "0430",
@@ -20313,7 +20835,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Glameow": {
     "id": "0431",
@@ -20345,7 +20868,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Purugly": {
     "id": "0432",
@@ -20377,7 +20901,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Chingling": {
     "id": "0433",
@@ -20412,7 +20937,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stunky": {
     "id": "0434",
@@ -20450,7 +20976,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Skuntank": {
     "id": "0435",
@@ -20488,7 +21015,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Bronzor": {
     "id": "0436",
@@ -20534,7 +21062,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bronzong": {
     "id": "0437",
@@ -20582,7 +21111,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bonsly": {
     "id": "0438",
@@ -20621,7 +21151,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mime Jr": {
     "id": "0439",
@@ -20658,7 +21189,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Happiny": {
     "id": "0440",
@@ -20688,7 +21220,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chatot": {
     "id": "0441",
@@ -20726,7 +21259,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spiritomb": {
     "id": "0442",
@@ -20762,7 +21296,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gible": {
     "id": "0443",
@@ -20800,7 +21335,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gabite": {
     "id": "0444",
@@ -20838,7 +21374,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Garchomp": {
     "id": "0445",
@@ -20878,7 +21415,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Munchlax": {
     "id": "0446",
@@ -20910,7 +21448,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Riolu": {
     "id": "0447",
@@ -20947,7 +21486,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lucario": {
     "id": "0448",
@@ -20993,7 +21533,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hippopotas": {
     "id": "0449",
@@ -21029,7 +21570,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Hippowdon": {
     "id": "0450",
@@ -21070,7 +21612,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Skorupi": {
     "id": "0451",
@@ -21110,7 +21653,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Drapion": {
     "id": "0452",
@@ -21150,7 +21694,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Croagunk": {
     "id": "0453",
@@ -21191,7 +21736,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxicroak": {
     "id": "0454",
@@ -21232,7 +21778,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Carnivine": {
     "id": "0455",
@@ -21271,7 +21818,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Finneon": {
     "id": "0456",
@@ -21307,7 +21855,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lumineon": {
     "id": "0457",
@@ -21343,7 +21892,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mantyke": {
     "id": "0458",
@@ -21382,7 +21932,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Snover": {
     "id": "0459",
@@ -21425,7 +21976,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Abomasnow": {
     "id": "0460",
@@ -21469,7 +22021,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Weavile": {
     "id": "0461",
@@ -21512,7 +22065,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Magnezone": {
     "id": "0462",
@@ -21560,7 +22114,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lickilicky": {
     "id": "0463",
@@ -21594,7 +22149,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rhyperior": {
     "id": "0464",
@@ -21641,7 +22197,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tangrowth": {
     "id": "0465",
@@ -21682,7 +22239,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Electivire": {
     "id": "0466",
@@ -21718,7 +22276,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Magmortar": {
     "id": "0467",
@@ -21760,7 +22319,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Togekiss": {
     "id": "0468",
@@ -21805,7 +22365,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yanmega": {
     "id": "0469",
@@ -21845,7 +22406,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Leafeon": {
     "id": "0470",
@@ -21886,7 +22448,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Glaceon": {
     "id": "0471",
@@ -21923,7 +22486,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gliscor": {
     "id": "0472",
@@ -21962,7 +22526,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mamoswine": {
     "id": "0473",
@@ -22002,7 +22567,8 @@ var pokeDB = {
             "Electric": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Porygon Z": {
     "id": "0474",
@@ -22037,7 +22603,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Gallade": {
     "id": "0475",
@@ -22075,7 +22642,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Probopass": {
     "id": "0476",
@@ -22119,7 +22687,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Dusknoir": {
     "id": "0477",
@@ -22157,7 +22726,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Froslass": {
     "id": "0478",
@@ -22198,7 +22768,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom": {
     "id": "0479",
@@ -22239,7 +22810,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom Fan": {
     "id": "0479",
@@ -22278,7 +22850,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom Frost": {
     "id": "0479",
@@ -22316,7 +22889,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom Heat": {
     "id": "0479",
@@ -22358,7 +22932,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom Mow": {
     "id": "0479",
@@ -22397,7 +22972,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rotom Wash": {
     "id": "0479",
@@ -22435,7 +23011,8 @@ var pokeDB = {
             "Steel": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Uxie": {
     "id": "0480",
@@ -22470,7 +23047,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mesprit": {
     "id": "0481",
@@ -22505,7 +23083,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Azelf": {
     "id": "0482",
@@ -22540,7 +23119,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dialga": {
     "id": "0483",
@@ -22583,7 +23163,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palkia": {
     "id": "0484",
@@ -22620,7 +23201,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Heatran": {
     "id": "0485",
@@ -22667,7 +23249,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Regigigas": {
     "id": "0486",
@@ -22699,7 +23282,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Giratina": {
     "id": "0487",
@@ -22744,7 +23328,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Giratina Altered": {
     "id": "0487",
@@ -22789,7 +23374,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Giratina Origin": {
     "id": "0487",
@@ -22834,7 +23420,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cresselia": {
     "id": "0488",
@@ -22870,7 +23457,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Phione": {
     "id": "0489",
@@ -22906,7 +23494,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Manaphy": {
     "id": "0490",
@@ -22942,7 +23531,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Darkrai": {
     "id": "0491",
@@ -22979,7 +23569,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shaymin": {
     "id": "0492",
@@ -23020,7 +23611,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shaymin Land": {
     "id": "0492",
@@ -23061,7 +23653,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shaymin Sky": {
     "id": "0492",
@@ -23103,7 +23696,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus": {
     "id": "0493",
@@ -23135,7 +23729,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Bug": {
     "id": "0493",
@@ -23171,7 +23766,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Dark": {
     "id": "0493",
@@ -23207,7 +23803,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Dragon": {
     "id": "0493",
@@ -23244,7 +23841,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Electric": {
     "id": "0493",
@@ -23278,7 +23876,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Fairy": {
     "id": "0493",
@@ -23314,7 +23913,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Fighting": {
     "id": "0493",
@@ -23350,7 +23950,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Fire": {
     "id": "0493",
@@ -23389,7 +23990,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Flying": {
     "id": "0493",
@@ -23426,7 +24028,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Ghost": {
     "id": "0493",
@@ -23462,7 +24065,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Grass": {
     "id": "0493",
@@ -23501,7 +24105,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Ground": {
     "id": "0493",
@@ -23537,7 +24142,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Ice": {
     "id": "0493",
@@ -23572,7 +24178,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Poison": {
     "id": "0493",
@@ -23609,7 +24216,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Psychic": {
     "id": "0493",
@@ -23644,7 +24252,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Rock": {
     "id": "0493",
@@ -23683,7 +24292,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Steel": {
     "id": "0493",
@@ -23727,7 +24337,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arceus Water": {
     "id": "0493",
@@ -23763,7 +24374,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Victini": {
     "id": "0494",
@@ -23807,7 +24419,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Snivy": {
     "id": "0495",
@@ -23846,7 +24459,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Servine": {
     "id": "0496",
@@ -23885,7 +24499,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Serperior": {
     "id": "0497",
@@ -23925,7 +24540,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tepig": {
     "id": "0498",
@@ -23964,7 +24580,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pignite": {
     "id": "0499",
@@ -24005,7 +24622,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Emboar": {
     "id": "0500",
@@ -24048,7 +24666,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oshawott": {
     "id": "0501",
@@ -24084,7 +24703,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dewott": {
     "id": "0502",
@@ -24120,7 +24740,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Samurott": {
     "id": "0503",
@@ -24159,7 +24780,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Patrat": {
     "id": "0504",
@@ -24191,7 +24813,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Watchog": {
     "id": "0505",
@@ -24223,7 +24846,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Lillipup": {
     "id": "0506",
@@ -24255,7 +24879,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Herdier": {
     "id": "0507",
@@ -24287,7 +24912,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stoutland": {
     "id": "0508",
@@ -24320,7 +24946,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Purrloin": {
     "id": "0509",
@@ -24356,7 +24983,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Liepard": {
     "id": "0510",
@@ -24393,7 +25021,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pansage": {
     "id": "0511",
@@ -24432,7 +25061,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Simisage": {
     "id": "0512",
@@ -24471,7 +25101,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pansear": {
     "id": "0513",
@@ -24510,7 +25141,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Simisear": {
     "id": "0514",
@@ -24549,7 +25181,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Panpour": {
     "id": "0515",
@@ -24585,7 +25218,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Simipour": {
     "id": "0516",
@@ -24621,7 +25255,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Munna": {
     "id": "0517",
@@ -24656,7 +25291,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Musharna": {
     "id": "0518",
@@ -24691,7 +25327,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pidove": {
     "id": "0519",
@@ -24729,7 +25366,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tranquill": {
     "id": "0520",
@@ -24767,7 +25405,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Unfezant": {
     "id": "0521",
@@ -24805,7 +25444,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Blitzle": {
     "id": "0522",
@@ -24839,7 +25479,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zebstrika": {
     "id": "0523",
@@ -24873,7 +25514,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Roggenrola": {
     "id": "0524",
@@ -24912,7 +25554,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Boldore": {
     "id": "0525",
@@ -24951,7 +25594,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gigalith": {
     "id": "0526",
@@ -24992,7 +25636,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Woobat": {
     "id": "0527",
@@ -25032,7 +25677,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swoobat": {
     "id": "0528",
@@ -25073,7 +25719,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Drilbur": {
     "id": "0529",
@@ -25109,7 +25756,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Excadrill": {
     "id": "0530",
@@ -25157,7 +25805,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Audino": {
     "id": "0531",
@@ -25189,7 +25838,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Timburr": {
     "id": "0532",
@@ -25225,7 +25875,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gurdurr": {
     "id": "0533",
@@ -25261,7 +25912,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Conkeldurr": {
     "id": "0534",
@@ -25297,7 +25949,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tympole": {
     "id": "0535",
@@ -25333,7 +25986,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palpitoad": {
     "id": "0536",
@@ -25370,7 +26024,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Seismitoad": {
     "id": "0537",
@@ -25407,7 +26062,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Throh": {
     "id": "0538",
@@ -25443,7 +26099,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sawk": {
     "id": "0539",
@@ -25479,7 +26136,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sewaddle": {
     "id": "0540",
@@ -25521,7 +26179,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swadloon": {
     "id": "0541",
@@ -25563,7 +26222,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Leavanny": {
     "id": "0542",
@@ -25606,7 +26266,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Venipede": {
     "id": "0543",
@@ -25646,7 +26307,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Whirlipede": {
     "id": "0544",
@@ -25686,7 +26348,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scolipede": {
     "id": "0545",
@@ -25727,7 +26390,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cottonee": {
     "id": "0546",
@@ -25770,7 +26434,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Whimsicott": {
     "id": "0547",
@@ -25815,7 +26480,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Petilil": {
     "id": "0548",
@@ -25853,7 +26519,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lilligant": {
     "id": "0549",
@@ -25893,7 +26560,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Basculin": {
     "id": "0550",
@@ -25929,7 +26597,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Basculin Blue Striped": {
     "id": "0550",
@@ -25965,7 +26634,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Basculin Red Striped": {
     "id": "0550",
@@ -26001,7 +26671,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sandile": {
     "id": "0551",
@@ -26044,7 +26715,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Krokorok": {
     "id": "0552",
@@ -26087,7 +26759,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Krookodile": {
     "id": "0553",
@@ -26130,7 +26803,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Darumaka": {
     "id": "0554",
@@ -26168,7 +26842,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Darumaka": {
     "id": "0554",
@@ -26202,7 +26877,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Darmanitan": {
     "id": "0555",
@@ -26243,7 +26919,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Standard Galarian Darmanitan": {
     "id": "0555",
@@ -26279,7 +26956,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zen Galarian Darmanitan": {
     "id": "0555",
@@ -26319,7 +26997,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ice": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Darmanitan Standard": {
     "id": "0555",
@@ -26360,7 +27039,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Darmanitan Zen": {
     "id": "0555",
@@ -26405,7 +27085,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Maractus": {
     "id": "0556",
@@ -26444,7 +27125,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dwebble": {
     "id": "0557",
@@ -26480,7 +27162,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crustle": {
     "id": "0558",
@@ -26516,7 +27199,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scraggy": {
     "id": "0559",
@@ -26554,7 +27238,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scrafty": {
     "id": "0560",
@@ -26592,7 +27277,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sigilyph": {
     "id": "0561",
@@ -26633,7 +27319,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yamask": {
     "id": "0562",
@@ -26669,7 +27356,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Yamask": {
     "id": "0562",
@@ -26709,7 +27397,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cofagrigus": {
     "id": "0563",
@@ -26746,7 +27435,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Tirtouga": {
     "id": "0564",
@@ -26786,7 +27476,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Carracosta": {
     "id": "0565",
@@ -26827,7 +27518,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Archen": {
     "id": "0566",
@@ -26869,7 +27561,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Archeops": {
     "id": "0567",
@@ -26911,7 +27604,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Trubbish": {
     "id": "0568",
@@ -26948,7 +27642,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Garbodor": {
     "id": "0569",
@@ -26986,7 +27681,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zorua": {
     "id": "0570",
@@ -27022,7 +27718,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zoroark": {
     "id": "0571",
@@ -27058,7 +27755,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minccino": {
     "id": "0572",
@@ -27090,7 +27788,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cinccino": {
     "id": "0573",
@@ -27122,7 +27821,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gothita": {
     "id": "0574",
@@ -27157,7 +27857,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gothorita": {
     "id": "0575",
@@ -27192,7 +27893,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gothitelle": {
     "id": "0576",
@@ -27227,7 +27929,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Solosis": {
     "id": "0577",
@@ -27262,7 +27965,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Duosion": {
     "id": "0578",
@@ -27297,7 +28001,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Reuniclus": {
     "id": "0579",
@@ -27332,7 +28037,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ducklett": {
     "id": "0580",
@@ -27371,7 +28077,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Swanna": {
     "id": "0581",
@@ -27410,7 +28117,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Vanillite": {
     "id": "0582",
@@ -27445,7 +28153,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vanillish": {
     "id": "0583",
@@ -27480,7 +28189,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vanilluxe": {
     "id": "0584",
@@ -27515,7 +28225,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deerling": {
     "id": "0585",
@@ -27558,7 +28269,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deerling Autumn": {
     "id": "0585",
@@ -27601,7 +28313,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deerling Spring": {
     "id": "0585",
@@ -27644,7 +28357,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deerling Summer": {
     "id": "0585",
@@ -27687,7 +28401,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deerling Winter": {
     "id": "0585",
@@ -27730,7 +28445,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sawsbuck": {
     "id": "0586",
@@ -27774,7 +28490,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sawsbuck Autumn": {
     "id": "0586",
@@ -27818,7 +28535,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sawsbuck Spring": {
     "id": "0586",
@@ -27862,7 +28580,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sawsbuck Summer": {
     "id": "0586",
@@ -27906,7 +28625,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sawsbuck Winter": {
     "id": "0586",
@@ -27950,7 +28670,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Emolga": {
     "id": "0587",
@@ -27990,7 +28711,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Karrablast": {
     "id": "0588",
@@ -28027,7 +28749,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Escavalier": {
     "id": "0589",
@@ -28069,7 +28792,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Foongus": {
     "id": "0590",
@@ -28109,7 +28833,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Amoonguss": {
     "id": "0591",
@@ -28149,7 +28874,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Frillish": {
     "id": "0592",
@@ -28192,7 +28918,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Frillish Female": {
     "id": "0592",
@@ -28235,7 +28962,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Jellicent": {
     "id": "0593",
@@ -28279,7 +29007,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Jellicent Female": {
     "id": "0593",
@@ -28323,7 +29052,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Alomomola": {
     "id": "0594",
@@ -28359,7 +29089,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Joltik": {
     "id": "0595",
@@ -28396,7 +29127,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galvantula": {
     "id": "0596",
@@ -28435,7 +29167,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Ferroseed": {
     "id": "0597",
@@ -28478,7 +29211,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ferrothorn": {
     "id": "0598",
@@ -28523,7 +29257,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Klink": {
     "id": "0599",
@@ -28567,7 +29302,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Klang": {
     "id": "0600",
@@ -28611,7 +29347,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Klinklang": {
     "id": "0601",
@@ -28656,7 +29393,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tynamo": {
     "id": "0602",
@@ -28688,7 +29426,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eelektrik": {
     "id": "0603",
@@ -28722,7 +29461,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eelektross": {
     "id": "0604",
@@ -28758,7 +29498,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Elgyem": {
     "id": "0605",
@@ -28793,7 +29534,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Beheeyem": {
     "id": "0606",
@@ -28828,7 +29570,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Litwick": {
     "id": "0607",
@@ -28874,7 +29617,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lampent": {
     "id": "0608",
@@ -28919,7 +29663,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chandelure": {
     "id": "0609",
@@ -28967,7 +29712,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Axew": {
     "id": "0610",
@@ -29004,7 +29750,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fraxure": {
     "id": "0611",
@@ -29041,7 +29788,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Haxorus": {
     "id": "0612",
@@ -29080,7 +29828,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cubchoo": {
     "id": "0613",
@@ -29115,7 +29864,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cubchoo Winter 2020": {
     "id": "0613",
@@ -29150,7 +29900,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Beartic": {
     "id": "0614",
@@ -29186,7 +29937,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Beartic Winter 2020": {
     "id": "0614",
@@ -29222,7 +29974,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cryogonal": {
     "id": "0615",
@@ -29258,7 +30011,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shelmet": {
     "id": "0616",
@@ -29294,7 +30048,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Accelgor": {
     "id": "0617",
@@ -29332,7 +30087,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stunfisk": {
     "id": "0618",
@@ -29372,7 +30128,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Galarian Stunfisk": {
     "id": "0618",
@@ -29418,7 +30175,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mienfoo": {
     "id": "0619",
@@ -29454,7 +30212,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mienshao": {
     "id": "0620",
@@ -29491,7 +30250,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Druddigon": {
     "id": "0621",
@@ -29528,7 +30288,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Golett": {
     "id": "0622",
@@ -29570,7 +30331,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Golurk": {
     "id": "0623",
@@ -29613,7 +30375,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Pawniard": {
     "id": "0624",
@@ -29658,7 +30421,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bisharp": {
     "id": "0625",
@@ -29704,7 +30468,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bouffalant": {
     "id": "0626",
@@ -29737,7 +30502,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rufflet": {
     "id": "0627",
@@ -29775,7 +30541,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Braviary": {
     "id": "0628",
@@ -29814,7 +30581,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hisuian Braviary": {
     "id": "0628",
@@ -29855,7 +30623,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vullaby": {
     "id": "0629",
@@ -29895,7 +30664,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mandibuzz": {
     "id": "0630",
@@ -29936,7 +30706,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Heatmor": {
     "id": "0631",
@@ -29975,7 +30746,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Durant": {
     "id": "0632",
@@ -30016,7 +30788,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Deino": {
     "id": "0633",
@@ -30059,7 +30832,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zweilous": {
     "id": "0634",
@@ -30102,7 +30876,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hydreigon": {
     "id": "0635",
@@ -30146,7 +30921,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Larvesta": {
     "id": "0636",
@@ -30186,7 +30962,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Volcarona": {
     "id": "0637",
@@ -30227,7 +31004,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cobalion": {
     "id": "0638",
@@ -30272,7 +31050,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Terrakion": {
     "id": "0639",
@@ -30318,7 +31097,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Virizion": {
     "id": "0640",
@@ -30363,7 +31143,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tornadus": {
     "id": "0641",
@@ -30401,7 +31182,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tornadus Incarnate": {
     "id": "0641",
@@ -30439,7 +31221,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tornadus Therian": {
     "id": "0641",
@@ -30477,7 +31260,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Thundurus": {
     "id": "0642",
@@ -30517,7 +31301,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Thundurus Incarnate": {
     "id": "0642",
@@ -30557,7 +31342,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Thundurus Therian": {
     "id": "0642",
@@ -30597,7 +31383,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Reshiram": {
     "id": "0643",
@@ -30638,7 +31425,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zekrom": {
     "id": "0644",
@@ -30681,7 +31469,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Landorus": {
     "id": "0645",
@@ -30720,7 +31509,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Landorus Incarnate": {
     "id": "0645",
@@ -30759,7 +31549,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Landorus Therian": {
     "id": "0645",
@@ -30798,7 +31589,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kyurem": {
     "id": "0646",
@@ -30838,7 +31630,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kyurem Black": {
     "id": "0646",
@@ -30878,7 +31671,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kyurem White": {
     "id": "0646",
@@ -30918,7 +31712,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Keldeo": {
     "id": "0647",
@@ -30963,7 +31758,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Keldeo Ordinary": {
     "id": "0647",
@@ -31008,7 +31804,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Keldeo Resolute": {
     "id": "0647",
@@ -31053,7 +31850,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meloetta": {
     "id": "0648",
@@ -31089,7 +31887,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meloetta Aria": {
     "id": "0648",
@@ -31125,7 +31924,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meloetta Pirouette": {
     "id": "0648",
@@ -31165,7 +31965,8 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Genesect": {
     "id": "0649",
@@ -31206,7 +32007,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Genesect Burn": {
     "id": "0649",
@@ -31248,7 +32050,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Genesect Chill": {
     "id": "0649",
@@ -31290,7 +32093,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Genesect Douse": {
     "id": "0649",
@@ -31332,7 +32136,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Genesect Shock": {
     "id": "0649",
@@ -31374,7 +32179,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chespin": {
     "id": "0650",
@@ -31413,7 +32219,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Quilladin": {
     "id": "0651",
@@ -31452,7 +32259,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chesnaught": {
     "id": "0652",
@@ -31498,7 +32306,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fennekin": {
     "id": "0653",
@@ -31537,7 +32346,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Braixen": {
     "id": "0654",
@@ -31576,7 +32386,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Delphox": {
     "id": "0655",
@@ -31623,7 +32434,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Froakie": {
     "id": "0656",
@@ -31659,7 +32471,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Frogadier": {
     "id": "0657",
@@ -31695,7 +32508,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Greninja": {
     "id": "0658",
@@ -31741,7 +32555,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bunnelby": {
     "id": "0659",
@@ -31773,7 +32588,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Diggersby": {
     "id": "0660",
@@ -31814,7 +32630,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fletchling": {
     "id": "0661",
@@ -31852,7 +32669,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fletchinder": {
     "id": "0662",
@@ -31894,7 +32712,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Talonflame": {
     "id": "0663",
@@ -31938,7 +32757,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug": {
     "id": "0664",
@@ -31972,7 +32792,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Archipelago": {
     "id": "0664",
@@ -32006,7 +32827,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Continental": {
     "id": "0664",
@@ -32040,7 +32862,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Elegant": {
     "id": "0664",
@@ -32074,7 +32897,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Fancy": {
     "id": "0664",
@@ -32108,7 +32932,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Garden": {
     "id": "0664",
@@ -32142,7 +32967,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug High Plains": {
     "id": "0664",
@@ -32176,7 +33002,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Icy Snow": {
     "id": "0664",
@@ -32210,7 +33037,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Jungle": {
     "id": "0664",
@@ -32244,7 +33072,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Marine": {
     "id": "0664",
@@ -32278,7 +33107,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Meadow": {
     "id": "0664",
@@ -32312,7 +33142,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Modern": {
     "id": "0664",
@@ -32346,7 +33177,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Monsoon": {
     "id": "0664",
@@ -32380,7 +33212,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Ocean": {
     "id": "0664",
@@ -32414,7 +33247,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Pokeball": {
     "id": "0664",
@@ -32448,7 +33282,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Polar": {
     "id": "0664",
@@ -32482,7 +33317,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug River": {
     "id": "0664",
@@ -32516,7 +33352,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Sandstorm": {
     "id": "0664",
@@ -32550,7 +33387,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Savanna": {
     "id": "0664",
@@ -32584,7 +33422,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Sun": {
     "id": "0664",
@@ -32618,7 +33457,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scatterbug Tundra": {
     "id": "0664",
@@ -32652,7 +33492,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa": {
     "id": "0665",
@@ -32685,7 +33526,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Archipelago": {
     "id": "0665",
@@ -32718,7 +33560,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Continental": {
     "id": "0665",
@@ -32751,7 +33594,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Elegant": {
     "id": "0665",
@@ -32784,7 +33628,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Fancy": {
     "id": "0665",
@@ -32817,7 +33662,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Garden": {
     "id": "0665",
@@ -32850,7 +33696,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa High Plains": {
     "id": "0665",
@@ -32883,7 +33730,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Icy Snow": {
     "id": "0665",
@@ -32916,7 +33764,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Jungle": {
     "id": "0665",
@@ -32949,7 +33798,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Marine": {
     "id": "0665",
@@ -32982,7 +33832,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Meadow": {
     "id": "0665",
@@ -33015,7 +33866,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Modern": {
     "id": "0665",
@@ -33048,7 +33900,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Monsoon": {
     "id": "0665",
@@ -33081,7 +33934,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Ocean": {
     "id": "0665",
@@ -33114,7 +33968,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Pokeball": {
     "id": "0665",
@@ -33147,7 +34002,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Polar": {
     "id": "0665",
@@ -33180,7 +34036,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa River": {
     "id": "0665",
@@ -33213,7 +34070,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Sandstorm": {
     "id": "0665",
@@ -33246,7 +34104,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Savanna": {
     "id": "0665",
@@ -33279,7 +34138,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Sun": {
     "id": "0665",
@@ -33312,7 +34172,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spewpa Tundra": {
     "id": "0665",
@@ -33345,7 +34206,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon": {
     "id": "0666",
@@ -33386,7 +34248,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Archipelago": {
     "id": "0666",
@@ -33427,7 +34290,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Continental": {
     "id": "0666",
@@ -33468,7 +34332,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Elegant": {
     "id": "0666",
@@ -33509,7 +34374,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Fancy": {
     "id": "0666",
@@ -33550,7 +34416,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Garden": {
     "id": "0666",
@@ -33591,7 +34458,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon High Plains": {
     "id": "0666",
@@ -33632,7 +34500,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Icy Snow": {
     "id": "0666",
@@ -33673,7 +34542,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Jungle": {
     "id": "0666",
@@ -33714,7 +34584,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Marine": {
     "id": "0666",
@@ -33755,7 +34626,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Meadow": {
     "id": "0666",
@@ -33796,7 +34668,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Modern": {
     "id": "0666",
@@ -33837,7 +34710,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Monsoon": {
     "id": "0666",
@@ -33878,7 +34752,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Ocean": {
     "id": "0666",
@@ -33919,7 +34794,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Pokeball": {
     "id": "0666",
@@ -33960,7 +34836,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Polar": {
     "id": "0666",
@@ -34001,7 +34878,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon River": {
     "id": "0666",
@@ -34042,7 +34920,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Sandstorm": {
     "id": "0666",
@@ -34083,7 +34962,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Savanna": {
     "id": "0666",
@@ -34124,7 +35004,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Sun": {
     "id": "0666",
@@ -34165,7 +35046,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vivillon Tundra": {
     "id": "0666",
@@ -34206,7 +35088,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Ground": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Litleo": {
     "id": "0667",
@@ -34250,7 +35133,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pyroar": {
     "id": "0668",
@@ -34295,7 +35179,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pyroar Female": {
     "id": "0668",
@@ -34340,7 +35225,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe": {
     "id": "0669",
@@ -34376,7 +35262,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe Blue": {
     "id": "0669",
@@ -34412,7 +35299,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe Orange": {
     "id": "0669",
@@ -34448,7 +35336,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe Red": {
     "id": "0669",
@@ -34484,7 +35373,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe White": {
     "id": "0669",
@@ -34520,7 +35410,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flabebe Yellow": {
     "id": "0669",
@@ -34556,7 +35447,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette": {
     "id": "0670",
@@ -34592,7 +35484,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette Blue": {
     "id": "0670",
@@ -34628,7 +35521,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette Orange": {
     "id": "0670",
@@ -34664,7 +35558,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette Red": {
     "id": "0670",
@@ -34700,7 +35595,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette White": {
     "id": "0670",
@@ -34736,7 +35632,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floette Yellow": {
     "id": "0670",
@@ -34772,7 +35669,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Florges": {
     "id": "0671",
@@ -34811,7 +35709,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Blue Florges": {
     "id": "0671",
@@ -34850,7 +35749,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Orange Florges": {
     "id": "0671",
@@ -34889,7 +35789,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Red Florges": {
     "id": "0671",
@@ -34928,7 +35829,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "White Florges": {
     "id": "0671",
@@ -34967,7 +35869,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yellow Florges": {
     "id": "0671",
@@ -35006,7 +35909,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Skiddo": {
     "id": "0672",
@@ -35045,7 +35949,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gogoat": {
     "id": "0673",
@@ -35086,7 +35991,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pancham": {
     "id": "0674",
@@ -35122,7 +36028,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pangoro": {
     "id": "0675",
@@ -35162,7 +36069,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou": {
     "id": "0676",
@@ -35195,7 +36103,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Dandy": {
     "id": "0676",
@@ -35228,7 +36137,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Debutante": {
     "id": "0676",
@@ -35261,7 +36171,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Diamond": {
     "id": "0676",
@@ -35294,7 +36205,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Heart": {
     "id": "0676",
@@ -35327,7 +36239,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Kabuki": {
     "id": "0676",
@@ -35360,7 +36273,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou La Reine": {
     "id": "0676",
@@ -35393,7 +36307,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Matron": {
     "id": "0676",
@@ -35426,7 +36341,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Natural": {
     "id": "0676",
@@ -35459,7 +36375,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Pharaoh": {
     "id": "0676",
@@ -35492,7 +36409,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Furfrou Star": {
     "id": "0676",
@@ -35525,7 +36443,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Espurr": {
     "id": "0677",
@@ -35560,7 +36479,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meowstic": {
     "id": "0678",
@@ -35595,7 +36515,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meowstic Female": {
     "id": "0678",
@@ -35631,7 +36552,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spritzee": {
     "id": "0682",
@@ -35666,7 +36588,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Aromatisse": {
     "id": "0683",
@@ -35703,7 +36626,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Swirlix": {
     "id": "0684",
@@ -35737,7 +36661,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Slurpuff": {
     "id": "0685",
@@ -35775,7 +36700,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Inkay": {
     "id": "0686",
@@ -35808,7 +36734,8 @@ var pokeDB = {
         "resistant_to": {
             "Psychic": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Malamar": {
     "id": "0687",
@@ -35843,7 +36770,8 @@ var pokeDB = {
         "resistant_to": {
             "Psychic": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Binacle": {
     "id": "0688",
@@ -35883,7 +36811,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Barbaracle": {
     "id": "0689",
@@ -35926,7 +36855,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Skrelp": {
     "id": "0690",
@@ -35969,7 +36899,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dragalge": {
     "id": "0691",
@@ -36013,7 +36944,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Clauncher": {
     "id": "0692",
@@ -36049,7 +36981,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Clawitzer": {
     "id": "0693",
@@ -36086,7 +37019,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Helioptile": {
     "id": "0694",
@@ -36123,7 +37057,8 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Heliolisk": {
     "id": "0695",
@@ -36163,7 +37098,8 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tyrunt": {
     "id": "0696",
@@ -36205,7 +37141,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tyrantrum": {
     "id": "0697",
@@ -36250,7 +37187,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Amaura": {
     "id": "0698",
@@ -36292,7 +37230,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Aurorus": {
     "id": "0699",
@@ -36337,7 +37276,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sylveon": {
     "id": "0700",
@@ -36375,7 +37315,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hawlucha": {
     "id": "0701",
@@ -36417,7 +37358,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dedenne": {
     "id": "0702",
@@ -36455,7 +37397,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Flying": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Carbink": {
     "id": "0703",
@@ -36496,7 +37439,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Normal": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Goomy": {
     "id": "0704",
@@ -36533,7 +37477,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sliggoo": {
     "id": "0705",
@@ -36571,7 +37516,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Goodra": {
     "id": "0706",
@@ -36609,7 +37555,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Klefki": {
     "id": "0707",
@@ -36654,7 +37601,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Phantump": {
     "id": "0708",
@@ -36696,7 +37644,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Trevenant": {
     "id": "0709",
@@ -36738,7 +37687,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pumpkaboo": {
     "id": "0710",
@@ -36780,7 +37730,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pumpkaboo Average": {
     "id": "0710",
@@ -36822,7 +37773,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pumpkaboo Large": {
     "id": "0710",
@@ -36864,7 +37816,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pumpkaboo Small": {
     "id": "0710",
@@ -36906,7 +37859,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pumpkaboo Super": {
     "id": "0710",
@@ -36948,7 +37902,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gourgeist": {
     "id": "0711",
@@ -36992,7 +37947,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Average Gourgeist": {
     "id": "0711",
@@ -37036,7 +37992,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Large Gourgeist": {
     "id": "0711",
@@ -37080,7 +38037,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Small Gourgeist": {
     "id": "0711",
@@ -37124,7 +38082,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Super Gourgeist": {
     "id": "0711",
@@ -37168,7 +38127,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bergmite": {
     "id": "0712",
@@ -37203,7 +38163,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Avalugg": {
     "id": "0713",
@@ -37240,7 +38201,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hisuian Avalugg": {
     "id": "0713",
@@ -37282,7 +38244,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Noibat": {
     "id": "0714",
@@ -37323,7 +38286,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Noivern": {
     "id": "0715",
@@ -37366,7 +38330,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Xerneas": {
     "id": "0716",
@@ -37405,7 +38370,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yveltal": {
     "id": "0717",
@@ -37449,7 +38415,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zygarde": {
     "id": "0718",
@@ -37490,7 +38457,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zygarde Complete": {
     "id": "0718",
@@ -37531,7 +38499,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zygarde Complete Fifty Percent": {
     "id": "0718",
@@ -37572,7 +38541,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zygarde Complete Ten Percent": {
     "id": "0718",
@@ -37613,7 +38583,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zygarde Fifty Percent": {
     "id": "0718",
@@ -37654,7 +38625,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Zygarde Ten Percent": {
     "id": "0718",
@@ -37695,7 +38667,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Diancie": {
     "id": "0719",
@@ -37736,7 +38709,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Normal": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hoopa": {
     "id": "0720",
@@ -37773,7 +38747,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hoopa Confined": {
     "id": "0720",
@@ -37810,7 +38785,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hoopa Unbound": {
     "id": "0720",
@@ -37844,7 +38820,8 @@ var pokeDB = {
         "resistant_to": {
             "Psychic": "24.4%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Volcanion": {
     "id": "0721",
@@ -37885,7 +38862,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rowlet": {
     "id": "0722",
@@ -37926,7 +38904,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dartrix": {
     "id": "0723",
@@ -37968,7 +38947,8 @@ var pokeDB = {
             "Ground": "24.4%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Decidueye": {
     "id": "0724",
@@ -38012,7 +38992,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Litten": {
     "id": "0725",
@@ -38051,7 +39032,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Torracat": {
     "id": "0726",
@@ -38090,7 +39072,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Incineroar": {
     "id": "0727",
@@ -38134,7 +39117,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Popplio": {
     "id": "0728",
@@ -38170,7 +39154,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Brionne": {
     "id": "0729",
@@ -38206,7 +39191,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Primarina": {
     "id": "0730",
@@ -38248,7 +39234,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pikipek": {
     "id": "0731",
@@ -38286,7 +39273,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Trumbeak": {
     "id": "0732",
@@ -38324,7 +39312,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toucannon": {
     "id": "0733",
@@ -38363,7 +39352,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yungoos": {
     "id": "0734",
@@ -38395,7 +39385,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gumshoos": {
     "id": "0735",
@@ -38427,7 +39418,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grubbin": {
     "id": "0736",
@@ -38463,7 +39455,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Charjabug": {
     "id": "0737",
@@ -38500,7 +39493,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Vikavolt": {
     "id": "0738",
@@ -38538,7 +39532,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crabrawler": {
     "id": "0739",
@@ -38574,7 +39569,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crabominable": {
     "id": "0740",
@@ -38615,7 +39611,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oricorio": {
     "id": "0741",
@@ -38656,7 +39653,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oricorio Baile": {
     "id": "0741",
@@ -38697,7 +39695,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oricorio Pau": {
     "id": "0741",
@@ -38737,7 +39736,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oricorio Pompom": {
     "id": "0741",
@@ -38776,7 +39776,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oricorio Sensu": {
     "id": "0741",
@@ -38818,7 +39819,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cutiefly": {
     "id": "0742",
@@ -38859,7 +39861,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ribombee": {
     "id": "0743",
@@ -38900,7 +39903,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rockruff": {
     "id": "0744",
@@ -38940,7 +39944,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lycanroc": {
     "id": "0745",
@@ -38980,7 +39985,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dusk Lycanroc": {
     "id": "0745",
@@ -39021,7 +40027,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Midday Lycanroc": {
     "id": "0745",
@@ -39061,7 +40068,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Midnight Lycanroc": {
     "id": "0745",
@@ -39101,7 +40109,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wishiwashi": {
     "id": "0746",
@@ -39138,7 +40147,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wishiwashi School": {
     "id": "0746",
@@ -39175,7 +40185,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wishiwashi Solo": {
     "id": "0746",
@@ -39212,7 +40223,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mareanie": {
     "id": "0747",
@@ -39254,7 +40266,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxapex": {
     "id": "0748",
@@ -39296,7 +40309,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mudbray": {
     "id": "0749",
@@ -39332,7 +40346,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mudsdale": {
     "id": "0750",
@@ -39369,7 +40384,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dewpider": {
     "id": "0751",
@@ -39408,7 +40424,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Araquanid": {
     "id": "0752",
@@ -39447,7 +40464,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fomantis": {
     "id": "0753",
@@ -39488,7 +40506,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lurantis": {
     "id": "0754",
@@ -39530,7 +40549,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Morelull": {
     "id": "0755",
@@ -39571,7 +40591,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shiinotic": {
     "id": "0756",
@@ -39613,7 +40634,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Salandit": {
     "id": "0757",
@@ -39656,7 +40678,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Salazzle": {
     "id": "0758",
@@ -39700,7 +40723,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stufful": {
     "id": "0759",
@@ -39739,7 +40763,8 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bewear": {
     "id": "0760",
@@ -39780,7 +40805,8 @@ var pokeDB = {
             "Ghost": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bounsweet": {
     "id": "0761",
@@ -39818,7 +40844,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Steenee": {
     "id": "0762",
@@ -39858,7 +40885,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tsareena": {
     "id": "0763",
@@ -39900,7 +40928,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Comfey": {
     "id": "0764",
@@ -39936,7 +40965,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oranguru": {
     "id": "0765",
@@ -39972,7 +41002,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Passimian": {
     "id": "0766",
@@ -40009,7 +41040,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wimpod": {
     "id": "0767",
@@ -40045,7 +41077,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Golisopod": {
     "id": "0768",
@@ -40088,7 +41121,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sandygast": {
     "id": "0769",
@@ -40131,7 +41165,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palossand": {
     "id": "0770",
@@ -40174,7 +41209,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pyukumuku": {
     "id": "0771",
@@ -40207,7 +41243,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Type Null": {
     "id": "0772",
@@ -40239,7 +41276,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally": {
     "id": "0773",
@@ -40273,7 +41311,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Bug": {
     "id": "0773",
@@ -40311,7 +41350,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Dark": {
     "id": "0773",
@@ -40349,7 +41389,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Dragon": {
     "id": "0773",
@@ -40388,7 +41429,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Electric": {
     "id": "0773",
@@ -40424,7 +41466,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Fairy": {
     "id": "0773",
@@ -40462,7 +41505,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Fighting": {
     "id": "0773",
@@ -40500,7 +41544,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Fire": {
     "id": "0773",
@@ -40541,7 +41586,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Flying": {
     "id": "0773",
@@ -40580,7 +41626,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Ghost": {
     "id": "0773",
@@ -40618,7 +41665,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Grass": {
     "id": "0773",
@@ -40659,7 +41707,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Ground": {
     "id": "0773",
@@ -40697,7 +41746,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Ice": {
     "id": "0773",
@@ -40734,7 +41784,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Poison": {
     "id": "0773",
@@ -40773,7 +41824,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Psychic": {
     "id": "0773",
@@ -40810,7 +41862,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Rock": {
     "id": "0773",
@@ -40851,7 +41904,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Steel": {
     "id": "0773",
@@ -40897,7 +41951,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silvally Water": {
     "id": "0773",
@@ -40935,7 +41990,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior": {
     "id": "0774",
@@ -40977,7 +42033,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Blue": {
     "id": "0774",
@@ -41019,7 +42076,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Green": {
     "id": "0774",
@@ -41061,7 +42119,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Indigo": {
     "id": "0774",
@@ -41103,7 +42162,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Orange": {
     "id": "0774",
@@ -41145,7 +42205,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Red": {
     "id": "0774",
@@ -41187,7 +42248,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Violet": {
     "id": "0774",
@@ -41229,7 +42291,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Minior Yellow": {
     "id": "0774",
@@ -41271,7 +42334,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Komala": {
     "id": "0775",
@@ -41303,7 +42367,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Turtonator": {
     "id": "0776",
@@ -41344,7 +42409,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Togedemaru": {
     "id": "0777",
@@ -41390,7 +42456,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mimikyu": {
     "id": "0778",
@@ -41427,7 +42494,8 @@ var pokeDB = {
             "Fighting": "24.4%",
             "Normal": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mimikyu Busted": {
     "id": "0778",
@@ -41464,7 +42532,8 @@ var pokeDB = {
             "Fighting": "24.4%",
             "Normal": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mimikyu Disguised": {
     "id": "0778",
@@ -41501,7 +42570,8 @@ var pokeDB = {
             "Fighting": "24.4%",
             "Normal": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bruxish": {
     "id": "0779",
@@ -41544,7 +42614,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Drampa": {
     "id": "0780",
@@ -41584,7 +42655,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dhelmise": {
     "id": "0781",
@@ -41626,7 +42698,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Jangmo O": {
     "id": "0782",
@@ -41663,7 +42736,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hakamo O": {
     "id": "0783",
@@ -41706,7 +42780,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kommo O": {
     "id": "0784",
@@ -41750,7 +42825,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tapu Koko": {
     "id": "0785",
@@ -41790,7 +42866,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Flying": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tapu Lele": {
     "id": "0786",
@@ -41828,7 +42905,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tapu Bulu": {
     "id": "0787",
@@ -41872,7 +42950,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tapu Fini": {
     "id": "0788",
@@ -41914,7 +42993,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cosmog": {
     "id": "0789",
@@ -41946,7 +43026,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cosmoem": {
     "id": "0790",
@@ -41978,7 +43059,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Solgaleo": {
     "id": "0791",
@@ -42024,7 +43106,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lunala": {
     "id": "0792",
@@ -42062,7 +43145,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nihilego": {
     "id": "0793",
@@ -42105,7 +43189,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Buzzwole": {
     "id": "0794",
@@ -42146,7 +43231,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pheromosa": {
     "id": "0795",
@@ -42187,7 +43273,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Xurkitree": {
     "id": "0796",
@@ -42222,7 +43309,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Celesteela": {
     "id": "0797",
@@ -42266,7 +43354,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kartana": {
     "id": "0798",
@@ -42310,7 +43399,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Guzzlord": {
     "id": "0799",
@@ -42354,7 +43444,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Necrozma": {
     "id": "0800",
@@ -42386,7 +43477,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Necrozma Dawn Wings": {
     "id": "0800",
@@ -42420,7 +43512,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Necrozma Dusk Mane": {
     "id": "0800",
@@ -42462,7 +43555,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Necrozma Ultra": {
     "id": "0800",
@@ -42502,7 +43596,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Magearna": {
     "id": "0801",
@@ -42543,7 +43638,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Magearna Original Color": {
     "id": "0801",
@@ -42584,7 +43680,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Marshadow": {
     "id": "0802",
@@ -42621,7 +43718,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Poipole": {
     "id": "0803",
@@ -42655,7 +43753,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Naganadel": {
     "id": "0804",
@@ -42694,7 +43793,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stakataka": {
     "id": "0805",
@@ -42734,7 +43834,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Blacephalon": {
     "id": "0806",
@@ -42776,7 +43877,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zeraora": {
     "id": "0807",
@@ -42807,7 +43909,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meltan": {
     "id": "0808",
@@ -42849,7 +43952,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Melmetal": {
     "id": "0809",
@@ -42895,7 +43999,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grookey": {
     "id": "0810",
@@ -42933,7 +44038,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Thwackey": {
     "id": "0811",
@@ -42971,7 +44077,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rillaboom": {
     "id": "0812",
@@ -43010,7 +44117,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scorbunny": {
     "id": "0813",
@@ -43048,7 +44156,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Raboot": {
     "id": "0814",
@@ -43086,7 +44195,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cinderace": {
     "id": "0815",
@@ -43125,7 +44235,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sobble": {
     "id": "0816",
@@ -43160,7 +44271,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Drizzile": {
     "id": "0817",
@@ -43195,7 +44307,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Inteleon": {
     "id": "0818",
@@ -43231,7 +44344,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Skwovet": {
     "id": "0819",
@@ -43264,7 +44378,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Greedent": {
     "id": "0820",
@@ -43297,7 +44412,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rookidee": {
     "id": "0821",
@@ -43333,7 +44449,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Corvisquire": {
     "id": "0822",
@@ -43369,7 +44486,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Corviknight": {
     "id": "0823",
@@ -43412,7 +44530,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Blipbug": {
     "id": "0824",
@@ -43445,7 +44564,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dottler": {
     "id": "0825",
@@ -43485,7 +44605,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Orbeetle": {
     "id": "0826",
@@ -43525,7 +44646,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nickit": {
     "id": "0827",
@@ -43560,7 +44682,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Thievul": {
     "id": "0828",
@@ -43595,7 +44718,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gossifleur": {
     "id": "0829",
@@ -43633,7 +44757,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eldegoss": {
     "id": "0830",
@@ -43671,7 +44796,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wooloo": {
     "id": "0831",
@@ -43703,7 +44829,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dubwool": {
     "id": "0832",
@@ -43736,7 +44863,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chewtle": {
     "id": "0833",
@@ -43771,7 +44899,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Drednaw": {
     "id": "0834",
@@ -43811,7 +44940,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Yamper": {
     "id": "0835",
@@ -43844,7 +44974,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Boltund": {
     "id": "0836",
@@ -43877,7 +45008,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rolycoly": {
     "id": "0837",
@@ -43915,7 +45047,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Carkol": {
     "id": "0838",
@@ -43957,7 +45090,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Coalossal": {
     "id": "0839",
@@ -43999,7 +45133,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Applin": {
     "id": "0840",
@@ -44037,7 +45172,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flapple": {
     "id": "0841",
@@ -44079,7 +45215,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Appletun": {
     "id": "0842",
@@ -44121,7 +45258,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Silicobra": {
     "id": "0843",
@@ -44157,7 +45295,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sandaconda": {
     "id": "0844",
@@ -44193,7 +45332,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cramorant": {
     "id": "0845",
@@ -44232,7 +45372,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arrokuda": {
     "id": "0846",
@@ -44269,7 +45410,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Barraskewda": {
     "id": "0847",
@@ -44306,7 +45448,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxel": {
     "id": "0848",
@@ -44344,7 +45487,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxtricity": {
     "id": "0849",
@@ -44387,7 +45531,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxtricity Amped": {
     "id": "0849",
@@ -44430,7 +45575,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toxtricity Low Key": {
     "id": "0849",
@@ -44473,7 +45619,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sizzlipede": {
     "id": "0850",
@@ -44513,7 +45660,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Centiskorch": {
     "id": "0851",
@@ -44554,7 +45702,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Clobbopus": {
     "id": "0852",
@@ -44589,7 +45738,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grapploct": {
     "id": "0853",
@@ -44626,7 +45776,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sinistea": {
     "id": "0854",
@@ -44662,7 +45813,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sinistea Antique": {
     "id": "0854",
@@ -44698,7 +45850,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sinistea Phony": {
     "id": "0854",
@@ -44734,7 +45887,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Polteageist": {
     "id": "0855",
@@ -44771,7 +45925,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Polteageist Antique": {
     "id": "0855",
@@ -44808,7 +45963,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Polteageist Phony": {
     "id": "0855",
@@ -44845,7 +46001,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hatenna": {
     "id": "0856",
@@ -44880,7 +46037,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hattrem": {
     "id": "0857",
@@ -44915,7 +46073,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Hatterene": {
     "id": "0858",
@@ -44954,7 +46113,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Impidimp": {
     "id": "0859",
@@ -44992,7 +46152,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Morgrem": {
     "id": "0860",
@@ -45030,7 +46191,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grimmsnarl": {
     "id": "0861",
@@ -45070,7 +46232,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Obstagoon": {
     "id": "0862",
@@ -45109,7 +46272,8 @@ var pokeDB = {
             "Ghost": "24.4%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Perrserker": {
     "id": "0863",
@@ -45155,7 +46319,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Cursola": {
     "id": "0864",
@@ -45192,7 +46357,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sirfetchd": {
     "id": "0865",
@@ -45229,7 +46395,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Mr Rime": {
     "id": "0866",
@@ -45271,7 +46438,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Runerigus": {
     "id": "0867",
@@ -45313,7 +46481,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Milcery": {
     "id": "0868",
@@ -45347,7 +46516,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Alcremie": {
     "id": "0869",
@@ -45383,7 +46553,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Falinks": {
     "id": "0870",
@@ -45419,7 +46590,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pincurchin": {
     "id": "0871",
@@ -45454,7 +46626,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Snom": {
     "id": "0872",
@@ -45491,7 +46664,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Frosmoth": {
     "id": "0873",
@@ -45530,7 +46704,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Stonjourner": {
     "id": "0874",
@@ -45568,7 +46743,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eiscue": {
     "id": "0875",
@@ -45602,7 +46778,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eiscue Ice": {
     "id": "0875",
@@ -45636,7 +46813,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eiscue Noice": {
     "id": "0875",
@@ -45670,7 +46848,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Indeedee": {
     "id": "0876",
@@ -45704,7 +46883,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Indeedee Female": {
     "id": "0876",
@@ -45738,7 +46918,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Indeedee Male": {
     "id": "0876",
@@ -45772,7 +46953,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Morpeko": {
     "id": "0877",
@@ -45814,7 +46996,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Morpeko Full Belly": {
     "id": "0877",
@@ -45856,7 +47039,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Morpeko Hangry": {
     "id": "0877",
@@ -45898,7 +47082,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cufant": {
     "id": "0878",
@@ -45942,7 +47127,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Copperajah": {
     "id": "0879",
@@ -45987,7 +47173,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dracozolt": {
     "id": "0880",
@@ -46028,7 +47215,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arctozolt": {
     "id": "0881",
@@ -46066,7 +47254,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dracovish": {
     "id": "0882",
@@ -46102,7 +47291,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arctovish": {
     "id": "0883",
@@ -46139,7 +47329,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Duraludon": {
     "id": "0884",
@@ -46182,7 +47373,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dreepy": {
     "id": "0885",
@@ -46224,7 +47416,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Drakloak": {
     "id": "0886",
@@ -46268,7 +47461,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dragapult": {
     "id": "0887",
@@ -46312,7 +47506,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zacian": {
     "id": "0888",
@@ -46359,7 +47554,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zacian Crowned Sword": {
     "id": "0888",
@@ -46406,7 +47602,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zacian Hero": {
     "id": "0888",
@@ -46445,7 +47642,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zamazenta": {
     "id": "0889",
@@ -46491,7 +47689,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zamazenta Crowned Shield": {
     "id": "0889",
@@ -46537,7 +47736,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zamazenta Hero": {
     "id": "0889",
@@ -46576,7 +47776,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eternatus": {
     "id": "0890",
@@ -46618,7 +47819,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Eternatus Eternamax": {
     "id": "0890",
@@ -46661,7 +47863,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kubfu": {
     "id": "0891",
@@ -46697,7 +47900,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Urshifu": {
     "id": "0892",
@@ -46733,7 +47937,8 @@ var pokeDB = {
             "Dark": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Urshifu Rapid Strike": {
     "id": "0892",
@@ -46778,7 +47983,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Urshifu Single Strike": {
     "id": "0892",
@@ -46818,7 +48024,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Zarude": {
     "id": "0893",
@@ -46863,7 +48070,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Regieleki": {
     "id": "0894",
@@ -46898,7 +48106,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Regidrago": {
     "id": "0895",
@@ -46935,7 +48144,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Glastrier": {
     "id": "0896",
@@ -46970,7 +48180,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spectrier": {
     "id": "0897",
@@ -47006,7 +48217,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Calyrex": {
     "id": "0898",
@@ -47050,7 +48262,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Calyrex Ice Rider": {
     "id": "0898",
@@ -47090,7 +48303,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Calyrex Shadow Rider": {
     "id": "0898",
@@ -47128,7 +48342,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kleavor": {
     "id": "0900",
@@ -47165,7 +48380,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ursaluna": {
     "id": "0901",
@@ -47207,7 +48423,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": true
 },
 "Sneasler": {
     "id": "0903",
@@ -47248,7 +48465,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Overqwil": {
     "id": "0904",
@@ -47287,7 +48505,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sprigatito": {
     "id": "0906",
@@ -47326,7 +48545,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Floragato": {
     "id": "0907",
@@ -47365,7 +48585,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Meowscarada": {
     "id": "0908",
@@ -47411,7 +48632,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fuecoco": {
     "id": "0909",
@@ -47450,7 +48672,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Crocalor": {
     "id": "0910",
@@ -47489,7 +48712,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Skeledirge": {
     "id": "0911",
@@ -47535,7 +48759,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Quaxly": {
     "id": "0912",
@@ -47571,7 +48796,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Quaxwell": {
     "id": "0913",
@@ -47607,7 +48833,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Quaquaval": {
     "id": "0914",
@@ -47651,7 +48878,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lechonk": {
     "id": "0915",
@@ -47683,7 +48911,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oinkologne": {
     "id": "0916",
@@ -47715,7 +48944,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Oinkologne Female": {
     "id": "0916",
@@ -47747,7 +48977,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tarountula": {
     "id": "0917",
@@ -47783,7 +49014,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Spidops": {
     "id": "0918",
@@ -47820,7 +49052,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nymble": {
     "id": "0919",
@@ -47856,7 +49089,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Lokix": {
     "id": "0920",
@@ -47898,7 +49132,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pawmi": {
     "id": "0921",
@@ -47932,7 +49167,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pawmo": {
     "id": "0922",
@@ -47971,7 +49207,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Pawmot": {
     "id": "0923",
@@ -48012,7 +49249,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tandemaus": {
     "id": "0924",
@@ -48045,7 +49283,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Maushold": {
     "id": "0925",
@@ -48078,7 +49317,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Maushold Family Of Four": {
     "id": "0925",
@@ -48111,7 +49351,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Maushold Family Of Three": {
     "id": "0925",
@@ -48144,7 +49385,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fidough": {
     "id": "0926",
@@ -48180,7 +49422,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dachsbun": {
     "id": "0927",
@@ -48216,7 +49459,8 @@ var pokeDB = {
             "Dragon": "39.1%",
             "Fighting": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Smoliv": {
     "id": "0928",
@@ -48258,7 +49502,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dolliv": {
     "id": "0929",
@@ -48301,7 +49546,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arboliva": {
     "id": "0930",
@@ -48344,7 +49590,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Squawkabilly": {
     "id": "0931",
@@ -48382,7 +49629,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Squawkabilly Blue": {
     "id": "0931",
@@ -48420,7 +49668,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Squawkabilly Green": {
     "id": "0931",
@@ -48458,7 +49707,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Squawkabilly White": {
     "id": "0931",
@@ -48496,7 +49746,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Squawkabilly Yellow": {
     "id": "0931",
@@ -48534,7 +49785,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Nacli": {
     "id": "0932",
@@ -48573,7 +49825,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Naclstack": {
     "id": "0933",
@@ -48612,7 +49865,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Garganacl": {
     "id": "0934",
@@ -48651,7 +49905,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Charcadet": {
     "id": "0935",
@@ -48690,7 +49945,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Armarouge": {
     "id": "0936",
@@ -48734,7 +49990,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ceruledge": {
     "id": "0937",
@@ -48780,7 +50037,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tadbulb": {
     "id": "0938",
@@ -48814,7 +50072,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bellibolt": {
     "id": "0939",
@@ -48848,7 +50107,8 @@ var pokeDB = {
             "Flying": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wattrel": {
     "id": "0940",
@@ -48887,7 +50147,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kilowattrel": {
     "id": "0941",
@@ -48926,7 +50187,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Maschiff": {
     "id": "0942",
@@ -48962,7 +50224,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Mabosstiff": {
     "id": "0943",
@@ -48998,7 +50261,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Shroodle": {
     "id": "0944",
@@ -49036,7 +50300,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Grafaiai": {
     "id": "0945",
@@ -49074,7 +50339,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bramblin": {
     "id": "0946",
@@ -49116,7 +50382,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Brambleghast": {
     "id": "0947",
@@ -49158,7 +50425,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toedscool": {
     "id": "0948",
@@ -49196,7 +50464,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Toedscruel": {
     "id": "0949",
@@ -49234,7 +50503,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Klawf": {
     "id": "0950",
@@ -49273,7 +50543,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Capsakid": {
     "id": "0951",
@@ -49312,7 +50583,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Scovillain": {
     "id": "0952",
@@ -49351,7 +50623,8 @@ var pokeDB = {
             "Grass": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rellor": {
     "id": "0953",
@@ -49387,7 +50660,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Rabsca": {
     "id": "0954",
@@ -49429,7 +50703,8 @@ var pokeDB = {
             "Ground": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flittle": {
     "id": "0955",
@@ -49464,7 +50739,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Espathra": {
     "id": "0956",
@@ -49499,7 +50775,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tinkatink": {
     "id": "0957",
@@ -49543,7 +50820,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tinkatuff": {
     "id": "0958",
@@ -49587,7 +50865,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tinkaton": {
     "id": "0959",
@@ -49632,7 +50911,8 @@ var pokeDB = {
             "Psychic": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wiglett": {
     "id": "0960",
@@ -49668,7 +50948,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wugtrio": {
     "id": "0961",
@@ -49704,7 +50985,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Bombirdier": {
     "id": "0962",
@@ -49744,7 +51026,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Finizen": {
     "id": "0963",
@@ -49780,7 +51063,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palafin": {
     "id": "0964",
@@ -49819,7 +51103,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palafin Hero": {
     "id": "0964",
@@ -49858,7 +51143,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Palafin Zero": {
     "id": "0964",
@@ -49897,7 +51183,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Varoom": {
     "id": "0965",
@@ -49940,7 +51227,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Revavroom": {
     "id": "0966",
@@ -49984,7 +51272,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cyclizar": {
     "id": "0967",
@@ -50024,7 +51313,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Orthworm": {
     "id": "0968",
@@ -50068,7 +51358,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Glimmet": {
     "id": "0969",
@@ -50109,7 +51400,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Glimmora": {
     "id": "0970",
@@ -50150,7 +51442,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Greavard": {
     "id": "0971",
@@ -50186,7 +51479,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Houndstone": {
     "id": "0972",
@@ -50222,7 +51516,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Flamigo": {
     "id": "0973",
@@ -50263,7 +51558,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cetoddle": {
     "id": "0974",
@@ -50298,7 +51594,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Cetitan": {
     "id": "0975",
@@ -50333,7 +51630,8 @@ var pokeDB = {
         "resistant_to": {
             "Ice": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Veluza": {
     "id": "0976",
@@ -50376,7 +51674,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dondozo": {
     "id": "0977",
@@ -50413,7 +51712,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tatsugiri": {
     "id": "0978",
@@ -50450,7 +51750,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tatsugiri Curly": {
     "id": "0978",
@@ -50487,7 +51788,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tatsugiri Droopy": {
     "id": "0978",
@@ -50524,7 +51826,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tatsugiri Stretchy": {
     "id": "0978",
@@ -50561,7 +51864,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Annihilape": {
     "id": "0979",
@@ -50602,7 +51906,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Clodsire": {
     "id": "0980",
@@ -50645,7 +51950,8 @@ var pokeDB = {
             "Poison": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Farigiraf": {
     "id": "0981",
@@ -50682,7 +51988,8 @@ var pokeDB = {
             "Ghost": "62.5%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dudunsparce": {
     "id": "0982",
@@ -50715,7 +52022,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dudunsparce Three": {
     "id": "0982",
@@ -50748,7 +52056,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Dudunsparce Two": {
     "id": "0982",
@@ -50781,7 +52090,8 @@ var pokeDB = {
         "resistant_to": {
             "Ghost": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Kingambit": {
     "id": "0983",
@@ -50827,7 +52137,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Greattusk": {
     "id": "0984",
@@ -50866,7 +52177,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Screamtail": {
     "id": "0985",
@@ -50900,7 +52212,8 @@ var pokeDB = {
             "Fighting": "39.1%",
             "Psychic": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Brutebonnet": {
     "id": "0986",
@@ -50942,7 +52255,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Fluttermane": {
     "id": "0987",
@@ -50976,7 +52290,8 @@ var pokeDB = {
             "Fighting": "24.4%",
             "Normal": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Slitherwing": {
     "id": "0988",
@@ -51013,7 +52328,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Ground": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Sandyshocks": {
     "id": "0989",
@@ -51050,7 +52366,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Irontreads": {
     "id": "0990",
@@ -51092,7 +52409,8 @@ var pokeDB = {
             "Rock": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironbundle": {
     "id": "0991",
@@ -51126,7 +52444,8 @@ var pokeDB = {
             "Ice": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironhands": {
     "id": "0992",
@@ -51162,7 +52481,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironjugulis": {
     "id": "0993",
@@ -51199,7 +52519,8 @@ var pokeDB = {
             "Ground": "39.1%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironmoth": {
     "id": "0994",
@@ -51239,7 +52560,8 @@ var pokeDB = {
             "Poison": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironthorns": {
     "id": "0995",
@@ -51276,7 +52598,8 @@ var pokeDB = {
             "Normal": "62.5%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Frigibax": {
     "id": "0996",
@@ -51315,7 +52638,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Arctibax": {
     "id": "0997",
@@ -51354,7 +52678,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Baxcalibur": {
     "id": "0998",
@@ -51394,7 +52719,8 @@ var pokeDB = {
             "Grass": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gimmighoul": {
     "id": "0999",
@@ -51427,7 +52753,8 @@ var pokeDB = {
             "Normal": "39.1%",
             "Poison": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Gholdengo": {
     "id": "1000",
@@ -51474,7 +52801,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Wochien": {
     "id": "1001",
@@ -51516,7 +52844,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chienpao": {
     "id": "1002",
@@ -51554,7 +52883,8 @@ var pokeDB = {
             "Ice": "62.5%",
             "Psychic": "39.1%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Tinglu": {
     "id": "1003",
@@ -51594,7 +52924,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Chiyu": {
     "id": "1004",
@@ -51633,7 +52964,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Steel": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Roaringmoon": {
     "id": "1005",
@@ -51673,7 +53005,8 @@ var pokeDB = {
             "Psychic": "39.1%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Ironvaliant": {
     "id": "1006",
@@ -51711,7 +53044,8 @@ var pokeDB = {
             "Fighting": "62.5%",
             "Rock": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Koraidon": {
     "id": "1007",
@@ -51751,7 +53085,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Koraidon Apex": {
     "id": "1007",
@@ -51791,7 +53126,8 @@ var pokeDB = {
             "Rock": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Miraidon": {
     "id": "1008",
@@ -51829,7 +53165,8 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 "Miraidon Ultimate": {
     "id": "1008",
@@ -51867,6 +53204,7 @@ var pokeDB = {
             "Steel": "62.5%",
             "Water": "62.5%"
         }
-    }
+    },
+    "is_shadow": false
 },
 }

@@ -30,6 +30,11 @@ function clearLayout(slot)
         .html("").css('display', 'none');
     $('#charge2_move_type-' + slot)
         .html("").css('display', 'none');
+    $('.shadow_' + slot)
+        .css('display', 'none');
+    if ($('.shadow_' + slot + ' [type="checkbox"]').is(":checked")) {
+        $('.shadow_' + slot + ' [type="checkbox"]').prop('checked', false)
+    }
 }
 
 function disableMove(value, target)
