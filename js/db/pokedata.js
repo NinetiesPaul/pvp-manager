@@ -3976,49 +3976,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Slowpoke 2020": {
-    "id": "0079",
-    "stats": {
-        "atk": 109,
-        "def": 98,
-        "sta": 207
-    },
-    "type": [
-        "Water",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Slowpoke 2020",
-    "moveset": {
-        "quick": [
-            "Water Gun",
-            "Confusion"
-        ],
-        "charge": [
-            "Water Pulse",
-            "Psyshock",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Electric": "160%",
-            "Ghost": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Psychic": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Galarian Slowpoke": {
     "id": "0079",
     "stats": {
@@ -4068,50 +4025,6 @@ var pokeDB = {
     ],
     "imgurl": "80",
     "name": "Slowbro",
-    "moveset": {
-        "quick": [
-            "Water Gun",
-            "Confusion"
-        ],
-        "charge": [
-            "Water Pulse",
-            "Psychic",
-            "Ice Beam",
-            "Surf*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Electric": "160%",
-            "Ghost": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Psychic": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
-"Slowbro 2021": {
-    "id": "0080",
-    "stats": {
-        "atk": 177,
-        "def": 180,
-        "sta": 216
-    },
-    "type": [
-        "Water",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Slowbro 2021",
     "moveset": {
         "quick": [
             "Water Gun",
@@ -4859,54 +4772,6 @@ var pokeDB = {
     ],
     "imgurl": "94",
     "name": "Gengar",
-    "moveset": {
-        "quick": [
-            "Sucker Punch",
-            "Hex",
-            "Shadow Claw",
-            "Lick*"
-        ],
-        "charge": [
-            "Shadow Ball",
-            "Focus Blast",
-            "Sludge Bomb",
-            "Sludge Wave*",
-            "Dark Pulse*",
-            "Psychic*",
-            "Shadow Punch*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%",
-            "Ground": "160%",
-            "Psychic": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Fairy": "62.5%",
-            "Fighting": "24.4%",
-            "Grass": "62.5%",
-            "Normal": "39.1%",
-            "Poison": "39.1%"
-        }
-    },
-    "is_shadow": false
-},
-"Gengar Costume 2020": {
-    "id": "0094",
-    "stats": {
-        "atk": 261,
-        "def": 149,
-        "sta": 155
-    },
-    "type": [
-        "Ghost",
-        "Poison"
-    ],
-    "imgurl": null,
-    "name": "Gengar Costume 2020",
     "moveset": {
         "quick": [
             "Sucker Punch",
@@ -6278,7 +6143,7 @@ var pokeDB = {
         "Ice",
         "Psychic"
     ],
-    "imgurl": "10168",
+    "imgurl": null,
     "name": "Galarian Mime Mr",
     "moveset": {
         "quick": [
@@ -6637,48 +6502,6 @@ var pokeDB = {
     ],
     "imgurl": "131",
     "name": "Lapras",
-    "moveset": {
-        "quick": [
-            "Frost Breath",
-            "Water Gun",
-            "Ice Shard*"
-        ],
-        "charge": [
-            "Hydro Pump",
-            "Surf",
-            "Blizzard",
-            "Skull Bash",
-            "Dragon Pulse*",
-            "Ice Beam*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Fighting": "160%",
-            "Grass": "160%",
-            "Rock": "160%"
-        },
-        "resistant_to": {
-            "Ice": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
-"Lapras Costume 2020": {
-    "id": "0131",
-    "stats": {
-        "atk": 165,
-        "def": 174,
-        "sta": 277
-    },
-    "type": [
-        "Water",
-        "Ice"
-    ],
-    "imgurl": null,
-    "name": "Lapras Costume 2020",
     "moveset": {
         "quick": [
             "Frost Breath",
@@ -7112,52 +6935,6 @@ var pokeDB = {
     ],
     "imgurl": "142",
     "name": "Aerodactyl",
-    "moveset": {
-        "quick": [
-            "Steel Wing",
-            "Bite",
-            "Rock Throw"
-        ],
-        "charge": [
-            "Ancient Power",
-            "Iron Head",
-            "Hyper Beam",
-            "Rock Slide",
-            "Earth Power"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Ice": "160%",
-            "Rock": "160%",
-            "Steel": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
-"Aerodactyl Summer 2023": {
-    "id": "0142",
-    "stats": {
-        "atk": 221,
-        "def": 159,
-        "sta": 190
-    },
-    "type": [
-        "Rock",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Aerodactyl Summer 2023",
     "moveset": {
         "quick": [
             "Steel Wing",
@@ -9667,50 +9444,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Slowking 2022": {
-    "id": "0199",
-    "stats": {
-        "atk": 177,
-        "def": 180,
-        "sta": 216
-    },
-    "type": [
-        "Water",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Slowking 2022",
-    "moveset": {
-        "quick": [
-            "Water Gun",
-            "Confusion"
-        ],
-        "charge": [
-            "Blizzard",
-            "Psychic",
-            "Fire Blast",
-            "Surf*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Electric": "160%",
-            "Ghost": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Psychic": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Galarian Slowking": {
     "id": "0199",
     "stats": {
@@ -10854,44 +10587,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Delibird Winter 2020": {
-    "id": "0225",
-    "stats": {
-        "atk": 128,
-        "def": 90,
-        "sta": 128
-    },
-    "type": [
-        "Ice",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Delibird Winter 2020",
-    "moveset": {
-        "quick": [
-            "Present"
-        ],
-        "charge": [
-            "Ice Punch",
-            "Icy Wind",
-            "Aerial Ace"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Fire": "160%",
-            "Rock": "256%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Grass": "62.5%",
-            "Ground": "39.1%"
-        }
-    },
-    "is_shadow": true
-},
 "Mantine": {
     "id": "0226",
     "stats": {
@@ -11549,42 +11244,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Raikou S": {
-    "id": "0243",
-    "stats": {
-        "atk": 241,
-        "def": 195,
-        "sta": 207
-    },
-    "type": [
-        "Electric"
-    ],
-    "imgurl": null,
-    "name": "Raikou S",
-    "moveset": {
-        "quick": [
-            "Thunder Shock",
-            "Volt Switch"
-        ],
-        "charge": [
-            "Thunder",
-            "Thunderbolt",
-            "Wild Charge",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Flying": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Entei": {
     "id": "0244",
     "stats": {
@@ -11628,49 +11287,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Entei S": {
-    "id": "0244",
-    "stats": {
-        "atk": 235,
-        "def": 171,
-        "sta": 251
-    },
-    "type": [
-        "Fire"
-    ],
-    "imgurl": null,
-    "name": "Entei S",
-    "moveset": {
-        "quick": [
-            "Fire Spin",
-            "Fire Fang"
-        ],
-        "charge": [
-            "Flamethrower",
-            "Fire Blast",
-            "Overheat",
-            "Iron Head",
-            "Flame Charge",
-            "Scorching Sands"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Suicune": {
     "id": "0245",
     "stats": {
@@ -11683,46 +11299,6 @@ var pokeDB = {
     ],
     "imgurl": "245",
     "name": "Suicune",
-    "moveset": {
-        "quick": [
-            "Extrasensory",
-            "Snarl",
-            "Ice Fang",
-            "Hidden Power*"
-        ],
-        "charge": [
-            "Hydro Pump",
-            "Bubble Beam",
-            "Water Pulse",
-            "Ice Beam"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
-"Suicune S": {
-    "id": "0245",
-    "stats": {
-        "atk": 180,
-        "def": 235,
-        "sta": 225
-    },
-    "type": [
-        "Water"
-    ],
-    "imgurl": null,
-    "name": "Suicune S",
     "moveset": {
         "quick": [
             "Extrasensory",
@@ -14045,43 +13621,6 @@ var pokeDB = {
     ],
     "imgurl": "302",
     "name": "Sableye",
-    "moveset": {
-        "quick": [
-            "Shadow Claw",
-            "Feint Attack"
-        ],
-        "charge": [
-            "Power Gem",
-            "Foul Play",
-            "Shadow Sneak"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fairy": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Normal": "39.1%",
-            "Poison": "62.5%",
-            "Psychic": "39.1%"
-        }
-    },
-    "is_shadow": true
-},
-"Sableye Costume 2020": {
-    "id": "0302",
-    "stats": {
-        "atk": 141,
-        "def": 136,
-        "sta": 137
-    },
-    "type": [
-        "Dark",
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "Sableye Costume 2020",
     "moveset": {
         "quick": [
             "Shadow Claw",
@@ -17305,52 +16844,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Latias S": {
-    "id": "0380",
-    "stats": {
-        "atk": 228,
-        "def": 246,
-        "sta": 190
-    },
-    "type": [
-        "Dragon",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Latias S",
-    "moveset": {
-        "quick": [
-            "Dragon Breath",
-            "Zen Headbutt",
-            "Charm"
-        ],
-        "charge": [
-            "Psychic",
-            "Outrage",
-            "Thunder",
-            "Mist Ball*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Psychic": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Latios": {
     "id": "0381",
     "stats": {
@@ -17364,51 +16857,6 @@ var pokeDB = {
     ],
     "imgurl": "381",
     "name": "Latios",
-    "moveset": {
-        "quick": [
-            "Dragon Breath",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Psychic",
-            "Dragon Claw",
-            "Solar Beam",
-            "Luster Purge*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Psychic": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
-"Latios S": {
-    "id": "0381",
-    "stats": {
-        "atk": 268,
-        "def": 212,
-        "sta": 190
-    },
-    "type": [
-        "Dragon",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Latios S",
     "moveset": {
         "quick": [
             "Dragon Breath",
@@ -27462,94 +26910,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Deerling Summer": {
-    "id": "0585",
-    "stats": {
-        "atk": 115,
-        "def": 100,
-        "sta": 155
-    },
-    "type": [
-        "Normal",
-        "Grass"
-    ],
-    "imgurl": null,
-    "name": "Deerling Summer",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Take Down"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Seed Bomb",
-            "Wild Charge",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ice": "160%",
-            "Poison": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
-"Deerling Winter": {
-    "id": "0585",
-    "stats": {
-        "atk": 115,
-        "def": 100,
-        "sta": 155
-    },
-    "type": [
-        "Normal",
-        "Grass"
-    ],
-    "imgurl": null,
-    "name": "Deerling Winter",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Take Down"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Seed Bomb",
-            "Wild Charge",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ice": "160%",
-            "Poison": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Sawsbuck": {
     "id": "0586",
     "stats": {
@@ -27653,96 +27013,6 @@ var pokeDB = {
     ],
     "imgurl": null,
     "name": "Sawsbuck Spring",
-    "moveset": {
-        "quick": [
-            "Feint Attack",
-            "Take Down"
-        ],
-        "charge": [
-            "Megahorn",
-            "Solar Beam",
-            "Wild Charge",
-            "Hyper Beam",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ice": "160%",
-            "Poison": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
-"Sawsbuck Summer": {
-    "id": "0586",
-    "stats": {
-        "atk": 198,
-        "def": 146,
-        "sta": 190
-    },
-    "type": [
-        "Normal",
-        "Grass"
-    ],
-    "imgurl": null,
-    "name": "Sawsbuck Summer",
-    "moveset": {
-        "quick": [
-            "Feint Attack",
-            "Take Down"
-        ],
-        "charge": [
-            "Megahorn",
-            "Solar Beam",
-            "Wild Charge",
-            "Hyper Beam",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ice": "160%",
-            "Poison": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
-"Sawsbuck Winter": {
-    "id": "0586",
-    "stats": {
-        "atk": 198,
-        "def": 146,
-        "sta": 190
-    },
-    "type": [
-        "Normal",
-        "Grass"
-    ],
-    "imgurl": null,
-    "name": "Sawsbuck Winter",
     "moveset": {
         "quick": [
             "Feint Attack",
@@ -28969,42 +28239,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Cubchoo Winter 2020": {
-    "id": "0613",
-    "stats": {
-        "atk": 128,
-        "def": 74,
-        "sta": 146
-    },
-    "type": [
-        "Ice"
-    ],
-    "imgurl": null,
-    "name": "Cubchoo Winter 2020",
-    "moveset": {
-        "quick": [
-            "Powder Snow",
-            "Charm"
-        ],
-        "charge": [
-            "Ice Punch",
-            "Icy Wind",
-            "Play Rough"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Rock": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Ice": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Beartic": {
     "id": "0614",
     "stats": {
@@ -29017,43 +28251,6 @@ var pokeDB = {
     ],
     "imgurl": "614",
     "name": "Beartic",
-    "moveset": {
-        "quick": [
-            "Powder Snow",
-            "Charm"
-        ],
-        "charge": [
-            "Ice Punch",
-            "Surf",
-            "Play Rough",
-            "Liquidation"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Fire": "160%",
-            "Rock": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Ice": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
-"Beartic Winter 2020": {
-    "id": "0614",
-    "stats": {
-        "atk": 233,
-        "def": 152,
-        "sta": 216
-    },
-    "type": [
-        "Ice"
-    ],
-    "imgurl": null,
-    "name": "Beartic Winter 2020",
     "moveset": {
         "quick": [
             "Powder Snow",
@@ -36835,7 +36032,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Pumpkaboo Average": {
+"Average Pumpkaboo": {
     "id": "0710",
     "stats": {
         "atk": 121,
@@ -36847,7 +36044,7 @@ var pokeDB = {
         "Grass"
     ],
     "imgurl": null,
-    "name": "Pumpkaboo Average",
+    "name": "Average Pumpkaboo",
     "moveset": {
         "quick": [
             "Astonish",
@@ -37007,51 +36204,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Gourgeist": {
-    "id": "0711",
-    "stats": {
-        "atk": 171,
-        "def": 219,
-        "sta": 146
-    },
-    "type": [
-        "Ghost",
-        "Grass"
-    ],
-    "imgurl": null,
-    "name": "Gourgeist",
-    "moveset": {
-        "quick": [
-            "Hex",
-            "Razor Leaf"
-        ],
-        "charge": [
-            "Seed Bomb",
-            "Shadow Ball",
-            "Foul Play",
-            "Fire Blast",
-            "Poltergeist"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Average Gourgeist": {
     "id": "0711",
     "stats": {
@@ -37063,7 +36215,7 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "imgurl": "average-gourgeist",
+    "imgurl": null,
     "name": "Average Gourgeist",
     "moveset": {
         "quick": [
@@ -37097,7 +36249,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Large Gourgeist": {
+"Gourgeist Large": {
     "id": "0711",
     "stats": {
         "atk": 179,
@@ -37108,8 +36260,8 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "imgurl": "large-gourgeist",
-    "name": "Large Gourgeist",
+    "imgurl": "10031",
+    "name": "Gourgeist Large",
     "moveset": {
         "quick": [
             "Hex",
@@ -37142,7 +36294,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Small Gourgeist": {
+"Gourgeist Small": {
     "id": "0711",
     "stats": {
         "atk": 171,
@@ -37153,8 +36305,8 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "imgurl": "small-gourgeist",
-    "name": "Small Gourgeist",
+    "imgurl": "10030",
+    "name": "Gourgeist Small",
     "moveset": {
         "quick": [
             "Hex",
@@ -37187,7 +36339,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Super Gourgeist": {
+"Gourgeist Super": {
     "id": "0711",
     "stats": {
         "atk": 182,
@@ -37198,8 +36350,8 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "imgurl": "super-gourgeist",
-    "name": "Super Gourgeist",
+    "imgurl": "10032",
+    "name": "Gourgeist Super",
     "moveset": {
         "quick": [
             "Hex",
@@ -38716,48 +37868,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Oricorio": {
-    "id": "0741",
-    "stats": {
-        "atk": 196,
-        "def": 145,
-        "sta": 181
-    },
-    "type": [
-        "Fire",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Oricorio",
-    "moveset": {
-        "quick": [
-            "Pound",
-            "Air Slash"
-        ],
-        "charge": [
-            "Aerial Ace",
-            "Air Cutter",
-            "Hurricane"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Rock": "256%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Fairy": "62.5%",
-            "Fighting": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "39.1%",
-            "Ground": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Oricorio Baile": {
     "id": "0741",
     "stats": {
@@ -38769,7 +37879,7 @@ var pokeDB = {
         "Fire",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "741",
     "name": "Oricorio Baile",
     "moveset": {
         "quick": [
@@ -38811,7 +37921,7 @@ var pokeDB = {
         "Psychic",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10124",
     "name": "Oricorio Pau",
     "moveset": {
         "quick": [
@@ -38892,7 +38002,7 @@ var pokeDB = {
         "Ghost",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10125",
     "name": "Oricorio Sensu",
     "moveset": {
         "quick": [
@@ -39028,47 +38138,6 @@ var pokeDB = {
         "charge": [
             "Stone Edge",
             "Rock Tomb",
-            "Crunch",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "160%",
-            "Ground": "160%",
-            "Steel": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
-"Lycanroc": {
-    "id": "0745",
-    "stats": {
-        "atk": 231,
-        "def": 140,
-        "sta": 181
-    },
-    "type": [
-        "Rock"
-    ],
-    "imgurl": null,
-    "name": "Lycanroc",
-    "moveset": {
-        "quick": [
-            "Sucker Punch",
-            "Rock Throw"
-        ],
-        "charge": [
-            "Stone Edge",
-            "Drill Run",
             "Crunch",
             "Trailblaze"
         ]
