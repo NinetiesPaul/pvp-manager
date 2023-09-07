@@ -6143,7 +6143,7 @@ var pokeDB = {
         "Ice",
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "10168",
     "name": "Galarian Mime Mr",
     "moveset": {
         "quick": [
@@ -36215,7 +36215,7 @@ var pokeDB = {
         "Ghost",
         "Grass"
     ],
-    "imgurl": null,
+    "imgurl": "711",
     "name": "Average Gourgeist",
     "moveset": {
         "quick": [
@@ -36249,7 +36249,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Gourgeist Large": {
+"Large Gourgeist": {
     "id": "0711",
     "stats": {
         "atk": 179,
@@ -36261,7 +36261,7 @@ var pokeDB = {
         "Grass"
     ],
     "imgurl": "10031",
-    "name": "Gourgeist Large",
+    "name": "Large Gourgeist",
     "moveset": {
         "quick": [
             "Hex",
@@ -36294,7 +36294,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Gourgeist Small": {
+"Small Gourgeist": {
     "id": "0711",
     "stats": {
         "atk": 171,
@@ -36306,7 +36306,7 @@ var pokeDB = {
         "Grass"
     ],
     "imgurl": "10030",
-    "name": "Gourgeist Small",
+    "name": "Small Gourgeist",
     "moveset": {
         "quick": [
             "Hex",
@@ -36339,7 +36339,7 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Gourgeist Super": {
+"Super Gourgeist": {
     "id": "0711",
     "stats": {
         "atk": 182,
@@ -36351,7 +36351,7 @@ var pokeDB = {
         "Grass"
     ],
     "imgurl": "10032",
-    "name": "Gourgeist Super",
+    "name": "Super Gourgeist",
     "moveset": {
         "quick": [
             "Hex",
