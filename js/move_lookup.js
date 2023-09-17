@@ -7,6 +7,8 @@ function filterPokemonByMove(move, pokemons, wholeDatabase)
         type = "charge"
     }
 
+    $("#pokemondb-movedata-tbody").html("");
+
 	$(".pokemondb-table tbody").html("");
 
     var pokemons = (wholeDatabase) ? Object.keys(pokeDB) : pokemons.split(",")
@@ -56,5 +58,81 @@ function filterPokemonByMove(move, pokemons, wholeDatabase)
         }
     });
 
+    var moveGoodAgainst = ''
+    var moveWeakAgainst = ''
+    var moveColorType = ''
+    var moveType = '';
+
+    var embeddedString = type + 'MoveDB'
+    var embedded = {embeddedString}[move]
+    console.log(embedded)
+
+    if (type == 'quick') {
+        moveColorType = colors[quickMoveDB[move].type]
+        moveType = quickMoveDB[move].type
+        $.each(quickMoveDB[move].goodAgainst, function (k,v) {
+            moveGoodAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+        });
+
+        $.each(quickMoveDB[move].weakAgainst, function (k,v) {
+            moveWeakAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+        });
+    } else {
+        moveColorType = colors[chargeMoveDB[move].type]
+        moveType = chargeMoveDB[move].type
+        $.each(chargeMoveDB[move].goodAgainst, function (k,v) {
+            moveGoodAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+        });
+
+        $.each(chargeMoveDB[move].weakAgainst, function (k,v) {
+            moveWeakAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+        });
+    }
+
+    var moveTextToAppend = 
+    "<tr><td><b>Type</b></td><td>" + "<span class='badge' style='width: 5em; background-color: " + moveColorType + "; color: white;'>" + moveType + "</span> " + "</td></tr>" + 
+    "<tr><td><b>Good against</b></td><td>" + moveGoodAgainst + "</td></tr>" +
+    "<tr><td><b>Weak against</b></td><td>" + moveWeakAgainst + "</td></tr>";
+
+    if (type == 'quick') {
+        moveTextToAppend += 
+            "<tr><td><b>EPT</b></td><td>" + quickMoveDB[move].ept + "</td></tr>" + 
+            "<tr><td><b>DPT</b></td><td>" + quickMoveDB[move].dpt + "</td></tr>"
+            ;
+    } else {
+        moveTextToAppend += 
+            "<tr><td><b>Energy</b></td><td>" + chargeMoveDB[move].energy + "</td></tr>" + 
+            "<tr><td><b>Power</b></td><td>" + chargeMoveDB[move].power + "</td></tr>" + 
+            "<tr><td><b>DPE</b></td><td>" + chargeMoveDB[move].dpe + "</td></tr>"
+            ;
+        if (chargeMoveDB[move].buffs) {
+            var buffs = chargeMoveDB[move].buffs
+
+            var activationChance = buffs.activationChance * 100 + "% chance of ";
+            var buffFullEffectDescription = '';
+            var buffEffectDescription = '';
+
+            $.each(buffs.effects, function(k, effect) {
+                var changeDirection = (effect > 0) ? "increase" : "decrease";
+                if (k.includes('attackerAttack')) {
+                    buffEffectDescription = " self ATK by "
+                }
+                if (k.includes('attackerDefense')) {
+                    buffEffectDescription = " self DEF by "
+                }
+                if (k.includes('targetAttack')) {
+                    buffEffectDescription = " rival's ATK by "
+                }
+                if (k.includes('targetDefense')) {
+                    buffEffectDescription = " rival's DEF by "
+                }
+                buffEffectDescription += Math.abs(effect)  + " stage(s)"
+                buffFullEffectDescription += activationChance + " " + changeDirection + " " + buffEffectDescription +"<br>"// + " " + effect + "<br>"
+            });
+            moveTextToAppend += "<tr><td colspan=2>" + buffFullEffectDescription + "</td></tr>"
+        }
+    }
+
+	$("#pokemondb-movedata-tbody").append(moveTextToAppend);
 	$("#pokemondb-tbody").append(textToAppend);
 }
