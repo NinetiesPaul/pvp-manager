@@ -12,9 +12,7 @@ function getMoveData(move, type, target)
         move = move.split(" (")[0];
         data = chargeMoveDB[move];
         if (data.buffs) {
-            $('#charge1_moveBuff-' + target)
-                .html("");
-            $('#charge2_moveBuff-' + target)
+            $('#' + type + '_moveBuff-' + target)
                 .html("");
             buffs = formatBuff(data.buffs)
         }
