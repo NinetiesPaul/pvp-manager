@@ -14,7 +14,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 20,
-    "dpe": 0.44
+    "dpe": 0.44,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -2
+        }
+    }
 },
 "Acrobatics": {
     "type": "Flying",
@@ -30,7 +36,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 110,
-    "dpe": 1.83
+    "dpe": 1.83,
+    "buffs": []
 },
 "Aerial Ace": {
     "type": "Flying",
@@ -46,7 +53,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Aeroblast": {
     "type": "Flying",
@@ -62,7 +70,13 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 170,
-    "dpe": 2.27
+    "dpe": 2.27,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Aeroblast Plus": {
     "type": "Flying",
@@ -78,7 +92,13 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 170,
-    "dpe": 2.27
+    "dpe": 2.27,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Aeroblast Plus Plus": {
     "type": "Flying",
@@ -94,7 +114,13 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 170,
-    "dpe": 2.27
+    "dpe": 2.27,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Air Cutter": {
     "type": "Flying",
@@ -110,7 +136,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Ancient Power": {
     "type": "Rock",
@@ -127,7 +154,14 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Aqua Jet": {
     "type": "Water",
@@ -143,7 +177,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 45,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": []
 },
 "Aqua Tail": {
     "type": "Water",
@@ -159,7 +194,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": []
 },
 "Aura Sphere": {
     "type": "Fighting",
@@ -180,7 +216,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 100,
-    "dpe": 1.82
+    "dpe": 1.82,
+    "buffs": []
 },
 "Aurora Beam": {
     "type": "Ice",
@@ -198,7 +235,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 80,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Avalanche": {
     "type": "Ice",
@@ -216,7 +254,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 90,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Blast Burn": {
     "type": "Fire",
@@ -234,7 +273,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 110,
-    "dpe": 2.2
+    "dpe": 2.2,
+    "buffs": []
 },
 "Blaze Kick": {
     "type": "Fire",
@@ -252,7 +292,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Blizzard": {
     "type": "Ice",
@@ -270,7 +311,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 140,
-    "dpe": 1.87
+    "dpe": 1.87,
+    "buffs": []
 },
 "Body Slam": {
     "type": "Normal",
@@ -282,7 +324,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -35,
     "power": 60,
-    "dpe": 1.71
+    "dpe": 1.71,
+    "buffs": []
 },
 "Bone Club": {
     "type": "Ground",
@@ -300,7 +343,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 40,
-    "dpe": 1.14
+    "dpe": 1.14,
+    "buffs": []
 },
 "Boomburst": {
     "type": "Normal",
@@ -312,7 +356,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -70,
     "power": 150,
-    "dpe": 2.14
+    "dpe": 2.14,
+    "buffs": []
 },
 "Brave Bird": {
     "type": "Flying",
@@ -328,7 +373,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 130,
-    "dpe": 2.36
+    "dpe": 2.36,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -3
+        }
+    }
 },
 "Breaking Swipe": {
     "type": "Dragon",
@@ -341,7 +392,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Brick Break": {
     "type": "Fighting",
@@ -362,7 +419,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 40,
-    "dpe": 1.14
+    "dpe": 1.14,
+    "buffs": []
 },
 "Brine": {
     "type": "Water",
@@ -378,7 +436,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 60,
-    "dpe": 1.2
+    "dpe": 1.2,
+    "buffs": []
 },
 "Brutal Swing": {
     "type": "Dark",
@@ -393,7 +452,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Bubble Beam": {
     "type": "Water",
@@ -409,7 +469,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 25,
-    "dpe": 0.63
+    "dpe": 0.63,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Bug Buzz": {
     "type": "Bug",
@@ -429,7 +495,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 100,
-    "dpe": 1.67
+    "dpe": 1.67,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Bulldoze": {
     "type": "Ground",
@@ -447,7 +519,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 80,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Close Combat": {
     "type": "Fighting",
@@ -468,7 +541,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 100,
-    "dpe": 2.22
+    "dpe": 2.22,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -2
+        }
+    }
 },
 "Crabhammer": {
     "type": "Water",
@@ -484,7 +563,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 85,
-    "dpe": 1.7
+    "dpe": 1.7,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Cross Chop": {
     "type": "Fighting",
@@ -505,7 +590,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": []
 },
 "Cross Poison": {
     "type": "Poison",
@@ -522,7 +608,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Crunch": {
     "type": "Dark",
@@ -537,7 +629,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Dark Pulse": {
     "type": "Dark",
@@ -552,7 +650,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": []
 },
 "Dazzling Gleam": {
     "type": "Fairy",
@@ -568,7 +667,8 @@ var chargeMoveDB = {
     ],
     "energy": -70,
     "power": 110,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Dig": {
     "type": "Ground",
@@ -586,7 +686,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": []
 },
 "Disarming Voice": {
     "type": "Fairy",
@@ -602,7 +703,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": []
 },
 "Discharge": {
     "type": "Electric",
@@ -618,7 +720,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 65,
-    "dpe": 1.44
+    "dpe": 1.44,
+    "buffs": []
 },
 "Doom Desire": {
     "type": "Steel",
@@ -635,7 +738,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 75,
-    "dpe": 1.88
+    "dpe": 1.88,
+    "buffs": []
 },
 "Double Iron Bash": {
     "type": "Steel",
@@ -652,7 +756,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": []
 },
 "Draco Meteor": {
     "type": "Dragon",
@@ -665,7 +770,13 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 150,
-    "dpe": 2.31
+    "dpe": 2.31,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": -2
+        }
+    }
 },
 "Dragon Ascent": {
     "type": "Flying",
@@ -681,7 +792,13 @@ var chargeMoveDB = {
     ],
     "energy": -70,
     "power": 150,
-    "dpe": 2.14
+    "dpe": 2.14,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -1
+        }
+    }
 },
 "Dragon Claw": {
     "type": "Dragon",
@@ -694,7 +811,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": []
 },
 "Dragon Pulse": {
     "type": "Dragon",
@@ -707,7 +825,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 90,
-    "dpe": 1.5
+    "dpe": 1.5,
+    "buffs": []
 },
 "Drain Punch": {
     "type": "Fighting",
@@ -728,7 +847,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 20,
-    "dpe": 0.5
+    "dpe": 0.5,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Draining Kiss": {
     "type": "Fairy",
@@ -744,7 +869,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Drill Peck": {
     "type": "Flying",
@@ -760,7 +886,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Drill Run": {
     "type": "Ground",
@@ -778,7 +905,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 80,
-    "dpe": 1.78
+    "dpe": 1.78,
+    "buffs": []
 },
 "Dynamic Punch": {
     "type": "Fighting",
@@ -799,7 +927,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 90,
-    "dpe": 1.8
+    "dpe": 1.8,
+    "buffs": []
 },
 "Earth Power": {
     "type": "Ground",
@@ -817,7 +946,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Earthquake": {
     "type": "Ground",
@@ -835,7 +970,8 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 110,
-    "dpe": 1.69
+    "dpe": 1.69,
+    "buffs": []
 },
 "Energy Ball": {
     "type": "Grass",
@@ -855,7 +991,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Feather Dance": {
     "type": "Flying",
@@ -871,7 +1013,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 35,
-    "dpe": 0.7
+    "dpe": 0.7,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -2
+        }
+    }
 },
 "Fell Stinger": {
     "type": "Bug",
@@ -891,7 +1039,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 20,
-    "dpe": 0.57
+    "dpe": 0.57,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Fire Blast": {
     "type": "Fire",
@@ -909,7 +1063,8 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 140,
-    "dpe": 1.75
+    "dpe": 1.75,
+    "buffs": []
 },
 "Fire Punch": {
     "type": "Fire",
@@ -927,7 +1082,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Flame Burst": {
     "type": "Fire",
@@ -945,7 +1101,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 70,
-    "dpe": 1.27
+    "dpe": 1.27,
+    "buffs": []
 },
 "Flame Charge": {
     "type": "Fire",
@@ -963,7 +1120,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 65,
-    "dpe": 1.3
+    "dpe": 1.3,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Flame Wheel": {
     "type": "Fire",
@@ -981,7 +1144,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Flamethrower": {
     "type": "Fire",
@@ -999,7 +1163,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": []
 },
 "Flash Cannon": {
     "type": "Steel",
@@ -1016,7 +1181,8 @@ var chargeMoveDB = {
     ],
     "energy": -70,
     "power": 110,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Fly": {
     "type": "Flying",
@@ -1032,7 +1198,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 80,
-    "dpe": 1.78
+    "dpe": 1.78,
+    "buffs": []
 },
 "Flying Press": {
     "type": "Fighting",
@@ -1053,7 +1220,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 90,
-    "dpe": 2.25
+    "dpe": 2.25,
+    "buffs": []
 },
 "Focus Blast": {
     "type": "Fighting",
@@ -1074,7 +1242,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 150,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Foul Play": {
     "type": "Dark",
@@ -1089,7 +1258,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": []
 },
 "Frenzy Plant": {
     "type": "Grass",
@@ -1109,7 +1279,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 100,
-    "dpe": 2.22
+    "dpe": 2.22,
+    "buffs": []
 },
 "Frustration": {
     "type": "Normal",
@@ -1121,7 +1292,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -70,
     "power": 10,
-    "dpe": 0.14
+    "dpe": 0.14,
+    "buffs": []
 },
 "Fusion Bolt": {
     "type": "Electric",
@@ -1137,7 +1309,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 90,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Fusion Flare": {
     "type": "Fire",
@@ -1155,7 +1328,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 90,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Futuresight": {
     "type": "Psychic",
@@ -1170,7 +1344,8 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 120,
-    "dpe": 1.85
+    "dpe": 1.85,
+    "buffs": []
 },
 "Giga Drain": {
     "type": "Grass",
@@ -1190,7 +1365,8 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 50,
-    "dpe": 0.63
+    "dpe": 0.63,
+    "buffs": []
 },
 "Giga Impact": {
     "type": "Normal",
@@ -1202,7 +1378,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -80,
     "power": 150,
-    "dpe": 1.88
+    "dpe": 1.88,
+    "buffs": []
 },
 "Glaciate": {
     "type": "Ice",
@@ -1220,7 +1397,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 60,
-    "dpe": 1.5
+    "dpe": 1.5,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Grass Knot": {
     "type": "Grass",
@@ -1240,7 +1423,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 90,
-    "dpe": 1.8
+    "dpe": 1.8,
+    "buffs": []
 },
 "Gunk Shot": {
     "type": "Poison",
@@ -1257,7 +1441,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 130,
-    "dpe": 1.73
+    "dpe": 1.73,
+    "buffs": []
 },
 "Gyro Ball": {
     "type": "Steel",
@@ -1274,7 +1459,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 80,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Heart Stamp": {
     "type": "Psychic",
@@ -1289,7 +1475,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 40,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": []
 },
 "Heat Wave": {
     "type": "Fire",
@@ -1307,7 +1494,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 95,
-    "dpe": 1.27
+    "dpe": 1.27,
+    "buffs": []
 },
 "Heavy Slam": {
     "type": "Steel",
@@ -1324,7 +1512,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 70,
-    "dpe": 1.4
+    "dpe": 1.4,
+    "buffs": []
 },
 "High Horsepower": {
     "type": "Ground",
@@ -1342,7 +1531,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 100,
-    "dpe": 1.67
+    "dpe": 1.67,
+    "buffs": []
 },
 "Horn Attack": {
     "type": "Normal",
@@ -1354,7 +1544,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -35,
     "power": 40,
-    "dpe": 1.14
+    "dpe": 1.14,
+    "buffs": []
 },
 "Hurricane": {
     "type": "Flying",
@@ -1370,7 +1561,8 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 110,
-    "dpe": 1.69
+    "dpe": 1.69,
+    "buffs": []
 },
 "Hydro Cannon": {
     "type": "Water",
@@ -1386,7 +1578,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 80,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Hydro Pump": {
     "type": "Water",
@@ -1402,7 +1595,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 130,
-    "dpe": 1.73
+    "dpe": 1.73,
+    "buffs": []
 },
 "Hydro Pump Blastoise": {
     "type": "Water",
@@ -1418,7 +1612,8 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 90,
-    "dpe": 1.13
+    "dpe": 1.13,
+    "buffs": []
 },
 "Hyper Beam": {
     "type": "Normal",
@@ -1430,7 +1625,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -80,
     "power": 150,
-    "dpe": 1.88
+    "dpe": 1.88,
+    "buffs": []
 },
 "Hyper Fang": {
     "type": "Normal",
@@ -1442,7 +1638,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": []
 },
 "Ice Beam": {
     "type": "Ice",
@@ -1460,7 +1657,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": []
 },
 "Ice Punch": {
     "type": "Ice",
@@ -1478,7 +1676,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Icicle Spear": {
     "type": "Ice",
@@ -1496,7 +1695,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Icy Wind": {
     "type": "Ice",
@@ -1514,7 +1714,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Iron Head": {
     "type": "Steel",
@@ -1531,7 +1737,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 70,
-    "dpe": 1.4
+    "dpe": 1.4,
+    "buffs": []
 },
 "Last Resort": {
     "type": "Normal",
@@ -1543,7 +1750,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": []
 },
 "Leaf Blade": {
     "type": "Grass",
@@ -1563,7 +1771,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 70,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Leaf Storm": {
     "type": "Grass",
@@ -1583,7 +1792,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 130,
-    "dpe": 2.36
+    "dpe": 2.36,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": -2
+        }
+    }
 },
 "Leaf Tornado": {
     "type": "Grass",
@@ -1603,7 +1818,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 45,
-    "dpe": 1.13
+    "dpe": 1.13,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -2
+        }
+    }
 },
 "Liquidation": {
     "type": "Water",
@@ -1619,7 +1840,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Low Sweep": {
     "type": "Fighting",
@@ -1640,7 +1867,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 40,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": []
 },
 "Lunge": {
     "type": "Bug",
@@ -1660,7 +1888,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Luster Purge": {
     "type": "Psychic",
@@ -1675,7 +1909,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 120,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Magma Storm": {
     "type": "Fire",
@@ -1693,7 +1933,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Magnet Bomb": {
     "type": "Steel",
@@ -1710,7 +1951,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": []
 },
 "Mega Drain": {
     "type": "Grass",
@@ -1730,7 +1972,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 25,
-    "dpe": 0.45
+    "dpe": 0.45,
+    "buffs": []
 },
 "Megahorn": {
     "type": "Bug",
@@ -1750,7 +1993,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 110,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Meteor Beam": {
     "type": "Rock",
@@ -1767,7 +2011,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 120,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Meteor Mash": {
     "type": "Steel",
@@ -1784,7 +2034,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 100,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Mirror Coat": {
     "type": "Psychic",
@@ -1799,7 +2050,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Mirror Shot": {
     "type": "Steel",
@@ -1816,7 +2068,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 35,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Mist Ball": {
     "type": "Psychic",
@@ -1831,7 +2089,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 120,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Moonblast": {
     "type": "Fairy",
@@ -1847,7 +2111,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 110,
-    "dpe": 1.83
+    "dpe": 1.83,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Mud Bomb": {
     "type": "Ground",
@@ -1865,7 +2135,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 60,
-    "dpe": 1.5
+    "dpe": 1.5,
+    "buffs": []
 },
 "Muddy Water": {
     "type": "Water",
@@ -1881,7 +2152,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 35,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Mystical Fire": {
     "type": "Fire",
@@ -1899,7 +2176,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Night Shade": {
     "type": "Ghost",
@@ -1913,7 +2196,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Night Slash": {
     "type": "Dark",
@@ -1928,7 +2212,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": {
+        "activationChance": 0.125,
+        "effects": {
+            "attackerAttackStatStageChange": 2
+        }
+    }
 },
 "Oblivion Wing": {
     "type": "Flying",
@@ -1944,7 +2234,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 85,
-    "dpe": 1.7
+    "dpe": 1.7,
+    "buffs": []
 },
 "Obstruct": {
     "type": "Dark",
@@ -1959,7 +2250,14 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 15,
-    "dpe": 0.38
+    "dpe": 0.38,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": 1,
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Octazooka": {
     "type": "Water",
@@ -1975,7 +2273,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 50,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -2
+        }
+    }
 },
 "Ominous Wind": {
     "type": "Ghost",
@@ -1989,7 +2293,14 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 45,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Origin Pulse": {
     "type": "Water",
@@ -2005,7 +2316,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 130,
-    "dpe": 2.17
+    "dpe": 2.17,
+    "buffs": []
 },
 "Outrage": {
     "type": "Dragon",
@@ -2018,7 +2330,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 110,
-    "dpe": 1.83
+    "dpe": 1.83,
+    "buffs": []
 },
 "Overheat": {
     "type": "Fire",
@@ -2036,7 +2349,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 130,
-    "dpe": 2.36
+    "dpe": 2.36,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": -2
+        }
+    }
 },
 "Parabolic Charge": {
     "type": "Electric",
@@ -2052,7 +2371,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 65,
-    "dpe": 1.18
+    "dpe": 1.18,
+    "buffs": []
 },
 "Payback": {
     "type": "Dark",
@@ -2067,7 +2387,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 110,
-    "dpe": 1.83
+    "dpe": 1.83,
+    "buffs": []
 },
 "Petal Blizzard": {
     "type": "Grass",
@@ -2087,7 +2408,8 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 110,
-    "dpe": 1.69
+    "dpe": 1.69,
+    "buffs": []
 },
 "Play Rough": {
     "type": "Fairy",
@@ -2103,7 +2425,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 90,
-    "dpe": 1.5
+    "dpe": 1.5,
+    "buffs": []
 },
 "Poison Fang": {
     "type": "Poison",
@@ -2120,7 +2443,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 45,
-    "dpe": 1.13
+    "dpe": 1.13,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Poltergeist": {
     "type": "Ghost",
@@ -2134,7 +2463,8 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 150,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Power Gem": {
     "type": "Rock",
@@ -2151,7 +2481,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 80,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Power Up Punch": {
     "type": "Fighting",
@@ -2172,7 +2503,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 20,
-    "dpe": 0.57
+    "dpe": 0.57,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Power Whip": {
     "type": "Grass",
@@ -2192,7 +2529,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 90,
-    "dpe": 1.8
+    "dpe": 1.8,
+    "buffs": []
 },
 "Precipice Blades": {
     "type": "Ground",
@@ -2210,7 +2548,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 130,
-    "dpe": 2.17
+    "dpe": 2.17,
+    "buffs": []
 },
 "Psybeam": {
     "type": "Psychic",
@@ -2225,7 +2564,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 70,
-    "dpe": 1.17
+    "dpe": 1.17,
+    "buffs": []
 },
 "Psychic": {
     "type": "Psychic",
@@ -2240,7 +2580,13 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 85,
-    "dpe": 1.55
+    "dpe": 1.55,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Psychic Fangs": {
     "type": "Psychic",
@@ -2255,7 +2601,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 40,
-    "dpe": 1.14
+    "dpe": 1.14,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Psycho Boost": {
     "type": "Psychic",
@@ -2270,7 +2622,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 70,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": -2
+        }
+    }
 },
 "Psyshock": {
     "type": "Psychic",
@@ -2285,7 +2643,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 70,
-    "dpe": 1.56
+    "dpe": 1.56,
+    "buffs": []
 },
 "Psystrike": {
     "type": "Psychic",
@@ -2300,7 +2659,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 90,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": []
 },
 "Razor Shell": {
     "type": "Water",
@@ -2316,7 +2676,13 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 35,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Rest": {
     "type": "Normal",
@@ -2328,7 +2694,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -35,
     "power": 50,
-    "dpe": 1.43
+    "dpe": 1.43,
+    "buffs": []
 },
 "Return": {
     "type": "Normal",
@@ -2340,7 +2707,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -70,
     "power": 130,
-    "dpe": 1.86
+    "dpe": 1.86,
+    "buffs": []
 },
 "Rock Blast": {
     "type": "Rock",
@@ -2357,7 +2725,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 50,
-    "dpe": 1.25
+    "dpe": 1.25,
+    "buffs": []
 },
 "Rock Slide": {
     "type": "Rock",
@@ -2374,7 +2743,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 75,
-    "dpe": 1.67
+    "dpe": 1.67,
+    "buffs": []
 },
 "Rock Tomb": {
     "type": "Rock",
@@ -2391,7 +2761,13 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 70,
-    "dpe": 1.17
+    "dpe": 1.17,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Rock Wrecker": {
     "type": "Rock",
@@ -2408,7 +2784,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 110,
-    "dpe": 2.2
+    "dpe": 2.2,
+    "buffs": []
 },
 "Sacred Fire": {
     "type": "Fire",
@@ -2426,7 +2803,13 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 130,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Sacred Fire Plus": {
     "type": "Fire",
@@ -2444,7 +2827,13 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 130,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Sacred Fire Plus Plus": {
     "type": "Fire",
@@ -2462,7 +2851,13 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 130,
-    "dpe": 2
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Sacred Sword": {
     "type": "Fighting",
@@ -2483,7 +2878,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 60,
-    "dpe": 1.71
+    "dpe": 1.71,
+    "buffs": []
 },
 "Sand Tomb": {
     "type": "Ground",
@@ -2501,7 +2897,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 25,
-    "dpe": 0.63
+    "dpe": 0.63,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Scald": {
     "type": "Water",
@@ -2517,7 +2919,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Scald Blastoise": {
     "type": "Water",
@@ -2533,7 +2941,8 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 50,
-    "dpe": 0.63
+    "dpe": 0.63,
+    "buffs": []
 },
 "Scorching Sands": {
     "type": "Ground",
@@ -2551,7 +2960,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Seed Bomb": {
     "type": "Grass",
@@ -2571,7 +2986,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Seed Flare": {
     "type": "Grass",
@@ -2591,7 +3007,13 @@ var chargeMoveDB = {
     ],
     "energy": -75,
     "power": 130,
-    "dpe": 1.73
+    "dpe": 1.73,
+    "buffs": {
+        "activationChance": 0.4,
+        "effects": {
+            "targetDefenseStatStageChange": -2
+        }
+    }
 },
 "Shadow Ball": {
     "type": "Ghost",
@@ -2605,7 +3027,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 100,
-    "dpe": 1.82
+    "dpe": 1.82,
+    "buffs": []
 },
 "Shadow Bone": {
     "type": "Ghost",
@@ -2619,7 +3042,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 75,
-    "dpe": 1.67
+    "dpe": 1.67,
+    "buffs": {
+        "activationChance": 0.2,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Shadow Force": {
     "type": "Ghost",
@@ -2633,7 +3062,8 @@ var chargeMoveDB = {
     ],
     "energy": -90,
     "power": 120,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Shadow Punch": {
     "type": "Ghost",
@@ -2647,7 +3077,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 40,
-    "dpe": 1.14
+    "dpe": 1.14,
+    "buffs": []
 },
 "Shadow Sneak": {
     "type": "Ghost",
@@ -2661,7 +3092,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 50,
-    "dpe": 1.11
+    "dpe": 1.11,
+    "buffs": []
 },
 "Signal Beam": {
     "type": "Bug",
@@ -2681,7 +3113,14 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 75,
-    "dpe": 1.36
+    "dpe": 1.36,
+    "buffs": {
+        "activationChance": 0.2,
+        "effects": {
+            "targetAttackStatStageChange": -1,
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Silver Wind": {
     "type": "Bug",
@@ -2701,7 +3140,14 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 0.1,
+        "effects": {
+            "attackerAttackStatStageChange": 1,
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Skull Bash": {
     "type": "Normal",
@@ -2713,7 +3159,13 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -75,
     "power": 130,
-    "dpe": 1.73
+    "dpe": 1.73,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Sky Attack": {
     "type": "Flying",
@@ -2729,7 +3181,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 75,
-    "dpe": 1.5
+    "dpe": 1.5,
+    "buffs": []
 },
 "Sludge": {
     "type": "Poison",
@@ -2746,7 +3199,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 50,
-    "dpe": 1.25
+    "dpe": 1.25,
+    "buffs": []
 },
 "Sludge Bomb": {
     "type": "Poison",
@@ -2763,7 +3217,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": []
 },
 "Sludge Wave": {
     "type": "Poison",
@@ -2780,7 +3235,8 @@ var chargeMoveDB = {
     ],
     "energy": -65,
     "power": 110,
-    "dpe": 1.69
+    "dpe": 1.69,
+    "buffs": []
 },
 "Solar Beam": {
     "type": "Grass",
@@ -2800,7 +3256,8 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 150,
-    "dpe": 1.88
+    "dpe": 1.88,
+    "buffs": []
 },
 "Stomp": {
     "type": "Normal",
@@ -2812,7 +3269,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Stone Edge": {
     "type": "Rock",
@@ -2829,7 +3287,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 100,
-    "dpe": 1.82
+    "dpe": 1.82,
+    "buffs": []
 },
 "Struggle": {
     "type": "Normal",
@@ -2841,7 +3300,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -100,
     "power": 35,
-    "dpe": 0.35
+    "dpe": 0.35,
+    "buffs": []
 },
 "Submission": {
     "type": "Fighting",
@@ -2862,7 +3322,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 60,
-    "dpe": 1.2
+    "dpe": 1.2,
+    "buffs": []
 },
 "Super Power": {
     "type": "Fighting",
@@ -2883,7 +3344,14 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 85,
-    "dpe": 2.13
+    "dpe": 2.13,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": -1,
+            "attackerDefenseStatStageChange": -1
+        }
+    }
 },
 "Surf": {
     "type": "Water",
@@ -2899,7 +3367,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Swift": {
     "type": "Normal",
@@ -2911,7 +3380,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -55,
     "power": 60,
-    "dpe": 1.09
+    "dpe": 1.09,
+    "buffs": []
 },
 "Synchronoise": {
     "type": "Psychic",
@@ -2926,7 +3396,8 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 80,
-    "dpe": 1.6
+    "dpe": 1.6,
+    "buffs": []
 },
 "Techno Blast Burn": {
     "type": "Fire",
@@ -2944,7 +3415,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 120,
-    "dpe": 2.18
+    "dpe": 2.18,
+    "buffs": []
 },
 "Techno Blast Chill": {
     "type": "Ice",
@@ -2962,7 +3434,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 120,
-    "dpe": 2.18
+    "dpe": 2.18,
+    "buffs": []
 },
 "Techno Blast Normal": {
     "type": "Normal",
@@ -2974,7 +3447,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -55,
     "power": 120,
-    "dpe": 2.18
+    "dpe": 2.18,
+    "buffs": []
 },
 "Techno Blast Shock": {
     "type": "Electric",
@@ -2990,7 +3464,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 120,
-    "dpe": 2.18
+    "dpe": 2.18,
+    "buffs": []
 },
 "Techno Blast Water": {
     "type": "Water",
@@ -3006,7 +3481,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 120,
-    "dpe": 2.18
+    "dpe": 2.18,
+    "buffs": []
 },
 "Thunder": {
     "type": "Electric",
@@ -3022,7 +3498,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 100,
-    "dpe": 1.67
+    "dpe": 1.67,
+    "buffs": []
 },
 "Thunder Punch": {
     "type": "Electric",
@@ -3038,7 +3515,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 55,
-    "dpe": 1.38
+    "dpe": 1.38,
+    "buffs": []
 },
 "Thunderbolt": {
     "type": "Electric",
@@ -3054,7 +3532,8 @@ var chargeMoveDB = {
     ],
     "energy": -55,
     "power": 90,
-    "dpe": 1.64
+    "dpe": 1.64,
+    "buffs": []
 },
 "Trailblaze": {
     "type": "Grass",
@@ -3074,7 +3553,13 @@ var chargeMoveDB = {
     ],
     "energy": -50,
     "power": 65,
-    "dpe": 1.3
+    "dpe": 1.3,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Tri Attack": {
     "type": "Normal",
@@ -3086,7 +3571,14 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -50,
     "power": 65,
-    "dpe": 1.3
+    "dpe": 1.3,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetAttackStatStageChange": -1,
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Triple Axel": {
     "type": "Ice",
@@ -3104,7 +3596,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Twister": {
     "type": "Dragon",
@@ -3117,7 +3615,8 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 45,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": []
 },
 "V Create": {
     "type": "Fire",
@@ -3135,7 +3634,13 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 95,
-    "dpe": 2.38
+    "dpe": 2.38,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -3
+        }
+    }
 },
 "Vice Grip": {
     "type": "Normal",
@@ -3147,7 +3652,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -40,
     "power": 40,
-    "dpe": 1
+    "dpe": 1,
+    "buffs": []
 },
 "Water Pulse": {
     "type": "Water",
@@ -3163,7 +3669,8 @@ var chargeMoveDB = {
     ],
     "energy": -60,
     "power": 70,
-    "dpe": 1.17
+    "dpe": 1.17,
+    "buffs": []
 },
 "Weather Ball Fire": {
     "type": "Fire",
@@ -3181,7 +3688,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 55,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Weather Ball Ice": {
     "type": "Ice",
@@ -3199,7 +3707,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 55,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Weather Ball Normal": {
     "type": "Normal",
@@ -3211,7 +3720,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -35,
     "power": 55,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Weather Ball Rock": {
     "type": "Rock",
@@ -3228,7 +3738,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 55,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Weather Ball Water": {
     "type": "Water",
@@ -3244,7 +3755,8 @@ var chargeMoveDB = {
     ],
     "energy": -35,
     "power": 55,
-    "dpe": 1.57
+    "dpe": 1.57,
+    "buffs": []
 },
 "Wild Charge": {
     "type": "Electric",
@@ -3260,7 +3772,13 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 100,
-    "dpe": 2.22
+    "dpe": 2.22,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -2
+        }
+    }
 },
 "Wrap": {
     "type": "Normal",
@@ -3272,7 +3790,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -45,
     "power": 60,
-    "dpe": 1.33
+    "dpe": 1.33,
+    "buffs": []
 },
 "Wrap Green": {
     "type": "Normal",
@@ -3284,7 +3803,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -45,
     "power": 25,
-    "dpe": 0.56
+    "dpe": 0.56,
+    "buffs": []
 },
 "Wrap Pink": {
     "type": "Normal",
@@ -3296,7 +3816,8 @@ var chargeMoveDB = {
     "goodAgainst": [],
     "energy": -45,
     "power": 25,
-    "dpe": 0.56
+    "dpe": 0.56,
+    "buffs": []
 },
 "X Scissor": {
     "type": "Bug",
@@ -3316,7 +3837,8 @@ var chargeMoveDB = {
     ],
     "energy": -40,
     "power": 65,
-    "dpe": 1.63
+    "dpe": 1.63,
+    "buffs": []
 },
 "Zap Cannon": {
     "type": "Electric",
@@ -3332,6 +3854,12 @@ var chargeMoveDB = {
     ],
     "energy": -80,
     "power": 150,
-    "dpe": 1.88
+    "dpe": 1.88,
+    "buffs": {
+        "activationChance": 0.66,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 }
