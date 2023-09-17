@@ -1,10 +1,14 @@
-function filterPokemonByMove(move, pokemons, wholeDatabase)
+function filterPokemonByMove(moveName, pokemons, wholeDatabase)
 {
-    if (move in quickMoveDB) {
+    var move = {}
+
+    if (moveName in quickMoveDB) {
         type = "quick"
+        move = quickMoveDB[moveName]
     }
-    if (move in chargeMoveDB) {
+    if (moveName in chargeMoveDB) {
         type = "charge"
+        move = chargeMoveDB[moveName]
     }
 
     $("#pokemondb-movedata-tbody").html("");
@@ -23,19 +27,12 @@ function filterPokemonByMove(move, pokemons, wholeDatabase)
             pkmMoves.push(pkmMove)
         });
 
-        if (jQuery.inArray(move, pkmMoves) > -1)
+        if (jQuery.inArray(moveName, pkmMoves) > -1)
         {
             var imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokeDB[pkm].imgurl + ".png";
-
-            var pkmImage = "<br><img class='' id='pokemon_img-slot1' src='"+imageSrc+"' style='margin: 0 auto;' alt='&nbsp;'></img>"
-
-            if (type == "quick") {
-                var isStab = jQuery.inArray(quickMoveDB[move].type, pokeDB[pkm].type) > -1 ? "style='font-weight: bold;'" : "";
-            } else {
-                var isStab = jQuery.inArray(chargeMoveDB[move].type, pokeDB[pkm].type) > -1 ? "style='font-weight: bold;'" : "";
-            }
-
-            pkmType = '';
+            var pkmImage = "<br><img class='' id='pokemon_img-slot1' src='" + imageSrc + "' style='margin: 0 auto;' alt='&nbsp;'></img>"
+            var isStab = jQuery.inArray(move.type, pokeDB[pkm].type) > -1 ? "style='font-weight: bold;'" : "";
+            var pkmType = '';
 
             $.each(pokeDB[pkm].type, function (k,v) {
                 width = 15 / pokeDB[pkm].type.length
@@ -63,31 +60,15 @@ function filterPokemonByMove(move, pokemons, wholeDatabase)
     var moveColorType = ''
     var moveType = '';
 
-    var embeddedString = type + 'MoveDB'
-    var embedded = {embeddedString}[move]
-    console.log(embedded)
+    moveColorType = colors[move.type]
+    moveType = move.type
+    $.each(move.goodAgainst, function (k,v) {
+        moveGoodAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+    });
 
-    if (type == 'quick') {
-        moveColorType = colors[quickMoveDB[move].type]
-        moveType = quickMoveDB[move].type
-        $.each(quickMoveDB[move].goodAgainst, function (k,v) {
-            moveGoodAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
-        });
-
-        $.each(quickMoveDB[move].weakAgainst, function (k,v) {
-            moveWeakAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
-        });
-    } else {
-        moveColorType = colors[chargeMoveDB[move].type]
-        moveType = chargeMoveDB[move].type
-        $.each(chargeMoveDB[move].goodAgainst, function (k,v) {
-            moveGoodAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
-        });
-
-        $.each(chargeMoveDB[move].weakAgainst, function (k,v) {
-            moveWeakAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
-        });
-    }
+    $.each(move.weakAgainst, function (k,v) {
+        moveWeakAgainst += "<span class='badge' style='width: 5em; background-color: " + colors[v] + "; color: white;'>" + v + "</span> "
+    });
 
     var moveTextToAppend = 
     "<tr><td><b>Type</b></td><td>" + "<span class='badge' style='width: 5em; background-color: " + moveColorType + "; color: white;'>" + moveType + "</span> " + "</td></tr>" + 
@@ -96,40 +77,19 @@ function filterPokemonByMove(move, pokemons, wholeDatabase)
 
     if (type == 'quick') {
         moveTextToAppend += 
-            "<tr><td><b>EPT</b></td><td>" + quickMoveDB[move].ept + "</td></tr>" + 
-            "<tr><td><b>DPT</b></td><td>" + quickMoveDB[move].dpt + "</td></tr>"
+            "<tr><td><b>EPT</b></td><td>" + move.ept + "</td></tr>" + 
+            "<tr><td><b>DPT</b></td><td>" + move.dpt + "</td></tr>"
             ;
     } else {
         moveTextToAppend += 
-            "<tr><td><b>Energy</b></td><td>" + chargeMoveDB[move].energy + "</td></tr>" + 
-            "<tr><td><b>Power</b></td><td>" + chargeMoveDB[move].power + "</td></tr>" + 
-            "<tr><td><b>DPE</b></td><td>" + chargeMoveDB[move].dpe + "</td></tr>"
+            "<tr><td><b>Energy</b></td><td>" + move.energy + "</td></tr>" + 
+            "<tr><td><b>Power</b></td><td>" + move.power + "</td></tr>" + 
+            "<tr><td><b>DPE</b></td><td>" + move.dpe + "</td></tr>"
             ;
-        if (chargeMoveDB[move].buffs) {
-            var buffs = chargeMoveDB[move].buffs
 
-            var activationChance = buffs.activationChance * 100 + "% chance of ";
-            var buffFullEffectDescription = '';
-            var buffEffectDescription = '';
-
-            $.each(buffs.effects, function(k, effect) {
-                var changeDirection = (effect > 0) ? "increase" : "decrease";
-                if (k.includes('attackerAttack')) {
-                    buffEffectDescription = " self ATK by "
-                }
-                if (k.includes('attackerDefense')) {
-                    buffEffectDescription = " self DEF by "
-                }
-                if (k.includes('targetAttack')) {
-                    buffEffectDescription = " rival's ATK by "
-                }
-                if (k.includes('targetDefense')) {
-                    buffEffectDescription = " rival's DEF by "
-                }
-                buffEffectDescription += Math.abs(effect)  + " stage(s)"
-                buffFullEffectDescription += activationChance + " " + changeDirection + " " + buffEffectDescription +"<br>"// + " " + effect + "<br>"
-            });
-            moveTextToAppend += "<tr><td colspan=2>" + buffFullEffectDescription + "</td></tr>"
+        if (move.buffs) {
+            buffFullEffectDescription = formatBuff(move.buffs)
+            moveTextToAppend += "<tr><td><b>Buff</b></td><td>" + buffFullEffectDescription + "</td></tr>"
         }
     }
 

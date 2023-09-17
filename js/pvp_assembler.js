@@ -92,7 +92,6 @@ $(document).on('click', '.pkm-list-btn', function() {
 		toKeep = [];
 
 		$.each(pkms, function(id,pkm) {
-			console.log(pkm)
 			$.map(pokeDB[pkm].moveset.quick, function(element,index) {
 				moveEpt = quickMoveDB[element.replace('*', "")].ept;
 

@@ -7,9 +7,17 @@ function getMoveData(move, type, target)
         data = quickMoveDB[move];
     }
 
+    var buffs = '';
     if (type === 'charge1' || type === 'charge2') {
         move = move.split(" (")[0];
         data = chargeMoveDB[move];
+        if (data.buffs) {
+            $('#charge1_moveBuff-' + target)
+                .html("");
+            $('#charge2_moveBuff-' + target)
+                .html("");
+            buffs = formatBuff(data.buffs)
+        }
     }
     
     if (data == undefined) {
@@ -44,4 +52,6 @@ function getMoveData(move, type, target)
             $('#' + type + '_weakAgainst-' + target).append(" | ");
         }
     });
+
+	$('#' + type + '_moveBuff-' + target).append(buffs);
 }
