@@ -4712,7 +4712,7 @@ var pokeDB = {
             "Poison": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Haunter": {
     "id": "0093",
@@ -4757,7 +4757,7 @@ var pokeDB = {
             "Poison": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Gengar": {
     "id": "0094",
@@ -4805,7 +4805,7 @@ var pokeDB = {
             "Poison": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Onix": {
     "id": "0095",
@@ -9238,6 +9238,48 @@ var pokeDB = {
             "Poison": "62.5%",
             "Rock": "62.5%",
             "Steel": "62.5%"
+        }
+    },
+    "is_shadow": true
+},
+"Wooper Paldea": {
+    "id": "0194",
+    "stats": {
+        "atk": 75,
+        "def": 66,
+        "sta": 146
+    },
+    "type": [
+        "Poison",
+        "Ground"
+    ],
+    "imgurl": null,
+    "name": "Wooper Paldea",
+    "moveset": {
+        "quick": [
+            "Poison Jab",
+            "Mud Shot"
+        ],
+        "charge": [
+            "Sludge Wave",
+            "Dig",
+            "Body Slam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Ice": "160%",
+            "Psychic": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "39.1%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Poison": "39.1%",
+            "Rock": "62.5%"
         }
     },
     "is_shadow": true
@@ -15118,7 +15160,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Whiscash": {
     "id": "0340",
@@ -15156,7 +15198,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Corphish": {
     "id": "0341",
@@ -18065,7 +18107,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Rampardos": {
     "id": "0409",
@@ -18105,7 +18147,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Shieldon": {
     "id": "0410",
@@ -18149,7 +18191,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Bastiodon": {
     "id": "0411",
@@ -18193,7 +18235,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Burmy": {
     "id": "0412",
@@ -21833,7 +21875,7 @@ var pokeDB = {
             "Ghost": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Giratina": {
     "id": "0487",
@@ -22137,8 +22179,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hidden Power",
-            "Zen Headbutt",
-            "Magical Leaf"
+            "Zen Headbutt"
         ],
         "charge": [
             "Energy Ball",
@@ -22179,8 +22220,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hidden Power",
-            "Zen Headbutt",
-            "Magical Leaf"
+            "Zen Headbutt"
         ],
         "charge": [
             "Energy Ball",
@@ -22222,8 +22262,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hidden Power",
-            "Zen Headbutt",
-            "Magical Leaf"
+            "Zen Headbutt"
         ],
         "charge": [
             "Energy Ball",
@@ -24307,7 +24346,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Excadrill": {
     "id": "0530",
@@ -24356,7 +24395,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Audino": {
     "id": "0531",
@@ -24485,7 +24524,8 @@ var pokeDB = {
         "charge": [
             "Dynamic Punch",
             "Focus Blast",
-            "Stone Edge"
+            "Stone Edge",
+            "Brutal Swing*"
         ]
     },
     "defense_data": {
@@ -27990,7 +28030,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Lampent": {
     "id": "0608",
@@ -28036,7 +28076,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Chandelure": {
     "id": "0609",
@@ -28085,7 +28125,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Axew": {
     "id": "0610",
@@ -34230,7 +34270,6 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Rock Slide",
             "Seed Bomb"
         ]
     },
@@ -34271,7 +34310,6 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Rock Slide",
             "Leaf Blade",
             "Seed Bomb"
         ]
@@ -37728,7 +37766,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Spark"
+            "Spark",
+            "Volt Switch*"
         ],
         "charge": [
             "X Scissor",
@@ -37767,7 +37806,8 @@ var pokeDB = {
         "quick": [
             "Bug Bite",
             "Spark",
-            "Mud Slap"
+            "Mud Slap",
+            "Volt Switch*"
         ],
         "charge": [
             "X Scissor",
@@ -46637,7 +46677,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Overqwil": {
     "id": "0904",
@@ -50095,7 +50135,7 @@ var pokeDB = {
     "name": "Clodsire",
     "moveset": {
         "quick": [
-            "Poison Jab",
+            "Poison Sting",
             "Mud Shot"
         ],
         "charge": [
@@ -50103,7 +50143,7 @@ var pokeDB = {
             "Earthquake",
             "Stone Edge",
             "Acid Spray",
-            "Surf"
+            "Water Pulse"
         ]
     },
     "defense_data": {
