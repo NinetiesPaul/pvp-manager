@@ -41,7 +41,7 @@ var quickMoveDB = {
         "Psychic"
     ],
     "ept": "3.33",
-    "dpt": "1.67"
+    "dpt": "3.00"
 },
 "Bite": {
     "type": "Dark",
@@ -70,7 +70,7 @@ var quickMoveDB = {
         "Rock"
     ],
     "ept": "3.67",
-    "dpt": "2.33"
+    "dpt": "2.67"
 },
 "Bug Bite": {
     "type": "Bug",
@@ -337,7 +337,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "ept": "3.33",
-    "dpt": "3.00"
+    "dpt": "3.33"
 },
 "Frost Breath": {
     "type": "Ice",
@@ -478,7 +478,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "ept": "4.00",
-    "dpt": "3.00"
+    "dpt": "4.00"
 },
 "Infestation": {
     "type": "Bug",
@@ -512,8 +512,8 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "ept": "2.00",
-    "dpt": "3.00"
+    "ept": "2.33",
+    "dpt": "3.33"
 },
 "Karate Chop": {
     "type": "Fighting",
@@ -664,7 +664,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "2.67",
+    "ept": "3.00",
     "dpt": "3.67"
 },
 "Peck": {
@@ -946,7 +946,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "ept": "2.50",
+    "ept": "3.50",
     "dpt": "3.50"
 },
 "Struggle Bug": {

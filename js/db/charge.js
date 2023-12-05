@@ -291,9 +291,31 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
+    "power": 60,
+    "dpe": 1.5,
     "buffs": []
+},
+"Bleakwind Storm": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": -45,
+    "power": 60,
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Blizzard": {
     "type": "Ice",
@@ -394,7 +416,7 @@ var chargeMoveDB = {
     "power": 50,
     "dpe": 1.43,
     "buffs": {
-        "activationChance": 1,
+        "activationChance": 0.5,
         "effects": {
             "targetAttackStatStageChange": -1
         }
@@ -2579,8 +2601,8 @@ var chargeMoveDB = {
         "Poison"
     ],
     "energy": -55,
-    "power": 85,
-    "dpe": 1.55,
+    "power": 75,
+    "dpe": 1.36,
     "buffs": {
         "activationChance": 0.1,
         "effects": {
@@ -2708,6 +2730,20 @@ var chargeMoveDB = {
     "energy": -70,
     "power": 130,
     "dpe": 1.86,
+    "buffs": []
+},
+"Roar Of Time": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": -65,
+    "power": 150,
+    "dpe": 2.31,
     "buffs": []
 },
 "Rock Blast": {
@@ -2905,6 +2941,30 @@ var chargeMoveDB = {
         }
     }
 },
+"Sandsear Storm": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": -45,
+    "power": 60,
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
+},
 "Scald": {
     "type": "Water",
     "weakAgainst": [
@@ -2918,10 +2978,10 @@ var chargeMoveDB = {
         "Rock"
     ],
     "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
+    "power": 85,
+    "dpe": 1.7,
     "buffs": {
-        "activationChance": 0.3,
+        "activationChance": 0.5,
         "effects": {
             "targetAttackStatStageChange": -1
         }
@@ -3258,6 +3318,40 @@ var chargeMoveDB = {
     "power": 150,
     "dpe": 1.88,
     "buffs": []
+},
+"Spacial Rend": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": -50,
+    "power": 95,
+    "dpe": 1.9,
+    "buffs": []
+},
+"Spirit Shackle": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": -40,
+    "power": 50,
+    "dpe": 1.25,
+    "buffs": {
+        "activationChance": 0.33,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Stomp": {
     "type": "Normal",
@@ -3777,6 +3871,28 @@ var chargeMoveDB = {
         "activationChance": 1,
         "effects": {
             "attackerDefenseStatStageChange": -2
+        }
+    }
+},
+"Wildbolt Storm": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": -45,
+    "power": 60,
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
         }
     }
 },
