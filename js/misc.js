@@ -27,6 +27,8 @@ function clearLayout(slot)
     $('#charge1_move_type-' + slot)
         .html("")
         .css('display', 'none');
+    $('#charge1_moveBuff-' + slot)
+        .html("");
 
     $('#charge2_goodAgainst-' + slot)
         .html("")
@@ -37,9 +39,10 @@ function clearLayout(slot)
     $('#charge2_move_type-' + slot)
         .html("")
         .css('display', 'none');
+    $('#charge2_moveBuff-' + slot)
+        .html("");
 
-    $('.shadow_' + slot)
-        .css('display', 'none');
+    $('.shadow_' + slot).css('display', 'none');
     if ($('.shadow_' + slot + ' [type="checkbox"]').is(":checked")) {
         $('.shadow_' + slot + ' [type="checkbox"]').prop('checked', false)
     }

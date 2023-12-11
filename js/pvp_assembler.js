@@ -86,6 +86,31 @@ $(document).on('click', '.pkm-list-btn', function() {
 		});
 	}
 
+	if ($("#hide_irrelevant").is(":checked")) {
+		toRemove = [];
+
+		$.each(pkms, function(id,pkm) {
+			var relevantChargeMoves = 0;
+
+			$.each(pokeDB[pkm].moveset.charge, function(id,move) {
+				move = move.replace('*', "")
+
+				if (chargeMoveDB[move].energy <= -35 && chargeMoveDB[move].energy > -60 && chargeMoveDB[move].dpe > 1.2) {
+					relevantChargeMoves += 1;
+				}
+			});
+
+			
+			if (relevantChargeMoves < 2) {
+				toRemove.push(pkm)
+			}
+		});
+
+		$.each(toRemove, function(id,removePkm) {
+			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+		});
+	}
+
 	var ept = $("#ept_limit option:selected").val();
 
 	if (ept != "-") {
