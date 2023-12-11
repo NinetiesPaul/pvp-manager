@@ -58,37 +58,27 @@ $(document).on('click', '.pkm-list-btn', function() {
 		}
 	}
 
-	if ($("#hide_dv").is(":checked")) {
-		toRemove = [];
+	var toRemove = [];
 
+	if ($("#hide_dv").is(":checked")) {
 		$.each(pkms, function(id,pkm) {
 			if (jQuery.inArray("256%", Object.values(pokeDB[pkm].defense_data.vulnerable_to)) > -1) {
 				toRemove.push(pkm);
 			}
 		});
-
-		$.each(toRemove, function(id,removePkm) {
-			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
-		});
 	}
 
-	if ($("#hide_dt").is(":checked")) {
-		toRemove = [];
-
+	if ($("#hide_dt").is(":checked"))
+	{
 		$.each(pkms, function(id,pkm) {
 			if (pokeDB[pkm].type.length > 1) {
 				toRemove.push(pkm)
 			}
 		});
-
-		$.each(toRemove, function(id,removePkm) {
-			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
-		});
 	}
 
-	if ($("#hide_irrelevant").is(":checked")) {
-		toRemove = [];
-
+	if ($("#hide_irrelevant").is(":checked"))
+	{
 		$.each(pkms, function(id,pkm) {
 			var relevantChargeMoves = 0;
 
@@ -100,16 +90,15 @@ $(document).on('click', '.pkm-list-btn', function() {
 				}
 			});
 
-			
 			if (relevantChargeMoves < 2) {
 				toRemove.push(pkm)
 			}
 		});
-
-		$.each(toRemove, function(id,removePkm) {
-			pkms.splice(pkms.findIndex(x => x == removePkm), 1)
-		});
 	}
+
+	$.each(toRemove, function(id,removePkm) {
+		pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+	});
 
 	var ept = $("#ept_limit option:selected").val();
 
