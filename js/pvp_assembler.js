@@ -132,6 +132,8 @@ $(document).on('click', '.pkm-list-btn', function() {
 		pkms = [...new Set(toKeep)];
 	}
 
+	var pkmsFinalList = pkms;
+
 	var filteredPkms = pkms.length;
 
 	var teams = [];
@@ -226,7 +228,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 		"</tr>";
 	});
 
-	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Filtered pokemons:</b> " + filteredPkms + "<br><b>Possible teams:</b> <span class='teamCounter'>" + teamCounter + "</span><br>";
+	var description = "<b>Number of pokemons:</b> " + totalPkms + "<br><b>Filtered pokemons:</b> " + filteredPkms + "<br><b>Possible teams:</b> <span class='teamCounter'>" + teamCounter + "</span><br><b>Final list:</b> " + pkmsFinalList.join(",");
 
 	$("#assembler_result").html(description);
 	$("#assembler-tbody").append(textToAppend);
