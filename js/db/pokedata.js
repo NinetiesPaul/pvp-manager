@@ -3473,7 +3473,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Tentacruel": {
     "id": "0073",
@@ -3518,7 +3518,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Geodude": {
     "id": "0074",
@@ -15313,7 +15313,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Crawdaunt": {
     "id": "0342",
@@ -15360,7 +15360,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Baltoy": {
     "id": "0343",
@@ -15640,7 +15640,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Milotic": {
     "id": "0350",
@@ -15677,7 +15677,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Castform": {
     "id": "0351",
@@ -16193,7 +16193,7 @@ var pokeDB = {
             "Ice": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Glalie": {
     "id": "0362",
@@ -16229,7 +16229,7 @@ var pokeDB = {
             "Ice": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Spheal": {
     "id": "0363",
@@ -17045,7 +17045,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Groudon": {
     "id": "0383",
@@ -17601,7 +17601,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Prinplup": {
     "id": "0394",
@@ -17638,7 +17638,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Empoleon": {
     "id": "0395",
@@ -17686,7 +17686,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Starly": {
     "id": "0396",
@@ -20410,7 +20410,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Toxicroak": {
     "id": "0454",
@@ -20453,7 +20453,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Carnivine": {
     "id": "0455",
@@ -21445,7 +21445,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Rotom": {
     "id": "0479",
@@ -21842,6 +21842,50 @@ var pokeDB = {
     },
     "is_shadow": false
 },
+"Dialga Origin": {
+    "id": "0483",
+    "stats": {
+        "atk": 270,
+        "def": 225,
+        "sta": 205
+    },
+    "type": [
+        "Steel",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "Dialga Origin",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Metal Claw"
+        ],
+        "charge": [
+            "Draco Meteor",
+            "Iron Head",
+            "Thunder"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "39.1%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
 "Palkia": {
     "id": "0484",
     "stats": {
@@ -21855,6 +21899,44 @@ var pokeDB = {
     ],
     "imgurl": "484",
     "name": "Palkia",
+    "moveset": {
+        "quick": [
+            "Dragon Breath",
+            "Dragon Tail"
+        ],
+        "charge": [
+            "Aqua Tail",
+            "Draco Meteor",
+            "Fire Blast",
+            "Hydro Pump"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%"
+        },
+        "resistant_to": {
+            "Fire": "39.1%",
+            "Steel": "62.5%",
+            "Water": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Palkia Origin": {
+    "id": "0484",
+    "stats": {
+        "atk": 286,
+        "def": 223,
+        "sta": 189
+    },
+    "type": [
+        "Water",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "Palkia Origin",
     "moveset": {
         "quick": [
             "Dragon Breath",
@@ -25394,6 +25476,43 @@ var pokeDB = {
     },
     "is_shadow": false
 },
+"Basculin White Striped": {
+    "id": "0550",
+    "stats": {
+        "atk": 189,
+        "def": 129,
+        "sta": 172
+    },
+    "type": [
+        "Water"
+    ],
+    "imgurl": null,
+    "name": "Basculin White Striped",
+    "moveset": {
+        "quick": [
+            "Tackle",
+            "Water Gun"
+        ],
+        "charge": [
+            "Aqua Jet",
+            "Aqua Tail",
+            "Muddy Water"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Grass": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
 "Sandile": {
     "id": "0551",
     "stats": {
@@ -25883,7 +26002,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Crustle": {
     "id": "0558",
@@ -25920,7 +26039,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Scraggy": {
     "id": "0559",
@@ -27754,7 +27873,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Ferrothorn": {
     "id": "0598",
@@ -27800,7 +27919,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Klink": {
     "id": "0599",
@@ -29715,6 +29834,7 @@ var pokeDB = {
             "Gust"
         ],
         "charge": [
+            "Bleakwind Storm*",
             "Focus Blast",
             "Heat Wave",
             "Hurricane",
@@ -29840,7 +29960,8 @@ var pokeDB = {
             "Focus Blast",
             "Sludge Wave",
             "Thunder",
-            "Thunderbolt"
+            "Thunderbolt",
+            "Wildbolt Storm*"
         ]
     },
     "defense_data": {
@@ -30046,6 +30167,7 @@ var pokeDB = {
         "charge": [
             "Bulldoze",
             "Earthquake",
+            "Sandsear Storm*",
             "Stone Edge",
             "Super Power"
         ]
@@ -37405,7 +37527,9 @@ var pokeDB = {
         "charge": [
             "Brave Bird",
             "Energy Ball",
-            "Shadow Sneak"
+            "Frenzy Plant*",
+            "Shadow Sneak",
+            "Spirit Shackle"
         ]
     },
     "defense_data": {
@@ -38356,6 +38480,47 @@ var pokeDB = {
     ],
     "imgurl": "744",
     "name": "Rockruff",
+    "moveset": {
+        "quick": [
+            "Rock Throw",
+            "Tackle"
+        ],
+        "charge": [
+            "Crunch",
+            "Rock Tomb",
+            "Stone Edge",
+            "Trailblaze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Rockruff Dusk": {
+    "id": "0744",
+    "stats": {
+        "atk": 117,
+        "def": 78,
+        "sta": 128
+    },
+    "type": [
+        "Rock"
+    ],
+    "imgurl": null,
+    "name": "Rockruff Dusk",
     "moveset": {
         "quick": [
             "Rock Throw",
@@ -42133,10 +42298,13 @@ var pokeDB = {
     "name": "Poipole",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Peck",
+            "Poison Jab"
         ],
         "charge": [
-            "Struggle"
+            "Fell Stinger",
+            "Sludge Bomb",
+            "Sludge Wave"
         ]
     },
     "defense_data": {
@@ -42169,10 +42337,14 @@ var pokeDB = {
     "name": "Naganadel",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Air Slash",
+            "Poison Jab"
         ],
         "charge": [
-            "Struggle"
+            "Acrobatics",
+            "Dragon Pulse",
+            "Fell Stinger",
+            "Sludge Bomb"
         ]
     },
     "defense_data": {
@@ -42209,10 +42381,13 @@ var pokeDB = {
     "name": "Stakataka",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Rock Throw",
+            "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Bulldoze",
+            "Flash Cannon",
+            "Stone Edge"
         ]
     },
     "defense_data": {
@@ -42250,10 +42425,13 @@ var pokeDB = {
     "name": "Blacephalon",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Astonish",
+            "Incinerate"
         ],
         "charge": [
-            "Struggle"
+            "Mystical Fire",
+            "Overheat",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -42292,10 +42470,13 @@ var pokeDB = {
     "name": "Zeraora",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Spark",
+            "Volt Switch"
         ],
         "charge": [
-            "Struggle"
+            "Discharge",
+            "Thunder Punch",
+            "Wild Charge"
         ]
     },
     "defense_data": {
@@ -46744,6 +46925,44 @@ var pokeDB = {
     },
     "is_shadow": false
 },
+"Wyrdeer": {
+    "id": "0899",
+    "stats": {
+        "atk": 206,
+        "def": 145,
+        "sta": 230
+    },
+    "type": [
+        "Normal",
+        "Psychic"
+    ],
+    "imgurl": "899",
+    "name": "Wyrdeer",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Tackle",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Megahorn",
+            "Psychic",
+            "Stomp",
+            "Wild Charge"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
 "Kleavor": {
     "id": "0900",
     "stats": {
@@ -47473,7 +47692,6 @@ var pokeDB = {
         ],
         "charge": [
             "Bug Buzz",
-            "Trailblaze",
             "Trailblaze",
             "X Scissor"
         ]
@@ -50292,7 +50510,8 @@ var pokeDB = {
             "Close Combat",
             "Ice Punch",
             "Low Sweep",
-            "Night Slash"
+            "Night Slash",
+            "Shadow Ball"
         ]
     },
     "defense_data": {
@@ -51226,10 +51445,13 @@ var pokeDB = {
     "name": "Wochien",
     "moveset": {
         "quick": [
-            "Splash"
+            "Magical Leaf",
+            "Snarl"
         ],
         "charge": [
-            "Struggle"
+            "Dark Pulse",
+            "Grass Knot",
+            "Leaf Storm"
         ]
     },
     "defense_data": {
@@ -51269,10 +51491,13 @@ var pokeDB = {
     "name": "Chienpao",
     "moveset": {
         "quick": [
-            "Splash"
+            "Powder Snow",
+            "Snarl"
         ],
         "charge": [
-            "Struggle"
+            "Avalanche",
+            "Blizzard",
+            "Dark Pulse"
         ]
     },
     "defense_data": {
@@ -51308,10 +51533,13 @@ var pokeDB = {
     "name": "Tinglu",
     "moveset": {
         "quick": [
-            "Splash"
+            "Mud Shot",
+            "Snarl"
         ],
         "charge": [
-            "Struggle"
+            "Bulldoze",
+            "Dark Pulse",
+            "Earthquake"
         ]
     },
     "defense_data": {
@@ -51349,10 +51577,13 @@ var pokeDB = {
     "name": "Chiyu",
     "moveset": {
         "quick": [
-            "Splash"
+            "Incinerate",
+            "Snarl"
         ],
         "charge": [
-            "Struggle"
+            "Dark Pulse",
+            "Flame Charge",
+            "Flame Wheel"
         ]
     },
     "defense_data": {
@@ -51469,10 +51700,14 @@ var pokeDB = {
     "name": "Koraidon",
     "moveset": {
         "quick": [
-            "Splash"
+            "Dragon Tail",
+            "Rock Smash"
         ],
         "charge": [
-            "Struggle"
+            "Close Combat",
+            "Dragon Claw",
+            "Giga Impact",
+            "Outrage"
         ]
     },
     "defense_data": {
@@ -51510,10 +51745,14 @@ var pokeDB = {
     "name": "Koraidon Apex",
     "moveset": {
         "quick": [
-            "Splash"
+            "Dragon Tail",
+            "Rock Smash"
         ],
         "charge": [
-            "Struggle"
+            "Close Combat",
+            "Dragon Claw",
+            "Giga Impact",
+            "Outrage"
         ]
     },
     "defense_data": {
@@ -51551,10 +51790,14 @@ var pokeDB = {
     "name": "Miraidon",
     "moveset": {
         "quick": [
-            "Splash"
+            "Dragon Breath",
+            "Thunder Shock"
         ],
         "charge": [
-            "Struggle"
+            "Dragon Pulse",
+            "Hyper Beam",
+            "Outrage",
+            "Thunder"
         ]
     },
     "defense_data": {
@@ -51590,10 +51833,14 @@ var pokeDB = {
     "name": "Miraidon Ultimate",
     "moveset": {
         "quick": [
-            "Splash"
+            "Dragon Breath",
+            "Thunder Shock"
         ],
         "charge": [
-            "Struggle"
+            "Dragon Pulse",
+            "Hyper Beam",
+            "Outrage",
+            "Thunder"
         ]
     },
     "defense_data": {

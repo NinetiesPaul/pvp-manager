@@ -797,6 +797,13 @@ var quickMoveDB = {
     "ept": "2.00",
     "dpt": "5.00"
 },
+"Roar Of Time": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
+},
 "Rock Smash": {
     "type": "Fighting",
     "weakAgainst": [
@@ -902,6 +909,13 @@ var quickMoveDB = {
     ],
     "ept": "4.33",
     "dpt": "1.67"
+},
+"Spacial Rend": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
 },
 "Spark": {
     "type": "Electric",
