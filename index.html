@@ -71,6 +71,10 @@
                     $("#moveList").append("<option>" + key + "</option>");
                 }
 
+                for (var key in Object.keys(colors)) {
+                    $("#moveTypeList").append("<option>" + Object.keys(colors)[key] + "</option>");
+                }
+
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
                 pokemonSelectSlot1.on('change.select2', function(){
@@ -93,7 +97,15 @@
                 moveList.select2();
                 moveList.on('change', function(){
                     if (this.value !== "-- Pick an option --") {
-                        filterPokemonByMove(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
+                        filterPokemonByMoveName(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
+                    }
+                });
+                
+                var moveTypeList = $('#moveTypeList');
+                moveTypeList.select2();
+                moveTypeList.on('change', function(){
+                    if (this.value !== "-- Pick an option --") {
+                        filterPokemonByMoveType(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
                     }
                 });
                 
@@ -603,8 +615,15 @@
                         <br/><textarea class="pkm-list-db" style="height: 252px; width:50em;"></textarea>
 
                         <p>
-                            <br>Can learn:<br/>
+                            <br>Can learn move:<br/>
                             <select id="moveList" name="moveList" class="custom-select" style="width: 15em;">
+                                <option value="-- Pick an option --">-- Pick an option --</option>
+                            </select>
+                        </p><br>
+
+                        <p>
+                            <br>Can learn move type:<br/>
+                            <select id="moveTypeList" name="moveTypeList" class="custom-select" style="width: 15em;">
                                 <option value="-- Pick an option --">-- Pick an option --</option>
                             </select>
                         </p><br>

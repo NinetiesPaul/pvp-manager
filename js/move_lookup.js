@@ -1,4 +1,4 @@
-function filterPokemonByMove(moveName, pokemons, wholeDatabase)
+function filterPokemonByMoveName(moveName, pokemons, wholeDatabase)
 {
     var move = {}
 
@@ -20,14 +20,14 @@ function filterPokemonByMove(moveName, pokemons, wholeDatabase)
     var textToAppend = "";
 
     $.each(pokemons, function (id, pkm) {
-        pkmMoves = []
+        allMoves = []
 
-        $.each(pokeDB[pkm].moveset[type], function (id, move) {
-            pkmMove = move.replaceAll('*', '');
-            pkmMoves.push(pkmMove)
+        $.each(pokeDB[pkm].moveset[type], function (id, pkmMove) {
+            sanitizedMove = pkmMove.replaceAll('*', '');
+            allMoves.push(sanitizedMove)
         });
 
-        if (jQuery.inArray(moveName, pkmMoves) > -1)
+        if (jQuery.inArray(moveName, allMoves) > -1)
         {
             var imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokeDB[pkm].imgurl + ".png";
             var pkmImage = "<br><img class='' id='pokemon_img-slot1' src='" + imageSrc + "' style='margin: 0 auto;' alt='&nbsp;'></img>"
@@ -94,5 +94,57 @@ function filterPokemonByMove(moveName, pokemons, wholeDatabase)
     }
 
 	$("#pokemondb-movedata-tbody").append(moveTextToAppend);
+	$("#pokemondb-tbody").append(textToAppend);
+}
+
+function filterPokemonByMoveType(type, pokemons, wholeDatabase)
+{
+    $("#pokemondb-movedata-tbody").html("");
+
+	$(".pokemondb-table tbody").html("");
+
+    var pokemons = (wholeDatabase) ? Object.keys(pokeDB) : pokemons.split(",")
+
+    var textToAppend = "";
+
+    $.each(pokemons, function (id, pkm) {
+
+        var skip = true;
+        pokeDB[pkm].moveset.quick.filter(function(move) {
+            sanitizedMove = move.replaceAll('*', '');
+            if (skip && quickMoveDB[sanitizedMove].type === type){
+                skip = false;
+            }
+        });
+
+        if (skip) {
+            return true;
+        }
+
+        var imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokeDB[pkm].imgurl + ".png";
+        var pkmImage = "<br><img class='' id='pokemon_img-slot1' src='" + imageSrc + "' style='margin: 0 auto;' alt='&nbsp;'></img>"
+        var pkmType = '';
+
+        $.each(pokeDB[pkm].type, function (k,v) {
+            width = 15 / pokeDB[pkm].type.length
+            color = colors[v.charAt(0).toUpperCase() + v.slice(1).toLowerCase()]
+            pkmType += "<span class='badge' style='width: " + width + "em; background-color: " + color + "; color: white;'>" + v + "</span>"
+        });
+
+        textToAppend += 
+            "<tr>"+
+                "<td>" +
+                pkm +
+                "<br/>" + pkmType +
+                "<Br/>" + pkmImage +
+                "<br/>" +
+                "<span class='badge badge-danger full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.atk + "</span>" + 
+                "<span class='badge badge-success full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.def + "</span>" + 
+                "<span class='badge  badge-primary full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.sta + "</span>" + 
+                "</td>" +
+            "</tr>";
+        
+    });
+
 	$("#pokemondb-tbody").append(textToAppend);
 }
