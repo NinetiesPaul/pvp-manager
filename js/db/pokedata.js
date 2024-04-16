@@ -635,7 +635,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Pidgeotto": {
     "id": "0017",
@@ -674,7 +674,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Pidgeot": {
     "id": "0018",
@@ -717,7 +717,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Rattata": {
     "id": "0019",
@@ -17110,7 +17110,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Rayquaza": {
     "id": "0384",
@@ -25804,7 +25804,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Standard Galarian Darmanitan": {
     "id": "0555",
@@ -25841,7 +25841,7 @@ var pokeDB = {
             "Ice": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Zen Galarian Darmanitan": {
     "id": "0555",
@@ -25882,7 +25882,7 @@ var pokeDB = {
             "Ice": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Darmanitan Standard": {
     "id": "0555",
@@ -25924,7 +25924,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Darmanitan Zen": {
     "id": "0555",
@@ -25970,7 +25970,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Maractus": {
     "id": "0556",
@@ -26742,7 +26742,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Gothorita": {
     "id": "0575",
@@ -26778,7 +26778,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Gothitelle": {
     "id": "0576",
@@ -26814,7 +26814,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Solosis": {
     "id": "0577",
@@ -26850,7 +26850,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Duosion": {
     "id": "0578",
@@ -26886,7 +26886,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Reuniclus": {
     "id": "0579",
@@ -26922,7 +26922,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Ducklett": {
     "id": "0580",
@@ -37758,8 +37758,10 @@ var pokeDB = {
             "Snarl"
         ],
         "charge": [
+            "Blast Burn*",
             "Blaze Kick",
             "Dark Pulse",
+            "Darkest Lariat",
             "Fire Blast",
             "Flame Charge"
         ]
@@ -41524,6 +41526,7 @@ var pokeDB = {
             "Focus Blast",
             "Futuresight",
             "Moonblast",
+            "Natures Madness*",
             "Psyshock"
         ]
     },
