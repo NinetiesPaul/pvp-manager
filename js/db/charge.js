@@ -1,5 +1,44 @@
 var chargeMoveDB = {
-"Acid Spray": {
+"Wrap": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Hyper Beam": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-80",
+    "power": "150",
+    "dpe": "1.88"
+},
+"Dark Pulse": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-50",
+    "power": "80",
+    "dpe": "1.60"
+},
+"Sludge": {
     "type": "Poison",
     "weakAgainst": [
         "Ghost",
@@ -12,252 +51,23 @@ var chargeMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "energy": -45,
-    "power": 20,
-    "dpe": 0.44,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -2
-        }
-    }
+    "energy": "-40",
+    "power": "50",
+    "dpe": "1.25"
 },
-"Acrobatics": {
-    "type": "Flying",
+"Vice Grip": {
+    "type": "Normal",
     "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -60,
-    "power": 110,
-    "dpe": 1.83,
-    "buffs": []
-},
-"Aerial Ace": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
-    "buffs": []
-},
-"Aeroblast": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -75,
-    "power": 170,
-    "dpe": 2.27,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
-},
-"Aeroblast Plus": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -75,
-    "power": 170,
-    "dpe": 2.27,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
-},
-"Aeroblast Plus Plus": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -75,
-    "power": 170,
-    "dpe": 2.27,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
-},
-"Air Cutter": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
-},
-"Ancient Power": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "attackerAttackStatStageChange": 1,
-            "attackerDefenseStatStageChange": 1
-        }
-    }
-},
-"Aqua Jet": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -45,
-    "power": 45,
-    "dpe": 1,
-    "buffs": []
-},
-"Aqua Tail": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Aura Sphere": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
         "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
         "Rock",
         "Steel"
     ],
-    "energy": -55,
-    "power": 100,
-    "dpe": 1.82,
-    "buffs": []
+    "goodAgainst": [],
+    "energy": "-40",
+    "power": "40",
+    "dpe": "1.00"
 },
-"Aurora Beam": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Avalanche": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -45,
-    "power": 90,
-    "dpe": 2,
-    "buffs": []
-},
-"Blast Burn": {
+"Flame Wheel": {
     "type": "Fire",
     "weakAgainst": [
         "Dragon",
@@ -271,240 +81,11 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": -50,
-    "power": 110,
-    "dpe": 2.2,
-    "buffs": []
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
 },
-"Blaze Kick": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 60,
-    "dpe": 1.5,
-    "buffs": []
-},
-"Bleakwind Storm": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Blizzard": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -75,
-    "power": 140,
-    "dpe": 1.87,
-    "buffs": []
-},
-"Body Slam": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -35,
-    "power": 60,
-    "dpe": 1.71,
-    "buffs": []
-},
-"Bone Club": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
-    "buffs": []
-},
-"Boomburst": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -70,
-    "power": 150,
-    "dpe": 2.14,
-    "buffs": []
-},
-"Brave Bird": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -55,
-    "power": 130,
-    "dpe": 2.36,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -3
-        }
-    }
-},
-"Breaking Swipe": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Brick Break": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 40,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Brine": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 60,
-    "dpe": 1.2,
-    "buffs": []
-},
-"Brutal Swing": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
-},
-"Bubble Beam": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -40,
-    "power": 25,
-    "dpe": 0.63,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Bug Buzz": {
+"Megahorn": {
     "type": "Bug",
     "weakAgainst": [
         "Fairy",
@@ -520,17 +101,29 @@ var chargeMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "energy": -60,
-    "power": 100,
-    "dpe": 1.67,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
+    "energy": "-55",
+    "power": "110",
+    "dpe": "2.00"
 },
-"Bulldoze": {
+"Flamethrower": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Dig": {
     "type": "Ground",
     "weakAgainst": [
         "Bug",
@@ -544,59 +137,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Close Combat": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -45,
-    "power": 100,
-    "dpe": 2.22,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -2
-        }
-    }
-},
-"Crabhammer": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 85,
-    "dpe": 1.7,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
+    "energy": "-80",
+    "power": "100",
+    "dpe": "1.25"
 },
 "Cross Chop": {
     "type": "Fighting",
@@ -615,387 +158,24 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
 },
-"Cross Poison": {
-    "type": "Poison",
-    "weakAgainst": [
-        "Ghost",
-        "Ground",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Grass"
-    ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
-},
-"Crunch": {
-    "type": "Dark",
+"Psybeam": {
+    "type": "Psychic",
     "weakAgainst": [
         "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Dark Pulse": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": []
-},
-"Darkest Lariat": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -60,
-    "power": 120,
-    "dpe": 2,
-    "buffs": []
-},
-"Dazzling Gleam": {
-    "type": "Fairy",
-    "weakAgainst": [
-        "Fire",
-        "Poison",
+        "Psychic",
         "Steel"
     ],
     "goodAgainst": [
-        "Dark",
-        "Dragon",
-        "Fighting"
-    ],
-    "energy": -70,
-    "power": 110,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Dig": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": []
-},
-"Disarming Voice": {
-    "type": "Fairy",
-    "weakAgainst": [
-        "Fire",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Dragon",
-        "Fighting"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": []
-},
-"Discharge": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 65,
-    "dpe": 1.44,
-    "buffs": []
-},
-"Doom Desire": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -40,
-    "power": 75,
-    "dpe": 1.88,
-    "buffs": []
-},
-"Double Iron Bash": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": []
-},
-"Draco Meteor": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -65,
-    "power": 150,
-    "dpe": 2.31,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": -2
-        }
-    }
-},
-"Dragon Ascent": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
         "Fighting",
-        "Grass"
+        "Poison"
     ],
-    "energy": -70,
-    "power": 150,
-    "dpe": 2.14,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -1
-        }
-    }
-},
-"Dragon Claw": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": []
-},
-"Dragon Pulse": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -60,
-    "power": 90,
-    "dpe": 1.5,
-    "buffs": []
-},
-"Drain Punch": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 20,
-    "dpe": 0.5,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": 1
-        }
-    }
-},
-"Draining Kiss": {
-    "type": "Fairy",
-    "weakAgainst": [
-        "Fire",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Dragon",
-        "Fighting"
-    ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
-},
-"Drill Peck": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
-},
-"Drill Run": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -45,
-    "power": 80,
-    "dpe": 1.78,
-    "buffs": []
-},
-"Dynamic Punch": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -50,
-    "power": 90,
-    "dpe": 1.8,
-    "buffs": []
-},
-"Earth Power": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
+    "energy": "-60",
+    "power": "70",
+    "dpe": "1.17"
 },
 "Earthquake": {
     "type": "Ground",
@@ -1011,697 +191,26 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -65,
-    "power": 110,
-    "dpe": 1.69,
-    "buffs": []
+    "energy": "-65",
+    "power": "120",
+    "dpe": "1.85"
 },
-"Energy Ball": {
-    "type": "Grass",
+"Stone Edge": {
+    "type": "Rock",
     "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Feather Dance": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
         "Fighting",
-        "Grass"
-    ],
-    "energy": -50,
-    "power": 35,
-    "dpe": 0.7,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -2
-        }
-    }
-},
-"Fell Stinger": {
-    "type": "Bug",
-    "weakAgainst": [
-        "Fairy",
-        "Fighting",
-        "Fire",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Grass",
-        "Psychic"
-    ],
-    "energy": -35,
-    "power": 20,
-    "dpe": 0.57,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
-},
-"Fire Blast": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -80,
-    "power": 140,
-    "dpe": 1.75,
-    "buffs": []
-},
-"Fire Punch": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
-    "buffs": []
-},
-"Flame Burst": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 70,
-    "dpe": 1.27,
-    "buffs": []
-},
-"Flame Charge": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -50,
-    "power": 65,
-    "dpe": 1.3,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
-},
-"Flame Wheel": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
-},
-"Flamethrower": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": []
-},
-"Flash Cannon": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -70,
-    "power": 110,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Fly": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -45,
-    "power": 80,
-    "dpe": 1.78,
-    "buffs": []
-},
-"Flying Press": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 90,
-    "dpe": 2.25,
-    "buffs": []
-},
-"Focus Blast": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -75,
-    "power": 150,
-    "dpe": 2,
-    "buffs": []
-},
-"Foul Play": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": []
-},
-"Frenzy Plant": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
         "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 100,
-    "dpe": 2.22,
-    "buffs": []
-},
-"Frustration": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -70,
-    "power": 10,
-    "dpe": 0.14,
-    "buffs": []
-},
-"Fusion Bolt": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 90,
-    "dpe": 2,
-    "buffs": []
-},
-"Fusion Flare": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -45,
-    "power": 90,
-    "dpe": 2,
-    "buffs": []
-},
-"Futuresight": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -65,
-    "power": 120,
-    "dpe": 1.85,
-    "buffs": []
-},
-"Giga Drain": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -80,
-    "power": 50,
-    "dpe": 0.63,
-    "buffs": []
-},
-"Giga Impact": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -80,
-    "power": 150,
-    "dpe": 1.88,
-    "buffs": []
-},
-"Glaciate": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -40,
-    "power": 60,
-    "dpe": 1.5,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Grass Knot": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -50,
-    "power": 90,
-    "dpe": 1.8,
-    "buffs": []
-},
-"Gunk Shot": {
-    "type": "Poison",
-    "weakAgainst": [
-        "Ghost",
-        "Ground",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Grass"
-    ],
-    "energy": -75,
-    "power": 130,
-    "dpe": 1.73,
-    "buffs": []
-},
-"Gyro Ball": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Heart Stamp": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -40,
-    "power": 40,
-    "dpe": 1,
-    "buffs": []
-},
-"Heat Wave": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -75,
-    "power": 95,
-    "dpe": 1.27,
-    "buffs": []
-},
-"Heavy Slam": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 70,
-    "dpe": 1.4,
-    "buffs": []
-},
-"High Horsepower": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -60,
-    "power": 100,
-    "dpe": 1.67,
-    "buffs": []
-},
-"Horn Attack": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
-    "buffs": []
-},
-"Hurricane": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
         "Steel"
     ],
     "goodAgainst": [
         "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -65,
-    "power": 110,
-    "dpe": 1.69,
-    "buffs": []
-},
-"Hydro Cannon": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
         "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -40,
-    "power": 80,
-    "dpe": 2,
-    "buffs": []
-},
-"Hydro Pump": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -75,
-    "power": 130,
-    "dpe": 1.73,
-    "buffs": []
-},
-"Hydro Pump Blastoise": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -80,
-    "power": 90,
-    "dpe": 1.13,
-    "buffs": []
-},
-"Hyper Beam": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -80,
-    "power": 150,
-    "dpe": 1.88,
-    "buffs": []
-},
-"Hyper Fang": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": []
-},
-"Ice Beam": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
         "Flying",
-        "Grass",
-        "Ground"
+        "Ice"
     ],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": []
+    "energy": "-55",
+    "power": "100",
+    "dpe": "1.82"
 },
 "Ice Punch": {
     "type": "Ice",
@@ -1717,55 +226,42 @@ var chargeMoveDB = {
         "Grass",
         "Ground"
     ],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
-    "buffs": []
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
 },
-"Icicle Spear": {
-    "type": "Ice",
+"Heart Stamp": {
+    "type": "Psychic",
     "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
+        "Dark",
+        "Psychic",
+        "Steel"
     ],
     "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-40",
+    "power": "40",
+    "dpe": "1.00"
+},
+"Discharge": {
+    "type": "Electric",
+    "weakAgainst": [
         "Dragon",
-        "Flying",
+        "Electric",
         "Grass",
         "Ground"
     ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
-},
-"Icy Wind": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
+    "goodAgainst": [
+        "Flying",
         "Water"
     ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
+    "energy": "-45",
+    "power": "65",
+    "dpe": "1.44"
 },
-"Iron Head": {
+"Flash Cannon": {
     "type": "Steel",
     "weakAgainst": [
         "Electric",
@@ -1778,189 +274,63 @@ var chargeMoveDB = {
         "Ice",
         "Rock"
     ],
-    "energy": -50,
-    "power": 70,
-    "dpe": 1.4,
-    "buffs": []
+    "energy": "-70",
+    "power": "110",
+    "dpe": "1.57"
 },
-"Last Resort": {
-    "type": "Normal",
+"Drill Peck": {
+    "type": "Flying",
     "weakAgainst": [
-        "Ghost",
+        "Electric",
         "Rock",
         "Steel"
     ],
-    "goodAgainst": [],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": []
-},
-"Leaf Blade": {
-    "type": "Grass",
-    "weakAgainst": [
+    "goodAgainst": [
         "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
+        "Fighting",
+        "Grass"
     ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -35,
-    "power": 70,
-    "dpe": 2,
-    "buffs": []
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
 },
-"Leaf Storm": {
-    "type": "Grass",
+"Ice Beam": {
+    "type": "Ice",
     "weakAgainst": [
-        "Bug",
-        "Dragon",
         "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 130,
-    "dpe": 2.36,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": -2
-        }
-    }
-},
-"Leaf Tornado": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -40,
-    "power": 45,
-    "dpe": 1.13,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -2
-        }
-    }
-},
-"Liquidation": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Low Sweep": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
         "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
+        "Steel",
+        "Water"
     ],
-    "energy": -40,
-    "power": 40,
-    "dpe": 1,
-    "buffs": []
-},
-"Lunge": {
-    "type": "Bug",
-    "weakAgainst": [
-        "Fairy",
-        "Fighting",
-        "Fire",
+    "goodAgainst": [
+        "Dragon",
         "Flying",
-        "Ghost",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
         "Grass",
-        "Psychic"
+        "Ground"
     ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
 },
-"Luster Purge": {
-    "type": "Psychic",
+"Blizzard": {
+    "type": "Ice",
     "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
     ],
     "goodAgainst": [
-        "Fighting",
-        "Poison"
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
     ],
-    "energy": -60,
-    "power": 120,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
+    "energy": "-75",
+    "power": "140",
+    "dpe": "1.87"
 },
-"Magma Storm": {
+"Heat Wave": {
     "type": "Fire",
     "weakAgainst": [
         "Dragon",
@@ -1974,195 +344,27 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
+    "energy": "-75",
+    "power": "95",
+    "dpe": "1.27"
 },
-"Magnet Bomb": {
-    "type": "Steel",
+"Aerial Ace": {
+    "type": "Flying",
     "weakAgainst": [
         "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": []
-},
-"Mega Drain": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
         "Rock",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 25,
-    "dpe": 0.45,
-    "buffs": []
-},
-"Megahorn": {
-    "type": "Bug",
-    "weakAgainst": [
-        "Fairy",
-        "Fighting",
-        "Fire",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Grass",
-        "Psychic"
-    ],
-    "energy": -55,
-    "power": 110,
-    "dpe": 2,
-    "buffs": []
-},
-"Meteor Beam": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
         "Steel"
     ],
     "goodAgainst": [
         "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -60,
-    "power": 120,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
-},
-"Meteor Mash": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 100,
-    "dpe": 2,
-    "buffs": []
-},
-"Mirror Coat": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
         "Fighting",
-        "Poison"
+        "Grass"
     ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
+    "energy": "-45",
+    "power": "55",
+    "dpe": "1.22"
 },
-"Mirror Shot": {
-    "type": "Steel",
-    "weakAgainst": [
-        "Electric",
-        "Fire",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Ice",
-        "Rock"
-    ],
-    "energy": -35,
-    "power": 35,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Mist Ball": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -60,
-    "power": 120,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Moonblast": {
-    "type": "Fairy",
-    "weakAgainst": [
-        "Fire",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Dragon",
-        "Fighting"
-    ],
-    "energy": -60,
-    "power": 110,
-    "dpe": 1.83,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Mud Bomb": {
+"Drill Run": {
     "type": "Ground",
     "weakAgainst": [
         "Bug",
@@ -2176,284 +378,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -40,
-    "power": 60,
-    "dpe": 1.5,
-    "buffs": []
-},
-"Muddy Water": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -35,
-    "power": 35,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Mystical Fire": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Natures Madness": {
-    "type": "Fairy",
-    "weakAgainst": [
-        "Fire",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Dragon",
-        "Fighting"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Night Shade": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
-},
-"Night Slash": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": {
-        "activationChance": 0.125,
-        "effects": {
-            "attackerAttackStatStageChange": 2
-        }
-    }
-},
-"Oblivion Wing": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -50,
-    "power": 85,
-    "dpe": 1.7,
-    "buffs": []
-},
-"Obstruct": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -40,
-    "power": 15,
-    "dpe": 0.38,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": 1,
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Octazooka": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 50,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -2
-        }
-    }
-},
-"Ominous Wind": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 45,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "attackerAttackStatStageChange": 1,
-            "attackerDefenseStatStageChange": 1
-        }
-    }
-},
-"Origin Pulse": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -60,
-    "power": 130,
-    "dpe": 2.17,
-    "buffs": []
-},
-"Outrage": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -60,
-    "power": 110,
-    "dpe": 1.83,
-    "buffs": []
-},
-"Overheat": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 130,
-    "dpe": 2.36,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": -2
-        }
-    }
-},
-"Parabolic Charge": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 65,
-    "dpe": 1.18,
-    "buffs": []
-},
-"Payback": {
-    "type": "Dark",
-    "weakAgainst": [
-        "Dark",
-        "Fairy",
-        "Fighting"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -60,
-    "power": 110,
-    "dpe": 1.83,
-    "buffs": []
+    "energy": "-45",
+    "power": "80",
+    "dpe": "1.78"
 },
 "Petal Blizzard": {
     "type": "Grass",
@@ -2471,27 +398,49 @@ var chargeMoveDB = {
         "Rock",
         "Water"
     ],
-    "energy": -65,
-    "power": 110,
-    "dpe": 1.69,
-    "buffs": []
+    "energy": "-65",
+    "power": "110",
+    "dpe": "1.69"
 },
-"Play Rough": {
-    "type": "Fairy",
+"Mega Drain": {
+    "type": "Grass",
     "weakAgainst": [
+        "Bug",
+        "Dragon",
         "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-55",
+    "power": "25",
+    "dpe": "0.45"
+},
+"Bug Buzz": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
         "Poison",
         "Steel"
     ],
     "goodAgainst": [
         "Dark",
-        "Dragon",
-        "Fighting"
+        "Grass",
+        "Psychic"
     ],
-    "energy": -60,
-    "power": 90,
-    "dpe": 1.5,
-    "buffs": []
+    "energy": "-60",
+    "power": "100",
+    "dpe": "1.67"
 },
 "Poison Fang": {
     "type": "Poison",
@@ -2506,228 +455,26 @@ var chargeMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "energy": -40,
-    "power": 45,
-    "dpe": 1.13,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
+    "energy": "-40",
+    "power": "40",
+    "dpe": "1.00"
 },
-"Poltergeist": {
-    "type": "Ghost",
+"Night Slash": {
+    "type": "Dark",
     "weakAgainst": [
         "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -75,
-    "power": 150,
-    "dpe": 2,
-    "buffs": []
-},
-"Power Gem": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Power Up Punch": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
         "Fairy",
-        "Flying",
+        "Fighting"
+    ],
+    "goodAgainst": [
         "Ghost",
-        "Poison",
         "Psychic"
     ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -35,
-    "power": 20,
-    "dpe": 0.57,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
 },
-"Power Whip": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -50,
-    "power": 90,
-    "dpe": 1.8,
-    "buffs": []
-},
-"Precipice Blades": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -60,
-    "power": 130,
-    "dpe": 2.17,
-    "buffs": []
-},
-"Psybeam": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -60,
-    "power": 70,
-    "dpe": 1.17,
-    "buffs": []
-},
-"Psychic": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -55,
-    "power": 75,
-    "dpe": 1.36,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Psychic Fangs": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Psycho Boost": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -35,
-    "power": 70,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": -2
-        }
-    }
-},
-"Psyshock": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
-    "buffs": []
-},
-"Psystrike": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -45,
-    "power": 90,
-    "dpe": 2,
-    "buffs": []
-},
-"Razor Shell": {
+"Bubble Beam": {
     "type": "Water",
     "weakAgainst": [
         "Dragon",
@@ -2739,706 +486,9 @@ var chargeMoveDB = {
         "Ground",
         "Rock"
     ],
-    "energy": -35,
-    "power": 35,
-    "dpe": 1,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Rest": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
-    "buffs": []
-},
-"Return": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -70,
-    "power": 130,
-    "dpe": 1.86,
-    "buffs": []
-},
-"Roar Of Time": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -65,
-    "power": 150,
-    "dpe": 2.31,
-    "buffs": []
-},
-"Rock Blast": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -40,
-    "power": 50,
-    "dpe": 1.25,
-    "buffs": []
-},
-"Rock Slide": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -45,
-    "power": 75,
-    "dpe": 1.67,
-    "buffs": []
-},
-"Rock Tomb": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -60,
-    "power": 70,
-    "dpe": 1.17,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Rock Wrecker": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -50,
-    "power": 110,
-    "dpe": 2.2,
-    "buffs": []
-},
-"Sacred Fire": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -65,
-    "power": 130,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Sacred Fire Plus": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -65,
-    "power": 130,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Sacred Fire Plus Plus": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -65,
-    "power": 130,
-    "dpe": 2,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Sacred Sword": {
-    "type": "Fighting",
-    "weakAgainst": [
-        "Bug",
-        "Fairy",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Psychic"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Ice",
-        "Normal",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -35,
-    "power": 60,
-    "dpe": 1.71,
-    "buffs": []
-},
-"Sand Tomb": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 25,
-    "dpe": 0.63,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Sandsear Storm": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Scald": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -50,
-    "power": 85,
-    "dpe": 1.7,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Scald Blastoise": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -80,
-    "power": 50,
-    "dpe": 0.63,
-    "buffs": []
-},
-"Scorching Sands": {
-    "type": "Ground",
-    "weakAgainst": [
-        "Bug",
-        "Flying",
-        "Grass"
-    ],
-    "goodAgainst": [
-        "Electric",
-        "Fire",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": {
-        "activationChance": 0.3,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Seed Bomb": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Seed Flare": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -75,
-    "power": 130,
-    "dpe": 1.73,
-    "buffs": {
-        "activationChance": 0.4,
-        "effects": {
-            "targetDefenseStatStageChange": -2
-        }
-    }
-},
-"Shadow Ball": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -55,
-    "power": 100,
-    "dpe": 1.82,
-    "buffs": []
-},
-"Shadow Bone": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 80,
-    "dpe": 1.78,
-    "buffs": {
-        "activationChance": 0.2,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Shadow Force": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -90,
-    "power": 120,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Shadow Punch": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
-    "buffs": []
-},
-"Shadow Sneak": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 50,
-    "dpe": 1.11,
-    "buffs": []
-},
-"Signal Beam": {
-    "type": "Bug",
-    "weakAgainst": [
-        "Fairy",
-        "Fighting",
-        "Fire",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Grass",
-        "Psychic"
-    ],
-    "energy": -55,
-    "power": 75,
-    "dpe": 1.36,
-    "buffs": {
-        "activationChance": 0.2,
-        "effects": {
-            "targetAttackStatStageChange": -1,
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Silver Wind": {
-    "type": "Bug",
-    "weakAgainst": [
-        "Fairy",
-        "Fighting",
-        "Fire",
-        "Flying",
-        "Ghost",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dark",
-        "Grass",
-        "Psychic"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 0.1,
-        "effects": {
-            "attackerAttackStatStageChange": 1,
-            "attackerDefenseStatStageChange": 1
-        }
-    }
-},
-"Skull Bash": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -75,
-    "power": 130,
-    "dpe": 1.73,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": 1
-        }
-    }
-},
-"Sky Attack": {
-    "type": "Flying",
-    "weakAgainst": [
-        "Electric",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fighting",
-        "Grass"
-    ],
-    "energy": -50,
-    "power": 75,
-    "dpe": 1.5,
-    "buffs": []
-},
-"Sludge": {
-    "type": "Poison",
-    "weakAgainst": [
-        "Ghost",
-        "Ground",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Grass"
-    ],
-    "energy": -40,
-    "power": 50,
-    "dpe": 1.25,
-    "buffs": []
-},
-"Sludge Bomb": {
-    "type": "Poison",
-    "weakAgainst": [
-        "Ghost",
-        "Ground",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Grass"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": []
-},
-"Sludge Wave": {
-    "type": "Poison",
-    "weakAgainst": [
-        "Ghost",
-        "Ground",
-        "Poison",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fairy",
-        "Grass"
-    ],
-    "energy": -65,
-    "power": 110,
-    "dpe": 1.69,
-    "buffs": []
-},
-"Solar Beam": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -80,
-    "power": 150,
-    "dpe": 1.88,
-    "buffs": []
-},
-"Spacial Rend": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -50,
-    "power": 95,
-    "dpe": 1.9,
-    "buffs": []
-},
-"Spirit Shackle": {
-    "type": "Ghost",
-    "weakAgainst": [
-        "Dark",
-        "Normal"
-    ],
-    "goodAgainst": [
-        "Ghost",
-        "Psychic"
-    ],
-    "energy": -40,
-    "power": 50,
-    "dpe": 1.25,
-    "buffs": {
-        "activationChance": 0.33,
-        "effects": {
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Stomp": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
-    "buffs": []
-},
-"Stone Edge": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -55,
-    "power": 100,
-    "dpe": 1.82,
-    "buffs": []
-},
-"Struggle": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -100,
-    "power": 35,
-    "dpe": 0.35,
-    "buffs": []
+    "energy": "-40",
+    "power": "25",
+    "dpe": "0.63"
 },
 "Submission": {
     "type": "Fighting",
@@ -3457,10 +507,1845 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -50,
-    "power": 60,
-    "dpe": 1.2,
-    "buffs": []
+    "energy": "-50",
+    "power": "60",
+    "dpe": "1.20"
+},
+"Low Sweep": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "40",
+    "dpe": "1.00"
+},
+"Aqua Jet": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-45",
+    "power": "45",
+    "dpe": "1.00"
+},
+"Aqua Tail": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Seed Bomb": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Psyshock": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Ancient Power": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Rock Tomb": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-60",
+    "power": "70",
+    "dpe": "1.17"
+},
+"Rock Slide": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-45",
+    "power": "75",
+    "dpe": "1.67"
+},
+"Power Gem": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-60",
+    "power": "80",
+    "dpe": "1.33"
+},
+"Shadow Sneak": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "50",
+    "dpe": "1.11"
+},
+"Shadow Punch": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-35",
+    "power": "40",
+    "dpe": "1.14"
+},
+"Ominous Wind": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "45",
+    "dpe": "1.00"
+},
+"Shadow Ball": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-55",
+    "power": "100",
+    "dpe": "1.82"
+},
+"Magnet Bomb": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Iron Head": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "70",
+    "dpe": "1.40"
+},
+"Parabolic Charge": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-55",
+    "power": "65",
+    "dpe": "1.18"
+},
+"Thunder Punch": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
+},
+"Thunder": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-60",
+    "power": "100",
+    "dpe": "1.67"
+},
+"Thunderbolt": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Twister": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-45",
+    "power": "45",
+    "dpe": "1.00"
+},
+"Dragon Pulse": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-60",
+    "power": "90",
+    "dpe": "1.50"
+},
+"Dragon Claw": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Disarming Voice": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Draining Kiss": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
+},
+"Dazzling Gleam": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "energy": "-70",
+    "power": "110",
+    "dpe": "1.57"
+},
+"Moonblast": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "energy": "-60",
+    "power": "110",
+    "dpe": "1.83"
+},
+"Play Rough": {
+    "type": "Fairy",
+    "weakAgainst": [
+        "Fire",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Dragon",
+        "Fighting"
+    ],
+    "energy": "-60",
+    "power": "90",
+    "dpe": "1.50"
+},
+"Cross Poison": {
+    "type": "Poison",
+    "weakAgainst": [
+        "Ghost",
+        "Ground",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Grass"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Sludge Bomb": {
+    "type": "Poison",
+    "weakAgainst": [
+        "Ghost",
+        "Ground",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Grass"
+    ],
+    "energy": "-50",
+    "power": "80",
+    "dpe": "1.60"
+},
+"Sludge Wave": {
+    "type": "Poison",
+    "weakAgainst": [
+        "Ghost",
+        "Ground",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Grass"
+    ],
+    "energy": "-65",
+    "power": "110",
+    "dpe": "1.69"
+},
+"Gunk Shot": {
+    "type": "Poison",
+    "weakAgainst": [
+        "Ghost",
+        "Ground",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Grass"
+    ],
+    "energy": "-75",
+    "power": "130",
+    "dpe": "1.73"
+},
+"Bone Club": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-35",
+    "power": "40",
+    "dpe": "1.14"
+},
+"Bulldoze": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-60",
+    "power": "80",
+    "dpe": "1.33"
+},
+"Mud Bomb": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
+},
+"Signal Beam": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Grass",
+        "Psychic"
+    ],
+    "energy": "-55",
+    "power": "75",
+    "dpe": "1.36"
+},
+"X Scissor": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Grass",
+        "Psychic"
+    ],
+    "energy": "-35",
+    "power": "45",
+    "dpe": "1.29"
+},
+"Flame Charge": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-50",
+    "power": "65",
+    "dpe": "1.30"
+},
+"Flame Burst": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "70",
+    "dpe": "1.27"
+},
+"Fire Blast": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-80",
+    "power": "140",
+    "dpe": "1.75"
+},
+"Brine": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "60",
+    "dpe": "1.20"
+},
+"Water Pulse": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-60",
+    "power": "70",
+    "dpe": "1.17"
+},
+"Scald": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "80",
+    "dpe": "1.60"
+},
+"Hydro Pump": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-75",
+    "power": "130",
+    "dpe": "1.73"
+},
+"Psychic": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Psystrike": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
+"Icy Wind": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Giga Drain": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "80",
+    "power": "50",
+    "dpe": "0.63"
+},
+"Fire Punch": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
+},
+"Solar Beam": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-80",
+    "power": "150",
+    "dpe": "1.88"
+},
+"Leaf Blade": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-35",
+    "power": "70",
+    "dpe": "2.00"
+},
+"Power Whip": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-50",
+    "power": "90",
+    "dpe": "1.80"
+},
+"Air Cutter": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
+},
+"Hurricane": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-65",
+    "power": "110",
+    "dpe": "1.69"
+},
+"Brick Break": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-35",
+    "power": "40",
+    "dpe": "1.14"
+},
+"Swift": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
+},
+"Horn Attack": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-35",
+    "power": "40",
+    "dpe": "1.14"
+},
+"Stomp": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
+},
+"Hyper Fang": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-50",
+    "power": "80",
+    "dpe": "1.60"
+},
+"Body Slam": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-35",
+    "power": "60",
+    "dpe": "1.71"
+},
+"Rest": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Struggle": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-100",
+    "power": "35",
+    "dpe": "0.35"
+},
+"Scald Blastoise": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Hydro Pump Blastoise": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Wrap Green": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Wrap Pink": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Water Gun Blastoise": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Close Combat": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-45",
+    "power": "100",
+    "dpe": "2.22"
+},
+"Dynamic Punch": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-50",
+    "power": "90",
+    "dpe": "1.80"
+},
+"Focus Blast": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-75",
+    "power": "150",
+    "dpe": "2.00"
+},
+"Aurora Beam": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-60",
+    "power": "80",
+    "dpe": "1.33"
+},
+"Wild Charge": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-45",
+    "power": "100",
+    "dpe": "2.22"
+},
+"Zap Cannon": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-80",
+    "power": "150",
+    "dpe": "1.88"
+},
+"Avalanche": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
+"Brave Bird": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-55",
+    "power": "130",
+    "dpe": "2.36"
+},
+"Sky Attack": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-45",
+    "power": "75",
+    "dpe": "1.67"
+},
+"Sand Tomb": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "25",
+    "dpe": "0.63"
+},
+"Rock Blast": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-40",
+    "power": "50",
+    "dpe": "1.25"
+},
+"Silver Wind": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Grass",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Night Shade": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
+},
+"Gyro Ball": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-60",
+    "power": "80",
+    "dpe": "1.33"
+},
+"Heavy Slam": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "70",
+    "dpe": "1.40"
+},
+"Overheat": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "130",
+    "dpe": "2.36"
+},
+"Grass Knot": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-50",
+    "power": "90",
+    "dpe": "1.80"
+},
+"Energy Ball": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Futuresight": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-65",
+    "power": "120",
+    "dpe": "1.85"
+},
+"Mirror Coat": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-55",
+    "power": "60",
+    "dpe": "1.09"
+},
+"Outrage": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-60",
+    "power": "110",
+    "dpe": "1.83"
+},
+"Crunch": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Foul Play": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Surf": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
+},
+"Draco Meteor": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-65",
+    "power": "150",
+    "dpe": "2.31"
+},
+"Doom Desire": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-40",
+    "power": "75",
+    "dpe": "1.88"
+},
+"Psycho Boost": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-35",
+    "power": "70",
+    "dpe": "2.00"
+},
+"Origin Pulse": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-60",
+    "power": "130",
+    "dpe": "2.17"
+},
+"Precipice Blades": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-60",
+    "power": "130",
+    "dpe": "2.17"
+},
+"Weather Ball Fire": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-35",
+    "power": "55",
+    "dpe": "1.57"
+},
+"Weather Ball Ice": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-35",
+    "power": "55",
+    "dpe": "1.57"
+},
+"Weather Ball Rock": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-35",
+    "power": "60",
+    "dpe": "1.71"
+},
+"Weather Ball Water": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "55",
+    "dpe": "1.57"
+},
+"Frenzy Plant": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-45",
+    "power": "100",
+    "dpe": "2.22"
+},
+"Blast Burn": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-50",
+    "power": "110",
+    "dpe": "2.20"
+},
+"Hydro Cannon": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-40",
+    "power": "80",
+    "dpe": "2.00"
+},
+"Last Resort": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Meteor Mash": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "100",
+    "dpe": "2.00"
+},
+"Skull Bash": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-75",
+    "power": "130",
+    "dpe": "1.73"
+},
+"Acid Spray": {
+    "type": "Poison",
+    "weakAgainst": [
+        "Ghost",
+        "Ground",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Grass"
+    ],
+    "energy": "-45",
+    "power": "20",
+    "dpe": "0.44"
+},
+"Earth Power": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "90",
+    "dpe": "1.64"
+},
+"Crabhammer": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "85",
+    "dpe": "1.70"
+},
+"Lunge": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Grass",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Crush Claw": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Octazooka": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-50",
+    "power": "50",
+    "dpe": "1.00"
+},
+"Mirror Shot": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "35",
+    "dpe": "1.00"
 },
 "Super Power": {
     "type": "Fighting",
@@ -3479,528 +2364,11 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -40,
-    "power": 85,
-    "dpe": 2.13,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": -1,
-            "attackerDefenseStatStageChange": -1
-        }
-    }
+    "energy": "-40",
+    "power": "85",
+    "dpe": "2.13"
 },
-"Surf": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
-},
-"Swift": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
-},
-"Synchronoise": {
-    "type": "Psychic",
-    "weakAgainst": [
-        "Dark",
-        "Psychic",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Fighting",
-        "Poison"
-    ],
-    "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
-    "buffs": []
-},
-"Techno Blast Burn": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -55,
-    "power": 120,
-    "dpe": 2.18,
-    "buffs": []
-},
-"Techno Blast Chill": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -55,
-    "power": 120,
-    "dpe": 2.18,
-    "buffs": []
-},
-"Techno Blast Normal": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -55,
-    "power": 120,
-    "dpe": 2.18,
-    "buffs": []
-},
-"Techno Blast Shock": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 120,
-    "dpe": 2.18,
-    "buffs": []
-},
-"Techno Blast Water": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -55,
-    "power": 120,
-    "dpe": 2.18,
-    "buffs": []
-},
-"Thunder": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -60,
-    "power": 100,
-    "dpe": 1.67,
-    "buffs": []
-},
-"Thunder Punch": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
-    "buffs": []
-},
-"Thunderbolt": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -55,
-    "power": 90,
-    "dpe": 1.64,
-    "buffs": []
-},
-"Trailblaze": {
-    "type": "Grass",
-    "weakAgainst": [
-        "Bug",
-        "Dragon",
-        "Fire",
-        "Flying",
-        "Grass",
-        "Poison",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Ground",
-        "Rock",
-        "Water"
-    ],
-    "energy": -50,
-    "power": 65,
-    "dpe": 1.3,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
-},
-"Tri Attack": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -50,
-    "power": 65,
-    "dpe": 1.3,
-    "buffs": {
-        "activationChance": 0.5,
-        "effects": {
-            "targetAttackStatStageChange": -1,
-            "targetDefenseStatStageChange": -1
-        }
-    }
-},
-"Triple Axel": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerAttackStatStageChange": 1
-        }
-    }
-},
-"Twister": {
-    "type": "Dragon",
-    "weakAgainst": [
-        "Fairy",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Dragon"
-    ],
-    "energy": -45,
-    "power": 45,
-    "dpe": 1,
-    "buffs": []
-},
-"V Create": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -40,
-    "power": 95,
-    "dpe": 2.38,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -3
-        }
-    }
-},
-"Vice Grip": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -40,
-    "power": 40,
-    "dpe": 1,
-    "buffs": []
-},
-"Volt Tackle": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -50,
-    "power": 90,
-    "dpe": 1.8,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -1
-        }
-    }
-},
-"Water Pulse": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -55,
-    "power": 80,
-    "dpe": 1.45,
-    "buffs": []
-},
-"Weather Ball Fire": {
-    "type": "Fire",
-    "weakAgainst": [
-        "Dragon",
-        "Fire",
-        "Rock",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Grass",
-        "Ice",
-        "Steel"
-    ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Weather Ball Ice": {
-    "type": "Ice",
-    "weakAgainst": [
-        "Fire",
-        "Ice",
-        "Steel",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Dragon",
-        "Flying",
-        "Grass",
-        "Ground"
-    ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Weather Ball Normal": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Weather Ball Rock": {
-    "type": "Rock",
-    "weakAgainst": [
-        "Fighting",
-        "Ground",
-        "Steel"
-    ],
-    "goodAgainst": [
-        "Bug",
-        "Fire",
-        "Flying",
-        "Ice"
-    ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Weather Ball Water": {
-    "type": "Water",
-    "weakAgainst": [
-        "Dragon",
-        "Grass",
-        "Water"
-    ],
-    "goodAgainst": [
-        "Fire",
-        "Ground",
-        "Rock"
-    ],
-    "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
-    "buffs": []
-},
-"Wild Charge": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 100,
-    "dpe": 2.22,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "attackerDefenseStatStageChange": -2
-        }
-    }
-},
-"Wildbolt Storm": {
-    "type": "Electric",
-    "weakAgainst": [
-        "Dragon",
-        "Electric",
-        "Grass",
-        "Ground"
-    ],
-    "goodAgainst": [
-        "Flying",
-        "Water"
-    ],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": {
-        "activationChance": 1,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
-},
-"Wrap": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
-    "buffs": []
-},
-"Wrap Green": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -45,
-    "power": 25,
-    "dpe": 0.56,
-    "buffs": []
-},
-"Wrap Pink": {
-    "type": "Normal",
-    "weakAgainst": [
-        "Ghost",
-        "Rock",
-        "Steel"
-    ],
-    "goodAgainst": [],
-    "energy": -45,
-    "power": 25,
-    "dpe": 0.56,
-    "buffs": []
-},
-"X Scissor": {
+"Fell Stinger": {
     "type": "Bug",
     "weakAgainst": [
         "Fairy",
@@ -4016,12 +2384,413 @@ var chargeMoveDB = {
         "Grass",
         "Psychic"
     ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
-    "buffs": []
+    "energy": "-35",
+    "power": "20",
+    "dpe": "0.57"
 },
-"Zap Cannon": {
+"Leaf Tornado": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-40",
+    "power": "45",
+    "dpe": "1.13"
+},
+"Leech Life": {
+    "type": "Bug",
+    "weakAgainst": [
+        "Fairy",
+        "Fighting",
+        "Fire",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Grass",
+        "Psychic"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Drain Punch": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "40",
+    "power": "20",
+    "dpe": "0.50"
+},
+"Shadow Bone": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-45",
+    "power": "75",
+    "dpe": "1.67"
+},
+"Muddy Water": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "35",
+    "dpe": "1.00"
+},
+"Blaze Kick": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "55",
+    "dpe": "1.38"
+},
+"Razor Shell": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "35",
+    "dpe": "1.00"
+},
+"Power Up Punch": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-35",
+    "power": "20",
+    "dpe": "0.57"
+},
+"Giga Impact": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-80",
+    "power": "150",
+    "dpe": "1.88"
+},
+"Frustration": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-70",
+    "power": "10",
+    "dpe": "0.14"
+},
+"Return": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-70",
+    "power": "130",
+    "dpe": "1.86"
+},
+"Synchronoise": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "-50",
+    "power": "80",
+    "dpe": "1.60"
+},
+"Horn Drill": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Fissure": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Sacred Sword": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-35",
+    "power": "60",
+    "dpe": "1.71"
+},
+"Flying Press": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "90",
+    "dpe": "2.25"
+},
+"Aura Sphere": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "100",
+    "dpe": "1.82"
+},
+"Payback": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-60",
+    "power": "110",
+    "dpe": "1.83"
+},
+"Rock Wrecker": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-50",
+    "power": "110",
+    "dpe": "2.20"
+},
+"Aeroblast": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-75",
+    "power": "170",
+    "dpe": "2.27"
+},
+"Techno Blast Normal": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-55",
+    "power": "120",
+    "dpe": "2.18"
+},
+"Techno Blast Burn": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-55",
+    "power": "120",
+    "dpe": "2.18"
+},
+"Techno Blast Chill": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-55",
+    "power": "120",
+    "dpe": "2.18"
+},
+"Techno Blast Water": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": null,
+    "power": null,
+    "dpe": null
+},
+"Techno Blast Shock": {
     "type": "Electric",
     "weakAgainst": [
         "Dragon",
@@ -4033,14 +2802,474 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -80,
-    "power": 150,
-    "dpe": 1.88,
-    "buffs": {
-        "activationChance": 0.66,
-        "effects": {
-            "targetAttackStatStageChange": -1
-        }
-    }
+    "energy": "-55",
+    "power": "120",
+    "dpe": "2.18"
+},
+"Fly": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-45",
+    "power": "80",
+    "dpe": "1.78"
+},
+"V Create": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "95",
+    "dpe": "2.38"
+},
+"Leaf Storm": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "-55",
+    "power": "130",
+    "dpe": "2.36"
+},
+"Tri Attack": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-50",
+    "power": "65",
+    "dpe": "1.30"
+},
+"Feather Dance": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-50",
+    "power": "35",
+    "dpe": "0.70"
+},
+"Weather Ball Normal": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-35",
+    "power": "55",
+    "dpe": "1.57"
+},
+"Psychic Fangs": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "35",
+    "power": "40",
+    "dpe": "1.14"
+},
+"Sacred Fire": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "65",
+    "power": "130",
+    "dpe": "2.00"
+},
+"Icicle Spear": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-40",
+    "power": "60",
+    "dpe": "1.50"
+},
+"Acrobatics": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "60",
+    "power": "110",
+    "dpe": "1.83"
+},
+"Luster Purge": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "60",
+    "power": "120",
+    "dpe": "2.00"
+},
+"Mist Ball": {
+    "type": "Psychic",
+    "weakAgainst": [
+        "Dark",
+        "Psychic",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Fighting",
+        "Poison"
+    ],
+    "energy": "60",
+    "power": "120",
+    "dpe": "2.00"
+},
+"Brutal Swing": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
+},
+"Seed Flare": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": "75",
+    "power": "130",
+    "dpe": "1.73"
+},
+"Obstruct": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-40",
+    "power": "15",
+    "dpe": "0.38"
+},
+"Shadow Force": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "90",
+    "power": "120",
+    "dpe": "1.33"
+},
+"Meteor Beam": {
+    "type": "Rock",
+    "weakAgainst": [
+        "Fighting",
+        "Ground",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fire",
+        "Flying",
+        "Ice"
+    ],
+    "energy": "-60",
+    "power": "120",
+    "dpe": "2.00"
+},
+"Fusion Bolt": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
+"Fusion Flare": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-45",
+    "power": "90",
+    "dpe": "2.00"
+},
+"Poltergeist": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": "-80",
+    "power": "140",
+    "dpe": "1.75"
+},
+"High Horsepower": {
+    "type": "Ground",
+    "weakAgainst": [
+        "Bug",
+        "Flying",
+        "Grass"
+    ],
+    "goodAgainst": [
+        "Electric",
+        "Fire",
+        "Poison",
+        "Rock",
+        "Steel"
+    ],
+    "energy": "-60",
+    "power": "100",
+    "dpe": "1.67"
+},
+"Glaciate": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": "-40",
+    "power": "60",
+    "dpe": "1.50"
+},
+"Breaking Swipe": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Boomburst": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": "-75",
+    "power": "150",
+    "dpe": "2.00"
+},
+"Double Iron Bash": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": "-35",
+    "power": "50",
+    "dpe": "1.43"
+},
+"Myst Fire": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-45",
+    "power": "60",
+    "dpe": "1.33"
+},
+"Liquidation": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": "-45",
+    "power": "70",
+    "dpe": "1.56"
+},
+"Dragon Ascent": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": "-70",
+    "power": "150",
+    "dpe": "2.14"
+},
+"Magma Storm": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": "-40",
+    "power": "65",
+    "dpe": "1.63"
 },
 }
