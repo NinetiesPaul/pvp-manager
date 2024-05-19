@@ -158,9 +158,9 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	$.each(teams, function(mk,v) {
 		pkms = v.split(",");
-		var slot1 = pkms[0],
-			slot2 = pkms[1],
-			slot3 = pkms[2],
+		var slot1 = pkms[0].trim(),
+			slot2 = pkms[1].trim(),
+			slot3 = pkms[2].trim(),
 			slot1VulnerableTo = Object.keys(pokeDB[slot1].defense_data.vulnerable_to),
 			slot2VulnerableTo = Object.keys(pokeDB[slot2].defense_data.vulnerable_to),
 			slot3VulnerableTo = Object.keys(pokeDB[slot3].defense_data.vulnerable_to),
@@ -174,7 +174,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		$.each(pkms, function(k,v) {
 
-			$.each(pokeDB[v].defense_data.vulnerable_to, function(k,v) {
+			$.each(pokeDB[v.trim()].defense_data.vulnerable_to, function(k,v) {
 				if (jQuery.inArray(k, combinedVulnerabilites) == -1){
 					combinedVulnerabilites.push(k);
 				} else {
@@ -186,7 +186,7 @@ $(document).on('click', '.pkm-list-btn', function() {
 				}
 			})
 
-			$.each(pokeDB[v].defense_data.resistant_to, function(k,v) {
+			$.each(pokeDB[v.trim()].defense_data.resistant_to, function(k,v) {
 				if (jQuery.inArray(k, combinedResistances) == -1){
 					combinedResistances.push(k);
 				}
