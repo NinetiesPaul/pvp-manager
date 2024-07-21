@@ -3066,7 +3066,7 @@ var chargeMoveDB = {
     "power": 85,
     "dpe": 1.7,
     "buffs": {
-        "activationChance": 0.5,
+        "activationChance": 0.3,
         "effects": {
             "targetAttackStatStageChange": -1
         }
@@ -3130,8 +3130,8 @@ var chargeMoveDB = {
         "Water"
     ],
     "energy": -45,
-    "power": 60,
-    "dpe": 1.33,
+    "power": 65,
+    "dpe": 1.44,
     "buffs": []
 },
 "Seed Flare": {
@@ -3575,9 +3575,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
+    "energy": -40,
+    "power": 55,
+    "dpe": 1.38,
     "buffs": []
 },
 "Synchronoise": {

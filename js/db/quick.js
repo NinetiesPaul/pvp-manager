@@ -984,7 +984,7 @@ var quickMoveDB = {
         "Water"
     ],
     "ept": "3.50",
-    "dpt": "3.00"
+    "dpt": "2.50"
 },
 "Splash": {
     "type": "Water",

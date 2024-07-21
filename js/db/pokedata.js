@@ -922,6 +922,7 @@ var pokeDB = {
         "charge": [
             "Aerial Ace",
             "Drill Run",
+            "Fly",
             "Sky Attack",
             "Twister*"
         ]
@@ -1577,7 +1578,8 @@ var pokeDB = {
         "charge": [
             "Body Slam",
             "Disarming Voice",
-            "Moonblast"
+            "Moonblast",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -1618,7 +1620,8 @@ var pokeDB = {
             "Dazzling Gleam",
             "Meteor Mash",
             "Moonblast",
-            "Psychic"
+            "Psychic",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -1825,7 +1828,8 @@ var pokeDB = {
             "Dazzling Gleam",
             "Disarming Voice",
             "Gyro Ball",
-            "Play Rough*"
+            "Play Rough*",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -1867,7 +1871,8 @@ var pokeDB = {
             "Hyper Beam",
             "Ice Beam",
             "Icy Wind",
-            "Play Rough"
+            "Play Rough",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -7846,7 +7851,8 @@ var pokeDB = {
             "Blast Burn*",
             "Fire Blast",
             "Overheat",
-            "Solar Beam"
+            "Solar Beam",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -8520,7 +8526,8 @@ var pokeDB = {
             "Grass Knot",
             "Psychic*",
             "Psyshock",
-            "Signal Beam"
+            "Signal Beam",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -8559,6 +8566,7 @@ var pokeDB = {
             "Body Slam*",
             "Psychic",
             "Shadow Ball",
+            "Swift",
             "Wild Charge"
         ]
     },
@@ -10484,6 +10492,7 @@ var pokeDB = {
             "Cross Chop",
             "Crunch",
             "Play Rough",
+            "Swift",
             "Trailblaze"
         ]
     },
@@ -10519,6 +10528,7 @@ var pokeDB = {
             "Close Combat",
             "Hyper Beam",
             "Play Rough",
+            "Swift",
             "Trailblaze"
         ]
     },
@@ -16805,6 +16815,7 @@ var pokeDB = {
         "charge": [
             "Draco Meteor",
             "Fire Blast",
+            "Fly",
             "Hydro Pump",
             "Outrage*"
         ]
@@ -19328,6 +19339,7 @@ var pokeDB = {
         "charge": [
             "Body Slam",
             "Earth Power",
+            "Earthquake",
             "Water Pulse"
         ]
     },
@@ -20326,7 +20338,8 @@ var pokeDB = {
             "Blaze Kick",
             "Brick Break",
             "Cross Chop",
-            "Low Sweep"
+            "Low Sweep",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -20367,7 +20380,8 @@ var pokeDB = {
             "Close Combat",
             "Flash Cannon",
             "Power Up Punch",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -24690,6 +24704,7 @@ var pokeDB = {
         ],
         "charge": [
             "Aerial Ace",
+            "Fly",
             "Futuresight",
             "Psychic",
             "Psychic Fangs"
@@ -26254,7 +26269,8 @@ var pokeDB = {
         "charge": [
             "Acid Spray",
             "Brick Break",
-            "Foul Play"
+            "Foul Play",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -26293,7 +26309,8 @@ var pokeDB = {
         "charge": [
             "Acid Spray",
             "Foul Play",
-            "Power Up Punch"
+            "Power Up Punch",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -27131,6 +27148,7 @@ var pokeDB = {
         ],
         "charge": [
             "Bubble Beam",
+            "Fly",
             "Hurricane",
             "Ice Beam"
         ]
@@ -31076,7 +31094,8 @@ var pokeDB = {
             "Frenzy Plant*",
             "Gyro Ball",
             "Solar Beam",
-            "Super Power"
+            "Super Power",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -36346,7 +36365,8 @@ var pokeDB = {
             "Draco Meteor",
             "Muddy Water",
             "Power Whip",
-            "Sludge Wave"
+            "Sludge Wave",
+            "Thunder Punch*"
         ]
     },
     "defense_data": {
@@ -39686,6 +39706,7 @@ var pokeDB = {
             "Draining Kiss",
             "Energy Ball",
             "Grass Knot",
+            "High Jump Kick*",
             "Stomp",
             "Triple Axel"
         ]
@@ -41538,7 +41559,6 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
-            "Brick Break",
             "Dragon Claw",
             "Dragon Pulse"
         ]
@@ -42585,6 +42605,7 @@ var pokeDB = {
         ],
         "charge": [
             "Acrobatics",
+            "Dragon Claw",
             "Dragon Pulse",
             "Fell Stinger",
             "Sludge Bomb"
@@ -47267,6 +47288,7 @@ var pokeDB = {
             "Fire Punch",
             "High Horsepower*",
             "Ice Punch",
+            "Swift",
             "Thunder Punch",
             "Trailblaze"
         ]
@@ -48101,6 +48123,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
+            "Counter",
             "Sucker Punch"
         ],
         "charge": [
@@ -48183,6 +48206,7 @@ var pokeDB = {
         ],
         "charge": [
             "Discharge",
+            "Thunder Punch",
             "Thunderbolt",
             "Wild Charge"
         ]
@@ -48225,6 +48249,7 @@ var pokeDB = {
         "charge": [
             "Close Combat",
             "Discharge",
+            "Thunder Punch",
             "Thunderbolt",
             "Wild Charge"
         ]
@@ -50572,6 +50597,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ice Shard",
+            "Powder Snow",
             "Tackle"
         ],
         "charge": [
@@ -50608,6 +50634,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ice Shard",
+            "Powder Snow",
             "Tackle"
         ],
         "charge": [
