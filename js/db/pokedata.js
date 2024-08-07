@@ -28353,7 +28353,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Acid",
-            "Spark"
+            "Spark",
+            "Volt Switch*"
         ],
         "charge": [
             "Acid Spray",

@@ -339,6 +339,26 @@ var quickMoveDB = {
     "ept": "3.33",
     "dpt": "3.33"
 },
+"Force Palm": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "ept": "3.33",
+    "dpt": "4.33"
+},
 "Frost Breath": {
     "type": "Ice",
     "weakAgainst": [
