@@ -345,8 +345,8 @@ var chargeMoveDB = {
     ],
     "goodAgainst": [],
     "energy": -35,
-    "power": 60,
-    "dpe": 1.71,
+    "power": 50,
+    "dpe": 1.43,
     "buffs": []
 },
 "Bone Club": {
@@ -364,8 +364,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
+    "power": 55,
+    "dpe": 1.57,
     "buffs": []
 },
 "Boomburst": {
@@ -477,9 +477,9 @@ var chargeMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
+    "energy": -35,
+    "power": 55,
+    "dpe": 1.57,
     "buffs": []
 },
 "Bubble Beam": {
@@ -728,8 +728,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
+    "power": 70,
+    "dpe": 1.4,
     "buffs": []
 },
 "Disarming Voice": {
@@ -1386,8 +1386,8 @@ var chargeMoveDB = {
         "Poison"
     ],
     "energy": -65,
-    "power": 120,
-    "dpe": 1.85,
+    "power": 110,
+    "dpe": 1.69,
     "buffs": []
 },
 "Giga Drain": {
@@ -2301,9 +2301,9 @@ var chargeMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
+    "energy": -45,
+    "power": 80,
+    "dpe": 1.78,
     "buffs": []
 },
 "Night Slash": {
@@ -2476,10 +2476,15 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -55,
-    "power": 65,
-    "dpe": 1.18,
-    "buffs": []
+    "energy": -50,
+    "power": 70,
+    "dpe": 1.4,
+    "buffs": {
+        "activationChance": 0.66,
+        "effects": {
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Payback": {
     "type": "Dark",
@@ -2586,9 +2591,9 @@ var chargeMoveDB = {
         "Flying",
         "Ice"
     ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
+    "energy": -50,
+    "power": 85,
+    "dpe": 1.7,
     "buffs": []
 },
 "Power Up Punch": {
@@ -2863,8 +2868,8 @@ var chargeMoveDB = {
         "Ice"
     ],
     "energy": -45,
-    "power": 75,
-    "dpe": 1.67,
+    "power": 65,
+    "dpe": 1.44,
     "buffs": []
 },
 "Rock Tomb": {
@@ -3221,8 +3226,8 @@ var chargeMoveDB = {
         "Psychic"
     ],
     "energy": -35,
-    "power": 40,
-    "dpe": 1.14,
+    "power": 55,
+    "dpe": 1.57,
     "buffs": []
 },
 "Shadow Sneak": {
@@ -3324,9 +3329,9 @@ var chargeMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "energy": -50,
-    "power": 75,
-    "dpe": 1.5,
+    "energy": -55,
+    "power": 85,
+    "dpe": 1.55,
     "buffs": []
 },
 "Sludge": {
@@ -3416,6 +3421,23 @@ var chargeMoveDB = {
     "energy": -50,
     "power": 95,
     "dpe": 1.9,
+    "buffs": []
+},
+"Sparkling Aria": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": -45,
+    "power": 80,
+    "dpe": 1.78,
     "buffs": []
 },
 "Spirit Shackle": {
@@ -3562,9 +3584,9 @@ var chargeMoveDB = {
         "Ground",
         "Rock"
     ],
-    "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
+    "energy": -45,
+    "power": 75,
+    "dpe": 1.67,
     "buffs": []
 },
 "Swift": {
@@ -3575,9 +3597,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": -40,
+    "energy": -35,
     "power": 55,
-    "dpe": 1.38,
+    "dpe": 1.57,
     "buffs": []
 },
 "Synchronoise": {
@@ -3748,9 +3770,9 @@ var chargeMoveDB = {
         "Rock",
         "Water"
     ],
-    "energy": -50,
+    "energy": -45,
     "power": 65,
-    "dpe": 1.3,
+    "dpe": 1.44,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -4097,7 +4119,7 @@ var chargeMoveDB = {
     "power": 150,
     "dpe": 1.88,
     "buffs": {
-        "activationChance": 0.66,
+        "activationChance": 0.33,
         "effects": {
             "targetAttackStatStageChange": -1
         }

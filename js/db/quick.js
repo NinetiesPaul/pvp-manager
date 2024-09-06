@@ -41,7 +41,7 @@ var quickMoveDB = {
         "Psychic"
     ],
     "ept": "3.33",
-    "dpt": "3.00"
+    "dpt": "4.00"
 },
 "Bite": {
     "type": "Dark",
@@ -187,7 +187,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "3.50",
+    "ept": "3.00",
     "dpt": "4.00"
 },
 "Cut": {
@@ -289,7 +289,7 @@ var quickMoveDB = {
         "Fighting"
     ],
     "ept": "4.50",
-    "dpt": "1.50"
+    "dpt": "2.00"
 },
 "Feint Attack": {
     "type": "Dark",
@@ -337,7 +337,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "ept": "3.33",
-    "dpt": "3.33"
+    "dpt": "3.67"
 },
 "Force Palm": {
     "type": "Fighting",
@@ -552,7 +552,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "4.00",
+    "ept": "4.50",
     "dpt": "2.50"
 },
 "Leafage": {
@@ -650,7 +650,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "ept": "3.00",
+    "ept": "3.50",
     "dpt": "2.50"
 },
 "Metal Sound": {
@@ -690,8 +690,8 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "4.50",
-    "dpt": "1.50"
+    "ept": "4.00",
+    "dpt": "2.00"
 },
 "Mud Slap": {
     "type": "Ground",
@@ -707,8 +707,8 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
-    "ept": "3.00",
-    "dpt": "3.67"
+    "ept": "3.33",
+    "dpt": "4.00"
 },
 "Peck": {
     "type": "Flying",
@@ -755,7 +755,7 @@ var quickMoveDB = {
         "Grass"
     ],
     "ept": "4.50",
-    "dpt": "1.50"
+    "dpt": "2.00"
 },
 "Pound": {
     "type": "Normal",
@@ -821,7 +821,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "ept": "2.00",
+    "ept": "4.00",
     "dpt": "3.00"
 },
 "Quick Attack": {
@@ -852,7 +852,7 @@ var quickMoveDB = {
         "Water"
     ],
     "ept": "2.00",
-    "dpt": "5.00"
+    "dpt": "4.50"
 },
 "Roar Of Time": {
     "type": "",
@@ -911,7 +911,7 @@ var quickMoveDB = {
         "Ice"
     ],
     "ept": "4.33",
-    "dpt": "1.67"
+    "dpt": "2.67"
 },
 "Sand Attack": {
     "type": "Ground",
@@ -968,7 +968,7 @@ var quickMoveDB = {
         "Ice"
     ],
     "ept": "2.67",
-    "dpt": "4.00"
+    "dpt": "3.67"
 },
 "Snarl": {
     "type": "Dark",
@@ -1034,7 +1034,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
-    "ept": "3.50",
+    "ept": "3.00",
     "dpt": "3.50"
 },
 "Struggle Bug": {
@@ -1068,7 +1068,7 @@ var quickMoveDB = {
         "Psychic"
     ],
     "ept": "3.50",
-    "dpt": "2.50"
+    "dpt": "4.00"
 },
 "Sunsteel Strike": {
     "type": "",
@@ -1220,7 +1220,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "ept": "4.00",
+    "ept": "3.50",
     "dpt": "2.50"
 },
 "Yawn": {

@@ -1618,6 +1618,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
+            "Draining Kiss",
             "Meteor Mash",
             "Moonblast",
             "Psychic",
@@ -4097,6 +4098,7 @@ var pokeDB = {
             "Poison Jab"
         ],
         "charge": [
+            "Brutal Swing",
             "Focus Blast",
             "Psychic",
             "Scald",
@@ -7892,6 +7894,7 @@ var pokeDB = {
         ],
         "charge": [
             "Fire Punch",
+            "Night Shade",
             "Overheat",
             "Shadow Ball",
             "Wild Charge"
@@ -8236,6 +8239,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
+            "Counter",
             "Struggle Bug"
         ],
         "charge": [
@@ -8646,7 +8650,8 @@ var pokeDB = {
         "charge": [
             "Aerial Ace",
             "Ancient Power",
-            "Dazzling Gleam"
+            "Dazzling Gleam",
+            "Draining Kiss"
         ]
     },
     "defense_data": {
@@ -9827,6 +9832,930 @@ var pokeDB = {
     },
     "is_shadow": false
 },
+"Unown A": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown A",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown B": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown B",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown C": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown C",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown D": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown D",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown E": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown E",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown Exclamation Point": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown Exclamation Point",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown F": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown F",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown G": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown G",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown H": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown H",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown I": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown I",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown J": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown J",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown K": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown K",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown L": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown L",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown M": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown M",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown N": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown N",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown O": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown O",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown P": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown P",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown Q": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown Q",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown Question Mark": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown Question Mark",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown R": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown R",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown S": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown S",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown T": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown T",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown U": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown U",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown V": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown V",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown W": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown W",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown X": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown X",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown Y": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown Y",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Unown Z": {
+    "id": "0201",
+    "stats": {
+        "atk": 136,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "Unown Z",
+    "moveset": {
+        "quick": [
+            "Hidden Power"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Fighting": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
 "Wobbuffet": {
     "id": "0202",
     "stats": {
@@ -9954,7 +10883,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Struggle Bug"
+            "Struggle Bug",
+            "Volt Switch"
         ],
         "charge": [
             "Earthquake",
@@ -10742,6 +11672,43 @@ var pokeDB = {
             "Flying": "62.5%",
             "Ice": "62.5%",
             "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Galarian Corsola": {
+    "id": "0222",
+    "stats": {
+        "atk": 116,
+        "def": 182,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "imgurl": "10173",
+    "name": "Galarian Corsola",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Tackle"
+        ],
+        "charge": [
+            "Night Shade",
+            "Power Gem",
+            "Rock Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
             "Poison": "62.5%"
         }
     },
@@ -13321,7 +14288,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bullet Seed",
-            "Counter"
+            "Counter",
+            "Force Palm"
         ],
         "charge": [
             "Dynamic Punch",
@@ -13726,7 +14694,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bullet Punch",
-            "Counter"
+            "Counter",
+            "Force Palm"
         ],
         "charge": [
             "Close Combat",
@@ -14900,6 +15869,666 @@ var pokeDB = {
     ],
     "imgurl": "327",
     "name": "Spinda",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 00": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 00",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 01": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 01",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 02": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 02",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 03": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 03",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 04": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 04",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 05": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 05",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 06": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 06",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 07": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 07",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 08": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 08",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 09": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 09",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 10": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 10",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 11": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 11",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 12": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 12",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 13": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 13",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 14": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 14",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 15": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 15",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 16": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 16",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 17": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 17",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 18": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 18",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Dig",
+            "Icy Wind",
+            "Rock Tomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false
+},
+"Spinda 19": {
+    "id": "0327",
+    "stats": {
+        "atk": 116,
+        "def": 116,
+        "sta": 155
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Spinda 19",
     "moveset": {
         "quick": [
             "Psycho Cut",
@@ -16211,6 +17840,7 @@ var pokeDB = {
         ],
         "charge": [
             "Aerial Ace",
+            "Brutal Swing",
             "Leaf Blade",
             "Stomp"
         ]
@@ -20148,6 +21778,7 @@ var pokeDB = {
         ],
         "charge": [
             "Ominous Wind",
+            "Rock Tomb",
             "Shadow Ball",
             "Shadow Sneak"
         ]
@@ -20372,7 +22003,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bullet Punch",
-            "Counter"
+            "Counter",
+            "Force Palm*"
         ],
         "charge": [
             "Aura Sphere",
@@ -21005,6 +22637,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Lick",
+            "Rollout",
             "Zen Headbutt"
         ],
         "charge": [
@@ -21586,7 +23219,8 @@ var pokeDB = {
             "Ominous Wind",
             "Poltergeist",
             "Psychic",
-            "Shadow Ball*"
+            "Shadow Ball*",
+            "Shadow Punch"
         ]
     },
     "defense_data": {
@@ -22415,7 +24049,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Phione": {
     "id": "0489",
@@ -24881,7 +26515,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Gurdurr": {
     "id": "0533",
@@ -24918,7 +26552,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Conkeldurr": {
     "id": "0534",
@@ -24956,7 +26590,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Tympole": {
     "id": "0535",
@@ -26525,7 +28159,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Carracosta": {
     "id": "0565",
@@ -26567,7 +28201,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Archen": {
     "id": "0566",
@@ -26610,7 +28244,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Archeops": {
     "id": "0567",
@@ -26653,7 +28287,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Trubbish": {
     "id": "0568",
@@ -26752,7 +28386,8 @@ var pokeDB = {
         "charge": [
             "Aerial Ace",
             "Dark Pulse",
-            "Foul Play"
+            "Foul Play",
+            "Night Shade"
         ]
     },
     "defense_data": {
@@ -26789,6 +28424,7 @@ var pokeDB = {
         "charge": [
             "Flamethrower",
             "Foul Play",
+            "Night Shade",
             "Sludge Bomb"
         ]
     },
@@ -29001,6 +30637,7 @@ var pokeDB = {
         "charge": [
             "Brick Break",
             "Focus Blast",
+            "High Jump Kick*",
             "Low Sweep"
         ]
     },
@@ -29032,12 +30669,14 @@ var pokeDB = {
     "name": "Mienshao",
     "moveset": {
         "quick": [
+            "Force Palm",
             "Low Kick",
             "Poison Jab"
         ],
         "charge": [
             "Blaze Kick",
             "Brick Break",
+            "Brutal Swing",
             "Grass Knot",
             "Stone Edge"
         ]
@@ -34858,6 +36497,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bullet Punch",
+            "Karate Chop",
             "Low Kick",
             "Snarl"
         ],
@@ -37803,6 +39443,7 @@ var pokeDB = {
             "Aerial Ace",
             "Aura Sphere",
             "Energy Ball",
+            "Night Shade",
             "Trailblaze"
         ]
     },
@@ -38047,9 +39688,11 @@ var pokeDB = {
         ],
         "charge": [
             "Disarming Voice",
+            "Hydro Cannon*",
             "Hydro Pump",
             "Moonblast",
-            "Psychic"
+            "Psychic",
+            "Sparkling Aria"
         ]
     },
     "defense_data": {
@@ -38680,7 +40323,8 @@ var pokeDB = {
         ],
         "charge": [
             "Bug Buzz",
-            "Dazzling Gleam"
+            "Dazzling Gleam",
+            "Draining Kiss"
         ]
     },
     "defense_data": {
@@ -39786,6 +41430,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
+            "Brutal Swing",
             "Foul Play",
             "Futuresight",
             "Psychic",
@@ -39824,6 +41469,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
+            "Brutal Swing",
             "Close Combat",
             "Super Power"
         ]
@@ -41691,6 +43337,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
+            "Draining Kiss",
             "Focus Blast",
             "Futuresight",
             "Moonblast",
@@ -42978,7 +44625,7 @@ var pokeDB = {
     "name": "Scorbunny",
     "moveset": {
         "quick": [
-            "Ember",
+            "Fire Spin",
             "Tackle"
         ],
         "charge": [
@@ -43017,7 +44664,7 @@ var pokeDB = {
     "name": "Raboot",
     "moveset": {
         "quick": [
-            "Ember",
+            "Fire Spin",
             "Tackle"
         ],
         "charge": [
@@ -43056,7 +44703,7 @@ var pokeDB = {
     "name": "Cinderace",
     "moveset": {
         "quick": [
-            "Ember",
+            "Fire Spin",
             "Tackle"
         ],
         "charge": [
@@ -45182,13 +46829,12 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
-            "Hex"
+            "Tackle"
         ],
         "charge": [
-            "Brine",
             "Night Shade",
-            "Rock Blast",
-            "Shadow Ball"
+            "Power Gem",
+            "Rock Blast"
         ]
     },
     "defense_data": {
@@ -45203,7 +46849,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": true
+    "is_shadow": false
 },
 "Sirfetchd": {
     "id": "0865",
@@ -45305,6 +46951,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
+            "Brutal Swing",
             "Rock Tomb",
             "Sand Tomb",
             "Shadow Ball"
@@ -46324,10 +47971,11 @@ var pokeDB = {
     "name": "Dragapult",
     "moveset": {
         "quick": [
-            "Dragon Tail",
-            "Hex"
+            "Astonish",
+            "Dragon Tail"
         ],
         "charge": [
+            "Breaking Swipe",
             "Dragon Pulse",
             "Outrage",
             "Shadow Ball"
