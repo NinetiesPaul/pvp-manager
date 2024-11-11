@@ -397,7 +397,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Metapod": {
     "id": "0011",
@@ -432,7 +432,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Butterfree": {
     "id": "0012",
@@ -474,7 +474,7 @@ var pokeDB = {
             "Ground": "24.4%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Weedle": {
     "id": "0013",
@@ -2746,7 +2746,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Primeape": {
     "id": "0057",
@@ -2786,7 +2786,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Growlithe": {
     "id": "0058",
@@ -3894,7 +3894,8 @@ var pokeDB = {
             "Fire Blast",
             "Flame Charge",
             "Heat Wave",
-            "Scorching Sands"
+            "Scorching Sands",
+            "Wild Charge*"
         ]
     },
     "defense_data": {
@@ -3938,7 +3939,8 @@ var pokeDB = {
             "High Horsepower",
             "Megahorn",
             "Play Rough",
-            "Psychic"
+            "Psychic",
+            "Wild Charge*"
         ]
     },
     "defense_data": {
@@ -23841,7 +23843,7 @@ var pokeDB = {
             "Steel": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Regigigas": {
     "id": "0486",
@@ -26193,7 +26195,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Boldore": {
     "id": "0525",
@@ -26233,7 +26235,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Gigalith": {
     "id": "0526",
@@ -26275,7 +26277,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Woobat": {
     "id": "0527",
@@ -26883,7 +26885,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Razor Leaf"
+            "Razor Leaf",
+            "Shadow Claw*"
         ],
         "charge": [
             "Leaf Blade",
@@ -26950,7 +26953,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Whirlipede": {
     "id": "0544",
@@ -26991,7 +26994,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Scolipede": {
     "id": "0545",
@@ -27033,7 +27036,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Cottonee": {
     "id": "0546",
@@ -29257,7 +29260,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Escavalier": {
     "id": "0589",
@@ -29300,7 +29303,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Foongus": {
     "id": "0590",
@@ -30488,7 +30491,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Accelgor": {
     "id": "0617",
@@ -30527,7 +30530,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Stunfisk": {
     "id": "0618",
@@ -47464,6 +47467,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Charge Beam",
             "Thunder Shock"
         ],
         "charge": [
@@ -47507,6 +47511,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Charge Beam",
             "Thunder Shock"
         ],
         "charge": [
@@ -47550,6 +47555,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Charge Beam",
             "Thunder Shock"
         ],
         "charge": [
@@ -49588,7 +49594,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": "916",
+    "imgurl": null,
     "name": "Oinkologne",
     "moveset": {
         "quick": [
@@ -49963,7 +49969,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": "925",
+    "imgurl": null,
     "name": "Maushold",
     "moveset": {
         "quick": [
@@ -50274,7 +50280,7 @@ var pokeDB = {
         "Normal",
         "Flying"
     ],
-    "imgurl": "931",
+    "imgurl": null,
     "name": "Squawkabilly",
     "moveset": {
         "quick": [
@@ -51746,7 +51752,7 @@ var pokeDB = {
     "type": [
         "Water"
     ],
-    "imgurl": "964",
+    "imgurl": null,
     "name": "Palafin",
     "moveset": {
         "quick": [
@@ -52398,7 +52404,7 @@ var pokeDB = {
         "Dragon",
         "Water"
     ],
-    "imgurl": "978",
+    "imgurl": null,
     "name": "Tatsugiri",
     "moveset": {
         "quick": [
@@ -52580,7 +52586,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Clodsire": {
     "id": "0980",
@@ -52675,7 +52681,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": "982",
+    "imgurl": null,
     "name": "Dudunsparce",
     "moveset": {
         "quick": [

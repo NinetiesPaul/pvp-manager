@@ -219,6 +219,49 @@ var chargeMoveDB = {
     "dpe": 1.82,
     "buffs": []
 },
+"Aura Wheel Dark": {
+    "type": "Dark",
+    "weakAgainst": [
+        "Dark",
+        "Fairy",
+        "Fighting"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": -45,
+    "power": 100,
+    "dpe": 2.22,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
+},
+"Aura Wheel Electric": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": -45,
+    "power": 100,
+    "dpe": 2.22,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
+},
 "Aurora Beam": {
     "type": "Ice",
     "weakAgainst": [
@@ -2773,6 +2816,26 @@ var chargeMoveDB = {
     "power": 90,
     "dpe": 2,
     "buffs": []
+},
+"Rage Fist": {
+    "type": "Ghost",
+    "weakAgainst": [
+        "Dark",
+        "Normal"
+    ],
+    "goodAgainst": [
+        "Ghost",
+        "Psychic"
+    ],
+    "energy": -35,
+    "power": 50,
+    "dpe": 1.43,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Razor Shell": {
     "type": "Water",
