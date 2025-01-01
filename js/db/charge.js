@@ -587,10 +587,15 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -60,
-    "power": 80,
-    "dpe": 1.33,
-    "buffs": []
+    "energy": -45,
+    "power": 45,
+    "dpe": 1,
+    "buffs": {
+        "activationChance": 0.5,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Close Combat": {
     "type": "Fighting",
@@ -1167,8 +1172,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
+    "power": 60,
+    "dpe": 1.5,
     "buffs": []
 },
 "Flame Burst": {
@@ -1269,6 +1274,32 @@ var chargeMoveDB = {
     "power": 110,
     "dpe": 1.57,
     "buffs": []
+},
+"Flower Trick": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": -35,
+    "power": 30,
+    "dpe": 0.86,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Fly": {
     "type": "Flying",
@@ -1788,8 +1819,8 @@ var chargeMoveDB = {
         "Ground"
     ],
     "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
+    "power": 60,
+    "dpe": 1.5,
     "buffs": []
 },
 "Icicle Spear": {
@@ -3796,8 +3827,8 @@ var chargeMoveDB = {
         "Water"
     ],
     "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
+    "power": 60,
+    "dpe": 1.5,
     "buffs": []
 },
 "Thunderbolt": {

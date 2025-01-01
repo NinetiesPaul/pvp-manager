@@ -319,7 +319,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "ept": "2.50",
+    "ept": "3.00",
     "dpt": "4.00"
 },
 "Fire Spin": {
@@ -463,7 +463,7 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
-    "ept": "2.50",
+    "ept": "3.00",
     "dpt": "4.00"
 },
 "Ice Shard": {
@@ -1111,7 +1111,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
-    "ept": "2.50",
+    "ept": "3.00",
     "dpt": "4.00"
 },
 "Thunder Shock": {
@@ -1127,7 +1127,7 @@ var quickMoveDB = {
         "Water"
     ],
     "ept": "4.50",
-    "dpt": "1.50"
+    "dpt": "2.00"
 },
 "Vine Whip": {
     "type": "Grass",

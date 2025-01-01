@@ -2771,7 +2771,8 @@ var pokeDB = {
             "Cross Chop*",
             "Ice Punch",
             "Low Sweep",
-            "Night Slash"
+            "Night Slash",
+            "Rage Fist*"
         ]
     },
     "defense_data": {
@@ -6092,6 +6093,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hidden Power",
+            "Psywave",
             "Tackle*",
             "Water Gun"
         ],
@@ -6101,6 +6103,7 @@ var pokeDB = {
             "Power Gem",
             "Psybeam",
             "Psychic",
+            "Surf",
             "Thunder"
         ]
     },
@@ -7079,6 +7082,44 @@ var pokeDB = {
     ],
     "imgurl": "143",
     "name": "Snorlax",
+    "moveset": {
+        "quick": [
+            "Lick",
+            "Yawn*",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Body Slam",
+            "Earthquake",
+            "Heavy Slam",
+            "Hyper Beam",
+            "Outrage",
+            "Skull Bash",
+            "Super Power"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": true
+},
+"2849": {
+    "id": "0143",
+    "stats": {
+        "atk": 190,
+        "def": 169,
+        "sta": 330
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "2849",
     "moveset": {
         "quick": [
             "Lick",
@@ -18488,7 +18529,7 @@ var pokeDB = {
             "Take Down"
         ],
         "charge": [
-            "Struggle"
+            "Iron Head"
         ]
     },
     "defense_data": {
@@ -19679,6 +19720,7 @@ var pokeDB = {
     "name": "Bibarel",
     "moveset": {
         "quick": [
+            "Rollout",
             "Take Down",
             "Water Gun"
         ],
@@ -23013,6 +23055,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Fury Cutter",
+            "Sand Attack",
             "Wing Attack"
         ],
         "charge": [
@@ -37390,6 +37433,7 @@ var pokeDB = {
         ],
         "charge": [
             "Aqua Tail",
+            "Focus Blast",
             "Gunk Shot",
             "Hydro Pump",
             "Outrage"
@@ -44044,7 +44088,7 @@ var pokeDB = {
     "name": "Necrozma Ultra",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Splash"
         ],
         "charge": [
             "Struggle"
@@ -44085,7 +44129,7 @@ var pokeDB = {
     "name": "Magearna",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Splash"
         ],
         "charge": [
             "Struggle"
@@ -44127,7 +44171,7 @@ var pokeDB = {
     "name": "Magearna Original Color",
     "moveset": {
         "quick": [
-            "Struggle"
+            "Splash"
         ],
         "charge": [
             "Struggle"
@@ -45004,8 +45048,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brave Bird",
-            "Drill Peck",
-            "Iron Head"
+            "Drill Peck"
         ]
     },
     "defense_data": {
@@ -46518,8 +46561,8 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
-            "Psybeam",
-            "Psychic"
+            "Psychic",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -46554,8 +46597,8 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
-            "Psybeam",
-            "Psychic"
+            "Psychic",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -46593,8 +46636,8 @@ var pokeDB = {
         "charge": [
             "Dazzling Gleam",
             "Power Whip",
-            "Psybeam",
-            "Psychic"
+            "Psychic",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -47471,10 +47514,10 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "Crunch",
-            "Payback",
-            "Thunderbolt",
-            "Wild Charge"
+            "406",
+            "Outrage",
+            "Psychic Fangs",
+            "Seed Bomb"
         ]
     },
     "defense_data": {
@@ -47515,10 +47558,10 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "Crunch",
-            "Payback",
-            "Thunderbolt",
-            "Wild Charge"
+            "406",
+            "Outrage",
+            "Psychic Fangs",
+            "Seed Bomb"
         ]
     },
     "defense_data": {
@@ -47559,10 +47602,10 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "Crunch",
-            "Payback",
-            "Thunderbolt",
-            "Wild Charge"
+            "407",
+            "Outrage",
+            "Psychic Fangs",
+            "Seed Bomb"
         ]
     },
     "defense_data": {
@@ -52568,6 +52611,7 @@ var pokeDB = {
             "Ice Punch",
             "Low Sweep",
             "Night Slash",
+            "Rage Fist*",
             "Shadow Ball"
         ]
     },
