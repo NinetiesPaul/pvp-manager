@@ -1378,6 +1378,25 @@ var chargeMoveDB = {
     "dpe": 1.56,
     "buffs": []
 },
+"Freeze Shock": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": -65,
+    "power": 1,
+    "dpe": 0.02,
+    "buffs": []
+},
 "Frenzy Plant": {
     "type": "Grass",
     "weakAgainst": [
@@ -1802,6 +1821,25 @@ var chargeMoveDB = {
     "energy": -55,
     "power": 90,
     "dpe": 1.64,
+    "buffs": []
+},
+"Ice Burn": {
+    "type": "Ice",
+    "weakAgainst": [
+        "Fire",
+        "Ice",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Dragon",
+        "Flying",
+        "Grass",
+        "Ground"
+    ],
+    "energy": -65,
+    "power": 1,
+    "dpe": 0.02,
     "buffs": []
 },
 "Ice Punch": {

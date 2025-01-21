@@ -7108,7 +7108,7 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"2849": {
+"Snorlax Wildarea 2024": {
     "id": "0143",
     "stats": {
         "atk": 190,
@@ -7119,7 +7119,7 @@ var pokeDB = {
         "Normal"
     ],
     "imgurl": null,
-    "name": "2849",
+    "name": "Snorlax Wildarea 2024",
     "moveset": {
         "quick": [
             "Lick",
@@ -13949,7 +13949,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Swellow": {
     "id": "0277",
@@ -13988,7 +13988,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Wingull": {
     "id": "0278",
@@ -23800,7 +23800,7 @@ var pokeDB = {
             "Water": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Palkia Origin": {
     "id": "0484",
@@ -23838,7 +23838,7 @@ var pokeDB = {
             "Water": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Heatran": {
     "id": "0485",
@@ -25094,7 +25094,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Servine": {
     "id": "0496",
@@ -25134,7 +25134,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Serperior": {
     "id": "0497",
@@ -25175,7 +25175,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Tepig": {
     "id": "0498",
@@ -25215,7 +25215,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Pignite": {
     "id": "0499",
@@ -25257,7 +25257,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Emboar": {
     "id": "0500",
@@ -25301,7 +25301,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Oshawott": {
     "id": "0501",
@@ -25338,7 +25338,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Dewott": {
     "id": "0502",
@@ -25375,7 +25375,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Samurott": {
     "id": "0503",
@@ -25415,7 +25415,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Hisuian Samurott": {
     "id": "0503",
@@ -25461,7 +25461,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Patrat": {
     "id": "0504",
@@ -28371,7 +28371,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Garbodor": {
     "id": "0569",
@@ -28410,7 +28410,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Zorua": {
     "id": "0570",
@@ -33084,7 +33084,7 @@ var pokeDB = {
             "Ghost": "39.1%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Diggersby": {
     "id": "0660",
@@ -33126,7 +33126,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false
+    "is_shadow": true
 },
 "Fletchling": {
     "id": "0661",
@@ -49321,6 +49321,8 @@ var pokeDB = {
         ],
         "charge": [
             "Energy Ball",
+            "Flower Trick",
+            "Frenzy Plant*",
             "Grass Knot",
             "Night Slash",
             "Play Rough"
