@@ -178,13 +178,13 @@
                 $("#filter_opt").change(function() {
                     hideTypes = [];
                     if ($("#filter_opt").val() == "filterIn") {
-                        $("#filterByType tbody tr td button").each(function(k,v) {
+                        $("#filterByType button").each(function(k,v) {
                             if (v.classList.contains('disabled') == false) {
                                 v.classList.add('disabled')
                             }
                         });
                     } else {
-                        $("#filterByType tbody tr td button").each(function(k,v) {
+                        $("#filterByType button").each(function(k,v) {
                             v.classList.remove('disabled')
                         });
 
@@ -527,59 +527,96 @@
 
                     <div class="tab-pane fade show" id="pvp-teamassembler" role="tabpanel" >
 
-                        <textarea class="pkm-list" style="height: 252px; width:50em;"></textarea>
+                        <textarea class="pkm-list" style="height: 252px; width:70%;"></textarea>
 
-                        <p>
-                            <br><button type="button" class="btn btn-sm btn-primary pkm-list-btn">Create Teams</button>
-                            <br>Hide double vulnerabilities <input type="checkbox" id="hide_dv"/>
-                            <br>Single type only <input type="checkbox" id="hide_dt"/>
-                            <br>Has relevant charge moves <input type="checkbox" id="hide_irrelevant"/>
-                            <br>Hide Cross-team vulnerability <input type="checkbox" id="hide_ctv"/>
-                            <br>Quick Moves with EPT 
-                            <select id="ept_comparison" class="custom-select" style="width: 8em;">
-                                <option value="=">equal to</option>
-                                <option value=">">greater than</option>
-                                <option value=">=">greather than or equal to</option>
-                            </select>
-                            <select id="ept_limit" class="custom-select" style="width: 5em;">
-                                <option value="-">-</option>
-                                <option value="3">3</option>
-                                <option value="3.5">3.5</option>
-                                <option value="4">4</option>
-                            </select>
-                        </p><br>
-
-                        <table id="filterByType" style="width: 100%">
+                        <table id="teamassemblerfilter-table" class="table table-sm">
+                            <thead></thead>
                             <tbody>
                                 <tr>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #9BA0A0;">Normal</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #F8DD64;">Electric</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #5FA9DC;">Water</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #FFA74E;">Fire</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #E04452;">Fighting</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #D3C891;">Rock</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #D68858;">Ground</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #6A6EC4;">Ghost</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #EF9AE2;">Fairy</button></td>
+                                    <td>
+                                        Hide double vulnerabilities
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="hide_dv"/>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #9AB4E4;">Flying</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #5DBC66;">Grass</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #FA8281;">Psychic</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #6C7180;">Dark</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #559DA5;">Steel</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #A5C731;">Bug</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #B762CE;">Poison</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #84D6CC;">Ice</button></td>
-                                    <td><button class="btn btn-sm hideType" style="width: 100%; background-color: #0780BD;">Dragon</button></td>
+                                    <td>
+                                        Single type only
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="hide_dt"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Has relevant charge moves
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="hide_irrelevant"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Hide Cross-team vulnerability
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" id="hide_ctv"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        Quick Moves with EPT
+                                        <select id="ept_comparison" class="custom-select" style="width: 8em;">
+                                            <option value="=">equal to</option>
+                                            <option value=">">greater than</option>
+                                            <option value=">=">greather than or equal to</option>
+                                        </select>
+                                        <select id="ept_limit" class="custom-select" style="width: 5em;">
+                                            <option value="-">-</option>
+                                            <option value="3">3</option>
+                                            <option value="3.5">3.5</option>
+                                            <option value="4">4</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                                <tr id="filterByType">
+                                    <td>                  
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #9BA0A0;">Normal</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #F8DD64;">Electric</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #5FA9DC;">Water</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #FFA74E;">Fire</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #E04452;">Fighting</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #D3C891;">Rock</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #D68858;">Ground</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #6A6EC4;">Ghost</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #EF9AE2;">Fairy</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #9AB4E4;">Flying</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #5DBC66;">Grass</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #FA8281;">Psychic</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #6C7180;">Dark</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #559DA5;">Steel</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #A5C731;">Bug</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #B762CE;">Poison</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #84D6CC;">Ice</button>
+                                        <button class="btn btn-sm hideType typeButton" style="background-color: #0780BD;">Dragon</button>
+                                                
+                                    </td>
+                                    <td>
+                                        <select id="filter_opt">
+                                            <option value="filterOut">Filter Out</option>
+                                            <option value="filterIn">Filter In</option>
+                                        </select>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
+
+                        
+
+
                         <p>
-                            <select id="filter_opt">
-                                <option value="filterOut">Filter Out</option>
-                                <option value="filterIn">Filter In</option>
-                            </select>
+                            <br><button type="button" class="btn btn-sm btn-primary pkm-list-btn">Create Teams</button>
                         </p>
 
                         <p id="assembler_result">
@@ -597,9 +634,10 @@
                                     <th>Slot 1</th>
                                     <th>Slot 2</th>
                                     <th>Slot 3</th>
+                                    <th>Shared Vulnerabilities</th>
                                     <th>Resistances</th>
                                     <th>Vulnerabilities</th>
-                                    <th>Cross-team vulnerability</th>
+                                    <th>CTT</th>
                                 </tr>
                             </thead>
                             <tbody id="assembler-tbody">
@@ -611,7 +649,7 @@
 
                         Use whole database <input type="checkbox" id="whole_database"/>
 
-                        <br/><textarea class="pkm-list-db" style="height: 252px; width:50em;"></textarea>
+                        <br/><textarea class="pkm-list-db" style="height: 252px; width:70%;"></textarea>
 
                         <p>
                             <br>Can learn move:<br/>

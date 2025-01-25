@@ -102,6 +102,20 @@ p {
   text-align: center;
 }
 
+.typeButton {
+  width: 15%;
+}
+
+#teamassemblerfilter-table{
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#teamassemblerfilter-table td{
+  padding: 0.5em
+}
+
 .hide{
   display: none;
 }
