@@ -138,21 +138,38 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	var teams = [];
 
-	$.each(pkms, function(k1,v1){
-		$.each(pkms, function(k2,v2){
-			$.each(pkms, function(k3,v3){
-				if (v1 != v2 && v2 != v3 && v1 != v3){
-					team = [v1,v2,v3];
-					team.sort();
-					team = team.join(',');
+	teams = []
 
-					if (teams.includes(team) === false) {
-						teams.push(team);
-					}
-				}
-			});
-		});
+	// the length of skipping after n0; eg: n0 n1 n2, n0 n2 n3, n0 n3 n4
+	sliceSkip = pkms.length - 3
+	
+	pkms.forEach((item, idx) => {
+		arrayOrder = pkms.slice(idx, pkms.length)
+	
+		// changes the array's item order skipping 1 item to the left; eg: a b c d, b c d a, c d a b
+		if (arrayOrder.length < pkms.length) {
+			arrayOrder = arrayOrder.concat(pkms.slice(0, pkms.length - arrayOrder.length))
+		}
+	
+		//console.log(arrayOrder)
+		combination = [];
+		for(k = 0; k <= sliceSkip; k++) {
+			// creates the combination, slicing at k + 2 and pushing the item at arrayOrder index 0 at the beggining
+			combination = arrayOrder.slice(k + 1, k + 3)
+			combination.splice(0,0,arrayOrder[0])
+			combination.sort()
+			//console.log(combination)
+	
+			joinedCombination = combination.join(",")
+			if (teams.includes(joinedCombination) === false) {
+				//console.log(joinedCombination)
+				teams.push(joinedCombination);
+			}
+		}
+	
 	});
+	
+	teams.sort()
 
 	var textToAppend = "",
 		teamCounter = 0;
