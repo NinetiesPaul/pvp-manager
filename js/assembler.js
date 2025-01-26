@@ -111,17 +111,17 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 				switch ($("#ept_comparison option:selected").val()) {
 					case "=":
-						if (moveEpt == ept) {
+						if (parseFloat(moveEpt) === parseFloat(ept)) {
 							toKeep.push(pkm)
 						}
 						break;
 					case ">=":
-						if (moveEpt >= ept) {
+						if (parseFloat(moveEpt) >= parseFloat(ept)) {
 							toKeep.push(pkm)
 						}
 						break;
 					case ">":
-						if (moveEpt > ept) {
+						if (parseFloat(moveEpt) > parseFloat(ept)) {
 							toKeep.push(pkm)
 						}
 						break;
@@ -176,10 +176,22 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 	$.each(teams, function(mk,v) {
 		pkms = v.split(",");
+		
 		var slot1 = pkms[0].trim(),
 			slot2 = pkms[1].trim(),
-			slot3 = pkms[2].trim(),
-			slot1VulnerableTo = Object.keys(pokeDB[slot1].defense_data.vulnerable_to),
+			slot3 = pkms[2].trim();
+
+		if (Object.keys(pokeDB).includes(slot1) === false) {
+			throw new Error(slot1," not found");
+		}
+		if (Object.keys(pokeDB).includes(slot2) === false) {
+			throw new Error(slot2," not found");
+		}
+		if (Object.keys(pokeDB).includes(slot3) === false) {
+			throw new Error(slot3," not found");
+		}
+
+		var slot1VulnerableTo = Object.keys(pokeDB[slot1].defense_data.vulnerable_to),
 			slot2VulnerableTo = Object.keys(pokeDB[slot2].defense_data.vulnerable_to),
 			slot3VulnerableTo = Object.keys(pokeDB[slot3].defense_data.vulnerable_to),
 			slot1SharedVulnerability = slot1VulnerableTo.filter(value => slot2VulnerableTo.concat(slot3VulnerableTo).includes(value))
