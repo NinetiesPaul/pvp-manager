@@ -27606,48 +27606,6 @@ var pokeDB = {
     },
     "is_shadow": true
 },
-"Darmanitan": {
-    "id": "0555",
-    "stats": {
-        "atk": 263,
-        "def": 114,
-        "sta": 233
-    },
-    "type": [
-        "Fire"
-    ],
-    "imgurl": null,
-    "name": "Darmanitan",
-    "moveset": {
-        "quick": [
-            "Fire Fang",
-            "Incinerate",
-            "Tackle"
-        ],
-        "charge": [
-            "Focus Blast",
-            "Overheat",
-            "Psychic",
-            "Rock Slide"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "160%",
-            "Rock": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fairy": "62.5%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": true
-},
 "Standard Galarian Darmanitan": {
     "id": "0555",
     "stats": {
@@ -27658,7 +27616,7 @@ var pokeDB = {
     "type": [
         "Ice"
     ],
-    "imgurl": null,
+    "imgurl": "10177",
     "name": "Standard Galarian Darmanitan",
     "moveset": {
         "quick": [
@@ -27696,7 +27654,7 @@ var pokeDB = {
         "Ice",
         "Fire"
     ],
-    "imgurl": null,
+    "imgurl": "10178",
     "name": "Zen Galarian Darmanitan",
     "moveset": {
         "quick": [
@@ -27736,7 +27694,7 @@ var pokeDB = {
     "type": [
         "Fire"
     ],
-    "imgurl": null,
+    "imgurl": "555",
     "name": "Darmanitan Standard",
     "moveset": {
         "quick": [
@@ -27779,7 +27737,7 @@ var pokeDB = {
         "Fire",
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "10017",
     "name": "Darmanitan Zen",
     "moveset": {
         "quick": [
@@ -44969,11 +44927,12 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
-            "Peck"
+            "Peck",
+            "Sand Attack"
         ],
         "charge": [
-            "Brave Bird",
-            "Drill Peck"
+            "Payback",
+            "Sky Attack"
         ]
     },
     "defense_data": {
@@ -45006,11 +44965,12 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
-            "Peck"
+            "Peck",
+            "Sand Attack"
         ],
         "charge": [
-            "Brave Bird",
-            "Drill Peck"
+            "Payback",
+            "Sky Attack"
         ]
     },
     "defense_data": {
@@ -45044,11 +45004,12 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
+            "Sand Attack",
             "Steel Wing"
         ],
         "charge": [
-            "Brave Bird",
-            "Drill Peck"
+            "Payback",
+            "Sky Attack"
         ]
     },
     "defense_data": {
