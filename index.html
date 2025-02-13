@@ -205,7 +205,6 @@
                         $("#filterByType button").each(function(k,v) {
                             v.classList.remove('disabled')
                         });
-
                     }
                 });
 
@@ -629,17 +628,34 @@
                                                 
                                     </td>
                                     <td>
-                                        <select id="filter_opt">
+                                        <select id="filter_opt" class="custom-select">
                                             <option value="filterOut">Filter Out</option>
                                             <option value="filterIn">Filter In</option>
                                         </select>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        Filter by region
+                                    </td>
+                                    <td>
+                                        <select id="filterByRegion" name="pokemonList_slot1_alternatives" class="custom-select">
+                                            <option>All</option>
+                                            <option>Kanto</option>
+                                            <option>Johto</option>
+                                            <option>Hoenn</option>
+                                            <option>Sinnoh</option>
+                                            <option>Unova</option>
+                                            <option>Kalos</option>
+                                            <option>Alola</option>
+                                            <option>Galar</option>
+                                            <option>Hisui</option>
+                                            <option>Paldea</option>
+                                        </select><br/>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
-
-                        
-
 
                         <p>
                             <br><button type="button" class="btn btn-sm btn-primary pkm-list-btn">Create Teams</button>

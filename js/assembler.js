@@ -96,6 +96,14 @@ $(document).on('click', '.pkm-list-btn', function() {
 		});
 	}
 
+	if ($("#filterByRegion").val() !== "All") {
+		$.each(pkms, function(id,pkm) {
+			if (pokeDB[pkm].region !== $("#filterByRegion").val()) {
+				toRemove.push(pkm)
+			}
+		});
+	}
+
 	$.each(toRemove, function(id,removePkm) {
 		pkms.splice(pkms.findIndex(x => x == removePkm), 1)
 	});
