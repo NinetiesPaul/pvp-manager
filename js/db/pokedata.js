@@ -19042,7 +19042,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "386",
     "name": "Deoxys",
     "moveset": {
         "quick": [
@@ -19078,7 +19078,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "10001",
     "name": "Attack Deoxys",
     "moveset": {
         "quick": [
@@ -19114,7 +19114,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "10002",
     "name": "Defense Deoxys",
     "moveset": {
         "quick": [
@@ -19150,7 +19150,7 @@ var pokeDB = {
     "type": [
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "10003",
     "name": "Speed Deoxys",
     "moveset": {
         "quick": [
