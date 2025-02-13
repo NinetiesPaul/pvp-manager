@@ -78,6 +78,18 @@ function getPokemonData(pokemon, slot)
         $('#charge1_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
         $('#charge2_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
     });
+
+    $("#pokemonList_" + slot + "_alternatives").html("");
+    $("#pokemonList_" + slot + "_alternatives").append("<option>-- Alternatives to this type --</option>")
+
+    let thisPokemonType = structuredClone(data.type);
+    for (var key in pokeDB) {
+        let candidateType = structuredClone(pokeDB[key].type)
+        if (JSON.stringify(candidateType.sort()) === JSON.stringify(thisPokemonType.sort())) {
+            let alternativeName = pokeDB[key].id + " - " + pokeDB[key].name
+            $("#pokemonList_" + slot + "_alternatives").append("<option>" + alternativeName + "</option>")
+        }
+    }
     
     return data;
 }
