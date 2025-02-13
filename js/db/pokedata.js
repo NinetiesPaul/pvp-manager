@@ -31595,45 +31595,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Tornadus": {
-    "id": "0641",
-    "stats": {
-        "atk": 266,
-        "def": 164,
-        "sta": 188
-    },
-    "type": [
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Tornadus",
-    "moveset": {
-        "quick": [
-            "Air Slash",
-            "Bite"
-        ],
-        "charge": [
-            "Dark Pulse",
-            "Grass Knot",
-            "Hurricane",
-            "Hyper Beam"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Ice": "160%",
-            "Rock": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "62.5%",
-            "Grass": "62.5%",
-            "Ground": "39.1%"
-        }
-    },
-    "is_shadow": false
-},
 "Tornadus Incarnate": {
     "id": "0641",
     "stats": {
@@ -31644,7 +31605,7 @@ var pokeDB = {
     "type": [
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "641",
     "name": "Tornadus Incarnate",
     "moveset": {
         "quick": [
@@ -31683,7 +31644,7 @@ var pokeDB = {
     "type": [
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10019",
     "name": "Tornadus Therian",
     "moveset": {
         "quick": [
@@ -31713,47 +31674,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Thundurus": {
-    "id": "0642",
-    "stats": {
-        "atk": 266,
-        "def": 164,
-        "sta": 188
-    },
-    "type": [
-        "Electric",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Thundurus",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Thunder Shock"
-        ],
-        "charge": [
-            "Brick Break",
-            "Crunch",
-            "Thunder",
-            "Thunder Punch"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ice": "160%",
-            "Rock": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "62.5%",
-            "Flying": "62.5%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Thundurus Incarnate": {
     "id": "0642",
     "stats": {
@@ -31765,7 +31685,7 @@ var pokeDB = {
         "Electric",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "642",
     "name": "Thundurus Incarnate",
     "moveset": {
         "quick": [
@@ -31806,7 +31726,7 @@ var pokeDB = {
         "Electric",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10020",
     "name": "Thundurus Therian",
     "moveset": {
         "quick": [
@@ -31923,46 +31843,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Landorus": {
-    "id": "0645",
-    "stats": {
-        "atk": 261,
-        "def": 182,
-        "sta": 205
-    },
-    "type": [
-        "Ground",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Landorus",
-    "moveset": {
-        "quick": [
-            "Mud Shot",
-            "Rock Throw"
-        ],
-        "charge": [
-            "Earth Power",
-            "Focus Blast",
-            "Outrage",
-            "Rock Slide"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ice": "256%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Electric": "62.5%",
-            "Fighting": "62.5%",
-            "Ground": "39.1%",
-            "Poison": "62.5%"
-        }
-    },
-    "is_shadow": false
-},
 "Landorus Incarnate": {
     "id": "0645",
     "stats": {
@@ -31974,7 +31854,7 @@ var pokeDB = {
         "Ground",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "645",
     "name": "Landorus Incarnate",
     "moveset": {
         "quick": [
@@ -32014,7 +31894,7 @@ var pokeDB = {
         "Ground",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10021",
     "name": "Landorus Therian",
     "moveset": {
         "quick": [
@@ -40412,6 +40292,47 @@ var pokeDB = {
         "charge": [
             "Crunch",
             "Rock Tomb",
+            "Stone Edge",
+            "Trailblaze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false
+},
+"Lycanroc": {
+    "id": "0745",
+    "stats": {
+        "atk": 231,
+        "def": 140,
+        "sta": 181
+    },
+    "type": [
+        "Rock"
+    ],
+    "imgurl": null,
+    "name": "Lycanroc",
+    "moveset": {
+        "quick": [
+            "Rock Throw",
+            "Sucker Punch"
+        ],
+        "charge": [
+            "Crunch",
+            "Drill Run",
             "Stone Edge",
             "Trailblaze"
         ]
@@ -49050,50 +48971,6 @@ var pokeDB = {
     },
     "is_shadow": false
 },
-"Enamorus": {
-    "id": "0905",
-    "stats": {
-        "atk": 281,
-        "def": 162,
-        "sta": 179
-    },
-    "type": [
-        "Fairy",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Enamorus",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Fairy Wind",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Fly",
-            "Grass Knot"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Ice": "160%",
-            "Poison": "160%",
-            "Rock": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "39.1%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "39.1%"
-        }
-    },
-    "is_shadow": false
-},
 "Enamorus Incarnate": {
     "id": "0905",
     "stats": {
@@ -49105,7 +48982,7 @@ var pokeDB = {
         "Fairy",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "905",
     "name": "Enamorus Incarnate",
     "moveset": {
         "quick": [
@@ -49149,7 +49026,7 @@ var pokeDB = {
         "Fairy",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10249",
     "name": "Enamorus Therian",
     "moveset": {
         "quick": [
