@@ -107,13 +107,14 @@ p {
 }
 
 #teamassemblerfilter-table{
-  background-color: white;
   width: 70%;
   margin: 0 auto;
 }
 
 #teamassemblerfilter-table td{
-  padding: 0.5em
+  background-color: white;
+  padding: 0.5em;
+  border: 0.15em solid #e9ecef;
 }
 
 .hide{
@@ -126,4 +127,8 @@ p {
 
 .moveBuff{
   display: block;
+}
+
+.rightColumn {
+  text-align: center;
 }
