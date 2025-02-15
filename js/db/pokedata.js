@@ -39,7 +39,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Ivysaur": {
     "id": "0002",
@@ -81,7 +82,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Venusaur": {
     "id": "0003",
@@ -124,7 +126,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Charmander": {
     "id": "0004",
@@ -165,7 +168,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Charmeleon": {
     "id": "0005",
@@ -207,7 +211,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Charizard": {
     "id": "0006",
@@ -255,7 +260,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Squirtle": {
     "id": "0007",
@@ -293,7 +299,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Wartortle": {
     "id": "0008",
@@ -331,7 +338,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Blastoise": {
     "id": "0009",
@@ -371,7 +379,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Caterpie": {
     "id": "0010",
@@ -407,7 +416,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Metapod": {
     "id": "0011",
@@ -443,7 +453,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Butterfree": {
     "id": "0012",
@@ -486,7 +497,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Weedle": {
     "id": "0013",
@@ -526,7 +538,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Kakuna": {
     "id": "0014",
@@ -566,7 +579,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Beedrill": {
     "id": "0015",
@@ -611,7 +625,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Pidgey": {
     "id": "0016",
@@ -651,7 +666,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Pidgeotto": {
     "id": "0017",
@@ -691,7 +707,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Pidgeot": {
     "id": "0018",
@@ -735,7 +752,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Rattata": {
     "id": "0019",
@@ -769,7 +787,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Rattata": {
     "id": "0019",
@@ -808,7 +827,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Raticate": {
     "id": "0020",
@@ -842,7 +862,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Raticate": {
     "id": "0020",
@@ -881,7 +902,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Spearow": {
     "id": "0021",
@@ -922,7 +944,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Fearow": {
     "id": "0022",
@@ -964,7 +987,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Ekans": {
     "id": "0023",
@@ -1004,7 +1028,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Arbok": {
     "id": "0024",
@@ -1045,7 +1070,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Pikachu": {
     "id": "0025",
@@ -1084,7 +1110,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Raichu": {
     "id": "0026",
@@ -1125,7 +1152,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Raichu": {
     "id": "0026",
@@ -1170,7 +1198,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Sandshrew": {
     "id": "0027",
@@ -1210,7 +1239,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Sandshrew": {
     "id": "0027",
@@ -1255,7 +1285,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Sandslash": {
     "id": "0028",
@@ -1296,7 +1327,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Sandslash": {
     "id": "0028",
@@ -1345,7 +1377,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Nidoran Female": {
     "id": "0029",
@@ -1384,7 +1417,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Nidorina": {
     "id": "0030",
@@ -1424,7 +1458,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Nidoqueen": {
     "id": "0031",
@@ -1469,7 +1504,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Nidoran Male": {
     "id": "0032",
@@ -1508,7 +1544,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Nidorino": {
     "id": "0033",
@@ -1548,7 +1585,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Nidoking": {
     "id": "0034",
@@ -1595,7 +1633,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Clefairy": {
     "id": "0035",
@@ -1634,7 +1673,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Clefable": {
     "id": "0036",
@@ -1678,7 +1718,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Vulpix": {
     "id": "0037",
@@ -1720,7 +1761,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Vulpix": {
     "id": "0037",
@@ -1758,7 +1800,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Ninetales": {
     "id": "0038",
@@ -1805,7 +1848,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Ninetales": {
     "id": "0038",
@@ -1849,7 +1893,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Jigglypuff": {
     "id": "0039",
@@ -1891,7 +1936,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Wigglytuff": {
     "id": "0040",
@@ -1935,7 +1981,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Zubat": {
     "id": "0041",
@@ -1979,7 +2026,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Golbat": {
     "id": "0042",
@@ -2023,7 +2071,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Oddish": {
     "id": "0043",
@@ -2065,7 +2114,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Gloom": {
     "id": "0044",
@@ -2107,7 +2157,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Vileplume": {
     "id": "0045",
@@ -2150,7 +2201,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Paras": {
     "id": "0046",
@@ -2194,7 +2246,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Parasect": {
     "id": "0047",
@@ -2239,7 +2292,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Venonat": {
     "id": "0048",
@@ -2281,7 +2335,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Venomoth": {
     "id": "0049",
@@ -2325,7 +2380,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Diglett": {
     "id": "0050",
@@ -2364,7 +2420,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Diglett": {
     "id": "0050",
@@ -2412,7 +2469,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Dugtrio": {
     "id": "0051",
@@ -2451,7 +2509,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Dugtrio": {
     "id": "0051",
@@ -2499,7 +2558,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Meowth": {
     "id": "0052",
@@ -2534,7 +2594,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Meowth": {
     "id": "0052",
@@ -2573,7 +2634,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Galarian Meowth": {
     "id": "0052",
@@ -2620,7 +2682,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Persian": {
     "id": "0053",
@@ -2656,7 +2719,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Persian": {
     "id": "0053",
@@ -2696,7 +2760,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Psyduck": {
     "id": "0054",
@@ -2734,7 +2799,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Golduck": {
     "id": "0055",
@@ -2776,7 +2842,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Mankey": {
     "id": "0056",
@@ -2814,7 +2881,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Primeape": {
     "id": "0057",
@@ -2856,7 +2924,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Growlithe": {
     "id": "0058",
@@ -2897,7 +2966,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Hisuian Growlithe": {
     "id": "0058",
@@ -2941,7 +3011,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": false
 },
 "Arcanine": {
     "id": "0059",
@@ -2988,7 +3059,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Hisuian Arcanine": {
     "id": "0059",
@@ -3034,7 +3106,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Poliwag": {
     "id": "0060",
@@ -3072,7 +3145,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Poliwhirl": {
     "id": "0061",
@@ -3111,7 +3185,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Poliwrath": {
     "id": "0062",
@@ -3162,7 +3237,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Abra": {
     "id": "0063",
@@ -3199,7 +3275,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Kadabra": {
     "id": "0064",
@@ -3236,7 +3313,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alakazam": {
     "id": "0065",
@@ -3277,7 +3355,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Machop": {
     "id": "0066",
@@ -3316,7 +3395,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Machoke": {
     "id": "0067",
@@ -3355,7 +3435,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Machamp": {
     "id": "0068",
@@ -3399,7 +3480,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Bellsprout": {
     "id": "0069",
@@ -3441,7 +3523,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Weepinbell": {
     "id": "0070",
@@ -3484,7 +3567,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Victreebel": {
     "id": "0071",
@@ -3529,7 +3613,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Tentacool": {
     "id": "0072",
@@ -3573,7 +3658,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Tentacruel": {
     "id": "0073",
@@ -3619,7 +3705,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Geodude": {
     "id": "0074",
@@ -3664,7 +3751,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Geodude": {
     "id": "0074",
@@ -3706,7 +3794,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Graveler": {
     "id": "0075",
@@ -3753,7 +3842,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Graveler": {
     "id": "0075",
@@ -3795,7 +3885,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Golem": {
     "id": "0076",
@@ -3842,7 +3933,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Golem": {
     "id": "0076",
@@ -3885,7 +3977,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Ponyta": {
     "id": "0077",
@@ -3927,7 +4020,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Galarian Ponyta": {
     "id": "0077",
@@ -3964,7 +4058,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Rapidash": {
     "id": "0078",
@@ -4010,7 +4105,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Rapidash": {
     "id": "0078",
@@ -4053,7 +4149,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Slowpoke": {
     "id": "0079",
@@ -4097,7 +4194,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Galarian Slowpoke": {
     "id": "0079",
@@ -4134,7 +4232,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Slowbro": {
     "id": "0080",
@@ -4180,7 +4279,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Slowbro": {
     "id": "0080",
@@ -4223,7 +4323,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Magnemite": {
     "id": "0081",
@@ -4273,7 +4374,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Magneton": {
     "id": "0082",
@@ -4325,7 +4427,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Farfetchd": {
     "id": "0083",
@@ -4366,7 +4469,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Farfetchd": {
     "id": "0083",
@@ -4404,7 +4508,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Doduo": {
     "id": "0084",
@@ -4445,7 +4550,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Dodrio": {
     "id": "0085",
@@ -4486,7 +4592,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Seel": {
     "id": "0086",
@@ -4526,7 +4633,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Dewgong": {
     "id": "0087",
@@ -4570,7 +4678,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Grimer": {
     "id": "0088",
@@ -4609,7 +4718,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Alola Grimer": {
     "id": "0088",
@@ -4648,7 +4758,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Muk": {
     "id": "0089",
@@ -4690,7 +4801,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Muk": {
     "id": "0089",
@@ -4731,7 +4843,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Shellder": {
     "id": "0090",
@@ -4770,7 +4883,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Cloyster": {
     "id": "0091",
@@ -4813,7 +4927,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Gastly": {
     "id": "0092",
@@ -4858,7 +4973,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Haunter": {
     "id": "0093",
@@ -4904,7 +5020,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Gengar": {
     "id": "0094",
@@ -4953,7 +5070,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Onix": {
     "id": "0095",
@@ -5001,7 +5119,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Drowzee": {
     "id": "0096",
@@ -5038,7 +5157,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Hypno": {
     "id": "0097",
@@ -5080,7 +5200,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Krabby": {
     "id": "0098",
@@ -5119,7 +5240,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Kingler": {
     "id": "0099",
@@ -5160,7 +5282,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Voltorb": {
     "id": "0100",
@@ -5197,7 +5320,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Hisuian Voltorb": {
     "id": "0100",
@@ -5238,7 +5362,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": false
 },
 "Electrode": {
     "id": "0101",
@@ -5276,7 +5401,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Hisuian Electrode": {
     "id": "0101",
@@ -5317,7 +5443,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Exeggcute": {
     "id": "0102",
@@ -5363,7 +5490,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Exeggutor": {
     "id": "0103",
@@ -5411,7 +5539,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Exeggutor": {
     "id": "0103",
@@ -5455,7 +5584,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Cubone": {
     "id": "0104",
@@ -5493,7 +5623,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Marowak": {
     "id": "0105",
@@ -5532,7 +5663,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Alola Marowak": {
     "id": "0105",
@@ -5582,7 +5714,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Hitmonlee": {
     "id": "0106",
@@ -5624,7 +5757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Hitmonchan": {
     "id": "0107",
@@ -5666,7 +5800,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Lickitung": {
     "id": "0108",
@@ -5701,7 +5836,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Koffing": {
     "id": "0109",
@@ -5740,7 +5876,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Weezing": {
     "id": "0110",
@@ -5780,7 +5917,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Weezing": {
     "id": "0110",
@@ -5825,7 +5963,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Rhyhorn": {
     "id": "0111",
@@ -5870,7 +6009,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Rhydon": {
     "id": "0112",
@@ -5917,7 +6057,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Chansey": {
     "id": "0113",
@@ -5951,7 +6092,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Tangela": {
     "id": "0114",
@@ -5993,7 +6135,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Kangaskhan": {
     "id": "0115",
@@ -6030,7 +6173,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Horsea": {
     "id": "0116",
@@ -6068,7 +6212,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Seadra": {
     "id": "0117",
@@ -6107,7 +6252,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Goldeen": {
     "id": "0118",
@@ -6145,7 +6291,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Seaking": {
     "id": "0119",
@@ -6186,7 +6333,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Staryu": {
     "id": "0120",
@@ -6224,7 +6372,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Starmie": {
     "id": "0121",
@@ -6274,7 +6423,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Mr Mime": {
     "id": "0122",
@@ -6315,7 +6465,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Mime Mr": {
     "id": "0122",
@@ -6357,7 +6508,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Scyther": {
     "id": "0123",
@@ -6402,7 +6554,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Jynx": {
     "id": "0124",
@@ -6446,7 +6599,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Electabuzz": {
     "id": "0125",
@@ -6482,7 +6636,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Magmar": {
     "id": "0126",
@@ -6524,7 +6679,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Pinsir": {
     "id": "0127",
@@ -6565,7 +6721,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Tauros": {
     "id": "0128",
@@ -6600,7 +6757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Magikarp": {
     "id": "0129",
@@ -6635,7 +6793,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Gyarados": {
     "id": "0130",
@@ -6681,7 +6840,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Lapras": {
     "id": "0131",
@@ -6724,7 +6884,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Ditto": {
     "id": "0132",
@@ -6755,7 +6916,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Eevee": {
     "id": "0133",
@@ -6790,7 +6952,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Eevee Gofest 2024 Mtiara": {
     "id": "0133",
@@ -6825,7 +6988,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Eevee Gofest 2024 Stiara": {
     "id": "0133",
@@ -6860,7 +7024,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Vaporeon": {
     "id": "0134",
@@ -6900,7 +7065,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Jolteon": {
     "id": "0135",
@@ -6938,7 +7104,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Flareon": {
     "id": "0136",
@@ -6982,7 +7149,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Porygon": {
     "id": "0137",
@@ -7021,7 +7189,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Omanyte": {
     "id": "0138",
@@ -7065,7 +7234,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Omastar": {
     "id": "0139",
@@ -7109,7 +7279,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Kabuto": {
     "id": "0140",
@@ -7151,7 +7322,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Kabutops": {
     "id": "0141",
@@ -7195,7 +7367,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Aerodactyl": {
     "id": "0142",
@@ -7242,7 +7415,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Snorlax": {
     "id": "0143",
@@ -7281,7 +7455,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Snorlax Wildarea 2024": {
     "id": "0143",
@@ -7320,7 +7495,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Articuno": {
     "id": "0144",
@@ -7363,7 +7539,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Articuno": {
     "id": "0144",
@@ -7405,7 +7582,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zapdos": {
     "id": "0145",
@@ -7448,7 +7626,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Zapdos": {
     "id": "0145",
@@ -7490,7 +7669,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Moltres": {
     "id": "0146",
@@ -7535,7 +7715,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Galarian Moltres": {
     "id": "0146",
@@ -7577,7 +7758,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Dratini": {
     "id": "0147",
@@ -7616,7 +7798,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Dragonair": {
     "id": "0148",
@@ -7656,7 +7839,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": false
 },
 "Dragonite": {
     "id": "0149",
@@ -7704,7 +7888,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Mewtwo": {
     "id": "0150",
@@ -7746,7 +7931,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Mewtwo A": {
     "id": "0150",
@@ -7785,7 +7971,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Mew": {
     "id": "0151",
@@ -7856,7 +8043,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kanto"
+    "region": "Kanto",
+    "is_final_stage": true
 },
 "Chikorita": {
     "id": "0152",
@@ -7898,7 +8086,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Bayleef": {
     "id": "0153",
@@ -7940,7 +8129,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Meganium": {
     "id": "0154",
@@ -7983,7 +8173,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Cyndaquil": {
     "id": "0155",
@@ -8024,7 +8215,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Quilava": {
     "id": "0156",
@@ -8065,7 +8257,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Typhlosion": {
     "id": "0157",
@@ -8109,7 +8302,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Hisuian Typhlosion": {
     "id": "0157",
@@ -8158,7 +8352,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Totodile": {
     "id": "0158",
@@ -8196,7 +8391,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Croconaw": {
     "id": "0159",
@@ -8234,7 +8430,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Feraligatr": {
     "id": "0160",
@@ -8276,7 +8473,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Sentret": {
     "id": "0161",
@@ -8310,7 +8508,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Furret": {
     "id": "0162",
@@ -8344,7 +8543,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Hoothoot": {
     "id": "0163",
@@ -8384,7 +8584,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Noctowl": {
     "id": "0164",
@@ -8425,7 +8626,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Ledyba": {
     "id": "0165",
@@ -8467,7 +8669,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Ledian": {
     "id": "0166",
@@ -8511,7 +8714,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Spinarak": {
     "id": "0167",
@@ -8553,7 +8757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Ariados": {
     "id": "0168",
@@ -8597,7 +8802,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Crobat": {
     "id": "0169",
@@ -8642,7 +8848,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Chinchou": {
     "id": "0170",
@@ -8682,7 +8889,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Lanturn": {
     "id": "0171",
@@ -8724,7 +8932,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Pichu": {
     "id": "0172",
@@ -8759,7 +8968,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Cleffa": {
     "id": "0173",
@@ -8800,7 +9010,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Igglybuff": {
     "id": "0174",
@@ -8841,7 +9052,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Togepi": {
     "id": "0175",
@@ -8880,7 +9092,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Togetic": {
     "id": "0176",
@@ -8928,7 +9141,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Natu": {
     "id": "0177",
@@ -8970,7 +9184,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Xatu": {
     "id": "0178",
@@ -9012,7 +9227,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Mareep": {
     "id": "0179",
@@ -9049,7 +9265,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Flaaffy": {
     "id": "0180",
@@ -9086,7 +9303,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Ampharos": {
     "id": "0181",
@@ -9127,7 +9345,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Bellossom": {
     "id": "0182",
@@ -9170,7 +9389,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Marill": {
     "id": "0183",
@@ -9213,7 +9433,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Azumarill": {
     "id": "0184",
@@ -9256,7 +9477,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Sudowoodo": {
     "id": "0185",
@@ -9300,7 +9522,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Politoed": {
     "id": "0186",
@@ -9342,7 +9565,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Hoppip": {
     "id": "0187",
@@ -9384,7 +9608,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Skiploom": {
     "id": "0188",
@@ -9426,7 +9651,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Jumpluff": {
     "id": "0189",
@@ -9471,7 +9697,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Aipom": {
     "id": "0190",
@@ -9505,7 +9732,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Sunkern": {
     "id": "0191",
@@ -9546,7 +9774,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Sunflora": {
     "id": "0192",
@@ -9588,7 +9817,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Yanma": {
     "id": "0193",
@@ -9630,7 +9860,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Wooper": {
     "id": "0194",
@@ -9669,7 +9900,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Wooper Paldea": {
     "id": "0194",
@@ -9712,7 +9944,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Quagsire": {
     "id": "0195",
@@ -9754,7 +9987,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Espeon": {
     "id": "0196",
@@ -9794,7 +10028,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Espeon Gofest 2024 Sscarf": {
     "id": "0196",
@@ -9834,7 +10069,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Umbreon": {
     "id": "0197",
@@ -9873,7 +10109,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Umbreon Gofest 2024 Mscarf": {
     "id": "0197",
@@ -9912,7 +10149,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Murkrow": {
     "id": "0198",
@@ -9954,7 +10192,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Slowking": {
     "id": "0199",
@@ -10000,7 +10239,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Galarian Slowking": {
     "id": "0199",
@@ -10043,7 +10283,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Misdreavus": {
     "id": "0200",
@@ -10082,7 +10323,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Unown": {
     "id": "0201",
@@ -10116,7 +10358,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown A": {
     "id": "0201",
@@ -10150,7 +10393,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown B": {
     "id": "0201",
@@ -10184,7 +10428,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown C": {
     "id": "0201",
@@ -10218,7 +10463,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown D": {
     "id": "0201",
@@ -10252,7 +10498,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown E": {
     "id": "0201",
@@ -10286,7 +10533,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown Exclamation Point": {
     "id": "0201",
@@ -10320,7 +10568,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown F": {
     "id": "0201",
@@ -10354,7 +10603,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown G": {
     "id": "0201",
@@ -10388,7 +10638,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown H": {
     "id": "0201",
@@ -10422,7 +10673,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown I": {
     "id": "0201",
@@ -10456,7 +10708,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown J": {
     "id": "0201",
@@ -10490,7 +10743,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown K": {
     "id": "0201",
@@ -10524,7 +10778,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown L": {
     "id": "0201",
@@ -10558,7 +10813,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown M": {
     "id": "0201",
@@ -10592,7 +10848,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown N": {
     "id": "0201",
@@ -10626,7 +10883,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown O": {
     "id": "0201",
@@ -10660,7 +10918,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown P": {
     "id": "0201",
@@ -10694,7 +10953,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown Q": {
     "id": "0201",
@@ -10728,7 +10988,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown Question Mark": {
     "id": "0201",
@@ -10762,7 +11023,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown R": {
     "id": "0201",
@@ -10796,7 +11058,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown S": {
     "id": "0201",
@@ -10830,7 +11093,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown T": {
     "id": "0201",
@@ -10864,7 +11128,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown U": {
     "id": "0201",
@@ -10898,7 +11163,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown V": {
     "id": "0201",
@@ -10932,7 +11198,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown W": {
     "id": "0201",
@@ -10966,7 +11233,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown X": {
     "id": "0201",
@@ -11000,7 +11268,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown Y": {
     "id": "0201",
@@ -11034,7 +11303,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Unown Z": {
     "id": "0201",
@@ -11068,7 +11338,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Wobbuffet": {
     "id": "0202",
@@ -11104,7 +11375,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Girafarig": {
     "id": "0203",
@@ -11144,7 +11416,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Pineco": {
     "id": "0204",
@@ -11182,7 +11455,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Forretress": {
     "id": "0205",
@@ -11228,7 +11502,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Dunsparce": {
     "id": "0206",
@@ -11263,7 +11538,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Gligar": {
     "id": "0207",
@@ -11303,7 +11579,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Steelix": {
     "id": "0208",
@@ -11353,7 +11630,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Snubbull": {
     "id": "0209",
@@ -11391,7 +11669,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Granbull": {
     "id": "0210",
@@ -11430,7 +11709,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Qwilfish": {
     "id": "0211",
@@ -11477,7 +11757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Hisuian Qwilfish": {
     "id": "0211",
@@ -11518,7 +11799,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": false
 },
 "Scizor": {
     "id": "0212",
@@ -11562,7 +11844,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Shuckle": {
     "id": "0213",
@@ -11600,7 +11883,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Heracross": {
     "id": "0214",
@@ -11643,7 +11927,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Sneasel": {
     "id": "0215",
@@ -11687,7 +11972,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Hisuian Sneasel": {
     "id": "0215",
@@ -11729,7 +12015,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": false
 },
 "Teddiursa": {
     "id": "0216",
@@ -11765,7 +12052,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Ursaring": {
     "id": "0217",
@@ -11802,7 +12090,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Slugma": {
     "id": "0218",
@@ -11843,7 +12132,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Magcargo": {
     "id": "0219",
@@ -11889,7 +12179,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Swinub": {
     "id": "0220",
@@ -11929,7 +12220,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Piloswine": {
     "id": "0221",
@@ -11970,7 +12262,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Corsola": {
     "id": "0222",
@@ -12012,7 +12305,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Galarian Corsola": {
     "id": "0222",
@@ -12050,7 +12344,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Remoraid": {
     "id": "0223",
@@ -12088,7 +12383,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Octillery": {
     "id": "0224",
@@ -12129,7 +12425,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Delibird": {
     "id": "0225",
@@ -12170,7 +12467,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Mantine": {
     "id": "0226",
@@ -12213,7 +12511,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Skarmory": {
     "id": "0227",
@@ -12258,7 +12557,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Houndour": {
     "id": "0228",
@@ -12302,7 +12602,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Houndoom": {
     "id": "0229",
@@ -12347,7 +12648,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Kingdra": {
     "id": "0230",
@@ -12387,7 +12689,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Phanpy": {
     "id": "0231",
@@ -12426,7 +12729,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Donphan": {
     "id": "0232",
@@ -12468,7 +12772,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Porygon2": {
     "id": "0233",
@@ -12504,7 +12809,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Stantler": {
     "id": "0234",
@@ -12538,7 +12844,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Tyrogue": {
     "id": "0236",
@@ -12576,7 +12883,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Hitmontop": {
     "id": "0237",
@@ -12615,7 +12923,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Smoochum": {
     "id": "0238",
@@ -12657,7 +12966,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Elekid": {
     "id": "0239",
@@ -12694,7 +13004,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Magby": {
     "id": "0240",
@@ -12736,7 +13047,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Miltank": {
     "id": "0241",
@@ -12773,7 +13085,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Blissey": {
     "id": "0242",
@@ -12808,7 +13121,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Raikou": {
     "id": "0243",
@@ -12845,7 +13159,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Entei": {
     "id": "0244",
@@ -12889,7 +13204,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Suicune": {
     "id": "0245",
@@ -12931,7 +13247,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Larvitar": {
     "id": "0246",
@@ -12976,7 +13293,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Pupitar": {
     "id": "0247",
@@ -13021,7 +13339,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": false
 },
 "Tyranitar": {
     "id": "0248",
@@ -13070,7 +13389,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Lugia": {
     "id": "0249",
@@ -13113,7 +13433,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Ho-Oh": {
     "id": "0250",
@@ -13160,7 +13481,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Celebi": {
     "id": "0251",
@@ -13209,7 +13531,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Johto"
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Treecko": {
     "id": "0252",
@@ -13250,7 +13573,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Grovyle": {
     "id": "0253",
@@ -13291,7 +13615,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Sceptile": {
     "id": "0254",
@@ -13335,7 +13660,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Torchic": {
     "id": "0255",
@@ -13376,7 +13702,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Combusken": {
     "id": "0256",
@@ -13419,7 +13746,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Blaziken": {
     "id": "0257",
@@ -13465,7 +13793,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Mudkip": {
     "id": "0258",
@@ -13503,7 +13832,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Marshtomp": {
     "id": "0259",
@@ -13542,7 +13872,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Swampert": {
     "id": "0260",
@@ -13583,7 +13914,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Poochyena": {
     "id": "0261",
@@ -13621,7 +13953,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Mightyena": {
     "id": "0262",
@@ -13661,7 +13994,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Zigzagoon": {
     "id": "0263",
@@ -13696,7 +14030,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Galarian Zigzagoon": {
     "id": "0263",
@@ -13735,7 +14070,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Linoone": {
     "id": "0264",
@@ -13770,7 +14106,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Galarian Linoone": {
     "id": "0264",
@@ -13809,7 +14146,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Wurmple": {
     "id": "0265",
@@ -13845,7 +14183,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Silcoon": {
     "id": "0266",
@@ -13881,7 +14220,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Beautifly": {
     "id": "0267",
@@ -13923,7 +14263,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Cascoon": {
     "id": "0268",
@@ -13959,7 +14300,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Dustox": {
     "id": "0269",
@@ -14001,7 +14343,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Lotad": {
     "id": "0270",
@@ -14040,7 +14383,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Lombre": {
     "id": "0271",
@@ -14080,7 +14424,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Ludicolo": {
     "id": "0272",
@@ -14123,7 +14468,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Seedot": {
     "id": "0273",
@@ -14164,7 +14510,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Nuzleaf": {
     "id": "0274",
@@ -14211,7 +14558,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Shiftry": {
     "id": "0275",
@@ -14261,7 +14609,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Taillow": {
     "id": "0276",
@@ -14299,7 +14648,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Swellow": {
     "id": "0277",
@@ -14339,7 +14689,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Wingull": {
     "id": "0278",
@@ -14380,7 +14731,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Pelipper": {
     "id": "0279",
@@ -14422,7 +14774,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Ralts": {
     "id": "0280",
@@ -14461,7 +14814,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Kirlia": {
     "id": "0281",
@@ -14503,7 +14857,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Gardevoir": {
     "id": "0282",
@@ -14546,7 +14901,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Surskit": {
     "id": "0283",
@@ -14587,7 +14943,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Masquerain": {
     "id": "0284",
@@ -14631,7 +14988,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Shroomish": {
     "id": "0285",
@@ -14672,7 +15030,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Breloom": {
     "id": "0286",
@@ -14719,7 +15078,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Slakoth": {
     "id": "0287",
@@ -14752,7 +15112,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Vigoroth": {
     "id": "0288",
@@ -14787,7 +15148,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Slaking": {
     "id": "0289",
@@ -14821,7 +15183,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Nincada": {
     "id": "0290",
@@ -14862,7 +15225,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Ninjask": {
     "id": "0291",
@@ -14904,7 +15268,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Shedinja": {
     "id": "0292",
@@ -14949,7 +15314,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Whismur": {
     "id": "0293",
@@ -14983,7 +15349,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Loudred": {
     "id": "0294",
@@ -15017,7 +15384,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Exploud": {
     "id": "0295",
@@ -15052,7 +15420,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Makuhita": {
     "id": "0296",
@@ -15090,7 +15459,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Hariyama": {
     "id": "0297",
@@ -15130,7 +15500,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Azurill": {
     "id": "0298",
@@ -15169,7 +15540,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Nosepass": {
     "id": "0299",
@@ -15210,7 +15582,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Skitty": {
     "id": "0300",
@@ -15244,7 +15617,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Delcatty": {
     "id": "0301",
@@ -15279,7 +15653,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Sableye": {
     "id": "0302",
@@ -15317,7 +15692,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Mawile": {
     "id": "0303",
@@ -15367,7 +15743,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Aron": {
     "id": "0304",
@@ -15412,7 +15789,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Lairon": {
     "id": "0305",
@@ -15458,7 +15836,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Aggron": {
     "id": "0306",
@@ -15506,7 +15885,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Meditite": {
     "id": "0307",
@@ -15544,7 +15924,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Medicham": {
     "id": "0308",
@@ -15583,7 +15964,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Electrike": {
     "id": "0309",
@@ -15619,7 +16001,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Manectric": {
     "id": "0310",
@@ -15658,7 +16041,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Plusle": {
     "id": "0311",
@@ -15695,7 +16079,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Minun": {
     "id": "0312",
@@ -15732,7 +16117,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Volbeat": {
     "id": "0313",
@@ -15770,7 +16156,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Illumise": {
     "id": "0314",
@@ -15808,7 +16195,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Roselia": {
     "id": "0315",
@@ -15851,7 +16239,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Gulpin": {
     "id": "0316",
@@ -15890,7 +16279,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Swalot": {
     "id": "0317",
@@ -15931,7 +16321,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Carvanha": {
     "id": "0318",
@@ -15976,7 +16367,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Sharpedo": {
     "id": "0319",
@@ -16021,7 +16413,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Wailmer": {
     "id": "0320",
@@ -16060,7 +16453,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Wailord": {
     "id": "0321",
@@ -16099,7 +16493,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Numel": {
     "id": "0322",
@@ -16140,7 +16535,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Camerupt": {
     "id": "0323",
@@ -16183,7 +16579,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Torkoal": {
     "id": "0324",
@@ -16224,7 +16621,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spoink": {
     "id": "0325",
@@ -16261,7 +16659,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Grumpig": {
     "id": "0326",
@@ -16298,7 +16697,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda": {
     "id": "0327",
@@ -16332,7 +16732,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 00": {
     "id": "0327",
@@ -16366,7 +16767,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 01": {
     "id": "0327",
@@ -16400,7 +16802,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 02": {
     "id": "0327",
@@ -16434,7 +16837,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 03": {
     "id": "0327",
@@ -16468,7 +16872,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 04": {
     "id": "0327",
@@ -16502,7 +16907,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 05": {
     "id": "0327",
@@ -16536,7 +16942,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 06": {
     "id": "0327",
@@ -16570,7 +16977,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 07": {
     "id": "0327",
@@ -16604,7 +17012,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 08": {
     "id": "0327",
@@ -16638,7 +17047,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 09": {
     "id": "0327",
@@ -16672,7 +17082,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 10": {
     "id": "0327",
@@ -16706,7 +17117,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 11": {
     "id": "0327",
@@ -16740,7 +17152,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 12": {
     "id": "0327",
@@ -16774,7 +17187,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 13": {
     "id": "0327",
@@ -16808,7 +17222,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 14": {
     "id": "0327",
@@ -16842,7 +17257,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 15": {
     "id": "0327",
@@ -16876,7 +17292,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 16": {
     "id": "0327",
@@ -16910,7 +17327,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 17": {
     "id": "0327",
@@ -16944,7 +17362,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 18": {
     "id": "0327",
@@ -16978,7 +17397,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spinda 19": {
     "id": "0327",
@@ -17012,7 +17432,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Trapinch": {
     "id": "0328",
@@ -17052,7 +17473,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Vibrava": {
     "id": "0329",
@@ -17094,7 +17516,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Flygon": {
     "id": "0330",
@@ -17138,7 +17561,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Cacnea": {
     "id": "0331",
@@ -17182,7 +17606,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Cacturne": {
     "id": "0332",
@@ -17232,7 +17657,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Swablu": {
     "id": "0333",
@@ -17272,7 +17698,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Altaria": {
     "id": "0334",
@@ -17316,7 +17743,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Zangoose": {
     "id": "0335",
@@ -17350,7 +17778,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Seviper": {
     "id": "0336",
@@ -17389,7 +17818,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Lunatone": {
     "id": "0337",
@@ -17435,7 +17865,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Solrock": {
     "id": "0338",
@@ -17481,7 +17912,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Barboach": {
     "id": "0339",
@@ -17521,7 +17953,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Whiscash": {
     "id": "0340",
@@ -17561,7 +17994,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Corphish": {
     "id": "0341",
@@ -17601,7 +18035,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Crawdaunt": {
     "id": "0342",
@@ -17649,7 +18084,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Baltoy": {
     "id": "0343",
@@ -17693,7 +18129,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Claydol": {
     "id": "0344",
@@ -17743,7 +18180,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Lileep": {
     "id": "0345",
@@ -17783,7 +18221,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Cradily": {
     "id": "0346",
@@ -17824,7 +18263,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Anorith": {
     "id": "0347",
@@ -17862,7 +18302,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Armaldo": {
     "id": "0348",
@@ -17901,7 +18342,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Feebas": {
     "id": "0349",
@@ -17937,7 +18379,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Milotic": {
     "id": "0350",
@@ -17975,7 +18418,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Castform": {
     "id": "0351",
@@ -18008,7 +18452,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Castform Rainy": {
     "id": "0351",
@@ -18046,7 +18491,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Castform Snowy": {
     "id": "0351",
@@ -18083,7 +18529,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Castform Sunny": {
     "id": "0351",
@@ -18124,7 +18571,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Kecleon": {
     "id": "0352",
@@ -18161,7 +18609,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Shuppet": {
     "id": "0353",
@@ -18199,7 +18648,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Banette": {
     "id": "0354",
@@ -18237,7 +18687,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Duskull": {
     "id": "0355",
@@ -18275,7 +18726,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Dusclops": {
     "id": "0356",
@@ -18314,7 +18766,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Tropius": {
     "id": "0357",
@@ -18357,7 +18810,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Chimecho": {
     "id": "0358",
@@ -18395,7 +18849,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Absol": {
     "id": "0359",
@@ -18434,7 +18889,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Wynaut": {
     "id": "0360",
@@ -18469,7 +18925,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Snorunt": {
     "id": "0361",
@@ -18506,7 +18963,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Glalie": {
     "id": "0362",
@@ -18543,7 +19001,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Spheal": {
     "id": "0363",
@@ -18582,7 +19041,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Sealeo": {
     "id": "0364",
@@ -18621,7 +19081,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Walrein": {
     "id": "0365",
@@ -18662,7 +19123,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Clamperl": {
     "id": "0366",
@@ -18699,7 +19161,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Huntail": {
     "id": "0367",
@@ -18737,7 +19200,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Gorebyss": {
     "id": "0368",
@@ -18775,7 +19239,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Relicanth": {
     "id": "0369",
@@ -18817,7 +19282,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Luvdisc": {
     "id": "0370",
@@ -18855,7 +19321,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Bagon": {
     "id": "0371",
@@ -18894,7 +19361,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Shelgon": {
     "id": "0372",
@@ -18933,7 +19401,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Salamence": {
     "id": "0373",
@@ -18979,7 +19448,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Beldum": {
     "id": "0374",
@@ -19023,7 +19493,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Metang": {
     "id": "0375",
@@ -19070,7 +19541,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": false
 },
 "Metagross": {
     "id": "0376",
@@ -19118,7 +19590,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Regirock": {
     "id": "0377",
@@ -19161,7 +19634,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Regice": {
     "id": "0378",
@@ -19200,7 +19674,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Registeel": {
     "id": "0379",
@@ -19248,7 +19723,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Latias": {
     "id": "0380",
@@ -19295,7 +19771,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Latios": {
     "id": "0381",
@@ -19341,7 +19818,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Kyogre": {
     "id": "0382",
@@ -19380,7 +19858,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Groudon": {
     "id": "0383",
@@ -19420,7 +19899,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Rayquaza": {
     "id": "0384",
@@ -19465,7 +19945,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Jirachi": {
     "id": "0385",
@@ -19512,7 +19993,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Deoxys": {
     "id": "0386",
@@ -19549,7 +20031,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Attack Deoxys": {
     "id": "0386",
@@ -19586,7 +20069,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Defense Deoxys": {
     "id": "0386",
@@ -19623,7 +20107,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Speed Deoxys": {
     "id": "0386",
@@ -19660,7 +20145,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hoenn"
+    "region": "Hoenn",
+    "is_final_stage": true
 },
 "Turtwig": {
     "id": "0387",
@@ -19701,7 +20187,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Grotle": {
     "id": "0388",
@@ -19742,7 +20229,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Torterra": {
     "id": "0389",
@@ -19784,7 +20272,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Chimchar": {
     "id": "0390",
@@ -19825,7 +20314,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Monferno": {
     "id": "0391",
@@ -19868,7 +20358,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Infernape": {
     "id": "0392",
@@ -19912,7 +20403,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Piplup": {
     "id": "0393",
@@ -19950,7 +20442,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Prinplup": {
     "id": "0394",
@@ -19988,7 +20481,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Empoleon": {
     "id": "0395",
@@ -20038,7 +20532,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Starly": {
     "id": "0396",
@@ -20079,7 +20574,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Staravia": {
     "id": "0397",
@@ -20121,7 +20617,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Staraptor": {
     "id": "0398",
@@ -20164,7 +20661,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Bidoof": {
     "id": "0399",
@@ -20202,7 +20700,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Bibarel": {
     "id": "0400",
@@ -20244,7 +20743,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Kricketot": {
     "id": "0401",
@@ -20280,7 +20780,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Kricketune": {
     "id": "0402",
@@ -20318,7 +20819,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shinx": {
     "id": "0403",
@@ -20354,7 +20856,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Luxio": {
     "id": "0404",
@@ -20390,7 +20893,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Luxray": {
     "id": "0405",
@@ -20428,7 +20932,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Budew": {
     "id": "0406",
@@ -20469,7 +20974,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Roserade": {
     "id": "0407",
@@ -20516,7 +21022,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Cranidos": {
     "id": "0408",
@@ -20557,7 +21064,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Rampardos": {
     "id": "0409",
@@ -20598,7 +21106,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shieldon": {
     "id": "0410",
@@ -20643,7 +21152,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Bastiodon": {
     "id": "0411",
@@ -20688,7 +21198,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Burmy": {
     "id": "0412",
@@ -20724,7 +21235,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Burmy Plant": {
     "id": "0412",
@@ -20760,7 +21272,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Burmy Sandy": {
     "id": "0412",
@@ -20796,7 +21309,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Burmy Trash": {
     "id": "0412",
@@ -20832,7 +21346,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Wormadam": {
     "id": "0413",
@@ -20874,7 +21389,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Wormadam Plant": {
     "id": "0413",
@@ -20918,7 +21434,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Wormadam Sandy": {
     "id": "0413",
@@ -20959,7 +21476,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Wormadam Trash": {
     "id": "0413",
@@ -21003,7 +21521,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Mothim": {
     "id": "0414",
@@ -21045,7 +21564,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Combee": {
     "id": "0415",
@@ -21084,7 +21604,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Vespiquen": {
     "id": "0416",
@@ -21130,7 +21651,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Pachirisu": {
     "id": "0417",
@@ -21166,7 +21688,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Buizel": {
     "id": "0418",
@@ -21204,7 +21727,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Floatzel": {
     "id": "0419",
@@ -21243,7 +21767,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Cherubi": {
     "id": "0420",
@@ -21284,7 +21809,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Cherrim": {
     "id": "0421",
@@ -21325,7 +21851,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Cherrim Overcast": {
     "id": "0421",
@@ -21366,7 +21893,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Cherrim Sunny": {
     "id": "0421",
@@ -21408,7 +21936,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shellos": {
     "id": "0422",
@@ -21446,7 +21975,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Shellos East Sea": {
     "id": "0422",
@@ -21484,7 +22014,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Shellos West Sea": {
     "id": "0422",
@@ -21522,7 +22053,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Gastrodon": {
     "id": "0423",
@@ -21562,7 +22094,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Gastrodon East Sea": {
     "id": "0423",
@@ -21602,7 +22135,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Gastrodon West Sea": {
     "id": "0423",
@@ -21642,7 +22176,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Ambipom": {
     "id": "0424",
@@ -21676,7 +22211,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Drifloon": {
     "id": "0425",
@@ -21720,7 +22256,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Drifblim": {
     "id": "0426",
@@ -21765,7 +22302,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Buneary": {
     "id": "0427",
@@ -21798,7 +22336,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Lopunny": {
     "id": "0428",
@@ -21834,7 +22373,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Mismagius": {
     "id": "0429",
@@ -21874,7 +22414,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Honchkrow": {
     "id": "0430",
@@ -21917,7 +22458,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Glameow": {
     "id": "0431",
@@ -21951,7 +22493,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Purugly": {
     "id": "0432",
@@ -21985,7 +22528,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Chingling": {
     "id": "0433",
@@ -22022,7 +22566,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Stunky": {
     "id": "0434",
@@ -22062,7 +22607,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Skuntank": {
     "id": "0435",
@@ -22102,7 +22648,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Bronzor": {
     "id": "0436",
@@ -22150,7 +22697,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Bronzong": {
     "id": "0437",
@@ -22201,7 +22749,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Bonsly": {
     "id": "0438",
@@ -22242,7 +22791,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Mime Jr": {
     "id": "0439",
@@ -22281,7 +22831,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Happiny": {
     "id": "0440",
@@ -22313,7 +22864,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Chatot": {
     "id": "0441",
@@ -22353,7 +22905,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Spiritomb": {
     "id": "0442",
@@ -22392,7 +22945,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Gible": {
     "id": "0443",
@@ -22432,7 +22986,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Gabite": {
     "id": "0444",
@@ -22472,7 +23027,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Garchomp": {
     "id": "0445",
@@ -22514,7 +23070,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Munchlax": {
     "id": "0446",
@@ -22548,7 +23105,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Riolu": {
     "id": "0447",
@@ -22588,7 +23146,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Lucario": {
     "id": "0448",
@@ -22638,7 +23197,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Hippopotas": {
     "id": "0449",
@@ -22677,7 +23237,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Hippowdon": {
     "id": "0450",
@@ -22721,7 +23282,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Skorupi": {
     "id": "0451",
@@ -22763,7 +23325,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Drapion": {
     "id": "0452",
@@ -22805,7 +23368,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Croagunk": {
     "id": "0453",
@@ -22848,7 +23412,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Toxicroak": {
     "id": "0454",
@@ -22892,7 +23457,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Carnivine": {
     "id": "0455",
@@ -22933,7 +23499,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Finneon": {
     "id": "0456",
@@ -22971,7 +23538,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Lumineon": {
     "id": "0457",
@@ -23009,7 +23577,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Mantyke": {
     "id": "0458",
@@ -23050,7 +23619,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Snover": {
     "id": "0459",
@@ -23095,7 +23665,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": false
 },
 "Abomasnow": {
     "id": "0460",
@@ -23142,7 +23713,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Weavile": {
     "id": "0461",
@@ -23187,7 +23759,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Magnezone": {
     "id": "0462",
@@ -23238,7 +23811,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Lickilicky": {
     "id": "0463",
@@ -23275,7 +23849,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rhyperior": {
     "id": "0464",
@@ -23324,7 +23899,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Tangrowth": {
     "id": "0465",
@@ -23367,7 +23943,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Electivire": {
     "id": "0466",
@@ -23405,7 +23982,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Magmortar": {
     "id": "0467",
@@ -23449,7 +24027,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Togekiss": {
     "id": "0468",
@@ -23496,7 +24075,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Yanmega": {
     "id": "0469",
@@ -23538,7 +24118,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Leafeon": {
     "id": "0470",
@@ -23581,7 +24162,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Glaceon": {
     "id": "0471",
@@ -23620,7 +24202,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Gliscor": {
     "id": "0472",
@@ -23662,7 +24245,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Mamoswine": {
     "id": "0473",
@@ -23704,7 +24288,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Porygon Z": {
     "id": "0474",
@@ -23741,7 +24326,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Gallade": {
     "id": "0475",
@@ -23782,7 +24368,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Probopass": {
     "id": "0476",
@@ -23828,7 +24415,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Dusknoir": {
     "id": "0477",
@@ -23869,7 +24457,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Froslass": {
     "id": "0478",
@@ -23913,7 +24502,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom": {
     "id": "0479",
@@ -23956,7 +24546,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom Fan": {
     "id": "0479",
@@ -23997,7 +24588,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom Frost": {
     "id": "0479",
@@ -24037,7 +24629,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom Heat": {
     "id": "0479",
@@ -24081,7 +24674,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom Mow": {
     "id": "0479",
@@ -24122,7 +24716,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Rotom Wash": {
     "id": "0479",
@@ -24162,7 +24757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Uxie": {
     "id": "0480",
@@ -24199,7 +24795,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Mesprit": {
     "id": "0481",
@@ -24236,7 +24833,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Azelf": {
     "id": "0482",
@@ -24273,7 +24871,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Dialga": {
     "id": "0483",
@@ -24318,7 +24917,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Dialga Origin": {
     "id": "0483",
@@ -24363,7 +24963,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Palkia": {
     "id": "0484",
@@ -24402,7 +25003,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Palkia Origin": {
     "id": "0484",
@@ -24441,7 +25043,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Heatran": {
     "id": "0485",
@@ -24490,7 +25093,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Regigigas": {
     "id": "0486",
@@ -24524,7 +25128,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Giratina": {
     "id": "0487",
@@ -24571,7 +25176,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Giratina Altered": {
     "id": "0487",
@@ -24618,7 +25224,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Giratina Origin": {
     "id": "0487",
@@ -24665,7 +25272,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Cresselia": {
     "id": "0488",
@@ -24703,7 +25311,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Phione": {
     "id": "0489",
@@ -24741,7 +25350,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Manaphy": {
     "id": "0490",
@@ -24779,7 +25389,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Darkrai": {
     "id": "0491",
@@ -24818,7 +25429,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shaymin": {
     "id": "0492",
@@ -24860,7 +25472,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shaymin Land": {
     "id": "0492",
@@ -24902,7 +25515,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Shaymin Sky": {
     "id": "0492",
@@ -24946,7 +25560,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus": {
     "id": "0493",
@@ -24980,7 +25595,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Bug": {
     "id": "0493",
@@ -25018,7 +25634,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Dark": {
     "id": "0493",
@@ -25056,7 +25673,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Dragon": {
     "id": "0493",
@@ -25095,7 +25713,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Electric": {
     "id": "0493",
@@ -25131,7 +25750,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Fairy": {
     "id": "0493",
@@ -25169,7 +25789,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Fighting": {
     "id": "0493",
@@ -25207,7 +25828,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Fire": {
     "id": "0493",
@@ -25248,7 +25870,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Flying": {
     "id": "0493",
@@ -25287,7 +25910,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Ghost": {
     "id": "0493",
@@ -25325,7 +25949,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Grass": {
     "id": "0493",
@@ -25366,7 +25991,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Ground": {
     "id": "0493",
@@ -25404,7 +26030,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Ice": {
     "id": "0493",
@@ -25441,7 +26068,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Poison": {
     "id": "0493",
@@ -25480,7 +26108,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Psychic": {
     "id": "0493",
@@ -25517,7 +26146,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Rock": {
     "id": "0493",
@@ -25558,7 +26188,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Steel": {
     "id": "0493",
@@ -25604,7 +26235,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Arceus Water": {
     "id": "0493",
@@ -25642,7 +26274,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Sinnoh"
+    "region": "Sinnoh",
+    "is_final_stage": true
 },
 "Victini": {
     "id": "0494",
@@ -25688,7 +26321,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Snivy": {
     "id": "0495",
@@ -25729,7 +26363,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Servine": {
     "id": "0496",
@@ -25770,7 +26405,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Serperior": {
     "id": "0497",
@@ -25812,7 +26448,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tepig": {
     "id": "0498",
@@ -25853,7 +26490,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Pignite": {
     "id": "0499",
@@ -25896,7 +26534,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Emboar": {
     "id": "0500",
@@ -25941,7 +26580,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Oshawott": {
     "id": "0501",
@@ -25979,7 +26619,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Dewott": {
     "id": "0502",
@@ -26017,7 +26658,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Samurott": {
     "id": "0503",
@@ -26058,7 +26700,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Hisuian Samurott": {
     "id": "0503",
@@ -26105,7 +26748,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Patrat": {
     "id": "0504",
@@ -26139,7 +26783,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Watchog": {
     "id": "0505",
@@ -26173,7 +26818,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Lillipup": {
     "id": "0506",
@@ -26208,7 +26854,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Herdier": {
     "id": "0507",
@@ -26243,7 +26890,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Stoutland": {
     "id": "0508",
@@ -26279,7 +26927,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Purrloin": {
     "id": "0509",
@@ -26317,7 +26966,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Liepard": {
     "id": "0510",
@@ -26356,7 +27006,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Pansage": {
     "id": "0511",
@@ -26397,7 +27048,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Simisage": {
     "id": "0512",
@@ -26438,7 +27090,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Pansear": {
     "id": "0513",
@@ -26479,7 +27132,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Simisear": {
     "id": "0514",
@@ -26520,7 +27174,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Panpour": {
     "id": "0515",
@@ -26558,7 +27213,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Simipour": {
     "id": "0516",
@@ -26596,7 +27252,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Munna": {
     "id": "0517",
@@ -26633,7 +27290,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Musharna": {
     "id": "0518",
@@ -26670,7 +27328,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Pidove": {
     "id": "0519",
@@ -26710,7 +27369,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Tranquill": {
     "id": "0520",
@@ -26750,7 +27410,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Unfezant": {
     "id": "0521",
@@ -26790,7 +27451,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Blitzle": {
     "id": "0522",
@@ -26826,7 +27488,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Zebstrika": {
     "id": "0523",
@@ -26862,7 +27525,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Roggenrola": {
     "id": "0524",
@@ -26903,7 +27567,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Boldore": {
     "id": "0525",
@@ -26944,7 +27609,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Gigalith": {
     "id": "0526",
@@ -26987,7 +27653,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Woobat": {
     "id": "0527",
@@ -27029,7 +27696,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Swoobat": {
     "id": "0528",
@@ -27073,7 +27741,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Drilbur": {
     "id": "0529",
@@ -27111,7 +27780,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Excadrill": {
     "id": "0530",
@@ -27161,7 +27831,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Audino": {
     "id": "0531",
@@ -27195,7 +27866,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Timburr": {
     "id": "0532",
@@ -27233,7 +27905,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Gurdurr": {
     "id": "0533",
@@ -27271,7 +27944,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Conkeldurr": {
     "id": "0534",
@@ -27310,7 +27984,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tympole": {
     "id": "0535",
@@ -27348,7 +28023,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Palpitoad": {
     "id": "0536",
@@ -27387,7 +28063,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Seismitoad": {
     "id": "0537",
@@ -27426,7 +28103,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Throh": {
     "id": "0538",
@@ -27465,7 +28143,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sawk": {
     "id": "0539",
@@ -27504,7 +28183,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sewaddle": {
     "id": "0540",
@@ -27548,7 +28228,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Swadloon": {
     "id": "0541",
@@ -27592,7 +28273,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Leavanny": {
     "id": "0542",
@@ -27638,7 +28320,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Venipede": {
     "id": "0543",
@@ -27680,7 +28363,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Whirlipede": {
     "id": "0544",
@@ -27722,7 +28406,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Scolipede": {
     "id": "0545",
@@ -27765,7 +28450,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Cottonee": {
     "id": "0546",
@@ -27810,7 +28496,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Whimsicott": {
     "id": "0547",
@@ -27857,7 +28544,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Petilil": {
     "id": "0548",
@@ -27897,7 +28585,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Lilligant": {
     "id": "0549",
@@ -27939,7 +28628,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Basculin": {
     "id": "0550",
@@ -27977,7 +28667,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Basculin Blue Striped": {
     "id": "0550",
@@ -28015,7 +28706,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Basculin Red Striped": {
     "id": "0550",
@@ -28053,7 +28745,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Basculin White Striped": {
     "id": "0550",
@@ -28091,7 +28784,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sandile": {
     "id": "0551",
@@ -28136,7 +28830,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Krokorok": {
     "id": "0552",
@@ -28181,7 +28876,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Krookodile": {
     "id": "0553",
@@ -28227,7 +28923,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Darumaka": {
     "id": "0554",
@@ -28267,7 +28964,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Galarian Darumaka": {
     "id": "0554",
@@ -28303,7 +29001,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Standard Galarian Darmanitan": {
     "id": "0555",
@@ -28341,7 +29040,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zen Galarian Darmanitan": {
     "id": "0555",
@@ -28383,7 +29083,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Darmanitan Standard": {
     "id": "0555",
@@ -28426,7 +29127,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Darmanitan Zen": {
     "id": "0555",
@@ -28473,7 +29175,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Maractus": {
     "id": "0556",
@@ -28514,7 +29217,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Dwebble": {
     "id": "0557",
@@ -28552,7 +29256,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Crustle": {
     "id": "0558",
@@ -28590,7 +29295,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Scraggy": {
     "id": "0559",
@@ -28631,7 +29337,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Scrafty": {
     "id": "0560",
@@ -28672,7 +29379,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sigilyph": {
     "id": "0561",
@@ -28715,7 +29423,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Yamask": {
     "id": "0562",
@@ -28753,7 +29462,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Galarian Yamask": {
     "id": "0562",
@@ -28795,7 +29505,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Cofagrigus": {
     "id": "0563",
@@ -28834,7 +29545,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tirtouga": {
     "id": "0564",
@@ -28876,7 +29588,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Carracosta": {
     "id": "0565",
@@ -28919,7 +29632,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Archen": {
     "id": "0566",
@@ -28963,7 +29677,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Archeops": {
     "id": "0567",
@@ -29007,7 +29722,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Trubbish": {
     "id": "0568",
@@ -29046,7 +29762,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Garbodor": {
     "id": "0569",
@@ -29086,7 +29803,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Zorua": {
     "id": "0570",
@@ -29125,7 +29843,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Zoroark": {
     "id": "0571",
@@ -29164,7 +29883,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Minccino": {
     "id": "0572",
@@ -29198,7 +29918,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Cinccino": {
     "id": "0573",
@@ -29232,7 +29953,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Gothita": {
     "id": "0574",
@@ -29269,7 +29991,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Gothorita": {
     "id": "0575",
@@ -29306,7 +30029,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Gothitelle": {
     "id": "0576",
@@ -29343,7 +30067,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Solosis": {
     "id": "0577",
@@ -29380,7 +30105,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Duosion": {
     "id": "0578",
@@ -29417,7 +30143,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Reuniclus": {
     "id": "0579",
@@ -29454,7 +30181,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Ducklett": {
     "id": "0580",
@@ -29495,7 +30223,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Swanna": {
     "id": "0581",
@@ -29537,7 +30266,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Vanillite": {
     "id": "0582",
@@ -29574,7 +30304,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Vanillish": {
     "id": "0583",
@@ -29611,7 +30342,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Vanilluxe": {
     "id": "0584",
@@ -29648,7 +30380,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Deerling": {
     "id": "0585",
@@ -29693,7 +30426,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Deerling Autumn": {
     "id": "0585",
@@ -29738,7 +30472,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Deerling Spring": {
     "id": "0585",
@@ -29783,7 +30518,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Sawsbuck": {
     "id": "0586",
@@ -29829,7 +30565,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sawsbuck Autumn": {
     "id": "0586",
@@ -29875,7 +30612,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Sawsbuck Spring": {
     "id": "0586",
@@ -29921,7 +30659,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Emolga": {
     "id": "0587",
@@ -29963,7 +30702,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Karrablast": {
     "id": "0588",
@@ -30002,7 +30742,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Escavalier": {
     "id": "0589",
@@ -30026,7 +30767,8 @@ var pokeDB = {
             "Acid Spray",
             "Aerial Ace",
             "Drill Run",
-            "Megahorn"
+            "Megahorn",
+            "Razor Shell*"
         ]
     },
     "defense_data": {
@@ -30046,7 +30788,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Foongus": {
     "id": "0590",
@@ -30088,7 +30831,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Amoonguss": {
     "id": "0591",
@@ -30130,7 +30874,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Frillish": {
     "id": "0592",
@@ -30175,7 +30920,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Frillish Female": {
     "id": "0592",
@@ -30220,7 +30966,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Jellicent": {
     "id": "0593",
@@ -30266,7 +31013,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Jellicent Female": {
     "id": "0593",
@@ -30312,7 +31060,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Alomomola": {
     "id": "0594",
@@ -30350,7 +31099,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Joltik": {
     "id": "0595",
@@ -30389,7 +31139,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Galvantula": {
     "id": "0596",
@@ -30430,7 +31181,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Ferroseed": {
     "id": "0597",
@@ -30475,7 +31227,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Ferrothorn": {
     "id": "0598",
@@ -30522,7 +31275,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Klink": {
     "id": "0599",
@@ -30569,7 +31323,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Klang": {
     "id": "0600",
@@ -30616,7 +31371,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Klinklang": {
     "id": "0601",
@@ -30664,7 +31420,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tynamo": {
     "id": "0602",
@@ -30698,7 +31455,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Eelektrik": {
     "id": "0603",
@@ -30734,7 +31492,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Eelektross": {
     "id": "0604",
@@ -30773,7 +31532,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Elgyem": {
     "id": "0605",
@@ -30810,7 +31570,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Beheeyem": {
     "id": "0606",
@@ -30847,7 +31608,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Litwick": {
     "id": "0607",
@@ -30895,7 +31657,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Lampent": {
     "id": "0608",
@@ -30942,7 +31705,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Chandelure": {
     "id": "0609",
@@ -30992,7 +31756,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Axew": {
     "id": "0610",
@@ -31031,7 +31796,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Fraxure": {
     "id": "0611",
@@ -31070,7 +31836,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Haxorus": {
     "id": "0612",
@@ -31111,7 +31878,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Cubchoo": {
     "id": "0613",
@@ -31148,7 +31916,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Beartic": {
     "id": "0614",
@@ -31186,7 +31955,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Cryogonal": {
     "id": "0615",
@@ -31225,7 +31995,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Shelmet": {
     "id": "0616",
@@ -31263,7 +32034,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Accelgor": {
     "id": "0617",
@@ -31286,6 +32058,7 @@ var pokeDB = {
         "charge": [
             "Acid Spray",
             "Bug Buzz",
+            "Energy Ball*",
             "Focus Blast",
             "Signal Beam"
         ]
@@ -31303,7 +32076,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Stunfisk": {
     "id": "0618",
@@ -31345,7 +32119,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Galarian Stunfisk": {
     "id": "0618",
@@ -31393,7 +32168,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Mienfoo": {
     "id": "0619",
@@ -31432,7 +32208,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Mienshao": {
     "id": "0620",
@@ -31473,7 +32250,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Druddigon": {
     "id": "0621",
@@ -31512,7 +32290,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Golett": {
     "id": "0622",
@@ -31556,7 +32335,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Golurk": {
     "id": "0623",
@@ -31601,7 +32381,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Pawniard": {
     "id": "0624",
@@ -31648,7 +32429,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Bisharp": {
     "id": "0625",
@@ -31696,7 +32478,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Bouffalant": {
     "id": "0626",
@@ -31731,7 +32514,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Rufflet": {
     "id": "0627",
@@ -31772,7 +32556,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Braviary": {
     "id": "0628",
@@ -31814,7 +32599,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Hisuian Braviary": {
     "id": "0628",
@@ -31858,7 +32644,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Vullaby": {
     "id": "0629",
@@ -31900,7 +32687,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Mandibuzz": {
     "id": "0630",
@@ -31943,7 +32731,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Heatmor": {
     "id": "0631",
@@ -31984,7 +32773,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Durant": {
     "id": "0632",
@@ -32027,7 +32817,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Deino": {
     "id": "0633",
@@ -32072,7 +32863,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Zweilous": {
     "id": "0634",
@@ -32117,7 +32909,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Hydreigon": {
     "id": "0635",
@@ -32163,7 +32956,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Larvesta": {
     "id": "0636",
@@ -32205,7 +32999,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": false
 },
 "Volcarona": {
     "id": "0637",
@@ -32248,7 +33043,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Cobalion": {
     "id": "0638",
@@ -32295,7 +33091,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Terrakion": {
     "id": "0639",
@@ -32343,7 +33140,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Virizion": {
     "id": "0640",
@@ -32390,7 +33188,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tornadus Incarnate": {
     "id": "0641",
@@ -32430,7 +33229,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Tornadus Therian": {
     "id": "0641",
@@ -32471,7 +33271,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Thundurus Incarnate": {
     "id": "0642",
@@ -32513,7 +33314,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Thundurus Therian": {
     "id": "0642",
@@ -32556,7 +33358,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Reshiram": {
     "id": "0643",
@@ -32599,7 +33402,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Zekrom": {
     "id": "0644",
@@ -32644,7 +33448,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Landorus Incarnate": {
     "id": "0645",
@@ -32685,7 +33490,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Landorus Therian": {
     "id": "0645",
@@ -32727,7 +33533,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Kyurem": {
     "id": "0646",
@@ -32769,7 +33576,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Kyurem Black": {
     "id": "0646",
@@ -32791,6 +33599,7 @@ var pokeDB = {
         ],
         "charge": [
             "Blizzard",
+            "Fusion Bolt",
             "Iron Head",
             "Outrage",
             "Stone Edge"
@@ -32811,7 +33620,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Kyurem White": {
     "id": "0646",
@@ -32829,13 +33639,15 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Dragon Breath",
+            "Ice Fang",
             "Steel Wing"
         ],
         "charge": [
             "Ancient Power",
             "Blizzard",
             "Dragon Pulse",
-            "Focus Blast"
+            "Focus Blast",
+            "Fusion Flare"
         ]
     },
     "defense_data": {
@@ -32853,7 +33665,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Keldeo": {
     "id": "0647",
@@ -32900,7 +33713,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Keldeo Ordinary": {
     "id": "0647",
@@ -32947,7 +33761,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Keldeo Resolute": {
     "id": "0647",
@@ -32994,7 +33809,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Meloetta": {
     "id": "0648",
@@ -33032,7 +33848,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Meloetta Aria": {
     "id": "0648",
@@ -33070,7 +33887,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Meloetta Pirouette": {
     "id": "0648",
@@ -33112,7 +33930,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Genesect": {
     "id": "0649",
@@ -33155,7 +33974,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Genesect Burn": {
     "id": "0649",
@@ -33199,7 +34019,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Genesect Chill": {
     "id": "0649",
@@ -33243,7 +34064,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Genesect Douse": {
     "id": "0649",
@@ -33287,7 +34109,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Genesect Shock": {
     "id": "0649",
@@ -33331,7 +34154,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Unova"
+    "region": "Unova",
+    "is_final_stage": true
 },
 "Chespin": {
     "id": "0650",
@@ -33372,7 +34196,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Quilladin": {
     "id": "0651",
@@ -33413,7 +34238,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Chesnaught": {
     "id": "0652",
@@ -33462,7 +34288,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Fennekin": {
     "id": "0653",
@@ -33503,7 +34330,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Braixen": {
     "id": "0654",
@@ -33544,7 +34372,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Delphox": {
     "id": "0655",
@@ -33593,7 +34422,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Froakie": {
     "id": "0656",
@@ -33631,7 +34461,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Frogadier": {
     "id": "0657",
@@ -33669,7 +34500,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Greninja": {
     "id": "0658",
@@ -33717,7 +34549,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Bunnelby": {
     "id": "0659",
@@ -33751,7 +34584,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Diggersby": {
     "id": "0660",
@@ -33794,7 +34628,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Fletchling": {
     "id": "0661",
@@ -33835,7 +34670,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Fletchinder": {
     "id": "0662",
@@ -33880,7 +34716,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Talonflame": {
     "id": "0663",
@@ -33927,7 +34764,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Scatterbug": {
     "id": "0664",
@@ -33963,7 +34801,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Archipelago": {
     "id": "0664",
@@ -33999,7 +34838,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Continental": {
     "id": "0664",
@@ -34035,7 +34875,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Elegant": {
     "id": "0664",
@@ -34071,7 +34912,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Fancy": {
     "id": "0664",
@@ -34107,7 +34949,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Garden": {
     "id": "0664",
@@ -34143,7 +34986,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug High Plains": {
     "id": "0664",
@@ -34179,7 +35023,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Icy Snow": {
     "id": "0664",
@@ -34215,7 +35060,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Jungle": {
     "id": "0664",
@@ -34251,7 +35097,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Marine": {
     "id": "0664",
@@ -34287,7 +35134,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Meadow": {
     "id": "0664",
@@ -34323,7 +35171,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Modern": {
     "id": "0664",
@@ -34359,7 +35208,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Monsoon": {
     "id": "0664",
@@ -34395,7 +35245,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Ocean": {
     "id": "0664",
@@ -34431,7 +35282,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Pokeball": {
     "id": "0664",
@@ -34467,7 +35319,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Polar": {
     "id": "0664",
@@ -34503,7 +35356,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug River": {
     "id": "0664",
@@ -34539,7 +35393,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Sandstorm": {
     "id": "0664",
@@ -34575,7 +35430,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Savanna": {
     "id": "0664",
@@ -34611,7 +35467,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Sun": {
     "id": "0664",
@@ -34647,7 +35504,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Scatterbug Tundra": {
     "id": "0664",
@@ -34683,7 +35541,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa": {
     "id": "0665",
@@ -34718,7 +35577,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Archipelago": {
     "id": "0665",
@@ -34753,7 +35613,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Continental": {
     "id": "0665",
@@ -34788,7 +35649,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Elegant": {
     "id": "0665",
@@ -34823,7 +35685,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Fancy": {
     "id": "0665",
@@ -34858,7 +35721,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Garden": {
     "id": "0665",
@@ -34893,7 +35757,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa High Plains": {
     "id": "0665",
@@ -34928,7 +35793,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Icy Snow": {
     "id": "0665",
@@ -34963,7 +35829,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Jungle": {
     "id": "0665",
@@ -34998,7 +35865,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Marine": {
     "id": "0665",
@@ -35033,7 +35901,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Meadow": {
     "id": "0665",
@@ -35068,7 +35937,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Modern": {
     "id": "0665",
@@ -35103,7 +35973,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Monsoon": {
     "id": "0665",
@@ -35138,7 +36009,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Ocean": {
     "id": "0665",
@@ -35173,7 +36045,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Pokeball": {
     "id": "0665",
@@ -35208,7 +36081,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Polar": {
     "id": "0665",
@@ -35243,7 +36117,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa River": {
     "id": "0665",
@@ -35278,7 +36153,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Sandstorm": {
     "id": "0665",
@@ -35313,7 +36189,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Savanna": {
     "id": "0665",
@@ -35348,7 +36225,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Sun": {
     "id": "0665",
@@ -35383,7 +36261,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Spewpa Tundra": {
     "id": "0665",
@@ -35418,7 +36297,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Vivillon": {
     "id": "0666",
@@ -35461,7 +36341,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Archipelago": {
     "id": "0666",
@@ -35504,7 +36385,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Continental": {
     "id": "0666",
@@ -35547,7 +36429,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Elegant": {
     "id": "0666",
@@ -35590,7 +36473,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Fancy": {
     "id": "0666",
@@ -35633,7 +36517,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Garden": {
     "id": "0666",
@@ -35676,7 +36561,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon High Plains": {
     "id": "0666",
@@ -35719,7 +36605,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Icy Snow": {
     "id": "0666",
@@ -35762,7 +36649,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Jungle": {
     "id": "0666",
@@ -35805,7 +36693,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Marine": {
     "id": "0666",
@@ -35848,7 +36737,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Meadow": {
     "id": "0666",
@@ -35891,7 +36781,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Modern": {
     "id": "0666",
@@ -35934,7 +36825,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Monsoon": {
     "id": "0666",
@@ -35977,7 +36869,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Ocean": {
     "id": "0666",
@@ -36020,7 +36913,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Pokeball": {
     "id": "0666",
@@ -36063,7 +36957,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Polar": {
     "id": "0666",
@@ -36106,7 +37001,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon River": {
     "id": "0666",
@@ -36149,7 +37045,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Sandstorm": {
     "id": "0666",
@@ -36192,7 +37089,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Savanna": {
     "id": "0666",
@@ -36235,7 +37133,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Sun": {
     "id": "0666",
@@ -36278,7 +37177,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Vivillon Tundra": {
     "id": "0666",
@@ -36321,7 +37221,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Litleo": {
     "id": "0667",
@@ -36367,7 +37268,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Pyroar": {
     "id": "0668",
@@ -36414,7 +37316,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Pyroar Female": {
     "id": "0668",
@@ -36461,7 +37364,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Flabebe": {
     "id": "0669",
@@ -36499,7 +37403,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Flabebe Blue": {
     "id": "0669",
@@ -36537,7 +37442,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Flabebe Orange": {
     "id": "0669",
@@ -36575,7 +37481,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Flabebe Red": {
     "id": "0669",
@@ -36613,7 +37520,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Flabebe White": {
     "id": "0669",
@@ -36651,7 +37559,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Flabebe Yellow": {
     "id": "0669",
@@ -36689,7 +37598,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette": {
     "id": "0670",
@@ -36727,7 +37637,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette Blue": {
     "id": "0670",
@@ -36765,7 +37676,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette Orange": {
     "id": "0670",
@@ -36803,7 +37715,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette Red": {
     "id": "0670",
@@ -36841,7 +37754,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette White": {
     "id": "0670",
@@ -36879,7 +37793,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Floette Yellow": {
     "id": "0670",
@@ -36917,7 +37832,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Florges": {
     "id": "0671",
@@ -36958,7 +37874,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Blue Florges": {
     "id": "0671",
@@ -36999,7 +37916,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Orange Florges": {
     "id": "0671",
@@ -37040,7 +37958,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Red Florges": {
     "id": "0671",
@@ -37081,7 +38000,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "White Florges": {
     "id": "0671",
@@ -37122,7 +38042,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Yellow Florges": {
     "id": "0671",
@@ -37163,7 +38084,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Skiddo": {
     "id": "0672",
@@ -37203,7 +38125,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Gogoat": {
     "id": "0673",
@@ -37245,7 +38168,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Pancham": {
     "id": "0674",
@@ -37283,7 +38207,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Pangoro": {
     "id": "0675",
@@ -37326,7 +38251,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou": {
     "id": "0676",
@@ -37362,7 +38288,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Dandy": {
     "id": "0676",
@@ -37398,7 +38325,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Debutante": {
     "id": "0676",
@@ -37434,7 +38362,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Diamond": {
     "id": "0676",
@@ -37470,7 +38399,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Heart": {
     "id": "0676",
@@ -37506,7 +38436,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Kabuki": {
     "id": "0676",
@@ -37542,7 +38473,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou La Reine": {
     "id": "0676",
@@ -37578,7 +38510,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Matron": {
     "id": "0676",
@@ -37614,7 +38547,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Natural": {
     "id": "0676",
@@ -37650,7 +38584,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Pharaoh": {
     "id": "0676",
@@ -37686,7 +38621,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Furfrou Star": {
     "id": "0676",
@@ -37722,7 +38658,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Espurr": {
     "id": "0677",
@@ -37759,7 +38696,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Meowstic": {
     "id": "0678",
@@ -37796,7 +38734,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Meowstic Female": {
     "id": "0678",
@@ -37834,7 +38773,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Spritzee": {
     "id": "0682",
@@ -37871,7 +38811,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Aromatisse": {
     "id": "0683",
@@ -37910,7 +38851,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Swirlix": {
     "id": "0684",
@@ -37946,7 +38888,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Slurpuff": {
     "id": "0685",
@@ -37986,7 +38929,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Inkay": {
     "id": "0686",
@@ -38022,7 +38966,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Malamar": {
     "id": "0687",
@@ -38060,7 +39005,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Binacle": {
     "id": "0688",
@@ -38102,7 +39048,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Barbaracle": {
     "id": "0689",
@@ -38147,7 +39094,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Skrelp": {
     "id": "0690",
@@ -38192,7 +39140,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Dragalge": {
     "id": "0691",
@@ -38239,7 +39188,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Clauncher": {
     "id": "0692",
@@ -38277,7 +39227,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Clawitzer": {
     "id": "0693",
@@ -38316,7 +39267,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Helioptile": {
     "id": "0694",
@@ -38355,7 +39307,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Heliolisk": {
     "id": "0695",
@@ -38397,7 +39350,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Tyrunt": {
     "id": "0696",
@@ -38441,7 +39395,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Tyrantrum": {
     "id": "0697",
@@ -38488,7 +39443,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Amaura": {
     "id": "0698",
@@ -38532,7 +39488,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Aurorus": {
     "id": "0699",
@@ -38579,7 +39536,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Sylveon": {
     "id": "0700",
@@ -38619,7 +39577,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Hawlucha": {
     "id": "0701",
@@ -38663,7 +39622,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Dedenne": {
     "id": "0702",
@@ -38704,7 +39664,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Carbink": {
     "id": "0703",
@@ -38747,7 +39708,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Goomy": {
     "id": "0704",
@@ -38786,7 +39748,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Sliggoo": {
     "id": "0705",
@@ -38826,7 +39789,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Goodra": {
     "id": "0706",
@@ -38868,7 +39832,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Klefki": {
     "id": "0707",
@@ -38915,7 +39880,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Phantump": {
     "id": "0708",
@@ -38959,7 +39925,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Trevenant": {
     "id": "0709",
@@ -39003,7 +39970,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Pumpkaboo": {
     "id": "0710",
@@ -39047,7 +40015,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Average Pumpkaboo": {
     "id": "0710",
@@ -39091,7 +40060,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Pumpkaboo Large": {
     "id": "0710",
@@ -39135,7 +40105,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Pumpkaboo Small": {
     "id": "0710",
@@ -39179,7 +40150,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Pumpkaboo Super": {
     "id": "0710",
@@ -39223,7 +40195,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Average Gourgeist": {
     "id": "0711",
@@ -39269,7 +40242,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Large Gourgeist": {
     "id": "0711",
@@ -39315,7 +40289,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Small Gourgeist": {
     "id": "0711",
@@ -39361,7 +40336,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Super Gourgeist": {
     "id": "0711",
@@ -39407,7 +40383,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Bergmite": {
     "id": "0712",
@@ -39444,7 +40421,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Avalugg": {
     "id": "0713",
@@ -39484,7 +40462,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Hisuian Avalugg": {
     "id": "0713",
@@ -39529,7 +40508,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Noibat": {
     "id": "0714",
@@ -39572,7 +40552,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Noivern": {
     "id": "0715",
@@ -39617,7 +40598,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Xerneas": {
     "id": "0716",
@@ -39658,7 +40640,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Yveltal": {
     "id": "0717",
@@ -39704,7 +40687,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Zygarde": {
     "id": "0718",
@@ -39746,8 +40730,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Zygarde Complete": {
     "id": "0718",
@@ -39789,8 +40774,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Zygarde Complete Fifty Percent": {
     "id": "0718",
@@ -39832,8 +40818,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Zygarde Complete Ten Percent": {
     "id": "0718",
@@ -39875,8 +40862,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Zygarde Fifty Percent": {
     "id": "0718",
@@ -39918,8 +40906,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Zygarde Ten Percent": {
     "id": "0718",
@@ -39961,8 +40950,9 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": true,
-    "region": "Kalos"
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": false
 },
 "Diancie": {
     "id": "0719",
@@ -40005,7 +40995,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Hoopa": {
     "id": "0720",
@@ -40044,7 +41035,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Hoopa Confined": {
     "id": "0720",
@@ -40083,7 +41075,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Hoopa Unbound": {
     "id": "0720",
@@ -40119,7 +41112,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Volcanion": {
     "id": "0721",
@@ -40162,7 +41156,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Kalos"
+    "region": "Kalos",
+    "is_final_stage": true
 },
 "Rowlet": {
     "id": "0722",
@@ -40205,7 +41200,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Dartrix": {
     "id": "0723",
@@ -40249,7 +41245,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Decidueye": {
     "id": "0724",
@@ -40297,7 +41294,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Hisuian Decidueye": {
     "id": "0724",
@@ -40344,7 +41342,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Hisui"
+    "region": "Hisui",
+    "is_final_stage": true
 },
 "Litten": {
     "id": "0725",
@@ -40385,7 +41384,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Torracat": {
     "id": "0726",
@@ -40426,7 +41426,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Incineroar": {
     "id": "0727",
@@ -40474,7 +41475,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Popplio": {
     "id": "0728",
@@ -40512,7 +41514,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Brionne": {
     "id": "0729",
@@ -40550,7 +41553,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Primarina": {
     "id": "0730",
@@ -40596,7 +41600,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Pikipek": {
     "id": "0731",
@@ -40636,7 +41641,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Trumbeak": {
     "id": "0732",
@@ -40676,7 +41682,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Toucannon": {
     "id": "0733",
@@ -40717,7 +41724,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Yungoos": {
     "id": "0734",
@@ -40751,7 +41759,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Gumshoos": {
     "id": "0735",
@@ -40785,7 +41794,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Grubbin": {
     "id": "0736",
@@ -40823,7 +41833,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Charjabug": {
     "id": "0737",
@@ -40863,7 +41874,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Vikavolt": {
     "id": "0738",
@@ -40905,7 +41917,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Crabrawler": {
     "id": "0739",
@@ -40944,7 +41957,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Crabominable": {
     "id": "0740",
@@ -40988,7 +42002,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Oricorio Baile": {
     "id": "0741",
@@ -41031,7 +42046,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Oricorio Pau": {
     "id": "0741",
@@ -41073,7 +42089,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Oricorio Pompom": {
     "id": "0741",
@@ -41114,7 +42131,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Oricorio Sensu": {
     "id": "0741",
@@ -41158,7 +42176,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Cutiefly": {
     "id": "0742",
@@ -41201,7 +42220,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Ribombee": {
     "id": "0743",
@@ -41245,7 +42265,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Rockruff": {
     "id": "0744",
@@ -41287,7 +42308,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Rockruff Dusk": {
     "id": "0744",
@@ -41329,7 +42351,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Lycanroc": {
     "id": "0745",
@@ -41371,7 +42394,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Dusk Lycanroc": {
     "id": "0745",
@@ -41414,7 +42438,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Midday Lycanroc": {
     "id": "0745",
@@ -41456,7 +42481,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Midnight Lycanroc": {
     "id": "0745",
@@ -41498,7 +42524,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Wishiwashi": {
     "id": "0746",
@@ -41537,7 +42564,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Wishiwashi School": {
     "id": "0746",
@@ -41576,7 +42604,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Wishiwashi Solo": {
     "id": "0746",
@@ -41615,7 +42644,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Mareanie": {
     "id": "0747",
@@ -41659,7 +42689,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Toxapex": {
     "id": "0748",
@@ -41703,7 +42734,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Mudbray": {
     "id": "0749",
@@ -41741,7 +42773,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Mudsdale": {
     "id": "0750",
@@ -41780,7 +42813,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Dewpider": {
     "id": "0751",
@@ -41821,7 +42855,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Araquanid": {
     "id": "0752",
@@ -41863,7 +42898,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Fomantis": {
     "id": "0753",
@@ -41906,7 +42942,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Lurantis": {
     "id": "0754",
@@ -41950,7 +42987,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Morelull": {
     "id": "0755",
@@ -41993,7 +43031,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Shiinotic": {
     "id": "0756",
@@ -42037,7 +43076,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Salandit": {
     "id": "0757",
@@ -42082,7 +43122,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Salazzle": {
     "id": "0758",
@@ -42128,7 +43169,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Stufful": {
     "id": "0759",
@@ -42169,7 +43211,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Bewear": {
     "id": "0760",
@@ -42212,7 +43255,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Bounsweet": {
     "id": "0761",
@@ -42252,7 +43296,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Steenee": {
     "id": "0762",
@@ -42294,7 +43339,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Tsareena": {
     "id": "0763",
@@ -42339,7 +43385,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Comfey": {
     "id": "0764",
@@ -42377,7 +43424,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Oranguru": {
     "id": "0765",
@@ -42417,7 +43465,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Passimian": {
     "id": "0766",
@@ -42457,7 +43506,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Wimpod": {
     "id": "0767",
@@ -42495,7 +43545,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Golisopod": {
     "id": "0768",
@@ -42540,7 +43591,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Sandygast": {
     "id": "0769",
@@ -42586,7 +43638,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Palossand": {
     "id": "0770",
@@ -42632,7 +43685,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Pyukumuku": {
     "id": "0771",
@@ -42667,7 +43721,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Type Null": {
     "id": "0772",
@@ -42701,7 +43756,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Silvally": {
     "id": "0773",
@@ -42737,7 +43793,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Bug": {
     "id": "0773",
@@ -42777,7 +43834,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Dark": {
     "id": "0773",
@@ -42817,7 +43875,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Dragon": {
     "id": "0773",
@@ -42858,7 +43917,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Electric": {
     "id": "0773",
@@ -42896,7 +43956,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Fairy": {
     "id": "0773",
@@ -42936,7 +43997,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Fighting": {
     "id": "0773",
@@ -42976,7 +44038,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Fire": {
     "id": "0773",
@@ -43019,7 +44082,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Flying": {
     "id": "0773",
@@ -43060,7 +44124,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Ghost": {
     "id": "0773",
@@ -43100,7 +44165,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Grass": {
     "id": "0773",
@@ -43143,7 +44209,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Ground": {
     "id": "0773",
@@ -43183,7 +44250,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Ice": {
     "id": "0773",
@@ -43222,7 +44290,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Poison": {
     "id": "0773",
@@ -43263,7 +44332,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Psychic": {
     "id": "0773",
@@ -43302,7 +44372,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Rock": {
     "id": "0773",
@@ -43345,7 +44416,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Steel": {
     "id": "0773",
@@ -43393,7 +44465,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Silvally Water": {
     "id": "0773",
@@ -43433,7 +44506,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior": {
     "id": "0774",
@@ -43477,7 +44551,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Blue": {
     "id": "0774",
@@ -43521,7 +44596,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Green": {
     "id": "0774",
@@ -43565,7 +44641,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Indigo": {
     "id": "0774",
@@ -43609,7 +44686,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Orange": {
     "id": "0774",
@@ -43653,7 +44731,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Red": {
     "id": "0774",
@@ -43697,7 +44776,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Violet": {
     "id": "0774",
@@ -43741,7 +44821,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Minior Yellow": {
     "id": "0774",
@@ -43785,7 +44866,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Komala": {
     "id": "0775",
@@ -43819,7 +44901,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Turtonator": {
     "id": "0776",
@@ -43862,7 +44945,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Togedemaru": {
     "id": "0777",
@@ -43910,7 +44994,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Mimikyu": {
     "id": "0778",
@@ -43949,7 +45034,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Mimikyu Busted": {
     "id": "0778",
@@ -43988,7 +45074,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Mimikyu Disguised": {
     "id": "0778",
@@ -44027,7 +45114,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Bruxish": {
     "id": "0779",
@@ -44072,7 +45160,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Drampa": {
     "id": "0780",
@@ -44114,7 +45203,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Dhelmise": {
     "id": "0781",
@@ -44158,7 +45248,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Jangmo-O": {
     "id": "0782",
@@ -44197,7 +45288,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Hakamo-O": {
     "id": "0783",
@@ -44242,7 +45334,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Kommo-O": {
     "id": "0784",
@@ -44289,7 +45382,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Tapu Koko": {
     "id": "0785",
@@ -44332,7 +45426,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Tapu Lele": {
     "id": "0786",
@@ -44374,7 +45469,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Tapu Bulu": {
     "id": "0787",
@@ -44421,7 +45517,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Tapu Fini": {
     "id": "0788",
@@ -44466,7 +45563,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Cosmog": {
     "id": "0789",
@@ -44500,7 +45598,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Cosmoem": {
     "id": "0790",
@@ -44534,7 +45633,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Solgaleo": {
     "id": "0791",
@@ -44582,7 +45682,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Lunala": {
     "id": "0792",
@@ -44622,7 +45723,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Nihilego": {
     "id": "0793",
@@ -44667,7 +45769,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Buzzwole": {
     "id": "0794",
@@ -44710,7 +45813,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Pheromosa": {
     "id": "0795",
@@ -44753,7 +45857,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Xurkitree": {
     "id": "0796",
@@ -44790,7 +45895,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Celesteela": {
     "id": "0797",
@@ -44836,7 +45942,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Kartana": {
     "id": "0798",
@@ -44882,7 +45989,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Guzzlord": {
     "id": "0799",
@@ -44928,7 +46036,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Necrozma": {
     "id": "0800",
@@ -44967,7 +46076,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Necrozma Dawn Wings": {
     "id": "0800",
@@ -45008,7 +46118,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Necrozma Dusk Mane": {
     "id": "0800",
@@ -45057,7 +46168,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Necrozma Ultra": {
     "id": "0800",
@@ -45099,7 +46211,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Magearna": {
     "id": "0801",
@@ -45142,7 +46255,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Magearna Original Color": {
     "id": "0801",
@@ -45185,7 +46299,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Marshadow": {
     "id": "0802",
@@ -45230,7 +46345,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Poipole": {
     "id": "0803",
@@ -45269,7 +46385,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Naganadel": {
     "id": "0804",
@@ -45315,7 +46432,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Stakataka": {
     "id": "0805",
@@ -45360,7 +46478,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Blacephalon": {
     "id": "0806",
@@ -45407,7 +46526,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Zeraora": {
     "id": "0807",
@@ -45443,7 +46563,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Meltan": {
     "id": "0808",
@@ -45487,7 +46608,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": false
 },
 "Melmetal": {
     "id": "0809",
@@ -45535,7 +46657,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Alola"
+    "region": "Alola",
+    "is_final_stage": true
 },
 "Grookey": {
     "id": "0810",
@@ -45575,7 +46698,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Thwackey": {
     "id": "0811",
@@ -45615,7 +46739,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Rillaboom": {
     "id": "0812",
@@ -45656,7 +46781,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Scorbunny": {
     "id": "0813",
@@ -45696,7 +46822,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Raboot": {
     "id": "0814",
@@ -45736,7 +46863,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Cinderace": {
     "id": "0815",
@@ -45777,7 +46905,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Sobble": {
     "id": "0816",
@@ -45814,7 +46943,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Drizzile": {
     "id": "0817",
@@ -45851,7 +46981,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Inteleon": {
     "id": "0818",
@@ -45889,7 +47020,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Skwovet": {
     "id": "0819",
@@ -45924,7 +47056,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Greedent": {
     "id": "0820",
@@ -45960,7 +47093,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Rookidee": {
     "id": "0821",
@@ -45999,7 +47133,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Corvisquire": {
     "id": "0822",
@@ -46038,7 +47173,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Corviknight": {
     "id": "0823",
@@ -46060,6 +47196,7 @@ var pokeDB = {
             "Steel Wing"
         ],
         "charge": [
+            "Iron Head*",
             "Payback",
             "Sky Attack"
         ]
@@ -46083,7 +47220,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Blipbug": {
     "id": "0824",
@@ -46118,7 +47256,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Dottler": {
     "id": "0825",
@@ -46160,7 +47299,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Orbeetle": {
     "id": "0826",
@@ -46202,7 +47342,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Nickit": {
     "id": "0827",
@@ -46239,7 +47380,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Thievul": {
     "id": "0828",
@@ -46276,7 +47418,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Gossifleur": {
     "id": "0829",
@@ -46316,7 +47459,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Eldegoss": {
     "id": "0830",
@@ -46356,7 +47500,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Wooloo": {
     "id": "0831",
@@ -46390,7 +47535,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Dubwool": {
     "id": "0832",
@@ -46425,7 +47571,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Chewtle": {
     "id": "0833",
@@ -46462,7 +47609,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Drednaw": {
     "id": "0834",
@@ -46504,7 +47652,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Yamper": {
     "id": "0835",
@@ -46539,7 +47688,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Boltund": {
     "id": "0836",
@@ -46574,7 +47724,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Rolycoly": {
     "id": "0837",
@@ -46614,7 +47765,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Carkol": {
     "id": "0838",
@@ -46658,7 +47810,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Coalossal": {
     "id": "0839",
@@ -46702,7 +47855,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Applin": {
     "id": "0840",
@@ -46742,7 +47896,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Flapple": {
     "id": "0841",
@@ -46786,7 +47941,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Appletun": {
     "id": "0842",
@@ -46830,7 +47986,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Silicobra": {
     "id": "0843",
@@ -46868,7 +48025,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Sandaconda": {
     "id": "0844",
@@ -46906,7 +48064,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Cramorant": {
     "id": "0845",
@@ -46947,7 +48106,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Arrokuda": {
     "id": "0846",
@@ -46986,7 +48146,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Barraskewda": {
     "id": "0847",
@@ -47025,7 +48186,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Toxel": {
     "id": "0848",
@@ -47065,7 +48227,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Toxtricity": {
     "id": "0849",
@@ -47110,7 +48273,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Toxtricity Amped": {
     "id": "0849",
@@ -47155,7 +48319,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Toxtricity Low Key": {
     "id": "0849",
@@ -47200,7 +48365,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Sizzlipede": {
     "id": "0850",
@@ -47242,7 +48408,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Centiskorch": {
     "id": "0851",
@@ -47285,7 +48452,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Clobbopus": {
     "id": "0852",
@@ -47322,7 +48490,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Grapploct": {
     "id": "0853",
@@ -47361,7 +48530,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Sinistea": {
     "id": "0854",
@@ -47399,7 +48569,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Sinistea Antique": {
     "id": "0854",
@@ -47437,7 +48608,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Sinistea Phony": {
     "id": "0854",
@@ -47475,7 +48647,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Polteageist": {
     "id": "0855",
@@ -47514,7 +48687,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Polteageist Antique": {
     "id": "0855",
@@ -47553,7 +48727,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Polteageist Phony": {
     "id": "0855",
@@ -47592,7 +48767,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Hatenna": {
     "id": "0856",
@@ -47629,7 +48805,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Hattrem": {
     "id": "0857",
@@ -47666,7 +48843,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Hatterene": {
     "id": "0858",
@@ -47707,7 +48885,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Impidimp": {
     "id": "0859",
@@ -47747,7 +48926,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Morgrem": {
     "id": "0860",
@@ -47787,7 +48967,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Grimmsnarl": {
     "id": "0861",
@@ -47829,7 +49010,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Obstagoon": {
     "id": "0862",
@@ -47870,7 +49052,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Perrserker": {
     "id": "0863",
@@ -47918,7 +49101,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Cursola": {
     "id": "0864",
@@ -47956,7 +49140,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Sirfetchd": {
     "id": "0865",
@@ -47995,7 +49180,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Mr Rime": {
     "id": "0866",
@@ -48039,7 +49225,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Runerigus": {
     "id": "0867",
@@ -48084,7 +49271,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Milcery": {
     "id": "0868",
@@ -48120,7 +49308,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Alcremie": {
     "id": "0869",
@@ -48158,7 +49347,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Falinks": {
     "id": "0870",
@@ -48196,7 +49386,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Pincurchin": {
     "id": "0871",
@@ -48233,7 +49424,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Snom": {
     "id": "0872",
@@ -48272,7 +49464,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Frosmoth": {
     "id": "0873",
@@ -48313,7 +49506,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Stonjourner": {
     "id": "0874",
@@ -48353,7 +49547,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Eiscue": {
     "id": "0875",
@@ -48389,7 +49584,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Eiscue Ice": {
     "id": "0875",
@@ -48425,7 +49621,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Eiscue Noice": {
     "id": "0875",
@@ -48461,7 +49658,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Indeedee": {
     "id": "0876",
@@ -48497,7 +49695,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Indeedee Female": {
     "id": "0876",
@@ -48533,7 +49732,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Indeedee Male": {
     "id": "0876",
@@ -48569,7 +49769,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Morpeko": {
     "id": "0877",
@@ -48614,7 +49815,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Morpeko Full Belly": {
     "id": "0877",
@@ -48659,7 +49861,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Morpeko Hangry": {
     "id": "0877",
@@ -48704,7 +49907,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Cufant": {
     "id": "0878",
@@ -48750,7 +49954,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Copperajah": {
     "id": "0879",
@@ -48797,7 +50002,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Dracozolt": {
     "id": "0880",
@@ -48840,7 +50046,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Arctozolt": {
     "id": "0881",
@@ -48880,7 +50087,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Dracovish": {
     "id": "0882",
@@ -48918,7 +50126,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Arctovish": {
     "id": "0883",
@@ -48957,7 +50166,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Duraludon": {
     "id": "0884",
@@ -49002,7 +50212,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Dreepy": {
     "id": "0885",
@@ -49046,7 +50257,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Drakloak": {
     "id": "0886",
@@ -49092,7 +50304,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Dragapult": {
     "id": "0887",
@@ -49139,7 +50352,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zacian": {
     "id": "0888",
@@ -49188,7 +50402,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zacian Crowned Sword": {
     "id": "0888",
@@ -49237,7 +50452,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zacian Hero": {
     "id": "0888",
@@ -49278,7 +50494,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zamazenta": {
     "id": "0889",
@@ -49326,7 +50543,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zamazenta Crowned Shield": {
     "id": "0889",
@@ -49374,7 +50592,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zamazenta Hero": {
     "id": "0889",
@@ -49415,7 +50634,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Eternatus": {
     "id": "0890",
@@ -49459,7 +50679,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Eternatus Eternamax": {
     "id": "0890",
@@ -49504,7 +50725,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Kubfu": {
     "id": "0891",
@@ -49542,7 +50764,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": false
 },
 "Urshifu": {
     "id": "0892",
@@ -49580,7 +50803,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Urshifu Rapid Strike": {
     "id": "0892",
@@ -49627,7 +50851,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Urshifu Single Strike": {
     "id": "0892",
@@ -49669,7 +50894,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Zarude": {
     "id": "0893",
@@ -49716,7 +50942,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Regieleki": {
     "id": "0894",
@@ -49753,7 +50980,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Regidrago": {
     "id": "0895",
@@ -49792,7 +51020,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Glastrier": {
     "id": "0896",
@@ -49829,7 +51058,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Spectrier": {
     "id": "0897",
@@ -49867,7 +51097,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Calyrex": {
     "id": "0898",
@@ -49913,7 +51144,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Calyrex Ice Rider": {
     "id": "0898",
@@ -49955,7 +51187,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Calyrex Shadow Rider": {
     "id": "0898",
@@ -49995,7 +51228,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Galar"
+    "region": "Galar",
+    "is_final_stage": true
 },
 "Wyrdeer": {
     "id": "0899",
@@ -50034,7 +51268,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Kleavor": {
     "id": "0900",
@@ -50073,7 +51308,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ursaluna": {
     "id": "0901",
@@ -50118,7 +51354,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Sneasler": {
     "id": "0903",
@@ -50161,7 +51398,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Overqwil": {
     "id": "0904",
@@ -50202,7 +51440,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Enamorus Incarnate": {
     "id": "0905",
@@ -50247,7 +51486,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Enamorus Therian": {
     "id": "0905",
@@ -50292,7 +51532,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Sprigatito": {
     "id": "0906",
@@ -50333,7 +51574,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Floragato": {
     "id": "0907",
@@ -50374,7 +51616,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Meowscarada": {
     "id": "0908",
@@ -50424,7 +51667,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Fuecoco": {
     "id": "0909",
@@ -50465,7 +51709,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Crocalor": {
     "id": "0910",
@@ -50506,7 +51751,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Skeledirge": {
     "id": "0911",
@@ -50554,7 +51800,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Quaxly": {
     "id": "0912",
@@ -50592,7 +51839,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Quaxwell": {
     "id": "0913",
@@ -50630,7 +51878,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Quaquaval": {
     "id": "0914",
@@ -50676,7 +51925,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Lechonk": {
     "id": "0915",
@@ -50710,7 +51960,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Oinkologne": {
     "id": "0916",
@@ -50744,7 +51995,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Oinkologne Female": {
     "id": "0916",
@@ -50778,7 +52030,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tarountula": {
     "id": "0917",
@@ -50816,7 +52069,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Spidops": {
     "id": "0918",
@@ -50855,7 +52109,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Nymble": {
     "id": "0919",
@@ -50893,7 +52148,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Lokix": {
     "id": "0920",
@@ -50938,7 +52194,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Pawmi": {
     "id": "0921",
@@ -50974,7 +52231,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Pawmo": {
     "id": "0922",
@@ -51016,7 +52274,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Pawmot": {
     "id": "0923",
@@ -51060,7 +52319,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tandemaus": {
     "id": "0924",
@@ -51095,7 +52355,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Maushold": {
     "id": "0925",
@@ -51130,7 +52391,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Maushold Family Of Four": {
     "id": "0925",
@@ -51165,7 +52427,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Maushold Family Of Three": {
     "id": "0925",
@@ -51200,7 +52463,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Fidough": {
     "id": "0926",
@@ -51238,7 +52502,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Dachsbun": {
     "id": "0927",
@@ -51276,7 +52541,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Smoliv": {
     "id": "0928",
@@ -51321,7 +52587,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Dolliv": {
     "id": "0929",
@@ -51367,7 +52634,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Arboliva": {
     "id": "0930",
@@ -51413,7 +52681,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Squawkabilly": {
     "id": "0931",
@@ -51453,7 +52722,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Squawkabilly Blue": {
     "id": "0931",
@@ -51493,7 +52763,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Squawkabilly Green": {
     "id": "0931",
@@ -51533,7 +52804,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Squawkabilly White": {
     "id": "0931",
@@ -51573,7 +52845,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Squawkabilly Yellow": {
     "id": "0931",
@@ -51613,7 +52886,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Nacli": {
     "id": "0932",
@@ -51654,7 +52928,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Naclstack": {
     "id": "0933",
@@ -51695,7 +52970,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Garganacl": {
     "id": "0934",
@@ -51736,7 +53012,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Charcadet": {
     "id": "0935",
@@ -51777,7 +53054,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Armarouge": {
     "id": "0936",
@@ -51823,7 +53101,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ceruledge": {
     "id": "0937",
@@ -51871,7 +53150,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tadbulb": {
     "id": "0938",
@@ -51907,7 +53187,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Bellibolt": {
     "id": "0939",
@@ -51943,7 +53224,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Wattrel": {
     "id": "0940",
@@ -51984,7 +53266,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Kilowattrel": {
     "id": "0941",
@@ -52025,7 +53308,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Maschiff": {
     "id": "0942",
@@ -52063,7 +53347,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Mabosstiff": {
     "id": "0943",
@@ -52101,7 +53386,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Shroodle": {
     "id": "0944",
@@ -52141,7 +53427,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Grafaiai": {
     "id": "0945",
@@ -52181,7 +53468,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Bramblin": {
     "id": "0946",
@@ -52225,7 +53513,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Brambleghast": {
     "id": "0947",
@@ -52269,7 +53558,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Toedscool": {
     "id": "0948",
@@ -52309,7 +53599,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Toedscruel": {
     "id": "0949",
@@ -52349,7 +53640,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Klawf": {
     "id": "0950",
@@ -52390,7 +53682,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Capsakid": {
     "id": "0951",
@@ -52431,7 +53724,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Scovillain": {
     "id": "0952",
@@ -52472,7 +53766,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Rellor": {
     "id": "0953",
@@ -52510,7 +53805,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Rabsca": {
     "id": "0954",
@@ -52554,7 +53850,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Flittle": {
     "id": "0955",
@@ -52591,7 +53888,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Espathra": {
     "id": "0956",
@@ -52628,7 +53926,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tinkatink": {
     "id": "0957",
@@ -52674,7 +53973,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Tinkatuff": {
     "id": "0958",
@@ -52720,7 +54020,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Tinkaton": {
     "id": "0959",
@@ -52767,7 +54068,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Wiglett": {
     "id": "0960",
@@ -52805,7 +54107,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Wugtrio": {
     "id": "0961",
@@ -52843,7 +54146,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Bombirdier": {
     "id": "0962",
@@ -52885,7 +54189,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Finizen": {
     "id": "0963",
@@ -52923,7 +54228,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Palafin": {
     "id": "0964",
@@ -52964,7 +54270,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Palafin Hero": {
     "id": "0964",
@@ -53005,7 +54312,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Palafin Zero": {
     "id": "0964",
@@ -53046,7 +54354,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Varoom": {
     "id": "0965",
@@ -53091,7 +54400,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Revavroom": {
     "id": "0966",
@@ -53137,7 +54447,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Cyclizar": {
     "id": "0967",
@@ -53179,7 +54490,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Orthworm": {
     "id": "0968",
@@ -53225,7 +54537,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Glimmet": {
     "id": "0969",
@@ -53268,7 +54581,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Glimmora": {
     "id": "0970",
@@ -53311,7 +54625,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Greavard": {
     "id": "0971",
@@ -53349,7 +54664,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Houndstone": {
     "id": "0972",
@@ -53387,7 +54703,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Flamigo": {
     "id": "0973",
@@ -53430,7 +54747,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Cetoddle": {
     "id": "0974",
@@ -53468,7 +54786,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Cetitan": {
     "id": "0975",
@@ -53506,7 +54825,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Veluza": {
     "id": "0976",
@@ -53551,7 +54871,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Dondozo": {
     "id": "0977",
@@ -53590,7 +54911,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tatsugiri": {
     "id": "0978",
@@ -53629,7 +54951,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tatsugiri Curly": {
     "id": "0978",
@@ -53668,7 +54991,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tatsugiri Droopy": {
     "id": "0978",
@@ -53707,7 +55031,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tatsugiri Stretchy": {
     "id": "0978",
@@ -53746,7 +55071,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Annihilape": {
     "id": "0979",
@@ -53791,7 +55117,8 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Clodsire": {
     "id": "0980",
@@ -53837,7 +55164,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Farigiraf": {
     "id": "0981",
@@ -53876,7 +55204,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Dudunsparce": {
     "id": "0982",
@@ -53911,7 +55240,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Dudunsparce Three": {
     "id": "0982",
@@ -53946,7 +55276,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Dudunsparce Two": {
     "id": "0982",
@@ -53981,7 +55312,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Kingambit": {
     "id": "0983",
@@ -54029,7 +55361,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Greattusk": {
     "id": "0984",
@@ -54070,7 +55403,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Screamtail": {
     "id": "0985",
@@ -54106,7 +55440,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Brutebonnet": {
     "id": "0986",
@@ -54150,7 +55485,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Fluttermane": {
     "id": "0987",
@@ -54186,7 +55522,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Slitherwing": {
     "id": "0988",
@@ -54225,7 +55562,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Sandyshocks": {
     "id": "0989",
@@ -54264,7 +55602,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Irontreads": {
     "id": "0990",
@@ -54308,7 +55647,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironbundle": {
     "id": "0991",
@@ -54344,7 +55684,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironhands": {
     "id": "0992",
@@ -54382,7 +55723,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironjugulis": {
     "id": "0993",
@@ -54421,7 +55763,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironmoth": {
     "id": "0994",
@@ -54463,7 +55806,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironthorns": {
     "id": "0995",
@@ -54502,7 +55846,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Frigibax": {
     "id": "0996",
@@ -54544,7 +55889,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Arctibax": {
     "id": "0997",
@@ -54586,7 +55932,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Baxcalibur": {
     "id": "0998",
@@ -54629,7 +55976,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Gimmighoul": {
     "id": "0999",
@@ -54664,7 +56012,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": false
 },
 "Gholdengo": {
     "id": "1000",
@@ -54713,7 +56062,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Wochien": {
     "id": "1001",
@@ -54760,7 +56110,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Chienpao": {
     "id": "1002",
@@ -54803,7 +56154,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Tinglu": {
     "id": "1003",
@@ -54848,7 +56200,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Chiyu": {
     "id": "1004",
@@ -54892,7 +56245,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Roaringmoon": {
     "id": "1005",
@@ -54934,7 +56288,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Ironvaliant": {
     "id": "1006",
@@ -54974,7 +56329,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Koraidon": {
     "id": "1007",
@@ -55020,7 +56376,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Koraidon Apex": {
     "id": "1007",
@@ -55066,7 +56423,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Miraidon": {
     "id": "1008",
@@ -55110,7 +56468,8 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 "Miraidon Ultimate": {
     "id": "1008",
@@ -55154,6 +56513,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea"
+    "region": "Paldea",
+    "is_final_stage": true
 },
 }
