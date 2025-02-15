@@ -4,6 +4,9 @@ $(document).on('click', '.pkm-list-btn', function() {
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
 
+	pkms = Object.keys(pokeDB).filter(realPkm => pkms.includes(realPkm));
+	pkms = pkms.filter(pokemon => pokeDB[pokemon].is_final_stage === true)	
+
 	/*$.each(pkms, function(id, pkm) {
 		if (pkm.indexOf(" ") > -1) {
 			innerPkm = pkm.split(" ");
