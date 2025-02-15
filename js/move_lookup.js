@@ -112,8 +112,10 @@ function filterPokemonByMoveType(type, pokemons, wholeDatabase)
         var skip = true;
         pokeDB[pkm].moveset.quick.filter(function(move) {
             sanitizedMove = move.replaceAll('*', '');
-            if (skip && quickMoveDB[sanitizedMove].type === type){
-                skip = false;
+            if (sanitizedMove !== "Transform") {
+                if (skip && quickMoveDB[sanitizedMove].type === type){
+                    skip = false;
+                }
             }
         });
 
