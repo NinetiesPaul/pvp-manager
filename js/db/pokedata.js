@@ -33812,45 +33812,6 @@ var pokeDB = {
     "region": "Unova",
     "is_final_stage": true
 },
-"Meloetta": {
-    "id": "0648",
-    "stats": {
-        "atk": 250,
-        "def": 225,
-        "sta": 225
-    },
-    "type": [
-        "Normal",
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Meloetta",
-    "moveset": {
-        "quick": [
-            "Low Kick",
-            "Quick Attack"
-        ],
-        "charge": [
-            "Close Combat",
-            "Fire Punch",
-            "Hyper Beam",
-            "Ice Punch"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "62.5%",
-            "Psychic": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Unova",
-    "is_final_stage": true
-},
 "Meloetta Aria": {
     "id": "0648",
     "stats": {
@@ -33862,7 +33823,7 @@ var pokeDB = {
         "Normal",
         "Psychic"
     ],
-    "imgurl": null,
+    "imgurl": "648",
     "name": "Meloetta Aria",
     "moveset": {
         "quick": [
@@ -33901,7 +33862,7 @@ var pokeDB = {
         "Normal",
         "Fighting"
     ],
-    "imgurl": null,
+    "imgurl": "10018",
     "name": "Meloetta Pirouette",
     "moveset": {
         "quick": [

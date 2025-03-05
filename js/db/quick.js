@@ -359,6 +359,13 @@ var quickMoveDB = {
     "ept": "3.33",
     "dpt": "4.33"
 },
+"Freeze Shock": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
+},
 "Frost Breath": {
     "type": "Ice",
     "weakAgainst": [
@@ -448,6 +455,13 @@ var quickMoveDB = {
     "goodAgainst": [],
     "ept": "2.67",
     "dpt": "3.00"
+},
+"Ice Burn": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
 },
 "Ice Fang": {
     "type": "Ice",

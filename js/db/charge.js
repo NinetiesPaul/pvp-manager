@@ -1392,10 +1392,15 @@ var chargeMoveDB = {
         "Grass",
         "Ground"
     ],
-    "energy": -65,
-    "power": 1,
-    "dpe": 0.02,
-    "buffs": []
+    "energy": -60,
+    "power": 120,
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Frenzy Plant": {
     "type": "Grass",
@@ -1837,10 +1842,15 @@ var chargeMoveDB = {
         "Grass",
         "Ground"
     ],
-    "energy": -65,
-    "power": 1,
-    "dpe": 0.02,
-    "buffs": []
+    "energy": -60,
+    "power": 120,
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Ice Punch": {
     "type": "Ice",
