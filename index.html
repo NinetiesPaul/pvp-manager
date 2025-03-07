@@ -12,8 +12,6 @@
 
 		<script src="js/lib/jquery.js"></script>
         <script src="js/lib/clipboard.js"></script>
-        <script src="js/lib/tablesort.js"></script>
-        <script src="js/lib/tablesort.number.js"></script>
 
         <script src="js/db/pokedata.js"></script>
         <script src="js/db/charge.js"></script>
@@ -53,10 +51,12 @@
             var hideTypes = [];
 
             var highlightDefenseDetails = [];
-            
-            $(document).ready( function () {
 
-                new Tablesort(document.getElementById('teamassembler-table'));
+            $(document).on('click', '#paste_pkms', function() {
+                pasteTeam($(this));
+            });
+
+            $(document).ready( function () {
 
                 for (var key in pokeDB) {
                     $("#pokemonList_slot1").append("<option>" + pokeDB[key].id.padStart(3, '0') + " - " + key + "</option>");          
@@ -136,46 +136,13 @@
                 	saveTeam()
                 });
                 
-                $("#quick_move-slot1").change(function() {
-                	getMoveData(this.value, 'quick', 'slot1');
+                $(".quick_move").change(function() {
+                	getMoveData(this.value, 'quick', $(this)[0].dataset['slot']);
                 });
                 
-                $('#charge1_move-slot1').change(function() {
-					disableMove(this.value, 'charge2_move-slot1');
-					getMoveData(this.value, 'charge1', 'slot1');
-				});
-
-				$('#charge2_move-slot1').change(function() {
-					disableMove(this.value, 'charge1_move-slot1');
-					getMoveData(this.value, 'charge2', 'slot1');
-				});
-				
-				$('#quick_move-slot2').change(function() {
-					getMoveData(this.value, 'quick', 'slot2');
-				});
-
-				$('#charge1_move-slot2').change(function() {
-					disableMove(this.value, 'charge2_move-slot2');
-					getMoveData(this.value, 'charge1', 'slot2');
-				});
-
-				$('#charge2_move-slot2').change(function() {
-					disableMove(this.value, 'charge1_move-slot2');
-					getMoveData(this.value, 'charge2', 'slot2');
-				});
-
-				$('#quick_move-slot3').change(function() {
-					getMoveData(this.value, 'quick', 'slot3');
-				});
-
-				$('#charge1_move-slot3').change(function() {
-					disableMove(this.value, 'charge2_move-slot3');
-					getMoveData(this.value, 'charge1', 'slot3');
-				});
-
-				$('#charge2_move-slot3').change(function() {
-					disableMove(this.value, 'charge1_move-slot3');
-					getMoveData(this.value, 'charge2', 'slot3');
+                $('.charge_move').change(function() {
+					disableMove(this.value, (($(this)[0].dataset['move'] === "charge1") ? 'charge2_move-' + $(this)[0].dataset['slot'] : 'charge1_move-' + $(this)[0].dataset['slot']));
+					getMoveData(this.value, $(this)[0].dataset['move'], $(this)[0].dataset['slot']);
 				});
 
                 $('.hideType').on('click', function (){
@@ -227,6 +194,11 @@
                     } else {
                         $(".pkm-list-db").attr("disabled", true)
                     }
+                });
+
+                $(".pkm-list-btn").on('click', function(){
+                    console.log("assemble")
+                    assembleTeams();
                 });
 
                 $('.shadow_slot1 [type="checkbox"]').on('click', function (e) {
@@ -334,7 +306,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="quick_move-slot1" name="quick_move-slot1" class="custom-select">
+                                                <select id="quick_move-slot1" name="quick_move-slot1"  class="custom-select quick_move" data-slot="slot1">
                                                     <option>-- Quick --</option>
                                                 </select>
                                             </td>
@@ -346,7 +318,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select">
+                                                <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select charge_move" data-move="charge1" data-slot="slot1">
                                                     <option>-- Charge I --</option>
                                                 </select>
                                             </td>
@@ -359,7 +331,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select">
+                                                <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select charge_move" data-move="charge2" data-slot="slot1">
                                                     <option>-- Charge II --</option>
                                                 </select>
                                             </td>
@@ -419,7 +391,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select">
+                                                <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select quick_move" data-slot="slot2">
                                                     <option>-- Quick --</option>
                                                 </select>
                                             </td>
@@ -431,7 +403,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select">
+                                                <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select charge_move" data-move="charge1" data-slot="slot2">
                                                     <option>-- Charge I --</option>
                                                 </select>
                                             </td>
@@ -444,7 +416,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select">
+                                                <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select charge_move" data-move="charge2" data-slot="slot2">
                                                     <option>-- Charge II --</option>
                                                 </select>
                                             </td>
@@ -504,7 +476,7 @@
                                     <tbody>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select">
+                                                <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select quick_move" data-slot="slot3">
                                                     <option>-- Quick --</option>
                                                 </select>
                                             </td>
@@ -516,7 +488,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select">
+                                                <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select charge_move" data-move="charge1" data-slot="slot3">
                                                     <option>-- Charge I --</option>
                                                 </select>
                                             </td>
@@ -529,7 +501,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2">
-                                                <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select">
+                                                <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select charge_move" data-move="charge2" data-slot="slot3">
                                                     <option>-- Charge II --</option>
                                                 </select>
                                             </td>
@@ -565,11 +537,14 @@
 
                     <div class="tab-pane fade show" id="pvp-teamassembler" role="tabpanel" >
 
-                        <textarea class="pkm-list" style="height: 252px; width:70%;"></textarea>
-
                         <table id="teamassemblerfilter-table">
-                            <thead></thead>
+                            <thead><tr><th></th><th style="width: 10%;"></th></tr></thead>
                             <tbody>
+                                <tr>
+                                    <td colspan="2">
+                                        <textarea class="pkm-list" style="height: 252px; width:100%;"></textarea>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td class="leftColumn">
                                         Hide double vulnerabilities
@@ -600,21 +575,6 @@
                                     </td>
                                     <td class="rightColumn">
                                         <input type="checkbox" id="hide_ctv"/>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2">
-                                        Quick Moves with EPT
-                                        <select id="ept_comparison" class="custom-select" style="width: 8em;">
-                                            <option value=">">greater than</option>
-                                            <option value=">=">greater than or equal to</option>
-                                        </select>
-                                        <select id="ept_limit" class="custom-select" style="width: 5em;">
-                                            <option value="-">-</option>
-                                            <option value="3">3</option>
-                                            <option value="3.5">3.5</option>
-                                            <option value="4">4</option>
-                                        </select> 
                                     </td>
                                 </tr>
                                 <tr id="filterByType">
@@ -667,6 +627,23 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td>
+                                        Quick Moves with EPT
+                                        <select id="ept_comparison" class="custom-select" style="width: 8em;">
+                                            <option value=">">greater than</option>
+                                            <option value=">=">greater than or equal to</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select id="ept_limit" class="custom-select" style="width: 5em;">
+                                            <option value="-">-</option>
+                                            <option value="3">3</option>
+                                            <option value="3.5">3.5</option>
+                                            <option value="4">4</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td colspan="2">
                                         Highlight defense details:<br/>
                                         <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #9BA0A0;">Normal</button>
@@ -714,7 +691,6 @@
                                     <th width="30%">Slot 1</th>
                                     <th width="30%">Slot 2</th>
                                     <th width="30%">Slot 3</th>
-                                    <th></th>
                                     <th></th>
                                 </tr>
                             </thead>
