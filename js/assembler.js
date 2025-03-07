@@ -1,4 +1,4 @@
-$(document).on('click', '.pkm-list-btn', function() {
+function assembleTeams(){
 	$(".teamassembler-table tbody").html("");
 
 	var pkms = $(".pkm-list").val();
@@ -340,10 +340,10 @@ $(document).on('click', '.pkm-list-btn', function() {
 
 		textToAppend += 
 		"<tr>" +
-			"<td rowspan=\"3\"><button class=\"btn btn-sm\" id=\"paste_pkms\"><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button><br/><br/><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>" +
-			"<td><span id=\"slot1\"><b>" + slot1 + "</b></span><br><small>" + retrieveType(slot1) + "<br/></small></td>" +
-			"<td><span id=\"slot2\"><b>" + slot2 + "</b></span><br><small>" + retrieveType(slot2) + "<br/></small></td>" +
-			"<td><span id=\"slot3\"><b>" + slot3 + "</b></span><br><small>" + retrieveType(slot3) + "<br/></small></td>" +
+			"<td rowspan=\"3\"><button class=\"btn btn-sm\" id=\"paste_pkms\" data-slot1='" + slot1 + "' data-slot2='" + slot2 + "' data-slot3='" + slot3 + "'><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button><br/><br/><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>" +
+			"<td><span><b>" + slot1 + "</b></span><br><small>" + retrieveType(slot1) + "<br/></small></td>" +
+			"<td><span><b>" + slot2 + "</b></span><br><small>" + retrieveType(slot2) + "<br/></small></td>" +
+			"<td><span><b>" + slot3 + "</b></span><br><small>" + retrieveType(slot3) + "<br/></small></td>" +
 			"<td rowspan=\"3\"><small><b>Team's Resis.:</b> " + (new Set(combinedResistances).size) + "<br/><b>Team's Vul.:</b> " + (new Set(combinedVulnerabilites).size) + "</small></td>" +
 			"<td rowspan=\"3\"></td>" +
 		"</tr>" + 
@@ -364,26 +364,23 @@ $(document).on('click', '.pkm-list-btn', function() {
 	$("#teamsCombination").html(teamCounter);
 	$("#pkmFinalList").html(pkmsFinalList.join(", "));
 	$("#assembler-tbody").append(textToAppend);
-});
+};
 
-$(document).on('click', '#paste_pkms', function() {
-	var pkmSlot1 = $(this).parent().parent().find("#slot1").text()
-	pkmSlot1 = pokeDB[pkmSlot1].id + " - " + pokeDB[pkmSlot1].name
+function pasteTeam(e) {
+	pkmSlot1 = pokeDB[e[0].dataset['slot1']].id + " - " + pokeDB[e[0].dataset['slot1']].name
 	$("#pokemonList_slot1").val(pkmSlot1)
 	$("#pokemonList_slot1").trigger("change")
 
-	var pkmSlot2 = $(this).parent().parent().find("#slot2").text()
-	pkmSlot2 = pokeDB[pkmSlot2].id + " - " + pokeDB[pkmSlot2].name
+	pkmSlot2 = pokeDB[e[0].dataset['slot2']].id + " - " + pokeDB[e[0].dataset['slot2']].name
 	$("#pokemonList_slot2").val(pkmSlot2)
 	$("#pokemonList_slot2").trigger("change")
 
-	var pkmSlot3 = $(this).parent().parent().find("#slot3").text()
-	pkmSlot3 = pokeDB[pkmSlot3].id + " - " + pokeDB[pkmSlot3].name
+	pkmSlot3 = pokeDB[e[0].dataset['slot3']].id + " - " + pokeDB[e[0].dataset['slot3']].name
 	$("#pokemonList_slot3").val(pkmSlot3)
 	$("#pokemonList_slot3").trigger("change")
 
 	$("#pvp-teambuilder-tab").trigger("click")
-});
+};
 
 function retrieveType(slot)
 {
@@ -395,4 +392,4 @@ function retrieveType(slot)
 	});
 
 	return slotPkmType;
-}
+};
