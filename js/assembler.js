@@ -345,7 +345,6 @@ function assembleTeams(){
 			"<td><span><b>" + slot2 + "</b></span><br><small>" + retrieveType(slot2) + "<br/></small></td>" +
 			"<td><span><b>" + slot3 + "</b></span><br><small>" + retrieveType(slot3) + "<br/></small></td>" +
 			"<td rowspan=\"3\"><small><b>Team's Resis.:</b> " + (new Set(combinedResistances).size) + "<br/><b>Team's Vul.:</b> " + (new Set(combinedVulnerabilites).size) + "</small></td>" +
-			"<td rowspan=\"3\"></td>" +
 		"</tr>" + 
 		"<tr class='row-no-border'>" +
 			"<td><small>Cross team vulnerability:</small><br/>" + ((slot1SharedVulnerabilityIcons !== "") ? slot1SharedVulnerabilityIcons : "&nbsp;") + "</td>" +
