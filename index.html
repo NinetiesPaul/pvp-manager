@@ -51,6 +51,8 @@
             }
 
             var hideTypes = [];
+
+            var highlightDefenseDetails = [];
             
             $(document).ready( function () {
 
@@ -207,6 +209,16 @@
                         });
                     }
                 });
+
+                $(".highlightDefDetails").click(function() {
+                    if (this.classList.contains('disabled') == false) {
+                        this.classList.add('disabled')
+                        highlightDefenseDetails.splice(highlightDefenseDetails.indexOf(this.textContent), 1)
+                    } else {
+                        this.classList.remove('disabled')
+                        highlightDefenseDetails.push(this.textContent)
+                    }
+                })
 
                 $("#whole_database").on('click', function () {
                     $('#moveList').val("-- Pick an option --").trigger('change');
@@ -654,6 +666,29 @@
                                         </select><br/>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        Highlight defense details:<br/>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #9BA0A0;">Normal</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #F8DD64;">Electric</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #5FA9DC;">Water</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #FFA74E;">Fire</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #E04452;">Fighting</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #D3C891;">Rock</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #D68858;">Ground</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #6A6EC4;">Ghost</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #EF9AE2;">Fairy</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #9AB4E4;">Flying</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #5DBC66;">Grass</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #FA8281;">Psychic</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #6C7180;">Dark</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #559DA5;">Steel</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #A5C731;">Bug</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #B762CE;">Poison</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #84D6CC;">Ice</button>
+                                        <button class="btn btn-sm highlightDefDetails typeButton disabled" style="background-color: #0780BD;">Dragon</button>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
 
@@ -662,24 +697,25 @@
                         </p>
 
                         <p id="assembler_result">
-                            
+                            <b>Number of pokemons:</b> <span id="pkmTotalSize"></span><br/>
+                            <b>Filtered pokemons: </b> <span id="filteredSize"></span><br/>
+                            <b>Possible teams:</b> <span id="teamsCombination"></span><br/>
+                            <b>Final list:</b> <span id="pkmFinalList"></span><br/>
                         </p><br>
 
                         <!-- <p><input type="text" id="filter-pvp-team"/></p><br>
 
                          <p><button type="button" class="btn btn-sm btn-primary filter-pkm-list-btn">Filter</button></p><br> -->
 
-                        <table id="teamassembler-table" class='teamassembler-table table table-sm table-striped'>
+                        <table id="teamassembler-table" class='teamassembler-table table table-sm'>
                             <thead class="thead-dark">
                                 <tr>
                                     <th></th>
-                                    <th>Slot 1</th>
-                                    <th>Slot 2</th>
-                                    <th>Slot 3</th>
-                                    <th>Shared Vulnerabilities</th>
-                                    <th>Resistances</th>
-                                    <th>Vulnerabilities</th>
-                                    <th>CTT</th>
+                                    <th width="30%">Slot 1</th>
+                                    <th width="30%">Slot 2</th>
+                                    <th width="30%">Slot 3</th>
+                                    <th></th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody id="assembler-tbody">
