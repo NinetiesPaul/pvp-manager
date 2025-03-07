@@ -132,3 +132,20 @@ p {
 .rightColumn {
   text-align: center;
 }
+
+.row-no-border td {
+  border: none;
+}
+
+#teamassembler-table {
+  background-color: white;
+}
+
+.spanLeftHighlights {
+  float: left;
+  width: 50%;
+}
+.spanRightHighlights {
+  float: right;
+  width: 50%;
+}
