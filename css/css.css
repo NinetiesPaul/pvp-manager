@@ -149,3 +149,10 @@ p {
   float: right;
   width: 50%;
 }
+
+.dataPagination {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.2em;
+}
