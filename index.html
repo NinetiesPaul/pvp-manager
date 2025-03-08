@@ -25,6 +25,8 @@
 
         <script src="js/move_lookup.js"></script>
         <script src="js/assembler.js"></script>
+        
+        <script src="js/lib/pagination.js"></script>
 		
         <script>
             var colors = {
@@ -48,6 +50,8 @@
                 "Fighting": "#E04452",
             }
 
+            var totalData = [];
+
             var hideTypes = [];
 
             var highlightDefenseDetails = [];
@@ -55,6 +59,11 @@
             $(document).on('click', '#paste_pkms', function() {
                 pasteTeam($(this));
             });
+
+            $(document).on('click', '.pageButton', function() {
+                let page = $(this)[0].dataset['page'];
+                buildPagination(totalData, parseInt(page));
+            })
 
             $(document).ready( function () {
 
@@ -197,8 +206,9 @@
                 });
 
                 $(".pkm-list-btn").on('click', function(){
-                    console.log("assemble")
+                    totalData = [];
                     assembleTeams();
+                    buildPagination(totalData);
                 });
 
                 $('.shadow_slot1 [type="checkbox"]').on('click', function (e) {
@@ -680,9 +690,7 @@
                             <b>Final list:</b> <span id="pkmFinalList"></span><br/>
                         </p><br>
 
-                        <!-- <p><input type="text" id="filter-pvp-team"/></p><br>
-
-                         <p><button type="button" class="btn btn-sm btn-primary filter-pkm-list-btn">Filter</button></p><br> -->
+                        <div class="dataPagination"></div>
 
                         <table id="teamassembler-table" class='teamassembler-table table table-sm'>
                             <thead class="thead-dark">
