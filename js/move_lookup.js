@@ -1,4 +1,4 @@
-function filterPokemonByMoveName(moveName, pokemons, wholeDatabase)
+function filterPokemonByMoveName(moveName)
 {
     var move = {}
 
@@ -15,7 +15,7 @@ function filterPokemonByMoveName(moveName, pokemons, wholeDatabase)
 
 	$(".pokemondb-table tbody").html("");
 
-    var pokemons = (wholeDatabase) ? Object.keys(pokeDB) : pokemons.split(",")
+    var pokemons = ($("#whole_database").is(":checked")) ? Object.keys(pokeDB) : $(".pkm-list-db").val().split(",")
 
     var textToAppend = "";
 
