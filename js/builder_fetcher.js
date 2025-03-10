@@ -68,15 +68,25 @@ function getPokemonData(pokemon, slot)
         cleanName = value.replaceAll('*', '');
         var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + quickMoveDB[cleanName].dpt;
 
-        $('#quick_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
+        let bold = (data.type.includes(quickMoveDB[cleanName].type) ? "style=\"font-weight: bold;\"" : "");
+
+        $('#quick_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
     });
 
     $.each(data.moveset.charge, function (index,value){
         cleanName = value.replaceAll('*', '');
-        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + chargeMoveDB[cleanName].dpe;
 
-        $('#charge1_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
-        $('#charge2_move-' + slot).append("<option>" + value + " (" + formattedMoveName + ")</option>")
+        let finalDpe = chargeMoveDB[cleanName].dpe;
+        let bold = "";
+        if (data.type.includes(chargeMoveDB[cleanName].type)) {
+            finalDpe = (chargeMoveDB[cleanName].dpe * 1.2).toFixed(2);
+            bold = "style=\"font-weight: bold;\"";
+        }
+
+        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe;
+
+        $('#charge1_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
+        $('#charge2_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
     });
 
     $("#pokemonList_" + slot + "_alternatives").html("");
