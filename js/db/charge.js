@@ -34,9 +34,9 @@ var chargeMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "energy": -60,
+    "energy": -55,
     "power": 110,
-    "dpe": 1.83,
+    "dpe": 2,
     "buffs": []
 },
 "Aerial Ace": {
@@ -134,10 +134,15 @@ var chargeMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
-    "buffs": []
+    "energy": -35,
+    "power": 45,
+    "dpe": 1.29,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Ancient Power": {
     "type": "Rock",
@@ -175,9 +180,9 @@ var chargeMoveDB = {
         "Ground",
         "Rock"
     ],
-    "energy": -45,
-    "power": 45,
-    "dpe": 1,
+    "energy": -40,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Aqua Tail": {
@@ -756,9 +761,9 @@ var chargeMoveDB = {
         "Dragon",
         "Fighting"
     ],
-    "energy": -70,
-    "power": 110,
-    "dpe": 1.57,
+    "energy": -55,
+    "power": 90,
+    "dpe": 1.64,
     "buffs": []
 },
 "Dig": {
@@ -809,9 +814,9 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -45,
-    "power": 65,
-    "dpe": 1.44,
+    "energy": -40,
+    "power": 55,
+    "dpe": 1.38,
     "buffs": []
 },
 "Doom Desire": {
@@ -1016,9 +1021,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -50,
+    "energy": -45,
     "power": 90,
-    "dpe": 1.8,
+    "dpe": 2,
     "buffs": []
 },
 "Earth Power": {
@@ -1373,9 +1378,9 @@ var chargeMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "energy": -45,
-    "power": 70,
-    "dpe": 1.56,
+    "energy": -40,
+    "power": 60,
+    "dpe": 1.5,
     "buffs": []
 },
 "Freeze Shock": {
@@ -2424,8 +2429,8 @@ var chargeMoveDB = {
         "Psychic"
     ],
     "energy": -45,
-    "power": 80,
-    "dpe": 1.78,
+    "power": 70,
+    "dpe": 1.56,
     "buffs": []
 },
 "Night Slash": {
@@ -2875,9 +2880,9 @@ var chargeMoveDB = {
         "Fighting",
         "Poison"
     ],
-    "energy": -45,
+    "energy": -40,
     "power": 70,
-    "dpe": 1.56,
+    "dpe": 1.75,
     "buffs": []
 },
 "Psystrike": {
@@ -3027,9 +3032,9 @@ var chargeMoveDB = {
         "Flying",
         "Ice"
     ],
-    "energy": -60,
-    "power": 70,
-    "dpe": 1.17,
+    "energy": -50,
+    "power": 80,
+    "dpe": 1.6,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -3490,8 +3495,8 @@ var chargeMoveDB = {
         "Grass"
     ],
     "energy": -40,
-    "power": 50,
-    "dpe": 1.25,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Sludge Bomb": {
@@ -3895,6 +3900,30 @@ var chargeMoveDB = {
     "power": 90,
     "dpe": 1.64,
     "buffs": []
+},
+"Torch Song": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": -45,
+    "power": 70,
+    "dpe": 1.56,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
 },
 "Trailblaze": {
     "type": "Grass",

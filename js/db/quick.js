@@ -442,8 +442,8 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "ept": "4.00",
-    "dpt": "2.00"
+    "ept": "4.33",
+    "dpt": "2.33"
 },
 "Hidden Power": {
     "type": "Normal",
@@ -925,7 +925,7 @@ var quickMoveDB = {
         "Ice"
     ],
     "ept": "4.33",
-    "dpt": "2.67"
+    "dpt": "2.33"
 },
 "Sand Attack": {
     "type": "Ground",
