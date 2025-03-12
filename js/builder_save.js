@@ -1,4 +1,4 @@
-function saveTeam()
+function saveTeam(switchPositions = false, target = null)
 {
 	pkmSlot1 = $("#pokemonList_slot1").find(":selected").text()
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
@@ -87,7 +87,16 @@ function saveTeam()
 		dataToSave = (dataToSave == '') ? dataToSave += pkmSlot3 : dataToSave += "&" + pkmSlot3
 	}
 
-	$("#saveData").val(dataToSave)
-
-	new ClipboardJS('.saveBtn');
+	if (switchPositions) {
+		if (target == "1_and_2") {
+			inputToChange = pkmSlot2.replace('2', '1') + "&" + pkmSlot1.replace('1', '2')
+			forceChange(inputToChange)
+		} else {
+			inputToChange = pkmSlot3.replace('3', '2') + "&" + pkmSlot2.replace('2', '3')
+			forceChange(inputToChange)
+		}
+	} else {
+		$("#saveData").val(dataToSave)
+		new ClipboardJS('.saveBtn');
+	}
 }

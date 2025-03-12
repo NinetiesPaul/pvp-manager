@@ -246,6 +246,12 @@
                         $("#def-slot3").html( pokeDB[pokemon].stats.def )
                     }
                 });
+
+                $(".switchPositions").on('click', function (e) {
+
+                    saveTeam(true, $(this)[0].dataset['target'])
+
+                });
             });
         </script>
 
@@ -542,6 +548,8 @@
                                 </table>
                             </div>
                         </div>
+                        <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; top: 64.5%; right: 58.2%" data-target="1_and_2"> < > </button>
+                        <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; top: 64.5%; right: 40.2%" data-target="2_and_3"> < > </button>
 
                     </div>
 
