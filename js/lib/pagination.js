@@ -13,17 +13,19 @@ function buildPagination(totalData, currentPage = 1)
     if (numberOfPages > 5) {
         // if current page is below or equal to three, shows the first four pages and the last
         if (currentPage <= 3) {
-            showListOfPages = listOfPages.slice(0, 4)
-            showListOfPages.push(listOfPages[listOfPages.length - 1])
+            showListOfPages = listOfPages.slice(0, 4);
+            showListOfPages.push(listOfPages[listOfPages.length - 1]);
         // if current page is one of the last three pages, shows the first page, the fourth-to-last, and the last three
         } else if (listOfPages.slice([listOfPages.length - 3]).includes(currentPage)){
             showListOfPages = listOfPages.slice([listOfPages.length - 3]);
-            showListOfPages.splice(0, 0, 1)
-            showListOfPages.splice(1, 0, listOfPages[listOfPages.length - 4])
+            showListOfPages.splice(0, 0, 1);
+            showListOfPages.splice(1, 0, listOfPages[listOfPages.length - 4]);
         // if not at among the first or the last page numbers, shows the first, the one before the current page, the current page, the one after it, and the last page
         } else {
             showListOfPages = [ 1, (currentPage - 1), currentPage, (currentPage + 1), listOfPages[listOfPages.length - 1]];
         }
+    } else {
+        showListOfPages = listOfPages;
     }
 
     let startAt = (currentPage - 1) * pageSize;
