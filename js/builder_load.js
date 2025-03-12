@@ -33,9 +33,7 @@ function forceChange(input)
 		if (quick != undefined && quick.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.quick) {
 				if (move === quick) {
-					var formattedMoveName = move + " (EPT " + quickMoveDB[move.replace('*', '')].ept + "/DPT " + quickMoveDB[move.replace('*', '')].dpt + ")";
-
-					$("#quick_move-slot" + slot).val(formattedMoveName)
+					$("#quick_move-slot" + slot + " [id='" + move.replace('*', '') + "']").attr("selected", "selected")
 					$("#quick_move-slot" + slot).trigger("change")
 				}
 			}
@@ -44,9 +42,7 @@ function forceChange(input)
 		if (charge1 != undefined && charge1.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.charge) {
 				if (move === charge1) {
-					var formattedMoveName = move + " (ENG " + chargeMoveDB[move.replace('*', '')].energy + "/DPE " + chargeMoveDB[move.replace('*', '')].dpe + ")";
-
-					$("#charge1_move-slot" + slot).val(formattedMoveName)
+					$("#charge1_move-slot" + slot + " [id='" + move.replace('*', '') + "']").attr("selected", "selected")
 					$("#charge1_move-slot" + slot).trigger("change")
 				}
 			}
@@ -55,9 +51,7 @@ function forceChange(input)
 		if (charge2 != undefined && charge2.match(/[a-z]/i)) {
 			for (move of pkmData.moveset.charge) {
 				if (move === charge2) {
-					var formattedMoveName = move + " (ENG " + chargeMoveDB[move.replace('*', '')].energy + "/DPE " + chargeMoveDB[move.replace('*', '')].dpe + ")";
-
-					$("#charge2_move-slot" + slot).val(formattedMoveName)
+					$("#charge2_move-slot" + slot + " [id='" + move.replace('*', '') + "']").attr("selected", "selected")
 					$("#charge2_move-slot" + slot).trigger("change")
 				}
 			}

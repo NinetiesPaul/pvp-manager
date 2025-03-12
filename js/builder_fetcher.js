@@ -70,7 +70,7 @@ function getPokemonData(pokemon, slot)
 
         let bold = (data.type.includes(quickMoveDB[cleanName].type) ? "style=\"font-weight: bold;\"" : "");
 
-        $('#quick_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
+        $('#quick_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
 
     $.each(data.moveset.charge, function (index,value){
@@ -85,8 +85,8 @@ function getPokemonData(pokemon, slot)
 
         var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe;
 
-        $('#charge1_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
-        $('#charge2_move-' + slot).append("<option " + bold + ">" + value + " (" + formattedMoveName + ")</option>")
+        $('#charge1_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
+        $('#charge2_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
 
     $("#pokemonList_" + slot + "_alternatives").html("");
