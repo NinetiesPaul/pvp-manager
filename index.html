@@ -56,6 +56,12 @@
 
             var highlightDefenseDetails = [];
 
+            var slot1History = {};
+
+            var slot2History = {};
+
+            var slot3History = {};
+
             $(document).on('click', '#paste_pkms', function() {
                 pasteTeam($(this));
             });
@@ -87,8 +93,13 @@
 
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
-                pokemonSelectSlot1.on('change.select2', function(){
-                    getPokemonData(this.value, this.id);
+                pokemonSelectSlot1.on('change', async function(){
+                    await getPokemonData(this.value, this.id);
+                    if (!Object.keys(slot1History).includes(this.value)) {
+                        $("#pokemonList_slot1_history").append("<option>" + this.value + "</option>");
+                    }
+                    pkmSlot1 = slotToObject(this.value, 1);
+                    slot1History[this.value] = pkmSlot1;
                 });
 
                 var pokemonSelectSlot1Alt = $('#pokemonList_slot1_alternatives');
@@ -97,10 +108,20 @@
                     $("#pokemonList_slot1").trigger("change")
                 });
 
+                var pokemonSelectSlot1History = $('#pokemonList_slot1_history');
+                pokemonSelectSlot1History.on('change', function(){
+                    forceChange(slot1History[this.value].join(","));
+                });
+
                 var pokemonSelectSlot2 = $('#pokemonList_slot2');
                 pokemonSelectSlot2.select2();
-                pokemonSelectSlot2.on('change', function(){
-                    getPokemonData(this.value, this.id);
+                pokemonSelectSlot2.on('change', async function(){
+                    await getPokemonData(this.value, this.id);
+                    if (!Object.keys(slot2History).includes(this.value)) {
+                        $("#pokemonList_slot2_history").append("<option>" + this.value + "</option>");
+                    }
+                    pkmSlot2 = slotToObject(this.value, 2)
+                    slot2History[this.value] = pkmSlot2;
                 });
 
                 var pokemonSelectSlot2Alt = $('#pokemonList_slot2_alternatives');
@@ -109,16 +130,31 @@
                     $("#pokemonList_slot2").trigger("change")
                 });
 
+                var pokemonSelectSlot2History = $('#pokemonList_slot2_history');
+                pokemonSelectSlot2History.on('change', function(){
+                    forceChange(slot2History[this.value].join(","));
+                });
+
                 var pokemonSelectSlot3 = $('#pokemonList_slot3');
                 pokemonSelectSlot3.select2();
-                pokemonSelectSlot3.on('change', function(){
-                    getPokemonData(this.value, this.id);
+                pokemonSelectSlot3.on('change', async function(){
+                    await getPokemonData(this.value, this.id);
+                    if (!Object.keys(slot3History).includes(this.value)) {
+                        $("#pokemonList_slot3_history").append("<option>" + this.value + "</option>");
+                    }
+                    pkmSlot3 = slotToObject(this.value, 3)
+                    slot3History[this.value] = pkmSlot3;
                 });
 
                 var pokemonSelectSlot3Alt = $('#pokemonList_slot3_alternatives');
                 pokemonSelectSlot3Alt.on('change', function(){
                     $("#pokemonList_slot3").val(this.value)
                     $("#pokemonList_slot3").trigger("change")
+                });
+
+                var pokemonSelectSlot3History = $('#pokemonList_slot3_history');
+                pokemonSelectSlot3History.on('change', function(){
+                    forceChange(slot3History[this.value].join(","));
                 });
                 
                 var moveList = $('#moveList');
@@ -301,8 +337,11 @@
                                 <select id="pokemonList_slot1" name="pokemonList_slot1">
                                     <option>-- Pick an option --</option>
                                 </select>
-                                <select id="pokemonList_slot1_alternatives" name="pokemonList_slot1_alternatives" class="custom-select">
+                                <select id="pokemonList_slot1_alternatives" name="pokemonList_slot1_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
+                                </select>
+                                <select id="pokemonList_slot1_history" name="pokemonList_slot1_history" class="custom-select" style="width: 49%">
+                                    <option>-- Slot history --</option>
                                 </select><br/>
                                 <span class="shadow_slot1" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
@@ -386,8 +425,11 @@
                                 <select id="pokemonList_slot2" name="pokemonList_slot2">
                                     <option>-- Pick an option --</option>
                                 </select>
-                                <select id="pokemonList_slot2_alternatives" name="pokemonList_slot2_alternatives" class="custom-select">
+                                <select id="pokemonList_slot2_alternatives" name="pokemonList_slot2_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
+                                </select>
+                                <select id="pokemonList_slot2_history" name="pokemonList_slot2_history" class="custom-select" style="width: 49%">
+                                    <option>-- Slot history --</option>
                                 </select><br/>
                                 <span class="shadow_slot2" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
@@ -472,8 +514,11 @@
                                 <select id="pokemonList_slot3" name="pokemonList_slot3">
                                     <option>-- Pick an option --</option>
                                 </select>
-                                <select id="pokemonList_slot3_alternatives" name="pokemonList_slot3_alternatives" class="custom-select">
+                                <select id="pokemonList_slot3_alternatives" name="pokemonList_slot3_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
+                                </select>
+                                <select id="pokemonList_slot3_history" name="pokemonList_slot3_history" class="custom-select" style="width: 49%">
+                                    <option>-- Slot history --</option>
                                 </select><br/>
                                 <span class="shadow_slot3" style="display: none;"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
