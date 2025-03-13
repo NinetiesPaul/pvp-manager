@@ -137,7 +137,7 @@
                     }
                 });
                 
-                $("#loadData").change(function() {
+                $("#loadData").on('focusout', function() {
                 	forceChange(this.value)
                 });
                 
@@ -464,7 +464,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 50%;" data-target="1_and_2"> < > </button>
+                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 10em;" data-target="1_and_2"> < > </button>
                         </div>
 
                         <div class="card" style="width: 33%; "> <!-- Slot 3-->
@@ -550,7 +550,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 50%;" data-target="2_and_3"> < > </button>
+                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 10em;" data-target="2_and_3"> < > </button>
                         </div>
                     </div>
 
