@@ -290,9 +290,11 @@
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="pvp-teambuilder" role="tabpanel" >
 
-                        <input type="text" id="loadData" class="loadData loadData form-control form-control-sm col-sm-3" placeholder="Place backup here"></input><br>
-                        <input type="text" id="saveData" class="saveData saveData form-control form-control-sm col-sm-3" placeholder="Click save to backup" value="" readonly></input><br><br>
-                        <input type="button" id="saveBtn" class="saveBtn btn btn-sm btn-primary" data-clipboard-target="#saveData" value="Save"></input><br><br>
+                        <p style="display: grid;grid-row-gap: .25em;">
+                            <input type="text" id="loadData" class="loadData loadData form-control form-control-sm col-sm-3" placeholder="Place backup here"></input>
+                            <input type="text" id="saveData" class="saveData saveData form-control form-control-sm col-sm-3" placeholder="Click save to backup" value="" readonly></input>
+                            <button id="saveBtn" class="saveBtn btn btn-sm btn-primary" style="margin: 0 auto" data-clipboard-target="#saveData">Save</button>
+                        </p><br/>
 
                         <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
                             <div class="card-body">
@@ -379,7 +381,7 @@
                             </div>
                         </div>
 
-                        <div class="card" style="width: 33%; float: left"> <!-- Slot 2 -->
+                        <div class="card" style="width: 33%; float: left; position: relative"> <!-- Slot 2 -->
                             <div class="card-body">
                                 <select id="pokemonList_slot2" name="pokemonList_slot2">
                                     <option>-- Pick an option --</option>
@@ -462,6 +464,7 @@
                                     </tbody>
                                 </table>
                             </div>
+                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 50%;" data-target="1_and_2"> < > </button>
                         </div>
 
                         <div class="card" style="width: 33%; "> <!-- Slot 3-->
@@ -547,10 +550,8 @@
                                     </tbody>
                                 </table>
                             </div>
+                            <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 50%;" data-target="2_and_3"> < > </button>
                         </div>
-                        <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; top: 64.5%; right: 58.2%" data-target="1_and_2"> < > </button>
-                        <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; top: 64.5%; right: 40.2%" data-target="2_and_3"> < > </button>
-
                     </div>
 
                     <div class="tab-pane fade show" id="pvp-teamassembler" role="tabpanel" >
