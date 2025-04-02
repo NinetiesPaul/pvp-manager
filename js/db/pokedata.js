@@ -6763,6 +6763,141 @@ var pokeDB = {
     "region": "Kanto",
     "is_final_stage": true
 },
+"Tauros Paldea Aqua": {
+    "id": "0128",
+    "stats": {
+        "atk": 210,
+        "def": 193,
+        "sta": 181
+    },
+    "type": [
+        "Fighting",
+        "Water"
+    ],
+    "imgurl": null,
+    "name": "Tauros Paldea Aqua",
+    "moveset": {
+        "quick": [
+            "Double Kick",
+            "Tackle",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Aqua Jet",
+            "Earthquake",
+            "Iron Head",
+            "Trailblaze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Electric": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Grass": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Fire": "62.5%",
+            "Ice": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"Tauros Paldea Blaze": {
+    "id": "0128",
+    "stats": {
+        "atk": 210,
+        "def": 193,
+        "sta": 181
+    },
+    "type": [
+        "Fighting",
+        "Fire"
+    ],
+    "imgurl": null,
+    "name": "Tauros Paldea Blaze",
+    "moveset": {
+        "quick": [
+            "Double Kick",
+            "Tackle",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Earthquake",
+            "Flame Charge",
+            "Iron Head",
+            "Trailblaze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Ground": "160%",
+            "Psychic": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Fire": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"Tauros Paldea Combat": {
+    "id": "0128",
+    "stats": {
+        "atk": 210,
+        "def": 193,
+        "sta": 181
+    },
+    "type": [
+        "Fighting"
+    ],
+    "imgurl": null,
+    "name": "Tauros Paldea Combat",
+    "moveset": {
+        "quick": [
+            "Double Kick",
+            "Tackle",
+            "Zen Headbutt"
+        ],
+        "charge": [
+            "Close Combat",
+            "Earthquake",
+            "Iron Head",
+            "Trailblaze"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Dark": "62.5%",
+            "Rock": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
 "Magikarp": {
     "id": "0129",
     "stats": {
@@ -18889,6 +19024,7 @@ var pokeDB = {
             "Snarl"
         ],
         "charge": [
+            "Brutal Swing*",
             "Dark Pulse",
             "Megahorn",
             "Payback",
@@ -29767,7 +29903,6 @@ var pokeDB = {
             "Take Down"
         ],
         "charge": [
-            "Gunk Shot",
             "Gunk Shot",
             "Seed Bomb"
         ]
@@ -45392,7 +45527,7 @@ var pokeDB = {
         "Electric",
         "Fairy"
     ],
-    "imgurl": null,
+    "imgurl": "785",
     "name": "Tapu Koko",
     "moveset": {
         "quick": [
@@ -45436,7 +45571,7 @@ var pokeDB = {
         "Psychic",
         "Fairy"
     ],
-    "imgurl": null,
+    "imgurl": "786",
     "name": "Tapu Lele",
     "moveset": {
         "quick": [
@@ -45479,7 +45614,7 @@ var pokeDB = {
         "Grass",
         "Fairy"
     ],
-    "imgurl": null,
+    "imgurl": "787",
     "name": "Tapu Bulu",
     "moveset": {
         "quick": [
@@ -45527,7 +45662,7 @@ var pokeDB = {
         "Water",
         "Fairy"
     ],
-    "imgurl": null,
+    "imgurl": "788",
     "name": "Tapu Fini",
     "moveset": {
         "quick": [
@@ -50404,7 +50539,7 @@ var pokeDB = {
 "Zacian Crowned Sword": {
     "id": "0888",
     "stats": {
-        "atk": 332,
+        "atk": 295,
         "def": 240,
         "sta": 192
     },
@@ -50545,8 +50680,8 @@ var pokeDB = {
 "Zamazenta Crowned Shield": {
     "id": "0889",
     "stats": {
-        "atk": 250,
-        "def": 292,
+        "atk": 231,
+        "def": 282,
         "sta": 192
     },
     "type": [
@@ -51769,10 +51904,12 @@ var pokeDB = {
             "Incinerate"
         ],
         "charge": [
+            "Blast Burn*",
             "Crunch",
             "Disarming Voice",
             "Flamethrower",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Torch Song"
         ]
     },
     "defense_data": {
