@@ -184,6 +184,8 @@ function assembleTeams(){
 	teams.sort()
 
 	var teamCounter = 0;
+	let averageCombinedVulnerabilities = 0;
+	let averageCombinedResistances = 0;
 
 	$.each(teams, function(mk,v) {
 		team = v.split(",");
@@ -208,7 +210,18 @@ function assembleTeams(){
 		totalData.push(v);
 
 		teamCounter++;
+
+		combinedVulnerabilites = [...new Set(slot1VulnerableTo.concat(slot2VulnerableTo).concat(slot3VulnerableTo))];
+		averageCombinedVulnerabilities += (new Set(combinedVulnerabilites).size)
+		
+		combinedResistances = [...new Set(
+			Object.keys(pokeDB[slot1].defense_data.resistant_to).concat(Object.keys(pokeDB[slot2].defense_data.resistant_to)).concat(Object.keys(pokeDB[slot3].defense_data.resistant_to))
+		)];
+
+		averageCombinedResistances += (new Set(combinedResistances).size)
 	});
+
+	console.log("assembler", Math.round(averageCombinedVulnerabilities/teamCounter), Math.round(averageCombinedResistances/teamCounter));
 
 	$("#pkmTotalSize").html(totalPkms);
 	$("#filteredSize").html(filteredPkms);
