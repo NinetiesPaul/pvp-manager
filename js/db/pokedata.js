@@ -25291,54 +25291,6 @@ var pokeDB = {
     "region": "Sinnoh",
     "is_final_stage": true
 },
-"Giratina": {
-    "id": "0487",
-    "stats": {
-        "atk": 187,
-        "def": 225,
-        "sta": 284
-    },
-    "type": [
-        "Ghost",
-        "Dragon"
-    ],
-    "imgurl": null,
-    "name": "Giratina",
-    "moveset": {
-        "quick": [
-            "Dragon Breath",
-            "Shadow Claw"
-        ],
-        "charge": [
-            "Ancient Power",
-            "Dragon Claw",
-            "Shadow Force*",
-            "Shadow Sneak"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Dragon": "160%",
-            "Fairy": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Fire": "62.5%",
-            "Grass": "62.5%",
-            "Normal": "39.1%",
-            "Poison": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Sinnoh",
-    "is_final_stage": true
-},
 "Giratina Altered": {
     "id": "0487",
     "stats": {
@@ -25350,7 +25302,7 @@ var pokeDB = {
         "Ghost",
         "Dragon"
     ],
-    "imgurl": null,
+    "imgurl": "487",
     "name": "Giratina Altered",
     "moveset": {
         "quick": [
@@ -25398,7 +25350,7 @@ var pokeDB = {
         "Ghost",
         "Dragon"
     ],
-    "imgurl": null,
+    "imgurl": "10007",
     "name": "Giratina Origin",
     "moveset": {
         "quick": [
@@ -33983,7 +33935,7 @@ var pokeDB = {
         "Normal",
         "Psychic"
     ],
-    "imgurl": "648",
+    "imgurl": null,
     "name": "Meloetta Aria",
     "moveset": {
         "quick": [
@@ -34022,7 +33974,7 @@ var pokeDB = {
         "Normal",
         "Fighting"
     ],
-    "imgurl": "10018",
+    "imgurl": null,
     "name": "Meloetta Pirouette",
     "moveset": {
         "quick": [
