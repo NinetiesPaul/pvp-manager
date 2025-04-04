@@ -183,7 +183,6 @@ function assembleTeams(){
 
 	teams.sort()
 
-	var teamCounter = 0;
 	let averageCombinedVulnerabilities = 0;
 	let averageCombinedResistances = 0;
 
@@ -207,9 +206,6 @@ function assembleTeams(){
 			return true;
 		}
 
-		totalData.push(v);
-
-		teamCounter++;
 
 		combinedVulnerabilites = [...new Set(slot1VulnerableTo.concat(slot2VulnerableTo).concat(slot3VulnerableTo))];
 		averageCombinedVulnerabilities += (new Set(combinedVulnerabilites).size)
@@ -219,13 +215,27 @@ function assembleTeams(){
 		)];
 
 		averageCombinedResistances += (new Set(combinedResistances).size)
+
+		totalData.push([ v, new Set(combinedResistances).size, new Set(combinedVulnerabilites).size]);
 	});
 
-	console.log("assembler", Math.round(averageCombinedVulnerabilities/teamCounter), Math.round(averageCombinedResistances/teamCounter));
+	if ($("#ordering").val() == "resistance") {
+		totalData.sort((function(index){
+			return function(a, b){
+				return (a[index] === b[index] ? 0 : (a[index] > b[index] ? -1 : 1));
+			};
+		})(1));
+	} else {
+		totalData.sort((function(index){
+			return function(a, b){
+				return (a[index] === b[index] ? 0 : (a[index] < b[index] ? -1 : 1));
+			};
+		})(2));
+	}
 
 	$("#pkmTotalSize").html(totalPkms);
 	$("#filteredSize").html(filteredPkms);
-	$("#teamsCombination").html(teamCounter);
+	$("#teamsCombination").html(totalData.length);
 	$("#pkmFinalList").html(pkmsFinalList.join(", "));
 };
 

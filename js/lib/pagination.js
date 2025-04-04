@@ -47,7 +47,7 @@ function showPageData(pageData)
 {
     textToAppend = "";
     pageData.forEach((team) => {
-		team = team.split(",");
+		team = team[0].split(",");
 		
 		var slot1 = team[0].trim(),
 			slot2 = team[1].trim(),
