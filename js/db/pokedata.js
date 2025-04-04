@@ -6774,7 +6774,7 @@ var pokeDB = {
         "Fighting",
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "10252",
     "name": "Tauros Paldea Aqua",
     "moveset": {
         "quick": [
@@ -6822,7 +6822,7 @@ var pokeDB = {
         "Fighting",
         "Fire"
     ],
-    "imgurl": null,
+    "imgurl": "10251",
     "name": "Tauros Paldea Blaze",
     "moveset": {
         "quick": [
@@ -6867,7 +6867,7 @@ var pokeDB = {
     "type": [
         "Fighting"
     ],
-    "imgurl": null,
+    "imgurl": "10250",
     "name": "Tauros Paldea Combat",
     "moveset": {
         "quick": [
