@@ -49855,52 +49855,6 @@ var pokeDB = {
     "region": "Galar",
     "is_final_stage": true
 },
-"Morpeko": {
-    "id": "0877",
-    "stats": {
-        "atk": 192,
-        "def": 121,
-        "sta": 151
-    },
-    "type": [
-        "Electric",
-        "Dark"
-    ],
-    "imgurl": null,
-    "name": "Morpeko",
-    "moveset": {
-        "quick": [
-            "Bite",
-            "Charge Beam",
-            "Thunder Shock"
-        ],
-        "charge": [
-            "406",
-            "Outrage",
-            "Psychic Fangs",
-            "Seed Bomb"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fairy": "160%",
-            "Fighting": "160%",
-            "Ground": "160%"
-        },
-        "resistant_to": {
-            "Dark": "62.5%",
-            "Electric": "62.5%",
-            "Flying": "62.5%",
-            "Ghost": "62.5%",
-            "Psychic": "39.1%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Galar",
-    "is_final_stage": true
-},
 "Morpeko Full Belly": {
     "id": "0877",
     "stats": {
@@ -49912,7 +49866,7 @@ var pokeDB = {
         "Electric",
         "Dark"
     ],
-    "imgurl": null,
+    "imgurl": "877",
     "name": "Morpeko Full Belly",
     "moveset": {
         "quick": [
@@ -49921,7 +49875,7 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "406",
+            "Aura Wheel Electric",
             "Outrage",
             "Psychic Fangs",
             "Seed Bomb"
@@ -49958,7 +49912,7 @@ var pokeDB = {
         "Electric",
         "Dark"
     ],
-    "imgurl": null,
+    "imgurl": "10187",
     "name": "Morpeko Hangry",
     "moveset": {
         "quick": [
@@ -49967,7 +49921,7 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
-            "407",
+            "Aura Wheel Dark",
             "Outrage",
             "Psychic Fangs",
             "Seed Bomb"
