@@ -305,6 +305,42 @@ var chargeMoveDB = {
     "dpe": 2,
     "buffs": []
 },
+"Behemoth Bash": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": -45,
+    "power": 80,
+    "dpe": 1.78,
+    "buffs": []
+},
+"Behemoth Blade": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": -55,
+    "power": 100,
+    "dpe": 1.82,
+    "buffs": []
+},
 "Blast Burn": {
     "type": "Fire",
     "weakAgainst": [
@@ -4007,6 +4043,33 @@ var chargeMoveDB = {
     "power": 45,
     "dpe": 1,
     "buffs": []
+},
+"Upper Hand": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": -40,
+    "power": 70,
+    "dpe": 1.75,
+    "buffs": {
+        "activationChance": 0.3,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "V Create": {
     "type": "Fire",

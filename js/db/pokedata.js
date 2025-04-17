@@ -5944,7 +5944,6 @@ var pokeDB = {
         "charge": [
             "Brutal Swing",
             "Hyper Beam",
-            "Hyper Beam",
             "Overheat",
             "Play Rough",
             "Sludge"
@@ -12051,7 +12050,8 @@ var pokeDB = {
             "Close Combat",
             "Earthquake",
             "Megahorn",
-            "Rock Blast"
+            "Rock Blast",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -15590,7 +15590,8 @@ var pokeDB = {
         "charge": [
             "Cross Chop",
             "Heavy Slam",
-            "Low Sweep"
+            "Low Sweep",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -15631,7 +15632,8 @@ var pokeDB = {
             "Close Combat",
             "Dynamic Punch",
             "Heavy Slam",
-            "Super Power"
+            "Super Power",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -27964,6 +27966,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
+            "Body Slam",
             "Dazzling Gleam",
             "Disarming Voice",
             "Hyper Beam"
@@ -29432,7 +29435,8 @@ var pokeDB = {
             "Acid Spray",
             "Brick Break",
             "Foul Play",
-            "Thunder Punch"
+            "Thunder Punch",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -29474,7 +29478,8 @@ var pokeDB = {
             "Acid Spray",
             "Foul Play",
             "Power Up Punch",
-            "Thunder Punch"
+            "Thunder Punch",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -47443,7 +47448,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Quick Attack",
-            "Snarl"
+            "Snarl",
+            "Sucker Punch"
         ],
         "charge": [
             "Night Slash",
@@ -47481,7 +47487,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Quick Attack",
-            "Snarl"
+            "Snarl",
+            "Sucker Punch"
         ],
         "charge": [
             "Night Slash",
@@ -47715,6 +47722,7 @@ var pokeDB = {
         ],
         "charge": [
             "Body Slam",
+            "Crunch",
             "Rock Blast",
             "Surf"
         ]
@@ -48092,7 +48100,8 @@ var pokeDB = {
         "charge": [
             "Bulldoze",
             "Dig",
-            "Earth Power"
+            "Earth Power",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -48131,7 +48140,8 @@ var pokeDB = {
         "charge": [
             "Bulldoze",
             "Dig",
-            "Earth Power"
+            "Earth Power",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -50445,7 +50455,7 @@ var pokeDB = {
 "Zacian Crowned Sword": {
     "id": "0888",
     "stats": {
-        "atk": 295,
+        "atk": 332,
         "def": 240,
         "sta": 192
     },
@@ -50457,16 +50467,13 @@ var pokeDB = {
     "name": "Zacian Crowned Sword",
     "moveset": {
         "quick": [
-            "Fire Fang",
-            "Metal Claw",
-            "Quick Attack",
-            "Snarl"
+            "Air Slash",
+            "Metal Claw"
         ],
         "charge": [
             "Close Combat",
-            "Iron Head",
-            "Play Rough",
-            "Wild Charge"
+            "Giga Impact",
+            "Play Rough"
         ]
     },
     "defense_data": {
@@ -50586,8 +50593,8 @@ var pokeDB = {
 "Zamazenta Crowned Shield": {
     "id": "0889",
     "stats": {
-        "atk": 231,
-        "def": 282,
+        "atk": 250,
+        "def": 292,
         "sta": 192
     },
     "type": [
@@ -50599,14 +50606,11 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Ice Fang",
-            "Metal Claw",
-            "Quick Attack",
-            "Snarl"
+            "Metal Claw"
         ],
         "charge": [
             "Close Combat",
-            "Crunch",
-            "Iron Head",
+            "Giga Impact",
             "Moonblast"
         ]
     },
@@ -53031,7 +53035,7 @@ var pokeDB = {
         ],
         "charge": [
             "Ancient Power",
-            "Rock Slide",
+            "Rock Blast",
             "Rock Tomb"
         ]
     },
@@ -53663,7 +53667,8 @@ var pokeDB = {
         "charge": [
             "Acid Spray",
             "Earth Power",
-            "Seed Bomb"
+            "Seed Bomb",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -53949,6 +53954,7 @@ var pokeDB = {
             "Peck"
         ],
         "charge": [
+            "Dazzling Gleam",
             "Psybeam",
             "Psychic",
             "Psyshock"
@@ -53988,7 +53994,6 @@ var pokeDB = {
             "Rock Smash"
         ],
         "charge": [
-            "Brutal Swing",
             "Flash Cannon",
             "Play Rough"
         ]
@@ -54035,7 +54040,6 @@ var pokeDB = {
             "Rock Smash"
         ],
         "charge": [
-            "Brutal Swing",
             "Flash Cannon",
             "Play Rough"
         ]
@@ -54082,7 +54086,7 @@ var pokeDB = {
             "Rock Smash"
         ],
         "charge": [
-            "Brutal Swing",
+            "Bulldoze",
             "Flash Cannon",
             "Heavy Slam",
             "Play Rough"
@@ -54602,7 +54606,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
-            "Rock Slide",
+            "Power Gem",
             "Sludge Wave"
         ]
     },
@@ -54646,7 +54650,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
-            "Rock Slide",
+            "Power Gem",
             "Sludge Wave"
         ]
     },
