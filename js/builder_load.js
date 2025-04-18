@@ -1,6 +1,5 @@
 function forceChange(input)
 {
-
 	loadDataInput = input.split("&")
 
 	dataToLoad = []

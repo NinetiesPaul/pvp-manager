@@ -1,6 +1,5 @@
 function getPokemonData(pokemon, slot)
 {
-
 	if (pokemon.indexOf(" - ") > -1) {
 		pokemon = pokemon.split(" - ");
 		pokemon = pokemon[1]
@@ -54,7 +53,7 @@ function getPokemonData(pokemon, slot)
     }
 
     imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + data.imgurl + ".png";
-    $('#pokemon_img-' + slot).attr('src', imageSrc)
+    //$('#pokemon_img-' + slot).attr('src', imageSrc)
 
     $.each(data.defense_data.resistant_to, function (index,value){
         $('.resistant_to-' + slot).append(index + " | " + value + "<br>")
@@ -100,8 +99,6 @@ function getPokemonData(pokemon, slot)
             $("#pokemonList_" + slot + "_alternatives").append("<option>" + alternativeName + "</option>")
         }
     }
-    
-    return data;
 }
 
 function getMoveData(move, type, target)
