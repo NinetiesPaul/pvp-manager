@@ -1,4 +1,4 @@
-function saveTeam(switchPositions = false, target = null)
+function saveTeam(target = false)
 {
 	pkmSlot1 = $("#pokemonList_slot1").find(":selected").text()
 	pkmSlot2 = $("#pokemonList_slot2").find(":selected").text()
@@ -24,7 +24,7 @@ function saveTeam(switchPositions = false, target = null)
 		dataToSave = (dataToSave == '') ? dataToSave += pkmSlot3 : dataToSave += "&" + pkmSlot3
 	}
 
-	if (switchPositions) {
+	if (target) {
 		if (target == "1_and_2") {
 			inputToChange = pkmSlot2.replace('2', '1') + "&" + pkmSlot1.replace('1', '2')
 			forceChange(inputToChange)
@@ -44,22 +44,35 @@ function slotToObject(pkmSlot, slot)
 	pkmSlot = [slot, pokeDB[pkmSlot[1]].name]
 
 	quick = $("#quick_move-slot" + slot).find(":selected").text()
-	if (quick !== "-- Quick --") {
-		quick = quick.split(" (")[0];
-		pkmSlot.push(quick)
-	}
+	quick = (quick !== "-- Quick --") ? quick.split(" (")[0] : "";
+	pkmSlot.push(quick)
 
 	charge1 = $("#charge1_move-slot" + slot).find(":selected").text()
-	if (charge1 !== "-- Charge I --") {
-		charge1 = charge1.split(" (")[0];
-		pkmSlot.push(charge1)
-	}
+	charge1 = (charge1 !== "-- Charge I --") ? charge1.split(" (")[0] : "";
+	pkmSlot.push(charge1)
 
 	charge2 = $("#charge2_move-slot" + slot).find(":selected").text()
-	if (charge2 !== "-- Charge II --") {
-		charge2 = charge2.split(" (")[0];
-		pkmSlot.push(charge2)
-	}
+	charge2 = (charge2 !== "-- Charge II --") ? charge2.split(" (")[0] : "";
+	pkmSlot.push(charge2)
 
 	return pkmSlot;
+}
+
+function updateHistory(slot)
+{
+	slot = (slot == "slot1") ? 1 : (slot == "slot2") ? 2 : 3;
+	pkmName = $("#pokemonList_slot" + slot).find(":selected").text();
+	pkmData = slotToObject(pkmName, slot)
+
+	switch (slot) {
+		case 1:
+			slot1History[pkmName] = pkmData;
+			break;
+		case 2:
+			slot2History[pkmName] = pkmData;
+			break;
+		case 3:
+			slot3History[pkmName] = pkmData;
+			break;
+	}
 }

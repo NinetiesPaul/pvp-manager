@@ -181,13 +181,17 @@
                 	saveTeam()
                 });
                 
-                $(".quick_move").change(function() {
-                	getMoveData(this.value, 'quick', $(this)[0].dataset['slot']);
+                $(".quick_move").change(async function() {
+                	await getMoveData(this.value, 'quick', $(this)[0].dataset['slot']);
+
+                    updateHistory($(this)[0].dataset['slot']);
                 });
                 
-                $('.charge_move').change(function() {
-					disableMove(this.value, (($(this)[0].dataset['move'] === "charge1") ? 'charge2_move-' + $(this)[0].dataset['slot'] : 'charge1_move-' + $(this)[0].dataset['slot']));
-					getMoveData(this.value, $(this)[0].dataset['move'], $(this)[0].dataset['slot']);
+                $('.charge_move').change(async function() {
+					await disableMove(this.value, (($(this)[0].dataset['move'] === "charge1") ? 'charge2_move-' + $(this)[0].dataset['slot'] : 'charge1_move-' + $(this)[0].dataset['slot']));
+					await getMoveData(this.value, $(this)[0].dataset['move'], $(this)[0].dataset['slot']);
+
+                    updateHistory($(this)[0].dataset['slot']);
 				});
 
                 $('.hideType').on('click', function (){
@@ -284,9 +288,7 @@
                 });
 
                 $(".switchPositions").on('click', function (e) {
-
-                    saveTeam(true, $(this)[0].dataset['target'])
-
+                    saveTeam($(this)[0].dataset['target'])
                 });
             });
         </script>
