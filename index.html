@@ -271,6 +271,29 @@
                         filterPokemonByMoveType(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
                     }
                 });
+
+                // this isnt working, only god knows why
+                currentHighestHeight = 346;
+                const boxes = document.querySelectorAll('.card');
+                boxes.forEach(box => {
+                    new ResizeObserver((cards) => {
+                        var update = false
+                        for (const card of cards) {
+                            if (card.contentRect.height > currentHighestHeight) {
+                                currentHighestHeight = card.contentRect.height;
+                                update = true
+                            }
+                        }
+
+                        if (update) {
+                            //$("#cardSlot1").height(currentHighestHeight)
+                            //$("#cardSlot2").height(currentHighestHeight)
+                            //$("#cardSlot3").height(currentHighestHeight)
+                        }
+                        
+                    }).observe(box);
+                });
+
             });
         </script>
 
@@ -315,269 +338,275 @@
                             <button id="saveBtn" class="saveBtn btn btn-sm btn-primary" style="margin: 0 auto" data-clipboard-target="#saveData">Save</button>
                         </p><br/>
 
-                        <div class="card" style="width: 33%; float: left"> <!-- Slot 1 -->
-                            <div class="card-body">
-                                <select id="pokemonList_slot1" name="pokemonList_slot1">
-                                    <option>-- Pick an option --</option>
-                                </select>
+                        <div class="card" id="cardSlot1" style="width: 33%; float: left;"> <!-- Slot 1 -->
+                            <select id="pokemonList_slot1" name="pokemonList_slot1">
+                                <option>-- Pick an option --</option>
+                            </select>
+                            
+                            <span class="groupButtons">
                                 <select id="pokemonList_slot1_alternatives" name="pokemonList_slot1_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
                                 </select>
                                 <select id="pokemonList_slot1_history" name="pokemonList_slot1_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
-                                </select><br/>
-                                <span class="shadow_pokemon" style="display: none;" data-slot="1" data-shadow="slot1"><input type="checkbox"> Shadow</input></span>
-                                <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                                </select>
+                            </span>
+                        
+                            <span class="shadow_pokemon" style="display: none;" data-slot="1" data-shadow="slot1"><input type="checkbox"> Shadow</input></span>
+                            <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
-                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                            <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                <tr>
+                                    <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                    <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                    <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-pill full-pill" id="atk-slot1">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="def-slot1">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="sta-slot1">&nbsp;</span></td>
+                                </tr>
+                            </table>
+                            <p class="separator">Attack</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
                                     <tr>
-                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
-                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
-                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                        <td colspan="2">
+                                            <select id="quick_move-slot1" name="quick_move-slot1"  class="custom-select quick_move" data-slot="slot1">
+                                                <option>-- Quick --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="quick_move_type-slot1" class="move_type_image_icon"></td>
+                                        <td id="quick_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        <td id="quick_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
-                                        <td><span class="badge badge-pill full-pill" id="atk-slot1">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="def-slot1">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="sta-slot1">&nbsp;</span></td>
+                                        <td colspan="2">
+                                            <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select charge_move" data-move="charge1" data-slot="slot1">
+                                                <option>-- Charge I --</option>
+                                            </select>
+                                        </td>
                                     </tr>
-                                </table>
-                                <p class="separator">Attack</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="quick_move-slot1" name="quick_move-slot1"  class="custom-select quick_move" data-slot="slot1">
-                                                    <option>-- Quick --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="quick_move_type-slot1" class="move_type_image_icon"></td>
-                                            <td id="quick_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                            <td id="quick_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select charge_move" data-move="charge1" data-slot="slot1">
-                                                    <option>-- Charge I --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="charge1_move_type-slot1" class="move_type_image_icon"></td>
-                                            <td id="charge1_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge1_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge1_moveBuff-slot1" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select charge_move" data-move="charge2" data-slot="slot1">
-                                                    <option>-- Charge II --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="charge2_move_type-slot1" class="move_type_image_icon"></td>
-                                            <td id="charge2_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge2_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge2_moveBuff-slot1" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <p class="separator">Defense</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                        <tr class="defense_type_row-slot1">
-                                            <td class="defense_typeA-slot1">&nbsp;</td>
-                                        </tr>
-                                        <tr>
-                                            <td><small><b>Resistant To</b></small></td>
-                                            <td><small><b>Vulnerable To</b></small></td>
-                                        </tr>
-                                        <tr valign="top" style="font-size: 0.7em;">
-                                            <td class="resistant_to-slot1"></td>
-                                            <td class="vulnerable_to-slot1"></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge1_move_type-slot1" class="move_type_image_icon"></td>
+                                        <td id="charge1_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge1_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge1_moveBuff-slot1" class="moveBuff" colspan="2"></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select charge_move" data-move="charge2" data-slot="slot1">
+                                                <option>-- Charge II --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge2_move_type-slot1" class="move_type_image_icon"></td>
+                                        <td id="charge2_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge2_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge2_moveBuff-slot1" class="moveBuff" colspan="2"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="separator">Defense</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
+                                    <tr class="defense_type_row-slot1">
+                                        <td class="defense_typeA-slot1">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td><small><b>Resistant To</b></small></td>
+                                        <td><small><b>Vulnerable To</b></small></td>
+                                    </tr>
+                                    <tr valign="top" style="font-size: 0.7em;">
+                                        <td class="resistant_to-slot1"></td>
+                                        <td class="vulnerable_to-slot1"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
-                        <div class="card" style="width: 33%; float: left; position: relative"> <!-- Slot 2 -->
-                            <div class="card-body">
-                                <select id="pokemonList_slot2" name="pokemonList_slot2">
-                                    <option>-- Pick an option --</option>
-                                </select>
+                        <div class="card" id="cardSlot2" style="width: 33%; float: left; position: relative;"> <!-- Slot 2 -->
+                            <select id="pokemonList_slot2" name="pokemonList_slot2">
+                                <option>-- Pick an option --</option>
+                            </select>
+
+                            <span class="groupButtons">
                                 <select id="pokemonList_slot2_alternatives" name="pokemonList_slot2_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
                                 </select>
                                 <select id="pokemonList_slot2_history" name="pokemonList_slot2_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
-                                </select><br/>
-                                <span class="shadow_pokemon" style="display: none;" data-slot="2" data-shadow="slot2"><input type="checkbox"> Shadow</input></span>
-                                <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                                </select>
+                            </span>
 
-                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                            <span class="shadow_pokemon" style="display: none;" data-slot="2" data-shadow="slot2"><input type="checkbox"> Shadow</input></span>
+                            <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
+
+                            <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                <tr>
+                                    <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                    <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                    <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-pill full-pill" id="atk-slot2">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="def-slot2">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="sta-slot2">&nbsp;</span></td>
+                                </tr>
+                            </table>
+                            <p class="separator">Attack</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
                                     <tr>
-                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
-                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
-                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                        <td colspan="2">
+                                            <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select quick_move" data-slot="slot2">
+                                                <option>-- Quick --</option>
+                                            </select>
+                                        </td>
                                     </tr>
-                                    <tr>
-                                        <td><span class="badge badge-pill full-pill" id="atk-slot2">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="def-slot2">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="sta-slot2">&nbsp;</span></td>
-                                    </tr>
-                                </table>
-                                <p class="separator">Attack</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="quick_move-slot2" name="quick_move-slot2" class="custom-select quick_move" data-slot="slot2">
-                                                    <option>-- Quick --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="quick_move_type-slot2" class="move_type_image_icon"></td>
-                                            <td id="quick_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                            <td id="quick_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select charge_move" data-move="charge1" data-slot="slot2">
-                                                    <option>-- Charge I --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="charge1_move_type-slot2" class="move_type_image_icon"></td>
-                                            <td id="charge1_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge1_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge1_moveBuff-slot2" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select charge_move" data-move="charge2" data-slot="slot2">
-                                                    <option>-- Charge II --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="charge2_move_type-slot2" class="move_type_image_icon"></td>
-                                            <td id="charge2_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge2_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge2_moveBuff-slot2" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <p class="separator">Defense</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                    <tr class="defense_type_row-slot2">
-                                        <td class="defense_typeA-slot2">&nbsp;</td>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="quick_move_type-slot2" class="move_type_image_icon"></td>
+                                        <td id="quick_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                        <td id="quick_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
-                                        <td><small><b>Resistant To</b></small></td>
-                                        <td><small><b>Vulnerable To</b></small></td>
+                                        <td colspan="2">
+                                            <select id="charge1_move-slot2" name="charge1_move-slot2" class="custom-select charge_move" data-move="charge1" data-slot="slot2">
+                                                <option>-- Charge I --</option>
+                                            </select>
+                                        </td>
                                     </tr>
-                                    <tr valign="top" style="font-size: 0.7em;">
-                                        <td class="resistant_to-slot2"></td>
-                                        <td class="vulnerable_to-slot2"></td>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge1_move_type-slot2" class="move_type_image_icon"></td>
+                                        <td id="charge1_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge1_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge1_moveBuff-slot2" class="moveBuff" colspan="2"></td>
                                     </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge2_move-slot2" name="charge2_move-slot2" class="custom-select charge_move" data-move="charge2" data-slot="slot2">
+                                                <option>-- Charge II --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge2_move_type-slot2" class="move_type_image_icon"></td>
+                                        <td id="charge2_goodAgainst-slot2" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge2_weakAgainst-slot2" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge2_moveBuff-slot2" class="moveBuff" colspan="2"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="separator">Defense</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
+                                <tr class="defense_type_row-slot2">
+                                    <td class="defense_typeA-slot2">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td><small><b>Resistant To</b></small></td>
+                                    <td><small><b>Vulnerable To</b></small></td>
+                                </tr>
+                                <tr valign="top" style="font-size: 0.7em;">
+                                    <td class="resistant_to-slot2"></td>
+                                    <td class="vulnerable_to-slot2"></td>
+                                </tr>
+                                </tbody>
+                            </table>
                             <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 10em;" data-target="1_and_2"> < > </button>
                         </div>
 
-                        <div class="card" style="width: 33%; "> <!-- Slot 3-->
-                            <div class="card-body">
-                                <select id="pokemonList_slot3" name="pokemonList_slot3">
-                                    <option>-- Pick an option --</option>
-                                </select>
+                        <div class="card" id="cardSlot3" style="width: 33%; "> <!-- Slot 3-->
+                            <select id="pokemonList_slot3" name="pokemonList_slot3">
+                                <option>-- Pick an option --</option>
+                            </select>
+
+                            <span class="groupButtons">
                                 <select id="pokemonList_slot3_alternatives" name="pokemonList_slot3_alternatives" class="custom-select" style="width: 49%">
                                     <option>-- Alternatives with same type --</option>
                                 </select>
                                 <select id="pokemonList_slot3_history" name="pokemonList_slot3_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
-                                </select><br/>
-                                <span class="shadow_pokemon" style="display: none;" data-slot="3" data-shadow="slot3"><input type="checkbox"> Shadow</input></span>
-                                <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                                </select>
+                            </span>
 
-                                <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                            <span class="shadow_pokemon" style="display: none;" data-slot="3" data-shadow="slot3"><input type="checkbox"> Shadow</input></span>
+                            <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
+
+                            <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
+                                <tr>
+                                    <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
+                                    <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
+                                    <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="badge badge-pill full-pill" id="atk-slot3">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="def-slot3">&nbsp;</span></td>
+                                    <td><span class="badge badge-pill full-pill" id="sta-slot3">&nbsp;</span></td>
+                                </tr>
+                            </table>
+                            <p class="separator">Attack</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
                                     <tr>
-                                        <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
-                                        <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
-                                        <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
+                                        <td colspan="2">
+                                            <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select quick_move" data-slot="slot3">
+                                                <option>-- Quick --</option>
+                                            </select>
+                                        </td>
                                     </tr>
-                                    <tr>
-                                        <td><span class="badge badge-pill full-pill" id="atk-slot3">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="def-slot3">&nbsp;</span></td>
-                                        <td><span class="badge badge-pill full-pill" id="sta-slot3">&nbsp;</span></td>
-                                    </tr>
-                                </table>
-                                <p class="separator">Attack</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="quick_move-slot3" name="quick_move-slot3" class="custom-select quick_move" data-slot="slot3">
-                                                    <option>-- Quick --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="quick_move_type-slot3" class="move_type_image_icon"></td>
-                                            <td id="quick_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                            <td id="quick_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select charge_move" data-move="charge1" data-slot="slot3">
-                                                    <option>-- Charge I --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td id="charge1_move_type-slot3" class="move_type_image_icon"></td>
-                                            <td id="charge1_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge1_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge1_moveBuff-slot3" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                        <tr>
-                                            <td colspan="2">
-                                                <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select charge_move" data-move="charge2" data-slot="slot3">
-                                                    <option>-- Charge II --</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        <tr style="font-size: 0.7em;" >
-                                            <td rowspan="2" id="charge2_move_type-slot3" class="move_type_image_icon"></td>
-                                            <td id="charge2_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
-                                            <td id="charge2_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
-                                            <td id="charge2_moveBuff-slot3" class="moveBuff" colspan="2"></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <p class="separator">Defense</p>
-                                <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                    <tbody>
-                                    <tr class="defense_type_row-slot3">
-                                        <td class="defense_typeA-slot3">&nbsp;</td>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="quick_move_type-slot3" class="move_type_image_icon"></td>
+                                        <td id="quick_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                        <td id="quick_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
                                     </tr>
                                     <tr>
-                                        <td><small><b>Resistant To</b></small></td>
-                                        <td><small><b>Vulnerable To</b></small></td>
+                                        <td colspan="2">
+                                            <select id="charge1_move-slot3" name="charge1_move-slot3" class="custom-select charge_move" data-move="charge1" data-slot="slot3">
+                                                <option>-- Charge I --</option>
+                                            </select>
+                                        </td>
                                     </tr>
-                                    <tr valign="top" style="font-size: 0.7em;">
-                                        <td class="resistant_to-slot3"></td>
-                                        <td class="vulnerable_to-slot3"></td>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td id="charge1_move_type-slot3" class="move_type_image_icon"></td>
+                                        <td id="charge1_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge1_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge1_moveBuff-slot3" class="moveBuff" colspan="2"></td>
                                     </tr>
-                                    </tbody>
-                                </table>
-                            </div>
+                                    <tr>
+                                        <td colspan="2">
+                                            <select id="charge2_move-slot3" name="charge2_move-slot3" class="custom-select charge_move" data-move="charge2" data-slot="slot3">
+                                                <option>-- Charge II --</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr style="font-size: 0.7em;" >
+                                        <td rowspan="2" id="charge2_move_type-slot3" class="move_type_image_icon"></td>
+                                        <td id="charge2_goodAgainst-slot3" class="goodAgainst" colspan="2"></td>
+                                        <td id="charge2_weakAgainst-slot3" class="weakAgainst" colspan="2"></td>
+                                        <td id="charge2_moveBuff-slot3" class="moveBuff" colspan="2"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p class="separator">Defense</p>
+                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
+                                <tbody>
+                                <tr class="defense_type_row-slot3">
+                                    <td class="defense_typeA-slot3">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td><small><b>Resistant To</b></small></td>
+                                    <td><small><b>Vulnerable To</b></small></td>
+                                </tr>
+                                <tr valign="top" style="font-size: 0.7em;">
+                                    <td class="resistant_to-slot3"></td>
+                                    <td class="vulnerable_to-slot3"></td>
+                                </tr>
+                                </tbody>
+                            </table>
                             <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 10em;" data-target="2_and_3"> < > </button>
                         </div>
                     </div>
