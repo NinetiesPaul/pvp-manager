@@ -42,10 +42,8 @@ function clearLayout(slot)
     $('#charge2_moveBuff-' + slot)
         .html("");
 
-    $('.shadow_' + slot).css('display', 'none');
-    if ($('.shadow_' + slot + ' [type="checkbox"]').is(":checked")) {
-        $('.shadow_' + slot + ' [type="checkbox"]').prop('checked', false)
-    }
+    $("[data-shadow=\"" + slot + "\"]").css('display', 'none');
+    $("[data-shadow=\"" + slot + "\"] [type=\"checkbox\"]").prop('checked', false);
 }
 
 function disableMove(value, target)

@@ -91,6 +91,7 @@
                     $("#moveTypeList").append("<option>" + Object.keys(colors)[key] + "</option>");
                 }
 
+                // Team Builder tab
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
                 pokemonSelectSlot1.on('change', async function(){
@@ -157,22 +158,6 @@
                     forceChange(slot3History[this.value].join(","));
                 });
                 
-                var moveList = $('#moveList');
-                moveList.select2();
-                moveList.on('change', function(){
-                    if (this.value !== "-- Pick an option --") {
-                        filterPokemonByMoveName(this.value);
-                    }
-                });
-                
-                var moveTypeList = $('#moveTypeList');
-                moveTypeList.select2();
-                moveTypeList.on('change', function(){
-                    if (this.value !== "-- Pick an option --") {
-                        filterPokemonByMoveType(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
-                    }
-                });
-                
                 $("#loadData").on('focusout', function() {
                 	forceChange(this.value)
                 });
@@ -194,6 +179,25 @@
                     updateHistory($(this)[0].dataset['slot']);
 				});
 
+                $('.shadow_pokemon [type="checkbox"]').on('click', function (e) {
+                    slot = $(this).closest('.shadow_pokemon').attr('data-slot');
+
+                    if (e.currentTarget.checked) {
+                        $("#atk-slot" + slot).html( Math.round($("#atk-slot1").html() * 1.2));
+                        $("#def-slot" + slot).html( Math.round($("#def-slot1").html() * 0.833));
+                    } else {
+                        pokemon = $("#pokemonList_slot" + slot).val().split(" - ");
+                        pokemon = pokemon[1];
+                        $("#atk-slot" + slot).html(pokeDB[pokemon].stats.atk);
+                        $("#def-slot" + slot).html(pokeDB[pokemon].stats.def);
+                    }
+                });
+
+                $(".switchPositions").on('click', function (e) {
+                    saveTeam($(this)[0].dataset['target'])
+                });
+
+                // Team Assembler tab
                 $('.hideType').on('click', function (){
                     var hideType = this.textContent;
 
@@ -236,6 +240,7 @@
                     }
                 })
 
+                // Pokemon Database tab
                 $("#whole_database").on('click', function () {
                     $('#moveList').val("-- Pick an option --").trigger('change');
                     if ($(".pkm-list-db").is(":disabled")) {
@@ -251,44 +256,20 @@
                     buildPagination(totalData);
                 });
 
-                $('.shadow_slot1 [type="checkbox"]').on('click', function (e) {
-                    if (e.currentTarget.checked) {
-                        $("#atk-slot1").html( Math.round($("#atk-slot1").html() * 1.2))
-                        $("#def-slot1").html( Math.round($("#def-slot1").html() * 0.833))
-                    } else {
-                        pokemon = $("#pokemonList_slot1").val().split(" - ");
-                        pokemon = pokemon[1]
-                        $("#atk-slot1").html( pokeDB[pokemon].stats.atk )
-                        $("#def-slot1").html( pokeDB[pokemon].stats.def )
+                var moveList = $('#moveList');
+                moveList.select2();
+                moveList.on('change', function(){
+                    if (this.value !== "-- Pick an option --") {
+                        filterPokemonByMoveName(this.value);
                     }
                 });
-
-                $('.shadow_slot2 [type="checkbox"]').on('click', function (e) {
-                    if (e.currentTarget.checked) {
-                        $("#atk-slot2").html( Math.round($("#atk-slot2").html() * 1.2))
-                        $("#def-slot2").html( Math.round($("#def-slot2").html() * 0.833))
-                    } else {
-                        pokemon = $("#pokemonList_slot2").val().split(" - ");
-                        pokemon = pokemon[1]
-                        $("#atk-slot2").html( pokeDB[pokemon].stats.atk )
-                        $("#def-slot2").html( pokeDB[pokemon].stats.def )
+                
+                var moveTypeList = $('#moveTypeList');
+                moveTypeList.select2();
+                moveTypeList.on('change', function(){
+                    if (this.value !== "-- Pick an option --") {
+                        filterPokemonByMoveType(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
                     }
-                });
-
-                $('.shadow_slot3 [type="checkbox"]').on('click', function (e) {
-                    if (e.currentTarget.checked) {
-                        $("#atk-slot3").html( Math.round($("#atk-slot3").html() * 1.2))
-                        $("#def-slot3").html( Math.round($("#def-slot3").html() * 0.833))
-                    } else {
-                        pokemon = $("#pokemonList_slot3").val().split(" - ");
-                        pokemon = pokemon[1]
-                        $("#atk-slot3").html( pokeDB[pokemon].stats.atk )
-                        $("#def-slot3").html( pokeDB[pokemon].stats.def )
-                    }
-                });
-
-                $(".switchPositions").on('click', function (e) {
-                    saveTeam($(this)[0].dataset['target'])
                 });
             });
         </script>
@@ -345,7 +326,7 @@
                                 <select id="pokemonList_slot1_history" name="pokemonList_slot1_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
                                 </select><br/>
-                                <span class="shadow_slot1" style="display: none;"><input type="checkbox"> Shadow</input></span>
+                                <span class="shadow_pokemon" style="display: none;" data-slot="1" data-shadow="slot1"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -433,7 +414,7 @@
                                 <select id="pokemonList_slot2_history" name="pokemonList_slot2_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
                                 </select><br/>
-                                <span class="shadow_slot2" style="display: none;"><input type="checkbox"> Shadow</input></span>
+                                <span class="shadow_pokemon" style="display: none;" data-slot="2" data-shadow="slot2"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -522,7 +503,7 @@
                                 <select id="pokemonList_slot3_history" name="pokemonList_slot3_history" class="custom-select" style="width: 49%">
                                     <option>-- Slot history --</option>
                                 </select><br/>
-                                <span class="shadow_slot3" style="display: none;"><input type="checkbox"> Shadow</input></span>
+                                <span class="shadow_pokemon" style="display: none;" data-slot="3" data-shadow="slot3"><input type="checkbox"> Shadow</input></span>
                                 <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                                 <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">

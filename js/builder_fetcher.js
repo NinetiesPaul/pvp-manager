@@ -50,7 +50,7 @@ function getPokemonData(pokemon, slot)
     $('#sta-' + slot).html(data.stats.sta)
 
     if (data.is_shadow) {
-        $(".shadow_" + slot).css('display', 'inline')
+        $("[data-shadow=\"" + slot + "\"]").css('display', 'inline');
     }
 
     imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + data.imgurl + ".png";
