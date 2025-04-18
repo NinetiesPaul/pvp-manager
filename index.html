@@ -71,6 +71,20 @@
                 buildPagination(totalData, parseInt(page));
             })
 
+            $(document).on('click', '.shadow_pokemon [type="checkbox"]', function (e) {
+                slot = $(this).closest('.shadow_pokemon').attr('data-slot');
+
+                if (e.currentTarget.checked) {
+                    $("#atk-slot" + slot).html( Math.round($("#atk-slot" + slot).html() * 1.2));
+                    $("#def-slot" + slot).html( Math.round($("#def-slot" + slot).html() * 0.833));
+                } else {
+                    pokemon = $("#pokemonList_slot" + slot).val().split(" - ");
+                    pokemon = pokemon[1];
+                    $("#atk-slot" + slot).html(pokeDB[pokemon].stats.atk);
+                    $("#def-slot" + slot).html(pokeDB[pokemon].stats.def);
+                }
+            });
+
             $(document).ready( function () {
 
                 for (var key in pokeDB) {
@@ -178,20 +192,6 @@
 
                     updateHistory($(this)[0].dataset['slot']);
 				});
-
-                $('.shadow_pokemon [type="checkbox"]').on('click', function (e) {
-                    slot = $(this).closest('.shadow_pokemon').attr('data-slot');
-
-                    if (e.currentTarget.checked) {
-                        $("#atk-slot" + slot).html( Math.round($("#atk-slot1").html() * 1.2));
-                        $("#def-slot" + slot).html( Math.round($("#def-slot1").html() * 0.833));
-                    } else {
-                        pokemon = $("#pokemonList_slot" + slot).val().split(" - ");
-                        pokemon = pokemon[1];
-                        $("#atk-slot" + slot).html(pokeDB[pokemon].stats.atk);
-                        $("#def-slot" + slot).html(pokeDB[pokemon].stats.def);
-                    }
-                });
 
                 $(".switchPositions").on('click', function (e) {
                     saveTeam($(this)[0].dataset['target'])
@@ -352,7 +352,7 @@
                                 </select>
                             </span>
                         
-                            <span class="shadow_pokemon" style="display: none;" data-slot="1" data-shadow="slot1"><input type="checkbox"> Shadow</input></span>
+                            <span class="shadow_pokemon" data-slot="1" data-shadow="slot1">&nbsp;</span>
                             <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -442,7 +442,7 @@
                                 </select>
                             </span>
 
-                            <span class="shadow_pokemon" style="display: none;" data-slot="2" data-shadow="slot2"><input type="checkbox"> Shadow</input></span>
+                            <span class="shadow_pokemon" data-slot="2" data-shadow="slot2">&nbsp;</span>
                             <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
@@ -533,7 +533,7 @@
                                 </select>
                             </span>
 
-                            <span class="shadow_pokemon" style="display: none;" data-slot="3" data-shadow="slot3"><input type="checkbox"> Shadow</input></span>
+                            <span class="shadow_pokemon" data-slot="3" data-shadow="slot3">&nbsp;</span>
                             <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
