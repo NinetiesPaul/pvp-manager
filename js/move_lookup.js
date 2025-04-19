@@ -22,6 +22,7 @@ function filterPokemonByMoveName(moveName)
     $.each(pokemons, function (id, pkm) {
         allMoves = []
 
+        pkm = pkm.trim()
         $.each(pokeDB[pkm].moveset[type], function (id, pkmMove) {
             sanitizedMove = pkmMove.replaceAll('*', '');
             allMoves.push(sanitizedMove)

@@ -240,6 +240,12 @@
                     }
                 })
 
+                $(".pkm-list-btn").on('click', function(){
+                    totalData = [];
+                    assembleTeams();
+                    buildPagination(totalData);
+                });
+
                 // Pokemon Database tab
                 $("#whole_database").on('click', function () {
                     $('#moveList').val("-- Pick an option --").trigger('change');
@@ -248,12 +254,6 @@
                     } else {
                         $(".pkm-list-db").attr("disabled", true)
                     }
-                });
-
-                $(".pkm-list-btn").on('click', function(){
-                    totalData = [];
-                    assembleTeams();
-                    buildPagination(totalData);
                 });
 
                 var moveList = $('#moveList');
