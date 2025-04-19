@@ -99,6 +99,7 @@ function getPokemonData(pokemon, slot)
             $("#pokemonList_" + slot + "_alternatives").append("<option>" + alternativeName + "</option>")
         }
     }
+    standardHeights();
 }
 
 function getMoveData(move, type, target)
@@ -155,4 +156,5 @@ function getMoveData(move, type, target)
     });
 
 	$('#' + type + '_moveBuff-' + target).append(buffs);
+    standardHeights();
 }

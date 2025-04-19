@@ -271,29 +271,6 @@
                         filterPokemonByMoveType(this.value, $(".pkm-list-db").val(), $(".pkm-list-db").is(":disabled"));
                     }
                 });
-
-                // this isnt working, only god knows why
-                currentHighestHeight = 346;
-                const boxes = document.querySelectorAll('.card');
-                boxes.forEach(box => {
-                    new ResizeObserver((cards) => {
-                        var update = false
-                        for (const card of cards) {
-                            if (card.contentRect.height > currentHighestHeight) {
-                                currentHighestHeight = card.contentRect.height;
-                                update = true
-                            }
-                        }
-
-                        if (update) {
-                            //$("#cardSlot1").height(currentHighestHeight)
-                            //$("#cardSlot2").height(currentHighestHeight)
-                            //$("#cardSlot3").height(currentHighestHeight)
-                        }
-                        
-                    }).observe(box);
-                });
-
             });
         </script>
 
@@ -353,7 +330,7 @@
                             </span>
                         
                             <span class="shadow_pokemon" data-slot="1" data-shadow="slot1">&nbsp;</span>
-                            <br><img class="" id="pokemon_img-slot1" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                            <br><img class="" id="pokemon_img-slot1" src="..." height="96px" style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                 <tr>
@@ -443,7 +420,7 @@
                             </span>
 
                             <span class="shadow_pokemon" data-slot="2" data-shadow="slot2">&nbsp;</span>
-                            <br><img class="" id="pokemon_img-slot2" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                            <br><img class="" id="pokemon_img-slot2" height="96px" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                 <tr>
@@ -519,7 +496,7 @@
                             <button class="btn btn-sm btn-primary switchPositions" style="position: absolute; left: -1.5em; top: 10em;" data-target="1_and_2"> < > </button>
                         </div>
 
-                        <div class="card" id="cardSlot3" style="width: 33%; "> <!-- Slot 3-->
+                        <div class="card" id="cardSlot3" style="width: 33%;"> <!-- Slot 3-->
                             <select id="pokemonList_slot3" name="pokemonList_slot3">
                                 <option>-- Pick an option --</option>
                             </select>
@@ -534,7 +511,7 @@
                             </span>
 
                             <span class="shadow_pokemon" data-slot="3" data-shadow="slot3">&nbsp;</span>
-                            <br><img class="" id="pokemon_img-slot3" src="..." style="margin: 0 auto;" alt="&nbsp;">
+                            <br><img class="" id="pokemon_img-slot3" height="96px" src="..." style="margin: 0 auto;" alt="&nbsp;">
 
                             <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
                                 <tr>

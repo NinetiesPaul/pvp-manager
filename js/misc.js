@@ -81,3 +81,16 @@ function formatBuff(buffs) {
 
     return buffFullEffectDescription
 }
+
+function standardHeights()
+{
+    cardSlot1 = $('#cardSlot1').outerHeight();
+    cardSlot2 = $('#cardSlot2').outerHeight();
+    cardSlot3 = $('#cardSlot3').outerHeight();
+
+    highest = Math.max(cardSlot1, cardSlot2, cardSlot3)
+
+    $('#cardSlot1').css("min-height", highest);
+    $('#cardSlot2').css("min-height", highest);
+    $('#cardSlot3').css("min-height", highest);
+}
