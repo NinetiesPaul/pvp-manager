@@ -65,10 +65,15 @@ function getPokemonData(pokemon, slot)
 
     $.each(data.moveset.quick, function (index,value){
         cleanName = value.replaceAll('*', '');
-        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + quickMoveDB[cleanName].dpt;
 
-        let bold = (data.type.includes(quickMoveDB[cleanName].type) ? "style=\"font-weight: bold;\"" : "");
+        let finalDpt = quickMoveDB[cleanName].dpt;
+        let bold = "";
+        if (data.type.includes(quickMoveDB[cleanName].type)) {
+            finalDpt = (quickMoveDB[cleanName].dpt * 1.2).toFixed(2);
+            bold = "style=\"font-weight: bold;\"";
+        }
 
+        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + finalDpt;
         $('#quick_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
 
@@ -83,7 +88,6 @@ function getPokemonData(pokemon, slot)
         }
 
         var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe;
-
         $('#charge1_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
         $('#charge2_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
