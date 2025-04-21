@@ -32,7 +32,6 @@ function filterPokemonByMoveName(moveName)
         {
             var imageSrc = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/" + pokeDB[pkm].imgurl + ".png";
             var pkmImage = "<br><img class='' id='pokemon_img-slot1' src='" + imageSrc + "' style='margin: 0 auto;' alt='&nbsp;'></img>"
-            var isStab = jQuery.inArray(move.type, pokeDB[pkm].type) > -1 ? "style='font-weight: bold;'" : "";
             var pkmType = '';
 
             $.each(pokeDB[pkm].type, function (k,v) {
@@ -43,14 +42,14 @@ function filterPokemonByMoveName(moveName)
 
             textToAppend += 
                 "<tr>"+
-                    "<td " + isStab + ">" +
+                    "<td>" +
                     pkm +
                     "<br/>" + pkmType +
-                    "<Br/>" + pkmImage +
+                    "<br/>" + pkmImage +
                     "<br/>" +
-                    "<span class='badge badge-danger full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.atk + "</span>" + 
-                    "<span class='badge badge-success full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.def + "</span>" + 
-                    "<span class='badge  badge-primary full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.sta + "</span>" + 
+                    "<span class='badge badge-pill badge-danger' style='width: 7em;'><span style='color: black'>Atk</span> " + pokeDB[pkm].stats.atk + "</span> " + 
+                    "<span class='badge badge-pill badge-success' style='width: 7em;'><span style='color: black'>Atk</span> " + pokeDB[pkm].stats.def + "</span> " + 
+                    "<span class='badge badge-pill badge-primary' style='width: 7em;'><span style='color: black'>Atk</span> " + pokeDB[pkm].stats.sta + "</span>" + 
                     "</td>" +
                 "</tr>";
         }
@@ -98,24 +97,33 @@ function filterPokemonByMoveName(moveName)
 	$("#pokemondb-tbody").append(textToAppend);
 }
 
-function filterPokemonByMoveType(type, pokemons, wholeDatabase)
+function filterPokemonByMoveType(type)
 {
     $("#pokemondb-movedata-tbody").html("");
 
 	$(".pokemondb-table tbody").html("");
 
-    var pokemons = (wholeDatabase) ? Object.keys(pokeDB) : pokemons.split(",")
+    var pokemons = ($("#whole_database").is(":checked")) ? Object.keys(pokeDB) : $(".pkm-list-db").val().split(",")
 
     var textToAppend = "";
 
     $.each(pokemons, function (id, pkm) {
 
         var skip = true;
-        pokeDB[pkm].moveset.quick.filter(function(move) {
+        pkm = pkm.trim();
+
+        var matchedMoves = "";
+        var pokemonMoves = structuredClone(pokeDB[pkm].moveset.quick.concat(pokeDB[pkm].moveset.charge));
+        pokemonMoves.filter(function(move) {
             sanitizedMove = move.replaceAll('*', '');
             if (sanitizedMove !== "Transform") {
-                if (skip && quickMoveDB[sanitizedMove].type === type){
+                if (Object.keys(quickMoveDB).includes(sanitizedMove) && quickMoveDB[sanitizedMove].type === type ||
+                    Object.keys(chargeMoveDB).includes(sanitizedMove) && chargeMoveDB[sanitizedMove].type === type) {
                     skip = false;
+                    moveType = (Object.keys(quickMoveDB).includes(sanitizedMove)) ? quickMoveDB[sanitizedMove].type : chargeMoveDB[sanitizedMove].type;
+                    isStab = (pokeDB[pkm].type).includes(moveType) ? "<b>" + move + "</b>" : move;
+                    matchedMoves += (Object.keys(quickMoveDB).includes(sanitizedMove)) ? "Quick attack " + isStab : "Charge attack " + isStab;
+                    matchedMoves += "<br/>";
                 }
             }
         });
@@ -136,15 +144,16 @@ function filterPokemonByMoveType(type, pokemons, wholeDatabase)
 
         textToAppend += 
             "<tr>"+
-                "<td>" +
+                "<td ><span style='float: right;'>" +
                 pkm +
                 "<br/>" + pkmType +
-                "<Br/>" + pkmImage +
+                "<br/>" + pkmImage +
                 "<br/>" +
-                "<span class='badge badge-danger full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.atk + "</span>" + 
-                "<span class='badge badge-success full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.def + "</span>" + 
-                "<span class='badge  badge-primary full-pill' style='width: 5em;'>" + pokeDB[pkm].stats.sta + "</span>" + 
-                "</td>" +
+                "<span class='badge badge-pill badge-danger' style='width: 7em;'><span style='color: black'>Atk</span> " + pokeDB[pkm].stats.atk + "</span> " + 
+                "<span class='badge badge-pill badge-success' style='width: 7em;'><span style='color: black'>Def</span> " + pokeDB[pkm].stats.def + "</span> " + 
+                "<span class='badge badge-pill badge-primary' style='width: 7em;'><span style='color: black'>Sta</span> " + pokeDB[pkm].stats.sta + "</span>" + 
+                "</span></td>" +
+                "<td style='float: left; text-align: left;'>" + matchedMoves + "</td>" +
             "</tr>";
         
     });
