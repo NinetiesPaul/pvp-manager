@@ -6557,7 +6557,7 @@ var pokeDB = {
     },
     "is_shadow": true,
     "region": "Kanto",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Jynx": {
     "id": "0124",
@@ -14017,7 +14017,7 @@ var pokeDB = {
     },
     "is_shadow": true,
     "region": "Hoenn",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Swampert": {
     "id": "0260",
@@ -15296,7 +15296,7 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Hoenn",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Slaking": {
     "id": "0289",
@@ -26773,7 +26773,7 @@ var pokeDB = {
     },
     "is_shadow": true,
     "region": "Unova",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Samurott": {
     "id": "0503",
