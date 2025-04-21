@@ -6,63 +6,26 @@ function assembleTeams(){
 
 	pkms = pkms.map((pokemon) => { return pokemon.trim() });
 	pkms = Object.keys(pokeDB).filter(realPkm => pkms.includes(realPkm));
-	pkms = pkms.filter(pokemon => pokeDB[pokemon].is_final_stage === true);
-
-	/*$.each(pkms, function(id, pkm) {
-		if (pkm.indexOf(" ") > -1) {
-			innerPkm = pkm.split(" ");
-
-			$.each(innerPkm, function(k, j) {
-				namePart = j.charAt(0).toUpperCase() + j.slice(1).toLowerCase()
-
-				if (namePart == "Ho-oh") {
-					namePart = "Ho-Oh"
-				}
-
-				innerPkm[k] = namePart
-			});
-
-			pkms[id] = innerPkm.join(" ")
-		} else {
-			pkms[id] = pkm.charAt(0).toUpperCase() + pkm.slice(1).toLowerCase()
-		}
-	})*/
 
 	var totalPkms = pkms.length;
 
-	if (hideTypes.length > 0) {
-		if ($("#filter_opt").val() == "filterOut") {
-			toRemove = []
-
-			$.each(hideTypes, function(idt,type) {
-				$.each(pkms, function(id,pkm) {
-					if (pokeDB[pkm].type.join(",").includes(type)) {
-						toRemove.push(pkm)
-						//pkms.splice(pkms.findIndex(x => x == pkm), 1)
-					}
-				});
-			});
-
-			$.each(toRemove, function(id,removePkm) {
-				pkms.splice(pkms.findIndex(x => x == removePkm), 1)
-			});
-		} else {
-			toKeep = []
-
-			$.each(hideTypes, function(idt,type) {
-				$.each(pkms, function(id,pkm) {
-					if (pokeDB[pkm].type.join(",").includes(type)) {
-						toKeep.push(pkm)
-						//pkms.splice(pkms.findIndex(x => x == pkm), 1)
-					}
-				});
-			});
-
-			pkms = [...new Set(toKeep)];
-		}
-	}
-
 	var toRemove = [];
+
+	if (hideTypes.length > 0) {
+		$.each(pkms, function(id,pkm) {
+			if ($("#filter_opt").val() == "filterOut") {
+				// if pokemon type intersects with hideTypes content, filter out
+				if (pokeDB[pkm].type.filter(x => hideTypes.includes(x)).length > 0) {
+					toRemove.push(pkm)
+				}
+			} else {
+				// if pokemon type doesnt intersects with hideTypes content, filter out
+				if (pokeDB[pkm].type.filter(x => hideTypes.includes(x)).length == 0) {
+					toRemove.push(pkm)
+				}
+			}
+		});
+	}
 
 	if ($("#hide_dv").is(":checked")) {
 		$.each(pkms, function(id,pkm) {
@@ -112,8 +75,8 @@ function assembleTeams(){
 		pkms.splice(pkms.findIndex(x => x == removePkm), 1)
 	});
 
+	var leftOutEpt = [];
 	var ept = $("#ept_limit option:selected").val();
-
 	if (ept != "-") {
 		toKeep = [];
 
@@ -141,6 +104,10 @@ function assembleTeams(){
 			});
 		});
 
+		// listing all pokemon marked to be filterd out due to not meeting EPT criteria
+		// todo: simplify this using toRemove variable set earlier
+		leftOutEpt = pkms.filter(x => toKeep.includes(x) == false);
+
 		pkms = [...new Set(toKeep)];
 	}
 
@@ -149,8 +116,6 @@ function assembleTeams(){
 	var filteredPkms = pkms.length;
 
 	var teams = [];
-
-	teams = []
 
 	// the length of skipping after n0; eg: n0 n1 n2, n0 n2 n3, n0 n3 n4
 	sliceSkip = pkms.length - 3
@@ -234,9 +199,11 @@ function assembleTeams(){
 	}
 
 	$("#pkmTotalSize").html(totalPkms);
-	$("#filteredSize").html(filteredPkms);
+	$("#finalSize").html(filteredPkms);
+	$("#finalList").html(pkmsFinalList.sort().join(", "));
+	$("#leftOutSize").html(toRemove.length + leftOutEpt.length);
+	$("#leftOutList").html(toRemove.concat(leftOutEpt).sort().join(", "));
 	$("#teamsCombination").html(totalData.length);
-	$("#pkmFinalList").html(pkmsFinalList.join(", "));
 };
 
 function pasteTeam(e) {
