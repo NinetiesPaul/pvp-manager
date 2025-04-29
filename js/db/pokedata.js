@@ -48323,52 +48323,6 @@ var pokeDB = {
     "region": "Galar",
     "is_final_stage": false
 },
-"Toxtricity": {
-    "id": "0849",
-    "stats": {
-        "atk": 224,
-        "def": 140,
-        "sta": 181
-    },
-    "type": [
-        "Electric",
-        "Poison"
-    ],
-    "imgurl": null,
-    "name": "Toxtricity",
-    "moveset": {
-        "quick": [
-            "Acid",
-            "Poison Jab",
-            "Spark"
-        ],
-        "charge": [
-            "Acid Spray",
-            "Discharge",
-            "Power Up Punch",
-            "Wild Charge"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Ground": "256%",
-            "Psychic": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Electric": "62.5%",
-            "Fairy": "62.5%",
-            "Fighting": "62.5%",
-            "Flying": "62.5%",
-            "Grass": "62.5%",
-            "Poison": "62.5%",
-            "Steel": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Galar",
-    "is_final_stage": true
-},
 "Toxtricity Amped": {
     "id": "0849",
     "stats": {
@@ -48380,7 +48334,7 @@ var pokeDB = {
         "Electric",
         "Poison"
     ],
-    "imgurl": null,
+    "imgurl": "849",
     "name": "Toxtricity Amped",
     "moveset": {
         "quick": [
@@ -48426,7 +48380,7 @@ var pokeDB = {
         "Electric",
         "Poison"
     ],
-    "imgurl": null,
+    "imgurl": "10184",
     "name": "Toxtricity Low Key",
     "moveset": {
         "quick": [
