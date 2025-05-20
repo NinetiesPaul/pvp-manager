@@ -50762,45 +50762,6 @@ var pokeDB = {
     "region": "Galar",
     "is_final_stage": true
 },
-"Urshifu": {
-    "id": "0892",
-    "stats": {
-        "atk": 254,
-        "def": 177,
-        "sta": 225
-    },
-    "type": [
-        "Fighting"
-    ],
-    "imgurl": null,
-    "name": "Urshifu",
-    "moveset": {
-        "quick": [
-            "Counter",
-            "Rock Smash"
-        ],
-        "charge": [
-            "Brick Break",
-            "Close Combat",
-            "Dynamic Punch"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fairy": "160%",
-            "Flying": "160%",
-            "Psychic": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Rock": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Galar",
-    "is_final_stage": true
-},
 "Urshifu Rapid Strike": {
     "id": "0892",
     "stats": {
@@ -50812,7 +50773,7 @@ var pokeDB = {
         "Fighting",
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "10191",
     "name": "Urshifu Rapid Strike",
     "moveset": {
         "quick": [
@@ -50860,7 +50821,7 @@ var pokeDB = {
         "Fighting",
         "Dark"
     ],
-    "imgurl": null,
+    "imgurl": "892",
     "name": "Urshifu Single Strike",
     "moveset": {
         "quick": [
