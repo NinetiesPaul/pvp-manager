@@ -1,3 +1,11 @@
+function applyFilter(pkms, toRemove) {
+	$.each(toRemove, function(id,removePkm) {
+		pkms.splice(pkms.findIndex(x => x == removePkm), 1)
+	});
+
+	return pkms;
+}
+
 function assembleTeams(){
 	$(".teamassembler-table tbody").html("");
 
@@ -10,6 +18,7 @@ function assembleTeams(){
 	var totalPkms = pkms.length;
 
 	var toRemove = [];
+	var toRemoveList = [];
 
 	if (hideTypes.length > 0) {
 		$.each(pkms, function(id,pkm) {
@@ -25,6 +34,10 @@ function assembleTeams(){
 				}
 			}
 		});
+
+		pkms = applyFilter(pkms, toRemove);
+		toRemove.forEach((item) => toRemoveList.push(item))
+		toRemove = [];
 	}
 
 	if ($("#hide_dv").is(":checked")) {
@@ -33,6 +46,10 @@ function assembleTeams(){
 				toRemove.push(pkm);
 			}
 		});
+
+		pkms = applyFilter(pkms, toRemove);
+		toRemove.forEach((item) => toRemoveList.push(item))
+		toRemove = [];
 	}
 
 	if ($("#hide_dt").is(":checked"))
@@ -42,6 +59,10 @@ function assembleTeams(){
 				toRemove.push(pkm)
 			}
 		});
+
+		pkms = applyFilter(pkms, toRemove);
+		toRemove.forEach((item) => toRemoveList.push(item))
+		toRemove = [];
 	}
 
 	if ($("#hide_irrelevant").is(":checked"))
@@ -61,6 +82,10 @@ function assembleTeams(){
 				toRemove.push(pkm)
 			}
 		});
+
+		pkms = applyFilter(pkms, toRemove);
+		toRemove.forEach((item) => toRemoveList.push(item))
+		toRemove = [];
 	}
 
 	if ($("#filterByRegion").val() !== "All") {
@@ -69,11 +94,11 @@ function assembleTeams(){
 				toRemove.push(pkm)
 			}
 		});
-	}
 
-	$.each(toRemove, function(id,removePkm) {
-		pkms.splice(pkms.findIndex(x => x == removePkm), 1)
-	});
+		pkms = applyFilter(pkms, toRemove);
+		toRemove.forEach((item) => toRemoveList.push(item))
+		toRemove = [];
+	}
 
 	var leftOutEpt = [];
 	var ept = $("#ept_limit option:selected").val();
@@ -201,8 +226,8 @@ function assembleTeams(){
 	$("#pkmTotalSize").html(totalPkms);
 	$("#finalSize").html(filteredPkms);
 	$("#finalList").html(pkmsFinalList.sort().join(", "));
-	$("#leftOutSize").html(toRemove.length + leftOutEpt.length);
-	$("#leftOutList").html(toRemove.concat(leftOutEpt).sort().join(", "));
+	$("#leftOutSize").html(toRemoveList.length + leftOutEpt.length);
+	$("#leftOutList").html(toRemoveList.concat(leftOutEpt).sort().join(", "));
 	$("#teamsCombination").html(totalData.length);
 };
 
