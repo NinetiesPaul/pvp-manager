@@ -753,6 +753,19 @@ var chargeMoveDB = {
         }
     }
 },
+"Crush Grip": {
+    "type": "Normal",
+    "weakAgainst": [
+        "Ghost",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [],
+    "energy": -1,
+    "power": 1,
+    "dpe": 1,
+    "buffs": []
+},
 "Dark Pulse": {
     "type": "Dark",
     "weakAgainst": [
@@ -944,6 +957,20 @@ var chargeMoveDB = {
     "energy": -35,
     "power": 50,
     "dpe": 1.43,
+    "buffs": []
+},
+"Dragon Energy": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": -1,
+    "power": 1,
+    "dpe": 1,
     "buffs": []
 },
 "Dragon Pulse": {
@@ -3901,6 +3928,23 @@ var chargeMoveDB = {
     "energy": -60,
     "power": 100,
     "dpe": 1.67,
+    "buffs": []
+},
+"Thunder Cage": {
+    "type": "Electric",
+    "weakAgainst": [
+        "Dragon",
+        "Electric",
+        "Grass",
+        "Ground"
+    ],
+    "goodAgainst": [
+        "Flying",
+        "Water"
+    ],
+    "energy": -1,
+    "power": 1,
+    "dpe": 1,
     "buffs": []
 },
 "Thunder Punch": {

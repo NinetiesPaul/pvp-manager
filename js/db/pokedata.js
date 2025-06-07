@@ -7094,78 +7094,6 @@ var pokeDB = {
     "region": "Kanto",
     "is_final_stage": false
 },
-"Eevee Gofest 2024 Mtiara": {
-    "id": "0133",
-    "stats": {
-        "atk": 104,
-        "def": 114,
-        "sta": 146
-    },
-    "type": [
-        "Normal"
-    ],
-    "imgurl": null,
-    "name": "Eevee Gofest 2024 Mtiara",
-    "moveset": {
-        "quick": [
-            "Quick Attack",
-            "Tackle"
-        ],
-        "charge": [
-            "Body Slam*",
-            "Dig",
-            "Last Resort*",
-            "Swift"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kanto",
-    "is_final_stage": true
-},
-"Eevee Gofest 2024 Stiara": {
-    "id": "0133",
-    "stats": {
-        "atk": 104,
-        "def": 114,
-        "sta": 146
-    },
-    "type": [
-        "Normal"
-    ],
-    "imgurl": null,
-    "name": "Eevee Gofest 2024 Stiara",
-    "moveset": {
-        "quick": [
-            "Quick Attack",
-            "Tackle"
-        ],
-        "charge": [
-            "Body Slam*",
-            "Dig",
-            "Last Resort*",
-            "Swift"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kanto",
-    "is_final_stage": true
-},
 "Vaporeon": {
     "id": "0134",
     "stats": {
@@ -7569,46 +7497,6 @@ var pokeDB = {
     ],
     "imgurl": "143",
     "name": "Snorlax",
-    "moveset": {
-        "quick": [
-            "Lick",
-            "Yawn*",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Body Slam",
-            "Earthquake",
-            "Heavy Slam",
-            "Hyper Beam",
-            "Outrage",
-            "Skull Bash",
-            "Super Power"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    },
-    "is_shadow": true,
-    "region": "Kanto",
-    "is_final_stage": true
-},
-"Snorlax Wildarea 2024": {
-    "id": "0143",
-    "stats": {
-        "atk": 190,
-        "def": 169,
-        "sta": 330
-    },
-    "type": [
-        "Normal"
-    ],
-    "imgurl": null,
-    "name": "Snorlax Wildarea 2024",
     "moveset": {
         "quick": [
             "Lick",
@@ -10173,47 +10061,6 @@ var pokeDB = {
     "region": "Johto",
     "is_final_stage": true
 },
-"Espeon Gofest 2024 Sscarf": {
-    "id": "0196",
-    "stats": {
-        "atk": 261,
-        "def": 175,
-        "sta": 163
-    },
-    "type": [
-        "Psychic"
-    ],
-    "imgurl": null,
-    "name": "Espeon Gofest 2024 Sscarf",
-    "moveset": {
-        "quick": [
-            "Confusion",
-            "Zen Headbutt"
-        ],
-        "charge": [
-            "Futuresight",
-            "Last Resort*",
-            "Psybeam",
-            "Psychic",
-            "Psychic Fangs",
-            "Shadow Ball*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%",
-            "Ghost": "160%"
-        },
-        "resistant_to": {
-            "Fighting": "62.5%",
-            "Psychic": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Johto",
-    "is_final_stage": true
-},
 "Umbreon": {
     "id": "0197",
     "stats": {
@@ -10226,46 +10073,6 @@ var pokeDB = {
     ],
     "imgurl": "197",
     "name": "Umbreon",
-    "moveset": {
-        "quick": [
-            "Feint Attack",
-            "Snarl"
-        ],
-        "charge": [
-            "Dark Pulse",
-            "Foul Play",
-            "Last Resort*",
-            "Psychic*"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Fairy": "160%",
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Dark": "62.5%",
-            "Ghost": "62.5%",
-            "Psychic": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Johto",
-    "is_final_stage": true
-},
-"Umbreon Gofest 2024 Mscarf": {
-    "id": "0197",
-    "stats": {
-        "atk": 126,
-        "def": 240,
-        "sta": 216
-    },
-    "type": [
-        "Dark"
-    ],
-    "imgurl": null,
-    "name": "Umbreon Gofest 2024 Mscarf",
     "moveset": {
         "quick": [
             "Feint Attack",
@@ -15258,7 +15065,7 @@ var pokeDB = {
             "Ghost": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": false
 },
@@ -15294,7 +15101,7 @@ var pokeDB = {
             "Ghost": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": true
 },
@@ -15329,7 +15136,7 @@ var pokeDB = {
             "Ghost": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": true
 },
@@ -23187,7 +22994,7 @@ var pokeDB = {
     },
     "is_shadow": true,
     "region": "Sinnoh",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Garchomp": {
     "id": "0445",
@@ -25078,7 +24885,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Sinnoh",
     "is_final_stage": true
 },
@@ -25124,7 +24931,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Sinnoh",
     "is_final_stage": true
 },
@@ -30480,6 +30287,7 @@ var pokeDB = {
             "Frost Breath"
         ],
         "charge": [
+            "Avalanche*",
             "Blizzard",
             "Flash Cannon",
             "Signal Beam"
@@ -39049,7 +38857,7 @@ var pokeDB = {
             "Psychic": "24.4%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -39088,7 +38896,7 @@ var pokeDB = {
             "Psychic": "24.4%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -39479,7 +39287,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -39527,7 +39335,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -39572,7 +39380,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -39620,7 +39428,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -50760,7 +50568,7 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Galar",
-    "is_final_stage": true
+    "is_final_stage": false
 },
 "Urshifu Rapid Strike": {
     "id": "0892",
@@ -52255,6 +52063,7 @@ var pokeDB = {
             "Spark"
         ],
         "charge": [
+            "Brick Break*",
             "Close Combat",
             "Discharge",
             "Thunder Punch",
@@ -55292,11 +55101,13 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
+            "Metal Sound",
             "Snarl"
         ],
         "charge": [
             "Dark Pulse",
             "Focus Blast",
+            "Foul Play",
             "Iron Head",
             "X Scissor"
         ]
