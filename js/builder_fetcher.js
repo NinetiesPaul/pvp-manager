@@ -56,11 +56,11 @@ function getPokemonData(pokemon, slot)
     $('#pokemon_img-' + slot).attr('src', imageSrc)
 
     $.each(data.defense_data.resistant_to, function (index,value){
-        $('.resistant_to-' + slot).append(index + " | " + value + "<br>")
+        $('.resistant_to-' + slot).append("<span class='badge' style='font-size: 100%; font-weight: normal;'>" + index + " | " + value + "</span><br>")
     });
 
     $.each(data.defense_data.vulnerable_to, function (index,value){
-        $('.vulnerable_to-' + slot).append(index + " | " + value + "<br>")
+        $('.vulnerable_to-' + slot).append("<span class='badge' style='font-size: 100%; font-weight: normal;'>" + index + " | " + value + "</span><br>")
     });
 
     $.each(data.moveset.quick, function (index,value){
@@ -103,7 +103,10 @@ function getPokemonData(pokemon, slot)
             $("#pokemonList_" + slot + "_alternatives").append("<option>" + alternativeName + "</option>")
         }
     }
+
     standardHeights();
+
+    updateCtv();
 }
 
 function getMoveData(move, type, target)
@@ -161,4 +164,85 @@ function getMoveData(move, type, target)
 
 	$('#' + type + '_moveBuff-' + target).append(buffs);
     standardHeights();
+}
+
+function updateCtv()
+{
+    let slot1Option = ($("#pokemonList_slot1").val() !== "-- Pick an option --") ? $("#pokemonList_slot1").val().split(" - ")[1] : false;
+    let slot2Option = ($("#pokemonList_slot2").val() !== "-- Pick an option --") ? $("#pokemonList_slot2").val().split(" - ")[1] : false;
+    let slot3Option = ($("#pokemonList_slot3").val() !== "-- Pick an option --") ? $("#pokemonList_slot3").val().split(" - ")[1] : false;
+
+    let slot1V = []
+    if (slot1Option) {
+        slot1V = Object.keys(pokeDB[slot1Option].defense_data.vulnerable_to)
+    }
+
+    let slot2V = []
+    if (slot2Option) {
+        slot2V = Object.keys(pokeDB[slot2Option].defense_data.vulnerable_to)
+    }
+
+    let slot3V = []
+    if (slot3Option) {
+        slot3V = Object.keys(pokeDB[slot3Option].defense_data.vulnerable_to)
+    }
+
+    let ctv = [];
+
+    $('.vulnerable_to-slot1 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (slot2V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+        if (slot3V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+    })
+    
+    $('.vulnerable_to-slot2 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (slot1V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+        if (slot3V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+    })
+
+    $('.vulnerable_to-slot3 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (slot1V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+        if (slot2V.includes(type) && !ctv.includes(type)) {
+            ctv.push(type);
+        }
+    })
+
+    $('.vulnerable_to-slot1 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (ctv.includes(type)) {
+            $(this)[0].classList.add('badge-danger')
+        } else {
+            $(this)[0].classList.remove('badge-danger')
+        }
+    })
+
+    $('.vulnerable_to-slot2 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (ctv.includes(type)) {
+            $(this)[0].classList.add('badge-danger')
+        } else {
+            $(this)[0].classList.remove('badge-danger')
+        }
+    })
+
+    $('.vulnerable_to-slot3 span').each(function() {
+        let type = $(this)[0].innerHTML.split(" | ")[0];
+        if (ctv.includes(type)) {
+            $(this)[0].classList.add('badge-danger')
+        } else {
+            $(this)[0].classList.remove('badge-danger')
+        }
+    })
 }
