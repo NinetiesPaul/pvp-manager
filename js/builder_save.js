@@ -25,10 +25,12 @@ function saveTeam(target = false)
 	}
 
 	if (target) {
-		if (target == "1_and_2") {
+		if (target == "1_and_2" && (pkmSlot1 !== "-- Pick an option --" && pkmSlot2 !== "-- Pick an option --")) {
 			inputToChange = pkmSlot2.replace('2', '1') + "&" + pkmSlot1.replace('1', '2')
 			forceChange(inputToChange)
-		} else {
+		}
+
+		if (target == "2_and_3" && (pkmSlot2 !== "-- Pick an option --" && pkmSlot3 !== "-- Pick an option --")) {
 			inputToChange = pkmSlot3.replace('3', '2') + "&" + pkmSlot2.replace('2', '3')
 			forceChange(inputToChange)
 		}
