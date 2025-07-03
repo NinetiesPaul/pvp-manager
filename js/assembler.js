@@ -196,6 +196,92 @@ function assembleTeams(){
 			return true;
 		}
 
+		let fastHitterQtt = $("#fast_hitter_qtt").val();
+		let teamFastHitterCheckFails = null;
+		let fastHitterQttCounter = 0;
+		
+		if (fastHitterQtt != "-") {
+			let slot1FastHitter = false;
+
+			$.each(pokeDB[slot1].moveset.quick, function (k,v) {
+				cleanQuickName = v.replaceAll('*', '');
+				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
+					let hasTwoFastChargeMoves = 0;
+
+					$.each(pokeDB[slot1].moveset.charge, function (k,chargeM) {
+						cleanChargeName = chargeM.replaceAll('*', '');
+						if (chargeMoveDB[cleanChargeName].energy > -50) {
+							hasTwoFastChargeMoves += 1
+						}
+					});
+
+					if (hasTwoFastChargeMoves > 1) {
+						slot1FastHitter = true;
+					}
+				}
+			});
+
+			let slot2FastHitter = false;
+
+			$.each(pokeDB[slot2].moveset.quick, function (k,v) {
+				cleanQuickName = v.replaceAll('*', '');
+				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
+					let hasTwoFastChargeMoves = 0;
+
+					$.each(pokeDB[slot2].moveset.charge, function (k,chargeM) {
+						cleanChargeName = chargeM.replaceAll('*', '');
+						if (chargeMoveDB[cleanChargeName].energy > -50) {
+							hasTwoFastChargeMoves += 1
+						}
+					});
+
+					if (hasTwoFastChargeMoves > 1) {
+						slot2FastHitter = true;
+					}
+				}
+			});
+
+			let slot3FastHitter = false;
+
+			$.each(pokeDB[slot3].moveset.quick, function (k,v) {
+				cleanQuickName = v.replaceAll('*', '');
+				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
+					let hasTwoFastChargeMoves = 0;
+
+					$.each(pokeDB[slot3].moveset.charge, function (k,chargeM) {
+						cleanChargeName = chargeM.replaceAll('*', '');
+						if (chargeMoveDB[cleanChargeName].energy > -50) {
+							hasTwoFastChargeMoves += 1
+						}
+					});
+
+					if (hasTwoFastChargeMoves > 1) {
+						slot3FastHitter = true;
+					}
+				}
+			});
+			
+			if (slot1FastHitter) {
+				fastHitterQttCounter += 1;
+			}
+
+			if (slot2FastHitter) {
+				fastHitterQttCounter += 1;
+			}
+
+			if (slot3FastHitter) {
+				fastHitterQttCounter += 1;
+			}
+
+			if (fastHitterQttCounter != parseInt(fastHitterQtt)) {
+				teamFastHitterCheckFails = true;
+			}
+		}
+
+		if (teamFastHitterCheckFails !== null && teamFastHitterCheckFails) {
+			return true;
+		}
+
 
 		combinedVulnerabilites = [...new Set(slot1VulnerableTo.concat(slot2VulnerableTo).concat(slot3VulnerableTo))];
 		averageCombinedVulnerabilities += (new Set(combinedVulnerabilites).size)
