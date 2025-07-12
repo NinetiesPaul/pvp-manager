@@ -53,62 +53,35 @@ function showPageData(pageData)
 			slot2 = team[1].trim(),
 			slot3 = team[2].trim();
 
-        var slot1FastHitter = "";
-        $.each(pokeDB[slot1].moveset.quick, function (k,v) {
-            cleanQuickName = v.replaceAll('*', '');
-            if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-                let hasTwoFastChargeMoves = 0;
-
-                $.each(pokeDB[slot1].moveset.charge, function (k,chargeM) {
-                    cleanChargeName = chargeM.replaceAll('*', '');
-                    if (chargeMoveDB[cleanChargeName].energy > -50) {
-                        hasTwoFastChargeMoves += 1
-                    }
-                });
-
-                if (hasTwoFastChargeMoves > 1) {
-                    slot1FastHitter = "<span class='glyphicon glyphicon-forward' ></span>";
-                }
-            }
-        });
+        var checkSlot1IsFast = checkIfFastHitter(slot1);
+        var slot1Icons = "";
+        if (typeof checkSlot1IsFast !== "boolean" && checkSlot1IsFast > 0){
+            slot1Icons = "<span class='glyphicon glyphicon-forward' ></span>";
+        }
+        var checkSlot1IsHeavy = checkIfHeavyHitter(slot1);
+        if (typeof checkSlot1IsHeavy !== "boolean" && checkSlot1IsHeavy > 0){
+            slot1Icons += "<span class='glyphicon glyphicon-fire' ></span>";
+        }
         
-        var slot2FastHitter = "";
-        $.each(pokeDB[slot2].moveset.quick, function (k,v) {
-            cleanQuickName = v.replaceAll('*', '');
-            if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-                let hasTwoFastChargeMoves = 0;
+        var checkSlot2IsFast = checkIfFastHitter(slot2);
+        var slot2Icons = ""
+        if (typeof checkSlot2IsFast !== "boolean" && checkSlot2IsFast > 0){
+            slot2Icons = "<span class='glyphicon glyphicon-forward' ></span>";
+        }
+        var checkSlot2IsHeavy = checkIfHeavyHitter(slot2);
+        if (typeof checkSlot2IsHeavy !== "boolean" && checkSlot2IsHeavy > 0){
+            slot2Icons += "<span class='glyphicon glyphicon-fire' ></span>";
+        }
 
-                $.each(pokeDB[slot2].moveset.charge, function (k,chargeM) {
-                    cleanChargeName = chargeM.replaceAll('*', '');
-                    if (chargeMoveDB[cleanChargeName].energy > -50) {
-                        hasTwoFastChargeMoves += 1
-                    }
-                });
-
-                if (hasTwoFastChargeMoves > 1) {
-                    slot2FastHitter = "<span class='glyphicon glyphicon-forward' ></span>";
-                }
-            }
-        });
-
-        var slot3FastHitter = "";
-        $.each(pokeDB[slot3].moveset.quick, function (k,v) {
-            cleanQuickName = v.replaceAll('*', '');
-            if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-                let hasTwoFastChargeMoves = 0;
-
-                $.each(pokeDB[slot3].moveset.charge, function (k,chargeM) {
-                    cleanChargeName = chargeM.replaceAll('*', '');
-                    if (chargeMoveDB[cleanChargeName].energy > -50) {
-                        hasTwoFastChargeMoves += 1
-                    }
-                });
-
-                if (hasTwoFastChargeMoves > 1) {
-                    slot3FastHitter = "<span class='glyphicon glyphicon-forward' ></span>";
-                }
-            }
-        });
+        var checkSlot3IsFast = checkIfFastHitter(slot3);
+        var slot3Icons = "";
+        if (typeof checkSlot3IsFast !== "boolean" && checkSlot3IsFast > 0){
+            slot3Icons = "<span class='glyphicon glyphicon-forward' ></span>";
+        }
+        var checkSlot3IsHeavy = checkIfHeavyHitter(slot3);
+        if (typeof checkSlot3IsHeavy !== "boolean" && checkSlot3IsHeavy > 0){
+            slot3Icons += "<span class='glyphicon glyphicon-fire' ></span>";
+        }
 
         var slot1VulnerableTo = Object.keys(pokeDB[slot1].defense_data.vulnerable_to),
 			slot2VulnerableTo = Object.keys(pokeDB[slot2].defense_data.vulnerable_to),
@@ -225,9 +198,9 @@ function showPageData(pageData)
         textToAppend += 
         "<tr>" +
             "<td rowspan=\"3\"><button class=\"btn btn-sm\" id=\"paste_pkms\" data-slot1='" + slot1 + "' data-slot2='" + slot2 + "' data-slot3='" + slot3 + "'><span class=\"glyphicon glyphicon-paste\" aria-hidden=\"true\"></button><br/><br/><span class=\"" + ctVulnerabilityIcon + "\" aria-hidden=\"true\"></span></td>" +
-            "<td><span><b>" + slot1 + " " + slot1FastHitter + "</b></span><br><small>" + retrieveType(slot1) + "<br/></small></td>" +
-            "<td><span><b>" + slot2 + " " + slot2FastHitter + "</b></span><br><small>" + retrieveType(slot2) + "<br/></small></td>" +
-            "<td><span><b>" + slot3 + " " + slot3FastHitter + "</b></span><br><small>" + retrieveType(slot3) + "<br/></small></td>" +
+            "<td><span><b>" + slot1 + " " + slot1Icons + "</b></span><br><small>" + retrieveType(slot1) + "<br/></small></td>" +
+            "<td><span><b>" + slot2 + " " + slot2Icons + "</b></span><br><small>" + retrieveType(slot2) + "<br/></small></td>" +
+            "<td><span><b>" + slot3 + " " + slot3Icons + "</b></span><br><small>" + retrieveType(slot3) + "<br/></small></td>" +
             "<td rowspan=\"3\"><small><b>Team's Resis.:</b> " + (new Set(combinedResistances).size) + "<br/><b>Team's Vul.:</b> " + (new Set(combinedVulnerabilites).size) + "</small></td>" +
         "</tr>" + 
         "<tr class='row-no-border'>" +
