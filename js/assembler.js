@@ -6,19 +6,70 @@ function applyFilter(pkms, toRemove) {
 	return pkms;
 }
 
+function checkIfHeavyHitter(slot) {
+	let slotHeavyHitter = 0;
+	let unusableSlot = false;
+
+	eligibleFastMoves = pokeDB[slot].moveset.quick.filter((move) => {
+		cleanName = move.replaceAll('*', '');
+		let damageMultiplier = (pokeDB[slot].type.includes(quickMoveDB[cleanName].type)) ? 1.2 : 1;
+		return parseFloat(quickMoveDB[cleanName].ept) >= 3 && (quickMoveDB[cleanName].dpt * damageMultiplier).toFixed(2) >= 4.00;
+	})
+
+	if (eligibleFastMoves.length > 0) {
+		filter = pokeDB[slot].moveset.charge.filter((move) => {
+			cleanChargeName = move.replaceAll('*', '');
+			return chargeMoveDB[cleanChargeName].energy > -50;
+		})
+
+		if (filter.length > 1 && !unusableSlot) {
+			slotHeavyHitter += 1;
+		}
+	} else {
+		unusableSlot = true;
+	}
+
+	return (!unusableSlot) ? slotHeavyHitter : unusableSlot;
+}
+
+function checkIfFastHitter(slot) {
+	let slotFastHitter = 0
+	let unusableSlot = false;
+
+	eligibleFastMoves = pokeDB[slot].moveset.quick.filter((move) => {
+		cleanName = move.replaceAll('*', '');
+		return parseFloat(quickMoveDB[cleanName].ept) >= 4.00;
+	})
+
+	if (eligibleFastMoves.length > 0) {
+		filter = pokeDB[slot].moveset.charge.filter((move) => {
+			cleanChargeName = move.replaceAll('*', '');
+			return chargeMoveDB[cleanChargeName].energy >= -50;
+		})
+
+		if (filter.length > 1 && !unusableSlot) {
+			slotFastHitter += 1;
+		}
+	} else {
+		unusableSlot = true;
+	}
+
+	return (!unusableSlot) ? slotFastHitter : unusableSlot;
+}
+
 function assembleTeams(){
 	$(".teamassembler-table tbody").html("");
 
 	var pkms = $(".pkm-list").val();
 	pkms = pkms.split(',');
-
 	pkms = pkms.map((pokemon) => { return pokemon.trim() });
 	pkms = Object.keys(pokeDB).filter(realPkm => pkms.includes(realPkm));
+
+	var originalList = structuredClone(pkms);
 
 	var totalPkms = pkms.length;
 
 	var toRemove = [];
-	var toRemoveList = [];
 
 	if (hideTypes.length > 0) {
 		$.each(pkms, function(id,pkm) {
@@ -36,7 +87,6 @@ function assembleTeams(){
 		});
 
 		pkms = applyFilter(pkms, toRemove);
-		toRemove.forEach((item) => toRemoveList.push(item))
 		toRemove = [];
 	}
 
@@ -48,7 +98,6 @@ function assembleTeams(){
 		});
 
 		pkms = applyFilter(pkms, toRemove);
-		toRemove.forEach((item) => toRemoveList.push(item))
 		toRemove = [];
 	}
 
@@ -61,7 +110,6 @@ function assembleTeams(){
 		});
 
 		pkms = applyFilter(pkms, toRemove);
-		toRemove.forEach((item) => toRemoveList.push(item))
 		toRemove = [];
 	}
 
@@ -84,23 +132,45 @@ function assembleTeams(){
 		});
 
 		pkms = applyFilter(pkms, toRemove);
-		toRemove.forEach((item) => toRemoveList.push(item))
 		toRemove = [];
 	}
 
 	if ($("#filterByRegion").val() !== "All") {
+		let searchRegions = ($("#filterByRegion").val() == "Hisui") ? [  "Hisui", "Sinnoh" ] : [ $("#filterByRegion").val() ];
 		$.each(pkms, function(id,pkm) {
-			if (pokeDB[pkm].region !== $("#filterByRegion").val()) {
+			if (!searchRegions.includes(pokeDB[pkm].region)) {
 				toRemove.push(pkm)
 			}
 		});
 
 		pkms = applyFilter(pkms, toRemove);
-		toRemove.forEach((item) => toRemoveList.push(item))
 		toRemove = [];
 	}
 
-	var leftOutEpt = [];
+	let compositionOption = $("#team_composition").val();
+	if (compositionOption != "-") {
+		$.each(pkms, function(id,pkm) {
+			let unusablePkm = false;
+			
+			switch (compositionOption) {
+				case 'fast_only':
+					unusablePkm = typeof checkIfFastHitter(pkm) == "boolean";
+					break;
+				case 'heavy_only':
+					unusablePkm = typeof checkIfHeavyHitter(pkm) == "boolean";
+					break;
+			}
+
+			if (unusablePkm) {
+				toRemove.push(pkm)
+			}
+		});
+
+		pkms = applyFilter(pkms, toRemove);
+		toRemove = [];
+	}
+
+	/*
 	var ept = $("#ept_limit option:selected").val();
 	if (ept != "-") {
 		toKeep = [];
@@ -131,14 +201,11 @@ function assembleTeams(){
 
 		// listing all pokemon marked to be filterd out due to not meeting EPT criteria
 		// todo: simplify this using toRemove variable set earlier
-		leftOutEpt = pkms.filter(x => toKeep.includes(x) == false);
+		//leftOutEpt = pkms.filter(x => toKeep.includes(x) == false);
 
 		pkms = [...new Set(toKeep)];
 	}
-
-	var pkmsFinalList = pkms;
-
-	var filteredPkms = pkms.length;
+	*/
 
 	var teams = [];
 
@@ -175,6 +242,7 @@ function assembleTeams(){
 
 	let averageCombinedVulnerabilities = 0;
 	let averageCombinedResistances = 0;
+	var pkmsFinalList = [];
 
 	$.each(teams, function(mk,v) {
 		team = v.split(",");
@@ -196,91 +264,53 @@ function assembleTeams(){
 			return true;
 		}
 
-		let fastHitterQtt = $("#fast_hitter_qtt").val();
-		let teamFastHitterCheckFails = null;
-		let fastHitterQttCounter = 0;
-		
-		if (fastHitterQtt != "-") {
-			let slot1FastHitter = false;
+		/*let teamCompositionCheckFails = null;
+		let teamHeavyHitterCounter = 0;
+		let teamFastHitterCounter = 0;
 
-			$.each(pokeDB[slot1].moveset.quick, function (k,v) {
-				cleanQuickName = v.replaceAll('*', '');
-				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-					let hasTwoFastChargeMoves = 0;
+		if (compositionOption != "-") {
+			let slot1IsHeavy = checkIfHeavyHitter(slot1);
+			let slot2IsHeavy = checkIfHeavyHitter(slot2);
+			let slot3IsHeavy = checkIfHeavyHitter(slot3);
+			let slot1IsFast = checkIfFastHitter(slot1);
+			let slot2IsFast = checkIfFastHitter(slot2);
+			let slot3IsFast = checkIfFastHitter(slot3);
 
-					$.each(pokeDB[slot1].moveset.charge, function (k,chargeM) {
-						cleanChargeName = chargeM.replaceAll('*', '');
-						if (chargeMoveDB[cleanChargeName].energy > -50) {
-							hasTwoFastChargeMoves += 1
-						}
-					});
+			teamFastHitterCounter += (typeof slot1IsFast == "number") ? slot1IsFast : 0;
+			teamFastHitterCounter += (typeof slot2IsFast == "number") ? slot2IsFast : 0;
+			teamFastHitterCounter += (typeof slot3IsFast == "number") ? slot3IsFast : 0;
 
-					if (hasTwoFastChargeMoves > 1) {
-						slot1FastHitter = true;
+			teamHeavyHitterCounter += (typeof slot1IsHeavy == "number") ? slot1IsHeavy : 0;
+			teamHeavyHitterCounter += (typeof slot2IsHeavy == "number") ? slot2IsHeavy : 0;
+			teamHeavyHitterCounter += (typeof slot3IsHeavy == "number") ? slot3IsHeavy : 0;
+
+			switch (compositionOption) {
+				case "fast_only":
+					if (teamFastHitterCounter != 3) {
+						teamCompositionCheckFails = true
 					}
-				}
-			});
-
-			let slot2FastHitter = false;
-
-			$.each(pokeDB[slot2].moveset.quick, function (k,v) {
-				cleanQuickName = v.replaceAll('*', '');
-				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-					let hasTwoFastChargeMoves = 0;
-
-					$.each(pokeDB[slot2].moveset.charge, function (k,chargeM) {
-						cleanChargeName = chargeM.replaceAll('*', '');
-						if (chargeMoveDB[cleanChargeName].energy > -50) {
-							hasTwoFastChargeMoves += 1
-						}
-					});
-
-					if (hasTwoFastChargeMoves > 1) {
-						slot2FastHitter = true;
+					break;
+				case "fast_focused":
+					if (teamFastHitterCounter != 2 && teamHeavyHitterCounter != 1) {
+						teamCompositionCheckFails = true
 					}
-				}
-			});
-
-			let slot3FastHitter = false;
-
-			$.each(pokeDB[slot3].moveset.quick, function (k,v) {
-				cleanQuickName = v.replaceAll('*', '');
-				if (parseFloat(quickMoveDB[cleanQuickName].ept) > 4) {
-					let hasTwoFastChargeMoves = 0;
-
-					$.each(pokeDB[slot3].moveset.charge, function (k,chargeM) {
-						cleanChargeName = chargeM.replaceAll('*', '');
-						if (chargeMoveDB[cleanChargeName].energy > -50) {
-							hasTwoFastChargeMoves += 1
-						}
-					});
-
-					if (hasTwoFastChargeMoves > 1) {
-						slot3FastHitter = true;
+					break;
+				case "heavy_focused":
+					if (teamFastHitterCounter != 1 && teamHeavyHitterCounter != 2) {
+						teamCompositionCheckFails = true
 					}
-				}
-			});
-			
-			if (slot1FastHitter) {
-				fastHitterQttCounter += 1;
-			}
-
-			if (slot2FastHitter) {
-				fastHitterQttCounter += 1;
-			}
-
-			if (slot3FastHitter) {
-				fastHitterQttCounter += 1;
-			}
-
-			if (fastHitterQttCounter != parseInt(fastHitterQtt)) {
-				teamFastHitterCheckFails = true;
+					break;
+				case "heavy_only":
+					if (teamHeavyHitterCounter != 3) {
+						teamCompositionCheckFails = true
+					}
+					break;
 			}
 		}
 
-		if (teamFastHitterCheckFails !== null && teamFastHitterCheckFails) {
+		if (teamCompositionCheckFails !== null && teamCompositionCheckFails) {
 			return true;
-		}
+		}*/
 
 
 		combinedVulnerabilites = [...new Set(slot1VulnerableTo.concat(slot2VulnerableTo).concat(slot3VulnerableTo))];
@@ -291,6 +321,18 @@ function assembleTeams(){
 		)];
 
 		averageCombinedResistances += (new Set(combinedResistances).size)
+
+		if (!pkmsFinalList.includes(slot1)) {
+			pkmsFinalList.push(slot1);
+		}
+
+		if (!pkmsFinalList.includes(slot2)) {
+			pkmsFinalList.push(slot2);
+		}
+
+		if (!pkmsFinalList.includes(slot3)) {
+			pkmsFinalList.push(slot3);
+		}
 
 		totalData.push([ v, new Set(combinedResistances).size, new Set(combinedVulnerabilites).size]);
 	});
@@ -309,11 +351,13 @@ function assembleTeams(){
 		})(2));
 	}
 
+	let leftOutEpt = originalList.filter(x => pkmsFinalList.includes(x) == false);
+
 	$("#pkmTotalSize").html(totalPkms);
-	$("#finalSize").html(filteredPkms);
+	$("#finalSize").html(pkmsFinalList.length);
 	$("#finalList").html(pkmsFinalList.sort().join(", "));
-	$("#leftOutSize").html(toRemoveList.length + leftOutEpt.length);
-	$("#leftOutList").html(toRemoveList.concat(leftOutEpt).sort().join(", "));
+	$("#leftOutSize").html(leftOutEpt.length);
+	$("#leftOutList").html(leftOutEpt.sort().join(", "));
 	$("#teamsCombination").html(totalData.length);
 };
 
