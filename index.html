@@ -594,8 +594,13 @@
                             <thead><tr><th></th><th style="width: 10%;"></th></tr></thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="2">
+                                    <td colspan="2" style="font-size: small;">
                                         <textarea class="pkm-list" style="height: 252px; width:100%;"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;font-weight: bold;color: white;background-color: black;">
+                                        Pokemon Filtering Options
                                     </td>
                                 </tr>
                                 <tr>
@@ -620,14 +625,6 @@
                                     </td>
                                     <td class="rightColumn">
                                         <input type="checkbox" id="hide_irrelevant"/>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="leftColumn">
-                                        Hide Cross-team vulnerability
-                                    </td>
-                                    <td class="rightColumn">
-                                        <input type="checkbox" id="hide_ctv"/>
                                     </td>
                                 </tr>
                                 <tr id="filterByType">
@@ -655,7 +652,7 @@
                                     <td>
                                         <select id="filter_opt" name="filter_opt" class="custom-select">
                                             <option value="filterOut">Filter Out</option>
-                                            <option value="filterIn">Filter In</option>
+                                            <option value="filterIn">Filter Only</option>
                                         </select>
                                     </td>
                                 </tr>
@@ -679,7 +676,22 @@
                                         </select><br/>
                                     </td>
                                 </tr>
+                                
                                 <tr>
+                                    <td>
+                                        Pokemon profile
+                                    </td>
+                                    <td>
+                                        <select id="team_composition" class="custom-select" style="width: 5em;">
+                                            <option value="-">-</option>
+                                            <option value="fast_only">Fast hitter only</option>
+                                            <!-- <option value="fast_focused">2 Fast and 1 Heavy</option>
+                                            <option value="heavy_focused">1 Fast and 2 Heavy</option> -->
+                                            <option value="heavy_only">Heavy hitter only</option>
+                                        </select> 
+                                    </td>
+                                </tr>
+                                <!-- <tr>
                                     <td>
                                         Quick Moves with EPT
                                         <select id="ept_comparison" class="custom-select" style="width: 8em;">
@@ -695,18 +707,18 @@
                                             <option value="4">4</option>
                                         </select> 
                                     </td>
+                                </tr> -->
+                                <tr>
+                                    <td colspan="2" style="text-align: center;font-weight: bold;color: white;background-color: black;">
+                                        Team Filtering Options
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>
-                                        Team must have at least N fast hitters
+                                    <td class="leftColumn">
+                                        Hide cross-team vulnerability
                                     </td>
-                                    <td>
-                                        <select id="fast_hitter_qtt" class="custom-select" style="width: 5em;">
-                                            <option value="-">-</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                        </select> 
+                                    <td class="rightColumn">
+                                        <input type="checkbox" id="hide_ctv"/>
                                     </td>
                                 </tr>
                                 <tr>
