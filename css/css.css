@@ -93,7 +93,9 @@ p {
 }
 
 .typeButton {
-  width: 15%;
+  width: 10%;
+  font-size: 0.7em;
+  margin-bottom: 0.25em;
 }
 
 #teamassemblerfilter-table{
@@ -149,4 +151,12 @@ p {
 
 .card {
   padding: 1em;
+}
+
+
+.hideType {
+
+  margin-bottom: 0.25em;
+  width: 10%;
+  font-size: 0.7em;
 }

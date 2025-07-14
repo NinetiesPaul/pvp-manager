@@ -51032,7 +51032,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Kleavor": {
@@ -51072,7 +51072,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Ursaluna": {
@@ -51118,7 +51118,7 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Sneasler": {
@@ -51162,7 +51162,7 @@ var pokeDB = {
         }
     },
     "is_shadow": true,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Overqwil": {
@@ -51204,7 +51204,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Enamorus Incarnate": {
@@ -51250,7 +51250,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Enamorus Therian": {
@@ -51296,7 +51296,7 @@ var pokeDB = {
         }
     },
     "is_shadow": false,
-    "region": "Paldea",
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Sprigatito": {

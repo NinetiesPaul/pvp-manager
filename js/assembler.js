@@ -6,6 +6,57 @@ function applyFilter(pkms, toRemove) {
 	return pkms;
 }
 
+function checkIfHeavyHitter(slot) {
+	let slotHeavyHitter = 0;
+	let unusableSlot = false;
+
+	eligibleFastMoves = pokeDB[slot].moveset.quick.filter((move) => {
+		cleanName = move.replaceAll('*', '');
+		let damageMultiplier = (pokeDB[slot].type.includes(quickMoveDB[cleanName].type)) ? 1.2 : 1;
+		return parseFloat(quickMoveDB[cleanName].ept) >= 3 && (quickMoveDB[cleanName].dpt * damageMultiplier).toFixed(2) >= 4.00;
+	})
+
+	if (eligibleFastMoves.length > 0) {
+		filter = pokeDB[slot].moveset.charge.filter((move) => {
+			cleanChargeName = move.replaceAll('*', '');
+			return chargeMoveDB[cleanChargeName].energy > -50;
+		})
+
+		if (filter.length > 1 && !unusableSlot) {
+			slotHeavyHitter += 1;
+		}
+	} else {
+		unusableSlot = true;
+	}
+
+	return (!unusableSlot) ? slotHeavyHitter : unusableSlot;
+}
+
+function checkIfFastHitter(slot) {
+	let slotFastHitter = 0
+	let unusableSlot = false;
+
+	eligibleFastMoves = pokeDB[slot].moveset.quick.filter((move) => {
+		cleanName = move.replaceAll('*', '');
+		return parseFloat(quickMoveDB[cleanName].ept) >= 4.00;
+	})
+
+	if (eligibleFastMoves.length > 0) {
+		filter = pokeDB[slot].moveset.charge.filter((move) => {
+			cleanChargeName = move.replaceAll('*', '');
+			return chargeMoveDB[cleanChargeName].energy >= -50;
+		})
+
+		if (filter.length > 1 && !unusableSlot) {
+			slotFastHitter += 1;
+		}
+	} else {
+		unusableSlot = true;
+	}
+
+	return (!unusableSlot) ? slotFastHitter : unusableSlot;
+}
+
 function assembleTeams(){
 	$(".teamassembler-table tbody").html("");
 
@@ -89,8 +140,9 @@ function assembleTeams(){
 	}
 
 	if ($("#filterByRegion").val() !== "All") {
+		let searchRegions = ($("#filterByRegion").val() == "Hisui" || $("#filterByRegion").val() == "Sinnoh") ? [  "Hisui", "Sinnoh" ] : [ $("#filterByRegion").val() ];
 		$.each(pkms, function(id,pkm) {
-			if (pokeDB[pkm].region !== $("#filterByRegion").val()) {
+			if (!searchRegions.includes(pokeDB[pkm].region)) {
 				toRemove.push(pkm)
 			}
 		});

@@ -594,8 +594,13 @@
                             <thead><tr><th></th><th style="width: 10%;"></th></tr></thead>
                             <tbody>
                                 <tr>
-                                    <td colspan="2">
+                                    <td colspan="2" style="font-size: small;">
                                         <textarea class="pkm-list" style="height: 252px; width:100%;"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;font-weight: bold;color: white;background-color: black;">
+                                        Pokemon Filtering Options
                                     </td>
                                 </tr>
                                 <tr>
@@ -620,14 +625,6 @@
                                     </td>
                                     <td class="rightColumn">
                                         <input type="checkbox" id="hide_irrelevant"/>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="leftColumn">
-                                        Hide Cross-team vulnerability
-                                    </td>
-                                    <td class="rightColumn">
-                                        <input type="checkbox" id="hide_ctv"/>
                                     </td>
                                 </tr>
                                 <tr id="filterByType">
@@ -655,7 +652,7 @@
                                     <td>
                                         <select id="filter_opt" name="filter_opt" class="custom-select">
                                             <option value="filterOut">Filter Out</option>
-                                            <option value="filterIn">Filter In</option>
+                                            <option value="filterIn">Filter Only</option>
                                         </select>
                                     </td>
                                 </tr>
@@ -694,6 +691,19 @@
                                             <option value="3.5">3.5</option>
                                             <option value="4">4</option>
                                         </select> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;font-weight: bold;color: white;background-color: black;">
+                                        Team Filtering Options
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="leftColumn">
+                                        Hide cross-team vulnerability
+                                    </td>
+                                    <td class="rightColumn">
+                                        <input type="checkbox" id="hide_ctv"/>
                                     </td>
                                 </tr>
                                 <tr>
