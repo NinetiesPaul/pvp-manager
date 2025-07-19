@@ -185,6 +185,28 @@ var chargeMoveDB = {
     "dpe": 1.75,
     "buffs": []
 },
+"Aqua Step": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": -40,
+    "power": 55,
+    "dpe": 1.38,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerAttackStatStageChange": 1
+        }
+    }
+},
 "Aqua Tail": {
     "type": "Water",
     "weakAgainst": [
@@ -638,6 +660,25 @@ var chargeMoveDB = {
         }
     }
 },
+"Clanging Scales": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
+    ],
+    "energy": -45,
+    "power": 120,
+    "dpe": 2.67,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -1
+        }
+    }
+},
 "Close Combat": {
     "type": "Fighting",
     "weakAgainst": [
@@ -747,7 +788,7 @@ var chargeMoveDB = {
     "power": 70,
     "dpe": 1.56,
     "buffs": {
-        "activationChance": 0.3,
+        "activationChance": 0.2,
         "effects": {
             "targetDefenseStatStageChange": -1
         }
@@ -761,9 +802,9 @@ var chargeMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
-    "energy": -1,
-    "power": 1,
-    "dpe": 1,
+    "energy": -50,
+    "power": 110,
+    "dpe": 2.2,
     "buffs": []
 },
 "Dark Pulse": {
@@ -882,8 +923,8 @@ var chargeMoveDB = {
         "Rock"
     ],
     "energy": -40,
-    "power": 75,
-    "dpe": 1.88,
+    "power": 80,
+    "dpe": 2,
     "buffs": []
 },
 "Double Iron Bash": {
@@ -900,8 +941,8 @@ var chargeMoveDB = {
         "Rock"
     ],
     "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
+    "power": 55,
+    "dpe": 1.57,
     "buffs": []
 },
 "Draco Meteor": {
@@ -968,9 +1009,9 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -1,
-    "power": 1,
-    "dpe": 1,
+    "energy": -45,
+    "power": 100,
+    "dpe": 2.22,
     "buffs": []
 },
 "Dragon Pulse": {
@@ -1061,6 +1102,20 @@ var chargeMoveDB = {
         "Poison",
         "Rock",
         "Steel"
+    ],
+    "energy": -45,
+    "power": 80,
+    "dpe": 1.78,
+    "buffs": []
+},
+"Dynamax Cannon": {
+    "type": "Dragon",
+    "weakAgainst": [
+        "Fairy",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Dragon"
     ],
     "energy": -45,
     "power": 80,
@@ -2666,11 +2721,11 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -50,
+    "energy": -45,
     "power": 70,
-    "dpe": 1.4,
+    "dpe": 1.56,
     "buffs": {
-        "activationChance": 0.66,
+        "activationChance": 1,
         "effects": {
             "attackerDefenseStatStageChange": 1
         }
@@ -3942,10 +3997,15 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -1,
-    "power": 1,
-    "dpe": 1,
-    "buffs": []
+    "energy": -40,
+    "power": 60,
+    "dpe": 1.5,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Thunder Punch": {
     "type": "Electric",
@@ -4332,7 +4392,12 @@ var chargeMoveDB = {
     "energy": -45,
     "power": 60,
     "dpe": 1.33,
-    "buffs": []
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetDefenseStatStageChange": -1
+        }
+    }
 },
 "Wrap Green": {
     "type": "Normal",

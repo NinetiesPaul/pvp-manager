@@ -12,7 +12,7 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
-    "ept": "2.50",
+    "ept": "4.00",
     "dpt": "3.00"
 },
 "Air Slash": {
@@ -42,6 +42,20 @@ var quickMoveDB = {
     ],
     "ept": "3.33",
     "dpt": "4.00"
+},
+"Behemoth Bash": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
+},
+"Behemoth Blade": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "ept": "0.00",
+    "dpt": "0.00"
 },
 "Bite": {
     "type": "Dark",
@@ -89,7 +103,7 @@ var quickMoveDB = {
         "Psychic"
     ],
     "ept": "3.00",
-    "dpt": "3.00"
+    "dpt": "4.00"
 },
 "Bullet Punch": {
     "type": "Steel",
@@ -105,7 +119,7 @@ var quickMoveDB = {
         "Rock"
     ],
     "ept": "3.50",
-    "dpt": "3.00"
+    "dpt": "4.00"
 },
 "Bullet Seed": {
     "type": "Grass",
@@ -259,7 +273,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
-    "ept": "3.00",
+    "ept": "3.50",
     "dpt": "3.50"
 },
 "Extrasensory": {
@@ -400,7 +414,7 @@ var quickMoveDB = {
         "Psychic"
     ],
     "ept": "4.00",
-    "dpt": "2.00"
+    "dpt": "3.00"
 },
 "Geomancy": {
     "type": "Fairy",
@@ -681,7 +695,7 @@ var quickMoveDB = {
         "Rock"
     ],
     "ept": "4.00",
-    "dpt": "1.50"
+    "dpt": "2.50"
 },
 "Moongeist Beam": {
     "type": "",

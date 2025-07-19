@@ -600,7 +600,8 @@ var pokeDB = {
         "quick": [
             "Bug Bite*",
             "Infestation",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Aerial Ace",
@@ -1048,7 +1049,8 @@ var pokeDB = {
         "quick": [
             "Acid",
             "Bite",
-            "Dragon Tail"
+            "Dragon Tail",
+            "Poison Sting"
         ],
         "charge": [
             "Acid Spray",
@@ -1136,6 +1138,7 @@ var pokeDB = {
         "charge": [
             "Brick Break",
             "Skull Bash",
+            "Surf",
             "Thunder Punch",
             "Thunder*",
             "Trailblaze",
@@ -1178,6 +1181,7 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Psychic",
+            "Surf",
             "Thunder Punch",
             "Trailblaze",
             "Wild Charge"
@@ -1478,7 +1482,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Earth Power",
@@ -1607,7 +1612,8 @@ var pokeDB = {
             "Double Kick",
             "Fury Cutter*",
             "Iron Tail",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Earth Power",
@@ -2654,6 +2660,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
+            "Metal Sound",
             "Scratch"
         ],
         "charge": [
@@ -3679,7 +3686,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Acid",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Acid Spray",
@@ -5826,7 +5834,8 @@ var pokeDB = {
             "Body Slam*",
             "Hyper Beam",
             "Power Whip",
-            "Stomp"
+            "Stomp",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -7590,6 +7599,7 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Brave Bird",
+            "Fly",
             "Futuresight"
         ]
     },
@@ -7676,7 +7686,8 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Brave Bird",
-            "Close Combat"
+            "Close Combat",
+            "Fly"
         ]
     },
     "defense_data": {
@@ -7766,6 +7777,7 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Brave Bird",
+            "Fly",
             "Payback"
         ]
     },
@@ -13363,6 +13375,7 @@ var pokeDB = {
         ],
         "charge": [
             "Aeroblast*",
+            "Fly",
             "Futuresight",
             "Hydro Pump",
             "Sky Attack"
@@ -15719,6 +15732,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
+            "Metal Sound",
             "Tackle"
         ],
         "charge": [
@@ -15765,7 +15779,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Iron Tail",
-            "Metal Claw"
+            "Metal Claw",
+            "Metal Sound"
         ],
         "charge": [
             "Body Slam",
@@ -15813,6 +15828,7 @@ var pokeDB = {
         "quick": [
             "Dragon Tail",
             "Iron Tail",
+            "Metal Sound",
             "Smack Down"
         ],
         "charge": [
@@ -18365,7 +18381,8 @@ var pokeDB = {
         "charge": [
             "Blizzard",
             "Hyper Beam",
-            "Surf"
+            "Surf",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -19030,6 +19047,7 @@ var pokeDB = {
         "charge": [
             "Aurora Beam",
             "Body Slam",
+            "Surf",
             "Water Pulse"
         ]
     },
@@ -19476,6 +19494,7 @@ var pokeDB = {
     "name": "Metang",
     "moveset": {
         "quick": [
+            "Fury Cutter",
             "Metal Claw",
             "Zen Headbutt"
         ],
@@ -19525,6 +19544,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bullet Punch",
+            "Fury Cutter",
             "Zen Headbutt"
         ],
         "charge": [
@@ -23398,7 +23418,8 @@ var pokeDB = {
         "quick": [
             "Counter",
             "Mud Shot",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Dynamic Punch",
@@ -25083,6 +25104,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
+            "Crush Grip*",
             "Focus Blast",
             "Giga Impact",
             "Thunder"
@@ -28347,7 +28369,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Poison Jab"
+            "Poison Jab",
+            "Poison Sting"
         ],
         "charge": [
             "Gyro Ball",
@@ -28551,6 +28574,53 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Unova",
+    "is_final_stage": true
+},
+"Hisuian Lilligant": {
+    "id": "0549",
+    "stats": {
+        "atk": 208,
+        "def": 159,
+        "sta": 172
+    },
+    "type": [
+        "Grass",
+        "Fighting"
+    ],
+    "imgurl": "10237",
+    "name": "Hisuian Lilligant",
+    "moveset": {
+        "quick": [
+            "Bullet Seed",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Close Combat",
+            "Petal Blizzard",
+            "Solar Beam",
+            "Upper Hand"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fairy": "160%",
+            "Fire": "160%",
+            "Flying": "256%",
+            "Ice": "160%",
+            "Poison": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Dark": "62.5%",
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Rock": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Basculin": {
@@ -29769,6 +29839,47 @@ var pokeDB = {
     "region": "Unova",
     "is_final_stage": false
 },
+"Hisuian Zorua": {
+    "id": "0570",
+    "stats": {
+        "atk": 162,
+        "def": 79,
+        "sta": 111
+    },
+    "type": [
+        "Normal",
+        "Ghost"
+    ],
+    "imgurl": "10238",
+    "name": "Hisuian Zorua",
+    "moveset": {
+        "quick": [
+            "Scratch",
+            "Snarl"
+        ],
+        "charge": [
+            "Dark Pulse",
+            "Foul Play",
+            "Night Shade",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Ghost": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Hisui",
+    "is_final_stage": false
+},
 "Zoroark": {
     "id": "0571",
     "stats": {
@@ -29807,6 +29918,47 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Unova",
+    "is_final_stage": true
+},
+"Hisuian Zoroark": {
+    "id": "0571",
+    "stats": {
+        "atk": 261,
+        "def": 128,
+        "sta": 146
+    },
+    "type": [
+        "Normal",
+        "Ghost"
+    ],
+    "imgurl": "10239",
+    "name": "Hisuian Zoroark",
+    "moveset": {
+        "quick": [
+            "Shadow Claw",
+            "Snarl"
+        ],
+        "charge": [
+            "Flamethrower",
+            "Foul Play",
+            "Shadow Ball",
+            "Sludge Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "62.5%",
+            "Ghost": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Hisui",
     "is_final_stage": true
 },
 "Minccino": {
@@ -38668,6 +38820,254 @@ var pokeDB = {
     "region": "Kalos",
     "is_final_stage": true
 },
+"Honedge": {
+    "id": "0679",
+    "stats": {
+        "atk": 135,
+        "def": 139,
+        "sta": 128
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "imgurl": "679",
+    "name": "Honedge",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Tackle"
+        ],
+        "charge": [
+            "Gyro Ball",
+            "Iron Head"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": false
+},
+"Doublade": {
+    "id": "0680",
+    "stats": {
+        "atk": 188,
+        "def": 206,
+        "sta": 153
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "imgurl": "680",
+    "name": "Doublade",
+    "moveset": {
+        "quick": [
+            "Psycho Cut",
+            "Tackle"
+        ],
+        "charge": [
+            "Gyro Ball",
+            "Iron Head"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": false
+},
+"Aegislash": {
+    "id": "0681",
+    "stats": {
+        "atk": 97,
+        "def": 272,
+        "sta": 155
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Aegislash",
+    "moveset": {
+        "quick": [
+            "Air Slash",
+            "Psycho Cut"
+        ],
+        "charge": [
+            "Flash Cannon",
+            "Gyro Ball",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
+},
+"Aegislash Blade": {
+    "id": "0681",
+    "stats": {
+        "atk": 272,
+        "def": 97,
+        "sta": 155
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Aegislash Blade",
+    "moveset": {
+        "quick": [
+            "Air Slash",
+            "Psycho Cut"
+        ],
+        "charge": [
+            "Flash Cannon",
+            "Gyro Ball",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
+},
+"Aegislash Shield": {
+    "id": "0681",
+    "stats": {
+        "atk": 97,
+        "def": 272,
+        "sta": 155
+    },
+    "type": [
+        "Steel",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Aegislash Shield",
+    "moveset": {
+        "quick": [
+            "Air Slash",
+            "Psycho Cut"
+        ],
+        "charge": [
+            "Flash Cannon",
+            "Gyro Ball",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Fighting": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "24.4%",
+            "Poison": "24.4%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kalos",
+    "is_final_stage": true
+},
 "Spritzee": {
     "id": "0682",
     "stats": {
@@ -45118,12 +45518,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
+            "Metal Sound",
             "Shadow Claw"
         ],
         "charge": [
             "Heavy Slam",
             "Power Whip",
-            "Shadow Ball"
+            "Shadow Ball",
+            "Wrap"
         ]
     },
     "defense_data": {
@@ -45254,6 +45656,7 @@ var pokeDB = {
         "charge": [
             "Boomburst",
             "Brick Break",
+            "Clanging Scales*",
             "Close Combat",
             "Dragon Claw",
             "Flamethrower"
@@ -45597,7 +46000,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
-            "Confusion"
+            "Confusion",
+            "Shadow Claw"
         ],
         "charge": [
             "Futuresight",
@@ -48925,6 +49329,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
+            "Metal Sound",
             "Shadow Claw"
         ],
         "charge": [
@@ -50459,9 +50864,9 @@ var pokeDB = {
             "Poison Jab"
         ],
         "charge": [
-            "Cross Poison",
             "Dragon Pulse",
-            "Flamethrower"
+            "Flamethrower",
+            "Sludge Bomb"
         ]
     },
     "defense_data": {
@@ -50504,10 +50909,10 @@ var pokeDB = {
             "Poison Jab"
         ],
         "charge": [
-            "Cross Poison",
             "Dragon Pulse",
             "Flamethrower",
-            "Hyper Beam"
+            "Hyper Beam",
+            "Sludge Bomb"
         ]
     },
     "defense_data": {
@@ -50730,6 +51135,7 @@ var pokeDB = {
         "charge": [
             "Hyper Beam",
             "Thunder",
+            "Thunder Cage*",
             "Zap Cannon"
         ]
     },
@@ -50761,10 +51167,12 @@ var pokeDB = {
     "name": "Regidrago",
     "moveset": {
         "quick": [
-            "Bite"
+            "Bite",
+            "Dragon Breath*"
         ],
         "charge": [
             "Breaking Swipe",
+            "Dragon Energy*",
             "Dragon Pulse",
             "Hyper Beam",
             "Outrage"
@@ -51051,6 +51459,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
+            "Fury Cutter",
             "Quick Attack"
         ],
         "charge": [
@@ -51534,6 +51943,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Hex",
             "Incinerate"
         ],
         "charge": [
@@ -51978,7 +52388,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Charge Beam",
-            "Spark"
+            "Spark",
+            "Thunder Shock"
         ],
         "charge": [
             "Discharge",
@@ -52016,7 +52427,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Charge Beam",
-            "Spark"
+            "Spark",
+            "Thunder Shock"
         ],
         "charge": [
             "Discharge",
@@ -52060,7 +52472,8 @@ var pokeDB = {
         "quick": [
             "Charge Beam",
             "Low Kick",
-            "Spark"
+            "Spark",
+            "Thunder Shock"
         ],
         "charge": [
             "Brick Break*",
@@ -54143,6 +54556,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Lick",
+            "Metal Sound",
             "Poison Jab"
         ],
         "charge": [
@@ -54189,6 +54603,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Lick",
+            "Metal Sound",
             "Poison Jab"
         ],
         "charge": [
@@ -55787,6 +56202,42 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
+"3018": {
+    "id": "0999",
+    "stats": {
+        "atk": 140,
+        "def": 76,
+        "sta": 128
+    },
+    "type": [
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "3018",
+    "moveset": {
+        "quick": [
+            "Astonish"
+        ],
+        "charge": [
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
 "Gholdengo": {
     "id": "1000",
     "stats": {
@@ -55808,6 +56259,7 @@ var pokeDB = {
         "charge": [
             "Dazzling Gleam",
             "Focus Blast",
+            "Power Gem",
             "Shadow Ball"
         ]
     },
