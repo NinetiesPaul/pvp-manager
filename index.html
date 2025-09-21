@@ -105,6 +105,27 @@
                     $("#moveTypeList").append("<option>" + Object.keys(colors)[key] + "</option>");
                 }
 
+                if (localStorage.getItem('slot1History')) {
+                    slot1History = JSON.parse(localStorage.getItem('slot1History'));
+                    for (var key in slot1History) {
+                        $("#pokemonList_slot1_history").append("<option>" + key + "</option>");
+                    }
+                }
+
+                if (localStorage.getItem('slot2History')) {
+                    slot2History = JSON.parse(localStorage.getItem('slot2History'));
+                    for (var key in slot2History) {
+                        $("#pokemonList_slot2_history").append("<option>" + key + "</option>");
+                    }
+                }
+
+                if (localStorage.getItem('slot3History')) {
+                    slot3History = JSON.parse(localStorage.getItem('slot3History'));
+                    for (var key in slot3History) {
+                        $("#pokemonList_slot3_history").append("<option>" + key + "</option>");
+                    }
+                }
+
                 // Team Builder tab
                 var pokemonSelectSlot1 = $('#pokemonList_slot1');
                 pokemonSelectSlot1.select2();
@@ -115,6 +136,7 @@
                     }
                     pkmSlot1 = slotToObject(this.value, 1);
                     slot1History[this.value] = pkmSlot1;
+                    localStorage.setItem('slot1History', JSON.stringify(slot1History));
                 });
 
                 var pokemonSelectSlot1Alt = $('#pokemonList_slot1_alternatives');
@@ -137,6 +159,7 @@
                     }
                     pkmSlot2 = slotToObject(this.value, 2)
                     slot2History[this.value] = pkmSlot2;
+                    localStorage.setItem('slot2History', JSON.stringify(slot2History));
                 });
 
                 var pokemonSelectSlot2Alt = $('#pokemonList_slot2_alternatives');
@@ -159,6 +182,7 @@
                     }
                     pkmSlot3 = slotToObject(this.value, 3)
                     slot3History[this.value] = pkmSlot3;
+                    localStorage.setItem('slot3History', JSON.stringify(slot3History));
                 });
 
                 var pokemonSelectSlot3Alt = $('#pokemonList_slot3_alternatives');
@@ -316,9 +340,14 @@
                         </p><br/>
 
                         <div class="card" id="cardSlot1" style="width: 33%; float: left;"> <!-- Slot 1 -->
-                            <select id="pokemonList_slot1" name="pokemonList_slot1">
-                                <option>-- Pick an option --</option>
-                            </select>
+                            <span class="groupButtons">
+                                <select id="pokemonList_slot1" name="pokemonList_slot1" style="width: 86%">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <button class="btn btn-sm btn-primary" id="store_pkms" data-slot="slot1" style="margin-left: 0.5em;" title="Paste from clipboard">
+                                    <span class='glyphicon glyphicon glyphicon-floppy-saved' ></span>
+                                </button>
+                            </span>
                             
                             <span class="groupButtons">
                                 <select id="pokemonList_slot1_alternatives" name="pokemonList_slot1_alternatives" class="custom-select" style="width: 49%">
@@ -406,9 +435,14 @@
                         </div>
 
                         <div class="card" id="cardSlot2" style="width: 33%; float: left; position: relative;"> <!-- Slot 2 -->
-                            <select id="pokemonList_slot2" name="pokemonList_slot2">
-                                <option>-- Pick an option --</option>
-                            </select>
+                            <span class="groupButtons">
+                                <select id="pokemonList_slot2" name="pokemonList_slot2" style="width: 86%">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <button class="btn btn-sm btn-primary" id="store_pkms" data-slot="slot2" style="margin-left: 0.5em;" title="Paste from clipboard">
+                                    <span class='glyphicon glyphicon glyphicon-floppy-saved' ></span>
+                                </button>
+                            </span>
 
                             <span class="groupButtons">
                                 <select id="pokemonList_slot2_alternatives" name="pokemonList_slot2_alternatives" class="custom-select" style="width: 49%">
@@ -497,9 +531,14 @@
                         </div>
 
                         <div class="card" id="cardSlot3" style="width: 33%;"> <!-- Slot 3-->
-                            <select id="pokemonList_slot3" name="pokemonList_slot3">
-                                <option>-- Pick an option --</option>
-                            </select>
+                            <span class="groupButtons">
+                                <select id="pokemonList_slot3" name="pokemonList_slot3" style="width: 86%">
+                                    <option>-- Pick an option --</option>
+                                </select>
+                                <button class="btn btn-sm btn-primary" id="store_pkms" data-slot="slot3" style="margin-left: 0.5em;" title="Paste from clipboard">
+                                    <span class='glyphicon glyphicon glyphicon-floppy-saved' ></span>
+                                </button>
+                            </span>
 
                             <span class="groupButtons">
                                 <select id="pokemonList_slot3_alternatives" name="pokemonList_slot3_alternatives" class="custom-select" style="width: 49%">
