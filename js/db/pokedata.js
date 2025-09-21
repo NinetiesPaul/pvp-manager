@@ -9184,7 +9184,7 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Johto",
-    "is_final_stage": false
+    "is_final_stage": true
 },
 "Natu": {
     "id": "0177",
@@ -37444,201 +37444,6 @@ var pokeDB = {
     "region": "Kalos",
     "is_final_stage": false
 },
-"Flabebe Blue": {
-    "id": "0669",
-    "stats": {
-        "atk": 108,
-        "def": 120,
-        "sta": 127
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Flabebe Blue",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Flabebe Orange": {
-    "id": "0669",
-    "stats": {
-        "atk": 108,
-        "def": 120,
-        "sta": 127
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Flabebe Orange",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Flabebe Red": {
-    "id": "0669",
-    "stats": {
-        "atk": 108,
-        "def": 120,
-        "sta": 127
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Flabebe Red",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Flabebe White": {
-    "id": "0669",
-    "stats": {
-        "atk": 108,
-        "def": 120,
-        "sta": 127
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Flabebe White",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Flabebe Yellow": {
-    "id": "0669",
-    "stats": {
-        "atk": 108,
-        "def": 120,
-        "sta": 127
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Flabebe Yellow",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
 "Floette": {
     "id": "0670",
     "stats": {
@@ -37678,201 +37483,6 @@ var pokeDB = {
     "region": "Kalos",
     "is_final_stage": false
 },
-"Floette Blue": {
-    "id": "0670",
-    "stats": {
-        "atk": 136,
-        "def": 151,
-        "sta": 144
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Floette Blue",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Floette Orange": {
-    "id": "0670",
-    "stats": {
-        "atk": 136,
-        "def": 151,
-        "sta": 144
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Floette Orange",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Floette Red": {
-    "id": "0670",
-    "stats": {
-        "atk": 136,
-        "def": 151,
-        "sta": 144
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Floette Red",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Floette White": {
-    "id": "0670",
-    "stats": {
-        "atk": 136,
-        "def": 151,
-        "sta": 144
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Floette White",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
-"Floette Yellow": {
-    "id": "0670",
-    "stats": {
-        "atk": 136,
-        "def": 151,
-        "sta": 144
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": null,
-    "name": "Floette Yellow",
-    "moveset": {
-        "quick": [
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Dazzling Gleam",
-            "Petal Blizzard",
-            "Psychic"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": false
-},
 "Florges": {
     "id": "0671",
     "stats": {
@@ -37885,221 +37495,6 @@ var pokeDB = {
     ],
     "imgurl": "671",
     "name": "Florges",
-    "moveset": {
-        "quick": [
-            "Fairy Wind",
-            "Razor Leaf",
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Disarming Voice",
-            "Moonblast",
-            "Petal Blizzard",
-            "Psychic",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": true
-},
-"Blue Florges": {
-    "id": "0671",
-    "stats": {
-        "atk": 212,
-        "def": 244,
-        "sta": 186
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": "671-florges",
-    "name": "Blue Florges",
-    "moveset": {
-        "quick": [
-            "Fairy Wind",
-            "Razor Leaf",
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Disarming Voice",
-            "Moonblast",
-            "Petal Blizzard",
-            "Psychic",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": true
-},
-"Orange Florges": {
-    "id": "0671",
-    "stats": {
-        "atk": 212,
-        "def": 244,
-        "sta": 186
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": "671-florges",
-    "name": "Orange Florges",
-    "moveset": {
-        "quick": [
-            "Fairy Wind",
-            "Razor Leaf",
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Disarming Voice",
-            "Moonblast",
-            "Petal Blizzard",
-            "Psychic",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": true
-},
-"Red Florges": {
-    "id": "0671",
-    "stats": {
-        "atk": 212,
-        "def": 244,
-        "sta": 186
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": "671-florges",
-    "name": "Red Florges",
-    "moveset": {
-        "quick": [
-            "Fairy Wind",
-            "Razor Leaf",
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Disarming Voice",
-            "Moonblast",
-            "Petal Blizzard",
-            "Psychic",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": true
-},
-"White Florges": {
-    "id": "0671",
-    "stats": {
-        "atk": 212,
-        "def": 244,
-        "sta": 186
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": "671-florges",
-    "name": "White Florges",
-    "moveset": {
-        "quick": [
-            "Fairy Wind",
-            "Razor Leaf",
-            "Tackle",
-            "Vine Whip"
-        ],
-        "charge": [
-            "Disarming Voice",
-            "Moonblast",
-            "Petal Blizzard",
-            "Psychic",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Poison": "160%",
-            "Steel": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Dark": "62.5%",
-            "Dragon": "39.1%",
-            "Fighting": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Kalos",
-    "is_final_stage": true
-},
-"Yellow Florges": {
-    "id": "0671",
-    "stats": {
-        "atk": 212,
-        "def": 244,
-        "sta": 186
-    },
-    "type": [
-        "Fairy"
-    ],
-    "imgurl": "671-florges",
-    "name": "Yellow Florges",
     "moveset": {
         "quick": [
             "Fairy Wind",
@@ -49921,43 +49316,6 @@ var pokeDB = {
     "region": "Galar",
     "is_final_stage": true
 },
-"Indeedee": {
-    "id": "0876",
-    "stats": {
-        "atk": 208,
-        "def": 166,
-        "sta": 155
-    },
-    "type": [
-        "Psychic",
-        "Normal"
-    ],
-    "imgurl": null,
-    "name": "Indeedee",
-    "moveset": {
-        "quick": [
-            "Extrasensory"
-        ],
-        "charge": [
-            "Psybeam",
-            "Psychic",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Bug": "160%",
-            "Dark": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "62.5%",
-            "Psychic": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Galar",
-    "is_final_stage": true
-},
 "Indeedee Female": {
     "id": "0876",
     "stats": {
@@ -49969,7 +49327,7 @@ var pokeDB = {
         "Psychic",
         "Normal"
     ],
-    "imgurl": null,
+    "imgurl": "10186",
     "name": "Indeedee Female",
     "moveset": {
         "quick": [
@@ -50006,7 +49364,7 @@ var pokeDB = {
         "Psychic",
         "Normal"
     ],
-    "imgurl": null,
+    "imgurl": "876",
     "name": "Indeedee Male",
     "moveset": {
         "quick": [
@@ -52538,42 +51896,6 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
-"Maushold": {
-    "id": "0925",
-    "stats": {
-        "atk": 159,
-        "def": 157,
-        "sta": 179
-    },
-    "type": [
-        "Normal"
-    ],
-    "imgurl": null,
-    "name": "Maushold",
-    "moveset": {
-        "quick": [
-            "Bullet Seed",
-            "Mud Shot",
-            "Take Down"
-        ],
-        "charge": [
-            "Crunch",
-            "Play Rough",
-            "Swift"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%"
-        },
-        "resistant_to": {
-            "Ghost": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
 "Maushold Family Of Four": {
     "id": "0925",
     "stats": {
@@ -52584,7 +51906,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": null,
+    "imgurl": "925",
     "name": "Maushold Family Of Four",
     "moveset": {
         "quick": [
@@ -52620,7 +51942,7 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": null,
+    "imgurl": "10257",
     "name": "Maushold Family Of Three",
     "moveset": {
         "quick": [
@@ -52864,47 +52186,6 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"Squawkabilly": {
-    "id": "0931",
-    "stats": {
-        "atk": 185,
-        "def": 105,
-        "sta": 193
-    },
-    "type": [
-        "Normal",
-        "Flying"
-    ],
-    "imgurl": null,
-    "name": "Squawkabilly",
-    "moveset": {
-        "quick": [
-            "Air Slash",
-            "Peck"
-        ],
-        "charge": [
-            "Aerial Ace",
-            "Brave Bird",
-            "Fly"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Ice": "160%",
-            "Rock": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Ghost": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
 "Squawkabilly Blue": {
     "id": "0931",
     "stats": {
@@ -52916,7 +52197,7 @@ var pokeDB = {
         "Normal",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10260",
     "name": "Squawkabilly Blue",
     "moveset": {
         "quick": [
@@ -52957,7 +52238,7 @@ var pokeDB = {
         "Normal",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "931",
     "name": "Squawkabilly Green",
     "moveset": {
         "quick": [
@@ -52998,7 +52279,7 @@ var pokeDB = {
         "Normal",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10262",
     "name": "Squawkabilly White",
     "moveset": {
         "quick": [
@@ -53039,7 +52320,7 @@ var pokeDB = {
         "Normal",
         "Flying"
     ],
-    "imgurl": null,
+    "imgurl": "10261",
     "name": "Squawkabilly Yellow",
     "moveset": {
         "quick": [
@@ -54414,48 +53695,6 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
-"Palafin": {
-    "id": "0964",
-    "stats": {
-        "atk": 143,
-        "def": 144,
-        "sta": 225
-    },
-    "type": [
-        "Water"
-    ],
-    "imgurl": null,
-    "name": "Palafin",
-    "moveset": {
-        "quick": [
-            "Charm",
-            "Counter",
-            "Waterfall"
-        ],
-        "charge": [
-            "Acrobatics",
-            "Aqua Jet",
-            "Drain Punch",
-            "Icy Wind",
-            "Water Pulse"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Electric": "160%",
-            "Grass": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Ice": "62.5%",
-            "Steel": "62.5%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
 "Palafin Hero": {
     "id": "0964",
     "stats": {
@@ -54466,7 +53705,7 @@ var pokeDB = {
     "type": [
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "10256",
     "name": "Palafin Hero",
     "moveset": {
         "quick": [
@@ -54508,7 +53747,7 @@ var pokeDB = {
     "type": [
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "964",
     "name": "Palafin Zero",
     "moveset": {
         "quick": [
@@ -55099,46 +54338,6 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"Tatsugiri": {
-    "id": "0978",
-    "stats": {
-        "atk": 226,
-        "def": 166,
-        "sta": 169
-    },
-    "type": [
-        "Dragon",
-        "Water"
-    ],
-    "imgurl": null,
-    "name": "Tatsugiri",
-    "moveset": {
-        "quick": [
-            "Take Down",
-            "Water Gun"
-        ],
-        "charge": [
-            "Hydro Pump",
-            "Muddy Water",
-            "Outrage",
-            "Surf"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dragon": "160%",
-            "Fairy": "160%"
-        },
-        "resistant_to": {
-            "Fire": "39.1%",
-            "Steel": "62.5%",
-            "Water": "39.1%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
 "Tatsugiri Curly": {
     "id": "0978",
     "stats": {
@@ -55150,7 +54349,7 @@ var pokeDB = {
         "Dragon",
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "978",
     "name": "Tatsugiri Curly",
     "moveset": {
         "quick": [
@@ -55190,7 +54389,7 @@ var pokeDB = {
         "Dragon",
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "10258",
     "name": "Tatsugiri Droopy",
     "moveset": {
         "quick": [
@@ -55230,7 +54429,7 @@ var pokeDB = {
         "Dragon",
         "Water"
     ],
-    "imgurl": null,
+    "imgurl": "10259",
     "name": "Tatsugiri Stretchy",
     "moveset": {
         "quick": [
