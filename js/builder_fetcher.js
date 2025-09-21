@@ -73,7 +73,7 @@ function getPokemonData(pokemon, slot)
             bold = "style=\"font-weight: bold;\"";
         }
 
-        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + finalDpt;
+        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + finalDpt + "/T " + quickMoveDB[cleanName].turns;
         $('#quick_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
 
