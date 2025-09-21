@@ -12,6 +12,7 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "3.00"
 },
@@ -27,6 +28,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
+    "turns": 3,
     "ept": "3.00",
     "dpt": "3.00"
 },
@@ -40,6 +42,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "4.00"
 },
@@ -47,6 +50,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -54,6 +58,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -68,6 +73,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 1,
     "ept": "2.00",
     "dpt": "4.00"
 },
@@ -83,6 +89,7 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
+    "turns": 3,
     "ept": "3.67",
     "dpt": "2.67"
 },
@@ -102,6 +109,7 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
+    "turns": 1,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -118,6 +126,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "4.00"
 },
@@ -137,6 +146,7 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
+    "turns": 3,
     "ept": "4.33",
     "dpt": "1.67"
 },
@@ -152,6 +162,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
+    "turns": 3,
     "ept": "3.67",
     "dpt": "1.67"
 },
@@ -167,6 +178,7 @@ var quickMoveDB = {
         "Dragon",
         "Fighting"
     ],
+    "turns": 3,
     "ept": "2.00",
     "dpt": "5.00"
 },
@@ -181,6 +193,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
+    "turns": 4,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -201,6 +214,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -212,6 +226,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "2.00",
     "dpt": "3.00"
 },
@@ -232,6 +247,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 3,
     "ept": "4.00",
     "dpt": "2.67"
 },
@@ -244,6 +260,7 @@ var quickMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
+    "turns": 1,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -256,6 +273,7 @@ var quickMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
+    "turns": 3,
     "ept": "3.00",
     "dpt": "4.33"
 },
@@ -273,6 +291,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "3.50"
 },
@@ -287,6 +306,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "2.67"
 },
@@ -302,6 +322,7 @@ var quickMoveDB = {
         "Dragon",
         "Fighting"
     ],
+    "turns": 2,
     "ept": "4.50",
     "dpt": "2.00"
 },
@@ -316,6 +337,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "3.00"
 },
@@ -333,6 +355,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -350,6 +373,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "3.67"
 },
@@ -370,6 +394,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "4.33"
 },
@@ -377,6 +402,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -394,6 +420,7 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
+    "turns": 2,
     "ept": "2.50",
     "dpt": "3.50"
 },
@@ -413,6 +440,7 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
+    "turns": 1,
     "ept": "4.00",
     "dpt": "3.00"
 },
@@ -428,6 +456,7 @@ var quickMoveDB = {
         "Dragon",
         "Fighting"
     ],
+    "turns": 3,
     "ept": "4.33",
     "dpt": "1.33"
 },
@@ -443,6 +472,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
+    "turns": 4,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -456,6 +486,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 3,
     "ept": "4.33",
     "dpt": "2.33"
 },
@@ -467,6 +498,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 3,
     "ept": "2.67",
     "dpt": "3.00"
 },
@@ -474,6 +506,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -491,6 +524,7 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -508,6 +542,7 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "3.00"
 },
@@ -525,6 +560,7 @@ var quickMoveDB = {
         "Ice",
         "Steel"
     ],
+    "turns": 5,
     "ept": "4.00",
     "dpt": "4.00"
 },
@@ -544,6 +580,7 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
+    "turns": 3,
     "ept": "4.00",
     "dpt": "2.00"
 },
@@ -560,6 +597,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
+    "turns": 3,
     "ept": "2.33",
     "dpt": "3.33"
 },
@@ -580,6 +618,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 2,
     "ept": "4.50",
     "dpt": "2.50"
 },
@@ -599,6 +638,7 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "3.00"
 },
@@ -612,6 +652,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 1,
     "ept": "3.00",
     "dpt": "3.00"
 },
@@ -623,6 +664,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "5.00",
     "dpt": "1.00"
 },
@@ -643,6 +685,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 2,
     "ept": "2.50",
     "dpt": "2.00"
 },
@@ -662,6 +705,7 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "3.33"
 },
@@ -678,6 +722,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "2.50"
 },
@@ -694,6 +739,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "2.50"
 },
@@ -701,6 +747,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -718,6 +765,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "2.00"
 },
@@ -735,6 +783,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 3,
     "ept": "3.33",
     "dpt": "4.00"
 },
@@ -750,6 +799,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
+    "turns": 2,
     "ept": "2.50",
     "dpt": "3.00"
 },
@@ -766,6 +816,7 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "3.50"
 },
@@ -782,6 +833,7 @@ var quickMoveDB = {
         "Fairy",
         "Grass"
     ],
+    "turns": 2,
     "ept": "4.50",
     "dpt": "2.00"
 },
@@ -793,6 +845,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 2,
     "ept": "2.00",
     "dpt": "2.00"
 },
@@ -810,6 +863,7 @@ var quickMoveDB = {
         "Grass",
         "Ground"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "2.50"
 },
@@ -821,6 +875,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 3,
     "ept": "4.00",
     "dpt": "1.00"
 },
@@ -835,6 +890,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
+    "turns": 2,
     "ept": "4.50",
     "dpt": "1.50"
 },
@@ -849,6 +905,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
+    "turns": 1,
     "ept": "4.00",
     "dpt": "3.00"
 },
@@ -860,6 +917,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "2.50"
 },
@@ -879,6 +937,7 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
+    "turns": 2,
     "ept": "2.00",
     "dpt": "4.50"
 },
@@ -886,6 +945,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -906,6 +966,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 3,
     "ept": "2.33",
     "dpt": "3.00"
 },
@@ -922,6 +983,7 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
+    "turns": 2,
     "ept": "2.50",
     "dpt": "4.00"
 },
@@ -938,6 +1000,7 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
+    "turns": 3,
     "ept": "4.33",
     "dpt": "2.33"
 },
@@ -955,6 +1018,7 @@ var quickMoveDB = {
         "Rock",
         "Steel"
     ],
+    "turns": 1,
     "ept": "4.00",
     "dpt": "2.00"
 },
@@ -966,6 +1030,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "2.00",
     "dpt": "4.00"
 },
@@ -979,6 +1044,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "3.00"
 },
@@ -995,6 +1061,7 @@ var quickMoveDB = {
         "Flying",
         "Ice"
     ],
+    "turns": 3,
     "ept": "2.67",
     "dpt": "3.67"
 },
@@ -1009,6 +1076,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 3,
     "ept": "4.33",
     "dpt": "1.67"
 },
@@ -1016,6 +1084,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -1031,6 +1100,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "2.50"
 },
@@ -1046,6 +1116,7 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
+    "turns": 4,
     "ept": "3.00",
     "dpt": "0.00"
 },
@@ -1062,6 +1133,7 @@ var quickMoveDB = {
         "Ice",
         "Rock"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "3.50"
 },
@@ -1081,6 +1153,7 @@ var quickMoveDB = {
         "Grass",
         "Psychic"
     ],
+    "turns": 3,
     "ept": "2.67",
     "dpt": "3.00"
 },
@@ -1095,6 +1168,7 @@ var quickMoveDB = {
         "Ghost",
         "Psychic"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "4.00"
 },
@@ -1102,6 +1176,7 @@ var quickMoveDB = {
     "type": "",
     "weakAgainst": [],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "0.00",
     "dpt": "0.00"
 },
@@ -1113,6 +1188,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 1,
     "ept": "3.00",
     "dpt": "3.00"
 },
@@ -1124,6 +1200,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 3,
     "ept": "2.67",
     "dpt": "1.67"
 },
@@ -1139,6 +1216,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
+    "turns": 2,
     "ept": "3.00",
     "dpt": "4.00"
 },
@@ -1154,6 +1232,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
+    "turns": 2,
     "ept": "4.50",
     "dpt": "2.00"
 },
@@ -1173,6 +1252,7 @@ var quickMoveDB = {
         "Rock",
         "Water"
     ],
+    "turns": 2,
     "ept": "4.00",
     "dpt": "2.50"
 },
@@ -1188,6 +1268,7 @@ var quickMoveDB = {
         "Flying",
         "Water"
     ],
+    "turns": 4,
     "ept": "4.00",
     "dpt": "3.00"
 },
@@ -1203,6 +1284,7 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
+    "turns": 2,
     "ept": "2.00",
     "dpt": "3.00"
 },
@@ -1218,6 +1300,7 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
+    "turns": 3,
     "ept": "4.67",
     "dpt": "2.00"
 },
@@ -1233,6 +1316,7 @@ var quickMoveDB = {
         "Ground",
         "Rock"
     ],
+    "turns": 3,
     "ept": "2.67",
     "dpt": "4.00"
 },
@@ -1248,6 +1332,7 @@ var quickMoveDB = {
         "Fighting",
         "Grass"
     ],
+    "turns": 2,
     "ept": "3.50",
     "dpt": "2.50"
 },
@@ -1259,6 +1344,7 @@ var quickMoveDB = {
         "Steel"
     ],
     "goodAgainst": [],
+    "turns": 4,
     "ept": "3.00",
     "dpt": "0.00"
 },
@@ -1273,6 +1359,7 @@ var quickMoveDB = {
         "Fighting",
         "Poison"
     ],
+    "turns": 3,
     "ept": "2.00",
     "dpt": "2.67"
 },
