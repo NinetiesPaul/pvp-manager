@@ -179,8 +179,8 @@ var quickMoveDB = {
         "Fighting"
     ],
     "turns": 3,
-    "ept": "2.00",
-    "dpt": "5.00"
+    "ept": "2.67",
+    "dpt": "4.33"
 },
 "Confusion": {
     "type": "Psychic",
@@ -194,7 +194,7 @@ var quickMoveDB = {
         "Poison"
     ],
     "turns": 4,
-    "ept": "3.00",
+    "ept": "3.50",
     "dpt": "4.00"
 },
 "Counter": {
@@ -261,8 +261,8 @@ var quickMoveDB = {
         "Dragon"
     ],
     "turns": 1,
-    "ept": "3.00",
-    "dpt": "4.00"
+    "ept": "4.00",
+    "dpt": "3.00"
 },
 "Dragon Tail": {
     "type": "Dragon",
@@ -274,8 +274,16 @@ var quickMoveDB = {
         "Dragon"
     ],
     "turns": 3,
-    "ept": "3.00",
-    "dpt": "4.33"
+    "ept": "4.00",
+    "dpt": "3.00"
+},
+"Dynamax Cannon": {
+    "type": "",
+    "weakAgainst": [],
+    "goodAgainst": [],
+    "turns": 1,
+    "ept": "0.00",
+    "dpt": "0.00"
 },
 "Ember": {
     "type": "Fire",
@@ -292,8 +300,8 @@ var quickMoveDB = {
         "Steel"
     ],
     "turns": 2,
-    "ept": "3.50",
-    "dpt": "3.50"
+    "ept": "4.50",
+    "dpt": "2.00"
 },
 "Extrasensory": {
     "type": "Psychic",
@@ -639,7 +647,7 @@ var quickMoveDB = {
         "Water"
     ],
     "turns": 2,
-    "ept": "3.50",
+    "ept": "4.00",
     "dpt": "3.00"
 },
 "Lick": {
@@ -800,7 +808,7 @@ var quickMoveDB = {
         "Grass"
     ],
     "turns": 2,
-    "ept": "2.50",
+    "ept": "4.00",
     "dpt": "3.00"
 },
 "Poison Jab": {
@@ -1063,7 +1071,7 @@ var quickMoveDB = {
     ],
     "turns": 3,
     "ept": "2.67",
-    "dpt": "3.67"
+    "dpt": "4.00"
 },
 "Snarl": {
     "type": "Dark",
@@ -1134,7 +1142,7 @@ var quickMoveDB = {
         "Rock"
     ],
     "turns": 2,
-    "ept": "3.00",
+    "ept": "2.50",
     "dpt": "3.50"
 },
 "Struggle Bug": {
@@ -1270,7 +1278,7 @@ var quickMoveDB = {
     ],
     "turns": 4,
     "ept": "4.00",
-    "dpt": "3.00"
+    "dpt": "3.50"
 },
 "Water Gun": {
     "type": "Water",

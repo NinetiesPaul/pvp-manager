@@ -51,9 +51,9 @@ var chargeMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "energy": -40,
-    "power": 55,
-    "dpe": 1.38,
+    "energy": -45,
+    "power": 60,
+    "dpe": 1.33,
     "buffs": []
 },
 "Aeroblast": {
@@ -241,9 +241,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -55,
-    "power": 100,
-    "dpe": 1.82,
+    "energy": -40,
+    "power": 80,
+    "dpe": 2,
     "buffs": []
 },
 "Aura Wheel Dark": {
@@ -451,8 +451,8 @@ var chargeMoveDB = {
     ],
     "goodAgainst": [],
     "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
+    "power": 55,
+    "dpe": 1.57,
     "buffs": []
 },
 "Bone Club": {
@@ -518,11 +518,11 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -35,
+    "energy": -50,
     "power": 50,
-    "dpe": 1.43,
+    "dpe": 1,
     "buffs": {
-        "activationChance": 0.5,
+        "activationChance": 1,
         "effects": {
             "targetAttackStatStageChange": -1
         }
@@ -657,6 +657,28 @@ var chargeMoveDB = {
         "activationChance": 0.5,
         "effects": {
             "targetDefenseStatStageChange": -1
+        }
+    }
+},
+"Chilling Water": {
+    "type": "Water",
+    "weakAgainst": [
+        "Dragon",
+        "Grass",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fire",
+        "Ground",
+        "Rock"
+    ],
+    "energy": -45,
+    "power": 60,
+    "dpe": 1.33,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
         }
     }
 },
@@ -995,9 +1017,9 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -35,
-    "power": 50,
-    "dpe": 1.43,
+    "energy": -50,
+    "power": 80,
+    "dpe": 1.6,
     "buffs": []
 },
 "Dragon Energy": {
@@ -1023,9 +1045,9 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -60,
+    "energy": -55,
     "power": 90,
-    "dpe": 1.5,
+    "dpe": 1.64,
     "buffs": []
 },
 "Drain Punch": {
@@ -1085,8 +1107,8 @@ var chargeMoveDB = {
         "Grass"
     ],
     "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Drill Run": {
@@ -1356,9 +1378,9 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": -55,
-    "power": 60,
-    "dpe": 1.09,
+    "energy": -45,
+    "power": 80,
+    "dpe": 1.78,
     "buffs": []
 },
 "Flamethrower": {
@@ -1721,9 +1743,9 @@ var chargeMoveDB = {
         "Ice",
         "Rock"
     ],
-    "energy": -60,
+    "energy": -50,
     "power": 80,
-    "dpe": 1.33,
+    "dpe": 1.6,
     "buffs": []
 },
 "Heart Stamp": {
@@ -3133,8 +3155,8 @@ var chargeMoveDB = {
         "Ice"
     ],
     "energy": -45,
-    "power": 65,
-    "dpe": 1.44,
+    "power": 75,
+    "dpe": 1.67,
     "buffs": []
 },
 "Rock Tomb": {
@@ -3377,10 +3399,35 @@ var chargeMoveDB = {
     "power": 80,
     "dpe": 1.6,
     "buffs": {
-        "activationChance": 0.3,
+        "activationChance": 0.1,
         "effects": {
             "targetAttackStatStageChange": -1
         }
+    }
+},
+"Secret Sword": {
+    "type": "Fighting",
+    "weakAgainst": [
+        "Bug",
+        "Fairy",
+        "Flying",
+        "Ghost",
+        "Poison",
+        "Psychic"
+    ],
+    "goodAgainst": [
+        "Dark",
+        "Ice",
+        "Normal",
+        "Rock",
+        "Steel"
+    ],
+    "energy": -35,
+    "power": 70,
+    "dpe": 2,
+    "buffs": {
+        "activationChance": false,
+        "effects": []
     }
 },
 "Seed Bomb": {
@@ -3399,9 +3446,9 @@ var chargeMoveDB = {
         "Rock",
         "Water"
     ],
-    "energy": -45,
-    "power": 65,
-    "dpe": 1.44,
+    "energy": -40,
+    "power": 55,
+    "dpe": 1.38,
     "buffs": []
 },
 "Seed Flare": {
@@ -3594,9 +3641,9 @@ var chargeMoveDB = {
         "Fighting",
         "Grass"
     ],
-    "energy": -55,
-    "power": 85,
-    "dpe": 1.55,
+    "energy": -50,
+    "power": 75,
+    "dpe": 1.5,
     "buffs": []
 },
 "Sludge": {
@@ -4246,9 +4293,9 @@ var chargeMoveDB = {
         "Ground",
         "Rock"
     ],
-    "energy": -55,
+    "energy": -50,
     "power": 80,
-    "dpe": 1.45,
+    "dpe": 1.6,
     "buffs": []
 },
 "Weather Ball Fire": {
@@ -4266,8 +4313,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
+    "power": 60,
+    "dpe": 1.71,
     "buffs": []
 },
 "Weather Ball Ice": {
@@ -4285,8 +4332,8 @@ var chargeMoveDB = {
         "Ground"
     ],
     "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
+    "power": 60,
+    "dpe": 1.71,
     "buffs": []
 },
 "Weather Ball Normal": {
@@ -4298,8 +4345,8 @@ var chargeMoveDB = {
     ],
     "goodAgainst": [],
     "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
+    "power": 60,
+    "dpe": 1.71,
     "buffs": []
 },
 "Weather Ball Rock": {
@@ -4316,8 +4363,8 @@ var chargeMoveDB = {
         "Ice"
     ],
     "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
+    "power": 60,
+    "dpe": 1.71,
     "buffs": []
 },
 "Weather Ball Water": {
@@ -4333,8 +4380,8 @@ var chargeMoveDB = {
         "Rock"
     ],
     "energy": -35,
-    "power": 55,
-    "dpe": 1.57,
+    "power": 60,
+    "dpe": 1.71,
     "buffs": []
 },
 "Wild Charge": {

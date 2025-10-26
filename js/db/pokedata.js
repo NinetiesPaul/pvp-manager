@@ -106,6 +106,7 @@ var pokeDB = {
         "charge": [
             "Frenzy Plant*",
             "Petal Blizzard",
+            "Sludge",
             "Sludge Bomb",
             "Solar Beam"
         ]
@@ -236,6 +237,7 @@ var pokeDB = {
             "Wing Attack*"
         ],
         "charge": [
+            "Air Cutter",
             "Blast Burn*",
             "Dragon Claw",
             "Fire Blast",
@@ -969,6 +971,7 @@ var pokeDB = {
         ],
         "charge": [
             "Aerial Ace",
+            "Drill Peck",
             "Drill Run",
             "Fly",
             "Sky Attack",
@@ -1181,6 +1184,7 @@ var pokeDB = {
         "charge": [
             "Grass Knot",
             "Psychic",
+            "Psyshock",
             "Surf",
             "Thunder Punch",
             "Trailblaze",
@@ -1482,6 +1486,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Mud Slap",
             "Poison Jab",
             "Poison Sting"
         ],
@@ -4264,6 +4269,7 @@ var pokeDB = {
             "Water Gun"
         ],
         "charge": [
+            "Drain Punch",
             "Ice Beam",
             "Psychic",
             "Scald",
@@ -4312,6 +4318,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brutal Swing",
+            "Drain Punch",
             "Focus Blast",
             "Psychic",
             "Scald",
@@ -4579,13 +4586,15 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Feint Attack",
+            "Peck",
             "Steel Wing"
         ],
         "charge": [
             "Aerial Ace",
             "Air Cutter*",
             "Brave Bird",
-            "Drill Peck"
+            "Drill Peck",
+            "Trailblaze"
         ]
     },
     "defense_data": {
@@ -5055,6 +5064,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dark Pulse*",
+            "Drain Punch",
             "Focus Blast",
             "Psychic*",
             "Shadow Ball",
@@ -6382,7 +6392,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kanto",
     "is_final_stage": false
 },
@@ -6433,7 +6443,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kanto",
     "is_final_stage": true
 },
@@ -7907,7 +7917,8 @@ var pokeDB = {
             "Hurricane",
             "Hyper Beam",
             "Outrage",
-            "Super Power"
+            "Super Power",
+            "Thunder Punch"
         ]
     },
     "defense_data": {
@@ -9245,12 +9256,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
-            "Feint Attack"
+            "Feint Attack",
+            "Peck"
         ],
         "charge": [
             "Aerial Ace",
             "Futuresight",
-            "Ominous Wind"
+            "Ominous Wind",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -10010,6 +10023,7 @@ var pokeDB = {
         "charge": [
             "Acid Spray",
             "Aqua Tail*",
+            "Drain Punch",
             "Earthquake",
             "Mud Bomb",
             "Sludge Bomb",
@@ -10224,6 +10238,7 @@ var pokeDB = {
         ],
         "charge": [
             "Futuresight",
+            "Psyshock",
             "Scald",
             "Shadow Ball",
             "Sludge Wave",
@@ -11500,7 +11515,7 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Johto",
-    "is_final_stage": true
+    "is_final_stage": false
 },
 "Gligar": {
     "id": "0207",
@@ -11717,7 +11732,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Johto",
     "is_final_stage": true
 },
@@ -11759,7 +11774,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hisui",
     "is_final_stage": false
 },
@@ -12637,7 +12652,8 @@ var pokeDB = {
             "Blizzard",
             "Hydro Pump",
             "Octazooka",
-            "Outrage"
+            "Outrage",
+            "Swift"
         ]
     },
     "defense_data": {
@@ -13105,6 +13121,7 @@ var pokeDB = {
             "Volt Switch"
         ],
         "charge": [
+            "Aura Sphere",
             "Shadow Ball",
             "Thunder",
             "Thunderbolt",
@@ -13468,6 +13485,7 @@ var pokeDB = {
             "Magical Leaf*"
         ],
         "charge": [
+            "Aura Sphere",
             "Dazzling Gleam",
             "Hyper Beam",
             "Leaf Storm",
@@ -15645,6 +15663,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
+            "Drain Punch",
             "Foul Play",
             "Power Gem",
             "Shadow Sneak"
@@ -16577,6 +16596,7 @@ var pokeDB = {
         ],
         "charge": [
             "Earthquake",
+            "Flame Wheel",
             "Overheat",
             "Solar Beam"
         ]
@@ -17521,6 +17541,7 @@ var pokeDB = {
             "Dragon Claw",
             "Earth Power*",
             "Earthquake",
+            "Sand Tomb",
             "Scorching Sands",
             "Stone Edge"
         ]
@@ -17675,7 +17696,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": false
 },
@@ -17700,6 +17721,7 @@ var pokeDB = {
         "charge": [
             "Dazzling Gleam",
             "Dragon Pulse",
+            "Flamethrower",
             "Moonblast*",
             "Sky Attack"
         ]
@@ -17720,7 +17742,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": true
 },
@@ -18106,7 +18128,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": false
 },
@@ -18157,7 +18179,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hoenn",
     "is_final_stage": true
 },
@@ -18813,7 +18835,6 @@ var pokeDB = {
         "charge": [
             "Energy Ball",
             "Psyshock",
-            "Psyshock",
             "Shadow Ball"
         ]
     },
@@ -19365,6 +19386,7 @@ var pokeDB = {
             "Ember"
         ],
         "charge": [
+            "Crunch",
             "Dragon Pulse",
             "Flamethrower",
             "Twister"
@@ -19407,6 +19429,8 @@ var pokeDB = {
             "Fire Fang"
         ],
         "charge": [
+            "Brutal Swing",
+            "Crunch",
             "Draco Meteor",
             "Fire Blast",
             "Fly",
@@ -19545,6 +19569,7 @@ var pokeDB = {
         "quick": [
             "Bullet Punch",
             "Fury Cutter",
+            "Shadow Claw*",
             "Zen Headbutt"
         ],
         "charge": [
@@ -19731,6 +19756,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
+            "Aura Sphere",
             "Mist Ball*",
             "Outrage",
             "Psychic",
@@ -19778,6 +19804,7 @@ var pokeDB = {
             "Zen Headbutt"
         ],
         "charge": [
+            "Aura Sphere",
             "Dragon Claw",
             "Luster Purge*",
             "Psychic",
@@ -19952,6 +19979,7 @@ var pokeDB = {
             "Confusion"
         ],
         "charge": [
+            "Aura Sphere",
             "Dazzling Gleam",
             "Doom Desire",
             "Psychic"
@@ -20233,6 +20261,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Mud Slap",
             "Razor Leaf"
         ],
         "charge": [
@@ -20485,6 +20514,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Metal Claw",
+            "Metal Sound",
             "Steel Wing",
             "Waterfall"
         ],
@@ -21658,6 +21688,7 @@ var pokeDB = {
             "Volt Switch"
         ],
         "charge": [
+            "Hyper Fang",
             "Thunder",
             "Thunder Punch",
             "Thunderbolt"
@@ -23035,6 +23066,7 @@ var pokeDB = {
             "Mud Shot"
         ],
         "charge": [
+            "Breaking Swipe",
             "Earth Power*",
             "Earthquake",
             "Fire Blast",
@@ -23422,6 +23454,7 @@ var pokeDB = {
             "Poison Sting"
         ],
         "charge": [
+            "Drain Punch",
             "Dynamic Punch",
             "Mud Bomb",
             "Shadow Ball",
@@ -24034,7 +24067,8 @@ var pokeDB = {
         "quick": [
             "Air Slash",
             "Charm",
-            "Hidden Power"
+            "Hidden Power",
+            "Peck"
         ],
         "charge": [
             "Aerial Ace",
@@ -25166,7 +25200,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Sinnoh",
     "is_final_stage": true
 },
@@ -25214,7 +25248,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Sinnoh",
     "is_final_stage": true
 },
@@ -25371,7 +25405,7 @@ var pokeDB = {
             "Psychic": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Sinnoh",
     "is_final_stage": true
 },
@@ -26242,6 +26276,7 @@ var pokeDB = {
             "Focus Blast",
             "Overheat",
             "Psychic",
+            "Psyshock",
             "V Create"
         ]
     },
@@ -28893,7 +28928,8 @@ var pokeDB = {
             "Brick Break",
             "Crunch",
             "Earthquake",
-            "Outrage"
+            "Outrage",
+            "Sand Tomb"
         ]
     },
     "defense_data": {
@@ -29272,6 +29308,7 @@ var pokeDB = {
         "charge": [
             "Rock Blast",
             "Rock Slide",
+            "Rock Wrecker",
             "X Scissor"
         ]
     },
@@ -30235,6 +30272,7 @@ var pokeDB = {
     "name": "Reuniclus",
     "moveset": {
         "quick": [
+            "Charm*",
             "Hidden Power",
             "Zen Headbutt"
         ],
@@ -32267,6 +32305,7 @@ var pokeDB = {
         ],
         "charge": [
             "Brick Break",
+            "Drain Punch",
             "Focus Blast",
             "High Jump Kick*",
             "Low Sweep"
@@ -32310,6 +32349,7 @@ var pokeDB = {
             "Blaze Kick",
             "Brick Break",
             "Brutal Swing",
+            "Drain Punch",
             "Grass Knot",
             "Stone Edge"
         ]
@@ -32350,7 +32390,8 @@ var pokeDB = {
         "charge": [
             "Dragon Claw",
             "Hyper Beam",
-            "Night Slash"
+            "Night Slash",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -32939,7 +32980,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": false
 },
@@ -32985,7 +33026,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": false
 },
@@ -33032,7 +33073,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -33305,7 +33346,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -33347,7 +33388,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -34438,7 +34479,8 @@ var pokeDB = {
             "Flame Charge",
             "Flamethrower",
             "Mystical Fire",
-            "Psychic"
+            "Psychic",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -34707,7 +34749,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34753,7 +34795,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34801,7 +34843,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -37503,6 +37545,7 @@ var pokeDB = {
             "Vine Whip"
         ],
         "charge": [
+            "488*",
             "Disarming Voice",
             "Moonblast",
             "Petal Blizzard",
@@ -38522,6 +38565,7 @@ var pokeDB = {
             "Draining Kiss",
             "Moonblast",
             "Psychic",
+            "Psyshock",
             "Thunderbolt"
         ]
     },
@@ -39062,6 +39106,7 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Dragon Claw",
+            "Rock Tomb",
             "Stomp"
         ]
     },
@@ -39110,6 +39155,7 @@ var pokeDB = {
             "Earthquake",
             "Meteor Beam",
             "Outrage",
+            "Rock Tomb",
             "Stone Edge"
         ]
     },
@@ -39612,7 +39658,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -39657,7 +39703,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -41139,8 +41185,10 @@ var pokeDB = {
         "charge": [
             "Blast Burn*",
             "Blaze Kick",
+            "Brutal Swing",
             "Dark Pulse",
             "Darkest Lariat",
+            "Drain Punch",
             "Fire Blast",
             "Flame Charge"
         ]
@@ -41328,7 +41376,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -41369,7 +41417,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -41411,7 +41459,7 @@ var pokeDB = {
             "Ground": "39.1%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": true
 },
@@ -41520,7 +41568,7 @@ var pokeDB = {
             "Ground": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -41561,7 +41609,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -41604,7 +41652,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": true
 },
@@ -43179,6 +43227,7 @@ var pokeDB = {
             "Brick Break",
             "Brutal Swing",
             "Close Combat",
+            "Drain Punch",
             "Super Power"
         ]
     },
@@ -44613,6 +44662,8 @@ var pokeDB = {
             "Incinerate"
         ],
         "charge": [
+            "Brutal Swing",
+            "Dragon Claw",
             "Dragon Pulse",
             "Flamethrower",
             "Flash Cannon",
@@ -45005,7 +45056,8 @@ var pokeDB = {
         "charge": [
             "Brick Break",
             "Dragon Claw",
-            "Dragon Pulse"
+            "Dragon Pulse",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -45046,6 +45098,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Dragon Tail",
+            "Metal Sound",
             "Poison Jab"
         ],
         "charge": [
@@ -45054,7 +45107,8 @@ var pokeDB = {
             "Clanging Scales*",
             "Close Combat",
             "Dragon Claw",
-            "Flamethrower"
+            "Flamethrower",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -46891,6 +46945,7 @@ var pokeDB = {
             "Steel Wing"
         ],
         "charge": [
+            "Air Cutter*",
             "Iron Head*",
             "Payback",
             "Sky Attack"
@@ -50222,6 +50277,7 @@ var pokeDB = {
             "Poison Jab"
         ],
         "charge": [
+            "482*",
             "Dragon Pulse",
             "Flamethrower",
             "Sludge Bomb"
@@ -50267,7 +50323,7 @@ var pokeDB = {
             "Poison Jab"
         ],
         "charge": [
-            "Dragon Pulse",
+            "482*",
             "Flamethrower",
             "Hyper Beam",
             "Sludge Bomb"
@@ -50970,7 +51026,7 @@ var pokeDB = {
             "Psychic": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Hisui",
     "is_final_stage": true
 },
@@ -51434,9 +51490,11 @@ var pokeDB = {
             "Wing Attack"
         ],
         "charge": [
+            "487",
             "Aerial Ace",
             "Aqua Jet",
             "Close Combat",
+            "Hydro Cannon*",
             "Liquidation"
         ]
     },
@@ -55933,6 +55991,905 @@ var pokeDB = {
             "Grass": "62.5%",
             "Steel": "62.5%",
             "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1009": {
+    "id": "1009",
+    "stats": {
+        "atk": 233,
+        "def": 171,
+        "sta": 203
+    },
+    "type": [
+        "Water",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1009",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%"
+        },
+        "resistant_to": {
+            "Fire": "39.1%",
+            "Steel": "62.5%",
+            "Water": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1010": {
+    "id": "1010",
+    "stats": {
+        "atk": 236,
+        "def": 194,
+        "sta": 189
+    },
+    "type": [
+        "Grass",
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "1010",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "256%",
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Psychic": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1011": {
+    "id": "1011",
+    "stats": {
+        "atk": 173,
+        "def": 184,
+        "sta": 190
+    },
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1011",
+    "moveset": {
+        "quick": [
+            "Bullet Seed",
+            "Dragon Tail",
+            "Rollout"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Outrage",
+            "Seed Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Water": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
+"1012": {
+    "id": "1012",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "1012",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
+"2872": {
+    "id": "1012",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "2872",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
+"2871": {
+    "id": "1012",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "2871",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
+"1013": {
+    "id": "1013",
+    "stats": {
+        "atk": 225,
+        "def": 191,
+        "sta": 174
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "1013",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"2874": {
+    "id": "1013",
+    "stats": {
+        "atk": 225,
+        "def": 191,
+        "sta": 174
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "2874",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"2873": {
+    "id": "1013",
+    "stats": {
+        "atk": 225,
+        "def": 191,
+        "sta": 174
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "2873",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1014": {
+    "id": "1014",
+    "stats": {
+        "atk": 220,
+        "def": 191,
+        "sta": 186
+    },
+    "type": [
+        "Poison",
+        "Fighting"
+    ],
+    "imgurl": null,
+    "name": "1014",
+    "moveset": {
+        "quick": [
+            "Force Palm",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Sludge Bomb",
+            "Super Power",
+            "Upper Hand"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Flying": "160%",
+            "Ground": "160%",
+            "Psychic": "256%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Fighting": "62.5%",
+            "Grass": "62.5%",
+            "Poison": "62.5%",
+            "Rock": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1015": {
+    "id": "1015",
+    "stats": {
+        "atk": 238,
+        "def": 157,
+        "sta": 186
+    },
+    "type": [
+        "Poison",
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "1015",
+    "moveset": {
+        "quick": [
+            "Confusion",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Futuresight",
+            "Psychic",
+            "Sludge Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1016": {
+    "id": "1016",
+    "stats": {
+        "atk": 169,
+        "def": 208,
+        "sta": 186
+    },
+    "type": [
+        "Poison",
+        "Fairy"
+    ],
+    "imgurl": null,
+    "name": "1016",
+    "moveset": {
+        "quick": [
+            "Charm",
+            "Poison Jab"
+        ],
+        "charge": [
+            "Disarming Voice",
+            "Moonblast",
+            "Sludge Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Ground": "160%",
+            "Psychic": "160%",
+            "Steel": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Dark": "62.5%",
+            "Dragon": "39.1%",
+            "Fairy": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1017": {
+    "id": "1017",
+    "stats": {
+        "atk": 219,
+        "def": 178,
+        "sta": 173
+    },
+    "type": [
+        "Grass"
+    ],
+    "imgurl": null,
+    "name": "1017",
+    "moveset": {
+        "quick": [
+            "Double Kick",
+            "Magical Leaf",
+            "Vine Whip"
+        ],
+        "charge": [
+            "Grass Knot",
+            "Play Rough",
+            "Power Whip"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ice": "160%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1018": {
+    "id": "1018",
+    "stats": {
+        "atk": 250,
+        "def": 215,
+        "sta": 207
+    },
+    "type": [
+        "Steel",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1018",
+    "moveset": {
+        "quick": [
+            "Dragon Tail",
+            "Metal Claw"
+        ],
+        "charge": [
+            "Dragon Claw",
+            "Flash Cannon",
+            "Hyper Beam"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "39.1%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "62.5%",
+            "Rock": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1019": {
+    "id": "1019",
+    "stats": {
+        "atk": 216,
+        "def": 186,
+        "sta": 235
+    },
+    "type": [
+        "Grass",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1019",
+    "moveset": {
+        "quick": [
+            "Bullet Seed",
+            "Dragon Tail",
+            "Rollout"
+        ],
+        "charge": [
+            "Dragon Pulse",
+            "Outrage",
+            "Seed Bomb"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Flying": "160%",
+            "Ice": "256%",
+            "Poison": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Grass": "39.1%",
+            "Ground": "62.5%",
+            "Water": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1020": {
+    "id": "1020",
+    "stats": {
+        "atk": 205,
+        "def": 208,
+        "sta": 213
+    },
+    "type": [
+        "Fire",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1020",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Ground": "160%",
+            "Rock": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Electric": "62.5%",
+            "Fire": "39.1%",
+            "Grass": "39.1%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1021": {
+    "id": "1021",
+    "stats": {
+        "atk": 235,
+        "def": 165,
+        "sta": 245
+    },
+    "type": [
+        "Electric",
+        "Dragon"
+    ],
+    "imgurl": null,
+    "name": "1021",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dragon": "160%",
+            "Fairy": "160%",
+            "Ground": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "39.1%",
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Steel": "62.5%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1022": {
+    "id": "1022",
+    "stats": {
+        "atk": 227,
+        "def": 195,
+        "sta": 189
+    },
+    "type": [
+        "Rock",
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "1022",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Bug": "160%",
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Grass": "160%",
+            "Ground": "160%",
+            "Steel": "160%",
+            "Water": "160%"
+        },
+        "resistant_to": {
+            "Fire": "62.5%",
+            "Flying": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "62.5%",
+            "Psychic": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1023": {
+    "id": "1023",
+    "stats": {
+        "atk": 221,
+        "def": 200,
+        "sta": 189
+    },
+    "type": [
+        "Steel",
+        "Psychic"
+    ],
+    "imgurl": null,
+    "name": "1023",
+    "moveset": {
+        "quick": [
+            "Splash"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Ghost": "160%",
+            "Ground": "160%"
+        },
+        "resistant_to": {
+            "Dragon": "62.5%",
+            "Fairy": "62.5%",
+            "Flying": "62.5%",
+            "Grass": "62.5%",
+            "Ice": "62.5%",
+            "Normal": "62.5%",
+            "Poison": "39.1%",
+            "Psychic": "39.1%",
+            "Rock": "62.5%",
+            "Steel": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1024": {
+    "id": "1024",
+    "stats": {
+        "atk": 126,
+        "def": 165,
+        "sta": 207
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "1024",
+    "moveset": {
+        "quick": [
+            "Take Down"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"1025": {
+    "id": "1025",
+    "stats": {
+        "atk": 164,
+        "def": 248,
+        "sta": 186
+    },
+    "type": [
+        "Poison",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "1025",
+    "moveset": {
+        "quick": [
+            "Astonish"
+        ],
+        "charge": [
+            "Gunk Shot",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%",
+            "Ground": "160%",
+            "Psychic": "160%"
+        },
+        "resistant_to": {
+            "Bug": "39.1%",
+            "Fairy": "62.5%",
+            "Fighting": "24.4%",
+            "Grass": "62.5%",
+            "Normal": "39.1%",
+            "Poison": "39.1%"
         }
     },
     "is_shadow": false,
