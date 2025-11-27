@@ -42091,49 +42091,6 @@ var pokeDB = {
     "region": "Alola",
     "is_final_stage": false
 },
-"Lycanroc": {
-    "id": "0745",
-    "stats": {
-        "atk": 231,
-        "def": 140,
-        "sta": 181
-    },
-    "type": [
-        "Rock"
-    ],
-    "imgurl": null,
-    "name": "Lycanroc",
-    "moveset": {
-        "quick": [
-            "Rock Throw",
-            "Sucker Punch"
-        ],
-        "charge": [
-            "Crunch",
-            "Drill Run",
-            "Stone Edge",
-            "Trailblaze"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Fighting": "160%",
-            "Grass": "160%",
-            "Ground": "160%",
-            "Steel": "160%",
-            "Water": "160%"
-        },
-        "resistant_to": {
-            "Fire": "62.5%",
-            "Flying": "62.5%",
-            "Normal": "62.5%",
-            "Poison": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Alola",
-    "is_final_stage": true
-},
 "Dusk Lycanroc": {
     "id": "0745",
     "stats": {
@@ -55457,42 +55414,6 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Paldea",
-    "is_final_stage": false
-},
-"3018": {
-    "id": "0999",
-    "stats": {
-        "atk": 140,
-        "def": 76,
-        "sta": 128
-    },
-    "type": [
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "3018",
-    "moveset": {
-        "quick": [
-            "Astonish"
-        ],
-        "charge": [
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Ghost": "160%"
-        },
-        "resistant_to": {
-            "Bug": "62.5%",
-            "Fighting": "39.1%",
-            "Normal": "39.1%",
-            "Poison": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
     "is_final_stage": true
 },
 "Gholdengo": {
@@ -55997,7 +55918,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1009": {
+"Walkingwake": {
     "id": "1009",
     "stats": {
         "atk": 233,
@@ -56009,7 +55930,7 @@ var pokeDB = {
         "Dragon"
     ],
     "imgurl": null,
-    "name": "1009",
+    "name": "Walkingwake",
     "moveset": {
         "quick": [
             "Splash"
@@ -56033,7 +55954,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1010": {
+"Ironleaves": {
     "id": "1010",
     "stats": {
         "atk": 236,
@@ -56045,7 +55966,7 @@ var pokeDB = {
         "Psychic"
     ],
     "imgurl": null,
-    "name": "1010",
+    "name": "Ironleaves",
     "moveset": {
         "quick": [
             "Splash"
@@ -56077,7 +55998,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1011": {
+"Dipplin": {
     "id": "1011",
     "stats": {
         "atk": 173,
@@ -56088,8 +56009,8 @@ var pokeDB = {
         "Grass",
         "Dragon"
     ],
-    "imgurl": null,
-    "name": "1011",
+    "imgurl": "1011",
+    "name": "Dipplin",
     "moveset": {
         "quick": [
             "Bullet Seed",
@@ -56122,7 +56043,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
-"1012": {
+"Poltchageist": {
     "id": "1012",
     "stats": {
         "atk": 134,
@@ -56133,8 +56054,8 @@ var pokeDB = {
         "Grass",
         "Ghost"
     ],
-    "imgurl": null,
-    "name": "1012",
+    "imgurl": "1012",
+    "name": "Poltchageist",
     "moveset": {
         "quick": [
             "Astonish",
@@ -56167,97 +56088,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
-"2872": {
-    "id": "1012",
-    "stats": {
-        "atk": 134,
-        "def": 96,
-        "sta": 120
-    },
-    "type": [
-        "Grass",
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "2872",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Magical Leaf"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Poltergeist",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": false
-},
-"2871": {
-    "id": "1012",
-    "stats": {
-        "atk": 134,
-        "def": 96,
-        "sta": 120
-    },
-    "type": [
-        "Grass",
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "2871",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Magical Leaf"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Poltergeist",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": false
-},
-"1013": {
+"Sinistcha": {
     "id": "1013",
     "stats": {
         "atk": 225,
@@ -56268,8 +56099,8 @@ var pokeDB = {
         "Grass",
         "Ghost"
     ],
-    "imgurl": null,
-    "name": "1013",
+    "imgurl": "1013",
+    "name": "Sinistcha",
     "moveset": {
         "quick": [
             "Astonish",
@@ -56302,97 +56133,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"2874": {
-    "id": "1013",
-    "stats": {
-        "atk": 225,
-        "def": 191,
-        "sta": 174
-    },
-    "type": [
-        "Grass",
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "2874",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Magical Leaf"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Poltergeist",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
-"2873": {
-    "id": "1013",
-    "stats": {
-        "atk": 225,
-        "def": 191,
-        "sta": 174
-    },
-    "type": [
-        "Grass",
-        "Ghost"
-    ],
-    "imgurl": null,
-    "name": "2873",
-    "moveset": {
-        "quick": [
-            "Astonish",
-            "Magical Leaf"
-        ],
-        "charge": [
-            "Energy Ball",
-            "Poltergeist",
-            "Shadow Ball"
-        ]
-    },
-    "defense_data": {
-        "vulnerable_to": {
-            "Dark": "160%",
-            "Fire": "160%",
-            "Flying": "160%",
-            "Ghost": "160%",
-            "Ice": "160%"
-        },
-        "resistant_to": {
-            "Electric": "62.5%",
-            "Fighting": "39.1%",
-            "Grass": "62.5%",
-            "Ground": "62.5%",
-            "Normal": "39.1%",
-            "Water": "62.5%"
-        }
-    },
-    "is_shadow": false,
-    "region": "Paldea",
-    "is_final_stage": true
-},
-"1014": {
+"Okidogi": {
     "id": "1014",
     "stats": {
         "atk": 220,
@@ -56403,8 +56144,8 @@ var pokeDB = {
         "Poison",
         "Fighting"
     ],
-    "imgurl": null,
-    "name": "1014",
+    "imgurl": "1014",
+    "name": "Okidogi",
     "moveset": {
         "quick": [
             "Force Palm",
@@ -56435,7 +56176,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1015": {
+"Munkidori": {
     "id": "1015",
     "stats": {
         "atk": 238,
@@ -56446,8 +56187,8 @@ var pokeDB = {
         "Poison",
         "Psychic"
     ],
-    "imgurl": null,
-    "name": "1015",
+    "imgurl": "1015",
+    "name": "Munkidori",
     "moveset": {
         "quick": [
             "Confusion",
@@ -56476,7 +56217,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1016": {
+"Fezandipiti": {
     "id": "1016",
     "stats": {
         "atk": 169,
@@ -56487,8 +56228,8 @@ var pokeDB = {
         "Poison",
         "Fairy"
     ],
-    "imgurl": null,
-    "name": "1016",
+    "imgurl": "1016",
+    "name": "Fezandipiti",
     "moveset": {
         "quick": [
             "Charm",
@@ -56519,7 +56260,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1017": {
+"Ogerpon": {
     "id": "1017",
     "stats": {
         "atk": 219,
@@ -56529,8 +56270,8 @@ var pokeDB = {
     "type": [
         "Grass"
     ],
-    "imgurl": null,
-    "name": "1017",
+    "imgurl": "1017",
+    "name": "Ogerpon",
     "moveset": {
         "quick": [
             "Double Kick",
@@ -56562,7 +56303,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1018": {
+"Archaludon": {
     "id": "1018",
     "stats": {
         "atk": 250,
@@ -56573,8 +56314,8 @@ var pokeDB = {
         "Steel",
         "Dragon"
     ],
-    "imgurl": null,
-    "name": "1018",
+    "imgurl": "1018",
+    "name": "Archaludon",
     "moveset": {
         "quick": [
             "Dragon Tail",
@@ -56608,7 +56349,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1019": {
+"Hydrapple": {
     "id": "1019",
     "stats": {
         "atk": 216,
@@ -56619,8 +56360,8 @@ var pokeDB = {
         "Grass",
         "Dragon"
     ],
-    "imgurl": null,
-    "name": "1019",
+    "imgurl": "1019",
+    "name": "Hydrapple",
     "moveset": {
         "quick": [
             "Bullet Seed",
@@ -56653,7 +56394,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1020": {
+"Gougingfire": {
     "id": "1020",
     "stats": {
         "atk": 205,
@@ -56665,7 +56406,7 @@ var pokeDB = {
         "Dragon"
     ],
     "imgurl": null,
-    "name": "1020",
+    "name": "Gougingfire",
     "moveset": {
         "quick": [
             "Splash"
@@ -56692,7 +56433,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1021": {
+"Ragingbolt": {
     "id": "1021",
     "stats": {
         "atk": 235,
@@ -56704,7 +56445,7 @@ var pokeDB = {
         "Dragon"
     ],
     "imgurl": null,
-    "name": "1021",
+    "name": "Ragingbolt",
     "moveset": {
         "quick": [
             "Splash"
@@ -56733,7 +56474,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1022": {
+"Ironboulder": {
     "id": "1022",
     "stats": {
         "atk": 227,
@@ -56745,7 +56486,7 @@ var pokeDB = {
         "Psychic"
     ],
     "imgurl": null,
-    "name": "1022",
+    "name": "Ironboulder",
     "moveset": {
         "quick": [
             "Splash"
@@ -56776,7 +56517,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1023": {
+"Ironcrown": {
     "id": "1023",
     "stats": {
         "atk": 221,
@@ -56788,7 +56529,7 @@ var pokeDB = {
         "Psychic"
     ],
     "imgurl": null,
-    "name": "1023",
+    "name": "Ironcrown",
     "moveset": {
         "quick": [
             "Splash"
@@ -56821,7 +56562,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1024": {
+"Terapagos": {
     "id": "1024",
     "stats": {
         "atk": 126,
@@ -56831,8 +56572,8 @@ var pokeDB = {
     "type": [
         "Normal"
     ],
-    "imgurl": null,
-    "name": "1024",
+    "imgurl": "1024",
+    "name": "Terapagos",
     "moveset": {
         "quick": [
             "Take Down"
@@ -56853,7 +56594,7 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": true
 },
-"1025": {
+"Pecharunt": {
     "id": "1025",
     "stats": {
         "atk": 164,
@@ -56864,8 +56605,8 @@ var pokeDB = {
         "Poison",
         "Ghost"
     ],
-    "imgurl": null,
-    "name": "1025",
+    "imgurl": "1025",
+    "name": "Pecharunt",
     "moveset": {
         "quick": [
             "Astonish"
