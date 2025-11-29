@@ -15,7 +15,15 @@ function filterPokemonByMoveName(moveName)
 
 	$(".pokemondb-table tbody").html("");
 
-    var pokemons = ($("#whole_database").is(":checked")) ? Object.keys(pokeDB) : $(".pkm-list-db").val().split(",")
+    var pokemons = null;
+    
+    if ($("#whole_database").is(":checked")) {
+        pokemons = Object.keys(pokeDB);
+     } else {
+        pokemons = $(".pkm-list-db").val().split(",");
+        pokemons = pokemons.map((pokemon) => { return pokemon.trim() });
+        
+     }
 
     var textToAppend = "";
 
@@ -23,7 +31,7 @@ function filterPokemonByMoveName(moveName)
         allMoves = []
 
         pkm = pkm.trim()
-        $.each(pokeDB[pkm].moveset[type], function (id, pkmMove) {
+                $.each(pokeDB[pkm].moveset[type], function (id, pkmMove) {
             sanitizedMove = pkmMove.replaceAll('*', '');
             allMoves.push(sanitizedMove)
         });
