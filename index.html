@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+        <link href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" />
 
         <link href="css/glyphicons.css" rel="stylesheet">
         <link href="css/navbar.css" rel="stylesheet">
@@ -12,6 +13,7 @@
 
 		<script src="js/lib/jquery.js"></script>
         <script src="js/lib/clipboard.js"></script>
+        <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
         <script src="js/db/pokedata.js"></script>
         <script src="js/db/charge.js"></script>
@@ -288,13 +290,54 @@
                 });
 
                 // Move Database tab
-                Object.keys(quickMoveDB).forEach((item) => {
-                    if (quickMoveDB[item].type !== "") {
-                        $("#quick-attacks-tbody").append("<tr><td>" + item + "</td><td>" + quickMoveDB[item].type + "</td><td>" + quickMoveDB[item].turns + "</td><td>" + quickMoveDB[item].dpt + "</td><td>" + quickMoveDB[item].ept + "</td></tr>");
-                    }
-                })
+                let quickMoveArrays = Object.keys(quickMoveDB)
+                    .filter(item => quickMoveDB[item].type !== "")
+                    .map(item => [
+                        item, quickMoveDB[item].type, quickMoveDB[item].turns, quickMoveDB[item].ept, quickMoveDB[item].dpt + " (<b>" + (quickMoveDB[item].dpt * 1.2).toFixed(2) + "</b>)"
+                    ]);
 
-                Object.keys(chargeMoveDB).forEach((item) => {
+                let table = new DataTable('#quick-attacks-table', {
+                    data: quickMoveArrays,
+                    paging: false,
+                    searching: false,
+                    info: false,
+                    columns: [
+                        { title: 'Name' },
+                        { title: 'Type' },
+                        { title: 'Turns' },
+                        { title: 'EPT' },
+                        { title: 'DPT' },
+                    ],
+                });
+                
+                /*Object.keys(quickMoveDB).forEach((item) => {
+                    if (quickMoveDB[item].type !== "") {
+                        $("#quick-attacks-tbody").append("<tr><td>" + item + "</td><td>" + quickMoveDB[item].type + "</td><td>" + quickMoveDB[item].turns + "</td><td>" + quickMoveDB[item].ept + "</td><td>" + quickMoveDB[item].dpt + "</td></tr>");
+                    }
+                })*/
+
+                let chargeMoveArrays = Object.keys(chargeMoveDB)
+                    .filter(item => chargeMoveDB[item].type !== "")
+                    .map(item => [
+                        item, chargeMoveDB[item].type, chargeMoveDB[item].energy, chargeMoveDB[item].power, chargeMoveDB[item].dpe + " (<b>" + (chargeMoveDB[item].dpe * 1.2).toFixed(2) + "</b>)", formatBuff(chargeMoveDB[item].buffs)
+                    ]);
+
+                let tableChargeMoves = new DataTable('#charge-attacks-table', {
+                    data: chargeMoveArrays,
+                    paging: false,
+                    searching: false,
+                    info: false,
+                    columns: [
+                        { title: 'Name' },
+                        { title: 'Type' },
+                        { title: 'Energy' },
+                        { title: 'Power' },
+                        { title: 'DPE' },
+                        { title: 'Buffs' },
+                    ],
+                });
+
+                /*Object.keys(chargeMoveDB).forEach((item) => {
                     if (chargeMoveDB[item].type !== "") {
                         let buffs = "";
                         if (chargeMoveDB[item].buffs) {
@@ -305,7 +348,7 @@
                             "<tr><td>" + item + "</td><td>" + chargeMoveDB[item].type + "</td><td>" + chargeMoveDB[item].energy + "</td><td>" + chargeMoveDB[item].power + "</td><td>" + chargeMoveDB[item].dpe + "</td><td> " + buffs + "</td></tr>"
                         );
                     }
-                })
+                })*/
             });
         </script>
 
@@ -861,7 +904,7 @@
 
                     <div class="tab-pane fade show" id="pvp-movedb" role="tabpanel" >
 
-                        <table id="quick-attacks-table" class='table table-sm' style="text-align: center;">
+                        <table id="quick-attacks-table" class='table table-sm' style="width: 100%; text-align: center;">
                             <thead class="thead-dark">
                                 <tr>
                                     <th colspan="5">Quick Attacks</th>
@@ -878,7 +921,7 @@
                             </tbody>
                         </table>
                         
-                        <table id="charge-attacks-table" class='table table-sm' style="text-align: center;">
+                        <table id="charge-attacks-table" class='table table-sm' style="width: 100%; text-align: center;">
                             <thead class="thead-dark">
                                 <tr>
                                     <th colspan="6">Charge Attacks</th>

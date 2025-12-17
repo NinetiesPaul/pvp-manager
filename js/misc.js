@@ -57,6 +57,9 @@ function disableMove(value, target)
 }
 
 function formatBuff(buffs) {
+    if (buffs == "") {
+        return "";
+    }
     var activationChance = buffs.activationChance * 100 + "% chance of ";
     var buffFullEffectDescription = '';
     var buffEffectDescription = '';
