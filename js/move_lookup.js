@@ -16,14 +16,13 @@ function filterPokemonByMoveName(moveName)
 	$(".pokemondb-table tbody").html("");
 
     var pokemons = null;
-    
-    if ($("#whole_database").is(":checked")) {
+    pokemons = $(".pkm-list-db").val().split(",");
+    pokemons = pokemons.map((pokemon) => { return pokemon.trim() });
+
+    if (pokemons[0] == "") {
+        console.log("Using whole database")
         pokemons = Object.keys(pokeDB);
-     } else {
-        pokemons = $(".pkm-list-db").val().split(",");
-        pokemons = pokemons.map((pokemon) => { return pokemon.trim() });
-        
-     }
+    }
 
     var textToAppend = "";
 
@@ -86,7 +85,8 @@ function filterPokemonByMoveName(moveName)
     if (type == 'quick') {
         moveTextToAppend += 
             "<tr><td><b>EPT</b></td><td>" + move.ept + "</td></tr>" + 
-            "<tr><td><b>DPT</b></td><td>" + move.dpt + "</td></tr>"
+            "<tr><td><b>DPT</b></td><td>" + move.dpt + "</td></tr>" + 
+            "<tr><td><b>Turns</b></td><td>" + move.turns + "</td></tr>"
             ;
     } else {
         moveTextToAppend += 
@@ -111,7 +111,14 @@ function filterPokemonByMoveType(type)
 
 	$(".pokemondb-table tbody").html("");
 
-    var pokemons = ($("#whole_database").is(":checked")) ? Object.keys(pokeDB) : $(".pkm-list-db").val().split(",")
+    var pokemons = null;
+    pokemons = $(".pkm-list-db").val().split(",");
+    pokemons = pokemons.map((pokemon) => { return pokemon.trim() });
+
+    if (pokemons[0] == "") {
+        console.log("Using whole database")
+        pokemons = Object.keys(pokeDB);
+    }
 
     var textToAppend = "";
 
