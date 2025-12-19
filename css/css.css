@@ -160,3 +160,7 @@ p {
   width: 10%;
   font-size: 0.7em;
 }
+
+.custom-select {
+  font-size: 14px;
+}
