@@ -87,7 +87,9 @@ function getPokemonData(pokemon, slot)
             bold = "style=\"font-weight: bold;\"";
         }
 
-        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe;
+        let qtf = 0;
+
+        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe + "/QTF " + qtf;
         $('#charge1_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
         $('#charge2_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
@@ -112,15 +114,47 @@ function getPokemonData(pokemon, slot)
 function getMoveData(move, type, target)
 {
     move = move.replaceAll('*', '');
+    move = move.split(" (")[0];
 
     if (type === 'quick') {
-        move = move.split(" (")[0];
         data = quickMoveDB[move];
+
+        let poke = $('#pokemonList_' + target).val();
+        poke = poke.split(" - ")[1];
+
+        let qtf = 0;
+        $('#charge1_move-' + target + " option").each(function(index) {
+            if ($(this).val() != '-- Charge I --') {
+                let optionText = $(this).val();
+                let moveName = optionText.split(" (")[0];
+                let cleanMoveName = moveName.replaceAll('*', '');
+                //let moveData = optionText.split(" (")[1].replace(")", "");
+
+                qtf = Math.ceil(Math.abs(chargeMoveDB[cleanMoveName].energy)/data.energy);
+                let newLabel = moveName + " (ENG " + chargeMoveDB[cleanMoveName].energy + "/DPE " + chargeMoveDB[cleanMoveName].dpe + "/QTF " + qtf + ")";
+
+                $(this).text(newLabel);
+            };
+        });
+
+        $('#charge2_move-' + target + " option").each(function(index) {
+            if ($(this).val() != '-- Charge II --') {
+                let optionText = $(this).val();
+                let moveName = optionText.split(" (")[0];
+                let cleanMoveName = moveName.replaceAll('*', '');
+                //let moveData = optionText.split(" (")[1].replace(")", "");
+
+                qtf = Math.ceil(Math.abs(chargeMoveDB[cleanMoveName].energy)/data.energy);
+                let newLabel = moveName + " (ENG " + chargeMoveDB[cleanMoveName].energy + "/DPE " + chargeMoveDB[cleanMoveName].dpe + "/QTF " + qtf + ")";
+
+                $(this).text(newLabel);
+            };
+        });
+        
     }
 
     var buffs = '';
     if (type === 'charge1' || type === 'charge2') {
-        move = move.split(" (")[0];
         data = chargeMoveDB[move];
         if (data.buffs) {
             $('#' + type + '_moveBuff-' + target)
