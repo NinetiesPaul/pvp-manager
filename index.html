@@ -349,6 +349,25 @@
                         );
                     }
                 })*/
+
+                $("#move_dropdown").click(function() {
+                    console.log("click")
+
+                    $.each(["Move 1", "Move 2"], function(index, value) {
+                        let topPosition =  1 * (46 * index) + "px";
+                        $('#move_dropdown_area').before('<div id="move-option" style="position: absolute; left: -1px; top:' + topPosition + ';background-color: white; border: 1px solid #ccc; padding: 10px; width: 100%;">' + value + '</div>');
+                    });
+                    
+                });
+            });
+
+            $(document).on('click', function(e) {
+                if (e.target.id !== "move_dropdown") {
+                    $('#move_dropdown_area').siblings('div').remove();
+                    if (e.target.id === "move-option") {
+                        console.log("clicked option")
+                    }
+                }
             });
         </script>
 
@@ -416,22 +435,34 @@
                                 </select>
                             </span>
                         
-                            <span class="shadow_pokemon" data-slot="1" data-shadow="slot1">&nbsp;</span>
-                            <br><img class="" id="pokemon_img-slot1" src="..." height="96px" style="margin: 0 auto;" alt="&nbsp;">
+                            <br>
+                            <span id="pkm-data" style="margin-top: 1em;">
+                                <span style="width: 50%;float: left;">
+                                    <span class="badge badge-pill badge-danger full-pill">Atk</span>
+                                    <span class="badge badge-pill full-pill" id="atk-slot1">&nbsp;</span>
+                                    <span class="badge badge-pill badge-success full-pill">Def</span>
+                                    <span class="badge badge-pill full-pill" id="def-slot1">&nbsp;</span>
+                                    <span class="badge badge-pill badge-primary full-pill">Sta</span>
+                                    <span class="badge badge-pill full-pill" id="sta-slot1">&nbsp;</span>
+                                </span>
 
-                            <table  class="table-borderless" style="margin: 0 auto; width: 100%; text-align: center;">
-                                <tr>
-                                    <td><span class="badge badge-pill badge-danger full-pill">Atk</span></td>
-                                    <td><span class="badge badge-pill badge-success full-pill">Def</span></td>
-                                    <td><span class="badge badge-pill badge-primary full-pill">Sta</span></td>
-                                </tr>
-                                <tr>
-                                    <td><span class="badge badge-pill full-pill" id="atk-slot1">&nbsp;</span></td>
-                                    <td><span class="badge badge-pill full-pill" id="def-slot1">&nbsp;</span></td>
-                                    <td><span class="badge badge-pill full-pill" id="sta-slot1">&nbsp;</span></td>
-                                </tr>
-                            </table>
+                                <span>
+                                    <p>
+                                        <img class="" id="pokemon_img-slot1" height="96px" src="..." alt="&nbsp;">
+                                    </p>
+                                    <span class="shadow_pokemon" data-slot="1" data-shadow="slot1">&nbsp;</span>
+                                </span>
+                            </span>
+
                             <p class="separator">Attack</p>
+
+                            
+                            <span id="move_dropdown" data-slot="slot1" data-type="quick" style="position: relative; background-color: white; border: 1px solid #ccc; padding: 10px; margin-top: 10px; height: 46px;" >
+                                <span id="move_dropdown_area" data-slot="slot1" data-type="quick" >
+                                    
+                                </span>
+                            </span>
+
                             <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
                                 <tbody>
                                     <tr>
