@@ -77,6 +77,9 @@ function getPokemonData(pokemon, slot)
         $('#quick_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
     });
 
+    $('#move_dropdown_area[data-type="quick"][data-slot="' + slot + '"]').html("<span id=\"move_dropdown_area\" data-slot=\"slot1\" data-type=\"quick\"> <span id=\"move_atk_data\" style=\"display: block;text-align: left;margin-bottom: 5px;\"> <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\">Dragon Breath (EPT 4.00/DPT 3.60/T 1)</span><span id=\"move_effec_data\" style=\"display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);/*! margin-top: 8px; */\"> Good Against <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\"><br> Week Against <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\"> </span> </span>");
+
+
     $.each(data.moveset.charge, function (index,value){
         cleanName = value.replaceAll('*', '');
 
