@@ -349,24 +349,66 @@
                         );
                     }
                 })*/
-
-                $("#move_dropdown").click(function() {
-                    console.log("click")
-
-                    $.each(["Move 1", "Move 2"], function(index, value) {
-                        let topPosition =  1 * (46 * index) + "px";
-                        $('#move_dropdown_area').before('<div id="move-option" style="position: absolute; left: -1px; top:' + topPosition + ';background-color: white; border: 1px solid #ccc; padding: 10px; width: 100%;">' + value + '</div>');
-                    });
-                    
-                });
             });
 
+            let activeSlot = null;
+            let activeType = null;
             $(document).on('click', function(e) {
-                if (e.target.id !== "move_dropdown") {
-                    $('#move_dropdown_area').siblings('div').remove();
-                    if (e.target.id === "move-option") {
-                        console.log("clicked option")
+                if ($(e.target).parents().is("#move_option")) {
+                    $('.move_dropdown_area[data-type="' + activeType + '"][data-slot="' + activeSlot + '"]').html($(e.target).parents("#move_option").html());
+                    $('.move_dropdown_area[data-type="' + activeType + '"][data-slot="' + activeSlot + '"]').siblings('div').remove();
+                    $('#move_dropdown[data-type="charge1"][data-slot="' + activeSlot + '"]').css("position", "relative")
+                    $('#move_dropdown[data-type="charge2"][data-slot="' + activeSlot + '"]').css("position", "relative")
+                    return false;
+                }
+
+                if (e.target.id == "move_dropdown" || $(e.target).parents().is("#move_dropdown")) {
+                    $('.move_dropdown_area').siblings('div').remove();
+                    
+                    let moveType = $(e.target).closest('#move_dropdown').attr('data-type');
+                    activeType = moveType;
+                    let slot = $(e.target).closest('#move_dropdown').attr('data-slot');
+                    activeSlot = slot;
+
+                    let pokemonSlot = $("#pokemonList_" + slot).val().split(" - ")[1];
+                    if (moveType == "quick") {
+                        $.each(pokeDB[pokemonSlot].moveset.quick, function(index, value) {
+                            let formattedOptionsDetails = formatOptionDetails(value, pokemonSlot, moveType);
+                            let formattedOptionsEffectiveness = formatOptionEffectiveness(value, moveType);
+
+                            let topPosition =  (1 * (132 * index) + 5) + "px";
+                            $('.move_dropdown_area[data-type="quick"][data-slot="' + slot + '"]').after('<div id="move_option" style="position: absolute; top:' + topPosition + '; left: 5px; background-color: white; border: 1px solid #ccc; padding: 10px; width: 100%; ">' +
+                                "<span class='move_atk_data' style='color: white; display: inline-flex; text-align: left; margin-bottom: 6px; border-top-left-radius: 1.5em; border-bottom-left-radius: 1.5em; width: 100%; align-items: center;  background-color: " + colors[quickMoveDB[value.replaceAll("*", "")].type] + "'>" +
+                                "<img src='" + formattedOptionsDetails[1] + "'  height='50px' width='50px' style='margin-right: 0.5em;'><span style='width: 100%;'>" + formattedOptionsDetails[0] + "</span></span>" +
+                                "<span id='move_effec_data' style='display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);'>" +
+                                "Good Against " + formattedOptionsEffectiveness[0] + "<br> Weak Against " + formattedOptionsEffectiveness[1] + "</span>" +
+                                '</div>');
+
+                            $('#move_dropdown[data-type="charge1"][data-slot="' + slot + '"]').css("position", "")
+                            $('#move_dropdown[data-type="charge2"][data-slot="' + slot + '"]').css("position", "")
+                        });
+                    } else {
+                        $.each(pokeDB[pokemonSlot].moveset.charge, function(index, value) {
+                            let formattedOptionsDetails = formatOptionDetails(value, pokemonSlot, moveType);
+                            let formattedOptionsEffectiveness = formatOptionEffectiveness(value, moveType);
+
+                            let topPosition =  (1 * (132 * index) + 5) + "px";
+                            $('.move_dropdown_area[data-type="' + moveType + '"][data-slot="' + slot + '"]').after('<div id="move_option" style="position: absolute; top:' + topPosition + '; left: 5px; background-color: white; border: 1px solid #ccc; padding: 10px; width: 100%; ">' +
+                                "<span class='move_atk_data' style='color: white; display: inline-flex; text-align: left; margin-bottom: 6px; border-top-left-radius: 1.5em; border-bottom-left-radius: 1.5em; width: 100%; align-items: center;  background-color: " + colors[chargeMoveDB[value.replaceAll("*", "")].type] + "'>" +
+                                "<img src='" + formattedOptionsDetails[1] + "'  height='50px' width='50px' style='margin-right: 0.5em;'><span style='width: 100%;'>" + formattedOptionsDetails[0] + "</span></span>" +
+                                "<span id='move_effec_data' style='display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);'>" +
+                                "Good Against " + formattedOptionsEffectiveness[0] + "<br> Weak Against " + formattedOptionsEffectiveness[1] + "</span>" +
+                                '</div>');
+
+                            if (moveType == "charge1") {
+                                $('#move_dropdown[data-type="charge2"][data-slot="' + slot + '"]').css("position", "")
+                            }
+                        });
                     }
+                } else {
+                    $('#move_dropdown[data-type="charge1"][data-slot="' + activeSlot + '"]').css("position", "relative")
+                    $('#move_dropdown[data-type="charge2"][data-slot="' + activeSlot + '"]').css("position", "relative")
+                    $('.move_dropdown_area').siblings('div').remove();
                 }
             });
         </script>
@@ -385,7 +427,7 @@
         </nav>
 
         <div class="container">
-            <div class="jumbotron text-center" style="min-height: 40em; overflow: auto;">
+            <div class="jumbotron text-center" >
 
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
@@ -457,70 +499,23 @@
                             <p class="separator">Attack</p>
 
                             
-                            <span id="move_dropdown" data-slot="slot1" data-type="quick" style="position: relative; background-color: white; border: 1px solid #ccc; padding: 10px; margin-top: 10px; height: 46px;" >
-                                <span id="move_dropdown_area" data-slot="slot1" data-type="quick" >
+                            <span id="move_dropdown" data-slot="slot1" data-type="quick" style="position: relative; background-color: white; border: 1px solid #ccc; padding: 10px; min-height: 132px;" >
+                                <span class="move_dropdown_area" data-slot="slot1" data-type="quick" >
                                     
                                 </span>
                             </span>
 
-                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                <tbody>
-                                    <tr>
-                                        <td colspan="2">
-                                            <select id="quick_move-slot1" name="quick_move-slot1"  class="custom-select quick_move" data-slot="slot1">
-                                                <option>-- Quick --</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
-                                        <td id="quick_move_type-slot1" class="move_type_image_icon"></td>
-                                        <td id="quick_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        <td id="quick_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <select id="charge1_move-slot1" name="charge1_move-slot1" class="custom-select charge_move" data-move="charge1" data-slot="slot1">
-                                                <option>-- Charge I --</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
-                                        <td id="charge1_move_type-slot1" class="move_type_image_icon"></td>
-                                        <td id="charge1_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        <td id="charge1_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                        <td id="charge1_moveBuff-slot1" class="moveBuff" colspan="2"></td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">
-                                            <select id="charge2_move-slot1" name="charge2_move-slot1" class="custom-select charge_move" data-move="charge2" data-slot="slot1">
-                                                <option>-- Charge II --</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                    <tr style="font-size: 0.7em;" >
-                                        <td id="charge2_move_type-slot1" class="move_type_image_icon"></td>
-                                        <td id="charge2_goodAgainst-slot1" class="goodAgainst" colspan="2"></td>
-                                        <td id="charge2_weakAgainst-slot1" class="weakAgainst" colspan="2"></td>
-                                        <td id="charge2_moveBuff-slot1" class="moveBuff" colspan="2"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <p class="separator">Defense</p>
-                            <table class="table-borderless" style="margin: 0 auto;width: 100%;text-align: center;">
-                                <tbody>
-                                    <tr class="defense_type_row-slot1">
-                                        <td class="defense_typeA-slot1">&nbsp;</td>
-                                    </tr>
-                                    <tr>
-                                        <td><small><b>Resistant To</b></small></td>
-                                        <td><small><b>Vulnerable To</b></small></td>
-                                    </tr>
-                                    <tr valign="top" style="font-size: 0.7em;">
-                                        <td class="resistant_to-slot1"></td>
-                                        <td class="vulnerable_to-slot1"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <span id="move_dropdown" data-slot="slot1" data-type="charge1" style="position: relative; background-color: white; border: 1px solid #ccc; padding: 10px; margin-top: -1px; min-height: 132px;" >
+                                <span class="move_dropdown_area" data-slot="slot1" data-type="charge1" >
+                                    
+                                </span>
+                            </span>
+
+                            <span id="move_dropdown" data-slot="slot1" data-type="charge2" style="position: relative; background-color: white; border: 1px solid #ccc; padding: 10px; margin-top: -1px; min-height: 132px;" >
+                                <span class="move_dropdown_area" data-slot="slot1" data-type="charge2" >
+                                    
+                                </span>
+                            </span>
                         </div>
 
                         <div class="card" id="cardSlot2" style="width: 33%; float: left; position: relative;"> <!-- Slot 2 -->
