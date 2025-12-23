@@ -63,6 +63,8 @@ function getPokemonData(pokemon, slot)
         $('.vulnerable_to-' + slot).append("<span class='badge' style='font-size: 100%; font-weight: normal;'>" + index + " | " + value + "</span><br>")
     });
 
+    let formattedOptionsDetails = "";
+    let formattedOptionsEffectiveness = "";
     $.each(data.moveset.quick, function (index,value){
         cleanName = value.replaceAll('*', '');
 
@@ -73,13 +75,23 @@ function getPokemonData(pokemon, slot)
             bold = "style=\"font-weight: bold;\"";
         }
 
-        var formattedMoveName = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + finalDpt + "/T " + quickMoveDB[cleanName].turns;
-        $('#quick_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
+        if (index === 0) {
+            formattedOptionsDetails = formatOptionDetails(value, pokemon, "quick");
+            formattedOptionsEffectiveness = formatOptionEffectiveness(value, "quick");
+        }
     });
 
-    $('#move_dropdown_area[data-type="quick"][data-slot="' + slot + '"]').html("<span id=\"move_dropdown_area\" data-slot=\"slot1\" data-type=\"quick\"> <span id=\"move_atk_data\" style=\"display: block;text-align: left;margin-bottom: 5px;\"> <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\">Dragon Breath (EPT 4.00/DPT 3.60/T 1)</span><span id=\"move_effec_data\" style=\"display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);/*! margin-top: 8px; */\"> Good Against <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\"><br> Week Against <img src=\"https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_DRAGON.png\" height=\"25px\" width=\"25px\"> </span> </span>");
+    $('.move_dropdown_area[data-type="quick"][data-slot="' + slot + '"]').html(
+        "<span class='move_atk_data' style='color: white; display: inline-flex; text-align: left; margin-bottom: 5px; border-top-left-radius: 1.5em; border-bottom-left-radius: 1.5em; width: 100%; align-items: center; background-color: " + colors[quickMoveDB[data.moveset.quick[0].replaceAll("*", "")].type] + "'>" +
+        "<img src='" + formattedOptionsDetails[1] + "' height='50px' width='50px' style='margin-right: 0.5em;'><span style='width: 100%;'>" + formattedOptionsDetails[0] + "</span></span>" +
+        "<span id='move_effec_data' style='display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);'>" +
+        "Good Against " + formattedOptionsEffectiveness[0] + "<br> Weak Against " + formattedOptionsEffectiveness[1] + "</span>" +
+        "");
 
-
+    let formattedCharge1OptionsDetails = "";
+    let formattedCharge1OptionsEffectiveness = "";
+    let formattedCharge2OptionsDetails = "";
+    let formattedCharge2OptionsEffectiveness = "";
     $.each(data.moveset.charge, function (index,value){
         cleanName = value.replaceAll('*', '');
 
@@ -92,10 +104,30 @@ function getPokemonData(pokemon, slot)
 
         let qtf = 0;
 
-        var formattedMoveName = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + finalDpe + "/QTF " + qtf;
-        $('#charge1_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
-        $('#charge2_move-' + slot).append("<option " + bold + " id='" + cleanName + "'>" + value + " (" + formattedMoveName + ")</option>")
+        if (index === 0) {
+            formattedCharge1OptionsDetails = formatOptionDetails(value, pokemon, "charge");
+            formattedCharge1OptionsEffectiveness = formatOptionEffectiveness(value, "charge");
+        }
+
+        if (index === 1) {
+            formattedCharge2OptionsDetails = formatOptionDetails(value, pokemon, "charge");
+            formattedCharge2OptionsEffectiveness = formatOptionEffectiveness(value, "charge");
+        }
     });
+
+    $('.move_dropdown_area[data-type="charge1"][data-slot="' + slot + '"]').html(
+        "<span class='move_atk_data' style='color: white; display: inline-flex; text-align: left; margin-bottom: 5px; border-top-left-radius: 1.5em; border-bottom-left-radius: 1.5em; width: 100%; align-items: center; background-color: " + colors[chargeMoveDB[data.moveset.charge[0].replaceAll("*", "")].type] + "'>" +
+        "<img src='" + formattedCharge1OptionsDetails[1] + "' height='50px' width='50px' style='margin-right: 0.5em;'><span style='width: 100%;'>" + formattedCharge1OptionsDetails[0] + "</span></span>" +
+        "<span id='move_effec_data' style='display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);'>" +
+        "Good Against " + formattedCharge1OptionsEffectiveness[0] + "<br> Weak Against " + formattedCharge1OptionsEffectiveness[1] + "</span>" +
+        "");
+
+    $('.move_dropdown_area[data-type="charge2"][data-slot="' + slot + '"]').html(
+        "<span class='move_atk_data' style='color: white; display: inline-flex; text-align: left; margin-bottom: 5px; border-top-left-radius: 1.5em; border-bottom-left-radius: 1.5em; width: 100%; align-items: center; background-color: " + colors[chargeMoveDB[data.moveset.charge[1].replaceAll("*", "")].type] + "'>" +
+        "<img src='" + formattedCharge2OptionsDetails[1] + "' height='50px' width='50px' style='margin-right: 0.5em;'><span style='width: 100%;'>" + formattedCharge2OptionsDetails[0] + "</span></span>" +
+        "<span id='move_effec_data' style='display: block;text-align: left;border-top: 1px solid rgba(0,0,0,.1);'>" +
+        "Good Against " + formattedCharge2OptionsEffectiveness[0] + "<br> Weak Against " + formattedCharge2OptionsEffectiveness[1] + "</span>" +
+        "");
 
     $("#pokemonList_" + slot + "_alternatives").html("");
     $("#pokemonList_" + slot + "_alternatives").append("<option>-- Alternatives to this type --</option>")
