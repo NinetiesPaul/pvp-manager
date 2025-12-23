@@ -97,3 +97,74 @@ function standardHeights()
     $('#cardSlot2').css("min-height", highest);
     $('#cardSlot3').css("min-height", highest);
 }
+
+function formatOptionDetails(move, poke, moveType)
+{
+    cleanName = move.replaceAll('*', '');
+
+    let moveDetails = "";
+    let finalDpt = 0;
+    let bold = false;
+    let moveTypeIcon = "";
+
+    if (moveType === 'quick') {
+        if (pokeDB[poke].type.includes(quickMoveDB[cleanName].type)) {
+            finalDpt = (quickMoveDB[cleanName].dpt * 1.2).toFixed(2);
+            bold = true;
+        }
+        moveTypeIcon = quickMoveDB[cleanName].type.toUpperCase();
+        moveDetails = "EPT " + quickMoveDB[cleanName].ept + "/DPT " + finalDpt + "/T " + quickMoveDB[cleanName].turns;
+    } else {
+        if (pokeDB[poke].type.includes(chargeMoveDB[cleanName].type)) {
+            finalDpt = (chargeMoveDB[cleanName].dpt * 1.2).toFixed(2);
+            bold = true;
+        }
+
+        moveTypeIcon = chargeMoveDB[cleanName].type.toUpperCase();
+        let qtf = 0;
+        moveDetails = "ENG " + chargeMoveDB[cleanName].energy + "/DPE " + chargeMoveDB[cleanName].dpe + "/QTF " + qtf;
+    }
+    
+    let optionLabel = (bold) ?
+        "<p style='border-bottom: 1px solid rgba(255, 255, 255, 0.4);'><b>" + move + "</b></p><i><small>" + moveDetails + "</small></i>" :
+        "<p style='border-bottom: 1px solid rgba(255, 255, 255, 0.4);'>" + move + "</p><i><small>" + moveDetails + "</small></i>";
+    let optionType = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + moveTypeIcon + '.png';
+
+    return [optionLabel, optionType];
+}
+
+function formatOptionEffectiveness(move, moveType)
+{
+    cleanName = move.replaceAll('*', '');
+
+    let defaultOptionGoodAgainst = "";
+    let defaultOptionWeakAgainst = "";
+
+    if (moveType === 'quick') {
+        $.each(quickMoveDB[cleanName].goodAgainst, function (gIndex,gValue){
+            if (defaultOptionGoodAgainst.indexOf(gValue) === -1) {
+                defaultOptionGoodAgainst += "<img src='https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_" + gValue.toUpperCase() + ".png' height=\"25px\" width=\"25px\">";
+            }
+        });
+
+        $.each(quickMoveDB[cleanName].weakAgainst, function (wIndex,wValue){
+            if (defaultOptionWeakAgainst.indexOf(wValue) === -1) {
+                defaultOptionWeakAgainst += "<img src='https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_" + wValue.toUpperCase() + ".png' height=\"25px\" width=\"25px\">";
+            }
+        });
+    } else {
+        $.each(chargeMoveDB[cleanName].goodAgainst, function (gIndex,gValue){
+            if (defaultOptionGoodAgainst.indexOf(gValue) === -1) {
+                defaultOptionGoodAgainst += "<img src='https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_" + gValue.toUpperCase() + ".png' height=\"25px\" width=\"25px\">";
+            }
+        });
+
+        $.each(chargeMoveDB[cleanName].weakAgainst, function (wIndex,wValue){
+            if (defaultOptionWeakAgainst.indexOf(wValue) === -1) {
+                defaultOptionWeakAgainst += "<img src='https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_" + wValue.toUpperCase() + ".png' height=\"25px\" width=\"25px\">";
+            }
+        });
+    }
+
+    return [defaultOptionGoodAgainst, defaultOptionWeakAgainst];
+}
