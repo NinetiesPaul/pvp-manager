@@ -82,11 +82,6 @@ p {
   display: block;
 }
 
-.move_type_image_icon{
-  width: 3em;
-  height: 3em;
-}
-
 .teamassembler-table th, .teamassembler-table td {
   vertical-align: middle;
   text-align: center;
