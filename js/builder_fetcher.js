@@ -169,8 +169,8 @@ function getMoveData(move, type, target)
 
     imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + data.type.toUpperCase() + '.png';
 
-    $('#' + type + '_move_type-' + target).html("<img src='" + imgSrc + "' height='25px' width='25px'/>");
-    $('#' + type + '_move_type-' + target).css('display', 'revert');
+    $('#' + type + '_move_type-' + target).html("<img src='" + imgSrc + "' height='40px'/>");
+    $('#' + type + '_move_type-' + target).css('display', 'block');
 
     $('#' + type + '_goodAgainst-' + target).html('');
     $('#' + type + '_goodAgainst-' + target).css('display', 'block');
@@ -178,21 +178,23 @@ function getMoveData(move, type, target)
     $('#' + type + '_weakAgainst-' + target).css('display', 'block');
 
 
-	$('#' + type + '_goodAgainst-' + target).append('&nbsp;');
+	$('#' + type + '_goodAgainst-' + target).append("<small style='float: left; margin-left: 0.5em; margin-top: 3px; margin-right: 1em; height: 27px;'>Good Against:</small>");
     $.each(data.goodAgainst, function (index,value){
-        $('#' + type + '_goodAgainst-' + target).append(value);
+        let imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + value.toUpperCase() + '.png';
+        $('#' + type + '_goodAgainst-' + target).append("<img src='" + imgSrc + "' height='25px' width='25px' />");
 
         if (index != data.goodAgainst.length - 1) {
-            $('#' + type + '_goodAgainst-' + target).append(" | ");
+            $('#' + type + '_goodAgainst-' + target).append(" ");
         }
     });
 
-	$('#' + type + '_weakAgainst-' + target).append('&nbsp;');
+    $('#' + type + '_weakAgainst-' + target).append("<small style='float: left; margin-left: 0.5em; margin-top: 3px; margin-right: 1em;'>Weak Against:</small>");
     $.each(data.weakAgainst, function (index,value){
-        $('#' + type + '_weakAgainst-' + target).append(value);
+        let imgSrc = 'https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Types/POKEMON_TYPE_' + value.toUpperCase() + '.png';
+        $('#' + type + '_weakAgainst-' + target).append("<img src='" + imgSrc + "' height='25px' width='25px'/>");
 
         if (index != data.weakAgainst.length - 1) {
-            $('#' + type + '_weakAgainst-' + target).append(" | ");
+            $('#' + type + '_weakAgainst-' + target).append(" ");
         }
     });
 
