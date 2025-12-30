@@ -126,12 +126,9 @@ function getMoveData(move, type, target)
         $('#charge1_move-' + target + " option").each(function(index) {
             if ($(this).val() != '-- Charge I --') {
                 let optionText = $(this).val();
-                let moveName = optionText.split(" (")[0];
-                let cleanMoveName = moveName.replaceAll('*', '');
-                //let moveData = optionText.split(" (")[1].replace(")", "");
 
-                qtf = Math.ceil(Math.abs(chargeMoveDB[cleanMoveName].energy)/data.energy);
-                let newLabel = moveName + " (ENG " + chargeMoveDB[cleanMoveName].energy + "/DPE " + chargeMoveDB[cleanMoveName].dpe + "/QTF " + qtf + ")";
+                qtf = calculateQTF(optionText, data.energy);
+                let newLabel = optionText.replace(/QTF \d+/, "QTF " + qtf);
 
                 $(this).text(newLabel);
             };
@@ -142,10 +139,9 @@ function getMoveData(move, type, target)
                 let optionText = $(this).val();
                 let moveName = optionText.split(" (")[0];
                 let cleanMoveName = moveName.replaceAll('*', '');
-                //let moveData = optionText.split(" (")[1].replace(")", "");
 
-                qtf = Math.ceil(Math.abs(chargeMoveDB[cleanMoveName].energy)/data.energy);
-                let newLabel = moveName + " (ENG " + chargeMoveDB[cleanMoveName].energy + "/DPE " + chargeMoveDB[cleanMoveName].dpe + "/QTF " + qtf + ")";
+                qtf = calculateQTF(optionText, data.energy);
+                let newLabel = optionText.replace(/QTF \d+/, "QTF " + qtf);
 
                 $(this).text(newLabel);
             };
@@ -198,6 +194,14 @@ function getMoveData(move, type, target)
 
 	$('#' + type + '_moveBuff-' + target).append(buffs);
     standardHeights();
+}
+
+function calculateQTF(optionText, quickMoveEnergy)
+{
+    let moveName = optionText.split(" (")[0];
+    let cleanMoveName = moveName.replaceAll('*', '');
+
+    return Math.ceil(Math.abs(chargeMoveDB[cleanMoveName].energy)/quickMoveEnergy);
 }
 
 function updateCtv()
