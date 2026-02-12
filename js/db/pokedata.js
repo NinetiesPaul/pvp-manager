@@ -1834,6 +1834,7 @@ var pokeDB = {
             "Fire Spin"
         ],
         "charge": [
+            "Energy Ball*",
             "Fire Blast*",
             "Flamethrower*",
             "Heat Wave",
@@ -1883,6 +1884,7 @@ var pokeDB = {
             "Powder Snow"
         ],
         "charge": [
+            "Chilling Water*",
             "Blizzard",
             "Dazzling Gleam",
             "Ice Beam",
@@ -3698,6 +3700,7 @@ var pokeDB = {
             "Acid Spray",
             "Blizzard",
             "Hydro Pump",
+            "Payback",
             "Scald",
             "Sludge Wave"
         ]
@@ -7472,6 +7475,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Dragon Breath",
             "Rock Throw",
             "Steel Wing"
         ],
@@ -13204,7 +13208,8 @@ var pokeDB = {
             "Extrasensory",
             "Hidden Power*",
             "Ice Fang",
-            "Snarl"
+            "Snarl",
+            "Water Gun"
         ],
         "charge": [
             "Bubble Beam",
@@ -13338,6 +13343,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
+            "Dragon Breath",
             "Iron Tail",
             "Smack Down*"
         ],
@@ -13747,9 +13753,11 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Counter",
+            "Ember",
             "Fire Spin"
         ],
         "charge": [
+            "Aura Sphere",
             "Blast Burn*",
             "Blaze Kick",
             "Brave Bird",
@@ -14427,6 +14435,7 @@ var pokeDB = {
     "name": "Ludicolo",
     "moveset": {
         "quick": [
+            "Astonish",
             "Bubble",
             "Razor Leaf"
         ],
@@ -14437,7 +14446,8 @@ var pokeDB = {
             "Ice Beam",
             "Leaf Storm",
             "Scald",
-            "Solar Beam"
+            "Solar Beam",
+            "Weather Ball Water"
         ]
     },
     "defense_data": {
@@ -17843,7 +17853,8 @@ var pokeDB = {
         "charge": [
             "Moonblast",
             "Psychic",
-            "Rock Slide"
+            "Rock Slide",
+            "Weather Ball Ice"
         ]
     },
     "defense_data": {
@@ -17890,7 +17901,8 @@ var pokeDB = {
         "charge": [
             "Psychic",
             "Rock Slide",
-            "Solar Beam"
+            "Solar Beam",
+            "Weather Ball Fire"
         ]
     },
     "defense_data": {
@@ -18401,6 +18413,7 @@ var pokeDB = {
             "Waterfall"
         ],
         "charge": [
+            "Aqua Tail",
             "Blizzard",
             "Hyper Beam",
             "Surf",
@@ -18984,6 +18997,7 @@ var pokeDB = {
         "quick": [
             "Frost Breath",
             "Ice Shard",
+            "Powder Snow",
             "Rollout"
         ],
         "charge": [
@@ -19850,6 +19864,7 @@ var pokeDB = {
             "Waterfall"
         ],
         "charge": [
+            "Avalanche",
             "Blizzard",
             "Hydro Pump",
             "Origin Pulse*",
@@ -22742,7 +22757,8 @@ var pokeDB = {
             "Heavy Slam",
             "Payback",
             "Psychic",
-            "Psyshock"
+            "Psyshock",
+            "Weather Ball Water"
         ]
     },
     "defense_data": {
@@ -23191,6 +23207,7 @@ var pokeDB = {
             "Blaze Kick",
             "Close Combat",
             "Flash Cannon",
+            "Meteor Mash",
             "Power Up Punch",
             "Shadow Ball",
             "Thunder Punch"
@@ -23579,6 +23596,7 @@ var pokeDB = {
             "Waterfall"
         ],
         "charge": [
+            "Aqua Tail",
             "Blizzard",
             "Silver Wind",
             "Water Pulse"
@@ -26704,6 +26722,7 @@ var pokeDB = {
             "Dark Pulse",
             "Icy Wind",
             "Razor Shell",
+            "Sacred Sword",
             "X Scissor"
         ]
     },
@@ -33052,7 +33071,8 @@ var pokeDB = {
             "Brutal Swing*",
             "Dark Pulse",
             "Dragon Pulse",
-            "Flash Cannon"
+            "Flash Cannon",
+            "Fly"
         ]
     },
     "defense_data": {
@@ -33431,7 +33451,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -33475,7 +33495,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -34274,7 +34294,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34316,7 +34336,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34366,7 +34386,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -34408,7 +34428,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34450,7 +34470,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34501,7 +34521,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -34540,7 +34560,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34579,7 +34599,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -34628,7 +34648,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -37631,6 +37651,7 @@ var pokeDB = {
         "charge": [
             "Brick Break",
             "Leaf Blade",
+            "Rock Slide",
             "Seed Bomb"
         ]
     },
@@ -38323,11 +38344,13 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Psycho Cut",
+            "Shadow Claw",
             "Tackle"
         ],
         "charge": [
             "Gyro Ball",
-            "Iron Head"
+            "Iron Head",
+            "Sacred Sword"
         ]
     },
     "defense_data": {
@@ -39948,6 +39971,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hex",
+            "Incinerate",
             "Razor Leaf"
         ],
         "charge": [
@@ -39995,6 +40019,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hex",
+            "Incinerate",
             "Razor Leaf"
         ],
         "charge": [
@@ -40042,6 +40067,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hex",
+            "Incinerate",
             "Razor Leaf"
         ],
         "charge": [
@@ -40089,6 +40115,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Hex",
+            "Incinerate",
             "Razor Leaf"
         ],
         "charge": [
@@ -41441,6 +41468,7 @@ var pokeDB = {
             "Rock Smash"
         ],
         "charge": [
+            "Beak Blast*",
             "Drill Peck",
             "Flash Cannon",
             "Rock Blast"
@@ -44925,6 +44953,7 @@ var pokeDB = {
             "Shadow Claw"
         ],
         "charge": [
+            "Brutal Swing",
             "Heavy Slam",
             "Power Whip",
             "Shadow Ball",
@@ -45667,12 +45696,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Air Slash",
+            "Fury Cutter",
             "Razor Leaf"
         ],
         "charge": [
             "Aerial Ace",
             "Leaf Blade",
             "Night Slash",
+            "Sacred Sword",
             "X Scissor"
         ]
     },
@@ -46206,6 +46237,7 @@ var pokeDB = {
             "Incinerate"
         ],
         "charge": [
+            "Mind Blown*",
             "Mystical Fire",
             "Overheat",
             "Shadow Ball"
@@ -46466,8 +46498,10 @@ var pokeDB = {
             "Scratch"
         ],
         "charge": [
+            "Drum Beating",
             "Earth Power",
             "Energy Ball",
+            "Frenzy Plant*",
             "Grass Knot"
         ]
     },
@@ -47493,8 +47527,8 @@ var pokeDB = {
     "name": "Carkol",
     "moveset": {
         "quick": [
-            "Incinerate",
-            "Smack Down"
+            "Smack Down",
+            "Tackle"
         ],
         "charge": [
             "Flame Charge",
@@ -47538,7 +47572,7 @@ var pokeDB = {
     "name": "Coalossal",
     "moveset": {
         "quick": [
-            "Incinerate",
+            "Fire Spin",
             "Smack Down"
         ],
         "charge": [
@@ -50546,7 +50580,8 @@ var pokeDB = {
             "Dragon Energy*",
             "Dragon Pulse",
             "Hyper Beam",
-            "Outrage"
+            "Outrage",
+            "Vice Grip"
         ]
     },
     "defense_data": {
@@ -50871,6 +50906,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Rock Smash",
+            "Smack Down",
             "Tackle"
         ],
         "charge": [
@@ -50878,6 +50914,7 @@ var pokeDB = {
             "Fire Punch",
             "High Horsepower*",
             "Ice Punch",
+            "Play Rough",
             "Swift",
             "Thunder Punch",
             "Trailblaze"
@@ -51049,13 +51086,14 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Astonish",
-            "Fairy Wind",
-            "Zen Headbutt"
+            "Extrasensory",
+            "Fairy Wind"
         ],
         "charge": [
-            "Dazzling Gleam",
+            "Earth Power",
             "Fly",
-            "Grass Knot"
+            "Moonblast",
+            "Mystical Fire"
         ]
     },
     "defense_data": {
@@ -51636,7 +51674,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Counter"
+            "Counter",
+            "Shadow Claw"
         ],
         "charge": [
             "Grass Knot",
@@ -52037,7 +52076,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bite",
-            "Charm"
+            "Charm",
+            "Fire Fang"
         ],
         "charge": [
             "Body Slam",
@@ -54043,6 +54083,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dazzling Gleam",
+            "Meteor Beam",
             "Power Gem",
             "Sludge Wave"
         ]
@@ -54125,6 +54166,7 @@ var pokeDB = {
         ],
         "charge": [
             "Dig",
+            "Play Rough",
             "Psychic Fangs",
             "Shadow Ball"
         ]
@@ -54166,7 +54208,7 @@ var pokeDB = {
         "charge": [
             "Aerial Ace",
             "Brave Bird",
-            "Close Combat"
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -54249,7 +54291,9 @@ var pokeDB = {
         "charge": [
             "Avalanche",
             "Body Slam",
-            "Heavy Slam"
+            "Heavy Slam",
+            "Icicle Spear",
+            "Super Power"
         ]
     },
     "defense_data": {
@@ -54622,9 +54666,11 @@ var pokeDB = {
         "quick": [
             "Astonish",
             "Bite",
+            "Dragon Tail",
             "Rollout"
         ],
         "charge": [
+            "Body Slam",
             "Dig",
             "Drill Run",
             "Rock Slide"
@@ -54658,9 +54704,11 @@ var pokeDB = {
         "quick": [
             "Astonish",
             "Bite",
+            "Dragon Tail",
             "Rollout"
         ],
         "charge": [
+            "Body Slam",
             "Dig",
             "Drill Run",
             "Rock Slide"
@@ -54694,9 +54742,11 @@ var pokeDB = {
         "quick": [
             "Astonish",
             "Bite",
+            "Dragon Tail",
             "Rollout"
         ],
         "charge": [
+            "Body Slam",
             "Dig",
             "Drill Run",
             "Rock Slide"

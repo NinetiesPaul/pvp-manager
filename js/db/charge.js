@@ -327,6 +327,28 @@ var chargeMoveDB = {
     "dpe": 2,
     "buffs": []
 },
+"Beak Blast": {
+    "type": "Flying",
+    "weakAgainst": [
+        "Electric",
+        "Rock",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Fighting",
+        "Grass"
+    ],
+    "energy": -55,
+    "power": 110,
+    "dpe": 2,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
+},
 "Behemoth Bash": {
     "type": "Steel",
     "weakAgainst": [
@@ -546,8 +568,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -40,
-    "power": 40,
-    "dpe": 1,
+    "power": 50,
+    "dpe": 1.25,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -1032,8 +1054,8 @@ var chargeMoveDB = {
         "Dragon"
     ],
     "energy": -45,
-    "power": 100,
-    "dpe": 2.22,
+    "power": 90,
+    "dpe": 2,
     "buffs": []
 },
 "Dragon Pulse": {
@@ -1129,6 +1151,32 @@ var chargeMoveDB = {
     "power": 80,
     "dpe": 1.78,
     "buffs": []
+},
+"Drum Beating": {
+    "type": "Grass",
+    "weakAgainst": [
+        "Bug",
+        "Dragon",
+        "Fire",
+        "Flying",
+        "Grass",
+        "Poison",
+        "Steel"
+    ],
+    "goodAgainst": [
+        "Ground",
+        "Rock",
+        "Water"
+    ],
+    "energy": -35,
+    "power": 60,
+    "dpe": 1.71,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "targetAttackStatStageChange": -1
+        }
+    }
 },
 "Dynamax Cannon": {
     "type": "Dragon",
@@ -1519,8 +1567,8 @@ var chargeMoveDB = {
         "Psychic"
     ],
     "energy": -40,
-    "power": 60,
-    "dpe": 1.5,
+    "power": 65,
+    "dpe": 1.63,
     "buffs": []
 },
 "Freeze Shock": {
@@ -2031,8 +2079,8 @@ var chargeMoveDB = {
         "Ground"
     ],
     "energy": -40,
-    "power": 65,
-    "dpe": 1.63,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Icy Wind": {
@@ -2369,10 +2417,34 @@ var chargeMoveDB = {
         "Ice",
         "Rock"
     ],
-    "energy": -50,
+    "energy": -45,
     "power": 100,
-    "dpe": 2,
+    "dpe": 2.22,
     "buffs": []
+},
+"Mind Blown": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": -35,
+    "power": 90,
+    "dpe": 2.57,
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": -4
+        }
+    }
 },
 "Mirror Coat": {
     "type": "Psychic",
@@ -2609,7 +2681,12 @@ var chargeMoveDB = {
     "energy": -50,
     "power": 85,
     "dpe": 1.7,
-    "buffs": []
+    "buffs": {
+        "activationChance": 1,
+        "effects": {
+            "attackerDefenseStatStageChange": 1
+        }
+    }
 },
 "Obstruct": {
     "type": "Dark",
@@ -2743,9 +2820,9 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -45,
+    "energy": -50,
     "power": 70,
-    "dpe": 1.56,
+    "dpe": 1.4,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -3487,9 +3564,9 @@ var chargeMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "energy": -55,
+    "energy": -50,
     "power": 100,
-    "dpe": 1.82,
+    "dpe": 2,
     "buffs": []
 },
 "Shadow Bone": {
@@ -3552,9 +3629,9 @@ var chargeMoveDB = {
         "Ghost",
         "Psychic"
     ],
-    "energy": -45,
-    "power": 50,
-    "dpe": 1.11,
+    "energy": -50,
+    "power": 75,
+    "dpe": 1.5,
     "buffs": []
 },
 "Signal Beam": {
@@ -3730,9 +3807,9 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -50,
+    "energy": -55,
     "power": 95,
-    "dpe": 1.9,
+    "dpe": 1.73,
     "buffs": []
 },
 "Sparkling Aria": {
@@ -4255,8 +4332,8 @@ var chargeMoveDB = {
     ],
     "goodAgainst": [],
     "energy": -40,
-    "power": 40,
-    "dpe": 1,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Volt Tackle": {

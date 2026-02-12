@@ -526,7 +526,7 @@ var quickMoveDB = {
     "power": 4,
     "energy": 13,
     "ept": "4.33",
-    "dpt": "1.33"
+    "dpt": "2.67"
 },
 "Gust": {
     "type": "Flying",
@@ -983,7 +983,7 @@ var quickMoveDB = {
     "power": 5,
     "energy": 8,
     "ept": "4.00",
-    "dpt": "2.50"
+    "dpt": "3.00"
 },
 "Present": {
     "type": "Normal",
