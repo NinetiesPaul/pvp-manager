@@ -1090,8 +1090,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -40,
-    "power": 20,
-    "dpe": 0.5,
+    "power": 40,
+    "dpe": 1,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -1826,9 +1826,9 @@ var chargeMoveDB = {
         "Ice",
         "Steel"
     ],
-    "energy": -75,
-    "power": 95,
-    "dpe": 1.27,
+    "energy": -45,
+    "power": 75,
+    "dpe": 1.66,
     "buffs": []
 },
 "Heavy Slam": {

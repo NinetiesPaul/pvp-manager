@@ -739,7 +739,8 @@ var pokeDB = {
             "Air Cutter*",
             "Brave Bird",
             "Feather Dance",
-            "Hurricane"
+            "Hurricane",
+            "Heat Wave"
         ]
     },
     "defense_data": {
@@ -7659,7 +7660,8 @@ var pokeDB = {
             "Drill Peck",
             "Thunder",
             "Thunderbolt",
-            "Zap Cannon"
+            "Zap Cannon",
+            "Heat Wave"
         ]
     },
     "defense_data": {
@@ -7747,7 +7749,8 @@ var pokeDB = {
             "Fire Blast",
             "Heat Wave",
             "Overheat",
-            "Sky Attack*"
+            "Sky Attack*",
+            "Fly"
         ]
     },
     "defense_data": {
@@ -9177,7 +9180,8 @@ var pokeDB = {
             "Ancient Power",
             "Dazzling Gleam",
             "Draining Kiss",
-            "Psyshock"
+            "Psyshock",
+            "Heat Wave"
         ]
     },
     "defense_data": {
@@ -11882,14 +11886,16 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Counter",
-            "Struggle Bug"
+            "Struggle Bug",
+            "Fury Cutter"
         ],
         "charge": [
             "Close Combat",
             "Earthquake",
             "Megahorn",
             "Rock Blast",
-            "Upper Hand"
+            "Upper Hand",
+            "Rock Tomb"
         ]
     },
     "defense_data": {
@@ -16566,7 +16572,9 @@ var pokeDB = {
             "Earth Power",
             "Earthquake",
             "Overheat",
-            "Solar Beam"
+            "Solar Beam",
+            "Rock Tomb",
+            "Scorching Sands"
         ]
     },
     "defense_data": {
@@ -17553,7 +17561,8 @@ var pokeDB = {
             "Earthquake",
             "Sand Tomb",
             "Scorching Sands",
-            "Stone Edge"
+            "Stone Edge",
+            "Twister"
         ]
     },
     "defense_data": {
@@ -23087,7 +23096,8 @@ var pokeDB = {
             "Earthquake",
             "Fire Blast",
             "Outrage",
-            "Sand Tomb"
+            "Sand Tomb",
+            "Twister"
         ]
     },
     "defense_data": {
@@ -28430,7 +28440,8 @@ var pokeDB = {
             "Gyro Ball",
             "Megahorn",
             "Sludge Bomb",
-            "X Scissor"
+            "X Scissor",
+            "Aqua Tail"
         ]
     },
     "defense_data": {

@@ -780,10 +780,10 @@ var quickMoveDB = {
         "Steel"
     ],
     "turns": 2,
-    "power": 4,
-    "energy": 5,
-    "ept": "2.50",
-    "dpt": "2.00"
+    "power": 5,
+    "energy": 8,
+    "ept": "4.00",
+    "dpt": "2.5"
 },
 "Magical Leaf": {
     "type": "Grass",
