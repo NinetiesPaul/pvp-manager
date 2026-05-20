@@ -739,8 +739,8 @@ var pokeDB = {
             "Air Cutter*",
             "Brave Bird",
             "Feather Dance",
-            "Hurricane",
-            "Heat Wave"
+            "Heat Wave",
+            "Hurricane"
         ]
     },
     "defense_data": {
@@ -1885,8 +1885,8 @@ var pokeDB = {
             "Powder Snow"
         ],
         "charge": [
-            "Chilling Water*",
             "Blizzard",
+            "Chilling Water*",
             "Dazzling Gleam",
             "Ice Beam",
             "Psyshock",
@@ -7081,6 +7081,70 @@ var pokeDB = {
     "region": "Kanto",
     "is_final_stage": true
 },
+"Ditto Spring 2026 A": {
+    "id": "0132",
+    "stats": {
+        "atk": 91,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Ditto Spring 2026 A",
+    "moveset": {
+        "quick": [
+            "Transform"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kanto",
+    "is_final_stage": true
+},
+"Ditto Spring 2026 B": {
+    "id": "0132",
+    "stats": {
+        "atk": 91,
+        "def": 91,
+        "sta": 134
+    },
+    "type": [
+        "Normal"
+    ],
+    "imgurl": null,
+    "name": "Ditto Spring 2026 B",
+    "moveset": {
+        "quick": [
+            "Transform"
+        ],
+        "charge": [
+            "Struggle"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Fighting": "160%"
+        },
+        "resistant_to": {
+            "Ghost": "39.1%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Kanto",
+    "is_final_stage": true
+},
 "Eevee": {
     "id": "0133",
     "stats": {
@@ -7565,7 +7629,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Frost Breath",
-            "Ice Shard"
+            "Ice Shard",
+            "Powder Snow"
         ],
         "charge": [
             "Ancient Power",
@@ -7658,10 +7723,10 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Drill Peck",
+            "Heat Wave",
             "Thunder",
             "Thunderbolt",
-            "Zap Cannon",
-            "Heat Wave"
+            "Zap Cannon"
         ]
     },
     "defense_data": {
@@ -7747,10 +7812,10 @@ var pokeDB = {
         "charge": [
             "Ancient Power",
             "Fire Blast",
+            "Fly",
             "Heat Wave",
             "Overheat",
-            "Sky Attack*",
-            "Fly"
+            "Sky Attack*"
         ]
     },
     "defense_data": {
@@ -9180,8 +9245,8 @@ var pokeDB = {
             "Ancient Power",
             "Dazzling Gleam",
             "Draining Kiss",
-            "Psyshock",
-            "Heat Wave"
+            "Heat Wave",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -11886,16 +11951,16 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Counter",
-            "Struggle Bug",
-            "Fury Cutter"
+            "Fury Cutter",
+            "Struggle Bug"
         ],
         "charge": [
             "Close Combat",
             "Earthquake",
             "Megahorn",
             "Rock Blast",
-            "Upper Hand",
-            "Rock Tomb"
+            "Rock Tomb",
+            "Upper Hand"
         ]
     },
     "defense_data": {
@@ -12334,6 +12399,45 @@ var pokeDB = {
     "is_shadow": false,
     "region": "Galar",
     "is_final_stage": false
+},
+"Corsola Spring 2026": {
+    "id": "0222",
+    "stats": {
+        "atk": 116,
+        "def": 182,
+        "sta": 155
+    },
+    "type": [
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Corsola Spring 2026",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Tackle"
+        ],
+        "charge": [
+            "Night Shade",
+            "Power Gem",
+            "Rock Blast"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Johto",
+    "is_final_stage": true
 },
 "Remoraid": {
     "id": "0223",
@@ -16572,9 +16676,9 @@ var pokeDB = {
             "Earth Power",
             "Earthquake",
             "Overheat",
-            "Solar Beam",
             "Rock Tomb",
-            "Scorching Sands"
+            "Scorching Sands",
+            "Solar Beam"
         ]
     },
     "defense_data": {
@@ -21405,6 +21509,7 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
+            "Sucker Punch",
             "Tackle"
         ],
         "charge": [
@@ -21448,7 +21553,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Confusion"
+            "Confusion",
+            "Sucker Punch"
         ],
         "charge": [
             "Bug Buzz",
@@ -21493,7 +21599,8 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Bug Bite",
-            "Confusion"
+            "Confusion",
+            "Sucker Punch"
         ],
         "charge": [
             "Bug Buzz",
@@ -21536,7 +21643,8 @@ var pokeDB = {
         "quick": [
             "Bug Bite",
             "Confusion",
-            "Metal Sound"
+            "Metal Sound",
+            "Sucker Punch"
         ],
         "charge": [
             "Bug Buzz",
@@ -24275,6 +24383,7 @@ var pokeDB = {
             "Wing Attack"
         ],
         "charge": [
+            "Acrobatics",
             "Aerial Ace",
             "Earthquake",
             "Night Slash",
@@ -24748,6 +24857,7 @@ var pokeDB = {
             "Thunder Shock"
         ],
         "charge": [
+            "Leaf Storm",
             "Ominous Wind",
             "Thunder",
             "Thunderbolt"
@@ -28437,11 +28547,11 @@ var pokeDB = {
             "Poison Sting"
         ],
         "charge": [
+            "Aqua Tail",
             "Gyro Ball",
             "Megahorn",
             "Sludge Bomb",
-            "X Scissor",
-            "Aqua Tail"
+            "X Scissor"
         ]
     },
     "defense_data": {
@@ -31033,7 +31143,7 @@ var pokeDB = {
         "Water",
         "Ghost"
     ],
-    "imgurl": "592",
+    "imgurl": null,
     "name": "Frillish",
     "moveset": {
         "quick": [
@@ -31125,7 +31235,7 @@ var pokeDB = {
         "Water",
         "Ghost"
     ],
-    "imgurl": "593",
+    "imgurl": null,
     "name": "Jellicent",
     "moveset": {
         "quick": [
@@ -33638,7 +33748,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -33681,7 +33791,7 @@ var pokeDB = {
             "Poison": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Unova",
     "is_final_stage": true
 },
@@ -37393,7 +37503,7 @@ var pokeDB = {
         "Fire",
         "Normal"
     ],
-    "imgurl": "668",
+    "imgurl": null,
     "name": "Pyroar",
     "moveset": {
         "quick": [
@@ -37576,7 +37686,7 @@ var pokeDB = {
             "Vine Whip"
         ],
         "charge": [
-            "488*",
+            "Chilling Water*",
             "Disarming Voice",
             "Moonblast",
             "Petal Blizzard",
@@ -39072,7 +39182,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": false
 },
@@ -39115,7 +39225,7 @@ var pokeDB = {
             "Steel": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Kalos",
     "is_final_stage": true
 },
@@ -40910,6 +41020,7 @@ var pokeDB = {
             "Earth Power",
             "Hydro Pump",
             "Overheat",
+            "Scald",
             "Sludge Bomb"
         ]
     },
@@ -42587,7 +42698,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -42630,7 +42741,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": true
 },
@@ -42763,7 +42874,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -42808,7 +42919,7 @@ var pokeDB = {
             "Water": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": true
 },
@@ -42943,7 +43054,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": false
 },
@@ -42987,7 +43098,7 @@ var pokeDB = {
             "Rock": "62.5%"
         }
     },
-    "is_shadow": false,
+    "is_shadow": true,
     "region": "Alola",
     "is_final_stage": true
 },
@@ -44748,13 +44859,13 @@ var pokeDB = {
     "name": "Mimikyu",
     "moveset": {
         "quick": [
-            "Charm",
+            "Hex",
             "Shadow Claw"
         ],
         "charge": [
             "Play Rough",
-            "Shadow Ball",
-            "Shadow Sneak"
+            "Shadow Sneak",
+            "Thunder"
         ]
     },
     "defense_data": {
@@ -44788,13 +44899,13 @@ var pokeDB = {
     "name": "Mimikyu Busted",
     "moveset": {
         "quick": [
-            "Charm",
+            "Hex",
             "Shadow Claw"
         ],
         "charge": [
             "Play Rough",
-            "Shadow Ball",
-            "Shadow Sneak"
+            "Shadow Sneak",
+            "Thunder"
         ]
     },
     "defense_data": {
@@ -44828,13 +44939,13 @@ var pokeDB = {
     "name": "Mimikyu Disguised",
     "moveset": {
         "quick": [
-            "Charm",
+            "Hex",
             "Shadow Claw"
         ],
         "charge": [
             "Play Rough",
-            "Shadow Ball",
-            "Shadow Sneak"
+            "Shadow Sneak",
+            "Thunder"
         ]
     },
     "defense_data": {
@@ -46067,6 +46178,7 @@ var pokeDB = {
         "quick": [
             "Counter",
             "Poison Jab",
+            "Shadow Claw",
             "Sucker Punch"
         ],
         "charge": [
@@ -46635,9 +46747,11 @@ var pokeDB = {
             "Tackle"
         ],
         "charge": [
+            "Blast Burn*",
             "Flame Charge",
             "Flamethrower",
-            "Focus Blast"
+            "Focus Blast",
+            "Pyroball"
         ]
     },
     "defense_data": {
@@ -47070,11 +47184,13 @@ var pokeDB = {
     "moveset": {
         "quick": [
             "Confusion",
+            "Psycho Cut",
             "Struggle Bug"
         ],
         "charge": [
             "Bug Buzz",
-            "Psychic"
+            "Psychic",
+            "Psyshock"
         ]
     },
     "defense_data": {
@@ -51496,9 +51612,9 @@ var pokeDB = {
             "Wing Attack"
         ],
         "charge": [
-            "487",
             "Aerial Ace",
             "Aqua Jet",
+            "Aqua Step",
             "Close Combat",
             "Hydro Cannon*",
             "Liquidation"
@@ -53572,6 +53688,7 @@ var pokeDB = {
         "charge": [
             "Bulldoze",
             "Flash Cannon",
+            "Gigaton Hammer*",
             "Heavy Slam",
             "Play Rough"
         ]
@@ -55475,6 +55592,42 @@ var pokeDB = {
     },
     "is_shadow": false,
     "region": "Paldea",
+    "is_final_stage": false
+},
+"Gimmighoul Coin A1": {
+    "id": "0999",
+    "stats": {
+        "atk": 140,
+        "def": 76,
+        "sta": 128
+    },
+    "type": [
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Gimmighoul Coin A1",
+    "moveset": {
+        "quick": [
+            "Astonish"
+        ],
+        "charge": [
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Ghost": "160%"
+        },
+        "resistant_to": {
+            "Bug": "62.5%",
+            "Fighting": "39.1%",
+            "Normal": "39.1%",
+            "Poison": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
     "is_final_stage": true
 },
 "Gholdengo": {
@@ -56149,6 +56302,96 @@ var pokeDB = {
     "region": "Paldea",
     "is_final_stage": false
 },
+"Poltchageist Artisan": {
+    "id": "1012",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Poltchageist Artisan",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
+"Poltchageist Counterfeit": {
+    "id": "1012",
+    "stats": {
+        "atk": 134,
+        "def": 96,
+        "sta": 120
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Poltchageist Counterfeit",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": false
+},
 "Sinistcha": {
     "id": "1013",
     "stats": {
@@ -56162,6 +56405,96 @@ var pokeDB = {
     ],
     "imgurl": "1013",
     "name": "Sinistcha",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"Sinistcha Masterpiece": {
+    "id": "1013",
+    "stats": {
+        "atk": 225,
+        "def": 191,
+        "sta": 174
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Sinistcha Masterpiece",
+    "moveset": {
+        "quick": [
+            "Astonish",
+            "Magical Leaf"
+        ],
+        "charge": [
+            "Energy Ball",
+            "Poltergeist",
+            "Shadow Ball"
+        ]
+    },
+    "defense_data": {
+        "vulnerable_to": {
+            "Dark": "160%",
+            "Fire": "160%",
+            "Flying": "160%",
+            "Ghost": "160%",
+            "Ice": "160%"
+        },
+        "resistant_to": {
+            "Electric": "62.5%",
+            "Fighting": "39.1%",
+            "Grass": "62.5%",
+            "Ground": "62.5%",
+            "Normal": "39.1%",
+            "Water": "62.5%"
+        }
+    },
+    "is_shadow": false,
+    "region": "Paldea",
+    "is_final_stage": true
+},
+"Sinistcha Unremarkable": {
+    "id": "1013",
+    "stats": {
+        "atk": 225,
+        "def": 191,
+        "sta": 174
+    },
+    "type": [
+        "Grass",
+        "Ghost"
+    ],
+    "imgurl": null,
+    "name": "Sinistcha Unremarkable",
     "moveset": {
         "quick": [
             "Astonish",

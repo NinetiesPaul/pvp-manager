@@ -1715,6 +1715,24 @@ var chargeMoveDB = {
     "dpe": 1.88,
     "buffs": []
 },
+"Gigaton Hammer": {
+    "type": "Steel",
+    "weakAgainst": [
+        "Electric",
+        "Fire",
+        "Steel",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Fairy",
+        "Ice",
+        "Rock"
+    ],
+    "energy": -60,
+    "power": 130,
+    "dpe": 2.17,
+    "buffs": []
+},
 "Glaciate": {
     "type": "Ice",
     "weakAgainst": [
@@ -1828,7 +1846,7 @@ var chargeMoveDB = {
     ],
     "energy": -45,
     "power": 75,
-    "dpe": 1.66,
+    "dpe": 1.67,
     "buffs": []
 },
 "Heavy Slam": {
@@ -2557,9 +2575,9 @@ var chargeMoveDB = {
         "Rock",
         "Steel"
     ],
-    "energy": -40,
-    "power": 60,
-    "dpe": 1.5,
+    "energy": -45,
+    "power": 65,
+    "dpe": 1.44,
     "buffs": []
 },
 "Muddy Water": {
@@ -2662,7 +2680,7 @@ var chargeMoveDB = {
     "buffs": {
         "activationChance": 0.125,
         "effects": {
-            "attackerAttackStatStageChange": 2
+            "attackerAttackStatStageChange": 1
         }
     }
 },
@@ -3118,6 +3136,25 @@ var chargeMoveDB = {
     "dpe": 2,
     "buffs": []
 },
+"Pyroball": {
+    "type": "Fire",
+    "weakAgainst": [
+        "Dragon",
+        "Fire",
+        "Rock",
+        "Water"
+    ],
+    "goodAgainst": [
+        "Bug",
+        "Grass",
+        "Ice",
+        "Steel"
+    ],
+    "energy": -40,
+    "power": 75,
+    "dpe": 1.88,
+    "buffs": []
+},
 "Rage Fist": {
     "type": "Ghost",
     "weakAgainst": [
@@ -3250,8 +3287,8 @@ var chargeMoveDB = {
         "Ice"
     ],
     "energy": -50,
-    "power": 80,
-    "dpe": 1.6,
+    "power": 75,
+    "dpe": 1.5,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -3386,8 +3423,8 @@ var chargeMoveDB = {
         "Steel"
     ],
     "energy": -40,
-    "power": 25,
-    "dpe": 0.63,
+    "power": 40,
+    "dpe": 1,
     "buffs": {
         "activationChance": 1,
         "effects": {
@@ -4267,9 +4304,9 @@ var chargeMoveDB = {
     "goodAgainst": [
         "Dragon"
     ],
-    "energy": -45,
-    "power": 45,
-    "dpe": 1,
+    "energy": -40,
+    "power": 70,
+    "dpe": 1.75,
     "buffs": []
 },
 "Upper Hand": {
@@ -4348,9 +4385,9 @@ var chargeMoveDB = {
         "Flying",
         "Water"
     ],
-    "energy": -50,
+    "energy": -40,
     "power": 90,
-    "dpe": 1.8,
+    "dpe": 2.25,
     "buffs": {
         "activationChance": 1,
         "effects": {
